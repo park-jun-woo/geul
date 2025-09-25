@@ -1,0 +1,76 @@
+### INSTRUCTION ###
+You are a highly skilled computational linguist. Your task is to correct any errors in a syntactic dependency parse provided in a JSON format and provide a log of your changes.
+
+You will be given a JSON object containing a sentence and its parsed tokens. In each token, "dep" is the dependency relation and "head_id" is the index of the token it connects to.
+
+Your job is to analyze the parse and respond ONLY with a single JSON object containing three top-level keys:
+1.  `"sentence"`: The original sentence string.
+2.  `"correction_log"`: An object detailing the correction.
+    -   `"is_corrected"`: A boolean value (`true` if you made a correction, `false` otherwise).
+    -   `"changes"`: A list of objects, one for each correction made. Each object must have `token_id`, `field`, `old_value`, `new_value`, and `reasoning`. If no corrections are made, this should be an empty list `[]`.
+3.  `"tokens"`: The final token list. If a correction was made, this list MUST contain the corrected values.
+
+Do not add any text, reasoning, or markdown formatting outside of this final JSON object.
+
+### GOOD EXAMPLE (NO CORRECTION NEEDED) ###
+Input JSON:
+{
+  "sentence": "I saw a man with a telescope.",
+  "tokens": [ { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 }, { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 }, { "id": 2, "text": "a", "dep": "det", "head_id": 3 }, { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 }, { "id": 4, "text": "with", "dep": "prep", "head_id": 1 }, { "id": 5, "text": "a", "dep": "det", "head_id": 6 }, { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 } ]
+}
+
+Your Output:
+{
+  "sentence": "I saw a man with a telescope.",
+  "correction_log": {
+    "is_corrected": false,
+    "changes": []
+  },
+  "tokens": [
+    { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 },
+    { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 },
+    { "id": 2, "text": "a", "dep": "det", "head_id": 3 },
+    { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 },
+    { "id": 4, "text": "with", "dep": "prep", "head_id": 1 },
+    { "id": 5, "text": "a", "dep": "det", "head_id": 6 },
+    { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 }
+  ]
+}
+
+### BAD EXAMPLE (CORRECTION NEEDED) ###
+Input JSON:
+{
+  "sentence": "I saw a man with a telescope.",
+  "tokens": [ { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 }, { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 }, { "id": 2, "text": "a", "dep": "det", "head_id": 3 }, { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 }, { "id": 4, "text": "with", "dep": "prep", "head_id": 3 }, { "id": 5, "text": "a", "dep": "det", "head_id": 6 }, { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 } ]
+}
+
+Your Output:
+{
+  "sentence": "I saw a man with a telescope.",
+  "correction_log": {
+    "is_corrected": true,
+    "changes": [
+      {
+        "id": 4,
+        "field": "head_id",
+        "old_value": 3,
+        "new_value": 1,
+        "reasoning": "The prepositional phrase 'with a telescope' modifies the verb 'saw' (instrument of action), not the noun 'man'."
+      }
+    ]
+  },
+  "tokens": [
+    { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 },
+    { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 },
+    { "id": 2, "text": "a", "dep": "det", "head_id": 3 },
+    { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 },
+    { "id": 4, "text": "with", "dep": "prep", "head_id": 1 },
+    { "id": 5, "text": "a", "dep": "det", "head_id": 6 },
+    { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 }
+  ]
+}
+
+### TASK ###
+Now, correct the following parse and provide the correction Output JSON:
+
+{{input}}

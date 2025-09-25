@@ -1,0 +1,512 @@
+--- SENTENCE ID: 1 ---
+### INSTRUCTION ###
+You are a highly skilled computational linguist. Your task is to correct any errors in a syntactic dependency parse provided in a JSON format and provide a log of your changes.
+
+You will be given a JSON object containing a sentence and its parsed tokens. In each token, "dep" is the dependency relation and "head_id" is the index of the token it connects to.
+
+Your job is to analyze the parse and respond ONLY with a single JSON object containing three top-level keys:
+1.  `"sentence"`: The original sentence string.
+2.  `"correction_log"`: An object detailing the correction.
+    -   `"is_corrected"`: A boolean value (`true` if you made a correction, `false` otherwise).
+    -   `"changes"`: A list of objects, one for each correction made. Each object must have `token_id`, `field`, `old_value`, `new_value`, and `reasoning`. If no corrections are made, this should be an empty list `[]`.
+3.  `"tokens"`: The final token list. If a correction was made, this list MUST contain the corrected values.
+
+Do not add any text, reasoning, or markdown formatting outside of this final JSON object.
+
+### GOOD EXAMPLE (NO CORRECTION NEEDED) ###
+Input JSON:
+{
+  "sentence": "I saw a man with a telescope.",
+  "tokens": [ { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 }, { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 }, { "id": 2, "text": "a", "dep": "det", "head_id": 3 }, { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 }, { "id": 4, "text": "with", "dep": "prep", "head_id": 1 }, { "id": 5, "text": "a", "dep": "det", "head_id": 6 }, { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 } ]
+}
+
+Your Output:
+{
+  "sentence": "I saw a man with a telescope.",
+  "correction_log": {
+    "is_corrected": false,
+    "changes": []
+  },
+  "tokens": [
+    { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 },
+    { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 },
+    { "id": 2, "text": "a", "dep": "det", "head_id": 3 },
+    { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 },
+    { "id": 4, "text": "with", "dep": "prep", "head_id": 1 },
+    { "id": 5, "text": "a", "dep": "det", "head_id": 6 },
+    { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 }
+  ]
+}
+
+### BAD EXAMPLE (CORRECTION NEEDED) ###
+Input JSON:
+{
+  "sentence": "I saw a man with a telescope.",
+  "tokens": [ { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 }, { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 }, { "id": 2, "text": "a", "dep": "det", "head_id": 3 }, { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 }, { "id": 4, "text": "with", "dep": "prep", "head_id": 3 }, { "id": 5, "text": "a", "dep": "det", "head_id": 6 }, { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 } ]
+}
+
+Your Output:
+{
+  "sentence": "I saw a man with a telescope.",
+  "correction_log": {
+    "is_corrected": true,
+    "changes": [
+      {
+        "id": 4,
+        "field": "head_id",
+        "old_value": 3,
+        "new_value": 1,
+        "reasoning": "The prepositional phrase 'with a telescope' modifies the verb 'saw' (instrument of action), not the noun 'man'."
+      }
+    ]
+  },
+  "tokens": [
+    { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 },
+    { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 },
+    { "id": 2, "text": "a", "dep": "det", "head_id": 3 },
+    { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 },
+    { "id": 4, "text": "with", "dep": "prep", "head_id": 1 },
+    { "id": 5, "text": "a", "dep": "det", "head_id": 6 },
+    { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 }
+  ]
+}
+
+### TASK ###
+Now, correct the following parse and provide the correction Output JSON:
+
+{
+  "sentence": "There's a surprising twist to Regina Willoughby's last season with Columbia City Ballet: It's also her 18-year-old daughter Melina's first season with the company.",
+  "tokens": [
+    {
+      "id": 0,
+      "dep": "expl",
+      "text": "There",
+      "head_id": 1
+    },
+    {
+      "id": 1,
+      "dep": "ccomp",
+      "text": "'s",
+      "head_id": 17
+    },
+    {
+      "id": 2,
+      "dep": "det",
+      "text": "a",
+      "head_id": 4
+    },
+    {
+      "id": 3,
+      "dep": "amod",
+      "text": "surprising",
+      "head_id": 4
+    },
+    {
+      "id": 4,
+      "dep": "attr",
+      "text": "twist",
+      "head_id": 1
+    },
+    {
+      "id": 5,
+      "dep": "prep",
+      "text": "to",
+      "head_id": 4
+    },
+    {
+      "id": 6,
+      "dep": "compound",
+      "text": "Regina",
+      "head_id": 7
+    },
+    {
+      "id": 7,
+      "dep": "poss",
+      "text": "Willoughby",
+      "head_id": 10
+    },
+    {
+      "id": 8,
+      "dep": "case",
+      "text": "'s",
+      "head_id": 7
+    },
+    {
+      "id": 9,
+      "dep": "amod",
+      "text": "last",
+      "head_id": 10
+    },
+    {
+      "id": 10,
+      "dep": "pobj",
+      "text": "season",
+      "head_id": 5
+    },
+    {
+      "id": 11,
+      "dep": "prep",
+      "text": "with",
+      "head_id": 4
+    },
+    {
+      "id": 12,
+      "dep": "compound",
+      "text": "Columbia",
+      "head_id": 13
+    },
+    {
+      "id": 13,
+      "dep": "compound",
+      "text": "City",
+      "head_id": 14
+    },
+    {
+      "id": 14,
+      "dep": "pobj",
+      "text": "Ballet",
+      "head_id": 11
+    },
+    {
+      "id": 15,
+      "dep": "punct",
+      "text": ":",
+      "head_id": 17
+    },
+    {
+      "id": 16,
+      "dep": "nsubj",
+      "text": "It",
+      "head_id": 17
+    },
+    {
+      "id": 17,
+      "dep": "ROOT",
+      "text": "'s",
+      "head_id": 17
+    },
+    {
+      "id": 18,
+      "dep": "advmod",
+      "text": "also",
+      "head_id": 17
+    },
+    {
+      "id": 19,
+      "dep": "poss",
+      "text": "her",
+      "head_id": 25
+    },
+    {
+      "id": 20,
+      "dep": "nummod",
+      "text": "18",
+      "head_id": 22
+    },
+    {
+      "id": 21,
+      "dep": "punct",
+      "text": "-",
+      "head_id": 22
+    },
+    {
+      "id": 22,
+      "dep": "npadvmod",
+      "text": "year",
+      "head_id": 24
+    },
+    {
+      "id": 23,
+      "dep": "punct",
+      "text": "-",
+      "head_id": 24
+    },
+    {
+      "id": 24,
+      "dep": "amod",
+      "text": "old",
+      "head_id": 25
+    },
+    {
+      "id": 25,
+      "dep": "attr",
+      "text": "daughter",
+      "head_id": 17
+    },
+    {
+      "id": 26,
+      "dep": "poss",
+      "text": "Melina",
+      "head_id": 29
+    },
+    {
+      "id": 27,
+      "dep": "case",
+      "text": "'s",
+      "head_id": 26
+    },
+    {
+      "id": 28,
+      "dep": "amod",
+      "text": "first",
+      "head_id": 29
+    },
+    {
+      "id": 29,
+      "dep": "appos",
+      "text": "season",
+      "head_id": 25
+    },
+    {
+      "id": 30,
+      "dep": "prep",
+      "text": "with",
+      "head_id": 29
+    },
+    {
+      "id": 31,
+      "dep": "det",
+      "text": "the",
+      "head_id": 32
+    },
+    {
+      "id": 32,
+      "dep": "pobj",
+      "text": "company",
+      "head_id": 30
+    },
+    {
+      "id": 33,
+      "dep": "punct",
+      "text": ".",
+      "head_id": 17
+    }
+  ]
+}
+
+--- SENTENCE ID: 2 ---
+### INSTRUCTION ###
+You are a highly skilled computational linguist. Your task is to correct any errors in a syntactic dependency parse provided in a JSON format and provide a log of your changes.
+
+You will be given a JSON object containing a sentence and its parsed tokens. In each token, "dep" is the dependency relation and "head_id" is the index of the token it connects to.
+
+Your job is to analyze the parse and respond ONLY with a single JSON object containing three top-level keys:
+1.  `"sentence"`: The original sentence string.
+2.  `"correction_log"`: An object detailing the correction.
+    -   `"is_corrected"`: A boolean value (`true` if you made a correction, `false` otherwise).
+    -   `"changes"`: A list of objects, one for each correction made. Each object must have `token_id`, `field`, `old_value`, `new_value`, and `reasoning`. If no corrections are made, this should be an empty list `[]`.
+3.  `"tokens"`: The final token list. If a correction was made, this list MUST contain the corrected values.
+
+Do not add any text, reasoning, or markdown formatting outside of this final JSON object.
+
+### GOOD EXAMPLE (NO CORRECTION NEEDED) ###
+Input JSON:
+{
+  "sentence": "I saw a man with a telescope.",
+  "tokens": [ { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 }, { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 }, { "id": 2, "text": "a", "dep": "det", "head_id": 3 }, { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 }, { "id": 4, "text": "with", "dep": "prep", "head_id": 1 }, { "id": 5, "text": "a", "dep": "det", "head_id": 6 }, { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 } ]
+}
+
+Your Output:
+{
+  "sentence": "I saw a man with a telescope.",
+  "correction_log": {
+    "is_corrected": false,
+    "changes": []
+  },
+  "tokens": [
+    { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 },
+    { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 },
+    { "id": 2, "text": "a", "dep": "det", "head_id": 3 },
+    { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 },
+    { "id": 4, "text": "with", "dep": "prep", "head_id": 1 },
+    { "id": 5, "text": "a", "dep": "det", "head_id": 6 },
+    { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 }
+  ]
+}
+
+### BAD EXAMPLE (CORRECTION NEEDED) ###
+Input JSON:
+{
+  "sentence": "I saw a man with a telescope.",
+  "tokens": [ { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 }, { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 }, { "id": 2, "text": "a", "dep": "det", "head_id": 3 }, { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 }, { "id": 4, "text": "with", "dep": "prep", "head_id": 3 }, { "id": 5, "text": "a", "dep": "det", "head_id": 6 }, { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 } ]
+}
+
+Your Output:
+{
+  "sentence": "I saw a man with a telescope.",
+  "correction_log": {
+    "is_corrected": true,
+    "changes": [
+      {
+        "id": 4,
+        "field": "head_id",
+        "old_value": 3,
+        "new_value": 1,
+        "reasoning": "The prepositional phrase 'with a telescope' modifies the verb 'saw' (instrument of action), not the noun 'man'."
+      }
+    ]
+  },
+  "tokens": [
+    { "id": 0, "text": "I", "dep": "nsubj", "head_id": 1 },
+    { "id": 1, "text": "saw", "dep": "ROOT", "head_id": 1 },
+    { "id": 2, "text": "a", "dep": "det", "head_id": 3 },
+    { "id": 3, "text": "man", "dep": "dobj", "head_id": 1 },
+    { "id": 4, "text": "with", "dep": "prep", "head_id": 1 },
+    { "id": 5, "text": "a", "dep": "det", "head_id": 6 },
+    { "id": 6, "text": "telescope", "dep": "pobj", "head_id": 4 }
+  ]
+}
+
+### TASK ###
+Now, correct the following parse and provide the correction Output JSON:
+
+{
+  "sentence": "Regina, 40, will retire from the stage in March, just as her daughter starts her own career as a trainee.",
+  "tokens": [
+    {
+      "id": 0,
+      "dep": "nsubj",
+      "text": "Regina",
+      "head_id": 5
+    },
+    {
+      "id": 1,
+      "dep": "punct",
+      "text": ",",
+      "head_id": 0
+    },
+    {
+      "id": 2,
+      "dep": "appos",
+      "text": "40",
+      "head_id": 0
+    },
+    {
+      "id": 3,
+      "dep": "punct",
+      "text": ",",
+      "head_id": 0
+    },
+    {
+      "id": 4,
+      "dep": "aux",
+      "text": "will",
+      "head_id": 5
+    },
+    {
+      "id": 5,
+      "dep": "ROOT",
+      "text": "retire",
+      "head_id": 5
+    },
+    {
+      "id": 6,
+      "dep": "prep",
+      "text": "from",
+      "head_id": 5
+    },
+    {
+      "id": 7,
+      "dep": "det",
+      "text": "the",
+      "head_id": 8
+    },
+    {
+      "id": 8,
+      "dep": "pobj",
+      "text": "stage",
+      "head_id": 6
+    },
+    {
+      "id": 9,
+      "dep": "prep",
+      "text": "in",
+      "head_id": 5
+    },
+    {
+      "id": 10,
+      "dep": "pobj",
+      "text": "March",
+      "head_id": 9
+    },
+    {
+      "id": 11,
+      "dep": "punct",
+      "text": ",",
+      "head_id": 5
+    },
+    {
+      "id": 12,
+      "dep": "advmod",
+      "text": "just",
+      "head_id": 16
+    },
+    {
+      "id": 13,
+      "dep": "mark",
+      "text": "as",
+      "head_id": 16
+    },
+    {
+      "id": 14,
+      "dep": "poss",
+      "text": "her",
+      "head_id": 15
+    },
+    {
+      "id": 15,
+      "dep": "nsubj",
+      "text": "daughter",
+      "head_id": 16
+    },
+    {
+      "id": 16,
+      "dep": "advcl",
+      "text": "starts",
+      "head_id": 5
+    },
+    {
+      "id": 17,
+      "dep": "poss",
+      "text": "her",
+      "head_id": 19
+    },
+    {
+      "id": 18,
+      "dep": "amod",
+      "text": "own",
+      "head_id": 19
+    },
+    {
+      "id": 19,
+      "dep": "dobj",
+      "text": "career",
+      "head_id": 16
+    },
+    {
+      "id": 20,
+      "dep": "prep",
+      "text": "as",
+      "head_id": 16
+    },
+    {
+      "id": 21,
+      "dep": "det",
+      "text": "a",
+      "head_id": 22
+    },
+    {
+      "id": 22,
+      "dep": "pobj",
+      "text": "trainee",
+      "head_id": 20
+    },
+    {
+      "id": 23,
+      "dep": "punct",
+      "text": ".",
+      "head_id": 5
+    }
+  ]
+}
+

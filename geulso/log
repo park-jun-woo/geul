@@ -1,0 +1,71 @@
+# 1. 시스템 업데이트 및 필수 도구 설치
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3-pip python3.12-venv -y
+
+# 2. Ollama 설치
+curl -fsSL https://ollama.com/install.sh | sh
+
+# 3. 파이썬 가상환경 설정
+mkdir ~/ollama-project
+cd ~/ollama-project
+python3 -m venv geul
+source geul/bin/activate
+
+# 4. Ollama 파이썬 라이브러리 설치
+pip install ollama
+ollama pull gpt-oss:20b
+
+# 설치 완료 메시지 출력
+echo "✅ Ollama 파이썬 개발 환경 설정이 완료되었습니다."
+echo "가상환경이 활성화되었습니다. 'ollama serve'를 실행하여 서버를 시작하세요."
+
+# PostgreSQL 설치
+sudo apt install postgresql -Y
+
+# PostgreSQL 비밀번호 변경
+psql -u postgres
+postgres=# ALTER USER postgres PASSWORD 'test1224!';
+
+# PostgreSQL 비밀번호 정책 설정
+sudo vi /etc/postgresql/16/main/pg_hba.conf
+
+# PostgreSQL 접속, 위키데이터/워드넷 테이블 및 인덱스 생성
+psql -U postgres -h localhost -d geuldev
+
+# 위키데이터 PostgreSQL에 입력
+pv ~/latest-all.json.bz2 | pbzip2 -dk -p28 > /mnt/d/latest-all.json
+go run geulso/wikidata/postgres.go
+
+# 워드넷 데이터 PostgreSQL에 입력
+pip install psycopg2-binary tqdm
+wget -P ~/ https://wordnetcode.princeton.edu/wn3.1.dict.tar.gz
+tar -xzvf ~/wn3.1.dict.tar.gz -C ~/
+python3 geulso/wordnet/postgres.py
+python3 geulso/wordnet/debug_synset.py
+python3 geulso/wordnet/check_nltk_synset.py
+python3 geulso/wordnet/wordnet_dict.py --clear
+
+# 워드넷 동사 의미소분해 Gemini 2.5 flash에게 수행
+pip install -q -U google-genai
+pip install psycopg2-binary tqdm
+python3 geulso/factorize/factorize.py --skip-existing --concurrent 10
+# 워드넷 동사 의미소분해 PostgreSQL에 입력
+python3 geulso/factorize/postgres.py --clear
+# 워드넷 동사 의미소분해 유효한 synset id인지 확인
+python3 geulso/factorize/validate.py
+
+# 허깅페이스 CCNEWS PostgreSQL에 입력
+pip install psycopg2-binary datasets tqdm
+python3 geulso/ccnews/postgres.py
+
+# 허깅페이스 CCNEWS spaCy 처리
+pip install cupy-cuda13x
+pip install torch
+pip install -U 'spacy[cuda12x]'
+python -m spacy download en_core_web_trf
+python3 geulso/ccnews/spacy_news.py
+
+# 허깅페이스 CCNEWS spaCy gpt-oss:20b 검수
+ollama pull gpt-oss:20b
+pip install psycopg2-binary requests tqdm
+python3 geulso/ccnews/review_spacy.py

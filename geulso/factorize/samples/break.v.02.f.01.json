@@ -1,0 +1,70 @@
+{
+  "sample_id": "sample.break.v.02.f.01",
+  "input": {
+    "synset_id": "break.v.02",
+    "frame_id": 1,
+    "definition": "terminate a connection or relationship",
+    "verb_frame": "Something ----s",
+    "semantic_neighbors": {
+      "hypernyms": [
+        {
+          "synset_id": "end.v.02",
+          "definition": "bring to an end or halt"
+        }
+      ],
+      "antonyms": [
+        {
+          "synset_id": "establish.v.01",
+          "definition": "set up or found"
+        }
+      ]
+    }
+  },
+  "output": {
+    "synset_id": "break.v.02",
+    "frame_id": 1,
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "integrity.n.01",
+        "reasoning": "The verb describes a change from a state of being connected to being disconnected.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the change of state, as specified by the verb frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of breaking is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' lacks an agent capable of will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of breaking is neutral; the context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of breaking is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of termination."
+      }
+    }
+  }
+}
