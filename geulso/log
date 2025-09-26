@@ -15,10 +15,6 @@ source geul/bin/activate
 pip install ollama
 ollama pull gpt-oss:20b
 
-# 설치 완료 메시지 출력
-echo "✅ Ollama 파이썬 개발 환경 설정이 완료되었습니다."
-echo "가상환경이 활성화되었습니다. 'ollama serve'를 실행하여 서버를 시작하세요."
-
 # PostgreSQL 설치
 sudo apt install postgresql -Y
 
@@ -41,9 +37,6 @@ pip install psycopg2-binary tqdm
 wget -P ~/ https://wordnetcode.princeton.edu/wn3.1.dict.tar.gz
 tar -xzvf ~/wn3.1.dict.tar.gz -C ~/
 python3 geulso/wordnet/postgres.py
-python3 geulso/wordnet/debug_synset.py
-python3 geulso/wordnet/check_nltk_synset.py
-python3 geulso/wordnet/wordnet_dict.py --clear
 
 # 워드넷 동사 의미소분해 Gemini 2.5 flash에게 수행
 pip install -q -U google-genai
@@ -53,6 +46,9 @@ python3 geulso/factorize/factorize.py --skip-existing --concurrent 10
 python3 geulso/factorize/postgres.py --clear
 # 워드넷 동사 의미소분해 유효한 synset id인지 확인
 python3 geulso/factorize/validate.py
+
+python3 geulso/factorize/find.py 
+python3 geulso/factorize/verify_lemma.py experiencer refrainment
 
 # 허깅페이스 CCNEWS PostgreSQL에 입력
 pip install psycopg2-binary datasets tqdm
