@@ -1,0 +1,64 @@
+# ================================================================
+# SSHG (Semantic Superposition Heterogeneous Graph) - YAML v1.0
+# ================================================================
+SSHG_Object:
+  # ----------------------------------------------------------------
+  # [메타데이터]
+  # ----------------------------------------------------------------
+  object_id: "SSHG_EN_Paragraph_BrassHill_001"
+  source_text: "I saw a man on the hill with a telescope. It was large and made of brass."
+  metadata:
+    version: "SSHG-Encoder-v0.1-pilot"
+    timestamp: "2025-09-29T17:00:00Z"
+    language: "en"
+
+  # ----------------------------------------------------------------
+  # [노드]: 문단 전체에 등장하는 핵심 개념들입니다.
+  # ----------------------------------------------------------------
+  nodes:
+    - { id: 0, synset: "speaker_0", type: "Pronoun", label: "I" }
+    - { id: 1, synset: "see.v.01", type: "Verb", label: "saw" }
+    - { id: 3, synset: "man.n.01", type: "Concept", label: "man" }
+    - { id: 4, synset: "on_hill_rel", type: "Relationship", label: "on the hill" }
+    - { id: 6, synset: "hill.n.01", type: "Concept", label: "hill" }
+    - { id: 7, synset: "with_tele_rel", type: "Relationship", label: "with a telescope" }
+    - { id: 9, synset: "telescope.n.01", type: "Concept", label: "telescope" }
+    - { id: 10, synset: "it_pronoun_0", type: "Pronoun", label: "It" }
+    - { id: 11, synset: "be.v.01", type: "Verb", label: "was" }
+    - { id: 12, synset: "large.adj.01", type: "Attribute", label: "large" }
+    - { id: 14, synset: "brass.n.01", type: "Attribute", label: "made of brass" }
+
+  # ----------------------------------------------------------------
+  # [해석 세트]: 이 문단에 존재하는 3개의 독립적인 모호성 분기점입니다.
+  # ----------------------------------------------------------------
+  sets:
+    - { set_id: 0, type: "exclusive", label: "'on the hill'의 수식 대상" }
+    - { set_id: 1, type: "exclusive", label: "'with a telescope'의 수식 대상" }
+    - { set_id: 2, type: "exclusive", label: "'It'의 지칭 대상 (Coreference Resolution)" }
+
+  # ----------------------------------------------------------------
+  # [엣지]: 각 엣지는 자신이 어떤 '해석 세트'에 속하는지 명시합니다.
+  # ----------------------------------------------------------------
+  edges:
+    # --- 비모호성 엣지 (Deterministic Edges) ---
+    - { source: 0, target: 1, relation: "nsubj", label: "saw의 주어" }
+    - { source: 3, target: 1, relation: "dobj", label: "saw의 목적어" }
+    - { source: 6, target: 4, relation: "pobj" }
+    - { source: 9, target: 7, relation: "pobj" }
+    - { source: 10, target: 11, relation: "nsubj", label: "was의 주어" }
+    - { source: 12, target: 11, relation: "attr", label: "was의 속성1" }
+    - { source: 14, target: 11, relation: "attr", label: "was의 속성2" }
+
+    # --- 해석 세트 0: 'on the hill'가 수식하는 대상 ---
+    - { source: 4, target: 1, relation: "advmod", set_id: 0, probability: 0.4 }
+    - { source: 4, target: 3, relation: "nmod", set_id: 0, probability: 0.6 }
+
+    # --- 해석 세트 1: 'with a telescope'가 수식하는 대상 ---
+    - { source: 7, target: 1, relation: "advmod", set_id: 1, probability: 0.5 }
+    - { source: 7, target: 3, relation: "nmod", set_id: 1, probability: 0.45 }
+    - { source: 7, target: 6, relation: "nmod", set_id: 1, probability: 0.05 }
+
+    # --- 해석 세트 2: 'It'이 가리키는 대상 ---
+    - { source: 10, target: 9, relation: "coref", set_id: 2, probability: 0.998 }
+    - { source: 10, target: 3, relation: "coref", set_id: 2, probability: 0.001 }
+    - { source: 10, target: 6, relation: "coref", set_id: 2, probability: 0.001 }

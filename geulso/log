@@ -26,7 +26,7 @@ postgres=# ALTER USER postgres PASSWORD 'test1224!';
 sudo vi /etc/postgresql/16/main/pg_hba.conf
 
 # PostgreSQL 접속, 위키데이터/워드넷 테이블 및 인덱스 생성
-psql -U postgres -h localhost -d geuldev
+psql -U postgres -d geuldev
 
 # 위키데이터 PostgreSQL에 입력
 pv ~/latest-all.json.bz2 | pbzip2 -dk -p28 > /mnt/d/latest-all.json
@@ -65,3 +65,53 @@ python3 geulso/ccnews/spacy_news.py
 ollama pull gpt-oss:20b
 pip install psycopg2-binary requests tqdm
 python3 geulso/ccnews/review_spacy.py
+
+# 위키데이터 쿼리 실행해서 JSON으로 저장
+# 사용량 TOP1000 조회
+go run geulso/wikidata/query.go --path "geulso/wikidata/usage_top1000.json" --query "SELECT
+    stats.property_id,
+    prop_meta.label_en AS property_label,
+    stats.object_value,
+    obj_label.label AS object_label,
+    stats.usage_count
+FROM property_object_stats AS stats
+LEFT JOIN properties_meta AS prop_meta ON stats.property_id = prop_meta.property_id
+LEFT JOIN entity_labels AS obj_label ON stats.object_value = obj_label.entity_id AND obj_label.language = 'en'
+ORDER BY stats.usage_count DESC LIMIT 1000;"
+# P17(country) 사용량 조회
+go run geulso/wikidata/query.go --path "geulso/wikidata/country.json" --query "SELECT
+    stats.property_id,
+    prop_meta.label_en AS property_label,
+    stats.object_value,
+    obj_label.label AS object_label,
+    stats.usage_count
+FROM property_object_stats AS stats
+LEFT JOIN properties_meta AS prop_meta ON stats.property_id = prop_meta.property_id
+LEFT JOIN entity_labels AS obj_label ON stats.object_value = obj_label.entity_id AND obj_label.language = 'en'
+WHERE stats.property_id='P17'
+ORDER BY stats.usage_count DESC;"
+# P407(language) 사용량 조회
+go run geulso/wikidata/query.go --path "geulso/wikidata/language.json" --query "SELECT
+    stats.property_id,
+    prop_meta.label_en AS property_label,
+    stats.object_value,
+    obj_label.label AS object_label,
+    stats.usage_count
+FROM property_object_stats AS stats
+LEFT JOIN properties_meta AS prop_meta ON stats.property_id = prop_meta.property_id
+LEFT JOIN entity_labels AS obj_label ON stats.object_value = obj_label.entity_id AND obj_label.language = 'en'
+WHERE stats.property_id='P407'
+ORDER BY stats.usage_count DESC;"
+
+# P31(instance of) 사용량 TOP1000 조회
+go run geulso/wikidata/query.go --path "geulso/wikidata/instance_top1000.json" --query "SELECT
+    stats.property_id,
+    prop_meta.label_en AS property_label,
+    stats.object_value,
+    obj_label.label AS object_label,
+    stats.usage_count
+FROM property_object_stats AS stats
+LEFT JOIN properties_meta AS prop_meta ON stats.property_id = prop_meta.property_id
+LEFT JOIN entity_labels AS obj_label ON stats.object_value = obj_label.entity_id AND obj_label.language = 'en'
+WHERE stats.property_id='P31'
+ORDER BY stats.usage_count DESC LIMIT 1000;"
