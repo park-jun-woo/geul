@@ -1,0 +1,64 @@
+{
+  "synset_id": "superannuate.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody superannuate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "employment_status.n.01",
+      "reasoning": "The verb describes causing a change in someone's employment status, specifically moving them into retirement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the retirement and pensioning process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is retired and pensioned due to the action of the causal agent; they undergo the change in status."
+        }
+      ]
+    },
+    {
+      "verb_type": "circumstance",
+      "verb_property": "condition.n.01",
+      "value_type": "age.n.01 OR physical_inability.n.01",
+      "reasoning": "The definition explicitly states the underlying reasons or conditions for this specific type of retirement: 'because of age or physical inability'."
+    },
+    {
+      "verb_type": "accompaniment",
+      "verb_property": "financial_support.n.01",
+      "value_type": "pension.n.01",
+      "reasoning": "The definition includes 'and pension (someone)', indicating that providing a pension is an integral and accompanying part of the superannuating action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of superannuating is an administrative action or event that is directly experienced or observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the agent in the verb frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of superannuating itself is a neutral, administrative process; its sentiment (positive or negative) depends on context and individual perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent ('Somebody') performing the action of superannuating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of superannuating is described as a definite occurrence or administrative decision."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, complete event of retiring and pensioning a particular individual."
+    }
+  }
+}

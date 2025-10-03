@@ -1,0 +1,58 @@
+{
+  "synset_id": "dose.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody dose something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The definition 'treat with an agent' indicates that the verb describes an action causing an alteration in the state or condition of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of dosing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that receives the agent and whose condition is thereby changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "agent.n.01",
+      "reasoning": "The verb 'dose' inherently implies the use or addition of a specific substance or 'agent' as the means by which the treatment or change in condition occurs, as stated in the definition 'add (an agent) to'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dosing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent ('Somebody') acts with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dosing itself is neutral; its sentiment depends on the specific agent, purpose, and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of applying a dose, unless explicitly modified (e.g., 'dose repeatedly')."
+    }
+  }
+}

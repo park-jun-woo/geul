@@ -1,0 +1,58 @@
+{
+  "synset_id": "sail.v.01",
+  "frame_id": 1,
+  "frame_text": "Something is sailing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'sail' describes the act of traversing or traveling, which is a change in an entity's location.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity undergoing the change of location."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame often specifies the route, extent, or area of travel."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The verb 'sail' intrinsically implies that the movement occurs on a body of water, distinguishing it from other forms of travel."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sailing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or ongoing state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' (e.g., a vessel) itself does not possess will or intention. Any volition would be associated with an implicit operator, not the explicit subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sailing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is sailing' indicates a non-volitional subject ('Something'). The object itself does not intentionally perform the action; it is moved by external forces or internal mechanisms operated by an external agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of sailing is described as a definite occurrence or ongoing state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sailing is an action involving continuous, highly repetitive motion over a duration, characteristic of high iterativity."
+    }
+  }
+}

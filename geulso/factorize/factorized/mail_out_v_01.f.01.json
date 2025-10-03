@@ -1,0 +1,58 @@
+{
+  "synset_id": "mail_out.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody mail_out something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'mail out' describes the action of causing an object to change its location through transmission.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that initiates the act of transmitting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the object that is being transmitted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mail.n.02",
+      "reasoning": "The specific mode of transmission is 'by mail', which is a defining characteristic of this verb, distinguishing it from other forms of sending."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mailing out is a directly observable and verifiable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While a 'Something' (e.g., a company) might act with intention, the grammatical subject 'Something' does not inherently imply personal will, making it neutral in terms of an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mailing out is inherently neutral; its positive or negative sentiment depends on the context or the mailed item."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' allows for both non-volitional agents (like an automated system) and volitional entities (like an organization), making the volitionality neutral."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of transmission."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of sending an item or batch of items by mail."
+    }
+  }
+}

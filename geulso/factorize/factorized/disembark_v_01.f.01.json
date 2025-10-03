@@ -1,0 +1,59 @@
+{
+  "synset_id": "disembark.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody debark PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'go ashore' directly describes a change in location, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the animate entity performing the action of disembarking.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The verb 'disembark' inherently means to leave a vessel or vehicle, making the vessel/vehicle an implied source of the motion.",
+          "value_type": "vehicle.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The definition 'go ashore' explicitly identifies the 'shore' or 'land' as the destination, which can be specified by the 'PP' in the frame.",
+          "value_type": "shore.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Disembarking is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disembarking is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' clearly indicates an intentional act by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Disembarking typically refers to a single, completed event of leaving a vessel for an individual or group at a specific time."
+    }
+  }
+}

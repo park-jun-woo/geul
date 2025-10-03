@@ -1,0 +1,62 @@
+{
+  "synset_id": "evict.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody evict somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'expel or eject' clearly describes a change in the spatial location of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the initiator of the action, causing the eviction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity whose location is being changed, i.e., the one being expelled."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' (prepositional phrase) typically specifies the location from which the patient is expelled, acting as the source of the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "non-legal.a.01",
+      "reasoning": "The definition explicitly states 'without recourse to legal process', which specifies a critical characteristic of the method or manner of expulsion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Eviction is a directly observable act."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is carried out with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of eviction, especially 'without recourse to legal process', typically implies hardship or distress for the evicted party, giving it a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody evict...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of expulsion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of expelling someone."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "annoy.v.01",
+  "frame_id": 18,
+  "frame_text": "Something get_to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The verb 'annoy' describes causing a transition in a person's emotional state to one of displeasure or irritation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the annoyance or change in emotional state.",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity whose emotional state is changed to annoyance; the experiencer.",
+          "value_type": "person.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "minor.a.01",
+      "reasoning": "The definition specifies 'especially by minor irritations,' indicating that the intensity or severity of the disturbance is typically low or minor."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing annoyance is generally directly observable or experienced by the affected party."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', which lacks the capacity for will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Annoyance is inherently a negative emotional state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something get_to somebody' indicates a non-volitional agent ('Something') causing the effect, implying the action is not intentional on the part of the cause."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of annoyance."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The nature of annoyance often involves repeated or continuous minor irritations that accumulate, suggesting high iterativity rather than a single event. The definition 'especially by minor irritations' also implies repetition or persistence."
+    }
+  }
+}

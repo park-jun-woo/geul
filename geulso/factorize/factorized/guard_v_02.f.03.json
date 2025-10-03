@@ -1,0 +1,52 @@
+{
+  "synset_id": "guard.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody ward something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "safety.n.01",
+      "reasoning": "The verb 'guard' describes an action that influences the state of the patient, specifically by moving it from a potentially unsafe state to a safe state, or maintaining its safe state by shielding it from danger. This constitutes a change in the patient's safety status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates or performs the action that ensures the patient's safety. This 'Something' is the entity that guards."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity whose state of safety is affected or maintained by the guarding action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of guarding is typically a directly observable phenomenon or function."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or function."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional agent (the first 'Something'), thus the action is not driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The verb 'guard' inherently implies a positive outcome of preventing harm or danger, thus having a positive polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional agent (e.g., 'The wall guards the garden'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of guarding is described as a definite occurrence or an established function."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Guarding typically involves a continuous or highly repetitive act of watching over and shielding, rather than a single, discrete event. It is sustained over time."
+    }
+  }
+}

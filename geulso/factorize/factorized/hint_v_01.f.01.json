@@ -1,0 +1,65 @@
+{
+  "synset_id": "hint.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody hint PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The definition 'drop a hint; intimate by a hint' describes an act of conveying information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent initiating the communication.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'hint' itself, which contains the information being conveyed, is the entity acted upon. This is implied by 'drop a hint'.",
+          "value_type": "information.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'PP' in the verb frame often specifies the intended recipient of the hint (e.g., 'hint to somebody'). Alternatively, it could specify the theme (e.g., 'hint at something'), but a recipient is fundamental to the act of 'conveying'.",
+          "value_type": "person.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "indirect.a.01",
+      "reasoning": "A defining characteristic of 'hint' is that the communication is not direct or explicit, but subtle or indirect."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hinting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, demonstrating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hinting itself is neutral; the content or context of the hint determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s PP' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hinting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct act of conveying a piece of information indirectly."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "write_in.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody write_in something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "vote.n.01",
+      "reasoning": "The definition 'cast a vote' directly describes the primary action of expressing a choice.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of voting, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (candidate) who is the object of the vote, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "writing.n.01",
+      "reasoning": "The verb 'write_in' itself and the phrase 'by inserting a name that does not appear on the ballot' specify that the manner of casting the vote involves writing, and crucially, that the written choice is for an unlisted option."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of writing in a vote is a directly observable action during an election process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the nature of voting implies strong will and deliberate choice."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of writing in a vote is neutral; the choice itself may have positive or negative implications depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of writing in a vote."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of writing in a vote is described as a definite occurrence once performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of casting one write-in vote."
+    }
+  }
+}

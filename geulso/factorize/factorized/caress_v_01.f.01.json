@@ -1,0 +1,64 @@
+{
+  "synset_id": "caress.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody caress something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "stroke.v.01",
+      "reasoning": "The verb's core meaning is to perform the action of stroking, as indicated by the definition 'touch or stroke' and the provided hypernym 'stroke.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the physical action, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "low",
+      "reasoning": "The definition explicitly states the action is performed 'lightly', indicating a low intensity of physical contact."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "affect.n.01",
+      "value_type": "positive",
+      "reasoning": "The definition specifies the action is done in a 'loving or endearing manner', which indicates a positive affective quality."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Caressing is a physical action that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'loving or endearing manner' inherently assigns a positive sentiment to the act of caressing."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Caressing, like stroking, typically involves a series of gentle, repeated motions rather than a single, instantaneous touch, suggesting high repetition."
+    }
+  }
+}

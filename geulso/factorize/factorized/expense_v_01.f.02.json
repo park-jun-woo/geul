@@ -1,0 +1,52 @@
+{
+  "synset_id": "expense.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody write_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "value.n.01",
+      "reasoning": "The verb 'write off' (to expense) describes an action that reduces the estimated financial worth of an asset, indicating a change in its value.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of reducing the value for accounting purposes, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose estimated financial value is being reduced."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of writing off an expense is typically a documented and direct action in a financial context, not based on inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of expensing or writing off is a financial procedure; its inherent sentiment is neutral, though its consequences can be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody write_off something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of writing off is a definite, usually recorded, financial occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of reducing an asset's value. While such actions might be repeated over time, the verb itself refers to one instance of the action."
+    }
+  }
+}

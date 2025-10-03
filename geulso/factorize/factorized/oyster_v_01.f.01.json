@@ -1,0 +1,63 @@
+{
+  "synset_id": "oyster.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody oyster PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'oyster' (to gather oysters) describes an action that results in a change of possession, moving oysters from their natural environment to the agent's possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action of gathering oysters."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "oyster.n.01",
+          "reasoning": "The 'something' being gathered is specifically oysters, as indicated by the verb's definition."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame typically specifies the location from which the oysters are gathered or where the digging occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "dig.v.01",
+      "reasoning": "The definition 'dig oysters' implies a specific method or means used to gather them."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Gathering oysters is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' indicates an agent performing the action with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of gathering oysters is generally neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Gathering or digging oysters typically involves repetitive actions (digging multiple times, collecting many oysters), implying high repetition rather than a single event."
+    }
+  }
+}

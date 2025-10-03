@@ -1,0 +1,53 @@
+{
+  "synset_id": "refuel.v.02",
+  "frame_id": 1,
+  "frame_text": "Something refuel",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "resource.n.01",
+      "reasoning": "The verb describes a process where an entity takes on more fuel, which is a change in its resource level.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' in the frame (e.g., a plane, ship, or car) is the entity that undergoes the change by receiving fuel."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "fuel.n.01",
+          "reasoning": "The 'fuel' is the specific resource that is being taken on by the patient, implied by the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of refueling is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Even though the subject 'Somebody' (referring to a vehicle like a plane, ship, or car) is performing the action, it does not possess human-like will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of refueling is a neutral process."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition specifies the subject as a 'plane, ship, or car,' which are non-volitional entities. While they 'take on' fuel, it's a mechanical or systemic process, not an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of taking on fuel."
+    }
+  }
+}

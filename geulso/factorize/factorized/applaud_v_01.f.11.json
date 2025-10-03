@@ -1,0 +1,58 @@
+{
+  "synset_id": "applaud.v.01",
+  "frame_id": 11,
+  "frame_text": "Somebody spat something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes an action that initiates or alters a state of public communication, specifically conveying approval.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action to communicate."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a performance, an individual) that is the target or recipient of the communicated approval, as inferred from the transitive frame 'Somebody ----s something'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "physical_expression.n.01",
+      "reasoning": "The definition specifies the inherent physical means ('clap one's hands or shout') used to express approval, characterizing the manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Applauding is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to show approval."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The verb 'applaud' inherently means 'to indicate approval', which carries a positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') performing the action, which is an intentional act of expressing approval."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of applauding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Applauding typically involves repetitive physical actions (e.g., clapping) or sustained vocalizations (shouting), indicating a high degree of iterativity rather than a single discrete event."
+    }
+  }
+}

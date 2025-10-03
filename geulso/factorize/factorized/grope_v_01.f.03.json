@@ -1,0 +1,64 @@
+{
+  "synset_id": "grope.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody grope PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "search.v.01",
+      "reasoning": "The verb 'grope' describes an act of trying to locate or discover something, as supported by its hypernym 'search.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the searching action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the area or space where the search is conducted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "touch.n.01",
+      "reasoning": "The searching is specifically performed by means of physical contact, as implied by the phrase 'feel about' in the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "uncertain.a.01",
+      "reasoning": "The definition explicitly states the action is performed 'uncertainly or blindly', indicating a lack of clear guidance or knowledge in the manner of searching."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of groping is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The core act of groping is neutral; its sentiment depends on context (e.g., groping for a light switch vs. inappropriate physical contact)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of groping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 999,
+      "reasoning": "The phrase 'feel about' implies continuous, repeated, and often undirected attempts at physical contact to navigate or find something, indicating high iterativity (MAX-1)."
+    }
+  }
+}

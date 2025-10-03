@@ -1,0 +1,57 @@
+{
+  "synset_id": "demobilize.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody demobilize somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes causing a change in the military service status of an individual, moving them from active service to inactive.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of releasing from military service."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose military service status is changed by being demobilized."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "military_service.n.01",
+          "reasoning": "The implicit entity (military service) from which the patient is removed or released."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of demobilizing is an observable and official event, thus falling under direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of demobilizing is a neutral procedural action; its inherent sentiment is neither positive nor negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of demobilizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of releasing an individual from military service."
+    }
+  }
+}

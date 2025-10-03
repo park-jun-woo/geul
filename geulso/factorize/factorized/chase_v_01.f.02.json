@@ -1,0 +1,58 @@
+{
+  "synset_id": "chase.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody chase_after somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'go after' describes a change of location or proximity of the agent relative to the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of moving and initiating the chase."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the pursuit."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "capture.n.01",
+      "reasoning": "The definition explicitly states 'with the intent to catch', indicating the primary purpose or goal of the motion.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chasing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' typically implies an agent without human-like will or desire, despite the action being intentional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chasing is neutral; its sentiment depends on context (e.g., playful vs. predatory)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'with the intent to catch' explicitly indicates that the action is intentional, regardless of the nature of 'Something'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chasing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chasing involves continuous, repeated movements (e.g., steps) over a period, indicating high repetition."
+    }
+  }
+}

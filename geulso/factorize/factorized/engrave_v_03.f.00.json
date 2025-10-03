@@ -1,0 +1,64 @@
+{
+  "synset_id": "engrave.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody engrave something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The definition 'carve or cut into a block' describes a physical alteration of the object's form or surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of carving or cutting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (a block) that undergoes the physical alteration."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "carving.n.01",
+      "reasoning": "The definition explicitly specifies the manner of change as 'carve or cut', which refers to a method of incising or shaping a material."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "printing.n.01",
+      "reasoning": "The definition states 'used for printing or print from such a block', indicating the primary purpose of the engraving."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Engraving is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent acting with clear intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of engraving itself is neutral; its sentiment depends on the context or what is engraved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Engraving is typically a process involving numerous, repeated small actions (cuts, carvings) over a period to complete the overall task."
+    }
+  }
+}

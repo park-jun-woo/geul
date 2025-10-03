@@ -1,0 +1,62 @@
+{
+  "synset_id": "shave.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody shave somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb 'shave' describes an action that causes a change in the physical state of a surface by removing hair.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of shaving, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., body part, face) whose physical state (regarding hair presence) is changed."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "razor.n.01",
+          "reasoning": "The definition explicitly specifies 'with a razor' as the tool used for the action."
+        },
+        {
+          "semantic_role": "removed_object.n.01",
+          "value_type": "body_hair.n.01",
+          "reasoning": "The core purpose of the action is the removal of 'body hair', which is explicitly mentioned in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Shaving is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shave something' implies the agent acts with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shaving itself is neutral; its sentiment depends on context or individual preference."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the verb frame indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The physical act of shaving involves continuous, highly repetitive strokes to remove hair over an area, similar to how 'running' involves repetitive steps."
+    }
+  }
+}

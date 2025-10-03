@@ -1,0 +1,58 @@
+{
+  "synset_id": "reassail.v.01",
+  "frame_id": 2,
+  "frame_text": "Something reassail somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attack.n.01",
+      "reasoning": "The verb 'reassail' describes an action that causes a change of state in the patient from not being attacked to being attacked.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the attack, as specified by the verb frame. Given it's 'Something', it is non-volitional."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the attack."
+        }
+      ]
+    },
+    {
+      "verb_type": "temporal_property",
+      "verb_property": "repetition.n.01",
+      "value_type": "again.r.01",
+      "reasoning": "The 're-' prefix in 'reassail' explicitly denotes that the action of assailing is a recurrence of a prior event, meaning 'again'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of assailing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no will or intention driving the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of assailing implies an aggressive or harmful action, thus inherently negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something reassail somebody' indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of reassailing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the action is a repetition of a previous event (captured by a separate sememe), the act of 'reassailing' itself is a single, discrete event."
+    }
+  }
+}

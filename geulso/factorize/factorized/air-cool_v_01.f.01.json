@@ -1,0 +1,63 @@
+{
+  "synset_id": "air-cool.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody air-cool something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "equipment.n.01",
+      "reasoning": "The verb, as per its definition 'equip with an apparatus', describes a change in the state of the patient from unequipped to equipped.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity performing the equipping action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that is being equipped."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "cooling_apparatus.n.01",
+          "reasoning": "The implied apparatus that is used for the equipping, as directly referenced in the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "function.n.01",
+      "value_type": "temperature_and_humidity_control.n.01",
+      "reasoning": "This sememe captures the specific function or purpose of the apparatus with which the patient is equipped, as stated in the definition ('for controlling the humidity and temperature')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of equipping is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame ('Something') is non-human, implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of equipping is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of equipping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Equipping typically refers to a single event of installation or provision, not a continuous or highly repetitive action."
+    }
+  }
+}

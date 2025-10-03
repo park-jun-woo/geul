@@ -1,0 +1,74 @@
+{
+  "synset_id": "namedrop.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody namedrop",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb fundamentally describes an act of verbally referring to specific individuals, as indicated by 'refer to people' in the definition and 'mention' in hypernyms.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of namedropping."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'people' who are referred to by the agent."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "person.n.01",
+          "reasoning": "The 'interlocutors' to whom the agent is speaking and attempting to impress, as implied by the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "impress.v.01",
+      "reasoning": "An inherent and primary purpose of namedropping is the agent's intention 'to try to impress them' (the interlocutors), as stated in the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "social_status.n.01",
+      "value_type": "admired.a.01",
+      "reasoning": "The definition specifies that the people referred to are those 'one assumes one's interlocutors admire', indicating a specific characteristic of the mentioned individuals that serves the impression goal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of namedropping is a directly observable linguistic action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The explicit purpose 'in order to try to impress them' strongly indicates an agent's will and intention behind the action."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "Namedropping is generally perceived as a self-serving, sometimes pretentious or manipulative social behavior, which leans towards informal or impolite in social contexts."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb carries an inherently negative connotation due to its self-serving and manipulative purpose of trying to impress others."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody namedrop' combined with the definition's stated purpose ('to try to impress them') clearly indicates an intentional, volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of namedropping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct act of referring to admired people, even if such acts can be repeated over time."
+    }
+  }
+}

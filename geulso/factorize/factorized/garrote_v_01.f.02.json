@@ -1,0 +1,66 @@
+{
+  "synset_id": "garrote.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody garrotte somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "reasoning": "The verb describes the act of causing a change from a state of being alive to being dead, which is the ultimate outcome of strangling.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of garroting, causing the change in the patient's life state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the action and undergoes the change from life to death."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "strangulation.n.01",
+      "reasoning": "The definition explicitly states 'strangle,' indicating the specific manner in which the act is performed.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "iron_collar.n.01",
+      "reasoning": "The definition explicitly mentions 'with an iron collar,' specifying the instrument used for strangulation.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of garroting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame, performing a violent act, implies strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of killing is inherently negative in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of garroting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Garroting is typically a single, decisive event leading to a final outcome."
+    }
+  }
+}

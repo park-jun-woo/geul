@@ -1,0 +1,58 @@
+{
+  "synset_id": "machine_wash.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody machine-wash something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The definition 'wash by machine' describes an action that causes a change in the state of an object from dirty to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of washing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state from dirty to clean."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "machine.n.01",
+      "reasoning": "The verb explicitly specifies that the washing is performed using a 'machine' as the instrument, distinguishing it from manual washing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Machine washing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of machine washing is neutral; it results in cleanliness which is typically positive, but the act itself is not inherently sentimental."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody machine_wash something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of machine washing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A machine wash typically involves a cycle of continuous, repetitive actions (e.g., agitation, rinsing) over a period, indicating high repetition within a single event."
+    }
+  }
+}

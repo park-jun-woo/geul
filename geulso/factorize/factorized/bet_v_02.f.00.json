@@ -1,0 +1,58 @@
+{
+  "synset_id": "bet.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody bet",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "wager.n.01",
+      "reasoning": "The verb 'bet' describes the deliberate action of making a wager, which inherently involves committing something of value based on an uncertain future event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of betting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "asset.n.01",
+          "reasoning": "The implicit 'something' (e.g., money, item) that is staked or risked, which is a core component of the definition 'stake on the outcome'."
+        },
+        {
+          "semantic_role": "circumstance.n.01",
+          "value_type": "outcome.n.01",
+          "reasoning": "The 'outcome of an issue' upon which the wager is placed, serving as the condition for the bet's resolution."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of betting is typically a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of betting itself is neutral; its consequences or the objects involved might carry sentiment, but the action is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' clearly indicates a volitional agent performing the action, as betting is a conscious choice."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of placing a bet is a definite occurrence, even though the outcome of the bet is uncertain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bet' describes a single, discrete instance of placing a wager."
+    }
+  }
+}

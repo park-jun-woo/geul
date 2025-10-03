@@ -1,0 +1,53 @@
+{
+  "synset_id": "report.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody report that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb describes the act of making information known, which is a change in the state of information availability.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of announcing or making known."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the information or proposition that is being reported."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The definition states 'as the result of an investigation or experience or finding', implying the reporter has direct knowledge or verifiable information, leading to direct experience of the information being reported."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention to report."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reporting is neutral; the content being reported determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody report...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'report' something implies that the reporter believes the information to be certain or confirmed, based on investigation or experience."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of announcing information."
+    }
+  }
+}

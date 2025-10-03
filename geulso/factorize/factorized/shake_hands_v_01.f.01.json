@@ -1,0 +1,67 @@
+{
+  "synset_id": "shake_hands.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody shake_hands something PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes a deliberate physical act involving two individuals, specifically the establishment and movement of hands in contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value": "Somebody",
+          "reasoning": "The 'Somebody' who initiates and performs the physical act of taking and shaking hands."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value": "something",
+          "value_type": "hand.n.01",
+          "reasoning": "The 'something' refers to the hands of the co-participant that are physically acted upon, as per the definition 'take someone's hands and shake them'."
+        },
+        {
+          "semantic_role": "co_participant.n.01",
+          "value": "PP",
+          "value_type": "person.n.01",
+          "reasoning": "The 'PP' refers to the other individual whose hands are involved in the physical contact and with whom the interaction takes place."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "social_gesture.n.01",
+      "reasoning": "The physical action of shaking hands inherently functions as a social gesture, specifically for greeting or congratulation, as stated in the definition.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Shaking hands is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shaking hands is inherently neutral, though its context (greeting, congratulation) may imply positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shaking hands is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A handshake is typically understood as a single, completed event or interaction, not a continuous repetition."
+    }
+  }
+}

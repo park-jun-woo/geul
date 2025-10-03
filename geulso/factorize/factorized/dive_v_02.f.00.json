@@ -1,0 +1,64 @@
+{
+  "synset_id": "dive.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody dive",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'plunge into water' describes a physical movement resulting in a change of location relative to a medium.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the verb frame is the entity that performs or undergoes the action of diving. Even if non-volitional, it is the instigator of its own motion.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'into water' part of the definition explicitly states the target medium or destination of the movement.",
+          "value_type": "water.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid_descent.n.01",
+      "reasoning": "The word 'plunge' in the definition indicates a specific manner of movement, characterized by speed and direction (downwards)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Diving is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something dive' implies no inherent will or intention from the non-human or inanimate subject."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple, completed action rather than an ongoing or perfected one."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of diving itself is neutral; any positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something dive' explicitly indicates a non-volitional subject ('Something') performing the action, meaning it lacks intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of plunging into water."
+    }
+  }
+}

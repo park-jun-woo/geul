@@ -1,0 +1,58 @@
+{
+  "synset_id": "disable.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody handicap somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_ability.n.01",
+      "reasoning": "The verb 'disable' describes causing a transition from a state of normal physical ability to a state of impairment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that acts as the impersonal cause of the disability, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the permanent injury and subsequent impairment."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "permanent.a.01",
+      "reasoning": "The definition 'injure permanently' explicitly states that the resulting state of impairment is lasting and not temporary."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disabling is typically a directly observable event or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something disable somebody' implies a non-agentive subject, indicating no will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'disable' implies injury and impairment, which is inherently negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the subject 'Something' is not a volitional agent, thus the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing permanent injury or impairment."
+    }
+  }
+}

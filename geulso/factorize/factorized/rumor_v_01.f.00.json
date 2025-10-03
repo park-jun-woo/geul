@@ -1,0 +1,53 @@
+{
+  "synset_id": "rumor.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody bruit",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb's definition 'tell or spread rumors' clearly describes an action of imparting information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the instigator of the communication action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "rumor.n.01",
+          "reasoning": "The verb's definition 'tell or spread rumors' indicates that the content of the communication is a rumor, making it the direct semantic object (patient) of the action, even if not explicitly present in the given minimal syntactic frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of telling or spreading a rumor is a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'rumor' typically refers to unverified information, often with negative or scandalous implications, and a hypernym like 'dish the dirt' reinforces a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rumor' implies a volitional agent performing the action of spreading or telling the rumor intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rumoring (telling or spreading) is described as a definite occurrence, regardless of the truthfulness of the rumor itself."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of telling or spreading a rumor. While rumor-mongering can be iterative, the verb itself refers to the act of imparting a piece of information."
+    }
+  }
+}

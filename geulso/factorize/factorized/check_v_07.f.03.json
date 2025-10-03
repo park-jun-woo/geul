@@ -1,0 +1,58 @@
+{
+  "synset_id": "check.v.07",
+  "frame_id": 3,
+  "frame_text": "Something check something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "rate.n.01",
+      "reasoning": "The definition 'slow the growth or development of' indicates causing an alteration in the rate or speed of a process, which constitutes a change of state for that process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame that actively causes the change in the rate of growth or development."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame whose growth or development is being affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "decrease.v.01",
+      "reasoning": "The core meaning of 'check' in this context is to specifically decrease the speed or tempo of the affected process, as indicated by 'slow the growth or development'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of checking/slowing something is typically observable or inferable from direct experience of its effects."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence or effect."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional agent, therefore lacking an inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of slowing growth is context-dependent for sentiment; it can be neutral (e.g., cold weather checking plant growth) or negative, but not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject ('Something') performing the action, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs or has occurred."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'check' describes a singular action or intervention that results in a slowed process, rather than a continuous repetition of identical actions by the subject in this frame."
+    }
+  }
+}

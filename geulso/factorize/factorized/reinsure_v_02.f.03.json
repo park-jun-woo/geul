@@ -1,0 +1,68 @@
+{
+  "synset_id": "reinsure.v.02",
+  "frame_id": 3,
+  "frame_text": "Something reinsure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "liability.n.01",
+      "reasoning": "The verb describes the act of altering the distribution of financial or legal responsibility for a specific risk or obligation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame (the ceding insurer or entity) that initiates the transfer of liability."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame (the specific liability or risk) whose bearer changes."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An implicit participant, 'another insurance company', which assumes the transferred liability, as specified in the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "transfer.n.02",
+      "reasoning": "The definition specifies the method of reinsuring as 'by transferring... liability', indicating 'transfer' as the core means."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "status.n.01",
+      "value_type": "renewal.n.01",
+      "reasoning": "The prefix 're-' and the phrase 'insure again' in the definition signify that the action is a renewal or a subsequent instance of insuring."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Financial transactions like reinsuring are typically based on direct agreements and observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The subject 'Something' in the frame, representing an entity like an insurance company, performs the action with clear will and intent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a business transaction and is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Something reinsure something' implies a volitional agent (e.g., an insurance company) making a deliberate decision to transfer liability."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of transaction or agreement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the verb's meaning includes a sense of 'again' (repetition of insuring), the act of 'reinsuring' itself, in a given instance, is typically a single contractual event rather than a continuous, highly repetitive action."
+    }
+  }
+}

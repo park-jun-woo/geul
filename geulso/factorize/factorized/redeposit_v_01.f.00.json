@@ -1,0 +1,62 @@
+{
+  "synset_id": "redeposit.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody redeposit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'deposit' implies a change in effective possession or custody of an item (e.g., money) from an individual to an institution or designated place for safekeeping. 'Redeposit' is a recurrence of this change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the deposit action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose effective possession or custody is transferred."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implicit entity or location (e.g., a bank, a safe) to which the item is deposited, thereby gaining effective possession/custody."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "repetition.n.01",
+      "value_type": "recurrent.a.01",
+      "reasoning": "The prefix 're-' and the phrase 'once again' in the definition explicitly indicate that this action is a recurrence of a previously performed depositing event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of redepositing is a directly observable event or transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of redepositing is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody redeposit something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of redepositing is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'redeposit' describes a single, complete event of placing something again. The 're-' indicates a repeated *type* of action, not that the action itself is iterative in its execution (e.g., composed of continuous steps)."
+    }
+  }
+}

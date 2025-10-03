@@ -1,0 +1,59 @@
+{
+  "synset_id": "double-park.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody double-park",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes an action that causes a vehicle to change its position from unparked to a parked state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of parking, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The 'vehicle' that undergoes the change in position, explicitly mentioned in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "arrangement.n.01",
+      "value_type": "alongside_another_vehicle.r.01",
+      "reasoning": "The core distinction of 'double-park' is the specific spatial arrangement of the parked vehicle, positioned 'alongside another' as stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Double-parking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----' implies the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Double-parking is generally considered an inconvenience or traffic violation, thus carrying a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of double-parking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of parking."
+    }
+  }
+}

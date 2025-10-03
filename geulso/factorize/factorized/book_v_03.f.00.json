@@ -1,0 +1,57 @@
+{
+  "synset_id": "book.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody book somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "documentation.n.01",
+      "reasoning": "The verb 'book' in this context means to perform the action of officially recording a charge, which falls under the broader category of documentation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the act of recording a charge, typically a law enforcement officer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' against whom the charge is recorded; this person is the object of the booking action."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "charge.n.03",
+          "reasoning": "The 'charge' itself is the specific content being recorded or documented against the patient, which is central to the verb's meaning."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of booking is a concrete, directly observable action performed by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an action has taken place or is taking place."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' performing the booking acts with clear intent and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being 'booked' implies a formal accusation of an offense, which carries an inherently negative implication for the person being booked."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of booking is described as a definite and certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Each instance of 'booking' a person is typically considered a single, distinct event of recording a charge."
+    }
+  }
+}

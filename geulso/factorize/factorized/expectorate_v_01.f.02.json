@@ -1,0 +1,57 @@
+{
+  "synset_id": "expectorate.v.01",
+  "frame_id": 2,
+  "frame_text": "Something expectorate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The verb describes the action of clearing out, which is a change from a state of presence to absence of a substance from a location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (implicitly an animate entity with chest and lungs) that performs the action of expelling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., phlegm) that is expelled from the chest and lungs."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "body_part.n.01",
+          "reasoning": "The implied location ('chest and lungs') from which the patient is removed, as specified in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of expectorating is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'clear out the chest and lungs' implies an intentional action by an agent, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of expectorating is neutral; its sentiment depends on context (e.g., relieving congestion can be positive, public spitting negative)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' in the frame, the definition 'clear out the chest and lungs' refers to a bodily function typically performed with intent by an animate being, making it volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of clearing, though it can be repeated."
+    }
+  }
+}

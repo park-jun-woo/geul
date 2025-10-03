@@ -1,0 +1,59 @@
+{
+  "synset_id": "acquit.v.01",
+  "frame_id": 11,
+  "frame_text": "Somebody exonerate somebody of something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "guilt.n.01",
+      "reasoning": "The verb 'acquit' denotes a legal process that alters a person's legal status from being accused/charged to being pronounced not guilty, thereby changing their state of guilt (from attributed to removed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame refers to the legal entity (e.g., court, judge, jury) that performs the action of acquitting.",
+          "value_type": "legal_authority.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the acquittal, meaning their legal status concerning guilt is changed.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'something' (criminal charges) from which the accused person is declared free, representing the origin of the accusation or legal entanglement.",
+          "value_type": "criminal_charge.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A legal pronouncement of acquittal is a direct and official declaration of a judgment."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of a legal outcome."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of acquittal is a deliberate and intentional decision made by a legal authority, implying strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'acquit' itself describes a neutral legal procedure of judgment; the positive or negative sentiment depends on the context and the involved parties."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' (legal authority) explicitly performs the action of acquitting with full intent and volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A legal verdict of acquittal represents a definitive and certain statement of 'not guilty'."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "An acquittal is typically a single, conclusive legal event for a specific set of charges."
+    }
+  }
+}

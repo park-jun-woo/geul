@@ -1,0 +1,65 @@
+{
+  "synset_id": "shout.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody cry",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "sound_production.n.01",
+      "reasoning": "The verb 'shout' describes an action of producing an audible sound, as indicated by 'utter a sudden loud cry'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of shouting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "cry.n.01",
+          "reasoning": "The 'cry' or utterance that is produced as a result of the shouting action, explicitly mentioned in the definition 'utter a sudden loud cry'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "loud.a.01",
+      "reasoning": "The definition explicitly states 'loud cry', indicating that 'loudness' is a core manner component of the sound produced by shouting."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition explicitly states 'sudden loud cry', indicating that 'suddenness' is a core temporal/manner component of the utterance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shouting is a directly observable phenomenon, not based on inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') in the frame implies the action is driven by their will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shouting itself is neutral. Its positive or negative connotation depends on the specific context and emotion expressed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shout' explicitly indicates a volitional agent performing the action, meaning the action is intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of shouting is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'utter a sudden loud cry' implies a single, discrete event of utterance, rather than a continuous or highly repetitive action, which would typically be indicated by a different frame or definition."
+    }
+  }
+}

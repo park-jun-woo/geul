@@ -1,0 +1,59 @@
+{
+  "synset_id": "castle.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody castle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move the king... and... the rook' describes a change in the spatial arrangement or position of the game pieces.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame refers to the player performing the move, who intentionally causes the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "chess_piece.n.01",
+          "reasoning": "The 'something' refers to the chess pieces (king and rook) that undergo the specified movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "chess_rule.n.01",
+      "reasoning": "The definition explicitly details the specific way the pieces are moved: 'move the king two squares toward a rook and in the same move the rook to the square next past the king'. This describes the inherent manner or rule of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Performing a move in chess is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual action within the context of a game, implying a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame is an agent acting with explicit will and intention to make a specific chess move."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of castling itself is a neutral strategic move in chess; its outcome depends on context but the action is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent (the player) intentionally performing the action of castling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action; a player either castles or does not."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Castling is a single, distinct move in a game of chess. A player can typically only castle once per game with each king/rook pair."
+    }
+  }
+}

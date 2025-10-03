@@ -1,0 +1,69 @@
+{
+  "synset_id": "carjack.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody carjack somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the act of taking something from someone, which is a change in ownership or control (possession).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the act of carjacking."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The 'something' being taken, which is specified as a 'car' in the definition. This is the object whose possession changes."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implied by the definition 'take someone's car from him', indicating the original possessor from whom the car is taken."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The definition explicitly states 'by force', indicating a violent or coercive manner of taking."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "theft.n.01",
+      "reasoning": "The definition specifies 'usually with the intention of stealing it', indicating the underlying purpose of the action is theft."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Carjacking is a concrete, observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of carjacking is driven by the strong will and intention of the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Taking something by force and stealing it is inherently a negative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody carjack something' and the definition 'with the intention of stealing it' explicitly indicate a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Carjacking is typically a single, discrete event."
+    }
+  }
+}

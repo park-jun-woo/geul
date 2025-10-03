@@ -1,0 +1,59 @@
+{
+  "synset_id": "tour.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody tour something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'make a tour of a certain place' directly implies movement and a change in geographical position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively undertakes the tour, initiating the movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "location.n.01",
+          "reasoning": "The 'something' in the frame refers to the place or region being traversed or explored."
+        }
+      ]
+    },
+    {
+      "verb_type": "activity",
+      "verb_property": "exploration.n.01",
+      "reasoning": "A key semantic component of 'tour' is the purposeful act of exploring, observing, or visiting a place, distinguishing it from mere travel.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Touring is a directly observable and experienced activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies that the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of touring itself is neutral; the experience can be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), indicating an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or undertaking of a tour."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A tour, while a single event, inherently involves continuous and often repetitive movement (e.g., walking, driving, looking around) over a period, implying a high degree of internal iterativity."
+    }
+  }
+}

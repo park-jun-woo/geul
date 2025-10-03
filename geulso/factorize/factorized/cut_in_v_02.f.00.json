@@ -1,0 +1,78 @@
+{
+  "synset_id": "cut_in.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody cut_in PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes a dynamic action involving a change in the relative spatial position of one vehicle with respect to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (the vehicle) that performs the action of cutting in. This implies the driver as the ultimate volitional agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The 'another vehicle' mentioned in the definition, whose spatial relationship and maneuverability are affected by the action."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "in_front_of.r.01",
+          "reasoning": "The specific spatial relationship established by the action, moving 'in front of' the patient vehicle."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "space.n.01",
+      "value_type": "insufficient.a.01",
+      "reasoning": "The definition explicitly states 'leaving too little space', indicating a core property of the action is the creation of insufficient space for the other vehicle."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "comfort.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The consequence of 'leaving too little space' is that the other vehicle cannot 'maneuver comfortably', implying a negative impact on comfort or ease of movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cutting in is a directly observable event in traffic."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Although the subject is 'Something' (a vehicle), the action is performed by a driver with intention and will."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is cut_ining' explicitly uses the progressive aspect ('is -ing')."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself doesn't carry a politeness marker, though the action is often considered impolite. Neutral is appropriate for the verb's inherent meaning."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'leaving too little space for that vehicle to maneuver comfortably' implies a negative and potentially dangerous action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of driving and performing a cut-in maneuver is a volitional action by the driver, even if the grammatical subject is the vehicle."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that takes place."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'cut in' is typically a discrete, singular event in a sequence of driving actions, not inherently repetitive."
+    }
+  }
+}

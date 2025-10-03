@@ -1,0 +1,53 @@
+{
+  "synset_id": "gain.v.07",
+  "frame_id": 3,
+  "frame_text": "Something gather something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "magnitude.n.01",
+      "reasoning": "The definition 'increase or develop' describes a transition towards a greater extent, amount, or more advanced form, which is a change in magnitude or state. The `verb_frame` uses 'something' as the direct object indicating what is increased/developed.",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The first 'Something' in the frame (e.g., 'The machine' in 'The machine gained speed') is the entity that undergoes or experiences the increase or development in a specified attribute. This is distinct from volitional causation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "attribute.n.01",
+          "reasoning": "The second 'something' in the frame is the specific property or attribute that increases or develops (e.g., 'speed' in 'The machine gained speed')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of increasing or developing is generally considered a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "For the frame 'Something ----s something' where 'Something' is typically inanimate or non-agentive (e.g., 'The machine gains speed'), there is no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of gaining (increasing or developing) is neutral; the specific context or what is gained determines its positive or negative sentiment (e.g., gaining speed vs. gaining weight for an unhealthy person)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically refers to a non-volitional subject (e.g., 'The stock gained value,' 'The plant gained height'), indicating that the increase/development is not an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'gain' (in the sense of increase or develop) typically describes a factual occurrence, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'increase or develop' often implies a continuous or highly repetitive process over time (e.g., 'gaining momentum', 'developing skills'), rather than a single, instantaneous event. Hence, high repetition."
+    }
+  }
+}

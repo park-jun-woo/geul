@@ -1,0 +1,64 @@
+{
+  "synset_id": "flog.v.01",
+  "frame_id": 11,
+  "frame_text": "Somebody trounce something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes a physical act involving forceful contact, resulting in an impact on the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of beating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the beating."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "severe.a.01",
+      "reasoning": "The action is explicitly defined as 'severely', indicating a high degree of force or harshness."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "whip_or_rod.n.01",
+      "reasoning": "The definition specifies the particular tools ('whip or rod') used to inflict the beating, which are core to the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of flogging is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'beating severely' inherently carries a negative connotation due to the infliction of harm or punishment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody trounce something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of flogging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Flogging with a whip or rod typically involves multiple, repetitive strikes, indicating a high degree of repetition."
+    }
+  }
+}

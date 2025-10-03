@@ -1,0 +1,68 @@
+{
+  "synset_id": "report_out.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody report_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "submission.n.01",
+      "reasoning": "The verb describes the act of returning a bill to a legislative body, which constitutes a change in its status (from un-submitted to submitted) and is a formal submission.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of reporting out the bill."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame, which is the bill being returned/submitted."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'legislative body' mentioned in the definition, which is the entity to whom the bill is formally submitted."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reporting out a bill is typically a directly observable public or official act."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is performed with clear intention and will by an agent."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The tense is not specified in the input; thus, a neutral (present) default is applied."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The aspect is not specified in the input; thus, a simple default is applied."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself does not carry inherent politeness; its use is typically in a formal, procedural context, but the verb form itself is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reporting out is a procedural action, inherently neutral in sentiment. Its positive or negative implications depend on the context and content of the bill."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reporting out is described as a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of returning a specific bill. While multiple bills can be reported out, each is a distinct action."
+    }
+  }
+}

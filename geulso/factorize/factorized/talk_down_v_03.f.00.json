@@ -1,0 +1,64 @@
+{
+  "synset_id": "talk_down.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody talk_down somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The verb 'talk down' describes an action that causes a change in the control or direction of another entity, as per the definition 'direct and control'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of directing and controlling, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (e.g., pilot) who is being directed and whose actions are controlled, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "radio.n.01",
+      "reasoning": "The definition explicitly states the action is performed 'via radio', indicating the instrument used."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "circumstance.n.01",
+      "value_type": "landing.n.01",
+      "reasoning": "The definition specifies that the control occurs 'during landing', indicating a particular phase or circumstance of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of talking down an airplane is a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent with strong will and intention to direct and control."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of talking down is inherently neutral; its positive or negative sentiment depends on the outcome or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the verb frame indicates a volitional and intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of directing and controlling."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Guiding a landing typically involves continuous and highly repetitive instructions or communications over a period, rather than a single, instantaneous event."
+    }
+  }
+}

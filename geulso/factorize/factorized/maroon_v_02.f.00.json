@@ -1,0 +1,76 @@
+{
+  "synset_id": "maroon.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody maroon somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "isolation.n.01",
+      "reasoning": "The core action of 'maroon' is to cause a change in a person's state, leading to their isolation, as suggested by the hypernym 'isolate'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of isolating someone, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state, being left in isolation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "desert island.n.01",
+      "reasoning": "The definition explicitly specifies 'on a desert island' as a critical and defining location for the act of marooning.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose resulting location is the desert island."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "lack.n.01",
+      "value_type": "resources.n.01",
+      "reasoning": "The definition includes 'without resources', which describes a crucial state of deprivation for the patient as a result of being marooned.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is left without resources."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of marooning is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being left 'stranded on a desert island without resources' is inherently a negative situation for the patient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of marooning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct event of abandonment."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "inculcate.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody instill something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes causing a change in the recipient's cognitive state by transferring knowledge or ideas into their possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the teaching/impressing action, initiating the transfer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "knowledge.n.01",
+          "reasoning": "The 'something' (knowledge, ideas, principles) that is transferred and instilled into the recipient's mind."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The entity (person or group) in whom the knowledge or ideas are impressed, typically specified by the prepositional phrase (PP) in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "repetitive instruction",
+      "reasoning": "The definition 'by frequent repetitions or admonitions' specifies the distinctive method or manner in which the teaching occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inculcating is a directly observable teaching process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inculcating is neutral; the content being taught determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody instill...' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of inculcating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'by frequent repetitions' explicitly states that the action is highly repetitive, distinguishing it from a single instruction."
+    }
+  }
+}

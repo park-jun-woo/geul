@@ -1,0 +1,58 @@
+{
+  "synset_id": "flee.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody take_flight PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'flee' describes a rapid change of location, which constitutes a change in motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who initiates and performs the act of fleeing."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the direction or endpoint of the flight, representing where the agent flees to or away towards, consistent with 'run away'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition explicitly includes 'quickly', indicating the manner of movement is fast."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fleeing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fleeing itself is neutral; its sentiment depends on the context (e.g., fleeing danger vs. fleeing responsibility)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody take_flight...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of escaping."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Fleeing, like running, is an action composed of continuous, highly repetitive steps, indicating high iterativity."
+    }
+  }
+}

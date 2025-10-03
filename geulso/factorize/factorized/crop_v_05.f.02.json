@@ -1,0 +1,59 @@
+{
+  "synset_id": "crop.v.05",
+  "frame_id": 2,
+  "frame_text": "Something graze",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "nutrition.n.01",
+      "reasoning": "The verb describes the act of an animal consuming food, which leads to a change in its nutritional state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame refers to the animal performing the action of feeding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vegetation.n.01",
+          "reasoning": "The implied object of feeding, specifically vegetation found in a pasture, as per the definition 'as in a meadow or pasture'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "grazing.n.01",
+      "reasoning": "The definition specifies 'as in a meadow or pasture', indicating a particular manner of feeding characteristic of grazing animals."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of grazing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While animals act to satisfy needs, their actions are driven by instinct rather than 'will' in the human sense. The 'Something' frame also guides towards a neutral stance for Modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of grazing is a neutral action."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "Although eating is an intentional act for an animal to fulfill a biological need, it is not considered 'volitional' in the human-like sense of conscious choice. The 'Something' in the frame points to either non-volitional or neutral."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of grazing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Grazing is an action composed of continuous, highly repetitive motions of consuming vegetation over a period."
+    }
+  }
+}

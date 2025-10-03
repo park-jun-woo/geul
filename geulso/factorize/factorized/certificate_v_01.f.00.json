@@ -1,0 +1,57 @@
+{
+  "synset_id": "certificate.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody certificate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'present someone with a certificate' implies a transfer of possession, which is a change in the state of who holds the certificate.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of presenting the certificate, initiating the change of possession."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the certificate, becoming its new possessor."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "certificate.n.01",
+          "reasoning": "The 'certificate' itself, which is the object whose possession is transferred."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of presenting a certificate is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to present the certificate."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of certifying is neutral; the positive or negative sentiment depends on the context or the nature of the certificate being awarded."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of presenting a certificate is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of presenting a certificate."
+    }
+  }
+}

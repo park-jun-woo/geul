@@ -1,0 +1,52 @@
+{
+  "synset_id": "heat.v.01",
+  "frame_id": 5,
+  "frame_text": "Something heat_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The definition 'make hot or hotter' describes a transition in the temperature state of an object, indicating a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the temperature change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change in temperature; it becomes hot or hotter."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of heating is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies an inanimate or non-willful cause, thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of heating itself is neutral; its positive or negative sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is caused by a non-volitional entity (the first 'Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While heating can be a continuous process, this frame describes a single instance of making something hot or hotter, implying a single event of achieving the changed state."
+    }
+  }
+}

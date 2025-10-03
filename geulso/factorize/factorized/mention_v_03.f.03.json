@@ -1,0 +1,52 @@
+{
+  "synset_id": "mention.v.03",
+  "frame_id": 3,
+  "frame_text": "Somebody mention something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The verb 'commend' (the definition of mention.v.03) inherently describes the act of expressing a positive evaluation, which changes the perceived status or appreciation of the patient.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The initial 'Something' in the frame acts as the source or instrument through which the commendation is expressed, rather than a volitional agent. For example, 'The report mentioned his bravery'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that receives the commendation, and whose evaluation or status is positively affected."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of commending is a directly observable or stated event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or a state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates that the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'commend' inherently carries a positive sentiment, indicating praise or approval."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional subject performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of commending, when it occurs, is a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct act of expressing commendation."
+    }
+  }
+}

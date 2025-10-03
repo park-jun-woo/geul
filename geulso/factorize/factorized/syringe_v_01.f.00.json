@@ -1,0 +1,62 @@
+{
+  "synset_id": "syringe.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody syringe something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "medical_treatment.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of a body part (e.g., by cleansing or applying liquid), often for therapeutic or hygienic purposes, aligning with the concept of medical treatment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (a body part) that undergoes the change or is the recipient of the treatment."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "syringe.n.01",
+          "reasoning": "The verb 'syringe' inherently specifies the use of a 'syringe' as the instrument by which the action is performed."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The act of 'spray or irrigate' implies the application of a liquid or substance, which is the theme of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of syringing is a physical, directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of syringing is neutral; its sentiment depends on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed instance of the action, unless explicitly stated otherwise."
+    }
+  }
+}

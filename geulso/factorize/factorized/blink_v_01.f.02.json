@@ -1,0 +1,60 @@
+{
+  "synset_id": "blink.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody nictitate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The verb 'blink' describes a change in the state of the eyes, moving from open to shut and then back open, which is a transient change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of blinking.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The eyes are the body part that undergoes the change of state (from open to shut), which is inherently understood with 'blink'/'nictitate'.",
+          "value_type": "eye.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.02",
+      "value_type": "brief.a.01",
+      "reasoning": "The definition explicitly includes 'briefly', indicating a short temporal span for the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Blinking is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the hypernym 'act involuntarily', the action is not driven by the agent's will or intention in this specific sense."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of blinking is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The hypernym 'act involuntarily' strongly indicates that this sense of blinking (nictitating) is non-volitional, typically a reflex."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of blinking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete cycle of shutting and opening the eyes. While blinking can be repetitive, the verb describes one instance of the action."
+    }
+  }
+}

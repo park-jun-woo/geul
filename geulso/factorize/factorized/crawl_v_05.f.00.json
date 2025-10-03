@@ -1,0 +1,59 @@
+{
+  "synset_id": "crawl.v.05",
+  "frame_id": 0,
+  "frame_text": "Somebody crawl",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a form of movement, specifically traveling through water, which is a change of location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the swimming action."
+        },
+        {
+          "semantic_role": "medium.n.01",
+          "value_type": "water.n.01",
+          "reasoning": "Implied by the hypernym 'swim' and the definition 'swim by doing the crawl', the movement occurs in water."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "crawl_stroke.n.01",
+      "reasoning": "The definition specifies 'by doing the crawl', indicating a particular style or manner of swimming (the crawl stroke)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Swimming is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to swim."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of swimming the crawl is inherently neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody crawl' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Swimming the crawl involves continuous, repetitive movements, thus having high iterativity."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "embargo.v.01",
+  "frame_id": 1,
+  "frame_text": "Something embargo something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "permission.n.01",
+      "reasoning": "The verb 'embargo' describes the act of imposing a ban, which changes the state of permission or access to publication from permissible to forbidden.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., a government, institution, or policy) that is the source or initiator of the ban, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "document.n.01",
+          "reasoning": "The 'something' in the frame refers to the 'documents' specified in the definition, which are the objects whose publication is banned."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "reason.n.01",
+      "reasoning": "The definition explicitly provides typical reasons for such a ban ('as for security or copyright reasons'), indicating an inherent purpose for this specific type of prohibition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of embargoing is a factual and directly observable event or policy implementation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement about an action taken."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Although the subject is 'Something', an embargo is an inherently deliberate decision made by an entity (e.g., government, institution) and thus implies strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'ban' or 'forbid' inherently carries a negative connotation as it restricts freedom or access."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "An embargo is a formal, intentional act of prohibition, even if the grammatical subject ('Something') refers to an institution or policy rather than a person, it originates from a volitional decision."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of embargoing, once imposed, is a definite and certain event or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The imposition of an embargo is typically a single, discrete event, though its effects are continuous."
+    }
+  }
+}

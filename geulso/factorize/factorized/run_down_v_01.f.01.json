@@ -1,0 +1,58 @@
+{
+  "synset_id": "run_down.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody check_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The definition 'trace' implies an action where an agent acquires knowledge (e.g., about the location or history) of the patient, thus changing the agent's state of knowledge regarding the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of tracing and gains knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the subject of the tracing, whose status or location becomes known to the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "thoroughness.n.01",
+      "value_type": "exhaustive.a.01",
+      "reasoning": "The phrasal verb 'run down' in the context of 'trace' typically implies a diligent, thorough, and often effortful process of investigation or search."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tracing is typically a direct experience for the agent performing it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies the action is driven by the agent's will and intention to trace."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tracing is neutral; its sentiment depends on the context and why someone is being traced."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of tracing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of attempting to trace is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Tracing is generally a sustained process involving multiple, continuous investigative steps or efforts, indicating high repetition of actions over a period."
+    }
+  }
+}

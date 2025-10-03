@@ -1,0 +1,64 @@
+{
+  "synset_id": "hire_out.v.01",
+  "frame_id": 6,
+  "frame_text": "Somebody rent_out somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The verb describes a transfer of temporary control or access to services, which is a change in the state of control over the 'somebody' or their services.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates the action of granting temporary use or services."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose services or temporary use is granted; the entity undergoing the change of control/availability."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "transaction.n.01",
+      "value_type": "fee.n.01",
+      "reasoning": "A fundamental characteristic of 'hire out' is that the service or use is provided in exchange for a fee or payment, as stated in the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "temporary.a.01",
+      "reasoning": "The definition explicitly states 'temporary use,' indicating that the duration of the granted services or use is limited, not permanent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is a directly observable action or transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and strong will from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is neutral; its sentiment depends on context or the nature of the transaction."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hiring out is described as a definite occurrence or arrangement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'hire out' generally refers to a single event of establishing a temporary service or use agreement, not an inherently repetitive action in itself."
+    }
+  }
+}

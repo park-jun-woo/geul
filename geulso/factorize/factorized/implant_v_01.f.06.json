@@ -1,0 +1,78 @@
+{
+  "synset_id": "implant.v.01",
+  "frame_id": 6,
+  "frame_text": "Somebody implant something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'implant' describes causing a change in the physical location or position of an object, moving it into another entity or space.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of implanting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being fixed or set into a new location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An implicit participant representing the entity or location into which the patient is implanted, inferred from the verb's meaning of placing *into* something."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "secure.a.01",
+      "reasoning": "The definition 'fix or set securely' explicitly includes the semantic component of being firm or stable in its new position.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is made secure through the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "deep.a.01",
+      "reasoning": "The definition 'fix or set ... deeply' explicitly includes the semantic component of being placed at a significant depth.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is set deeply through the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of implanting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of implanting is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody implant something' explicitly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'implant' describes a single, discrete event of fixing something securely or deeply."
+    }
+  }
+}

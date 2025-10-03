@@ -1,0 +1,62 @@
+{
+  "synset_id": "pistol-whip.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody pistol-whip somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The verb 'pistol-whip' describes an action that causes a change in the physical condition of a person, typically resulting in harm or injury, moving from an uninjured to an injured state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the verb frame is the agent who initiates the beating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the verb frame is the individual who undergoes the change in physical condition, receiving the beating."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "pistol.n.01",
+      "reasoning": "The term 'pistol-whip' explicitly denotes the use of a 'pistol' as the instrument for the action, which is a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pistol-whipping is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies the agent acts with strong will and intent."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The act of pistol-whipping is a violent and aggressive act, inherently impolite and socially unacceptable."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Inflicting physical harm through beating is universally considered a negative act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'whip' or 'beat' implies a series of forceful impacts, suggesting high repetition within the overall event."
+    }
+  }
+}

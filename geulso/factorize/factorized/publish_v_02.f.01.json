@@ -1,0 +1,52 @@
+{
+  "synset_id": "publish.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody issue something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "availability.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of an item from private or unavailable to public and available.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame (e.g., a company, organization) is the entity that performs the action of preparing and issuing, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the item (e.g., a book, article) that undergoes the change of state, becoming publicly available."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of publishing is a public and directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Even when the agent is 'Something' (e.g., an organization), the act of publishing inherently involves a strong will and intention to prepare and issue."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of publishing itself is neutral; the content being published may carry positive or negative sentiment, but not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'prepare and issue for public distribution or sale' strongly implies an intentional and deliberate act by the agent, even if that agent is a non-human entity (e.g., a publishing house)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of publishing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of preparing and issuing an item."
+    }
+  }
+}

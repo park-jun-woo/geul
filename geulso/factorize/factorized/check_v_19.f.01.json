@@ -1,0 +1,54 @@
+{
+  "synset_id": "check.v.19",
+  "frame_id": 1,
+  "frame_text": "Somebody check something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'place into check' describes causing a change in the status of the opponent's king, from not being threatened to being under immediate threat.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, representing the player who initiates the move."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, representing the opponent's king whose status is changed."
+        }
+      ],
+      "value_type": "threat.n.01",
+      "reasoning_value_type": "The changed status of the king is one of being under threat, specifically 'in check' in chess."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of placing a king in check is a directly observable event within a chess game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action within a game context."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Placing a king in check is a deliberate and strategic move by a player, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of checking itself is a neutral game mechanic; its positive or negative sentiment depends on the overall game outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody check somebody' clearly indicates a volitional agent (a player) performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When a king is placed in check, it is a definite and undeniable event within the game rules."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of placing the opponent's king in check."
+    }
+  }
+}

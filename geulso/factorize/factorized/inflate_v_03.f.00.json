@@ -1,0 +1,59 @@
+{
+  "synset_id": "inflate.v.03",
+  "frame_id": 0,
+  "frame_text": "Something inflate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "value.n.01",
+      "reasoning": "The definition 'cause prices to rise' directly describes a change in economic value or level.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity (e.g., currency, policy) that initiates or causes the change in prices."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "price.n.01",
+          "reasoning": "The second 'something' in the frame refers to the economic prices that undergo the described increase."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "increase.v.01",
+      "reasoning": "The definition specifies the method or means by which the inflation occurs: 'by increasing the available currency or credit'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Economic inflation is an observable and quantifiable phenomenon, often based on direct economic data and experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual economic event or process in a declarative manner."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent ('Something') in this frame refers to inanimate economic factors or policies, which do not possess personal will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the effects of inflation can be perceived as negative, the verb 'inflate' itself describes an economic process neutrally."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The causal agent 'Something' (e.g., currency, credit) is an abstract or inanimate entity and thus inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite causal relationship leading to a rise in prices."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Inflation is typically a continuous or sustained process involving a series of ongoing increases in prices rather than a single, instantaneous event."
+    }
+  }
+}

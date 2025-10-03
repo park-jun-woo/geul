@@ -1,0 +1,62 @@
+{
+  "synset_id": "rear-end.v.01",
+  "frame_id": 3,
+  "frame_text": "Something rear-end something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "collision.n.01",
+      "reasoning": "The definition 'collide with' indicates a forceful impact, which is a change in the physical state of contact between two entities.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates or is the primary mover in the collision (e.g., the vehicle that hits)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is impacted by the collision (e.g., the vehicle that is hit)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "rear_end.n.01",
+      "reasoning": "The 'rear-end' specific to the verb implies that the impact occurs specifically at the posterior part of the patient.",
+      "target_participant": {
+        "semantic_role": "patient.n.02",
+        "reasoning": "The 'rear end' property applies to the object that is being struck, which is the patient."
+      }
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A rear-ending event is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies inanimate subjects (e.g., vehicles), which do not possess will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A collision, particularly 'rear-ending', is generally considered an undesirable event due to potential damage or injury, hence negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is performed by non-agentive entities, making it non-volitional (e.g., an accidental collision)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of an event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A rear-ending is typically a single, discrete event."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "synset_id": "subpoena.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody subpoena somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "legal_status.n.01",
+      "reasoning": "The verb 'subpoena' describes the act of initiating a change in a person's legal status by creating an obligation to appear or provide evidence, stemming from the definition 'serve or summon'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of issuing the subpoena, initiating the change in legal status."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is served with the subpoena and whose legal status or obligations are changed as a result."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of serving a subpoena is a directly observable legal action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a legal action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent ('Somebody') acts with clear will and intention to initiate a legal process."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of subpoenaing is a neutral legal procedure; its sentiment depends on the context of the legal case."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing an intentional legal action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of subpoenaing is a definite legal occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, distinct event of serving a subpoena, even if multiple subpoenas can be issued over time."
+    }
+  }
+}

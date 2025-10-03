@@ -1,0 +1,63 @@
+{
+  "synset_id": "window-shop.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody window-shop PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "visual_examination.n.01",
+      "reasoning": "The verb describes the core action of visually inspecting items or displays, as per the definition 'examine the shop windows'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of window-shopping."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "shop_window_contents.n.01",
+          "reasoning": "The objects displayed in shop windows that are being visually examined, implied by the verb's meaning."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the frame specifies the physical location where the window-shopping activity takes place (e.g., 'along the street', 'in the mall')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "leisure.n.01",
+      "reasoning": "The definition 'shop with the eyes only' highlights that the underlying purpose of this examination is typically for leisure, enjoyment, or casual interest, explicitly excluding the intent of making a purchase."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Window-shopping is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of window-shopping is neutral; its sentiment depends on context or the observer's feelings."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of window-shopping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Window-shopping is a continuous activity involving repeated glances at multiple windows or items, thus exhibiting high repetition."
+    }
+  }
+}

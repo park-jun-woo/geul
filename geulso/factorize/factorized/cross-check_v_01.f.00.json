@@ -1,0 +1,58 @@
+{
+  "synset_id": "cross-check.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody cross-check something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "accuracy.n.01",
+      "reasoning": "The verb 'cross-check' describes an active process undertaken by an agent to verify or establish the accuracy of information, as per the definition 'check out conflicting sources'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of cross-checking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (facts, sources, information) that is being subjected to the cross-checking process."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "comparison.n.01",
+      "reasoning": "The 'cross-' prefix and the definition 'check out conflicting sources' imply a manner of checking that involves comparing multiple sources or facts against each other."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cross-checking involves direct investigation and analysis of information, leading to conclusions based on direct experience or analysis."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is typically performed with the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cross-checking is neutral; its outcome or the information being checked may have positive or negative implications."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cross-check something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The purpose of cross-checking is to 'make certain of something' (as per hypernym 'see.v.10'), indicating an inherent aim to establish high confidence or certainty in the information."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Cross-checking inherently involves multiple comparisons and steps to verify information, suggesting a high degree of repetition within the process."
+    }
+  }
+}

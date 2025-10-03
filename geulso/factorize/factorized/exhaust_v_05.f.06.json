@@ -1,0 +1,60 @@
+{
+  "synset_id": "exhaust.v.05",
+  "frame_id": 6,
+  "frame_text": "Something eject something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The definition 'eliminate (a substance)' describes a change in the presence of a substance, specifically its removal from an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that actively performs the action of eliminating/ejecting the substance, even if non-volitionally."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "substance.n.01",
+          "reasoning": "The 'something' (substance) that undergoes the change in presence, being eliminated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The verb 'eject' (implied by the frame 'Something eject something') inherently conveys a forceful and often rapid manner of removal.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ejecting or eliminating a substance is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something eject something' has an inanimate subject ('Something'), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of eliminating a substance is neutral; its sentiment depends on the specific substance and context (e.g., eliminating waste vs. essential resources)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something eject something' describes an event performed by a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of eliminating/ejecting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of eliminating a substance, though the process itself might be continuous, the focus is on a discrete instance of elimination."
+    }
+  }
+}

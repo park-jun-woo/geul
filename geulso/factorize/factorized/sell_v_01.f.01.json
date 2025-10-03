@@ -1,0 +1,62 @@
+{
+  "synset_id": "sell.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody sell something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'sell' inherently describes a transfer of ownership of an item from the seller to the buyer.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the transaction and gives up possession of the item; the seller."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of possession; the item being sold."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame, who receives the item and gains possession; the buyer."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "transaction.n.01",
+      "value_type": "monetary.a.01",
+      "reasoning": "A core distinguishing feature of 'sell' is that the transfer of possession is specifically made in exchange for money or its equivalent, defining it as a monetary transaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of selling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of selling itself is neutral; its sentiment depends on context or the items involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sell...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of exchange."
+    }
+  }
+}

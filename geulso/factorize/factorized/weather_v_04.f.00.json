@@ -1,0 +1,53 @@
+{
+  "synset_id": "weather.v.04",
+  "frame_id": 0,
+  "frame_text": "Something weather",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The definition 'change under the action or influence of the weather' indicates a transition in the physical state or soundness, often leading to decay as suggested by the hypernym.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change due to weathering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "cause.n.01",
+          "value_type": "weather.n.01",
+          "reasoning": "The explicit cause of the change, as stated in the definition 'under the action or influence of the weather'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of weathering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something weather' lacks an agent capable of will, as the action happens to 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of weathering is neutral; its effects can be perceived as positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something weather' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Weathering is typically a continuous, ongoing process involving repetitive environmental actions over a period, rather than a single discrete event."
+    }
+  }
+}

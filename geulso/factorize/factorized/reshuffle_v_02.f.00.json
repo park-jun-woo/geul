@@ -1,0 +1,73 @@
+{
+  "synset_id": "reshuffle.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody reshuffle somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "arrangement.n.02",
+      "reasoning": "The definition 'reorganize' describes an alteration of the existing order or structure, which is a change in arrangement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of reorganizing or reassigning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., posts, personnel) that undergoes the change in arrangement."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "assignment.n.02",
+      "reasoning": "The definition also explicitly includes 'assign posts to different people', indicating a change in who holds which post or role.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of assigning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "post.n.03",
+          "reasoning": "The 'something' refers to the posts being assigned."
+        },
+        {
+          "semantic_role": "beneficiary.n.01",
+          "value_type": "person.n.01",
+          "reasoning": "The 'different people' to whom the posts are assigned."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reshuffling is typically a directly observable or officially documented action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is carried out with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reshuffling itself is neutral; its outcomes might be positive or negative depending on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reshuffling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially complex, event of reorganization, rather than a continuous, rapidly repeating action."
+    }
+  }
+}

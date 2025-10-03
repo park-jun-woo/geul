@@ -1,0 +1,67 @@
+{
+  "synset_id": "embezzle.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody embezzle something from somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes a fraudulent act that results in a change of possession of property, specifically appropriating it to one's own use.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally and fraudulently takes the property."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "property.n.01",
+          "reasoning": "The 'something' (property) that is the object of the embezzlement, specified as being 'entrusted to one's care'."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the property is taken, or the party whose trust is violated, as indicated by the 'from somebody' phrase."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fraudulent.a.01",
+      "reasoning": "The definition explicitly states that the appropriation is done 'fraudulently', which is a crucial manner component distinguishing embezzlement from other forms of taking."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Embezzlement, though often concealed, is an observable event or series of events when discovered."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of embezzling is driven by strong will and intent from the agent."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The term 'embezzle' is a neutral, descriptive verb for a specific type of crime."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Embezzlement is an illegal and harmful act, therefore inherently negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act that has occurred or will occur."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While embezzlement can involve multiple transactions, the verb refers to the act of fraudulent appropriation as a singular conceptual event, even if it has a prolonged execution. It's treated as a single instance of the crime."
+    }
+  }
+}

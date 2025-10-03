@@ -1,0 +1,60 @@
+{
+  "synset_id": "quack.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody quack",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb describes the ongoing act or conduct of an individual, indicated by 'act as' in the definition and the hypernym 'act.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "deceptive.a.01",
+      "reasoning": "The definition 'act as a medical quack or a charlatan' inherently describes a behavior that is misleading or fraudulent."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "domain.n.01",
+      "value_type": "medical.a.01",
+      "reasoning": "The definition explicitly includes 'medical quack', indicating the specific sphere of the deceptive activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of quacking (acting as a charlatan) is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or behavior."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to behave in this manner."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Acting as a quack or charlatan is inherently a negative and unethical behavior."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' and the definition 'act as...' clearly indicate an intentional and volitional action by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of the act is presented as a definite occurrence or characteristic."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'act as a charlatan' typically implies a sustained or highly repetitive pattern of deceptive behavior, rather than a single, isolated event."
+    }
+  }
+}

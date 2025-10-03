@@ -1,0 +1,59 @@
+{
+  "synset_id": "squat.v.03",
+  "frame_id": 1,
+  "frame_text": "Somebody squat PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the act of taking up residence, implying a change from not possessing/residing to doing so. It represents the initiation of an occupation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the occupation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "dwelling.n.01",
+          "reasoning": "The 'PP' in the frame typically refers to the dwelling or location that is being illegally occupied, serving as the object of possession."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legality.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The definition explicitly states 'illegally,' which is a core semantic component of this verb sense, describing the nature or circumstance of the occupation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of squatting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'illegally,' which inherently carries a negative legal and social connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ---- PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of squatting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, initiating event of taking up illegal residence, rather than a repetitive action."
+    }
+  }
+}

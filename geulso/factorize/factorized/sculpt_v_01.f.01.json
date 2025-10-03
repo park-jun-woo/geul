@@ -1,0 +1,64 @@
+{
+  "synset_id": "sculpt.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody sculpt something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'sculpt' means to 'create' an object, thus causing it to come into existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of creation, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is brought into existence as a result of the sculpting."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "shaping.n.01",
+      "reasoning": "The definition explicitly states that the creation occurs 'by shaping', indicating the specific manner of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "hard_material.n.01",
+      "reasoning": "The definition specifies the medium as 'stone or wood or any other hard material', which is an inherent characteristic of this type of creation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sculpting is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an action driven by strong will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sculpting itself is neutral; its sentiment depends on the context or the resulting artwork."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sculpts something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action leading to a tangible result."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sculpting involves a continuous process of shaping, comprising many repeated smaller actions (e.g., carving, chiseling) rather than a single discrete event."
+    }
+  }
+}

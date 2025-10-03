@@ -1,0 +1,64 @@
+{
+  "synset_id": "reef.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody reef something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "configuration.n.01",
+      "reasoning": "The verb describes an action that alters the physical configuration of the sail from an extended to a gathered state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of reefing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (a portion of a sail) that undergoes the change in configuration."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rolling.n.01",
+      "reasoning": "The specific method by which the sail's configuration is changed is through a rolling motion, as implied by 'roll up' in the definition and the hypernym 'roll_up.v.01'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "area.n.01",
+      "value_type": "reduced.a.01",
+      "reasoning": "The action results in the sail having a reduced area, which is the explicit purpose mentioned in the definition ('in order to reduce its area')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reefing a sail is a physically observable action, indicating direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reefing is a neutral, technical action; its sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Reefing is typically considered a single, discrete operation to achieve a specific reduction in sail area, rather than a continuously repeated act."
+    }
+  }
+}

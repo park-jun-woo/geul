@@ -1,0 +1,59 @@
+{
+  "synset_id": "program.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody program",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'program' describes the act of bringing a computer program into existence, which is a change from a state of non-existence to existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of programming."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "computer_program.n.01",
+          "reasoning": "The 'computer program' which is the object brought into existence by the act of programming, as specified in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "writing_code.n.01",
+      "reasoning": "The definition 'write a computer program' explicitly states the method by which the program is created, distinguishing it from other forms of creation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Programming is a directly observable human activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of programming is inherently neutral; its positive or negative sentiment depends on the specific program or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody program' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of programming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Programming is an extended activity comprising numerous repetitive tasks (writing lines of code, debugging, testing), indicating high iterativity over a period."
+    }
+  }
+}

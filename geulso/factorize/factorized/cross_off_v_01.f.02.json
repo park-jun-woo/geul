@@ -1,0 +1,63 @@
+{
+  "synset_id": "cross_off.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody mark something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "membership.n.01",
+      "reasoning": "The definition 'remove from a list' indicates a change in the state of an item's membership or inclusion in a list.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of removing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being removed from the list."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "list.n.01",
+          "reasoning": "The 'list' from which the item is removed, as directly stated in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mark.v.01",
+      "reasoning": "The verb 'cross off' explicitly denotes that the removal is achieved by making a physical mark (a cross) on the item within the list. The frame 'Somebody mark something' further emphasizes 'mark' as the specific action or manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crossing off is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is carried out with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of removing from a list is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody mark something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of crossing off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of removing one or more items from a list in one instance."
+    }
+  }
+}

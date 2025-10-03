@@ -1,0 +1,58 @@
+{
+  "synset_id": "bore.v.01",
+  "frame_id": 2,
+  "frame_text": "Something bore somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "mental_state.n.01",
+      "reasoning": "The verb 'bore' describes causing a transition in a person's mental state, specifically from not bored to bored, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the mental state change in another, as per the definition 'cause to be bored'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity whose mental state is changed (they become bored)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "content.n.05",
+      "value_type": "lack_of_interest.n.01",
+      "reasoning": "The core of 'bored' implies a state characterized by a lack of interest or engagement, directly mapping to the specific mental content caused by the 'Something'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing boredom or the state of being bored is generally directly observable through behavior or reported through direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a causal relationship."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something bore somebody' implies that the 'Something' is typically not an agent with will or intention in causing boredom. Even if it's an abstract concept, it doesn't have 'will'."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being bored is universally considered a negative emotional state, undesirable by the experiencer."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' is non-volitional. The 'somebody' receiving the boredom is also typically not volitionally choosing to be bored."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing the state of boredom."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single instance of the action of causing boredom, even if the state of boredom can persist."
+    }
+  }
+}

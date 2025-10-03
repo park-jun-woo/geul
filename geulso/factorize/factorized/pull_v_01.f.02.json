@@ -1,0 +1,67 @@
+{
+  "synset_id": "pull.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody force somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "force.n.01",
+      "reasoning": "The verb 'pull' fundamentally describes the physical action of applying a tensile force to an object or person.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that exerts the pulling force, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' upon whom the pulling force is exerted."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The pulling action causes a change in the location or position of the patient, as indicated by 'cause to move'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that indirectly causes the change in motion through its pulling action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the change in motion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pulling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not possess will or intention, thus modality is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pulling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something pull somebody' explicitly indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing motion by pulling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing motion by pulling."
+    }
+  }
+}

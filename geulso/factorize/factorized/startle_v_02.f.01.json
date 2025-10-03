@@ -1,0 +1,74 @@
+{
+  "synset_id": "startle.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody jump something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "motion.n.03",
+      "reasoning": "The 'Somebody' in the frame causes the 'something' to undergo a sudden change in physical state or motion, as described by 'move or jump suddenly'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or causes the startling event, leading to the patient's reaction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that experiences the sudden movement or jump as a result of being startled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition explicitly states the movement is 'suddenly', indicating a crucial manner component of the action."
+    },
+    {
+      "verb_type": "causation",
+      "verb_property": "emotion.n.01",
+      "value_type": "surprise.n.01",
+      "reasoning": "The phrase 'as if in surprise or alarm' strongly implies that the startling action causes an internal emotional state in the patient, which often precedes or accompanies the physical movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' whose action indirectly causes the emotional state in the patient."
+        },
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'something' (presumed animate) that experiences the surprise or alarm."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of startling and the resulting reaction are typically directly observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action and its effects."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody startle something' implies a volitional agent ('Somebody') initiating the action, even if the patient's reaction is involuntary."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of startling is neutral; its sentiment depends on context (e.g., startling a bird vs. startling a mugger)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame is presented as an agent, and their action of startling is generally considered volitional, whether the intent is to startle or a volitional action leads to startling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing a reaction."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'move or jump suddenly' implies a single, discrete event of reaction rather than continuous repetition."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "demand.v.05",
+  "frame_id": 1,
+  "frame_text": "Something demand somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "requirement.n.01",
+      "reasoning": "The verb 'demand' in this sense signifies the formal act of requiring someone to perform an action, specifically to appear.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame represents the entity (e.g., a legal body, a rule, the court itself) that issues the formal requirement.",
+          "value_type": "institution.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame refers to the person who is formally required to appear.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The definition 'summon to court' explicitly states the destination where the required appearance should take place.",
+          "value_type": "court.n.01"
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "reasoning": "The underlying purpose of the demand is for the 'somebody' to appear at the specified destination.",
+          "value_type": "appearance.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of summoning or demanding is typically a directly observable or documented event within a legal context."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies an institutional or abstract entity (e.g., law, court system) rather than an individual agent with personal will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Summoning to court is a neutral legal procedure; its positive or negative impact depends on the context of the case."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something demand somebody' indicates that the action is performed by a non-volitional subject, such as a legal system or a document."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'demand' implies a definite and certain act of requiring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of summoning for a particular event or case."
+    }
+  }
+}

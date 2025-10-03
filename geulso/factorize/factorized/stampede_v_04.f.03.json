@@ -1,0 +1,59 @@
+{
+  "synset_id": "stampede.v.04",
+  "frame_id": 3,
+  "frame_text": "Something stampede",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a change of location for the object, forcing them to move quickly from a place.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or causes the other person to flee."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is forced to move or flee due to the action of the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "panicked_and_uncontrolled_movement.n.01",
+      "reasoning": "The definition 'in a stampede' specifies a manner of motion characterized by panic, rapidity, and lack of control, applying to the movement of the patient.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing someone to stampede is an observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies intentional causation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing a stampede is fundamentally neutral, though its consequences are often negative. The hypernym 'flee' is also neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody') causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing a stampede is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'running away in a stampede' (performed by the object) inherently involves continuous, highly repetitive steps."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "infect.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody infect somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb 'infect' describes causing a change in the health state of a participant, specifically from uninfected to infected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who causes the infection to occur."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who undergoes the change in health state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "contagious.a.01",
+      "reasoning": "The definition explicitly states 'in a contagious way', indicating a specific manner or mechanism of transmission that is inherent to the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of infecting and its effects are typically subject to direct observation, even if the exact moment of transmission isn't always seen."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody infect somebody' implies an active agent ('Somebody') initiating the action, which suggests strong will, even if the intention is not always malicious (e.g., 'Somebody' can still intentionally spread something)."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To be infected typically carries a negative connotation, as it implies illness or harm."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody infect somebody' indicates an active 'Somebody' as the subject, aligning with the rule that 'Somebody' implies volition. While infection can be accidental, the verb frame focuses on the causal agent's role."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome once the infection has taken place."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'infect' typically describes a single, discrete event of transmitting a contagion to an individual or group, rather than a continuous or highly repetitive process."
+    }
+  }
+}

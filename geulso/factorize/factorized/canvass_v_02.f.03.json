@@ -1,0 +1,53 @@
+{
+  "synset_id": "canvass.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody canvass something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb 'canvass' is defined as 'solicit votes', which is an action of making a request or entreaty.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of soliciting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vote.n.01",
+          "reasoning": "The 'something' that is being solicited, which are votes according to the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Canvassing is an observable action performed directly by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of soliciting is inherently driven by the agent's will and intention to gain votes."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of canvassing itself is neutral; its sentiment depends on the political context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action, not a speculative one."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Canvassing typically involves repeated interactions with multiple individuals during an electoral campaign, implying high repetition rather than a single event."
+    }
+  }
+}

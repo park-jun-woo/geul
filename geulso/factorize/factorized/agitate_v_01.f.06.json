@@ -1,0 +1,53 @@
+{
+  "synset_id": "agitate.v.01",
+  "frame_id": 6,
+  "frame_text": "Somebody stir_up",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotion.n.01",
+      "reasoning": "The verb describes causing a change in the emotional or active state of a group (public opinion) from calm to agitated or active, as clarified by the definition 'try to stir up public opinion' and the hypernym 'provoke'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of stirring up, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "group.n.01",
+          "reasoning": "The entity (e.g., public opinion, a group of people) whose emotional state is changed (stirred up), as indicated by the definition 'public opinion', despite not being explicit in the compact frame 'Somebody stir_up'. 'Group' is a more general category for 'public opinion'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of agitating or stirring up is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame, combined with 'try to stir up', implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of agitating can have positive or negative outcomes depending on the context, thus it is inherently neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody stir_up' clearly indicates a volitional agent performing the action, further supported by 'try to stir up' in the definition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of trying to stir up is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Stirring up public opinion is typically a process involving sustained or repeated efforts rather than a single, instantaneous event."
+    }
+  }
+}

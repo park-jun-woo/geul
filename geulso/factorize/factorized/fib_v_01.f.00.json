@@ -1,0 +1,84 @@
+{
+  "synset_id": "fib.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody fib",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The definition 'tell a lie' indicates that the core of 'fib' is an act of conveying information, which is a form of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who intentionally performs the act of communication."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truthfulness.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "A 'fib' is inherently an untruth or a falsehood, making 'false' a defining property of the communicated content.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implied 'lie' (the content of the communication) is the patient to which this property applies."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "significance.n.01",
+      "value_type": "insignificant.a.01",
+      "reasoning": "The definition explicitly states 'relatively insignificant lie', indicating that the lack of significance is a crucial distinguishing characteristic of a 'fib' compared to a general 'lie'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "This property applies to the implied 'lie' (the content of the communication)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fibbing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by strong will and intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated; neutral (present) is the default."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "No specific aspect (e.g., progressive, perfect) is indicated; simple is the default."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of fibbing itself is not inherently polite or impolite; the term 'fib' might soften the impact, but the act is neutral in politeness level."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Even an 'insignificant lie' is still a lie, carrying a negative connotation of deception."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody fib' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional and volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of fibbing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'fib' describes a single event of telling a lie."
+    }
+  }
+}

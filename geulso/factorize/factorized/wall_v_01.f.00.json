@@ -1,0 +1,63 @@
+{
+  "synset_id": "wall.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody fence something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "spatial_relation.n.01",
+      "reasoning": "The verb describes the action of creating a physical barrier around an object, changing its spatial relationship from unenclosed to enclosed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of surrounding/enclosing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is surrounded and whose spatial state is altered by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "structural_element.n.01",
+      "reasoning": "The action of surrounding is specifically accomplished by constructing or using a 'wall', making the 'wall' itself an intrinsic part of the action's manner or instrument. 'structural_element.n.01' is a hypernym of 'wall.n.01'."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "protection.n.01",
+      "reasoning": "The definition explicitly states the purpose 'in order to fortify', which means to provide protection or make secure."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'walling' something is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of walling/fortifying is neutral; its positive or negative sentiment depends on the context and what is being walled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action and its intended outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, comprehensive act of surrounding something with a wall, not a repetitive series of discrete events."
+    }
+  }
+}

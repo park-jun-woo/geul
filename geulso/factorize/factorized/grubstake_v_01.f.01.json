@@ -1,0 +1,62 @@
+{
+  "synset_id": "grubstake.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody grubstake something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'supply with funds' describes a transfer of financial resources, indicating a change in possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who provides the funds, initiating the transfer."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the funds."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'funds' that are being supplied or transferred."
+        },
+        {
+          "semantic_role": "condition.n.01",
+          "value_type": "profit.n.01",
+          "reasoning": "The act of supplying funds is explicitly contingent upon a 'promised share of profits', which is a core part of the verb's meaning and acts as a condition for the transaction."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of grubstaking is typically a directly observable financial transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of grubstaking is neutral; its sentiment depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of supplying funds."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of providing a grubstake, though it could be repeated, the inherent meaning refers to one such event."
+    }
+  }
+}

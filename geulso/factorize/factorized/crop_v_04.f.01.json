@@ -1,0 +1,52 @@
+{
+  "synset_id": "crop.v.04",
+  "frame_id": 1,
+  "frame_text": "Somebody graze something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "feeding.n.01",
+      "reasoning": "The definition 'let feed' describes an action by an agent that causes an animal to commence or engage in the act of feeding on pasture, representing a change in the animal's state from not-feeding to feeding.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or permits the feeding action by the animal."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (an animal) that is allowed or caused to feed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of letting animals graze is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of grazing or letting graze is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody graze something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of letting graze is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "While the act of 'letting' may be a singular decision, the resultant 'feeding' (grazing) by the animals is a continuous, highly repetitive action, hence high iterativity."
+    }
+  }
+}

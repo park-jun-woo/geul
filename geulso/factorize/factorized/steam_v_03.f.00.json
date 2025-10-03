@@ -1,0 +1,61 @@
+{
+  "synset_id": "steam.v.03",
+  "frame_id": 0,
+  "frame_text": "Something steam",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state_of_matter.n.01",
+      "reasoning": "The verb describes a change in the physical state of the subject to vapor, as indicated by 'as vapor' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in physical state.",
+          "value_type": "vapor.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb explicitly includes 'rise' in its definition, indicating an upward movement.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (now in vapor form) that performs the upward motion."
+        }
+      ],
+      "value_type": "upward.r.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rising as vapor is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something steam' lacks an agent capable of will, indicating no inherent modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The process of steaming is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something steam' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of steaming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Steaming is typically a continuous process involving the repetitive emission and rising of many small vapor particles, thus indicating high repetition."
+    }
+  }
+}

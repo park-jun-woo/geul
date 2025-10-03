@@ -1,0 +1,58 @@
+{
+  "synset_id": "bicycle.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody bicycle PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes movement from one location to another, which is a change in the state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of riding a bicycle."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) typically specifies the path or trajectory of the movement, or sometimes the destination."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "instrument.n.01",
+      "value_type": "bicycle.n.01",
+      "reasoning": "The verb 'bicycle' inherently includes the instrument used for the action, which is a bicycle."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Riding a bicycle is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bicycling is generally neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bicycling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Bicycling is an action composed of continuous, highly repetitive motions (pedaling and steering) over a period."
+    }
+  }
+}

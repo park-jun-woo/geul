@@ -1,0 +1,59 @@
+{
+  "synset_id": "calculate.v.02",
+  "frame_id": 7,
+  "frame_text": "Somebody figure that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cognitive_state.n.01",
+      "reasoning": "The verb 'figure' (in this sense of 'calculate') describes a mental process where the agent forms a judgment or assessment, leading to a change in their cognitive state from not having a judgment to having one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental act of judging."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' which represents the proposition being judged or evaluated for its likelihood."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "probability.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition 'judge to be probable' specifies that the outcome of the judgment is a high degree of probability or likelihood for the proposition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The act of judging something to be probable is an internal cognitive process based on reasoning or inference, not direct observation or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a cognitive action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' implies that the act of figuring or judging is an intentional action driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of judging or figuring something to be probable is inherently neutral; the content or implications of the probability may carry sentiment, but the act itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody figure...' explicitly indicates a volitional agent performing the act of judging."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies that the agent is certain about their judgment, i.e., they are confident that they have assessed the proposition to be probable. This refers to confidence in the judgment itself, not necessarily the certainty of the proposition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of forming a judgment."
+    }
+  }
+}

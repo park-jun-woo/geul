@@ -1,0 +1,58 @@
+{
+  "synset_id": "glue.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody paste something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb describes causing a change in the state of objects from being separate to being connected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of joining or attaching, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state by being attached or joined."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "means.n.01",
+      "value_type": "adhesive_substance.n.01",
+      "reasoning": "The verb 'glue' inherently specifies the use of an adhesive substance (glue) as the means to achieve the connection, as indicated by the definition 'with or as if with glue'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of gluing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of gluing is neutral; its sentiment depends on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of gluing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of achieving a connection or attachment for a given object."
+    }
+  }
+}

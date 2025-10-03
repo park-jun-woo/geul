@@ -1,0 +1,65 @@
+{
+  "synset_id": "hesitate.v.01",
+  "frame_id": 4,
+  "frame_text": "Somebody waffle to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "progression.n.01",
+      "reasoning": "The verb describes a temporary change from an intended progression or action to a state of pause or holding back.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of pausing or holding back, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "action.n.01",
+          "reasoning": "The 'INFINITIVE' represents the specific action that the agent is holding back from performing."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "mind.n.01",
+      "reasoning": "The definition explicitly states the reason for pausing is 'in uncertainty or unwillingness', indicating an underlying mental state of indecision or reluctance.",
+      "value_type": "indecision.n.01",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'Somebody' who experiences this internal state of mind."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hesitation can be directly observed through behavior or inferred from an agent's statements, but the core act is often directly experienced by the agent or witnessed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent capable of will and intention, even if that will is conflicted or leads to inaction."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Hesitation itself is neutral; its positive or negative implications depend on the context and the consequences of the delayed action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates a volitional agent. While driven by uncertainty, the decision to pause or hold back is an intentional act of restraint."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of pausing or holding back, irrespective of the agent's internal uncertainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'waffle' in the frame suggests a prolonged or repeated act of indecision, implying high iterativity rather than a single brief pause."
+    }
+  }
+}

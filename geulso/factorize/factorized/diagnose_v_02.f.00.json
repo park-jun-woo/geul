@@ -1,0 +1,62 @@
+{
+  "synset_id": "diagnose.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody diagnose somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes the act of acquiring definitive knowledge about a patient's medical condition, representing a change from an unknown to a known state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the medical analysis and gains the knowledge, acting as the diagnostician."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the medical analysis and whose condition is being determined."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "medical_analysis.n.01",
+          "reasoning": "The means or process by which the condition is identified, directly stated in the verb's definition."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "medical_condition.n.01",
+          "reasoning": "The specific medical condition that is identified as the ultimate outcome of the diagnostic process."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of diagnosing involves direct observation and examination by the diagnostician."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to perform the diagnosis."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of diagnosing itself is neutral; the nature of the diagnosis (e.g., discovering a disease) can be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody diagnose somebody' indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'diagnose' inherently implies an aim to establish a certain and definite medical condition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of performing a diagnosis for a specific condition at a specific time."
+    }
+  }
+}

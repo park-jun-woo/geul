@@ -1,0 +1,53 @@
+{
+  "synset_id": "log_up.v.01",
+  "frame_id": 0,
+  "frame_text": "Something clock_up something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "record.n.02",
+      "reasoning": "The verb 'log up' specifically describes the action of producing or generating a permanent record of data.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'Something' in the verb frame (e.g., an odometer, a flight recorder) is the inanimate device that acts as the agent for creating the record."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "distance.n.01",
+          "reasoning": "The 'something' that is the object being recorded, which is clarified as 'distance travelled' in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of logging creates a direct and verifiable record, implying direct objective evidence rather than inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary usage is declarative, stating a fact or describing a process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' refers to an inanimate object, which does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of logging itself is neutral; its sentiment depends on the context of what is being logged."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is performed by a non-volitional entity (an inanimate object)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Logging implies a high degree of certainty and accuracy in the information being recorded, as it aims to establish facts."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'log up' and the context 'on planes and cars' implies a continuous, cumulative, and highly repetitive process of incrementally recording distance over time, rather than a single, isolated event."
+    }
+  }
+}

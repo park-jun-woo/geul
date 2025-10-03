@@ -1,0 +1,65 @@
+{
+  "synset_id": "predict.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody anticipate something",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "information.n.01",
+      "reasoning": "The definition 'tell in advance' clearly indicates a communicative act where information is conveyed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the act of predicting and communicating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'something' being predicted is a statement or proposition about a future event or state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "A prediction is an inference or statement about a future event, not a direct observation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The act of predicting can occur in any tense (e.g., 'he predicted,' 'he predicts'), so the default for the verb itself is neutral, even though the content is future-oriented."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb 'predict' in its basic form represents a simple, completed act without implying ongoing duration, prior completion, or result focus."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of predicting is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of predicting is neutral; the content or outcome of the prediction may carry sentiment, but not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody predict something' indicates an agent ('Somebody') intentionally performing the act of prediction."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "By its very nature, a prediction involves inherent uncertainty about the future, making it a speculative statement, even if the act of making the prediction is certain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular act of making a prediction."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "gross.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody gross something",
+  "sememes": {
+    "CoreAction": {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'gross' implies a change in the financial possession of the agent, specifically the acquisition of revenue.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of earning, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' that is earned, representing financial assets or revenue."
+        }
+      ]
+    },
+    "EarningCondition": {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "before deductions",
+      "reasoning": "The definition 'earn before taxes, expenses, etc.' specifies a particular manner or condition of the earning, indicating that the amount is unadjusted by deductions."
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Earning or grossing revenue is typically a verifiable and directly observable financial event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual financial action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an agent acting with clear intention and will to earn."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of earning is generally neutral; the financial outcome itself can be positive."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action of earning."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of grossing revenue is described as a definite and certain occurrence once achieved."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'gross' can refer to a single instance of calculating or earning revenue for a specific period or item, thus treated as a single event in this general frame."
+    }
+  }
+}

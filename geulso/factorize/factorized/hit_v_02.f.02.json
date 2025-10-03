@@ -1,0 +1,58 @@
+{
+  "synset_id": "hit.v.02",
+  "frame_id": 2,
+  "frame_text": "Somebody hit somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The definition 'come into sudden contact with' describes a transition from a state of non-contact to contact, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the physical contact, acting as the cause of the event."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the physical contact, the entity that is hit."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suddenness.n.01",
+      "reasoning": "The definition explicitly includes 'sudden contact', indicating an abrupt manner of the physical interaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hitting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a lack of will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hitting itself is semantically neutral; its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something hit somebody' clearly indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hitting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'hit' in this context describes a single, discrete event of contact."
+    }
+  }
+}

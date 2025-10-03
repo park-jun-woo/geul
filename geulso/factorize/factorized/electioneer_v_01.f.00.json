@@ -1,0 +1,68 @@
+{
+  "synset_id": "electioneer.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody electioneer",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "work.n.02",
+      "reasoning": "The definition 'work actively' establishes the core meaning as engaging in an effort or activity, aligning with WordNet's definition of 'work' as 'activity directed toward making or doing something'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of working, initiating the activity."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "active.a.02",
+      "reasoning": "The definition explicitly includes 'actively', which describes the energetic and engaged manner in which the work is performed.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "political_campaign.n.01",
+      "reasoning": "The definition specifies the overarching goal or domain of the work: 'for a political candidate or a party', indicating a political purpose.",
+      "participants": [
+        {
+          "semantic_role": "beneficiary.n.01",
+          "value_type": "political_entity.n.01",
+          "reasoning": "The 'political candidate or a party' are the entities for whom the electioneering activity is conducted, thus functioning as beneficiaries."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Electioneering is an observable public activity, implying direct experience of the event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody electioneer' implies that the agent ('Somebody') acts with a clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of electioneering is semantically neutral; its positive or negative sentiment is dependent on the specific context or political views."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody electioneer' explicitly includes a volitional agent, indicating the action is performed intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description presents electioneering as a definite and certain activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Electioneering is an extended activity comprising numerous repetitive actions (e.g., campaigning, canvassing) over a period, rather than a single, instantaneous event. This indicates high repetition but not infinite."
+    }
+  }
+}

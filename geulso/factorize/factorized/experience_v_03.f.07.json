@@ -1,0 +1,54 @@
+{
+  "synset_id": "experience.v.03",
+  "frame_id": 7,
+  "frame_text": "Something receive something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "event.n.01",
+      "reasoning": "The definition 'go through' indicates a process of undergoing an event or state over time. 'Event.n.01' is chosen as a broad category to encompass both 'mental or physical states' and 'experiences'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that undergoes or is subject to the experience. Following the pattern for verbs like 'know' or 'see', the primary subject is identified as `causal_agent.n.01` even if non-volitional.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being experienced or undergone, which can be a mental state, physical state, or general experience.",
+          "value_type": "event.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "To 'experience' something implies direct personal encounter or observation of the event or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an event or state occurred."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something receive something' implies no inherent will or intention from the subject ('Something') regarding the experience, similar to 'know' or 'see'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of experiencing is semantically neutral; the positive or negative sentiment depends on the specific experience."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something receive something' indicates that the subject 'Something' undergoes the experience, suggesting a non-volitional reception rather than an intentional act. This aligns with the hypernym 'undergo'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Experiencing something implies a definite occurrence or a certain state of being."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Without additional context, 'experience' typically refers to a single instance of undergoing an event or state, even if that state has duration."
+    }
+  }
+}

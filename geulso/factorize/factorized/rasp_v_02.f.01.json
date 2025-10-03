@@ -1,0 +1,59 @@
+{
+  "synset_id": "rasp.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody rasp that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "speech.n.02",
+      "reasoning": "The definition 'utter' signifies the act of producing spoken language or vocal sounds.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of uttering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content of the utterance, which is a linguistic proposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sound.n.02",
+      "value_type": "grating.a.01",
+      "reasoning": "The phrase 'in a grating voice' explicitly describes the unpleasant, harsh quality of the sound produced during the utterance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of uttering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of uttering itself is semantically neutral, although the sound quality ('grating') is negative, this is a property, not the intrinsic polarity of the verb."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of uttering."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of uttering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Uttering 'that CLAUSE' implies a single, complete act of speaking a specific piece of content, rather than a repetitive action."
+    }
+  }
+}

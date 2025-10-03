@@ -1,0 +1,63 @@
+{
+  "synset_id": "cross_off.v.01",
+  "frame_id": 4,
+  "frame_text": "Somebody strike_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The definition 'remove from a list' describes a change from a state of being present on a list to being absent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of removing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is removed from the list, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "list.n.01",
+          "reasoning": "The 'list' from which the item is removed, as implied by the definition 'remove from a list'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mark.n.01",
+      "reasoning": "Both 'cross off' (from synset) and 'strike out' (from frame) semantically include the specific manner of making a mark (e.g., an 'X' or a line) to signify removal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crossing off or striking out is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of removing an item from a list is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of striking out or crossing off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of removing an item from a list."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "register.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody register",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'register' in this context describes an action that modifies an individual's formal status by enrolling them for voting, indicating a change from not being registered to being registered.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the individual who actively performs the act of registering themselves."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' is also the entity whose status is being changed by the act of registration."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "formality.n.01",
+      "value_type": "official.a.01",
+      "reasoning": "The hypernym 'enroll.v.01' is defined as 'register formally', implying an official or formal process."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "action.n.01",
+      "value_type": "vote.v.01",
+      "reasoning": "The definition explicitly states 'to vote', indicating the specific purpose or goal of the registration."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Registering is a directly observable administrative action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of registering to vote is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody register' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of registration, when completed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, complete act of registration."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "tie.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody bind something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb 'tie' describes a process of causing something to become fastened or secured, which is a change from a state of being unattached to being attached.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of fastening, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the change of state, becoming fastened or secured."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) typically indicates the entity or location to which the patient is being fastened or secured, serving as the endpoint of the connection."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "tool.n.01",
+      "value": "rope.n.01 | string.n.01 | cord.n.01",
+      "reasoning": "The definition explicitly states the means by which the fastening occurs: 'with a rope, string, or cord'. This specifies the inherent instrument or manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tying is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tying is neutral; its sentiment depends on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tie...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of fastening, even if it involves multiple wraps or knots."
+    }
+  }
+}

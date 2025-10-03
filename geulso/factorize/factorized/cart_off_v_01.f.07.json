@@ -1,0 +1,58 @@
+{
+  "synset_id": "cart_off.v.01",
+  "frame_id": 7,
+  "frame_text": "Something haul_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'take away' describes a change in the location of an object, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame 'Something haul_off something' (referring to the vehicle) is the entity performing the action of moving the patient, thus acting as the causal agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame 'Something haul_off something' is the entity that undergoes the change of location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "vehicle.n.01",
+      "reasoning": "The verb 'cart off' intrinsically includes the semantic component 'by means of a vehicle' as stated in its definition, specifying the instrument used for the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking something away by a vehicle is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (the vehicle) in the frame does not possess will or intention. Even if a human uses it, the frame focuses on the vehicle as the actor."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taking something away is neutral in sentiment; context would determine any positive or negative connotation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something haul_off something' indicates a non-human 'Something' (the vehicle) as the subject, which cannot perform a volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of taking something away."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of removing something."
+    }
+  }
+}

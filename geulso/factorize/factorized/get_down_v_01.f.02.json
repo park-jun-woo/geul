@@ -1,0 +1,75 @@
+{
+  "synset_id": "get_down.v.01",
+  "frame_id": 2,
+  "frame_text": "Something get_down",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'get down' describes a physical movement that results in a change of position, consistent with its hypernym 'move'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the verb frame, implicitly an animate entity given the definition 'lower (one's body)', which performs the action of moving itself."
+        },
+        {
+          "semantic_role": "direction.n.01",
+          "value_type": "downward.r.01",
+          "reasoning": "The 'down' component of 'get down' inherently specifies the downward direction of the motion."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' in the verb frame indicates the specific lower point or location the subject moves to or ends up at."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "kneel.v.01",
+      "reasoning": "The definition 'as by kneeling' specifies a particular manner or posture adopted during the act of lowering the body, distinguishing it from other ways of getting down."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of getting down is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'lower (one's body)' and the implied animate agent ('Something') suggest an intentional act driven by the agent's will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The base meaning of the verb does not inherently specify a tense; it is grammatically determined."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is get_downing PP' explicitly includes the progressive aspect ('is get_downing')."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'get down' does not carry inherent politeness; its politeness level is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of getting down is a neutral action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action of lowering one's own body (implied by 'Something' and 'one's body' in the definition) is typically a volitional and intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite physical occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Getting down, while a process, is typically treated as a single, bounded event or transition to a new state rather than a series of distinct repetitions."
+    }
+  }
+}

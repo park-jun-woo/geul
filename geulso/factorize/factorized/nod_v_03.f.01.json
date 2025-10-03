@@ -1,0 +1,59 @@
+{
+  "synset_id": "nod.v.03",
+  "frame_id": 1,
+  "frame_text": "Something nod",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes an involuntary change in the position of the head from upright to fallen forward.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' whose body performs the action of nodding, even if involuntarily."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "head.n.01",
+          "reasoning": "The specific body part (the head of 'Somebody') that undergoes the change of position."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "drowsiness.n.01",
+      "reasoning": "A core semantic component is that the head movement is a result of the state of drowsiness, as stated in the definition 'through drowsiness'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of nodding off is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The action is caused by drowsiness, implying a lack of conscious will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of nodding due to drowsiness is a neutral event in itself."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly states 'through drowsiness', indicating the action is involuntary and non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the head falling."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the head falling forward. While it can recur, the verb itself refers to one event."
+    }
+  }
+}

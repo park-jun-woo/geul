@@ -1,0 +1,65 @@
+{
+  "synset_id": "tap.v.08",
+  "frame_id": 1,
+  "frame_text": "Somebody tap PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The core of 'tap' in this sense is a form of locomotion, similar to walking, which involves a change in location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing the action of moving."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the frame indicates the path or location where the tapping movement occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "tapping_sound.n.01",
+      "reasoning": "The definition explicitly states 'with a tapping sound', indicating a specific auditory manner characteristic of this form of walking. The 'tapping sound' is an intrinsic part of the manner of motion, not a separate patient.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "foot.n.01",
+          "reasoning": "The tapping sound is produced by the contact of the agent's feet (implied) with a surface, making the feet the instrument."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of walking with a tapping sound is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tapping while walking is inherently neutral; any sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tap PP' implies a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action occurring."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Walking is an action composed of continuous, highly repetitive steps, each producing a tap, leading to high iterativity."
+    }
+  }
+}

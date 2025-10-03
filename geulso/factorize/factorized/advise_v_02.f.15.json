@@ -1,0 +1,57 @@
+{
+  "synset_id": "advise.v.02",
+  "frame_id": 15,
+  "frame_text": "Somebody send_word somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'advise' (defined as 'inform') describes an action that causes a change in the recipient's state of knowledge or awareness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who initiates the communication and imparts the information."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the one who receives the information and undergoes a change in their knowledge state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' (information or message) that is conveyed to the recipient, which is a core semantic component of 'advise'/'inform', even if represented indirectly by 'send_word' in this specific frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of advising (informing) is a direct communicative action, typically perceived directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by their will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of advising is semantically neutral; its positive or negative sentiment depends on the content and context of the advice."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody send_word somebody' explicitly indicates a volitional agent ('Somebody') performing the action of advising."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of advising is described as a definite occurrence or communication."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of communication or informing."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "rearm.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody rearm something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "armament.n.01",
+      "reasoning": "The verb describes causing a change in the state of being supplied with arms, from a previous state to a renewed state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of supplying arms, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is supplied with arms and whose state of armament changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "recurrence.n.01",
+      "value_type": "again.r.01",
+      "reasoning": "The prefix 're-' in 'rearm' inherently indicates that the action of arming is being performed for a second or subsequent time, signifying a recurrence of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rearming is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rearming is neutral; its sentiment depends on the context of why the rearming occurs."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rearming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the action implies a previous instance (captured by the 're-' sememe), the act of rearming itself is described as a single event, not a continuous repetition within that event."
+    }
+  }
+}

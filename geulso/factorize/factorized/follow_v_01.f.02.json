@@ -1,0 +1,58 @@
+{
+  "synset_id": "follow.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody follow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'to travel behind, go after, come after' explicitly describes a change in location or movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity initiating and performing the action of moving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' is the entity whose movement or position serves as a reference point for the agent's motion, making it the direct object of the following action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "spatial_relation.n.01",
+      "value_type": "behind.r.01",
+      "reasoning": "A core semantic component of 'follow' is the specific spatial relationship where the causal agent moves in a position 'behind' or 'after' the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of following is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of following itself carries no inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action, implying intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Following an entity involves continuous, highly repetitive movements or sustained action over a period, rather than a single discrete event."
+    }
+  }
+}

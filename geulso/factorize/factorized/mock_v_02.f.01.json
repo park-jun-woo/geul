@@ -1,0 +1,58 @@
+{
+  "synset_id": "mock.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody mock something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "imitation.n.01",
+      "reasoning": "The core of the verb 'mock' is to reproduce someone's behavior or looks, which is an action of imitation, as indicated by its hypernym 'imitate.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of imitating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the imitation and derision, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mockery.n.01",
+      "reasoning": "The definition explicitly states the imitation is performed 'with mockery and derision', indicating the specific negative manner, intent, and tone of the action. 'Mockery' captures this essence as a defining property of the imitation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mocking is a directly observable action or interaction between individuals."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state of affairs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies the agent acts with clear intention and will; the act of mocking is inherently deliberate."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'imitate with mockery and derision' unequivocally indicates a negative sentiment and intent associated with the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action, and mocking is an inherently intentional and deliberate act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or a concentrated episode of mocking, rather than a continuous or infinitely repetitive process by default. While it can be repeated, the verb itself usually refers to one instance of the act."
+    }
+  }
+}

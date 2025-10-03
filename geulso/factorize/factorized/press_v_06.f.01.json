@@ -1,0 +1,52 @@
+{
+  "synset_id": "press.v.06",
+  "frame_id": 1,
+  "frame_text": "Something is pressing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "aggregation.n.01",
+      "reasoning": "The definition 'crowd closely' and the hypernym 'mass.v.01' imply an action that causes entities to gather or come together into a dense group, which is a change in their state of aggregation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action of pressing, leading to crowding."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the verb frame typically specifies the spatial context, indicating where the crowding or pressing action takes place (e.g., 'press into the room')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pressing or crowding is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame suggests the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of crowding is neutral; its sentiment depends on context (e.g., a celebratory crowd vs. a claustrophobic crowd)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody press PP' indicates a volitional agent ('Somebody') initiating the action of pressing/crowding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'crowding closely' often involves continuous, highly repetitive movements or applications of pressure to achieve and maintain a dense state, indicating high iterativity rather than a single discrete event."
+    }
+  }
+}

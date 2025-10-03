@@ -1,0 +1,58 @@
+{
+  "synset_id": "prey.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody prey somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "advantage.n.01",
+      "reasoning": "The definition 'profit from' indicates that the verb describes an action leading to a change in advantage or resources for the causal agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame that performs the action and gains profit/advantage."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is exploited and from whom profit/advantage is taken, thus experiencing a negative change in their state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "exploitative.a.01",
+      "reasoning": "The definition explicitly specifies 'in an exploitatory manner', indicating this as a core, inherent characteristic of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of preying/exploiting is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Although the semantic core of exploitation often implies will, the subject 'Something' in the frame makes the agent's will ambiguous or neutral according to the prompt's rules."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'profit from in an exploitatory manner' inherently carries a negative connotation due to the act of exploitation."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something prey somebody' suggests a non-human or abstract agent ('Something'). While 'profit from' implies purpose, the 'Something' subject leads to a neutral interpretation of volitionality as per the prompt's rules."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of affairs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'preying' often describes an ongoing or repeated pattern of exploitation, rather than a single, isolated event."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "finance.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody finance something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "financial_support.n.01",
+      "reasoning": "The verb describes the act of providing or obtaining funds, resulting in a change in the financial support status of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively provides or secures the financial resources, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., project, organization) that receives the financial support or for which money is provided."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "money.n.01",
+          "reasoning": "The specific financial resource (money) that is transferred as part of the financing, central to the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of financing is typically an observable and documented transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with explicit will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of financing itself is neutral; its sentiment depends on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of financing, when described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of providing funds, although such acts can be repeated."
+    }
+  }
+}

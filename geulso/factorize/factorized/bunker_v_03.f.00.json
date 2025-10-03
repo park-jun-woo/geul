@@ -1,0 +1,64 @@
+{
+  "synset_id": "bunker.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody bunker something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'bunker' describes the act of moving cargo from one location to another, which constitutes a change in the state of its position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of transferring the cargo.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame, referring specifically to the cargo that undergoes the change of location.",
+          "value_type": "cargo.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The definition explicitly states 'from a ship', indicating the origin of the cargo for this specific type of transfer.",
+          "value_type": "ship.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The definition explicitly states 'to a warehouse', indicating the endpoint of the cargo's transfer.",
+          "value_type": "warehouse.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bunkering is a physical event that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action as a fact."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to transfer the cargo."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transferring cargo is inherently neutral; its positive or negative sentiment depends entirely on the broader context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, as 'bunker' in this sense is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of transfer, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of transferring a batch of cargo from a ship to a warehouse, rather than continuous, highly repetitive sub-events."
+    }
+  }
+}

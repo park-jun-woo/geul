@@ -1,0 +1,63 @@
+{
+  "synset_id": "gazette.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody gazette that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information_state.n.01",
+      "reasoning": "The definition 'publish' implies a change in the accessibility or public status of information, from not published to published.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of publishing the information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the information or proposition that is being published in the gazette."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "publication_method.n.01",
+      "value": "in a gazette",
+      "reasoning": "The verb 'gazette' inherently specifies the medium or method of publication as a gazette, which is a specific manner of publishing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of publishing is a directly observable event or the result (the published gazette) is direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to publish."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of publishing is neutral; the content being published determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of publishing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of publishing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single event of publishing a specific piece of information."
+    },
+    "Aspect": {
+      "value": 4,
+      "reasoning": "The verb focuses on the result, i.e., that the information *has been* published in a gazette, making it public."
+    }
+  }
+}

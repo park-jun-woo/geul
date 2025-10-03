@@ -1,0 +1,64 @@
+{
+  "synset_id": "cauterize.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody cauterize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb describes an alteration to the physical state of tissue (e.g., from normal to burned, seared, or frozen).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the cauterization, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (tissue) that undergoes the change in physical state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "burning_searing_or_freezing",
+      "reasoning": "The definition specifies the exact method of alteration applied to the tissue: by burning, searing, or freezing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "thermal_or_chemical_agent",
+      "reasoning": "The definition explicitly details the instruments or agents (hot iron, electric current, or caustic agent) used to perform the cauterization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cauterization is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cauterization, often a medical procedure, is neutral in inherent sentiment, despite involving harsh methods."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cauterize something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cauterization is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, focused event of treatment rather than continuous or highly repetitive action."
+    }
+  }
+}

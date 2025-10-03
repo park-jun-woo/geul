@@ -1,0 +1,60 @@
+{
+  "synset_id": "sail.v.01",
+  "frame_id": 3,
+  "frame_text": "Something sail something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'sail' describes a traversal, which is a change in the location of the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity (typically a vessel) that performs the motion.",
+          "value_type": "vessel.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the body of water being traversed.",
+          "value_type": "body_of_water.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "A core semantic component of this sense of 'sail' is that the movement specifically occurs on or across a body of water, as stated in the definition 'traverse or travel on (a body of water)'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sailing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something sail something' implies an inanimate subject (e.g., a vessel) as the primary agent, which does not possess will or intention in this context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sailing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something sail something' typically refers to an inanimate object (a vessel) as the subject, which cannot perform a volitional act. The act is non-volitional for the 'Something' itself."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sailing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sailing, as a form of travel, involves continuous, repetitive motion over a duration, similar to 'run' where there is high repetition of steps."
+    }
+  }
+}

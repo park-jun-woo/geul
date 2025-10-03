@@ -1,0 +1,70 @@
+{
+  "synset_id": "tout.v.01",
+  "frame_id": 0,
+  "frame_text": "Something tout something Adjective/Noun",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.02",
+      "reasoning": "The definition 'advertize' indicates a core action of communicating or publicizing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that performs the act of advertising."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the object or entity being advertised."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "evaluation.n.01",
+      "value_type": "positive.a.01",
+      "reasoning": "The definition 'advertize in strongly positive terms' directly implies a positive evaluation as an inherent quality of the communication."
+    },
+    {
+      "verb_type": "resultant_state",
+      "verb_property": "attribute.n.01",
+      "reasoning": "The 'Adjective/Noun' in the frame signifies a quality or classification that is attributed to the patient as a result of the touting.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Adjective/Noun' serves as a descriptor or a quality attributed to the patient by the act of touting.",
+          "value_type": "descriptor.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of touting is typically a directly observable event of communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame, representing the agent, implies a non-volitional or abstract entity (e.g., a report, a market trend) that doesn't possess will in the human sense."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'advertize in strongly positive terms' explicitly states a positive inherent sentiment for the action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s...' indicates a non-volitional agent (e.g., a report, a marketing strategy acting impersonally), making the action non-volitional in this context."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of touting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Advertising 'in strongly positive terms' often implies a sustained, repeated, or ongoing effort rather than a single, instantaneous event. Therefore, it indicates high iterativity."
+    }
+  }
+}

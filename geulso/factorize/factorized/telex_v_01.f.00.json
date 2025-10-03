@@ -1,0 +1,59 @@
+{
+  "synset_id": "telex.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody telex somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb 'telex' describes the act of transmitting information, which causes a change in the location or accessibility state of that information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the transfer of information, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' that is transmitted, which is a piece of information or a message."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "telex.n.01",
+      "reasoning": "The definition 'communicate by telex' specifies a particular instrument or method ('telex') as a core characteristic of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sending a telex is a directly performed and observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates an agent acting with will and intention to communicate."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sending a telex is neutral; its sentiment depends on the content and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of telexing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of sending a message via telex."
+    }
+  }
+}

@@ -133,7 +133,6 @@ CREATE INDEX idx_entity_aliases_entity_id ON entity_aliases(entity_id);
 
 -- 텍스트(라벨, 별칭)를 기준으로 엔티티를 검색하는 경우를 위한 인덱스 (예: '소크라테스'라는 라벨을 가진 엔티티 찾기)
 CREATE INDEX idx_entity_labels_label ON entity_labels(label);
-CREATE INDEX idx_entity_aliases_alias ON entity_aliases(alias);
 
 
 -- ### 5. triples 테이블 인덱스 (가장 중요) ###
@@ -174,5 +173,6 @@ ON entity_aliases (entity_id, language, md5(alias), alias_order);
 
 -- 2. idx_entity_aliases_alias 인덱스 재생성
 -- alias 텍스트 값으로 엔티티를 검색하기 위한 해시 인덱스를 생성합니다.
-CREATE INDEX idx_entity_aliases_alias_hash
-ON entity_aliases (md5(alias));
+CREATE INDEX idx_entity_aliases_alias_hash ON entity_aliases (md5(alias));
+
+CREATE INDEX idx_entity_labels_label_lower ON entity_labels (LOWER(label));

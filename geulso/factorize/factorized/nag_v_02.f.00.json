@@ -1,0 +1,58 @@
+{
+  "synset_id": "nag.v.02",
+  "frame_id": 0,
+  "frame_text": "Something nag somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "mental_state.n.01",
+      "reasoning": "The verb describes causing a change in the mental state of the patient, specifically leading to a state of worry or mental agitation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the non-volitional entity that causes the persistent worry or disturbance."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the individual who experiences the persistent worry or mental agitation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "persistent.a.01",
+      "reasoning": "The definition explicitly includes 'persistently', indicating that the worry or mental agitation is continuous or recurring, which is an inherent manner of this verb's action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The state of being worried or caused to worry can be directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the subject in the frame implies no intentional will driving the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'nag' and its definition 'worry' inherently carry a negative connotation, as they describe an undesirable mental state or experience."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the 'Something' is a non-volitional entity causing the action, and the 'somebody' is the experiencer, not a volitional agent of the nagging."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'persistently' in the definition, and the nature of 'nagging', imply continuous or high repetition of the worrying or disturbance, rather than a single event."
+    }
+  }
+}

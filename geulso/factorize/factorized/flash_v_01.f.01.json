@@ -1,0 +1,58 @@
+{
+  "synset_id": "flash.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody flash something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "light_emission.n.01",
+      "reasoning": "The verb describes an event where an agent causes an object to emit light.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or causes the act of flashing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is caused to emit light, undergoing the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_pattern.n.01",
+      "value_type": "intermittent.a.01",
+      "reasoning": "The definition explicitly includes 'intermittently', specifying the non-continuous, on-and-off nature of the light emission."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of flashing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of flashing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody flash something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of flashing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'intermittently' in the definition implies high repetition of distinct light emissions (flashes)."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "synset_id": "drag_up.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody dredge_up that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes the act of bringing specific information to attention or discussion, as per 'mention something'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of mentioning, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the specific information or event being mentioned."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "effortful.a.01",
+      "reasoning": "The phrasal verb 'drag up' implies that the act of mentioning is done with effort or reluctance, bringing something out of obscurity or from being intentionally suppressed."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "polarity.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The definition specifies the content as 'unpleasant', indicating that the object of the verb inherently carries a negative sentiment."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "time_reference.n.01",
+      "value_type": "past.n.01",
+      "reasoning": "The definition specifies the content as 'from the past', indicating that the object of the verb inherently refers to a past event or information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mentioning is a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'dragging up' itself is neutral in sentiment, though the content it refers to is explicitly negative (captured in sememes)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody dredge_up...' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of mentioning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of mentioning something."
+    }
+  }
+}

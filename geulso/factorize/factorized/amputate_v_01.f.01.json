@@ -1,0 +1,58 @@
+{
+  "synset_id": "amputate.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody cut_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attachment.n.01",
+      "reasoning": "The verb 'amputate' signifies a transition from a state of being attached (e.g., a limb to a body) to being detached, which is a change in the state of attachment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who intentionally performs the surgical removal, acting as the initiator of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame, which refers to the body part that undergoes the process of detachment."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "surgical_procedure.n.01",
+      "reasoning": "The definition 'remove surgically' explicitly specifies the manner or method by which the removal is performed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Amputation is a physical act that is typically a direct and observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary function is to describe an action, fitting a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the verb frame implies a strong will or intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the outcome of an amputation can be profoundly negative for the patient, the medical act itself, when performed as necessary (e.g., to save a life), is neutrally described without inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cut_off something' clearly indicates a volitional agent performing the action of amputation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Amputation typically refers to a single, distinct event of removal, not a repetitive action."
+    }
+  }
+}

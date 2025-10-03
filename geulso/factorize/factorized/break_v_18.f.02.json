@@ -1,0 +1,66 @@
+{
+  "synset_id": "break.v.18",
+  "frame_id": 2,
+  "frame_text": "Something is break_awaying PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "continuity.n.01",
+      "reasoning": "The verb's definition 'interrupt a continued activity' describes a change from a state of ongoing activity to a state of cessation or discontinuity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of breaking away, which in turn causes the interruption.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'continued activity' that is affected by the interruption, as implied by the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "separation.n.01",
+      "reasoning": "The 'break_awaying' component of the verb frame specifies the manner in which the interruption occurs, implying a physical or abstract separation.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' (Prepositional Phrase) indicates the entity or location from which the 'Something' separates, initiating the 'break away'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of interrupting or breaking away is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not inherently imply an agent with will, as it can be inanimate. Thus, Modality is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of interrupting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is break_awaying PP' implies a non-volitional subject ('Something') as per the rule, as the action can happen without conscious intent (e.g., 'The branch broke away')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of interruption or breaking away."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'interrupt' typically refers to a single event of stopping an activity, even if the 'breaking away' is described progressively."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "litter.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody litter PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "order.n.01",
+      "reasoning": "The verb 'litter' describes causing a change in the state of a place, specifically from an ordered or clean state to a messy one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of strewing garbage and making a place messy, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase, indicating a location) that undergoes the change in its state of orderliness, becoming messy."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "garbage.n.01",
+          "reasoning": "The verb 'litter' inherently refers to scattering 'garbage' or waste, which is the material (theme) being strewn around."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of littering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of littering is generally considered a negative action, making a place messy with garbage."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of littering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'strewing garbage around' suggests a process involving multiple, continuous, and repetitive small actions of scattering items, thus having high iterativity."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "tread.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody tread something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "support.n.01",
+      "reasoning": "The verb's primary meaning is to cause an object to be braced or supported, implying a change from an unsupported to a supported state, as indicated by the hypernym 'brace'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who intentionally performs the action of bracing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., an archer's bow) that is made stable or supported by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "foot_pressure.n.01",
+      "reasoning": "The definition 'by pressing the foot against the center' specifies the distinct manner in which this bracing action is performed, which is central to this particular sense of 'tread'.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "foot.n.01",
+          "reasoning": "The 'foot' is explicitly mentioned in the definition as the instrument used to apply pressure."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "center.n.01",
+          "reasoning": "The action involves applying pressure 'against the center' of the braced object, specifying a key spatial aspect of the manner."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of treading/bracing is a physical and directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with intention and will to brace the object."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bracing is a neutral action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tread something' explicitly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of treading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Bracing a bow is typically a single, discrete event performed to prepare it."
+    }
+  }
+}

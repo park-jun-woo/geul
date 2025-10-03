@@ -1,0 +1,59 @@
+{
+  "synset_id": "underspend.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody underspend",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'underspend' implies the act of 'spending,' which is a transfer or change in possession of resources.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of spending, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "resource.n.01",
+          "reasoning": "The implied resources (e.g., money, time, budget) that are being expended, even though not explicitly stated in this intransitive frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "below_standard.r.01",
+      "reasoning": "The 'under-' prefix and the definition 'at less than the normal rate' indicate that the action of spending is performed to a degree or amount that is below an expected, normal, or standard level."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spending, even at a certain rate, is typically a directly observable or quantifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Underspending itself is a neutral act; its positive or negative sentiment depends on the specific context (e.g., saving money vs. failing to meet needs)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody underspend' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'at less than the normal rate' implies a continuous or frequently repeated pattern of behavior over time, rather than a single discrete event."
+    }
+  }
+}

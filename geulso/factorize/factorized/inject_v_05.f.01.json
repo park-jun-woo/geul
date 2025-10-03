@@ -1,0 +1,62 @@
+{
+  "synset_id": "inject.v.05",
+  "frame_id": 1,
+  "frame_text": "Somebody inject somebody with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "nutrition.n.01",
+      "reasoning": "The definition 'feed intravenously' implies a change in the nutritional or internal substance state of the recipient's body, consistent with the hypernym 'feed'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of injecting, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the injection and whose internal state is affected by the feeding."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The 'something' (substance) that is introduced into the body during the injection."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "intravenous_method.n.01",
+      "reasoning": "The adverb 'intravenously' is an explicit and essential part of the definition, specifying the method of feeding for this particular sense of 'inject'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of injecting is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody injects' implies the agent acts with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of injecting is neutral; its sentiment depends on the substance and purpose (e.g., medicine vs. poison)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of injection, rather than inherent repetition."
+    }
+  }
+}

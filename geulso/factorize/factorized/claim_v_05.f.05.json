@@ -1,0 +1,58 @@
+{
+  "synset_id": "claim.v.05",
+  "frame_id": 5,
+  "frame_text": "Somebody take something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The verb describes an action that results in a change of control or possession over an entity, as indicated by 'take' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of claiming/taking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose control or possession changes due to the claiming."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "consequence.n.01",
+      "value_type": "undesirable.a.01",
+      "reasoning": "The definition explicitly states that the 'taking' is 'as an undesirable consequence of some event or state of affairs', indicating an inherent negative property of the action's outcome or context."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of claiming or taking is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates that the action is driven by an agent's will, even if compelled by circumstances."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'undesirable consequence', marking the inherent sentiment as negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody take something' explicitly includes a 'Somebody' as the grammatical agent, which by rule implies a volitional action, despite the 'undesirable consequence' aspect potentially suggesting external compulsion."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of taking/claiming."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of taking/claiming, without inherent repetition."
+    }
+  }
+}

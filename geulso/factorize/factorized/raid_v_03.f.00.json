@@ -1,0 +1,59 @@
+{
+  "synset_id": "raid.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody raid something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The verb 'raid' in this context describes a transition in the state of control or ownership of a company.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively initiates and executes the takeover by acquiring controlling interest."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "company.n.01",
+          "reasoning": "The 'something' (company) that undergoes the change of control/ownership."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "stock_acquisition.n.01",
+      "reasoning": "The definition specifies the method of takeover as 'by buying a controlling interest of its stock', indicating a financial acquisition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A corporate raid is an observable event, typically reported as direct experience or factual occurrence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by the agent's strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "While a legal financial transaction, the term 'raid' inherently carries a connotation of aggression, hostility, or being an unwelcome takeover, giving it a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody raid something' clearly indicates a volitional agent performing the action of taking over a company."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is carried out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A corporate takeover, or 'raid', is typically a single, distinct event in its completion, not a continuous or repetitive action."
+    }
+  }
+}

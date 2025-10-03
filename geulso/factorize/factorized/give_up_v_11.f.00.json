@@ -1,0 +1,58 @@
+{
+  "synset_id": "give_up.v.11",
+  "frame_id": 0,
+  "frame_text": "Somebody allow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "score.n.01",
+      "reasoning": "The verb describes an action that causes a change in the game's score by allowing the opponent to score, indicating a transition in the state of the score.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (player or team) whose action or inaction leads to the score for the opponent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "score.n.01",
+          "reasoning": "The 'something' that is given up, which refers to the points or runs scored by the opposing team."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "team.n.01",
+          "reasoning": "The 'other (baseball) team' that benefits from the score, as explicitly mentioned in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Events in a baseball game, such as giving up a score, are typically observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action of the agent ('Somebody') is involved, implying a level of will or agency, even if the outcome (giving up a score) is unintended. The player's actions that lead to the score are volitional."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'give up a score' is inherently a negative outcome for the team performing the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody give_up something' implies an agent (a player) performing an action (e.g., pitching, fielding) which is volitional, even if the consequence of 'giving up a score' is undesired."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of giving up a score is a definite event in a game."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete instance of allowing an opponent to score."
+    }
+  }
+}

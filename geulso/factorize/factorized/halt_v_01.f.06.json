@@ -1,0 +1,54 @@
+{
+  "synset_id": "halt.v.01",
+  "frame_id": 6,
+  "frame_text": "Something arrest somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb 'halt' in this context means 'cause to stop', indicating a change from a state of activity (or motion) to a state of inactivity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "object.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the halt. While it's a cause, being 'Something' suggests it's not a volitional agent but still the initiator of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' in the verb frame is the entity whose activity is halted, thus undergoing the change of state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of halting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame implies a non-agentive cause without inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of halting is neutral; its sentiment depends on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something arrest somebody' explicitly states a non-volitional agent ('Something') causing the action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of an event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of bringing something to a stop, rather than a repetitive action."
+    }
+  }
+}

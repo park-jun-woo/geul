@@ -1,0 +1,64 @@
+{
+  "synset_id": "hose.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody hose_down somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "wetness.n.01",
+      "reasoning": "The verb describes the act of applying water to something, causing a change in its state from less wet to more wet, or from dry to wet.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of watering, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that receives the water and undergoes the change in wetness, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "hose.n.01",
+      "reasoning": "The definition 'water with a hose' explicitly states the instrument used, making it a core semantic component distinguishing this verb from general 'watering'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "thoroughly.r.01",
+      "reasoning": "The particle 'down' in 'hose down' typically indicates a comprehensive, complete, or forceful application of water, implying thoroughness."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hosing down is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hosing is neutral; its sentiment depends on the context (e.g., cleaning vs. punishment)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hosing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'hose down' generally describes a single, complete instance of applying water, even if it involves a continuous stream over a short duration."
+    }
+  }
+}

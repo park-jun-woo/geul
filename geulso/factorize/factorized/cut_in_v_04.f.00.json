@@ -1,0 +1,74 @@
+{
+  "synset_id": "cut_in.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody cut_in",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "interruption.n.01",
+      "reasoning": "The definition explicitly states the verb means to 'interrupt' an activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame who performs the action of interrupting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "social_interaction.n.01",
+          "reasoning": "The dancing activity or social interaction that is the direct object of the interruption."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "partnership.n.01",
+      "reasoning": "The interruption is performed with the specific goal of changing an existing dancing partnership and forming a new one, indicating a resultant change in social state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who, by interrupting, causes the formation of a new dancing partnership."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "One of the individuals from the original couple who is taken as the new dancing partner."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "dancing_couple.n.01",
+          "reasoning": "The original dancing couple from which one partner is taken, serving as the source of the partnership disruption."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cutting in is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to interrupt and take a partner."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cutting in is context-dependent for its sentiment, and is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cut_in' explicitly indicates a volitional agent, and the definition 'in order to take' confirms intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of interrupting a couple."
+    }
+  }
+}

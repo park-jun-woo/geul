@@ -1,0 +1,58 @@
+{
+  "synset_id": "marinade.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody marinade something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'marinade' describes causing a change in the internal state, flavor, or texture of 'something' by soaking it in a liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of marinading, initiating the process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (typically food) that undergoes the change in condition, absorbing flavors or softening."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid_substance.n.01",
+          "value": "marinade.n.01",
+          "reasoning": "The 'marinade' (a liquid substance) is the specific medium or agent used to effect the desired change in the patient, as implied by the definition 'soak in marinade'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of marinading is a directly observable and verifiable action in cooking."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of marinading itself is neutral; its outcome (e.g., improved flavor) can be positive, but the action is not inherently charged."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody marinade something' explicitly denotes an intentional, volitional act by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of marinading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Marinading is typically a single, continuous process over a period of time, rather than a sequence of discrete repetitive actions. Even though it involves duration, it's considered one instance of the 'marinading' event."
+    }
+  }
+}

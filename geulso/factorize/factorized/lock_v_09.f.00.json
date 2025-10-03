@@ -1,0 +1,73 @@
+{
+  "synset_id": "lock.v.09",
+  "frame_id": 0,
+  "frame_text": "Somebody lock",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The definition 'build locks' describes the creation and bringing into existence of a physical structure.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame who performs the action of building."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'locks' that are created or built, as per the definition of the verb."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "facilitation.n.01",
+      "reasoning": "The definition explicitly states 'in order to facilitate the navigation of vessels', which is a core teleological aspect of this verb sense.",
+      "participants": [
+        {
+          "semantic_role": "beneficiary.n.01",
+          "reasoning": "The 'vessels' that are intended to benefit from the facilitation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "navigation.n.01",
+          "reasoning": "The 'navigation' which is the abstract entity being facilitated."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'locks' themselves serve as the means or instrument to achieve the facilitation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of building locks is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to build."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of building locks for navigation is generally neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lock' indicates a volitional agent performing the intentional act of building."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of building is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Building a lock typically refers to a single, often large-scale, construction project rather than a continuously repeated minor action."
+    }
+  }
+}

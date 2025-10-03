@@ -1,0 +1,58 @@
+{
+  "synset_id": "tomahawk.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody tomahawk something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "reasoning": "The definition 'kill' indicates a fundamental change in the state of being from alive to not alive.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who intentionally causes the death."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state, i.e., is killed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "tomahawk.n.01",
+      "reasoning": "The verb 'tomahawk' inherently specifies the instrument (a tomahawk) used to perform the action of killing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of killing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the act of 'killing' imply a strong will or intention behind the action, as supported by the hypernym's definition ('intentionally or knowingly')."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'killing' is universally associated with a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action, and 'kill' is typically an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of causing death."
+    }
+  }
+}

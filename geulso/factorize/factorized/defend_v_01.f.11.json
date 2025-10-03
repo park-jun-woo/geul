@@ -1,0 +1,54 @@
+{
+  "synset_id": "defend.v.01",
+  "frame_id": 11,
+  "frame_text": "Something support something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "advocacy.n.01",
+      "reasoning": "The definition 'argue or speak in defense of' describes an active effort to advocate for or protect something/someone through verbal means. 'Advocacy' captures this core meaning.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame (interpreting 'support' as the verb 'defend') is the entity that performs or constitutes the act of defense/advocacy. This could be a person, an argument, or evidence.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity, idea, or person being defended or advocated for.",
+          "value_type": "entity.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'arguing or speaking' in defense is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the frame starts with 'Something', the agent is not necessarily volitional (e.g., 'The evidence defends him'). Therefore, 'No will' is the appropriate default."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of defending itself is neutral. The positive or negative sentiment depends on the context and what is being defended."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "According to the rule, 'If the `verb_frame` contains 'Something', it is likely non-volitional'. The agent in this frame is a non-specific 'Something', implying a non-volitional or unintentional act of defense, such as 'The truth defends him'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'defend' implies a firm stance or certainty in the position being presented or protected."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act or instance of defense or advocacy, though it can be part of a series of such acts."
+    }
+  }
+}

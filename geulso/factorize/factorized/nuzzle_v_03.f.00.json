@@ -1,0 +1,58 @@
+{
+  "synset_id": "nuzzle.v.03",
+  "frame_id": 0,
+  "frame_text": "Something nuzzle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'dig out' describes an action that causes an object to move from one location (embedded or contained) to another (removed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame, implicitly an animal, that actively performs the digging and moving action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is extracted or moved from its original location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "snout.n.01",
+      "reasoning": "The definition explicitly states that the action is performed 'with the snout', indicating the specific tool or body part used."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of digging out is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' (an animal) performing the action 'with the snout' implies a deliberate and willful act for a specific purpose (digging out)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of digging out is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action of digging out with a snout is an intentional and purposeful act performed by the animal agent, despite the general 'Something' rule."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action, not a speculative one."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Digging, especially to 'dig out', typically involves continuous and repetitive actions (e.g., repeated pushes with the snout) to achieve the goal, hence high repetition."
+    }
+  }
+}

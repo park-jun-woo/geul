@@ -1,0 +1,58 @@
+{
+  "synset_id": "drag_down.v.01",
+  "frame_id": 4,
+  "frame_text": "Something weigh_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "pressure.n.02",
+      "reasoning": "The definition 'exert a force with a heavy weight' describes a causal action that changes the state of the patient by applying pressure or force.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, which is the entity (the heavy weight itself or its source) that exerts the force."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame, which is the entity that experiences the application of force or weight, undergoing a change in its state of pressure."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "heavy_weight.n.01",
+      "reasoning": "The definition explicitly specifies 'with a heavy weight' as the instrument or means by which the force is exerted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exerting force with a heavy weight is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates a non-agentive entity, hence no will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exerting force itself is neutral; its consequences might be positive or negative, but the action itself is not inherently charged."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional subject, as 'Something' cannot act with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of exerting force."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'weigh_down' (as implied by the frame) and 'exert a force with a heavy weight' typically describe a continuous or sustained application of pressure rather than a single discrete event, thus having high repetition (continuous application)."
+    }
+  }
+}

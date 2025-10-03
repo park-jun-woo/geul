@@ -1,0 +1,69 @@
+{
+  "synset_id": "tree.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody tree something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes causing an animal to change its location by moving it into a tree.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of chasing and causing the relocation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (an animal) that undergoes the change of location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "tree.n.01",
+          "reasoning": "The specific inherent destination of the patient, which is a tree, as implied by the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "chase.v.01",
+      "reasoning": "A core component of 'tree' is the manner of causing the movement, specifically 'chasing', as described in the definition and hypernyms."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "upward.a.01",
+      "reasoning": "The definition explicitly states 'up a tree', indicating a necessary upward component of the movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'treeing' an animal is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'treeing' is neutral; its sentiment depends on context (e.g., hunting, rescue, sport)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of 'treeing' is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of forcing an animal into a tree, even if the preceding chase might be continuous."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "poison.v.05",
+  "frame_id": 0,
+  "frame_text": "Somebody poison somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb 'poison' describes an action that causes a negative alteration or change in the health or well-being of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally administers the poison, initiating the harmful action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the poison and whose health state is negatively affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "poison.n.01",
+      "reasoning": "The specific substance and method used to enact the change in health is 'poison', which is intrinsic to the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of administering poison is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the verb frame implies that the action is carried out with deliberate will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of poisoning is inherently harmful and thus carries a strong negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates that the action is performed by a volitional agent with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Administering poison is typically understood as a single, discrete event intended to achieve a specific outcome, not an inherently repetitive action."
+    }
+  }
+}

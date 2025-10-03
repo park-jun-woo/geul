@@ -1,0 +1,59 @@
+{
+  "synset_id": "guess.v.02",
+  "frame_id": 2,
+  "frame_text": "Somebody hazard something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "statement.n.01",
+      "reasoning": "The definition 'put forward, of a guess' describes an action of verbalizing or presenting a proposition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of putting forward the guess, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'something' that is put forward, which is a guess and thus a type of proposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "risk.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The verb 'hazard' and the phrase 'in spite of possible refutation' intrinsically add a component of high risk or uncertainty associated with the proposition being put forward."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'hazarding' a guess is typically a directly observed or experienced event of communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to put forward the guess."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hazarding a guess is neutral; the content of the guess or its outcome might carry sentiment, but not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hazard something' indicates a volitional agent performing the action of putting forward a guess."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "The verb 'hazard' (a guess) inherently implies a high degree of speculation or low certainty about the truthfulness or correctness of the proposition being stated, as reinforced by 'in spite of possible refutation'."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of putting forward a guess."
+    }
+  }
+}

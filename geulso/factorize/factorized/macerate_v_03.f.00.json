@@ -1,0 +1,81 @@
+{
+  "synset_id": "macerate.v.03",
+  "frame_id": 0,
+  "frame_text": "Something macerate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "softness.n.01",
+      "reasoning": "The verb describes causing an object to become softer, which is a change in its physical state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which causes the softening."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the softening."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "result_state": "disintegrated.a.01",
+      "reasoning": "The verb describes causing an object to lose its integrity and disintegrate, which is a change in its physical state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which causes the disintegration."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the disintegration."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "manner.n.01",
+      "value_type": "steeping.n.01",
+      "reasoning": "The definition specifies that the action is 'usually by steeping in liquid', indicating a characteristic manner of execution.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The definition specifies 'liquid' as the medium used in the steeping process."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Maceration is a physical process that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something' (inanimate), implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of macerating is a neutral physical process; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (inanimate 'Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Maceration is a continuous process unfolding over time, involving sustained action leading to a result, which aligns with high iterativity for the duration of the process."
+    }
+  }
+}

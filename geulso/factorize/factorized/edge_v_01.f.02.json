@@ -1,0 +1,58 @@
+{
+  "synset_id": "edge.v.01",
+  "frame_id": 2,
+  "frame_text": "Something is edgeing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'advance' directly implies a change in location, which is a change of motion state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' is the entity that undergoes the change of location, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame typically specifies the direction or endpoint of the advancement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "slow.a.01",
+      "reasoning": "The definition explicitly states 'slowly, as if by inches', indicating a characteristic manner of movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of edging is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is edgeing PP' lacks an agent capable of will, and 'edge' in this context describes a movement that may not be volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving slowly is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is edgeing PP' with a non-agentive subject 'Something' indicates a non-volitional action or movement."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of edging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'as if by inches' implies a continuous, highly repetitive series of small movements, indicative of high iterativity."
+    }
+  }
+}

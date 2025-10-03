@@ -1,0 +1,58 @@
+{
+  "synset_id": "overfeed.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody overfeed something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "satiation.n.01",
+      "reasoning": "The verb describes the action of providing food, leading to a change in the recipient's state regarding satiation or nourishment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of feeding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the food and undergoes the change in satiation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "excess.n.01",
+      "reasoning": "The 'over-' prefix and the definition 'feed excessively' indicate that the quantity of food given is beyond a normal or healthy amount, signifying an excessive property."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of overfeeding is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with clear intention and will to feed, even if the 'excessive' part might be unintentional in some contexts, the act of feeding itself is volitional."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'excessively' component implies a negative outcome or undesirable nature of the action, as overfeeding is generally harmful."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action of feeding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of feeding excessively."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'overfeed' typically describes a single instance of giving an excessive amount of food, or a cumulative process treated as a single event, rather than continuous repetition. If repetition were implied, it would often be explicitly stated (e.g., 'continually overfeeds')."
+    }
+  }
+}

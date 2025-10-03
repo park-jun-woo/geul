@@ -1,0 +1,59 @@
+{
+  "synset_id": "dimple.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody dimple",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb describes the action of causing an indentation (dimple) to appear, which is a physical change in the shape of the face.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of smiling, leading to dimples."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "face.n.01",
+          "reasoning": "The part of the agent's body (face or cheeks) that undergoes the change in shape by forming indentations."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "smile.v.01",
+      "reasoning": "The definition explicitly states that dimples are produced 'while smiling', indicating an intrinsic manner or co-occurring condition of the action, and 'smile.v.01' is also a hypernym."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dimpling is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will, as smiling is generally a volitional act."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical act of dimpling is neutral; any positive sentiment arises from the associated act of smiling, not the dimpling itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the act of smiling (which causes dimples) indicates a volitional action on the part of the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'dimple' refers to the occurrence of dimples in response to a smile. While a smile can be sustained, the 'dimpling' itself refers to the initiation or presence of these indentations for a given instance of smiling, not distinct, rapid repetitions."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "superinfect.v.01",
+  "frame_id": 1,
+  "frame_text": "Something superinfect something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "infection.n.01",
+      "reasoning": "The verb describes the act of causing a cell or organism to transition to an infected state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., microorganism, disease) that causes the infection, as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., infected cell) that undergoes the change in health state, as per the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "additional_or_secondary",
+      "reasoning": "The definition 'infect (an infected cell) further' or 'infect a cell already containing similar organisms' indicates that this is an additional or secondary infection building upon a pre-existing state."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Medical events like superinfection are typically observed, diagnosed, and studied directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame, referring to a disease or microorganism, does not possess will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Superinfection, as a medical condition, is inherently negative due to its detrimental effects on health."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (a disease or organism) performing the action, as it cannot act with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of infection."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'superinfect' describes a single event of causing an additional infection, even if the underlying condition is ongoing."
+    }
+  }
+}

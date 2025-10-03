@@ -1,0 +1,64 @@
+{
+  "synset_id": "erupt.v.05",
+  "frame_id": 0,
+  "frame_text": "Something belch",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The definition 'become active' indicates a transition from an inactive to an active state for the subject.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes this change of state and becomes active."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "emission.n.01",
+      "reasoning": "This sememe captures the specific manifestation of the activity, which is the 'spewing forth lava and rocks', indicating an act of emission.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "material.n.01",
+          "reasoning": "The 'lava and rocks' are the materials that are expelled, functioning as the patient of the emission."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' (e.g., a volcano) is the origin from which the materials are emitted."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Eruptions are typically directly observable phenomena."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Eruptions are natural phenomena and do not involve an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of erupting itself is neutral; its consequences might be negative or positive depending on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something erupt' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, factual occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "While an eruption is a single event, the 'spew forth' component implies a continuous and often repetitive release of material over a period, indicating high internal iterativity within the event, similar to 'running'."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "armor.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody armour somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "equip.v.01",
+      "reasoning": "The verb 'armor' is a specific instance of the more general action of 'equipping' someone.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of armoring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the armor and undergoes the change of being equipped."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "armor.n.01",
+          "reasoning": "The specific item ('armor') that is provided to the patient, which is central to the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of armoring is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of armoring is neutral; its sentiment depends on context or the purpose of the armor."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of armoring is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of equipping someone with armor, rather than continuous repetition."
+    }
+  }
+}

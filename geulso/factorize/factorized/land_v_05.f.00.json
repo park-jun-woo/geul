@@ -1,0 +1,57 @@
+{
+  "synset_id": "land.v.05",
+  "frame_id": 0,
+  "frame_text": "Somebody land something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The definition 'deliver (a blow)' implies causing a physical impact or contact, which is a change of state from not being in contact to being in contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of delivering the blow."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "blow.n.01",
+          "reasoning": "The 'something' in the frame, which is specified as a 'blow' in the definition, and undergoes the change of state by making contact."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The entity upon which the blow lands, implied by the 'PP' (prepositional phrase) in the frame, indicating the target or receiver of the blow."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of landing a blow is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The direct object 'blow' inherently carries a negative connotation, indicating harm or forceful impact."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'land (a blow)' typically refers to a single instance of delivering an impact."
+    }
+  }
+}

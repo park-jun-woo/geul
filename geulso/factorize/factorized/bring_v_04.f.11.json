@@ -1,0 +1,76 @@
+{
+  "synset_id": "bring.v.04",
+  "frame_id": 11,
+  "frame_text": "Somebody get something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The 'get' in the verb frame and the 'go or come after and... take back' in the definition indicate that the agent obtains possession of the item, which is a change of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of obtaining the object.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of possession.",
+          "value_type": "entity.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The core of 'bring' and 'take back' in the definition refers to causing an object to change its location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively causes the object to move.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is moved from one location to another.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame specifies the endpoint or target location for the object being brought.",
+          "value_type": "location.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of bringing/getting something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject of 'get' implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bringing or getting itself is neutral; its sentiment depends on context or the item being brought."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody get something PP' clearly indicates a volitional agent performing the action of fetching and bringing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of bringing/getting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of fetching and bringing an item."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "teach.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody instruct somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'impart skills or knowledge' describes a transfer, which is a change in the state of who possesses the skills/knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of imparting skills or knowledge; the teacher."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the skills or knowledge are imparted; the student."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "knowledge.n.01",
+          "reasoning": "The implicit 'something' that is imparted, referring to the skills or knowledge itself."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of teaching is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of teaching is neutral; the content taught or the context can determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody teach somebody' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of teaching is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of imparting skills or knowledge. While teaching can be ongoing, the basic semantic unit is a single act."
+    }
+  }
+}

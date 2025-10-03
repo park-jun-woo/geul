@@ -1,0 +1,57 @@
+{
+  "synset_id": "reattribute.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody reattribute something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "source.n.03",
+      "reasoning": "The verb 'reattribute' describes the action of causing a change in the ascribed source or origin of something, moving it from a previous source to a new one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the volitional act of changing the attribution."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose source or origin is being changed."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "source.n.03",
+          "reasoning": "The 'another source' specified in the definition, representing the new target of attribution. This is an inherent part of the verb's meaning, even if not explicitly realized as a separate grammatical constituent in this frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reattributing is typically a direct action or statement made by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reattributing is neutral; its sentiment depends on the context and what is being reattributed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of reattribution."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reattributing, when asserted, implies a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the prefix 're-' implies a previous attribution, the act of 'reattributing' itself is considered a single, distinct event of changing that attribution, not a continuous or highly repetitive action within this instance."
+    }
+  }
+}

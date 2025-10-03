@@ -1,0 +1,54 @@
+{
+  "synset_id": "tell.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody narrate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'tell' in the sense of 'narrate or give a detailed account of' describes an action that causes a change in the knowledge state of a recipient (even if implicit). The hypernym 'inform' supports the idea of imparting knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of telling, initiating the communication.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is narrated or accounted for, representing the content of the information conveyed.",
+          "value_type": "information.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of telling usually conveys information as if it's direct experience or fact, regardless of its actual truthfulness to the listener."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action of communication."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of telling itself is neutral; the content being told can carry positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tell something' explicitly indicates a volitional agent ('Somebody') performing the action of telling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When someone 'tells' something, they are presenting it as certain information from their perspective, even if it might not be objectively true."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame implies a single act of narrating or giving an account of a piece of information or story."
+    }
+  }
+}

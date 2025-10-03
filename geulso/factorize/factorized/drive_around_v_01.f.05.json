@@ -1,0 +1,67 @@
+{
+  "synset_id": "drive_around.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody drive_around somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of causing a person to change their location or position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who is the driver and initiates the motion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the one being transported."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The definition 'drive someone in a vehicle' implies that a vehicle is used as the instrument for this action."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' in the frame (e.g., 'around the block') specifies the general route or area of the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "circuitous.s.01",
+      "reasoning": "The 'around' component of the verb specifies a non-direct, often circular or aimless, manner of motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Driving is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') performing the driving implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of driving someone around is generally neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody drive_around...' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of driving around is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Driving, especially 'driving around', implies a continuous and often repetitive action or motion, hence high iterativity."
+    }
+  }
+}

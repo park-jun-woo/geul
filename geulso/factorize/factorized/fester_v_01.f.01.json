@@ -1,0 +1,60 @@
+{
+  "synset_id": "fester.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody's (body part) maturate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb 'fester' describes a process where a body part undergoes a negative biological change in its state, specifically involving deterioration and ripening.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body_part.n.01",
+          "reasoning": "The '(body part)' specified in the verb frame is the entity that undergoes this change in health."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "production.n.01",
+      "value_type": "pus.n.01",
+      "reasoning": "A core and defining characteristic of the festering process is the generation of pus as a byproduct of the deterioration.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of festering is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a process or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The process of festering in a body part is a natural, involuntary biological event, not driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Festering is associated with infection and disease, inherently carrying a negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Festering is a biological process occurring in a non-agentive subject (a body part), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Festering describes a continuous process over a period, rather than a series of repeated discrete events. It's a single, unfolding instance."
+    },
+    "Aspect": {
+      "value": 5,
+      "reasoning": "The verb 'fester' describes an ongoing process ('ripening') which has a clear result ('generate pus'), hence a combination of Progressive (1) and Result-focused (4) aspects (1 | 4 = 5)."
+    }
+  }
+}

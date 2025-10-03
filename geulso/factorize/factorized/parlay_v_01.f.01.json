@@ -1,0 +1,63 @@
+{
+  "synset_id": "parlay.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody double_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "allocation.n.01",
+      "reasoning": "The verb describes an action where existing resources (winnings) are re-allocated or committed to a new purpose (a subsequent wager), which is a change in their status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of parlaying, acting as the initiator of the resource reallocation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "winnings.n.01",
+          "reasoning": "The implicit 'winnings' from a previous bet that are the financial resource being re-staked in the subsequent wager. This is the entity whose state or allocation changes."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The 'something' (a subsequent wager or event) on which the winnings are staked, representing the new focus or object of the commitment."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "gambling.n.01",
+      "reasoning": "The verb inherently describes an action within the domain of gambling, specifically involving bets and wagers, as indicated by the definition and hypernyms.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of parlaying is a direct, observable financial transaction or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of parlaying itself is a neutral financial action; its outcome determines positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, as parlaying is an intentional decision."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of parlaying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of staking winnings from one bet onto another, even if it's part of a larger sequence of bets."
+    }
+  }
+}

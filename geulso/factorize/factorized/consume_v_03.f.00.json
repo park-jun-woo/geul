@@ -1,0 +1,59 @@
+{
+  "synset_id": "consume.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody consume something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'spend extravagantly' implies a change in the possession of resources from the agent to another entity or simply their dissipation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of spending, causing the change in possession of resources."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "resources.n.01",
+          "reasoning": "The 'something' being spent, which are resources or assets."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "extravagant.a.01",
+      "reasoning": "The definition explicitly includes 'extravagantly', indicating a specific, excessive manner of spending."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spending is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody consume something' implies an agent acting with clear intention and will to spend."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'extravagantly' carries a negative connotation, implying excessive or wasteful spending."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of consuming/spending is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of spending. While one can spend extravagantly multiple times, the verb itself doesn't inherently imply repetition for a single instance."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "suppress.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody curb somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb describes causing a change in the state of the patient from active (e.g., resisting, expressing) to inactive or subdued.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that exerts the influence or power to cause the change, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose activity or freedom is restricted by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "force.n.01",
+      "reasoning": "The definition specifies that the action is performed 'by force'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "authority.n.01",
+      "reasoning": "The definition specifies that the action is performed 'by ... authority'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of suppressing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is 'Something', indicating it does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of suppression itself is neutral; its positive or negative sentiment depends on the context and what is being suppressed."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something suppress somebody' implies a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of suppressing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of putting something down."
+    }
+  }
+}

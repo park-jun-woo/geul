@@ -1,0 +1,63 @@
+{
+  "synset_id": "hit.v.02",
+  "frame_id": 13,
+  "frame_text": "Something hit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_relation.n.01",
+      "reasoning": "The definition 'come into sudden contact with' describes a change in the physical relationship between two entities, specifically their state of contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which moves and initiates the contact, acting as the instigator of the change in physical relation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is impacted or comes into contact with the causal agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "force.n.01",
+      "reasoning": "The definition 'hit against' inherently implies that the contact is made with a certain degree of force or impact."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "timing.n.01",
+      "value_type": "abruptness.n.01",
+      "reasoning": "The phrase 'come into sudden contact' specifically highlights the abrupt temporal characteristic of the event's onset."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of hitting is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies no inherent will or intention from the 'Something' performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hitting, in this general sense, is neutral; its positive or negative connotation depends entirely on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something ----s something' indicates that both participants are non-agentive, making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or a state that is certain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of impact or contact."
+    }
+  }
+}

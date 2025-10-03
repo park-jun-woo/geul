@@ -1,0 +1,52 @@
+{
+  "synset_id": "generate.v.01",
+  "frame_id": 3,
+  "frame_text": "Something generate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The definition 'bring into existence' explicitly describes a change of state where something transitions from non-existence to existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that causes the other 'something' to come into existence."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that is brought into existence, undergoing the change of state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of generating is typically an observable or directly verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in this frame does not imply an agent with personal will or intention, as it can refer to inanimate objects or abstract concepts."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of generating itself is neutral; the generated item or its context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something generate something' indicates that the action is caused by a non-volitional subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'generate' implies a definite occurrence of bringing something into existence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While generation can be continuous, the fundamental meaning of 'bring into existence' refers to the single act or initiation of that existence. Repetition would be an aspectual modification."
+    }
+  }
+}

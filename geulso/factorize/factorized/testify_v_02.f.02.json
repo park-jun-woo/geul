@@ -1,0 +1,53 @@
+{
+  "synset_id": "testify.v.02",
+  "frame_id": 2,
+  "frame_text": "Somebody bear_witness that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "evidence.n.01",
+      "reasoning": "The verb 'testify' means to 'provide evidence for', describing an action that results in information serving as evidence, thereby changing its status or availability.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of providing the evidence, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the information or statement that is presented as evidence, which is the entity undergoing a change in status to become evidence."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of testifying involves making a direct statement or declaration of information, often based on direct knowledge or observation by the testifier."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or claim as evidence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of testifying itself is neutral; the content or context may determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody testify...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Testifying implies a strong assertion of truth or belief in the information being provided as evidence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of providing testimony."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "synset_id": "bastinado.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody bastinado somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb 'bastinado' describes a physical act of striking, involving direct contact between an agent and a patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of beating, initiating the physical contact as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the physical contact and is the target of the beating, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "attribute",
+      "verb_property": "location.n.01",
+      "value_type": "soles_of_feet.n.01",
+      "reasoning": "A defining characteristic of 'bastinado' is that the physical contact is specifically targeted at the soles of the feet, as per the definition."
+    },
+    {
+      "verb_type": "attribute",
+      "verb_property": "manner.n.01",
+      "value_type": "repeatedly.r.01",
+      "reasoning": "The hypernym 'beat' in the definition 'beat somebody on the soles of the feet' implies that the physical contact is not a single strike but occurs repeatedly."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bastinadoing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The term 'bastinado' is descriptive of a specific act of punishment and does not inherently convey a particular politeness level for the expression itself."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of beating someone, especially as a form of punishment, inherently carries a negative sentiment due to the infliction of pain and harm."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition uses 'beat', which implies a series of repeated strikes, indicating high iterativity rather than a single event."
+    }
+  }
+}

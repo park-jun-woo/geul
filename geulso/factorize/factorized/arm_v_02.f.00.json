@@ -1,0 +1,58 @@
+{
+  "synset_id": "arm.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody arm somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "equipment.n.01",
+      "reasoning": "The verb 'arm' describes an action where an agent causes an entity to transition from an unequipped state to a state of being equipped.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of supplying arms, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is supplied with arms and undergoes the change of state to being equipped."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "weaponry.n.01",
+      "reasoning": "The verb 'arm' inherently specifies that the material or objects being supplied for equipment are arms or weaponry."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of arming is generally a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies that the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of arming is neutral; its sentiment depends on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody arm something' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of arming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of equipping."
+    }
+  }
+}

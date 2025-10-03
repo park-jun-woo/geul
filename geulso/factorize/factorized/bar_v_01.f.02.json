@@ -1,0 +1,56 @@
+{
+  "synset_id": "bar.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody bar something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "access.n.01",
+      "reasoning": "The verb 'bar' describes the act of preventing someone from entering, which represents a change in their state of access from potential to denied.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of preventing or keeping out."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the prevention, experiencing the change in their ability to access."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' indicates the location or boundary from which the patient is prevented from entering, serving as the source of exclusion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of barring or preventing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The action of 'preventing' or 'keeping out' is inherently negative for the affected party, as it restricts their freedom or access."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody PP' clearly indicates a volitional agent performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'bar' describes a definite and certain act of prevention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of preventing, unless context implies sustained or repeated action."
+    }
+  }
+}

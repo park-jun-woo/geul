@@ -1,0 +1,58 @@
+{
+  "synset_id": "harass.v.01",
+  "frame_id": 11,
+  "frame_text": "Something beset somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The verb describes causing a transition in the emotional state of a participant, from a less annoyed state to a more annoyed one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the change in emotional state, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose emotional state is changed and who experiences the annoyance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "emotional_state.n.01",
+      "value_type": "annoyance.n.01",
+      "reasoning": "The specific nature of the emotional state that is caused or inflicted is annoyance, as per the definition 'annoy continually or chronically'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of harassing is typically directly observable or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no intentional will or desire on the part of the causal agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'harass' means to 'annoy continually,' which inherently carries a negative sentiment for the affected party."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something beset somebody' indicates that the subject ('Something') is non-volitional, performing the action without intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'annoy continually or chronically' explicitly states high repetition of the action."
+    }
+  }
+}

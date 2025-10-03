@@ -1,0 +1,62 @@
+{
+  "synset_id": "brush_on.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody brush_on something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "application.n.01",
+      "reasoning": "The definition 'apply with a brush' directly describes an action of applying a substance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of applying, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the material or substance directly being applied."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "brush.n.01",
+          "reasoning": "The tool ('brush') is explicitly part of the verb's meaning 'brush_on' and the definition 'apply with a brush'."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "surface.n.01",
+          "reasoning": "The 'on' in 'brush_on' inherently implies a target surface to which the material is applied, even if not explicitly stated as a direct argument in this particular frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of brushing something on is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of applying a substance with a brush is generally neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of brushing on is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Brushing on a substance typically involves a series of continuous, highly repetitive strokes, similar to running."
+    }
+  }
+}

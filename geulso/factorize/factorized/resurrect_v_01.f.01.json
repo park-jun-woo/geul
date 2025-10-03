@@ -1,0 +1,58 @@
+{
+  "synset_id": "resurrect.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody resurrect somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "reasoning": "The definition 'cause to become alive again' explicitly indicates a change in the state of being, from not alive to alive.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the change of state in the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that undergoes the change of state, becoming alive again."
+        },
+        {
+          "semantic_role": "temporal_precondition.n.01",
+          "value_type": "state.n.01",
+          "value": "not_alive",
+          "reasoning": "The 'again' in the definition implies a prior state of being alive, followed by a state of not being alive, before becoming alive again. This is a crucial precondition for 'resurrect'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of resurrection, if it occurs, would be a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-human or non-volitional entity ('Something') as the causal agent, therefore lacking personal will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of resurrection itself is neutral; its positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-volitional cause for the action, as it does not possess intent or will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite causal event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of bringing someone back to life."
+    }
+  }
+}

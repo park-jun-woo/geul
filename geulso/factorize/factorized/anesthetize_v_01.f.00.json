@@ -1,0 +1,57 @@
+{
+  "synset_id": "anesthetize.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody anaesthetise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sensation.n.01",
+      "reasoning": "The verb describes causing a change in the patient's state, specifically leading to a loss of sensation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of administering the drug and causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (person or animal) that undergoes the change in sensation."
+        }
+      ]
+    },
+    {
+      "verb_type": "means",
+      "value_type": "drug_administration.n.01",
+      "reasoning": "The definition explicitly states that the change is achieved by 'administering an anesthetic drug', which describes the means by which the anesthetizing effect is produced."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of anesthetizing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to administer the drug."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of anesthetizing is neutral; its sentiment depends on the context (e.g., for surgery vs. nefarious purposes)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody anesthetize something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of anesthetizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of inducing anesthesia, rather than a repetitive action."
+    }
+  }
+}

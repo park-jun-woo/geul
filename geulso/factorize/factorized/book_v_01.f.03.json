@@ -1,0 +1,56 @@
+{
+  "synset_id": "book.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody book something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "commitment.n.01",
+      "reasoning": "The verb describes the action of making an arrangement or commitment for a future event or service, changing the status of something from uncommitted to committed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of booking, initiating the commitment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., person, service, venue) that is being committed or scheduled through the booking."
+        },
+        {
+          "semantic_role": "event.n.01",
+          "reasoning": "The 'PP' specifies the event or purpose for which the booking is made, as suggested by 'engage for a performance' in the definition. This encompasses the nature, time, or location of the scheduled occurrence."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Booking is a directly observable and transactional action, not based on inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to make the booking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of booking itself is neutral; its sentiment depends on context or what is being booked."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something PP' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of booking is typically a definite and concrete event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a specific booking, even if multiple bookings can be made over time."
+    }
+  }
+}

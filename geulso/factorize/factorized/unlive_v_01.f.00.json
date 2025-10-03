@@ -1,0 +1,58 @@
+{
+  "synset_id": "unlive.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody live_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb's definition 'live so as to annul some previous behavior' indicates that the action causes a change in the effective status or validity of a past action, effectively negating it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of 'unliving' and causes the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (referring to 'some previous behavior') whose status is changed/annulled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "living.n.01",
+      "reasoning": "The definition explicitly states 'live so as to annul', indicating that the annulment is achieved through the agent's actions or way of 'living' (derived from the hypernym 'live.v.02')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'unliving' a behavior is typically directly experienced or observed by the agent and possibly others."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or a sustained state of action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' and the definition 'so as to annul' strongly imply an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of annulling previous behavior can be perceived as positive (e.g., undoing a wrong) or negative, making the verb inherently neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame indicates a volitional agent, and the phrase 'live so as to annul' signifies intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action and its intended consequence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The concept of 'living so as to annul' implies a continuous or highly repetitive set of behaviors over time, rather than a single, discrete event, aligning with high iterativity for an ongoing process."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "synset_id": "vent.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody air something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The definition 'expose to cool or cold air so as to cool' directly indicates that a primary effect of this verb is a change in the object's temperature, specifically lowering it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose temperature is affected by the action."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "air.n.01",
+          "reasoning": "The medium (air) through which the cooling is achieved, as implied by 'expose to cool or cold air'."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "value_type": "freshness.n.01",
+      "reasoning": "The definition 'so as to ... freshen' indicates that another primary effect of this verb is to improve the overall state of the object, specifically making it fresher.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose state is changed to become fresher."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "air.n.01",
+          "reasoning": "The medium (air) through which the freshening is achieved, as implied by 'expose to cool or cold air'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Venting is a physical action that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the action is carried out with the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The action of venting (cooling or freshening) is generally perceived as beneficial, hence positive."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action and its intended outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of exposing or initiating airflow, or a continuous process rather than inherent repetition."
+    }
+  }
+}

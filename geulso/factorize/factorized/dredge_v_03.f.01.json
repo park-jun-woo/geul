@@ -1,0 +1,62 @@
+{
+  "synset_id": "dredge.v.03",
+  "frame_id": 1,
+  "frame_text": "Somebody dredge something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "material_presence.n.01",
+      "reasoning": "The definition 'remove' implies a change in the presence of material from a location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of removing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (material) that is being removed."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' indicates the origin or place from which the material is removed, typically the 'bottom of a body of water'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value": "power_shovel.n.01",
+      "reasoning": "The definition explicitly specifies the instrument used for removal: 'with a power shovel'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Dredging is a physically observable action, indicating direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with intention and will to remove material."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dredging itself is neutral; its positive or negative implications depend on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of removal."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of dredging typically involves continuous, highly repetitive actions (e.g., scooping with a shovel) to achieve removal over an area, hence high repetition."
+    }
+  }
+}

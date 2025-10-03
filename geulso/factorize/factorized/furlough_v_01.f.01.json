@@ -1,0 +1,58 @@
+{
+  "synset_id": "furlough.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody lay_off somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "employment.n.01",
+      "reasoning": "The verb describes an action that causes a change in the employment status of a person, from being employed to being dismissed or temporarily inactive.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (e.g., employer, company) who initiates the termination of employment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (e.g., employee) whose employment is terminated, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "economic_reasons.n.01",
+      "reasoning": "The definition explicitly states the dismissal is 'usually for economic reasons', specifying a primary causal context for the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Dismissal from employment is a directly observable event or state change."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lay_off somebody' implies an agent (the employer) acting with clear will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being dismissed or laid off from employment is generally considered a negative event for the affected individual."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lay_off somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dismissing someone is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of terminating an individual's employment."
+    }
+  }
+}

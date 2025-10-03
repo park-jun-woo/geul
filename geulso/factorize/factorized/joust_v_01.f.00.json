@@ -1,0 +1,65 @@
+{
+  "synset_id": "joust.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody joust",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contention.n.01",
+      "reasoning": "The definition 'joust against somebody in a tournament by fighting' describes engaging in a conflict or competition, which represents a change from a state of non-contention to one of active contention.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of jousting, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "co-agent.n.01",
+          "reasoning": "The definition explicitly states 'joust against somebody', indicating an inherent opponent or co-agent in the act, even if not syntactically expressed in this specific frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "string",
+      "value": "on horseback",
+      "reasoning": "The definition specifies the distinct manner of fighting as 'on horseback', which is a core characteristic of jousting."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "context.n.01",
+      "value_type": "tournament.n.01",
+      "reasoning": "The definition specifies 'in a tournament' as the typical setting or context for this activity, making it an essential semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Jousting is a physically observable event, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody joust' implies the agent acts with clear intention and will to engage in the activity."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of jousting itself is neutral; any positive or negative sentiment would arise from the specific context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of jousting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, certain occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'joust' typically refers to a single, complete contest or bout, despite potentially involving internal repetitive actions within that single event."
+    }
+  }
+}

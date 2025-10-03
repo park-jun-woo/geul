@@ -1,0 +1,63 @@
+{
+  "synset_id": "exchange.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody exchange somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'hand over one and receive another' describes a reciprocal change in possession of entities.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The subject 'Somebody' who is one party initiating or participating in the reciprocal transfer."
+        },
+        {
+          "semantic_role": "reciprocal_agent.n.01",
+          "reasoning": "The object 'somebody' who is the other party involved in the reciprocal transfer, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The person(s) whose possession is reciprocally transferred between the two parties, as implied by the definition 'hand over one and receive another' and the hypernym 'transfer somebody'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "equality.n.01",
+      "value": "approximate",
+      "reasoning": "The definition explicitly states that the exchanged entities are 'approximately equivalent', indicating a property of the exchange."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exchanging is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of two 'Somebody' agents in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exchange itself is neutral; its sentiment depends on the context and what is being exchanged."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody exchange somebody' explicitly indicates volitional agents performing a deliberate action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of an exchange."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of reciprocal transfer, even if it involves multiple items being exchanged within that single transaction."
+    }
+  }
+}

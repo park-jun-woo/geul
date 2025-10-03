@@ -1,0 +1,59 @@
+{
+  "synset_id": "tune_in.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody tune_in something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb describes an action that causes a device to transition from one operational state (not receiving) to another (receiving) through adjustment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the volitional act of regulating the device, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "device.n.01",
+          "reasoning": "The 'something' which is the radio or television set, undergoing the change of operational state."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "reception.n.01",
+      "reasoning": "The explicit goal and outcome of the tuning action is the successful reception of a specific broadcast or program, which is the achieved state.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Tuning in to a station is a directly observable and verifiable action and outcome."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action and its result."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to achieve the tuning."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tuning in itself is neutral; the content received might carry sentiment, but not the act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tune_in something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action taken to achieve a specific outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of adjusting to receive a particular station or program. While adjustment might involve several minor turns, the 'tuning in' event is considered a singular accomplishment."
+    }
+  }
+}

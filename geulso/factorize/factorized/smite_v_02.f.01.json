@@ -1,0 +1,64 @@
+{
+  "synset_id": "smite.v.02",
+  "frame_id": 1,
+  "frame_text": "Something smite somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The definition 'affect suddenly with deep feeling' describes causing a change in the emotional state of a participant.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or causes the change in emotional state, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose emotional state undergoes the change, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The adverb 'suddenly' in the definition indicates a core manner component of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "intense.a.01",
+      "reasoning": "The adjective 'deep' in 'deep feeling' indicates a high degree or intensity of the resulting emotion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes an event that can be directly perceived or experienced (by the 'somebody' or an observer)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' indicates a lack of will or intention for the action described by this frame."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Being 'smitten' can refer to various deep feelings (e.g., awe, fear, love), making the inherent polarity neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something smite somebody' indicates a non-volitional agent ('Something') causing the effect."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite occurrence of being affected."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The phrase 'affect suddenly' implies a single, discrete event of impact, not a repetitive action."
+    }
+  }
+}

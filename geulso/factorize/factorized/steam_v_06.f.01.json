@@ -1,0 +1,58 @@
+{
+  "synset_id": "steam.v.06",
+  "frame_id": 1,
+  "frame_text": "Something steam",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The definition 'cook something' implies altering the state of the food (from raw to cooked/edible), which is a change in its condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of cooking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (food) that undergoes the change in condition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "steam.n.01",
+      "reasoning": "The core distinguishing feature of 'steam' as a cooking method is the use of steam as the medium or instrument, as indicated by 'by letting steam pass over it' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of steaming food is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of steaming food is a neutral process; its sentiment depends on external factors (e.g., taste of the food)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody steam something' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of steaming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of cooking a particular item or batch, not an inherent repetition within the action itself."
+    }
+  }
+}

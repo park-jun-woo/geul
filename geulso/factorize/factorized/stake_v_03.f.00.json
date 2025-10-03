@@ -1,0 +1,57 @@
+{
+  "synset_id": "stake.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody post something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "marking.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of 'something' by applying a mark to it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of marking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state by being marked."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "stake.n.01",
+          "reasoning": "The definition 'mark with a stake' explicitly states the 'stake' as the tool or object used to perform the marking."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of staking is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of staking itself is neutral; its sentiment depends on the context or purpose of the marking."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of staking is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of marking an object or location with a stake, or a series of such discrete events conceived as a unified action."
+    }
+  }
+}

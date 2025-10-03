@@ -1,0 +1,57 @@
+{
+  "synset_id": "tap.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody tap something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'draw from or dip into to get something' describes an act of extracting a resource, which constitutes a change in the possession or availability of that resource.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity (e.g., a device or system) that performs the action of drawing from the source."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'something' in the frame, which represents the supply or reservoir from which the resource is drawn."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "resource.n.01",
+          "reasoning": "The implicit 'something' that is obtained or extracted from the source, as indicated by the 'to get something' part of the definition. This is the item whose state or location is changed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tapping a resource is generally an observable action or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame implies a non-willful agent (e.g., a mechanism or system), thus indicating no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drawing or extracting a resource is inherently neutral; its positive or negative connotation depends on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional agent (an inanimate object or system) as the subject performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of drawing or dipping into a source."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'tap' describes a single conceptual act of drawing from a source, even if such actions can be repeated over time. It does not inherently encode repetition as part of its core meaning."
+    }
+  }
+}

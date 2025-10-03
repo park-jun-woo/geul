@@ -1,0 +1,68 @@
+{
+  "synset_id": "bear.v.04",
+  "frame_id": 1,
+  "frame_text": "Somebody bear something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb's definition 'move while holding up or supporting' explicitly includes a change of location (motion) for the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the act of moving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (object) who undergoes the change of location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "support.n.01",
+      "reasoning": "The definition specifies 'while holding up or supporting', which describes the manner in which the movement (change of location) is executed, or a concurrent state of support during the movement. 'Support.n.01' is chosen as a value type to encompass both 'holding up' and 'supporting'.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'Somebody' who provides the support."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being supported or held."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bearing (carrying/supporting while moving) is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the frame implies the agent's strong will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bearing is inherently neutral; its positive or negative connotation depends on the specific context or what is being borne."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody bear somebody' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bear' in this sense describes a single, continuous event of moving while supporting, rather than a series of distinct, repeated actions. Although the movement itself involves repetition (e.g., steps), the 'bearing' as a whole is a singular event."
+    }
+  }
+}

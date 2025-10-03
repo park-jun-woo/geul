@@ -1,0 +1,62 @@
+{
+  "synset_id": "auscultate.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody auscultate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The act of auscultating results in the agent acquiring knowledge or information about the patient's internal state, thus changing the agent's cognitive state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of examination and whose knowledge state changes."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being examined, and from whom information is sought or derived."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "auscultation.n.01",
+      "reasoning": "The verb 'auscultate' specifically denotes a method of examination that involves listening to internal bodily sounds, distinguishing it from a general 'examine'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Auscultation involves direct sensory perception (hearing internal sounds) by the examining agent, providing direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a human agent ('Somebody') in the frame implies the action is performed with intention and will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb describes a neutral medical procedure; no specific politeness level is inherent in its meaning."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of auscultating is a neutral medical procedure; its inherent sentiment is neither positive nor negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody auscultate somebody' explicitly indicates a volitional agent ('Somebody') performing the action of examination."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of auscultation, when performed, is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Although listening involves continuous perception, the overall procedure of auscultation as a diagnostic examination is typically considered a single, bounded event."
+    }
+  }
+}

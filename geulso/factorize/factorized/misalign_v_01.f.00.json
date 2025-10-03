@@ -1,0 +1,58 @@
+{
+  "synset_id": "misalign.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody misalign something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "alignment.n.01",
+      "reasoning": "The verb describes causing a change in the alignment state of an object, leading to a state of being aligned, but imperfectly.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of causing misalignment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in alignment state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "imperfect.a.01",
+      "reasoning": "The prefix 'mis-' and the definition 'imperfectly or badly' explicitly denote the adverse quality or characteristic of the resulting alignment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of misaligning is typically a directly observable action or its result is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an agent acting with clear intention and will to cause the misalignment."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The prefix 'mis-' and the definition 'imperfectly or badly' inherently carry a negative sentiment regarding the outcome of the alignment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of misaligning is described as a definite occurrence or intention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of causing something to be misaligned."
+    }
+  }
+}

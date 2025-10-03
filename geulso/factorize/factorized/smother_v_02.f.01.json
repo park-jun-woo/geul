@@ -1,0 +1,58 @@
+{
+  "synset_id": "smother.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody smother somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "vital_function.n.01",
+      "reasoning": "The verb describes a process of depriving an entity of oxygen, leading to the cessation of breathing, which is a fundamental change in vital function.",
+      "participants": [
+        {
+          "semantic_role": "cause.n.01",
+          "reasoning": "The 'Something' in the verb frame is the non-volitional entity that causes the deprivation of oxygen."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity that is deprived of oxygen and prevented from breathing, undergoing the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "outcome.n.01",
+      "value_type": "death.n.01",
+      "reasoning": "The act of depriving someone of oxygen and preventing breathing is inherently aimed at or results in death, as indicated by the hypernym 'kill.v.01'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of smothering is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something smother somebody' implies a non-agentive subject ('Something') which lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The action of smothering is inherently negative, as it causes harm or death."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something smother somebody' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of deprivation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of causing suffocation."
+    }
+  }
+}

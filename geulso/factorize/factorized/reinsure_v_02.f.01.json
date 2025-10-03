@@ -1,0 +1,57 @@
+{
+  "synset_id": "reinsure.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody reinsure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "liability.n.01",
+      "reasoning": "The verb describes the act of transferring a liability, which constitutes a change in who holds that liability. The 're-' prefix indicates a subsequent or renewed action related to an existing insurance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, representing the entity that initiates the transfer of liability (the ceding insurer)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liability.n.01",
+          "reasoning": "The 'liability' that is being transferred, explicitly mentioned in the definition but implicitly the object of the transfer in the surface frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame, representing the entity that receives the transferred liability (the reinsurer, i.e., 'another insurance company')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a business transaction, typically observable or documented directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a neutral business transaction; its sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody reinsure...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'reinsure' describes a single act of transferring liability at a given point in time, even though the 're-' prefix implies a relation to a prior insuring event, it doesn't mean the act itself is repetitive."
+    }
+  }
+}

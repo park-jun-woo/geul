@@ -1,0 +1,54 @@
+{
+  "synset_id": "guess.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody guess that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The verb 'guess' describes the act of forming a tentative belief or proposition, which constitutes a change in the agent's cognitive state regarding that information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent who performs the act of guessing.",
+          "value_type": "animate.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content of the guess, which is a proposition or a piece of information whose cognitive state is being changed (from unknown/unformed to guessed)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The definition 'in spite of possible refutation' and the nature of guessing imply that the information is based on inference or speculation, not direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or a cognitive process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with intention and will to make a guess."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of guessing itself is neutral; the content of the guess may carry sentiment, but the verb does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody guess...' explicitly indicates a volitional agent performing the act of guessing."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "The definition 'in spite of possible refutation' and the very nature of a 'guess' inherently imply a low level of certainty or speculation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of forming or putting forward a guess."
+    }
+  }
+}

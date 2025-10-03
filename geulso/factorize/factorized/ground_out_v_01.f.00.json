@@ -1,0 +1,66 @@
+{
+  "synset_id": "ground_out.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody ground_out",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "striking.n.01",
+      "reasoning": "The verb describes the primary action of hitting a ball, as indicated by the definition 'hitting the ball'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of hitting the ball.",
+          "value_type": "player.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The object that is struck, implicitly a 'ball' in the context of baseball.",
+          "value_type": "ball.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "path.n.01",
+      "value_type": "groundward.adv.01",
+      "reasoning": "The definition specifies the manner of hitting as 'on the ground', indicating the trajectory or path of the ball after being struck."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "game_state.n.01",
+      "value_type": "out.n.05",
+      "reasoning": "The verb's ultimate goal and outcome is to 'make an out', representing a specific change in the state of the game."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of grounding out in a game is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame, a player, acts with intention and will to hit the ball and achieve an outcome."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of grounding out is a neutral event within the game; its positive or negative valence depends on the team's perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ground_out' indicates a volitional agent (the player) intentionally performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, discrete event of making an out, rather than a continuous or highly repetitive action, despite the micro-actions involved."
+    }
+  }
+}

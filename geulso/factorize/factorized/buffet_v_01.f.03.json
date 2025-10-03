@@ -1,0 +1,58 @@
+{
+  "synset_id": "buffet.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody buffet something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The verb 'buffet' describes a physical interaction involving forceful contact, which causes a change in the state or position of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that initiates the forceful strike or contact."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that receives the forceful strike."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition explicitly states 'strike against forcefully', indicating that forcefulness is an inherent manner component of the verb 'buffet'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of buffeting is a physical, directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', indicating a lack of will or intention for the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of buffeting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something buffet something' indicates a non-volitional agent (a force or inanimate object) performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'buffet' often implies repeated or continuous forceful strikes, distinguishing it from a single 'strike'. This suggests high repetition."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "transfer.v.06",
+  "frame_id": 1,
+  "frame_text": "Somebody change PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'change from one vehicle or transportation line to another' describes a transition in the mode or path of travel, which is a fundamental change of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of changing vehicles or lines, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "transportation.n.01",
+          "reasoning": "Implied by 'from one vehicle or transportation line', representing the initial point of the transfer."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "transportation.n.01",
+          "reasoning": "Implied by 'to another', representing the new vehicle or transportation line that is the target of the transfer."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of transferring transportation is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transferring itself is semantically neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody transfer' explicitly indicates a volitional agent ('Somebody') performing the action of transferring."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of changing transportation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'transfer' in this context refers to a single, discrete event of changing from one vehicle/line to another."
+    }
+  }
+}

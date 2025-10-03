@@ -1,0 +1,66 @@
+{
+  "synset_id": "scrounge.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody scrounge",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The 'collect' part of the definition explicitly refers to gaining possession of something, indicating a change in ownership or availability.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of collecting/obtaining.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'food' which is the object of collection, as indicated by the definition's parenthetical.",
+          "value_type": "food.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "searching.n.01",
+      "reasoning": "The 'look around for' aspect of the definition describes the specific manner or method by which the acquisition occurs, implying active searching or foraging.",
+      "participants": [
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame specifies the location or area where the searching/foraging takes place."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scrounging is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to obtain something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of scrounging is inherently neutral; its connotations (e.g., resourcefulness, desperation) arise from context, not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody scrounge PP' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process being undertaken."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The 'look around for' component implies a continuous or highly repetitive activity of searching, consistent with high iterativity, even if the 'collect' component is a single event."
+    }
+  }
+}

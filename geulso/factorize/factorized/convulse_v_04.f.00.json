@@ -1,0 +1,58 @@
+{
+  "synset_id": "convulse.v.04",
+  "frame_id": 0,
+  "frame_text": "Something convulse somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a rapid, involuntary change in the physical state of the 'somebody', from relative stillness or control to intense movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or causes the uncontrollable shaking in the 'somebody', as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the uncontrollable shaking, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "uncontrolled.a.01",
+      "reasoning": "The definition explicitly includes 'uncontrollably', which specifies the involuntary and uncontrolled manner of the shaking. This is a core aspect of the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Convulsions are typically observable physical events, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The `causal_agent` is 'Something', indicating it lacks will or intention to cause the convulsion."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of convulsing itself is a physical process, making its inherent sentiment neutral, although it is often associated with negative contexts."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something convulse somebody' indicates a non-volitional agent ('Something'), and the definition 'shake uncontrollably' explicitly states that the recipient's action is involuntary, reinforcing non-volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'shake uncontrollably' implies a series of rapid, continuous, and highly repetitive movements, indicating high iterativity."
+    }
+  }
+}

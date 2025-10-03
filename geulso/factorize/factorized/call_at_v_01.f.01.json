@@ -1,0 +1,53 @@
+{
+  "synset_id": "call_at.v.01",
+  "frame_id": 1,
+  "frame_text": "Something out_in something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'enter a harbor' describes a change in location from outside to inside a harbor, which is a change of state related to motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the verb frame that performs the action of entering, typically a vessel like a ship."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "harbor.n.01",
+          "reasoning": "The 'something' from the verb frame that represents the location being entered (a harbor, as per the definition), serving as the destination."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of entering a harbor is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (e.g., a ship) in the verb frame does not inherently possess will, even though its movement may be guided by volitional agents (e.g., a crew)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of entering a harbor is a neutral event; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something out_in something' implies a non-volitional subject ('Something'), following the rule for non-agentive subjects, despite the underlying action often being planned by volitional agents."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of entering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of entering a harbor."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "collect.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody collect something from somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'obtain payment of' indicates a transfer of possession of payment from one party to another, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of calling for and obtaining the payment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "payment.n.01",
+          "reasoning": "The 'something' being collected, which is specified as 'payment' in the definition, and whose possession changes."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the payment is obtained, as indicated by the 'from somebody' phrase in the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of collecting payment is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to obtain payment."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of collecting payment is neutral in sentiment; its positivity or negativity depends on context (e.g., a debt collector vs. collecting a prize)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody collect...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of collecting implies a definite occurrence of obtaining the payment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of obtaining a payment, even if the act itself can be repeated over time with different payments."
+    }
+  }
+}

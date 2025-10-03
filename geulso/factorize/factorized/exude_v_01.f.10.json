@@ -1,0 +1,59 @@
+{
+  "synset_id": "exude.v.01",
+  "frame_id": 10,
+  "frame_text": "Something ooze something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the process of a liquid moving out from a source, indicating a change in its location or presence.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The first 'Something' in the verb frame is the entity from which the liquid is released (e.g., 'The wound')."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The second 'something' in the verb frame is the liquid that is being released (e.g., 'pus')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "drops_or_small_quantities",
+      "reasoning": "The definition explicitly specifies the manner of release as 'in drops or small quantities', which is a core semantic component of this verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exuding/oozing is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a physical process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the source in this frame is typically non-volitional, implying no will or intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exuding itself is neutral; any positive or negative sentiment would come from the specific liquid or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ooze something' describes a non-volitional source ('Something') performing an action that is usually involuntary or a natural process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite physical occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'in drops or small quantities' implies a continuous or highly repetitive process of small emissions rather than a single discrete event."
+    }
+  }
+}

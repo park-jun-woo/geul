@@ -1,0 +1,56 @@
+{
+  "synset_id": "greet.v.03",
+  "frame_id": 1,
+  "frame_text": "Somebody greet somebody with something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "reaction.n.01",
+      "reasoning": "The definition 'react to in a certain way' describes an action where an agent performs a response or reaction. The hypernym 'react.v.01' reinforces this as a core property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates the action of greeting/reacting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object or recipient of the greeting/reaction."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'something' in the 'with something' clause specifies the means, manner, or specific expression used to perform the greeting."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of greeting is a directly observable interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of greeting is semantically neutral; its positive or negative sentiment depends on context or the 'something' used to greet."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody greet somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of greeting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of greeting, not a continuous or highly repetitive one."
+    }
+  }
+}

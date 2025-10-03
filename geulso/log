@@ -46,13 +46,17 @@ python3 geulso/factorize/factorize.py --skip-existing --concurrent 10
 python3 geulso/factorize/postgres.py --clear
 # 워드넷 동사 의미소분해 유효한 synset id인지 확인
 python3 geulso/factorize/validate.py
+python3 geulso/factorize/frame.py
 
-python3 geulso/factorize/find.py 
+python3 geulso/factorize/find.py assistance.n.01
 python3 geulso/factorize/verify_lemma.py experiencer refrainment
 
 # 허깅페이스 CCNEWS PostgreSQL에 입력
 pip install psycopg2-binary datasets tqdm
 python3 geulso/ccnews/postgres.py
+# 허깅페이스 CCNEWS 문장 단위로 분리
+pip install psycopg2-binary nltk
+python3 geulso/ccnews/sentences.python
 
 # 허깅페이스 CCNEWS spaCy 처리
 pip install cupy-cuda13x
@@ -115,3 +119,14 @@ LEFT JOIN properties_meta AS prop_meta ON stats.property_id = prop_meta.property
 LEFT JOIN entity_labels AS obj_label ON stats.object_value = obj_label.entity_id AND obj_label.language = 'en'
 WHERE stats.property_id='P31'
 ORDER BY stats.usage_count DESC LIMIT 1000;"
+
+# SSHG 문장 분석
+#python -c "import nltk; nltk.download('treebank')"
+python3 sshg/sentence.py
+
+pip install pydelphin pyyaml
+python3 sshg/mrs.py --sentence "I saw the man with the telescope." --output sshg/output/i_saw_the_man.yaml
+python3 sshg/mrs.py --sentence "Time flies like an arrow." --output sshg/output/time_flies.yaml
+
+
+

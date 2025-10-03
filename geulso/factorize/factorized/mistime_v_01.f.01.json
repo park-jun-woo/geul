@@ -1,0 +1,58 @@
+{
+  "synset_id": "mistime.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody mistime something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "temporal_organization.n.01",
+      "reasoning": "The verb 'mistime' describes an action related to setting or measuring the time of an event or a person's action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of timing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose action or event is being timed, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "accuracy.n.01",
+      "value_type": "incorrect.a.01",
+      "reasoning": "The definition 'time incorrectly' and the prefix 'mis-' indicate that a core semantic component of the verb is the lack of accuracy in the temporal organization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of timing, even if incorrect, is typically a directly observable or measurable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or occurrence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent (Somebody) acting with will and intention to perform the timing, even if the outcome of that timing is a mistake."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'mistime' inherently carries a negative connotation because it describes an action performed 'incorrectly', implying an error or undesirable outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody') initiating the action of timing. The 'incorrect' aspect refers to the result, not the lack of intent to perform the action itself."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence where the timing was indeed incorrect."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of timing something incorrectly, not a repeated action."
+    }
+  }
+}

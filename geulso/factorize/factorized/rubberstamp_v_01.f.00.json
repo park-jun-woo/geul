@@ -1,0 +1,69 @@
+{
+  "synset_id": "rubberstamp.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody handstamp something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "mark.n.01",
+      "reasoning": "The verb describes the physical action of applying an imprint (a mark) using a specific tool.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of stamping, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a document) that receives the mark."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "rubber_stamp.n.01",
+          "reasoning": "The definition explicitly states the use of a 'rubber stamp' as the instrument."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "value_type": "approval.n.01",
+      "reasoning": "The act of rubber-stamping, as defined, usually signifies official approval, thereby changing the status of the item being stamped.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (document) whose status is changed by receiving official approval."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubber-stamping is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stamping itself is neutral. While 'rubber-stamping' can carry a negative connotation of uncritical approval, the core definition here focuses on the neutral act of marking for approval."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of stamping a document."
+    }
+  }
+}

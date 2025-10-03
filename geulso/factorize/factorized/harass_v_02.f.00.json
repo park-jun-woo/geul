@@ -1,0 +1,58 @@
+{
+  "synset_id": "harass.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody harass somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'harass' ultimately aims to or results in a negative change in the patient's condition, specifically leading to exhaustion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the actions of harassment, causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in condition, becoming exhausted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "conflict.n.01",
+      "reasoning": "The definition explicitly states the means by which exhaustion is achieved is 'attacking', indicating a hostile or aggressive type of interaction.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Harassment is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies the agent ('Somebody') acts with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'exhaust by attacking repeatedly' carries a distinctly negative connotation, describing a harmful action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'attacking repeatedly' explicitly indicates a high degree of repetition in the action."
+    }
+  }
+}

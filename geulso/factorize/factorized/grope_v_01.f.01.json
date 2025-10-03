@@ -1,0 +1,64 @@
+{
+  "synset_id": "grope.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody fumble PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "motion.n.03",
+      "reasoning": "The 'feel about' part of the definition describes an exploratory movement, a core component of the act of groping.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity initiating and controlling the exploratory movement."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the verb frame typically specifies the area or space within which the exploratory motion occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sensory_input.n.01",
+      "value_type": "touch.n.01",
+      "reasoning": "The definition 'feel about' clearly indicates that the primary sensory mode used during the exploration is touch."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "blindly.r.01",
+      "reasoning": "The definition 'uncertainly or blindly' explicitly describes the characteristic manner of the action, stemming from a lack of visual guidance. 'Blindly' encompasses the cause for uncertainty in this context."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of groping is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The core act of feeling about uncertainly is semantically neutral, despite potential negative connotations in specific contexts not inherent to the definition."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody grope PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'feel about' suggests a continuous, repetitive series of tactile explorations until a goal is achieved or the process stops. Therefore, it has high iterativity."
+    }
+  }
+}

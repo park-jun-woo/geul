@@ -1,0 +1,63 @@
+{
+  "synset_id": "spam.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody spam something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "transmission.n.01",
+      "reasoning": "The verb 'spam' denotes the act of sending or transferring electronic messages.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the sending of the electronic messages."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "electronic_message.n.01",
+          "reasoning": "The 'something' that is transmitted, specifically electronic mail or content."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the electronic messages."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "undesirable.a.01",
+      "reasoning": "The definition explicitly includes 'unwanted or junk' as a core characteristic of the e-mail being sent, indicating its undesirable quality from the recipient's perspective."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spamming is typically a directly observable or verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to send the messages."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'unwanted or junk e-mail' inherently carries a strong negative connotation due to its nature of being undesirable and unsolicited."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of sending spam."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of spamming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Spamming typically involves sending a high volume of repetitive messages to multiple recipients, indicating high repetition."
+    }
+  }
+}

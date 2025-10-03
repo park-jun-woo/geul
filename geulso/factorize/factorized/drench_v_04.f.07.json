@@ -1,0 +1,58 @@
+{
+  "synset_id": "drench.v.04",
+  "frame_id": 7,
+  "frame_text": "Something douse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "wetness.n.01",
+      "reasoning": "The verb 'drench' describes causing a change in the patient's state, specifically from a dry state to one of being thoroughly wet or covered in liquid, as indicated by the definition 'cover with liquid'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' in the frame, which acts as the non-volitional entity causing the drenching (e.g., rain, a burst pipe)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the change of state and becomes drenched."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "thoroughly.r.01",
+      "reasoning": "The verb 'drench' implies a high degree of wetting, suggesting the object is completely or extensively covered in liquid, distinguishing it from a simple 'wetting' (as confirmed by the hypernym 'wet.v.01')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of drenching is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something douse something' indicates a non-agentive subject ('Something') as the cause, implying an absence of will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drenching is neutral; its positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something douse something' describes an event caused by a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of drenching is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of covering something with liquid."
+    }
+  }
+}

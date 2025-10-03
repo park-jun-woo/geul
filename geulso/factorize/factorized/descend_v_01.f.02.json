@@ -1,0 +1,54 @@
+{
+  "synset_id": "descend.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody fall",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move downward and lower' indicates a transition in vertical location, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' in the frame is the entity undergoing the movement. Given the 'fall' implication, they are the experiencer/undergoer of the non-volitional descent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "downward.r.01",
+      "reasoning": "A core semantic component of 'descend' is the explicit specification of 'downward' movement, distinguishing it from other forms of motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of descending is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Somebody fall' suggests a lack of the agent's conscious will or control over the descent, thus indicating low modality for causing the event."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of descending is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The specific `verb_frame` 'Somebody fall' strongly implies an uncontrolled and thus non-volitional downward movement, overriding the general potential for volition in 'descend'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of descending is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Descending is typically a continuous process, or composed of continuous, highly repetitive micro-actions, indicating high iterativity over a period."
+    }
+  }
+}

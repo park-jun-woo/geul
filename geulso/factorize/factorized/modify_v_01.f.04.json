@@ -1,0 +1,64 @@
+{
+  "synset_id": "modify.v.01",
+  "frame_id": 4,
+  "frame_text": "Something modify something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb 'modify' inherently describes a transformation or alteration of a state. The definition 'make less severe or harsh or extreme' is a specific type of change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity that causes the modification to occur."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change or modification."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "severity.n.01",
+      "value_type": "reduced.a.01",
+      "reasoning": "The specific nature of this modification, as per the definition, is a reduction in the severity, harshness, or extremity of the patient's state. 'Reduced' describes the outcome of this property change.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose severity or intensity is specifically described as being reduced."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of modifying something is typically directly observable or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary usage is declarative, stating a fact about a modification."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something modify something' implies a non-agentive subject, thus lacking volition or will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'make less severe or harsh or extreme' implies a positive or beneficial outcome, as it lessens undesirable qualities."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional agent or a process that occurs without conscious intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Without additional context, 'modify' refers to a single instance of change, rather than a repeated action."
+    }
+  }
+}

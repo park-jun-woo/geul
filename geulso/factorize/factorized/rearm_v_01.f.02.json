@@ -1,0 +1,57 @@
+{
+  "synset_id": "rearm.v.01",
+  "frame_id": 2,
+  "frame_text": "Something rearm somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'arm' implies causing a change in the state of possessing weapons or being equipped. 'Rearm' is performing this change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of rearming, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is supplied with arms, undergoing the change in possession/equipment."
+        }
+      ]
+    },
+    {
+      "verb_type": "repetition",
+      "verb_property": "event_recurrence.n.01",
+      "reasoning": "The 're-' prefix in 'rearm' explicitly signifies that the action of arming is being performed again after a previous instance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Rearming is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in the verb frame implies no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rearming is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional agent ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rearming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete instance of rearming. The 're-' aspect is captured by the 'repetition' sememe, not by this qualifier which refers to internal repetition within an event."
+    }
+  }
+}

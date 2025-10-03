@@ -1,0 +1,76 @@
+{
+  "synset_id": "atomize.v.03",
+  "frame_id": 1,
+  "frame_text": "Somebody atomize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb 'atomize' describes a process of breaking something up, which constitutes a change in its structural integrity from a cohesive state to a disintegrated one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that causes the breaking, acting as the agent of change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change in integrity."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "form.n.01",
+      "value_type": "particle.n.01",
+      "reasoning": "The definition 'break up into small particles' specifies the resulting physical form of the patient as particles after the atomization process.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "This sememe describes the resulting form of the 'something' that was atomized."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "size.n.01",
+      "value_type": "small.a.01",
+      "reasoning": "The definition explicitly states 'small particles', indicating that the size of the resulting particles is a crucial property of the atomization outcome.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "This property of being small applies to the resulting particles of the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of atomizing is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something atomize something' implies an inanimate or non-volitional agent (the first 'Something'), which does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of atomizing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent in the frame is 'Something', indicating a non-volitional cause or mechanism performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of breaking a cohesive whole into particles, rather than a repetitive action."
+    }
+  }
+}

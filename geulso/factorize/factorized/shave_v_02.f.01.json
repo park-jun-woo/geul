@@ -1,0 +1,58 @@
+{
+  "synset_id": "shave.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody trim something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "length.n.01",
+      "reasoning": "The definition 'cut closely' and the hypernym 'shorten' imply a reduction in the length of something (e.g., hair or a surface feature).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the inanimate entity or instrument that performs or causes the shaving action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity whose length (e.g., hair) is being changed by the shaving action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "close.a.01",
+      "reasoning": "The adverb 'closely' in the definition specifies the extent or degree of the cutting, indicating a significant reduction or proximity to the base."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shaving is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something shave somebody' indicates an inanimate subject ('Something'), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shaving is neutral; its sentiment depends on context (e.g., desired grooming vs. accidental injury)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something shave somebody' explicitly names a non-volitional entity ('Something') as the agent of the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the cutting action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Shaving, even when performed by a 'Something', typically involves continuous and highly repetitive motions (e.g., strokes of a razor) to achieve a close cut."
+    }
+  }
+}

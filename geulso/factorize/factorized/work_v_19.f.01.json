@@ -1,0 +1,67 @@
+{
+  "synset_id": "work.v.19",
+  "frame_id": 1,
+  "frame_text": "Something work somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The definition 'gratify and charm' describes causing a positive change in the emotional state of a person.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the gratification and charm, as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who experiences the gratification and charm, undergoing a change in emotional state."
+        }
+      ]
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "influence.n.01",
+      "reasoning": "The phrase 'usually in order to influence' indicates the purpose or intended outcome of the gratification and charming.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (or an implied underlying agent) whose action aims to achieve this influence."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the influence."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The effect of gratifying and charming on someone is typically perceived directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The grammatical subject 'Something' in the frame is inanimate and therefore lacks will or intention, thus 'No will'."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The actions 'gratify' and 'charm' inherently describe positive effects on the recipient."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something work somebody' indicates that the action is performed by a non-agentive subject ('Something'), making the action non-volitional for the grammatical subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or effect."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'work somebody' by gratifying and charming often implies a sustained or repeated effort to achieve the goal of influencing, suggesting high repetition."
+    }
+  }
+}

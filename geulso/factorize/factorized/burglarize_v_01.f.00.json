@@ -1,0 +1,78 @@
+{
+  "synset_id": "burglarize.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody burglarise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The core act of 'robbing' or 'stealing' involves changing the possession of items from the owner to the burglar.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who commits the burglary and takes the items."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (items) whose possession is changed."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The rightful owner of the items, implicitly the resident of the dwelling."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition explicitly includes 'enter' a dwelling, signifying the burglar's movement into a specific location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of entering."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "dwelling.n.01",
+          "reasoning": "The specific place ('a dwelling') that is entered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legality.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The verb 'burglarize' inherently defines the action as a criminal act, thus being illegal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Burglary is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with strong will and intention to commit the crime."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Burglary is a criminal act, which is inherently negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody burglarize something' explicitly indicates a volitional agent performing the act of burglary."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of burglarizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, composite event of committing a burglary."
+    }
+  }
+}

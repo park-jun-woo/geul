@@ -1,0 +1,63 @@
+{
+  "synset_id": "transaminate.v.01",
+  "frame_id": 1,
+  "frame_text": "Something transaminate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "chemical_composition.n.01",
+      "reasoning": "The definition 'change (an amino group)' directly describes an alteration in the chemical makeup of a compound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which causes the chemical transformation (e.g., an enzyme or a coenzyme)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "compound.n.01",
+          "reasoning": "The second 'something' in the frame, which is the organic compound whose chemical composition is altered by the transfer of the amino group."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "transfer.n.04",
+      "value_type": "amino_group.n.01",
+      "reasoning": "The specific mechanism of the chemical change is the 'transferring' of an 'amino group', which is a defining characteristic of transamination."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chemical reactions are typically subject to direct observation and experimental verification."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a chemical process or fact."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The action described is a chemical process carried out by inanimate entities (e.g., enzymes) and thus lacks an agent's will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "This is a scientific/technical term, inherently neutral in politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transamination is a neutral chemical process, without inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically implies a non-volitional subject for a chemical verb. Enzymes and compounds act without intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of a chemical reaction implies certainty in its occurrence under specific conditions."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Transamination is a continuous biochemical process, occurring repeatedly at a molecular level, indicating high repetition."
+    }
+  }
+}

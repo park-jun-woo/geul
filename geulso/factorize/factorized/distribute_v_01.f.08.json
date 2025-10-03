@@ -1,0 +1,62 @@
+{
+  "synset_id": "distribute.v.01",
+  "frame_id": 8,
+  "frame_text": "Somebody dish_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'distribute' (and 'dish out') describes the act of transferring items to others, causing a change in their possession status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of distributing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being given out or distributed."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The implicit recipients to whom the items are given; inherent to the meaning of 'distribute' and 'bestow' (from the definition), even if not explicitly stated in this minimal frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "piecemeal.a.01",
+      "reasoning": "The definition 'as in small portions' specifies the manner of distribution, indicating that the items are given out individually or in divided quantities."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies an action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is neutral; the sentiment depends on what is distributed and the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of distributing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'as in small portions' suggests a process of giving out multiple items or portions over time, implying high repetition rather than a single discrete event."
+    }
+  }
+}

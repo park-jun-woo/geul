@@ -1,0 +1,57 @@
+{
+  "synset_id": "give.v.05",
+  "frame_id": 5,
+  "frame_text": "Somebody pay something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "communication.n.01",
+      "reasoning": "The definition 'convey' or 'bestow' implies a transfer or transmission of an abstract entity, leading to a change in the recipient's state of awareness or reception. The hypernym 'communicate.v.02' supports the choice of 'communication.n.01' as the core property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who intentionally performs the action of conveying or bestowing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "abstract_entity.n.01",
+          "reasoning": "The 'something' being conveyed, as described in the definition ('compliment, regards, attention'), are all abstract entities. The frame 'Somebody pay something to somebody' here signifies the conveying of such abstract concepts, where 'pay' is a specific idiom (e.g., 'pay attention', 'pay respects') semantically aligned with 'give.v.05'."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the abstract entity is conveyed, indicated by the 'to somebody' phrase in the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of conveying or bestowing an abstract entity is typically a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with a clear will and intention to convey the abstract entity."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of conveying itself is neutral. The sentiment (positive or negative) would be carried by the specific abstract entity (e.g., a compliment versus an insult)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pay something to somebody' explicitly includes an agent ('Somebody') performing the action, making it inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The conveying or bestowing of an abstract entity is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of conveying or bestowing an abstract entity, unless context indicates otherwise."
+    }
+  }
+}

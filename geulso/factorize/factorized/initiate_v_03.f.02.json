@@ -1,0 +1,63 @@
+{
+  "synset_id": "initiate.v.03",
+  "frame_id": 2,
+  "frame_text": "Somebody initiate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'accept people into an exclusive society or group' describes an action that transitions a person from an outsider to a member, thus changing their status or affiliation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of accepting people into the group, thus causing the change in status."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is accepted into the group and whose status is changed."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "group.n.01",
+          "reasoning": "The 'exclusive society or group' into which the patient is accepted, which is implied by the verb's definition as the target of the change in status."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rite.n.01",
+      "reasoning": "The definition explicitly states that the acceptance is 'usually with some rite', indicating a ceremonial manner or process associated with the act of initiation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of accepting someone into a group is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') in the frame indicates strong will and intention for the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of initiation itself is neutral; any positive or negative sentiment would derive from the context of the group or the rite."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly features a volitional agent performing the action, making it intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of initiation, when completed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "For a given 'somebody', being initiated into a specific group is a single, discrete event, even if the process has multiple steps or is repeated for other individuals."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "synset_id": "towel.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody towel something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The definition 'wipe with a towel' implies altering the physical state (e.g., dryness, cleanliness) of the patient's surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of wiping, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose surface condition is being changed by the wiping action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "towel.n.01",
+      "reasoning": "The verb 'towel' inherently specifies the use of a 'towel' as the instrument for the wiping action, distinguishing it from general 'wiping'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Toweling is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence in a declarative manner."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple, completed action rather than ongoing or perfective."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of toweling is generally neutral in politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of toweling itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody towel somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Toweling typically involves multiple, repeated strokes or motions, indicating high iterativity over the duration of the act."
+    }
+  }
+}

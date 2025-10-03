@@ -1,0 +1,58 @@
+{
+  "synset_id": "mock.v.02",
+  "frame_id": 3,
+  "frame_text": "Something mock something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "imitation.n.01",
+      "reasoning": "The core of the definition is to 'imitate', which is an action of reproducing behavior or appearance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the act of imitation, as the grammatical subject of the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being imitated, as the direct object of the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "derision.n.01",
+      "reasoning": "The definition specifies 'with mockery and derision', which describes the negative manner or intent accompanying the imitation. This is a crucial semantic component distinguishing 'mock' from simple 'imitate'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mocking is typically a directly observable event or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ---- something' implies a non-agentive subject, thus lacking an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'mockery and derision', which are inherently negative in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- something' indicates a non-human, non-volitional subject (e.g., 'The wind mocked his cries')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or characteristic."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of imitation with derision, unless specified otherwise by context."
+    }
+  }
+}

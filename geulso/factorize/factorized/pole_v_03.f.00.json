@@ -1,0 +1,65 @@
+{
+  "synset_id": "pole.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody pole something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "chemical_composition.n.01",
+      "reasoning": "The verb's primary action, 'deoxidize', describes a change in the chemical state (specifically, oxidation level) of the molten metals.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent who performs the action of deoxidizing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "molten_metal.n.01",
+          "reasoning": "The 'something' in the frame refers to the 'molten metals' that undergo the change of deoxidization."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "wooden_pole.n.01",
+      "reasoning": "The definition specifies the 'means' by which the deoxidization occurs: 'by stirring them with a wooden pole'. The verb 'pole' itself implies the use of a pole as an instrument."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stirring.n.01",
+      "reasoning": "The definition includes 'stirring' as the specific manner or action performed with the pole to achieve deoxidization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of deoxidizing molten metals is a physical operation that can be directly observed or measured."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of deoxidizing molten metals is a technical process, inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition explicitly states 'stirring them with a wooden pole', which implies a continuous, highly repetitive set of motions to achieve the deoxidization, thus indicating high iterativity for the act of 'poling'."
+    }
+  }
+}

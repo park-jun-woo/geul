@@ -1,0 +1,58 @@
+{
+  "synset_id": "chase.v.01",
+  "frame_id": 20,
+  "frame_text": "Something dog somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'chase' (in the sense of 'dog' as a verb) describes an action of moving to follow someone, which is a change in relative spatial state or location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of pursuing, as indicated by the subject of the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being pursued or followed, as indicated by the direct object of the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "catch.v.01",
+      "reasoning": "The definition 'go after with the intent to catch' explicitly states the primary goal or purpose of the chasing action. 'catch.v.01' represents this specific goal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chasing/dogging is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'with the intent to catch' implies a strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chasing itself is neutral; its sentiment depends on the context and participants."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The phrase 'with the intent to catch' explicitly indicates that the action is intentional and volitional, even if the 'Something' refers to an animal or a persistent person."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is occurring or has occurred."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chasing involves a continuous series of repeated actions (e.g., steps, movements) over a period to maintain pursuit, thus indicating high repetition rather than a single event."
+    }
+  }
+}

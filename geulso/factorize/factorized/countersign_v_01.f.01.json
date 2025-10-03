@@ -1,0 +1,64 @@
+{
+  "synset_id": "countersign.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody countersign something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "authenticity.n.01",
+      "reasoning": "The verb describes an action that modifies or formally affirms the authenticity of a document or item by adding a signature.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of countersigning, thereby attesting authenticity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a document) whose authenticity is attested by the countersignature."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "signature.n.01",
+      "reasoning": "The act of countersigning is specifically performed by adding a signature as the means or instrument."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sequence.n.01",
+      "value_type": "succession.n.01",
+      "reasoning": "The term 'countersign' implies that this signature is added 'after another's', indicating a necessary temporal succession of actions."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of countersigning is a direct, observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as an agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of countersigning itself is neutral; its implications can be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody countersign something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of countersigning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Countersigning typically refers to a single instance of adding a signature to a specific document to attest its authenticity."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "distribute.v.01",
+  "frame_id": 21,
+  "frame_text": "Somebody parcel_out something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'distribute' (or 'parcel out') describes an action that causes a change in who possesses an item, transferring it from an agent to recipients.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the distribution, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being distributed and whose possession changes hands."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives portions of the distributed item, introduced by 'to' in the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "in_portions",
+      "reasoning": "The definition 'as in small portions' and the phrasal verb 'parcel out' inherently describe the manner of distribution as involving division and allocation of parts."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is generally neutral; its positive or negative sentiment depends on context or the items distributed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody parcel_out...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of distributing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'parcel out something to somebody' and the definition 'as in small portions' imply that distribution is a process composed of multiple, often repetitive, individual acts of giving portions, rather than a single instantaneous event."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "forbid.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody disallow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "permission.n.01",
+      "reasoning": "The verb 'forbid' describes an action that initiates a change in the state of an activity, specifically moving it from permissible to impermissible for a particular agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who issues the command and exercises authority to prohibit the action."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the command is directed, who is now restricted from performing an action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'INFINITIVE' action that is being prohibited, representing the content of the command."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of forbidding is typically a direct communication or an observable action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "To 'forbid' inherently implies a strong will and intention on the part of the agent issuing the command."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Forbidding is an action that imposes a restriction or prevents something, carrying an inherent negative connotation from the perspective of the restricted action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody forbid...' explicitly indicates a volitional agent performing the act of forbidding, making it an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A command or prohibition, when issued, is typically expressed with certainty regarding its intent and effect."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'forbid' describes a single, discrete act of issuing a prohibition."
+    }
+  }
+}

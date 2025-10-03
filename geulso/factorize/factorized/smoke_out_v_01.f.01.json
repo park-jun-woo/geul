@@ -1,0 +1,66 @@
+{
+  "synset_id": "smoke_out.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody smoke_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'smoke out' describes an action that causes a change in the location of a participant, specifically moving them from an enclosed space to an external one, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the action of driving out."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the action and is driven out."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implicitly, the patient is driven 'out' from an original location or enclosed space."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implicitly, the patient is driven 'out' to an external or open space."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "smoke.n.01",
+      "reasoning": "The 'smoke' in 'smoke out' refers to the specific instrument used to achieve the driving out, as explicitly stated in the definition 'drive out with smoke'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of smoking somebody out is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action itself is neutral; though the consequences for the patient might be negative, the verb's inherent sentiment is not negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody smoke_out somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action intended to achieve a specific outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of 'smoking out' typically refers to a single event or process of expulsion, even if it involves continuous use of smoke over a period. It is not inherently iterative in the sense of repeated discrete actions."
+    }
+  }
+}

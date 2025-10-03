@@ -1,0 +1,53 @@
+{
+  "synset_id": "shop.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody shop",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'do one's shopping' implies the act of acquiring goods, which results in a change of possession from the seller to the buyer.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of shopping and initiates the change in possession."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "goods.n.01",
+          "reasoning": "The 'something' (goods or items) that is implicitly acquired through the act of shopping, even if not explicitly stated in this intransitive frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shopping is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shopping is neutral; the specific context or items purchased determine any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shop' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shopping is described as a definite occurrence or activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Shopping is an activity that typically involves a sequence of repeated actions (browsing, selecting, purchasing), suggesting high iterativity rather than a single atomic event."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "squint.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody squint",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "closure.n.01",
+      "reasoning": "The verb describes a physical action of altering the state of the eyes towards partial closure.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of squinting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "eye.n.01",
+          "reasoning": "The 'eyes' are the body part that undergoes the partial closure."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "partial.a.01",
+      "reasoning": "The definition explicitly states 'partly close', indicating the degree of eye closure."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "intense_light.n.01",
+      "reasoning": "The definition provides 'as when hit by direct blinding light' as a typical cause for the action, making it a prominent semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Squinting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "While often a reflex, the presence of 'Somebody' in the frame implies an agent capable of acting with will, even if the definition highlights a reactive context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of squinting itself is neutral. The context (blinding light) might be negative, but the action is not inherently so."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates a volitional agent performing the action, even if one common reason is a reflex, as the action can also be performed intentionally (e.g., to see better)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of squinting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of partly closing the eyes, rather than a continuous or repetitive series of distinct events."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "rerun.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody rerun somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "action.n.01",
+      "reasoning": "The definition 'cause to perform' directly describes an agent initiating an action to be carried out by another entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who causes the action to be performed."
+        },
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'something' in the verb frame is the entity that performs the action, as it is caused to do so."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_aspect.n.01",
+      "value_type": "repetition.n.01",
+      "reasoning": "The prefix 're-' in 'rerun' and the explicit mention of 'again' in the definition indicate that the caused performance is a recurrence of a previous event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to perform again is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the frame implies that the action is carried out with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rerunning is neutral; its sentiment depends on the context of what is being rerun."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing an action to be performed again."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'rerun' describes a single event of causing a repetition. The repetitive nature of the caused action itself is captured in a sememe."
+    }
+  }
+}

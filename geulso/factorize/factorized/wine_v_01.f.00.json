@@ -1,0 +1,53 @@
+{
+  "synset_id": "wine.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody wine",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The verb 'wine' is defined as 'drink wine', describing an action that results in the ingestion of a substance, leading to a change in the agent's internal state and the substance's quantity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of drinking, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "wine.n.01",
+          "reasoning": "The 'wine' that is the specific substance being consumed, which is inherent in the definition of the verb 'wine'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of drinking wine is generally considered a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drinking wine is neutral; its sentiment depends on context, quantity, or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody wine' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of 'wine'-ing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of drinking wine, unless explicitly specified otherwise by context."
+    }
+  }
+}

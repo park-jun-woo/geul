@@ -1,0 +1,58 @@
+{
+  "synset_id": "hound.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody hound something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'hound' describes the act of pursuing or chasing, which inherently involves a change in location or proximity of the participants.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of pursuing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the pursuit and undergoes the change in location relative to the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "relentless.a.01",
+      "reasoning": "The definition 'pursue or chase relentlessly' explicitly states the manner of the action as being without yielding or slackening."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hounding is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'hound' someone often implies harassment, persecution, or annoyance, carrying a negative connotation for the pursued."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hounding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The adverb 'relentlessly' in the definition indicates a continuous, sustained, and highly repetitive nature of the pursuit, not a single discrete event."
+    }
+  }
+}

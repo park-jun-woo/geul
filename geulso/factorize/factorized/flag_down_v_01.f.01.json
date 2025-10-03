@@ -1,0 +1,58 @@
+{
+  "synset_id": "flag_down.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody flag_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'flag down' describes causing a change in the state of motion of a target from moving to stopped.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of signaling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (e.g., a driver, a vehicle's occupant) who is signaled and subsequently stops, undergoing the change of motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "signal.n.01",
+      "reasoning": "The definition explicitly states the action is performed by 'signal[ing] to stop', indicating the means by which the change of motion is effected."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of flagging someone down is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to stop the other person."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of flagging down is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of flagging down is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, focused event of signaling to achieve a stop, rather than a repetitive process."
+    }
+  }
+}

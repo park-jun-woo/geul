@@ -1,0 +1,68 @@
+{
+  "synset_id": "hunt.v.01",
+  "frame_id": 8,
+  "frame_text": "Somebody run something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "pursuit.n.01",
+      "reasoning": "The verb 'hunt' primarily describes the active process of chasing or seeking an animal. 'Pursuit' (WordNet ID: pursuit.n.01) encapsulates this core action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of pursuing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame, which is the animal being pursued."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "acquisition.n.01",
+      "reasoning": "The definition explicitly states the purpose of the pursuit is 'for food or sport,' which implies the goal of acquiring (obtaining) or killing the animal. 'Purpose' (WordNet ID: purpose.n.01) describes this inherent goal, with 'acquisition' (WordNet ID: acquisition.n.01) specifying the outcome.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' whose purpose it is to acquire the animal."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (animal) that is the object of this purpose."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hunting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an agent performing the action with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hunting is neutral; its sentiment depends on context (e.g., subsistence vs. poaching)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hunting is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Hunting is a process that typically involves continuous and repetitive actions such as tracking, chasing, and strategizing, similar to 'run' where movement is highly repetitive."
+    }
+  }
+}

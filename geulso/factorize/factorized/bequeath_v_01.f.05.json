@@ -1,0 +1,75 @@
+{
+  "synset_id": "bequeath.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody will something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb's definition 'leave or give by will' describes a transfer of ownership, which is a change in possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who makes the will and initiates the transfer of property."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred upon the agent's death."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the property as an inheritor."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "legal_instrument.n.01",
+      "value": "by will after death",
+      "reasoning": "The definition explicitly states the specific method ('by will') and timing ('after one's death') that characterize this transfer, making them core properties of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bequeathing and the resulting transfer are typically directly documented or observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to create a will."
+    },
+    "Tense": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody *will* something' explicitly uses the future tense auxiliary 'will'."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of legally designating property for future transfer."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The term 'bequeath' is neutral in politeness, often used in formal contexts but not inherently polite or informal."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bequeathing is neutral; its sentiment depends on the specific context and value of the bequeathed item."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent (the bequeather) performing the action of making a will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of creating a will implies a definite intention, and the frame using 'will' suggests certainty of the future event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of bequeathing (making a specific will) is typically a single, distinct event, even if the transfer itself is in the future."
+    }
+  }
+}

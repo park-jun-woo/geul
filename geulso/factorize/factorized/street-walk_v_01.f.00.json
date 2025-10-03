@@ -1,0 +1,65 @@
+{
+  "synset_id": "street-walk.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody street-walk",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the physical act of moving from one place to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value": "street.n.01",
+          "reasoning": "The 'streets' are the specified location where the motion occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "walking.n.01",
+      "reasoning": "A core component of 'street-walk' is the specific manner of locomotion: 'walking'."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "seeking.n.01",
+      "value_type": "customers.n.01",
+      "reasoning": "The defining characteristic of 'street-walk' is the specific purpose of the walking: 'in search of customers', which refers to a specific illicit activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of street-walking is an observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of street-walking is typically associated with prostitution, which generally carries a negative social connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'walk the streets' implies a continuous, repetitive action over time, characteristic of the activity, indicating high iterativity."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "cable.v.01",
+  "frame_id": 9,
+  "frame_text": "Somebody telegraph that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.02",
+      "reasoning": "The verb 'cable' (as per definition 'send cables...telegram') describes an act of conveying information over a distance, which is a form of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of sending the communication."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific information or message being communicated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "telegraph.n.01",
+      "reasoning": "The verb definition specifies 'cables, wires, or telegrams' and the frame uses 'telegraph', indicating the specific medium or technology used for the communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sending a cable/telegram is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to send the message."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sending a message is neutral; the content of the message determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody telegraph...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sending is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of sending a message, though multiple messages can be sent over time."
+    }
+  }
+}

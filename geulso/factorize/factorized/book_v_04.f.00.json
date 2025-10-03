@@ -1,0 +1,53 @@
+{
+  "synset_id": "book.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody book",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "record.n.02",
+      "reasoning": "The definition 'register in a hotel booker' indicates an action that creates a record or an entry, signifying a change in state from unrecorded to recorded.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of registering or making a reservation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "reservation.n.01",
+          "reasoning": "The 'something' that is being registered or reserved, which is typically a reservation for a service or accommodation. This is implicitly the object of the verb 'book', despite the truncated frame 'Somebody book'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of booking or registering is typically a direct action, and its outcome (a record) is verifiable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of booking is inherently neutral; its positive or negative sentiment depends on context or the outcome of the booking."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody book' implies a volitional agent performing the act of booking/registering intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of booking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a reservation or registering an entry."
+    }
+  }
+}

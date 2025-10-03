@@ -1,0 +1,62 @@
+{
+  "synset_id": "vitrify.v.01",
+  "frame_id": 1,
+  "frame_text": "Something vitrify something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The definition 'change into glass or a glass-like substance' indicates a transformation of the patient's material state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates or causes the vitrification."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the change into a glass-like substance."
+        }
+      ],
+      "result_state": {
+        "value_type": "glass.n.01",
+        "reasoning": "The target state or substance specified in the definition as 'glass or a glass-like substance'."
+      }
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "heat.n.01",
+      "reasoning": "The phrase 'by applying heat' explicitly states the instrument or means by which the change occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Vitrification is a physical process that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual process or action, fitting a declarative mood."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the causal agent in this frame typically refers to inanimate forces or entities, implying no inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of vitrification itself is a neutral process; its desirability depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something vitrify something' implies that the action is performed by a non-volitional agent (an inanimate 'Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite process of transformation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of changing a substance into glass."
+    }
+  }
+}

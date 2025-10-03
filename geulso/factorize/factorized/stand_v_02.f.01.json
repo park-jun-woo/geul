@@ -1,0 +1,53 @@
+{
+  "synset_id": "stand.v.02",
+  "frame_id": 1,
+  "frame_text": "Something stand Adjective/Noun",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "state.n.02",
+      "reasoning": "The definition 'be in some specified state or condition' explicitly describes a continuous state of being, not an action or a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who is the subject and exists in the specified state or condition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "attribute.n.02",
+          "reasoning": "The 'Adjective' in the frame specifies the particular attribute or condition that the causal agent is in. This abstract attribute is the object of the state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Being in a specified state is typically known through direct observation or internal experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about a state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Being in a state does not inherently involve the agent's will or intention at the moment of being in that state."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The state itself is neutral. The adjective that describes the state ('happy', 'accused') can carry sentiment, but the verb 'stand' (in this sense) does not."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Being in a state is a non-volitional condition. While one might volitionally act to *enter* a state, the state itself is not an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'stand' when describing a state implies a definite, certain condition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "As a continuous state, the concept of repetition as discrete events is not applicable. It is treated as a single, ongoing instance."
+    }
+  }
+}

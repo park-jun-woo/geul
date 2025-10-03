@@ -1,0 +1,56 @@
+{
+  "synset_id": "send.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody send something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'to cause or order to be taken, directed, or transmitted to another place' describes an action that results in a change of the patient's location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or orders the action of causing the object to move."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is caused to move or change its location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implied by the verb's definition 'to another place', indicating the endpoint of the movement, even if not explicitly present in this specific frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sending is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame, and the definition 'cause or order', imply the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sending is neutral; its sentiment depends on context or what is sent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sending is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of dispatching an item."
+    }
+  }
+}

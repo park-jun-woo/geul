@@ -1,0 +1,63 @@
+{
+  "synset_id": "dunk.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody douse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'dunk' describes the action of causing an object to change its location by moving it into a liquid, resulting in a state of being wet, coated, or saturated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of immersing the object, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is immersed and undergoes the change of location and state."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The medium (liquid) into which the object is moved/immersed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "brief.a.01",
+      "reasoning": "The definition explicitly states that the immersion is performed 'briefly', describing the manner and duration of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dunking/dousing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual action, thus declarative."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody douse something' implies an agent with strong will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dunking/dousing itself is neutral; its sentiment depends on context or the object being dunked."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, certain action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'dunk' typically describes a single, discrete event of immersion, even if it can be repeated."
+    }
+  }
+}

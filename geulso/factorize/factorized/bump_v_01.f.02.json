@@ -1,0 +1,58 @@
+{
+  "synset_id": "bump.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody bump something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The definition 'knock against' describes an action that causes a state of physical contact between two entities, thus a change from non-contact to contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the initiator of the knocking action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity introduced by the prepositional phrase (PP) is the one that is affected by or receives the impact of the bump."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition explicitly includes 'with force or violence', indicating a specific, high-intensity manner of contact."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bumping is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will, even if the bump itself might be accidental, the movement leading to it is typically willed."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bumping is neutral; its sentiment depends on context (e.g., accidental, intentional, playful)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bump PP' explicitly includes a volitional agent ('Somebody'), indicating the action is initiated by the agent's will, even if the direct result (the impact) is unintentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of bumping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bump' typically refers to a single instance of contact or collision. Repetitive action would be expressed differently (e.g., 'bumping repeatedly')."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "synset_id": "burglarize.v.01",
+  "frame_id": 4,
+  "frame_text": "Somebody burgle somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'burglarize' fundamentally involves the act of unlawfully taking property, thereby causing a change in its possession (robbing).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who is the agent performing the act of burglary."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "property.n.01",
+          "reasoning": "The implicit 'something' (property) that is stolen and changes possession."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'somebody' in the frame, representing the person from whom the property is taken."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "dwelling.n.01",
+      "reasoning": "A defining characteristic of 'burglarize' is that the act of taking property occurs specifically within a dwelling, as stated in the definition 'rob a dwelling'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "reasoning": "The definition 'enter and rob a dwelling' indicates that an unlawful entry is an inherent part of the manner in which the possession change occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A burglary is an event that can be directly observed or proven through physical evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of burglarizing is highly intentional and driven by the agent's will, as indicated by the 'Somebody ----s' frame."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Burglary is an illegal and harmful act, inherently carrying a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody burgle somebody' clearly indicates a volitional agent performing an intentional, criminal act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the act of burglary."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed instance of burglary, without inherent implication of repetition."
+    }
+  }
+}

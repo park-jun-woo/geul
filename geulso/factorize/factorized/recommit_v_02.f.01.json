@@ -1,0 +1,63 @@
+{
+  "synset_id": "recommit.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody recommit something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "commitment.n.01",
+      "reasoning": "The verb describes the act of causing a state of commitment or entrustment to occur, which is a change from a previous state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of recommitting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being committed or entrusted."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the commitment or entrustment is made, as indicated by the 'to somebody' phrase."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "recurrence.n.01",
+      "value_type": "adverb.n.01",
+      "value": "again",
+      "reasoning": "The prefix 're-' in 'recommit' explicitly denotes that this act is a repetition or renewal of a previous commitment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of recommitting is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of recommitting itself is neutral; its sentiment depends on the context and what is being recommitted."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of recommitting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the action is a *repetition* of a previous event, the act of recommitting itself is a single, discrete event, not a continuous or highly repetitive process in its execution."
+    }
+  }
+}

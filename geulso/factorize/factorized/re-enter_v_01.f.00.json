@@ -1,0 +1,58 @@
+{
+  "synset_id": "re-enter.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody re-enter",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'enter' (from 're-enter') describes a change in location from outside to inside a space.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of changing location, even if non-volitionally."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implicit place or space into which the subject re-enters."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "recurrence.n.01",
+      "value": "again",
+      "reasoning": "The 're-' prefix explicitly signifies that the action of entering is a repetition of a prior occurrence."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of re-entering is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something re-enter' lacks an agent capable of will, implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of re-entering is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something re-enter' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of re-entering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The 're-' prefix explicitly means 'again', implying that the action is a repetition. 'MAX-1' (High repetition) is the closest value to indicate a repeated action rather than a single event, as it's not infinite but more than one instance."
+    }
+  }
+}

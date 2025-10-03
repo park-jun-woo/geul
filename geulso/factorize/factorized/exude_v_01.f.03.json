@@ -1,0 +1,59 @@
+{
+  "synset_id": "exude.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody ooze_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'release (a liquid)' describes a change in the location of the liquid, moving it from an internal or contained state to an external one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the action of releasing the liquid."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'something' in the verb frame, which is specified as 'a liquid' in the definition, and undergoes the change of location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "in drops or small quantities",
+      "reasoning": "The definition explicitly specifies 'in drops or small quantities' as the characteristic manner of the liquid's release."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exuding or releasing a liquid is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the verb frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exuding a liquid is semantically neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody ooze_out something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'in drops or small quantities' implies a continuous or highly repetitive process of emission over a period, rather than a single, instantaneous event."
+    }
+  }
+}

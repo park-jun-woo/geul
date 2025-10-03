@@ -1,0 +1,58 @@
+{
+  "synset_id": "slice_into.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody slice_through something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb's definition 'move through a body or an object' directly describes a change in location or position relative to another entity, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' in the verb frame is the entity that performs the movement, acting as the instigator of the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' (object of 'slice into') is the body or object through which the causal agent moves, thus undergoing the impact of the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "slicing",
+      "reasoning": "The definition explicitly states 'with a slicing motion', which describes the specific manner in which the movement occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of slicing into something is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of slicing into an object is inherently neutral; its positive or negative sentiment depends on context or the outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something'), meaning the action is not performed with intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is taking place or has taken place."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The phrase 'move through' implies a continuous, singular event of traversal rather than a series of repeated, discrete actions."
+    }
+  }
+}

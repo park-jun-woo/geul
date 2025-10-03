@@ -1,0 +1,65 @@
+{
+  "synset_id": "float.v.01",
+  "frame_id": 5,
+  "frame_text": "Something is blowing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'be in motion' describes a transition in location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame represents the entity that undergoes the floating motion; it is moved rather than moving itself."
+        },
+        {
+          "semantic_role": "cause.n.01",
+          "value_type": "current.n.01",
+          "reasoning": "The definition explicitly states 'due to some air or water current', indicating an external force that initiates the motion. The 'blowing' in the frame can be interpreted as the action of this current."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the verb frame often specifies the direction, path, or location of the motion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of floating is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or ongoing state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject ('Something') is being moved by an external force (a current), indicating a lack of inherent will or intention for its motion."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is blowing PP' uses the auxiliary 'is' followed by a present participle, clearly indicating the progressive aspect, implying an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'float' itself carries no inherent politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of floating is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition 'be in motion due to some air or water current' explicitly points to an external cause, making the action non-volitional for the subject 'Something'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The frame describes a definite, observable event, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Floating, especially 'in motion due to some air or water current', is typically a continuous process involving repeated, subtle movements, rather than a single discrete event."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "eat_in.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody eat_in",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "nutrition.n.01",
+      "reasoning": "The verb describes the activity of consuming food, which causes a change in the nutritional state of the agent and the physical state of the food (from whole to processed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of eating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The implicit 'something' (food) that is consumed, even though it is not explicitly present in the verb frame 'Somebody eat_in'."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "home.n.01",
+          "reasoning": "The 'in' in 'eat_in' explicitly specifies the location of the activity as 'at home', distinguishing it from eating elsewhere."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of eating is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of eating is generally neutral; its sentiment depends on context or the nature of the food."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody eat_in' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of eating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'eat_in' typically refers to a single instance of having a meal at home, despite being composed of multiple smaller actions (bites)."
+    }
+  }
+}

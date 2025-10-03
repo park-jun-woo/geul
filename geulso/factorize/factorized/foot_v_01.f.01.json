@@ -1,0 +1,59 @@
+{
+  "synset_id": "foot.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody pick",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'pay for something' describes a transfer of financial possession/responsibility, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the act of paying.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "cost.n.01",
+          "reasoning": "The 'something' being paid for, which represents a cost or financial obligation implied by the verb's definition, even if not explicitly present in the provided frame string.",
+          "value": "cost"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The entity (person or institution) that receives the payment, implied by the act of 'paying for something'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of paying is a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an action driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of paying is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pick' (interpreted as 'Somebody ----s') clearly indicates a volitional agent performing the action, consistent with 'paying'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action of payment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of payment."
+    }
+  }
+}

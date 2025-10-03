@@ -1,0 +1,61 @@
+{
+  "synset_id": "dig.v.01",
+  "frame_id": 9,
+  "frame_text": "Somebody turn_over",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'dig' describes an action that causes a fundamental change in the physical condition of the earth (e.g., from undisturbed to disturbed, loosened, or removed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the action of digging.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "earth.n.01",
+          "reasoning": "The 'earth' is the material undergoing the change in condition, as implied by the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "orientation.n.02",
+      "value": "inverted_or_rearranged",
+      "reasoning": "The specific verb frame 'turn_over' indicates that the change in the earth's condition involves its orientation being inverted or rearranged.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of digging is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of digging is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Digging, especially 'turning over' earth, typically involves a series of repeated actions (e.g., shovelfuls), indicating high but not infinite repetition."
+    }
+  }
+}

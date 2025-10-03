@@ -1,0 +1,65 @@
+{
+  "synset_id": "chew.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody chew",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes the physical process of altering the integrity of a substance (typically food) by breaking it down into smaller pieces.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of chewing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The substance, typically food, whose integrity is changed. This participant is implied by the verb's definition ('chew (food)') and inherent transitivity, even if the specific `verb_frame` omits the explicit object."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "action.n.01",
+      "value": "biting and grinding",
+      "reasoning": "The definition explicitly details the specific physical manner of action as 'to bite and grind'. 'Action.n.01' is chosen as a broad category for the value_type to encompass the descriptive string.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'teeth' are specified in the definition as the anatomical instrument used for the biting and grinding action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chewing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chewing is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' (interpreting 'chew' as 'chews' for grammaticality) explicitly indicates a volitional agent performing the action, making it inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chewing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chewing is an action composed of continuous, highly repetitive motions of biting and grinding. Therefore, it has high iterativity."
+    }
+  }
+}

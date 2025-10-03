@@ -1,0 +1,57 @@
+{
+  "synset_id": "trephine.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody trephine something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_integrity.n.01",
+      "reasoning": "The verb 'trephine' describes a surgical intervention, which causes a modification or alteration to the physical state or integrity of the patient's body.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the surgical operation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (the other person in the frame) who undergoes the trephination, experiencing a change to their physical state."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "trephine.n.01",
+          "reasoning": "The definition explicitly states 'operate on with a trephine', indicating that the trephine is the inherent tool used for this specific surgical act."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A surgical operation is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Performing surgery requires a strong will and intention from the agent ('Somebody')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of trephining itself is a neutral medical procedure; its outcome can be positive or negative depending on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing an intentional medical procedure."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of the surgical procedure."
+    }
+  }
+}

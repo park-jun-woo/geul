@@ -1,0 +1,64 @@
+{
+  "synset_id": "slam-dunk.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody slam-dunk",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of causing a basketball to change its location by moving it into a basket.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of slam-dunking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "basketball.n.01",
+          "reasoning": "The implied 'something' that is moved, which is a basketball, as per the definition 'shoot a basketball'."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "basketball_hoop.n.01",
+          "reasoning": "The implied target of the action, the basketball hoop/basket, which is the goal of a slam dunk."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The 'slam' in 'slam-dunk' explicitly denotes a forceful and powerful manner of executing the dunk, distinguishing it from a regular shot or a less vigorous dunk."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A slam-dunk is a directly observable action in a game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to score."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of slam-dunking itself is neutral; its positive or negative sentiment depends on game context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody slam-dunk' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or performance of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of making a slam dunk."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "defame.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody asperse somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb describes an action that causes a negative change to someone's good name and reputation, as stated in the definition 'attack the good name and reputation of someone'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the act of defaming, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose good name and reputation are negatively affected by the defaming action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truthfulness.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The definition includes 'charge falsely,' indicating that the statements or accusations made are untrue."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intent.n.01",
+      "value_type": "malicious.a.01",
+      "reasoning": "The definition explicitly states 'with malicious intent,' highlighting the ill will behind the defaming action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming is typically a directly observable or reported event, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation of someone' clearly indicates a negative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody defame somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of defaming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, albeit potentially complex, act of defamation."
+    }
+  }
+}

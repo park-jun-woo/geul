@@ -1,0 +1,65 @@
+{
+  "synset_id": "fly-fish.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody flyfish PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "capture.n.01",
+      "reasoning": "The verb 'fly-fish' describes an activity aimed at changing the state of fish from free to captured.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the fishing activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fish.n.01",
+          "reasoning": "The implied target (fish) of the fishing activity, though not explicit in the frame itself."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "fishing_fly.n.01",
+      "reasoning": "The definition 'fish with flies as lures' explicitly states the specific instrument central to fly-fishing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "reasoning": "The 'PP' in the verb frame indicates the spatial context or location where the fly-fishing activity occurs.",
+      "value_type": "string"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Fly-fishing is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fly-fishing itself is neutral in sentiment; context determines if it's positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of fly-fishing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Fly-fishing is an activity that typically involves continuous and highly repetitive actions (e.g., casting, retrieving) over a period."
+    }
+  }
+}

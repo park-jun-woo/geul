@@ -1,0 +1,72 @@
+{
+  "synset_id": "bounce.v.06",
+  "frame_id": 0,
+  "frame_text": "Somebody bounce something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "value_type": "rejected.a.01",
+      "reasoning": "The verb's definition 'refuse to accept' implies a change in the status of the item from potentially accepted to rejected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who makes the decision to refuse."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose acceptance is refused."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'send back' clearly indicates a change in the physical location of the item, resulting in its return.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who physically sends the item back."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is moved."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implicit destination is the original sender, implied by the 'back' component of 'send back'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of refusing and sending back is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'refuse to accept' implies a strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bouncing is neutral; its positive or negative sentiment depends on context (e.g., bouncing a bad check vs. bouncing a person from a club)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' combined with the definition 'refuse to accept' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bouncing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of rejecting and returning a specific item."
+    }
+  }
+}

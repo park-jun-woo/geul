@@ -1,0 +1,62 @@
+{
+  "synset_id": "connect.v.07",
+  "frame_id": 1,
+  "frame_text": "Something is connecting PP",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb describes a state of being linked or joined between entities, specifically within a transportation context.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., transportation service) that is in the state of connection, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' denotes the location or other service to which the 'Something' is connected, completing the link."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "service.n.01",
+      "reasoning": "The inherent purpose of this connection is to provide a continuous service, as specified in the verb's definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The scheduling and provision of a connecting service are typically directly observable or verifiable facts."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about a service arrangement."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' (e.g., a flight) itself does not possess will. While the scheduling involved human will, the state of being connected is non-volitional for the 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of connecting in this context is neutral; its sentiment depends on external factors (e.g., delays)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is connecting PP' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional for the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite state of being scheduled and providing service."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'continuing service' implies a regularly recurring or ongoing state of connection, indicating high repetition."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is connecting' explicitly uses the progressive aspect."
+    }
+  }
+}

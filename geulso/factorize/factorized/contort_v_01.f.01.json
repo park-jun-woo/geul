@@ -1,0 +1,63 @@
+{
+  "synset_id": "contort.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody deform something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "twist.v.04",
+      "reasoning": "The verb 'contort' primarily involves the action of twisting, as explicitly stated in its definition and reinforced by its hypernym. The 'press' component signifies an intensifying or additional manipulation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of twisting, causing the contortion, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the twisting and is manipulated by the causal agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "deformation.n.01",
+      "reasoning": "The action of twisting and pressing explicitly causes the patient to be 'out of shape', leading to a state of deformation.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is left in a state of deformation as a result of the contortion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of contorting is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent ('Something') performing the action, thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of contorting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of contortion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of causing something to be out of shape, though it can be repeated."
+    }
+  }
+}

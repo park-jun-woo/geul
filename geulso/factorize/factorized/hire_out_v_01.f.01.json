@@ -1,0 +1,58 @@
+{
+  "synset_id": "hire_out.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody farm_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "use.n.01",
+      "reasoning": "The verb describes the action of making something or someone's services available for temporary use, representing a change in the state of their use or accessibility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of granting the use or services."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame whose services or temporary use is granted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "fee.n.01",
+      "value_type": "required.a.01",
+      "reasoning": "The definition explicitly includes 'for a fee', indicating that a payment is an inherent condition of this transaction, distinguishing it from simply 'lending'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of hiring out."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hiring out is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct event of making something or someone available for hire."
+    }
+  }
+}

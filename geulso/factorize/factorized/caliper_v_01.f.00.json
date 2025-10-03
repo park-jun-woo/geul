@@ -1,0 +1,58 @@
+{
+  "synset_id": "caliper.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody caliper something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "dimension.n.01",
+      "reasoning": "The verb describes the action of determining the diameter, which is a specific dimension, implying a change from an unknown to a known state of this property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of measuring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose diameter is being measured."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "calipers.n.01",
+      "reasoning": "The definition explicitly states that the measurement is performed 'with calipers', making the instrument an inherent and distinguishing part of the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Measuring with calipers is a direct and observable act, yielding direct sensory information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of measuring is neutral; the implications of the measurement itself can be positive or negative, but not the act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of measuring."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of calipering is performed to ascertain a measurement, implying a definite result and high confidence in that result."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of measuring a specific diameter."
+    }
+  }
+}

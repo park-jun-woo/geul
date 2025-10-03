@@ -1,0 +1,53 @@
+{
+  "synset_id": "furnish.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody furnish something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'provide or equip with furniture' describes a transition where the patient gains a state of having furniture, which is a change of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of providing or equipping."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "furniture.n.01",
+          "reasoning": "The 'something' (e.g., a room, house) that receives the furniture and is thus furnished. The value_type specifies the type of item that is possessed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of furnishing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of furnishing itself is neutral; its sentiment depends on context or the quality of the furniture."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of furnishing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed act of equipping a space with furniture, even if it involves placing multiple individual items. It denotes the completion of the state change rather than a repetitive process."
+    }
+  }
+}

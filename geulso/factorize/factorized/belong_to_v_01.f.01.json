@@ -1,0 +1,52 @@
+{
+  "synset_id": "belong_to.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody belong_to somebody",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'belong_to' describes a continuous state of having a relationship of ownership or being an integral part, consistent with the definition 'be a part or adjunct'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'somebody' is the entity to whom 'Something' belongs, acting as the possessor in this state. This aligns with the subject role for state verbs like 'know' in samples."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' is the entity whose state of belonging or being possessed is described by the verb."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The state of belonging is typically presented as a direct, observable fact or established truth."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about a relationship or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Belonging is a state, not an action driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The state of belonging is inherently neutral; the sentiment depends on the context or what is being possessed."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Belonging is a non-volitional state; 'Something' cannot volitionally belong, and 'somebody' is in a state of possession rather than actively performing a volitional act of possessing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A statement that something 'belongs to' someone implies certainty about that relationship or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "As a continuous state, 'belong_to' represents an ongoing instance rather than a repetitive action."
+    }
+  }
+}

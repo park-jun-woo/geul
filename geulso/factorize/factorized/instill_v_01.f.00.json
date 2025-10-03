@@ -1,0 +1,64 @@
+{
+  "synset_id": "instill.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody instill something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'instill' describes causing a change in an entity's internal state, leading to the acquisition or 'possession' of an abstract quality, idea, or feeling.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that is the non-volitional source or cause initiating the impartation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "abstract_entity.n.01",
+          "reasoning": "The abstract entity (e.g., quality, idea, feeling) that is being transferred or introduced into the recipient."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "entity.n.01",
+          "reasoning": "The entity (implied by the 'PP' in the frame, e.g., 'in someone/something') that receives the instilled abstract entity."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gradual.a.01",
+      "reasoning": "The definition explicitly states the impartation occurs 'gradually', which is a core semantic component of 'instill' defining its manner or pace."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of instilling, and its effects, are typically directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an ongoing process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame implies no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of instilling itself is neutral; the specific quality or idea being instilled determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is instilling...' clearly indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of imparting."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'impart gradually' implies a continuous or highly repetitive process over time, rather than a single discrete event."
+    }
+  }
+}

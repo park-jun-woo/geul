@@ -1,0 +1,57 @@
+{
+  "synset_id": "drive_around.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody chauffeur somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'drive around' describes causing a change in the location of a patient, which is a change in their state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent who performs the action of driving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the person whose motion is caused by the agent; they are being driven."
+        },
+        {
+          "semantic_role": "means.n.02",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The definition 'drive someone in a vehicle' explicitly states the means by which the motion occurs."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Driving someone around is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of driving someone around is inherently neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single event of driving someone in a vehicle, even if that event is continuous over a period. It does not imply high, discrete repetition like 'hopping'."
+    }
+  }
+}

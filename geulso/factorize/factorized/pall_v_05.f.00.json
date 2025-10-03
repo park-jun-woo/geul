@@ -1,0 +1,63 @@
+{
+  "synset_id": "pall.v.05",
+  "frame_id": 0,
+  "frame_text": "Something pall something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb's definition 'cause to become flat' describes a transformation in the physical shape of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the change in shape."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change to become flat."
+        }
+      ]
+    },
+    {
+      "verb_type": "state_result",
+      "verb_property": "flatness.n.01",
+      "reasoning": "The core outcome of the action is the state of being flat. This is the resulting state after the change.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (the patient) is in the state of being flat as a result of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to become flat is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional cause, not an agent with will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to become flat is inherently neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject ('Something') causing the action, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of transformation to a flat state."
+    }
+  }
+}

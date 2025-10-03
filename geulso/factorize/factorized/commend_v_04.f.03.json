@@ -1,0 +1,54 @@
+{
+  "synset_id": "commend.v.04",
+  "frame_id": 3,
+  "frame_text": "Somebody recommend that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "opinion.n.01",
+      "reasoning": "The definition 'express a good opinion of' directly points to the act of communicating an opinion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity who expresses the opinion.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific content or subject of the good opinion being expressed, functioning as the patient of the communication."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of expressing an opinion is a direct communicative action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action of expressing."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention to express a good opinion."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'express a *good* opinion of' inherently carries a positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of expressing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Expressing an opinion, particularly a commendation, implies certainty in that opinion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of expressing an opinion."
+    }
+  }
+}

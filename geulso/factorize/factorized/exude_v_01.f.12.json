@@ -1,0 +1,59 @@
+{
+  "synset_id": "exude.v.01",
+  "frame_id": 12,
+  "frame_text": "Something ooze_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The verb describes the process of a liquid transitioning from a state of being contained within a source to being uncontained (released).",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' (subject of the frame) from which the liquid is released."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'something' (object of the frame) that is released, explicitly defined as a liquid."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gradual_and_small_volume_flow",
+      "reasoning": "The definition specifies 'in drops or small quantities,' and the 'ooze_out' in the frame implies a slow, gradual, and limited volume of flow."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exuding a liquid is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is inanimate and lacks the capacity for will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exuding is semantically neutral; its sentiment depends on the context or the substance being exuded."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ooze_out something' indicates that the subject ('Something') is non-agentive and therefore the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of liquid release."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'in drops or small quantities' and the verb 'ooze_out' suggest a continuous, highly repetitive, or gradual process of emission rather than a single discrete event."
+    }
+  }
+}

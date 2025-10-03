@@ -1,0 +1,58 @@
+{
+  "synset_id": "drive.v.08",
+  "frame_id": 1,
+  "frame_text": "Something drive something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'push, propel' explicitly indicates that the verb causes a change in the state of an object's motion or position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which applies the force and initiates the motion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is moved or propelled by the applied force."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "force.n.02",
+      "reasoning": "The definition explicitly states 'with force', indicating a crucial manner component of the action. 'Force' is the characteristic of how the action is executed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of driving/propelling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ---- something' implies the subject 'Something' lacks will or intention, thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of driving/propelling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- something' describes an action performed by a non-agentive subject, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of driving/propelling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'drive' in this sense (push, propel) often implies a continuous or sustained application of force to maintain motion, suggesting high repetition or continuity."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "synset_id": "visa.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody visa something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes the act of officially providing a passport with a visa, which changes the legal status or characteristics of the passport.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of providing the visa."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "passport.n.01",
+          "reasoning": "The 'something' in the frame, which is specified by the definition as a 'passport' that receives the visa, undergoing a change in its status."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of providing a visa is a directly observable administrative action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'visaing' itself is a neutral administrative procedure; its implications can be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of visaing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of visaing is described as a definite occurrence or procedure."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of providing a visa to a specific passport at a given time."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "mushroom.v.02",
+  "frame_id": 0,
+  "frame_text": "Something mushroom",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "size.n.01",
+      "reasoning": "The 'grow' part of the definition describes an increase in the size of the patient.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in size and extent."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "extent.n.01",
+      "reasoning": "The 'spread' part of the definition describes an increase in the area or range covered by the patient.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in size and extent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition explicitly includes 'fast', indicating the high speed of the growth and spread."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of growing and spreading is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something mushroom' lacks an agent with will, implying the process occurs naturally or without an external agent's volition."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of growing and spreading is semantically neutral; its positive or negative connotation depends on the specific context and what is growing/spreading."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something mushroom' indicates a non-volitional subject ('Something') undergoing a natural process, not performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'mushroom' implies a continuous and rapid process of growth and spread, involving many small, incremental changes over time, rather than a single, punctual event. This suggests high repetition of these underlying increments."
+    }
+  }
+}

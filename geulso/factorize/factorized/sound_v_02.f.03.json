@@ -1,0 +1,52 @@
+{
+  "synset_id": "sound.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody sound Adjective",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "perception.n.01",
+      "reasoning": "The verb, in the frame 'Somebody sound Adjective', describes the state of a subject being perceived as having a certain quality through auditory means. This interpretation aligns with the common usage of 'sound + adjective' (e.g., 'You sound happy') and the provided hypernym 'cause_to_be_perceived', which focuses on the resulting perception, rather than strictly the act of making noise (the explicit definition of sound.v.02 in WordNet 3.1 is generally for inanimate objects or specific actions of emitting sound).",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' who is the subject of the auditory perception; their qualities are being perceived."
+        },
+        {
+          "semantic_role": "attribute.n.01",
+          "reasoning": "The 'Adjective' describes the specific quality or attribute that 'Somebody' is perceived to have, based on the sound they produce."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb 'sound' in this context implies direct auditory perception of the subject's qualities."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a perception or state of being perceived."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The state of being perceived in a certain way is not an act driven by the subject's will or intention. While the action causing the sound (e.g., speaking) might be volitional, the *perception* itself is not willed by the subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb itself is neutral; the sentiment is determined by the specific adjective used (e.g., 'sound good' vs. 'sound bad')."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Being perceived as 'Adjective' through sound is a passive state or observation, not an intentional action performed by 'Somebody'. Therefore, it is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'sound Adjective' implies a definite observation of the perceived quality."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The state of being perceived can be continuous or refer to a single instance of auditory judgment, but it does not inherently imply repetition in the way an action like 'run' does. It is treated as a single, ongoing instance of perception."
+    }
+  }
+}

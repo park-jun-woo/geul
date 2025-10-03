@@ -1,0 +1,59 @@
+{
+  "synset_id": "bull.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody bull something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "value.n.01",
+      "value_type": "increase.v.01",
+      "reasoning": "The definition 'raise the price' explicitly indicates an attempt to cause a change in the value of the 'something' (stocks) towards an increase.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who is actively trying to cause the change in price."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (stocks) whose value is intended to be changed/raised."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "speculation.n.01",
+      "reasoning": "The definition explicitly states 'through speculative buying', identifying the core method used to achieve the change in price. 'Speculation' captures the essence of this method."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of 'bulling' stocks is a direct financial activity that can be observed or reported as factual."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame and the explicit 'try to raise' in the definition indicate a strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'bulling' is a neutral financial strategy; its positive or negative sentiment depends on the outcome and perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action, and the definition 'try to raise' implies intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or attempt to influence prices."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of trying to raise prices 'through speculative buying' often involves multiple, continuous or highly repetitive buying actions over a period, rather than a single discrete event."
+    }
+  }
+}

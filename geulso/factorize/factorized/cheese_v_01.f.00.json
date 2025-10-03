@@ -1,0 +1,53 @@
+{
+  "synset_id": "cheese.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody cheese something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "continuation.n.01",
+      "reasoning": "The definition 'get away' or 'stop it' signifies a command to transition from an ongoing state (presence or activity) to a state of cessation or absence, representing a change in continuation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the implicit or explicit agent being commanded to cause the cessation or to depart, thus acting as the causal agent of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'something' refers to the activity, situation, or presence that the agent is commanded to stop or get away from, making it the patient of the cessation/departure."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A command (imperative) is a direct utterance, representing direct experience."
+    },
+    "Mood": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly states the verb is 'used in the imperative', indicating a command."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "An imperative expresses a strong will or demand from the speaker for the agent to perform or cease an action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'stop' or 'get away' can be used in negative contexts, the act of commanding cessation itself is semantically neutral. The context of the 'something' being stopped might carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The imperative form commands a volitional act from the agent ('Somebody') being addressed. Stopping or getting away requires intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A command is typically issued with certainty regarding the desired action or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The command 'stop it' or 'get away' implies a single, definitive act of cessation or departure, rather than a repetitive action."
+    }
+  }
+}

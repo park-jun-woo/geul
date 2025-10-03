@@ -1,0 +1,63 @@
+{
+  "synset_id": "parget.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody parget something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "covering.n.01",
+      "reasoning": "The definition 'apply ornamental plaster to' describes an action that causes a change in the surface state of an object by covering it. This aligns with the hypernym 'plaster.v.05' (coat with plaster).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of applying plaster, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (surface/object) that undergoes the change of being covered with plaster."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "plaster.n.01",
+          "reasoning": "The 'ornamental plaster' is the substance used to effect the change on the patient, making it the material involved."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "aesthetic_quality.n.01",
+      "value_type": "ornamental.a.01",
+      "reasoning": "The definition explicitly states 'ornamental plaster', indicating a specific aesthetic quality as an inherent part of the pargeting process, differentiating it from simple plastering."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Applying plaster is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pargeting itself is neutral; its aesthetic outcome or context determines sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of pargeting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of applying plaster. While the application might be continuous over a surface, the verb refers to the singular action type."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "hire_out.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody farm_out somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'grant the services of or the temporary use of' describes a temporary transfer of control or benefit over 'something', which is a change in possession/use.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the temporary transfer of use or services, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (services or object) whose temporary use is granted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "payment.n.01",
+      "value_type": "fee.n.01",
+      "reasoning": "The phrase 'for a fee' is a crucial definitional component, indicating that the temporary transfer involves a financial exchange. This is an inherent property of the 'hire out' transaction.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of hiring out is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of granting temporary use or services for a fee."
+    }
+  }
+}

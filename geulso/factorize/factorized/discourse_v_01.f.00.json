@@ -1,0 +1,58 @@
+{
+  "synset_id": "discourse.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody discourse somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The verb describes a process where the 'something' (the topic) changes its status from not being analyzed or communicated to being actively analyzed and communicated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of considering and examining a topic."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the subject of the discourse, undergoing a change in its status as a topic of consideration/examination."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "communication.n.01",
+      "reasoning": "The consideration and examination of the topic are carried out specifically through the manner of speech or writing, as stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of discoursing is a directly observable phenomenon or activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discoursing itself is neutral; the content or outcome of the discourse might carry sentiment, but the verb does not inherently."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of discoursing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'discourse' often implies an extended, continuous, and potentially repetitive process of considering or examining a topic, rather than a single, instantaneous event. This indicates high iterativity."
+    }
+  }
+}

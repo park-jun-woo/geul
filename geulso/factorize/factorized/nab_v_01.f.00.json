@@ -1,0 +1,59 @@
+{
+  "synset_id": "nab.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody nab somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'tag the base runner to get him out' indicates a change in the base runner's game status from 'in play' to 'out'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of tagging/nabbing, initiating the change in status."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "base_runner.n.01",
+          "reasoning": "The 'somebody' (the base runner) who undergoes the change of status due to being tagged."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The definition explicitly states 'tag', indicating a physical interaction/contact as the manner of performing the action.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'nabbing' in baseball is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intent and will to get the runner out."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of nabbing is a neutral action within the context of a game; it's neither inherently positive nor negative outside of game outcomes."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing an intentional action to get the runner out."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'nab' implies a definite and successful execution of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Each instance of 'nabbing' results in a single, distinct 'out', treating it as a single event."
+    }
+  }
+}

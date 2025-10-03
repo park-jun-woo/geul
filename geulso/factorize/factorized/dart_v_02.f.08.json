@@ -1,0 +1,58 @@
+{
+  "synset_id": "dart.v.02",
+  "frame_id": 8,
+  "frame_text": "Something is flashing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'run or move very quickly or hastily' explicitly describes a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the assumed verb frame (Something ----s PP) is the entity that performs the action of moving itself."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the assumed verb frame indicates the direction or endpoint of the rapid movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The core meaning of 'dart' includes the 'very quickly or hastily' manner of movement, distinguishing it from general motion. 'Fast' captures this essential component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of darting is a physically observable event, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or movement."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Based on the rule 'If it contains 'Something', it is likely non-volitional or the volitionality is neutral', the agent's will is considered neutral or absent for 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of darting is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The verb frame 'Something ----s PP' with 'Something' as the subject indicates that the action is neutral in terms of volitionality, as per the specified rule."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'dart' describes a definite occurrence of movement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "While a 'dart' can be a sudden, single burst, the definition 'run or move very quickly' implies a continuous or highly repetitive sequence of rapid micro-movements, similar to 'run', indicating high iterativity."
+    }
+  }
+}

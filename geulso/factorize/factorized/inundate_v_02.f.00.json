@@ -1,0 +1,64 @@
+{
+  "synset_id": "inundate.v.02",
+  "frame_id": 0,
+  "frame_text": "Something deluge something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The verb describes a change in the patient's state, specifically its degree of coverage, from partial/none to complete.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that causes the change in coverage."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of coverage."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "complete.a.01",
+      "reasoning": "The definition explicitly states that the filling or covering is done 'completely', indicating the extent of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The definition specifies 'usually with water' as the typical medium or substance involved in the inundation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Inundation is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something inundate something' implies a non-agentive subject, thus lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of filling or covering is neutral; any negative sentiment arises from context (e.g., flooding), not the verb's core meaning."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something inundate something' describes an action performed by a non-agentive subject ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially prolonged, event of becoming covered or filled."
+    }
+  }
+}

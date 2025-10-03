@@ -1,0 +1,66 @@
+{
+  "synset_id": "emasculate.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody demasculinise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "biological_state.n.01",
+      "reasoning": "The verb denotes causing a transformation in the biological state of a male animal, specifically impacting its reproductive capacity and masculine traits, leading to infertility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of emasculating.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (male animal) whose biological state is altered by the action.",
+          "value_type": "animal.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "removal.n.01",
+      "reasoning": "The change in biological state is specifically achieved through the physical act of removing the testicles, as detailed in the verb's definition.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The specific body part (testicles) that is removed during the action, which is part of the overall patient (animal).",
+          "value_type": "testicle.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Emasculation is a physical act that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of emasculation is a neutral procedure; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of emasculating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, definitive event of removal per subject, not a repetitive action on the same item."
+    }
+  }
+}

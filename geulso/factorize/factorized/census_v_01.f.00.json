@@ -1,0 +1,59 @@
+{
+  "synset_id": "census.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody census somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'census' describes the process of acquiring or coming into possession of knowledge regarding the quantity or number of something, representing a change from a state of not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the census and thereby gains the specific knowledge of quantity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quantity.n.01",
+          "reasoning": "The 'something' that is the subject of the counting, whose quantity is being determined and about which knowledge is gained."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "official.a.01",
+      "reasoning": "The term 'census' inherently implies that the act of counting or surveying is conducted in a formal, systematic, and often government-mandated manner, which is a key distinguishing property of this action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Conducting a census is a direct, observable activity and the resulting data is typically considered direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an agent acting with a clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of conducting a census is a neutral process; its outcomes can be interpreted positively or negatively depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, as a census is an intentional undertaking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of censoring, when described, implies a definite event or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Although the *process* of a census involves many sub-actions (individual counts), the verb 'census' refers to the single, comprehensive event of conducting a census, even if it spans a period of time."
+    }
+  }
+}

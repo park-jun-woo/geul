@@ -1,0 +1,63 @@
+{
+  "synset_id": "regale.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody regale somebody with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'regale' describes the act of providing, which results in a change in the recipient's state from not possessing to possessing food or drink.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who performs the act of providing/regaling."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the one who receives the food or drink."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food_or_drink.n.01",
+          "reasoning": "The definition specifies that 'food or drink' is what is provided. The 'PP' in this frame typically expresses this patient (e.g., 'regale with food')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "choice_or_abundant.a.01",
+      "reasoning": "The definition explicitly states that the provided food or drink is 'choice or abundant', indicating a specific quality or quantity inherent to the act of regaling."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of regaling is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of providing 'choice or abundant food or drink' is inherently a positive and pleasurable experience for the recipient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody regale...' clearly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of providing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of providing food or drink. Repetition would require additional adverbial modification."
+    }
+  }
+}

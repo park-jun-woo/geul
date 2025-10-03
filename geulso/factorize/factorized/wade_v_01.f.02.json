@@ -1,0 +1,64 @@
+{
+  "synset_id": "wade.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody wade something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'wade' describes a form of walking, which is a change in an agent's physical location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action of moving."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the medium or route through which the movement occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "A defining characteristic of 'wade' is that the motion takes place through a specific material, namely water, as stated in the definition 'walk (through relatively shallow water)'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "depth.n.01",
+      "value_type": "shallow.a.01",
+      "reasoning": "The definition explicitly specifies 'relatively shallow' water, which is a crucial condition distinguishing wading from other forms of movement through water."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Wading is a physical action that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wading itself is neutral; any sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wading, like walking or running, is composed of continuous, highly repetitive steps, indicating high iterativity."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "blanket.v.01",
+  "frame_id": 0,
+  "frame_text": "Something blanket something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of the object, specifically from an uncovered to a covered state, similar to its hypernym 'cover'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that causes the covering, acting as the agent of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that undergoes the change of state, becoming covered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "blanket_like.a.01",
+      "reasoning": "The core of 'blanket' (vs. general 'cover') is the specific manner of covering: widely, thoroughly, and uniformly, 'as if with a blanket'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of blanketing or covering is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-agentive force or entity, thus no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of blanketing itself is neutral; its sentiment depends on the context (e.g., fog blanketing a town vs. snow blanketing a field)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- something' indicates a non-volitional subject causing the action (e.g., 'The snow blanketed the ground')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of covering, even if it covers a large area. It's not inherently repetitive in its primary sense."
+    }
+  }
+}

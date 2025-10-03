@@ -1,0 +1,67 @@
+{
+  "synset_id": "pirate.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody pirate something from somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes gaining possession of a copy of material, which constitutes a change in the state of who possesses a version of the material.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of pirating, initiating the transfer of a copy."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (published material) that is illegally copied and subsequently possessed."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the material is copied, often the original owner or rights holder."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legality.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The core definition explicitly states 'copy illegally', indicating a fundamental negative legal property of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "replication.n.01",
+      "reasoning": "The action inherently involves creating a copy of existing material, as stated in the definition 'copy illegally'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pirating is typically a directly observable action or its outcome is directly evident."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies a deliberate and willful action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'pirate' inherently carries a negative connotation due to the 'illegally' aspect mentioned in the definition."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of pirating, which is an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of pirating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of illegally copying a specific piece of material, though that material may subsequently be distributed in multiple copies."
+    }
+  }
+}

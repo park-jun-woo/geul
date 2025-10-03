@@ -1,0 +1,58 @@
+{
+  "synset_id": "crash.v.01",
+  "frame_id": 3,
+  "frame_text": "Something is crashing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'fall or come down' describes a change in spatial position or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity initiating or involved in the action of falling/coming down, hence acting as an agent in its own movement."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the location or object into which the crash occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The definition explicitly includes 'violently', which describes the manner of the fall or descent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crashing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame, performing the action, implies a degree of will or intention, even if the outcome (the crash) is unintended."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'crash' inherently implies a destructive or damaging event, reinforced by 'violently' in the definition, giving it a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody crash PP' indicates that 'Somebody' is the active participant of the action, often implying a volitional act, even if the resulting crash is accidental (e.g., 'Somebody crashed their car')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'crash' is generally considered a single, discrete event of impact or violent descent."
+    }
+  }
+}

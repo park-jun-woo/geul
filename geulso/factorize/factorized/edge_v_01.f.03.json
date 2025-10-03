@@ -1,0 +1,70 @@
+{
+  "synset_id": "edge.v.01",
+  "frame_id": 3,
+  "frame_text": "Something is inching PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'inch' (as a synonym for 'edge' in this context) describes a process of moving from one location to another, indicating a change in spatial state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that is the subject of the action and initiates its own movement, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the direction or endpoint of the movement, specified by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "slow_and_incremental_movement",
+      "reasoning": "The definition explicitly states 'slowly, as if by inches', indicating a specific, gradual, and incremental manner of movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inching/advancing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a lack of an agent's will or intention for the action."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "Tense is not specified, so the default present tense is assumed for the verb's underlying meaning."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something **is inching** PP' explicitly uses the progressive aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'inch' itself carries no inherent politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of advancing slowly is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is inching' indicates a non-volitional subject ('Something'), meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement of an action occurring is typically conveyed with certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The word 'inching' inherently suggests continuous, small, repeated steps or movements, indicating high repetition."
+    }
+  }
+}

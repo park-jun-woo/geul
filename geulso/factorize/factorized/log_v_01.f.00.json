@@ -1,0 +1,63 @@
+{
+  "synset_id": "log.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody log something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "record.n.02",
+      "reasoning": "The verb 'log' describes an action that causes information or an event to transition from an unrecorded state to a documented or recorded state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who actively performs the act of entering information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the specific piece of information or event that is being documented."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "destination.n.01",
+      "value_type": "log.n.01",
+      "reasoning": "The definition 'enter into a log' specifies the particular structured medium or destination where the information is recorded, which is a core component of this verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Logging typically involves recording direct observations or officially noted events, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of logging is typically a neutral, often formal, procedure, not inherently impolite or overly polite."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of logging information is neutral; its positive or negative sentiment depends on the content being logged."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of logging implies a definite and certain occurrence of the recording event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of entering a particular piece of information into a log."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "chatter.v.04",
+  "frame_id": 11,
+  "frame_text": "Somebody tattle",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.02",
+      "reasoning": "The verb's core meaning is the act of engaging in spoken communication, as indicated by 'speak' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the act of communication, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "topic.n.01",
+          "reasoning": "The 'unimportant matters' that are the subject or content of the communication, specified in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "The definition explicitly states that the speaking occurs 'rapidly', indicating a specific manner of action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "incessant.a.01",
+      "reasoning": "The definition explicitly states that the speaking occurs 'incessantly', indicating a continuous and unceasing manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chattering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chattering itself is neutral, even though the subject matter might be 'unimportant'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tattle' (interpreted as 'Somebody chatters') explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chattering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition includes 'incessantly', which signifies a high level of repetition and continuity in the action."
+    }
+  }
+}

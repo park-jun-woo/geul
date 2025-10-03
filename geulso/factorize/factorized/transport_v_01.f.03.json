@@ -1,0 +1,62 @@
+{
+  "synset_id": "transport.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody transport something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'transport' describes causing a change in the physical location of an entity, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the action of moving the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (or 'somebody' from the definition) that is moved from one location to another."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The prepositional phrase (PP) typically indicates the endpoint or trajectory of the transport."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "distance.n.01",
+      "value_type": "long.a.01",
+      "reasoning": "The definition explicitly states the movement is 'usually over long distances', which is a characteristic of the distance covered during transport."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Transport is an observable action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent indicates strong will or intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transporting is neutral; its sentiment depends on the context and what is being transported."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody transport...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'transport' implies a definite and certain action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially continuous, event of moving something from one place to another. It's not inherently repetitive in the same way as, e.g., 'bouncing'."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "synset_id": "harass.v.01",
+  "frame_id": 16,
+  "frame_text": "Something harass somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "mental_state.n.01",
+      "reasoning": "The verb 'harass' describes causing a change in someone's mental state, specifically from a neutral state to a state of annoyance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the change in the mental state of the 'somebody'.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the one whose mental state is changed and is made to feel annoyed.",
+          "value_type": "annoyance.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of harassing and its effects are typically subject to direct observation or experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or ongoing action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something harass somebody' indicates a non-volitional subject ('Something'), thus lacking an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'annoy continually or chronically' inherently carries a negative sentiment due to the discomfort caused."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, making the action non-volitional on its part."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of annoyance being caused."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'annoy continually or chronically' explicitly indicates a high degree of repetition or sustained action over time."
+    }
+  }
+}

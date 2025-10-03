@@ -1,0 +1,53 @@
+{
+  "synset_id": "burn_off.v.01",
+  "frame_id": 4,
+  "frame_text": "Something burn_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "amount.n.01",
+      "reasoning": "The definition 'use up (energy)' implies a reduction in the amount or existence of the energy, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the energy to be used up."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "energy.n.01",
+          "reasoning": "The second 'something' in the frame refers to the energy that is being consumed or used up, undergoing the change."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of using up energy is typically a directly observable or measurable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates that the action is not driven by the will of a sentient agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of using up energy is neutral; the context determines its positive or negative implications (e.g., burning fat vs. fuel depletion)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is performed by a non-agentive subject ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'using up' energy often involves continuous or highly repetitive small actions over time, leading to a cumulative effect. This suggests a high degree of iterativity rather than a single discrete event."
+    }
+  }
+}

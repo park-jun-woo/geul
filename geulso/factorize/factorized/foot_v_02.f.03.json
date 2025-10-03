@@ -1,0 +1,58 @@
+{
+  "synset_id": "foot.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody hoof PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'foot' (meaning 'walk') describes a change in the agent's physical location, indicating movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the walking action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint or goal of the movement, often specified by the prepositional phrase (PP) in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "gait.n.01",
+      "value_type": "ambulation.n.01",
+      "reasoning": "The verb 'foot' specifies a particular manner of locomotion, specifically 'walking' (ambulation), which involves advancing by steps on foot, distinguishing it from other forms of movement like running."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of walking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of walking is inherently neutral; its sentiment is determined by context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hoof PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Walking is an action composed of continuous, highly repetitive steps. Therefore, it has high iterativity."
+    }
+  }
+}

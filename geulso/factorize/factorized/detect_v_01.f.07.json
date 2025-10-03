@@ -1,0 +1,53 @@
+{
+  "synset_id": "detect.v.01",
+  "frame_id": 7,
+  "frame_text": "Somebody find something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'discover or determine the existence' describes a transition from a state of not knowing to possessing knowledge or awareness of something, which is a change of cognitive state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of discovery or determination, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "entity.n.01",
+          "reasoning": "The 'something' whose existence or presence is discovered or determined. This is the object of the detection."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Detection implies direct cognitive processing or sensory perception leading to awareness, not hearsay or pure inference."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of discovery."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' combined with 'discover' or 'determine' suggests an active, intentional engagement or will to perceive/uncover."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of detecting is neutral; the nature of what is detected determines the sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody find something' and the verb 'detect' (meaning 'discover or determine') imply an intentional act of seeking or becoming aware by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Once something is 'detected' or 'discovered', there is an inherent certainty regarding its existence or presence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'detect' describes a single event of coming to know or discovering something. Once detected, it remains detected."
+    }
+  }
+}

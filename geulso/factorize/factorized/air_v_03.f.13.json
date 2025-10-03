@@ -1,0 +1,57 @@
+{
+  "synset_id": "air.v.03",
+  "frame_id": 13,
+  "frame_text": "Something send something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "transmission.n.01",
+      "reasoning": "The definition 'broadcast over the airwaves' describes an action that causes a change in the state of information from not being public to being publicly transmitted.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' in the verb frame acts as the entity that performs the broadcasting/sending."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the content or material that is being broadcast or transmitted."
+        },
+        {
+          "semantic_role": "medium.n.02",
+          "value_type": "airwaves.n.01",
+          "reasoning": "The definition explicitly mentions 'over the airwaves' as the means or medium of transmission."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Broadcasting is a publicly accessible and directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Although broadcasting is an intentional activity, the agent 'Something' (e.g., a station, a machine) is not considered to have personal will or intention in this context according to the specification. It acts without intrinsic will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of airing/broadcasting is neutral; its sentiment depends on the content and context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something send something' implies a non-human or inanimate agent, which inherently performs actions non-volitionally, as per the rules."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of airing/broadcasting is typically described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "To 'air' something generally refers to a single, discrete instance of broadcasting a particular piece of content, even if the content itself has duration."
+    }
+  }
+}

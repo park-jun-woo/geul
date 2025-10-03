@@ -1,0 +1,58 @@
+{
+  "synset_id": "prick.v.02",
+  "frame_id": 1,
+  "frame_text": "Something prick something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb describes causing a change in the physical state of the patient, specifically from a state of no pain to experiencing pain.",
+      "participants": [
+        {
+          "semantic_role": "causer.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the non-volitional instigator or cause of the pain."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of state, experiencing pain."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stinging.a.01",
+      "reasoning": "The definition explicitly states 'stinging pain', indicating the specific quality or type of pain inflicted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Causing pain is a directly observable or felt event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates no inherent will or intention behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The concept of 'pain' is inherently negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing pain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'prick' typically refers to a single, discrete instance of causing pain, although it can be repeated."
+    }
+  }
+}

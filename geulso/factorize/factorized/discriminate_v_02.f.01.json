@@ -1,0 +1,64 @@
+{
+  "synset_id": "discriminate.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody discriminate PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes an action that causes a change in the social standing or treatment status of an individual.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of treating someone differently, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the differential treatment, undergoing a change in their social status or how they are treated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "equality.n.01",
+      "value": "unequal",
+      "reasoning": "The definition 'treat differently' inherently means to treat someone not equally, implying a lack of equality in the treatment given."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "criterion.n.01",
+      "value": "sex or race",
+      "reasoning": "The definition explicitly states the specific basis ('sex or race') upon which the differential treatment is applied."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Discrimination, as an act of treating, is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or condition."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of discriminating on the basis of sex or race is widely considered a negative action due to its inherent unfairness and harm."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), indicating intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'discriminate' describes a definite action or state of affairs when asserted."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular event or instance of differential treatment. Repetitive actions would require additional context or different framing."
+    }
+  }
+}

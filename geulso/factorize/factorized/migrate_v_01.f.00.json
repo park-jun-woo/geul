@@ -1,0 +1,56 @@
+{
+  "synset_id": "migrate.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody migrate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'move from one country or region to another and settle there' describes a change in the location of the subject.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes and self-initiates the change in location."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implied by 'from one country or region', indicating the origin of the movement."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implied by 'to another and settle there', indicating the endpoint and new established location."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Migration is generally a directly observable phenomenon or outcome."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual event or state change, hence declarative."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something migrate' allows for non-volitional subjects (e.g., cells, particles, sand dunes), where no agent's will is involved. Adhering to the rule for 'Something' implies neutrality or lack of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of migration itself is semantically neutral; positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Following the rule, if the frame contains 'Something', it can encompass non-volitional entities (e.g., 'cells migrate'). Therefore, the action is considered non-volitional by default for this generic frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of movement and settling."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Migration is a process involving continuous movement over a period, rather than a single instantaneous event, thus exhibiting high repetition of underlying actions."
+    }
+  }
+}

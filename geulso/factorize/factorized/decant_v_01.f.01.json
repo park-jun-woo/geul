@@ -1,0 +1,63 @@
+{
+  "synset_id": "decant.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody decant something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'decant' describes causing a liquid to change its location through pouring, which constitutes a change in its state of motion/position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of decanting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fluid.n.01",
+          "reasoning": "The 'something' that is being poured and undergoes a change in location, which is implicitly a fluid when referring to 'decant'."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the frame specifies additional locative information for the motion, such as the source from which the liquid is poured or the destination to which it is moved."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "careful.a.01",
+      "reasoning": "The specific act of 'decanting' inherently implies a controlled and careful manner of pouring, typically performed to separate clear liquid from sediment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of decanting is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of decanting is generally neutral in sentiment; its polarity would depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of decanting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of transferring liquid from one container to another."
+    }
+  }
+}

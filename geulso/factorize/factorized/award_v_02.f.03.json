@@ -1,0 +1,62 @@
+{
+  "synset_id": "award.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody grant something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'give' indicates a transfer of possession from an agent to a recipient, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the transfer (the grantor/awarder), as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred (the award/grant), as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the object, typically introduced by 'to' in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "basis.n.01",
+      "value_type": "merit.n.01",
+      "reasoning": "The definition specifies the action is performed 'as judged due or on the basis of merit', which is a core condition or reason distinguishing 'award' from a general 'give'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of awarding is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of awarding is neutral; the specific award or context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody grant...' explicitly indicates a volitional agent performing the action of awarding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of awarding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of granting an award."
+    }
+  }
+}

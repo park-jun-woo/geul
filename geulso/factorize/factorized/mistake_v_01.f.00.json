@@ -1,0 +1,58 @@
+{
+  "synset_id": "mistake.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody misidentify somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "identification.n.01",
+      "reasoning": "The verb 'mistake' describes a cognitive process of attempting to identify something, which inherently involves a change in one's mental state regarding the identity of the object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cognitive act of identification, albeit incorrectly, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the incorrect identification."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "accuracy.n.01",
+      "value_type": "incorrect.a.01",
+      "reasoning": "The core semantic distinction of 'mistake' from mere 'identification' is the inherent 'incorrectness' of the identification, as stated in the definition 'identify incorrectly'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mistaking something is typically a direct cognitive experience or judgment based on direct observation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an incorrect identification occurred."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "While the mistake itself is unintentional, the underlying act of identifying or perceiving is typically driven by the agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'incorrectly' in the definition inherently carries a negative connotation in terms of accuracy or correctness."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Although an agent performs the action, the 'mistake' itself is an error and is not performed intentionally or volitionally. One does not intend to make a mistake."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When stating that 'Somebody mistakes something', it implies certainty that the incorrect identification has indeed occurred."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single event or instance of incorrect identification."
+    }
+  }
+}

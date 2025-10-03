@@ -1,0 +1,58 @@
+{
+  "synset_id": "pick_up.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody lift_up somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.01",
+      "reasoning": "The definition 'take and lift upward' describes an action that causes a change in vertical position of an object, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of lifting, causing the change in position, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the change in position (being lifted upward)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "up.r.01",
+      "reasoning": "A core semantic component of 'pick up' is the specific 'upward' direction of the lifting motion, distinguishing it from other types of movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of picking up is a physical event that can be directly observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something pick_up somebody' indicates a non-volitional agent ('Something'), implying the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of picking up is generally neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something pick_up somebody' describes an event caused by a non-agentive subject ('Something'), making the action inherently non-volitional for the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of lifting."
+    }
+  }
+}

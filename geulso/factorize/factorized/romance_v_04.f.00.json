@@ -1,0 +1,65 @@
+{
+  "synset_id": "romance.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody romance",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'romance' in this sense describes the act of verbally communicating.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of communication, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "message.n.02",
+          "reasoning": "The 'lies' that constitute the content of the communication, as specified in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The definition explicitly states 'tell... lies', indicating the inherent falsehood of the communicated message. This is further supported by the hypernym 'lie.v.05'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "romantic.a.01",
+      "reasoning": "The definition specifies that the lies are 'romantic or exaggerated', which describes the characteristic style or nature of the communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of telling lies is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The core act is 'telling lies', which inherently carries a negative semantic weight due to the deception involved, despite the 'romantic' qualifier."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody romance' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of telling lies."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of telling romantic or exaggerated lies, with no indication of repetition."
+    }
+  }
+}

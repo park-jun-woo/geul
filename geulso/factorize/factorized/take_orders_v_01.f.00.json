@@ -1,0 +1,56 @@
+{
+  "synset_id": "take_orders.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody take_orders something from somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "obligation.n.01",
+      "reasoning": "The verb describes a transition where the agent receives commands, leading to a state of being obligated to follow them.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of taking orders and subsequently incurs the obligation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (directions or commands) that is received and imposes the obligation."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the orders originate, as specified by the 'from somebody' phrase."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking orders is generally a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event and its resultant state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame actively 'takes' the orders, indicating an agent's will in performing the action, even if the content is an obligation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taking orders is semantically neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody') who performs the act of taking orders."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of taking orders is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of receiving orders, though the obligation may be ongoing."
+    }
+  }
+}

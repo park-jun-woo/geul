@@ -1,0 +1,58 @@
+{
+  "synset_id": "x-ray.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody x-ray somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "examination.n.01",
+      "reasoning": "The verb 'x-ray' describes the action of scrutinizing or inspecting something, typically for diagnostic purposes, as implied by 'take an x-ray of'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the examination, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' or 'somebody' that is subjected to the examination."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "x-ray.n.01",
+      "reasoning": "The verb 'x-ray' inherently specifies the use of X-ray technology (radiation) as the instrument or method for the examination, distinguishing it from other forms of examination or photography (hypernym photograph.v.01). The 'x-ray' itself is the method/tool."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of x-raying is a directly observable procedure."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of x-raying itself is neutral; its purpose or results may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of x-raying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of performing an X-ray procedure."
+    }
+  }
+}

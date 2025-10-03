@@ -1,0 +1,78 @@
+{
+  "synset_id": "libel.v.01",
+  "frame_id": 1,
+  "frame_text": "Something libel somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "defamation.n.01",
+      "reasoning": "The verb 'libel' describes an action that constitutes an attack on someone's reputation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "document.n.01",
+          "reasoning": "The 'Something' in the frame functions as the grammatical subject and the source of the defamatory content, typically referring to a publication or document. While not inherently volitional, it is the immediate cause of the action in this frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' in the frame is the direct object, the individual whose reputation is harmed by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "written_or_printed.a.01",
+      "reasoning": "The definition 'print slanderous statements' specifies that the defamatory communication occurs through a written or printed medium, which is a key distinguishing characteristic of libel as opposed to slander (spoken defamation)."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "content.n.05",
+      "value_type": "slanderous_statement.n.01",
+      "reasoning": "The definition explicitly states 'slanderous statements,' indicating that the communicated content is false and damaging to reputation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of libeling, involving the public printing of statements, is an observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame implies a non-volitional agent (e.g., a document or publication), therefore the action itself is not driven by the agent's will in this specific frame, even though there's an implicit human agent behind the publication."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "Tense is not specified in the input, assuming neutral/present for the verb's conceptualization."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple, completed action of publishing defamatory content."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'libel' is a legal and formal term, holding a neutral politeness level in appropriate contexts."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'print slanderous statements against' and the hypernym 'defame' clearly indicate that the action has a negative inherent sentiment, aiming to harm."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional grammatical subject ('Something'), which is typically a document or publication, making the action non-volitional for the stated subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of libeling is described as a definite occurrence or accusation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct instance of publishing defamatory content."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "utter.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody let_loose something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb describes the act of producing or making sounds audible, which is a change from a state of no sound to sound existing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that produces the sound, acting as the causer or source."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "sound.n.01",
+          "reasoning": "The second 'something' refers to the specific sound or utterance that is produced."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "audible.a.01",
+      "reasoning": "The definition 'express audibly' explicitly includes the manner of sound production, indicating it is perceptible by hearing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of uttering sounds is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something utter something' refers to a generic subject, which might not possess 'will' (e.g., an inanimate object or an animal acting by instinct)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of uttering sounds is inherently neutral; the nature of the sound itself or the context determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something utter something' implies the subject can be non-volitional (e.g., an inanimate object making a noise) or volitional (e.g., an animal making a sound instinctively). A neutral value covers both possibilities."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of uttering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'utter' typically describes a single, discrete act of producing a sound or a set of sounds. Repetition would be indicated by context or adverbs."
+    }
+  }
+}

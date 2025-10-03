@@ -1,0 +1,59 @@
+{
+  "synset_id": "discover.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody discover that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'discover' describes a transition from a state of not possessing knowledge to possessing it, which constitutes a change of state regarding information or facts.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity who performs the action of making a discovery, thus causing the change in their state of knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' specifies the information or fact that is discovered, serving as the object of the new knowledge."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "unexpectedly.a.01",
+      "reasoning": "A defining characteristic of 'discover' is that the acquisition of knowledge often occurs without specific prior intent to find that particular piece of information, or the realization happens suddenly, as supported by its hypernym 'learn.v.02' which includes 'usually accidentally'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A discovery implies direct cognitive experience by the individual who makes it, rather than inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary use is to state a fact or describe an event, thus it is declarative."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Even if the specific outcome is unexpected, the 'Somebody' is typically engaged in a volitional activity or investigation that leads to the discovery, reflecting an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discovering itself is neutral. The sentiment associated with what is discovered depends on the content of the discovery."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody discover...' indicates that the agent ('Somebody') performs an intentional action or engages in an activity that leads to the discovery, making the action volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'discover' implies a strong certainty about the knowledge gained; there is no ambiguity about the finding once it has been made."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'discover' typically refers to a single, discrete event of gaining a specific piece of knowledge, rather than a repetitive process."
+    }
+  }
+}

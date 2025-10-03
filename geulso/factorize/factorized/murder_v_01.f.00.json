@@ -1,0 +1,58 @@
+{
+  "synset_id": "murder.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody bump_off somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "reasoning": "The verb 'murder' describes a transition from a state of being alive to a state of being dead, which is a fundamental change in the property of life.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of killing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame whose life is terminated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intention.n.01",
+      "value_type": "premeditated.a.01",
+      "reasoning": "The definition explicitly states 'intentionally and with premeditation', which is a crucial distinguishing characteristic of murder, indicating the nature of the agent's intent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of murder is typically treated as a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'intentionally and with premeditation' signifies a strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Murder is universally considered a negative act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly states 'intentionally and with premeditation', confirming the action is volitional and initiated by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of killing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of killing a person."
+    }
+  }
+}

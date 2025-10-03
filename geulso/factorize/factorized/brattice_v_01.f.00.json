@@ -1,0 +1,69 @@
+{
+  "synset_id": "brattice.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody brattice something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "equipment.n.01",
+      "reasoning": "The verb 'brattice' means to 'supply with a brattice', indicating a change in the state of an entity (the mine) by equipping it with a new item.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame actively performs the action of supplying the brattice."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame (a mine) is the entity that undergoes the change of state by receiving the brattice."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "brattice.n.01",
+          "reasoning": "The 'brattice' itself is the item that is supplied or provided, inherent in the verb's meaning."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "ventilation.n.01",
+      "reasoning": "The definition explicitly states the purpose of the action is 'to ventilate mines'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "mine.n.01",
+          "reasoning": "The entity for which the ventilation is intended; this is the 'something' in the context of the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'bratticing' is a direct, observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the verb frame indicates the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'bratticing' is a functional action and is semantically neutral, its context determines sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of supplying a brattice, not an inherently repetitive action."
+    }
+  }
+}

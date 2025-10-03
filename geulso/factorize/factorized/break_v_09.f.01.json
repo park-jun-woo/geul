@@ -1,0 +1,65 @@
+{
+  "synset_id": "break.v.09",
+  "frame_id": 1,
+  "frame_text": "Somebody burst PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "expression.n.01",
+      "reasoning": "The verb describes the action of forcing out or releasing something, which is a change from a contained state to an expressed state. The hypernym 'express_emotion.v.01' strongly supports 'expression' as the core property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates or undergoes the release of pent-up emotion or energy."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "emotion.n.01",
+          "reasoning": "This is the 'something pent up' from the definition, referring to an emotion or a strong feeling that is expressed. The PP often specifies the manner or form of this expression (e.g., 'into tears', 'into laughter')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suddenly.r.01",
+      "reasoning": "The definition explicitly states 'suddenly and often violently', indicating a key manner component of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violently.r.01",
+      "reasoning": "The definition explicitly states 'suddenly and often violently', indicating a key manner component of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Emotional outbursts or sudden releases are typically directly observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "While the emotion itself may not be volitional, the 'Somebody' is performing an active 'forcing out or releasing', implying strong will in the act of expression, even if involuntary in its origin."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bursting or releasing is neutral. The specific emotion being expressed (e.g., anger, joy) determines the sentiment, not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent (Somebody) causing the action, and the definition 'force out or release' suggests intentionality in the act of letting something out, even if the underlying impulse is strong."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bursting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'burst' implies a single, sudden, and often culminating event rather than a continuous or highly repetitive action."
+    }
+  }
+}

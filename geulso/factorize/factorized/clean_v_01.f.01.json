@@ -1,0 +1,52 @@
+{
+  "synset_id": "clean.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody make_clean something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The definition 'make clean' explicitly states a transition from a state of being dirty to being clean, which is a change of state related to cleanliness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the change in cleanliness of the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of state from dirty to clean."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not imply an agent with will or intention, thus 'No will'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning itself is neutral; its positive or negative sentiment depends on context or the object being cleaned."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something clean something' indicates that the action is caused by a non-agentive entity, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the cleaning action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of making something clean, though it can be repeated."
+    }
+  }
+}

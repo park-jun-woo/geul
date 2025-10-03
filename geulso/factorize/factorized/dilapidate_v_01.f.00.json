@@ -1,0 +1,64 @@
+{
+  "synset_id": "dilapidate.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody dilapidate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The definition 'bring into a condition of decay or partial ruin' describes a change in the physical state or integrity of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who causes the change in the object's condition through neglect or misuse, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state into decay or ruin, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "neglect.n.01",
+      "reasoning": "The definition explicitly states the dilapidation is caused 'by neglect or misuse', specifying an inherent causal factor."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "misuse.n.01",
+      "reasoning": "The definition explicitly states the dilapidation is caused 'by neglect or misuse', specifying an inherent causal factor."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process and resulting state of dilapidation are typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' agent in the frame implies volition and will in the actions (neglect/misuse) that lead to dilapidation."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The resulting condition of 'decay or partial ruin' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent. The acts of neglect or misuse causing dilapidation are typically volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of causing decay or ruin."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dilapidation is typically a gradual and sustained process resulting from continuous or repeated neglect or misuse, rather than a single instantaneous event, thus implying high iterativity for the underlying cause/process."
+    }
+  }
+}

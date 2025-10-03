@@ -1,0 +1,63 @@
+{
+  "synset_id": "topdress.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody topdress something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "fertility.n.01",
+      "reasoning": "The verb 'topdress' describes the act of enhancing the fertility of land by adding nutrients, which constitutes a change in the land's state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of topdressing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (land) that undergoes the change in fertility after the application of material."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "fertilizer.n.01",
+          "reasoning": "The manure or fertilizer is the specific material being applied to cause the change in fertility, as detailed in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "scattering.n.01",
+      "reasoning": "The definition explicitly states 'scatter manure or fertilizer', indicating a specific manner of application inherent to the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Topdressing is a physical, directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of topdressing is generally neutral in sentiment, aiming to improve land, but not inherently positive or negative in a broader sense."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody topdress something' explicitly denotes a volitional agent performing the action, making it an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'scattering' fertilizer over land typically involves a continuous or highly repetitive series of small actions to cover an area, rather than a single discrete event."
+    }
+  }
+}

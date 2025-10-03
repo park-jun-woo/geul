@@ -1,0 +1,58 @@
+{
+  "synset_id": "defame.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody besmirch somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb describes an action that causes a change in somebody's reputation or good name, transitioning it to a negative state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the change, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose good name and reputation are attacked or diminished."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "malicious.a.01",
+      "reasoning": "The definition explicitly states the action is done 'falsely or with malicious intent', indicating a negative and harmful manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming is typically directly observable or ascertainable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something defame somebody' implies a non-agentive cause ('Something'), therefore lacking a strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation of someone' and 'malicious intent' indicates an inherently negative action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something defame somebody' describes an event caused by a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of defaming, though it can be repeated."
+    }
+  }
+}

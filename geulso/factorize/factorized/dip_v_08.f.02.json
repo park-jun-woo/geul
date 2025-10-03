@@ -1,0 +1,60 @@
+{
+  "synset_id": "dip.v.08",
+  "frame_id": 2,
+  "frame_text": "Something is sinking PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The hypernym 'decline.v.05' ('go down') and the definition 'move downward' indicate that the core meaning involves a change in location through movement.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity undergoing the apparent downward motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.02",
+      "value": "downward",
+      "reasoning": "The definition explicitly states 'move downward', specifying the direction of the motion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "apparent.a.01",
+      "reasoning": "The phrase 'appear to' in the definition signifies that the movement is presented or perceived as such, rather than being an unmediated objective fact. This describes the manner of the motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb 'appear to' implies direct visual observation, serving as the source of information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an observed event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is non-agentive, indicating no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of appearing to move downward is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is sinking...' involves a non-agentive subject, and the action is an appearance of movement, thus non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'appear to' implies certainty about the appearance itself, even if the underlying reality might be ambiguous."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The frame 'Something is sinking' implies a continuous process of incremental downward movements, indicating high repetition rather than a single event."
+    }
+  }
+}

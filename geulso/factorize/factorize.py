@@ -16,7 +16,7 @@ import copy # deepcopy를 위해 추가
 
 # 로깅 설정
 logging.basicConfig(
-    filename='geulso/wordnet/factorize_error.log',
+    filename='geulso/factorize/factorize_error.log',
     level=logging.ERROR,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -29,10 +29,10 @@ DB_CONFIG = {
     'password': 'test1224!'
 }
 
-PROMPT_TEMPLATE_PATH = 'geulso/wordnet/factorize_prompt.json'
-SAMPLES_DIR = 'geulso/wordnet/samples/'
-RESULTS_DIR = 'geulso/wordnet/factorized/'
-ERRORS_DIR = 'geulso/wordnet/errors/'
+PROMPT_TEMPLATE_PATH = 'geulso/factorize/factorize_prompt.json'
+SAMPLES_DIR = 'geulso/factorize/samples/'
+RESULTS_DIR = 'geulso/factorize/factorized/'
+ERRORS_DIR = 'geulso/factorize/errors/'
 API_KEY_PATH = 'geulso/.key'
 
 def load_api_key(path: str) -> str:

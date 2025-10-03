@@ -1,0 +1,53 @@
+{
+  "synset_id": "undergo.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody undergo something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'undergo' describes the subject experiencing a process or event that results in an alteration to its state or condition, directly aligning with the definition 'pass through' and the hypernym 'change.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that is subjected to or experiences the event/process, thereby undergoing a change in their condition. They are the affected party, not the causal agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The 'something' is the event, process, or condition that the subject is experiencing or being subjected to. It acts as the content or cause of the change for the primary patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Undergoing an experience or process is typically perceived as a direct experience for the subject."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The act of undergoing is generally not driven by the subject's active will in terms of performing the action itself; rather, it implies being subjected to an external process. Therefore, 'No will' is appropriate."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'undergo' is semantically neutral. The inherent sentiment (positive or negative) is determined by the specific 'something' that is undergone (e.g., surgery vs. training)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The 'Somebody' experiences or is subjected to the 'something'. This implies a non-volitional role in the act of undergoing, as the action happens *to* them rather than being an action they actively perform, even if they might have volitionally chosen to be in the situation. It focuses on the passive reception of the process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of being subjected to or experiencing something."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of passing through an event or process, even if that process itself has duration or multiple internal steps, it is considered one continuous event of undergoing."
+    }
+  }
+}

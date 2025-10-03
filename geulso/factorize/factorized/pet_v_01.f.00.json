@@ -1,0 +1,64 @@
+{
+  "synset_id": "pet.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody pet",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes the act of initiating and maintaining continuous physical contact, thus changing the state of contact on the patient's surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of petting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implicit 'something' (e.g., an animal, a person) that receives the physical contact and is being stroked or caressed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gentle.a.01",
+      "reasoning": "The definition explicitly states 'gently' as a characteristic of the stroking or caressing action, indicating a specific manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "affection.n.01",
+      "value_type": "positive.a.01",
+      "reasoning": "The definition 'stroke or caress gently' and the hypernym 'caress' (touch or stroke lightly in a loving or endearing manner) indicate an intrinsic positive affective quality associated with the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Petting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pet' implies an agent acting with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of petting, by definition ('gently', 'caress', 'loving'), carries an inherently positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pet' explicitly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of petting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Stroking or caressing typically involves continuous, repetitive movements rather than a single discrete event, thus having high iterativity."
+    }
+  }
+}

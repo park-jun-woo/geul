@@ -1,0 +1,63 @@
+{
+  "synset_id": "bear.v.04",
+  "frame_id": 3,
+  "frame_text": "Something bear something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb's definition 'move' implies a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that undergoes and performs the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "support.n.01",
+      "reasoning": "The core meaning of 'bear' in this context is to 'hold up or support' another entity, which is a property maintained during the motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that provides the support."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that is being held up or supported."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of bearing/moving while supporting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not inherently imply will or intention, especially in the absence of an explicit human/animate agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bearing or supporting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bear something' implies a non-volitional subject ('Something') as per the task rules for generic 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of moving while supporting."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "'Move while holding up or supporting' describes a continuous or sustained action over time, indicating high repetition of the underlying process."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "cook.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody cook something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "preparation.n.01",
+      "reasoning": "The verb 'cook' describes the process of transforming raw food into a state suitable for eating, indicating a change in its state of readiness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of cooking, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The 'something' (food item) that undergoes the change of state to become prepared."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "heat.n.01",
+      "reasoning": "The definition explicitly states that the preparation is achieved 'by applying heat', which specifies the manner or instrument of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cooking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cooking is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cook something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cooking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'cook something' describes a single instance of preparing a specific food item."
+    }
+  }
+}

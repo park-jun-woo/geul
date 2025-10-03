@@ -1,0 +1,54 @@
+{
+  "synset_id": "promote.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody boost somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "progress.n.01",
+      "reasoning": "The verb 'promote' in this sense describes causing an improvement or advancement in the state of the patient, which is a change in their progress or growth.",
+      "participants": [
+        {
+          "semantic_role": "cause.n.02",
+          "reasoning": "The 'Something' in the frame acts as the non-volitional entity that causes the change or contributes to the progress. It is not an agent with will.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity whose progress or growth is affected.",
+          "value_type": "person.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of contributing to progress or growth is typically a directly observable phenomenon through its effects."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or its effect."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is inanimate and cannot possess will or intention, thus Modality is neutral."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To 'contribute to progress or growth' inherently implies a positive outcome or beneficial effect."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The action is performed by 'Something', which is a non-volitional entity, meaning it cannot act with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite contribution to progress, not a speculative one."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The concept of 'progress or growth' often implies an ongoing or sustained contribution rather than a single discrete event, suggesting high repetition in its effect."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "sample.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody sample something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'sample' describes an action where an agent acquires a portion of an entity, thus changing the state of possession of that portion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of taking a sample, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' from which a portion is taken, acting as the direct object of the verb."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "small.a.01",
+      "reasoning": "A 'sample' inherently refers to a small part or a representative portion of a larger entity, not the entirety."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "evaluation.n.01",
+      "reasoning": "The act of sampling is typically undertaken to assess, test, or experience the characteristics of the sampled item, implying a purpose of evaluation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sampling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent ('Somebody') acts with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sampling is neutral; its sentiment depends on the context or what is being sampled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sampling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'sample' in its base form refers to a single instance of taking a portion, not necessarily repeated action unless specified."
+    }
+  }
+}

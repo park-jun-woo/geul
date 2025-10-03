@@ -1,0 +1,58 @@
+{
+  "synset_id": "misdirect.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody misaddress something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "address.n.01",
+      "reasoning": "The definition 'put a wrong address on' describes the action of assigning a label or destination to an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of addressing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that receives the address, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "correctness.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The prefix 'mis-' and the word 'wrong' in the definition explicitly state that the outcome of the addressing action is incorrect or erroneous."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of putting an address on something is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement about an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by an agent's will or intention to perform the act of addressing."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'put a wrong address on' and the prefix 'mis-' inherently carry a negative sentiment due to the error or failure implied."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody misdirects something' implies a volitional agent performing the action of addressing, even if the 'mis-' part refers to an unintentional error in the outcome."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of putting an address on a single item is typically a single, discrete event."
+    }
+  }
+}

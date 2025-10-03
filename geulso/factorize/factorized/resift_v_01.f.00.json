@@ -1,0 +1,58 @@
+{
+  "synset_id": "resift.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody resift something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "separation.n.02",
+      "reasoning": "The base verb 'sift' (as per the hypernym) describes the act of separating elements by passing them through a device, which is a change in the state or composition of a material, specifically involving separation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of sifting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (material) that undergoes the process of sifting and separation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "recurrence.n.01",
+      "value": "anew.r.01",
+      "reasoning": "The prefix 're-' in 'resift' and the definition 'sift anew' explicitly indicate that the action of sifting is performed again, signifying a repetition or recurrence of the process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sifting is a physical and directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of resifting is generally neutral; its positive or negative sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The base action 'sift' inherently involves repetitive movements (e.g., shaking a sieve). The prefix 're-' denotes that this already iterative action is being performed 'anew,' further contributing to a high degree of repetition (at least two instances of an internally iterative process)."
+    }
+  }
+}

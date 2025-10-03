@@ -1,0 +1,57 @@
+{
+  "synset_id": "ground.v.05",
+  "frame_id": 0,
+  "frame_text": "Somebody ground something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'bring to the ground' implies a change in the physical location of an object, specifically its descent to the ground.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of bringing the object down."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is moved and changes its location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "ground.n.01",
+          "reasoning": "The implicit 'ground' is the target location or destination of the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bringing something to the ground is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of grounding an object is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bringing something to the ground is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of causing something to reach the ground."
+    }
+  }
+}

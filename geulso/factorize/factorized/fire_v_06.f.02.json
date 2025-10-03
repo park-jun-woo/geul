@@ -1,0 +1,65 @@
+{
+  "synset_id": "fire.v.06",
+  "frame_id": 2,
+  "frame_text": "Something fire something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'drive out or away' describes causing a change in the location or presence of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the driving out.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that is driven out, undergoing a change in location.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "direction.n.01",
+          "value_type": "away.r.01",
+          "reasoning": "The definition 'drive out or away' inherently implies a direction of expulsion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forcefulness.n.01",
+      "reasoning": "The phrase 'by or as if by fire' implies a forceful, intense, or vigorous manner of driving out."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of driving something out is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject (the first 'Something'), implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of driving out can be positive or negative depending on context (e.g., pests vs. people), making its inherent polarity neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with an inanimate 'Something' as the subject indicates a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of driving something out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of driving something out, without explicit indication of repetition."
+    }
+  }
+}

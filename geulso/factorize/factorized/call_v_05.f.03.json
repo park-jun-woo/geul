@@ -1,0 +1,62 @@
+{
+  "synset_id": "call.v.05",
+  "frame_id": 3,
+  "frame_text": "Somebody send_for somebody PP",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'call' in this sense describes an action that causes another entity to initiate movement (to come).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who issues the order, request, or command, thereby initiating the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is ordered or requested to come, and thus is the entity undergoing the caused motion."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the optional place or goal where the summoned person is expected to come."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "request.n.02",
+      "reasoning": "The definition 'order, request, or command' specifies the communicative manner in which the causation of motion occurs. 'Request' is broad enough to cover all three."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ordering or requesting is a direct speech act or observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to summon."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calling someone to come is neutral; its sentiment depends on context or the reason for the call."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody send_for...' explicitly indicates a volitional agent performing the action of summoning."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of issuing an order or request is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of summoning."
+    }
+  }
+}

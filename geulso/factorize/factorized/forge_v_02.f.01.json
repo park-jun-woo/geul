@@ -1,0 +1,60 @@
+{
+  "synset_id": "forge.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody fake something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "creation.n.02",
+      "reasoning": "The definition 'make a copy of' explicitly describes an act of bringing something into existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of making.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is created as a copy.",
+          "value_type": "copy.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "deception.n.01",
+      "reasoning": "The phrase 'with the intent to deceive' in the definition indicates a core purpose or inherent characteristic of the action, which is to mislead."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of forging is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame and the explicit 'intent to deceive' imply strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The core component 'deceive' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody fake something' and the explicit 'intent to deceive' signify a volitional act performed by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of forging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'forge' typically refers to a single instance of creating a fraudulent item, though it can be repeated, the inherent meaning refers to a singular act."
+    }
+  }
+}

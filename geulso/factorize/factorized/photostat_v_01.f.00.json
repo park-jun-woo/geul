@@ -1,0 +1,58 @@
+{
+  "synset_id": "photostat.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody photostat",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reproduction.n.01",
+      "reasoning": "The verb 'photostat' means to 'make a copy', indicating a process that brings a duplicate into existence, which is a change of state (from non-existent to existent copy).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of creating a copy."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implied object that is being copied (the original document or item). Although the provided verb frame 'Somebody photostat' is syntactically underspecified, the verb's definition 'make a copy' inherently requires an object being copied."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "photostat_device.n.01",
+      "reasoning": "The definition explicitly states 'by means of a Photostat device', making the specific type of instrument an integral part of this verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of photostatting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action that takes place."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is carried out with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of photostatting itself is neutral; any positive or negative sentiment would depend on the context or the content being copied."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody photostat' indicates that the action is performed by a volitional agent ('Somebody')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'photostat' typically describes a single, completed event of making a copy, unless explicitly stated otherwise (e.g., 'photostat multiple times')."
+    }
+  }
+}

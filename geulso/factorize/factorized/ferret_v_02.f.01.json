@@ -1,0 +1,58 @@
+{
+  "synset_id": "ferret.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody ferret something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "hunt.n.01",
+      "reasoning": "The verb 'ferret' is defined as 'hunt with ferrets', indicating the core meaning is the activity of hunting, as also supported by the hypernym 'hunt.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the hunting activity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the animal being hunted, which is the object of the activity."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "ferret.n.01",
+      "reasoning": "The definition explicitly states 'with ferrets', which specifies the instrument used in this particular manner of hunting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ferreting (hunting) is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent performs the action with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hunting is semantically neutral; its positive or negative connotation depends on the broader context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of hunting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Ferreting, like hunting, is an extended activity typically involving multiple, repeated actions (e.g., searching, tracking, flushing prey) over a period, rather than a single instantaneous event."
+    }
+  }
+}

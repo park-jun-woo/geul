@@ -1,0 +1,54 @@
+{
+  "synset_id": "bet.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody play something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "wager.n.01",
+      "reasoning": "The definition 'stake on the outcome of an issue' directly describes the act of making a wager.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action of betting.",
+          "value": "Somebody"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "game.n.01",
+          "reasoning": "The 'something' in the frame 'Somebody play something' refers to the game or activity (the 'issue' from the definition) upon which the wager is placed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of betting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of betting itself is neutral; the outcome determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody play something' clearly implies a volitional agent performing the action of betting as part of playing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of betting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bet' in this context refers to a single act of staking, even if part of a larger game that involves multiple such acts."
+    }
+  }
+}

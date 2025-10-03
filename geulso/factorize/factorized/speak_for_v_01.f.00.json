@@ -1,0 +1,58 @@
+{
+  "synset_id": "speak_for.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody speak_for something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "representation.n.01",
+      "reasoning": "The verb 'speak for' describes the ongoing process of acting in a representative capacity for another entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the role of representing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' or entity that is being represented."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "verbal_communication.n.01",
+      "reasoning": "The 'speak' component of 'speak for' specifies that the representation is carried out specifically through verbal communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of speaking for someone is typically a directly observable public role or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing action or role."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Acting as a spokesperson or actively speaking for someone implies strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of speaking for someone is inherently neutral; the content or context may assign positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' includes a human agent ('Somebody') performing the action, indicating it is volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement that someone 'speaks for' another entity implies a definite and certain role or action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Being a spokesperson is an ongoing role that inherently involves multiple, repeated acts of speaking. Therefore, it has high iterativity."
+    }
+  }
+}

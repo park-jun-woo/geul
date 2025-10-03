@@ -1,0 +1,53 @@
+{
+  "synset_id": "extract.v.08",
+  "frame_id": 0,
+  "frame_text": "Somebody extract something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes an action that results in gaining knowledge of a specific numerical value (the root), thus changing the agent's state of knowledge from unknown to known.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mathematical calculation to find the root, initiating the change in knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "numerical_value.n.01",
+          "reasoning": "The 'something' that is the result of the calculation, specifically the numerical root whose value is determined."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The calculation of a root yields a result that is directly known and verifiable by the agent performing the calculation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary use is to state a fact or describe an event, making it declarative."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent with the will and intention to perform the calculation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calculating a root is a neutral mathematical operation, devoid of inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody ----s something' clearly indicates an intentional, volitional act on the part of the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Mathematical calculations, when performed correctly, yield certain and definite results."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'extract' in this context refers to the completion of a single calculation to find one root, not an inherently repetitive action."
+    }
+  }
+}

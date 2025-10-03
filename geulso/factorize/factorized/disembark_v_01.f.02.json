@@ -1,0 +1,58 @@
+{
+  "synset_id": "disembark.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody disembark",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'go ashore' describes a change of location from a vessel to land, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving from a vessel to land, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The verb 'disembark' inherently implies leaving a vehicle (e.g., ship, plane) as its point of origin for the motion."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "land.n.01",
+          "reasoning": "The definition 'go ashore' explicitly points to the destination of the motion as land or shore."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Disembarking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disembarking is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody disembark' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of disembarking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of leaving a vessel."
+    }
+  }
+}

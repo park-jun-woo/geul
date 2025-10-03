@@ -1,0 +1,54 @@
+{
+  "synset_id": "green.v.01",
+  "frame_id": 0,
+  "frame_text": "Something green",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The definition 'turn or become green' indicates a change in the color state of an entity.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of color, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "state_result",
+      "verb_property": "color.n.01",
+      "value_type": "green.a.01",
+      "reasoning": "The verb specifically describes the resulting color state as 'green', which is a specific characteristic of the outcome of the change."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A change in color is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' lacks an agent capable of will, as the change is often natural or external."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of turning green is generally neutral; its sentiment depends on context (e.g., plants greening vs. food molding)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of turning green is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of changing to green or a continuous process culminating in the state, best represented as a single instance of change for simplicity."
+    }
+  }
+}

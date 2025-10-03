@@ -1,0 +1,59 @@
+{
+  "synset_id": "make.v.19",
+  "frame_id": 0,
+  "frame_text": "Somebody make somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "reasoning": "The verb describes performing an action, as per 'act in a certain way'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' who performs the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The objective of the action is 'to acquire', indicating a change in possession status for the patient.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The second 'somebody' who is the object that the causal agent aims to acquire."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action described is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action and its outcome."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to acquire."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of acquiring, in this abstract sense, is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody make somebody' implies a volitional agent ('Somebody') acting intentionally to achieve acquisition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action and its aim are described as definite occurrences or intentions."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The acquisition itself, as the culmination of the action, is typically a single event."
+    }
+  }
+}

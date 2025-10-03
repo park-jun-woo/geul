@@ -1,0 +1,58 @@
+{
+  "synset_id": "burp.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody belch",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the expulsion of gas, indicating a change in its location from inside the stomach to outside.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of expelling gas, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "gas.n.01",
+          "reasoning": "The 'gas' that is being expelled, as indicated by the definition 'expel gas from the stomach'."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "stomach.n.01",
+          "reasoning": "The 'stomach' is explicitly mentioned in the definition as the origin of the expelled gas."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Burping is a directly observable physiological event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While burping can sometimes be intentional, it is often an involuntary bodily function, indicating a neutral or absent will/intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of burping is inherently neutral; its perception can vary by context."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "Burping can be both a volitional act (e.g., to relieve discomfort) and a non-volitional reflex. A neutral value best represents this ambiguity in the general sense of the verb, despite 'Somebody' in the frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of burping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of gas expulsion."
+    }
+  }
+}

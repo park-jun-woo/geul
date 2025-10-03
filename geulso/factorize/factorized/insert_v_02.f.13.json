@@ -1,0 +1,56 @@
+{
+  "synset_id": "insert.v.02",
+  "frame_id": 13,
+  "frame_text": "Something inclose something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'insert', defined as 'introduce' and hypernymed by 'put into a certain place', describes an action that causes an entity to change its location by being placed inside another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "Interpreting the frame 'Something inclose something' as 'Something inserts something', the first 'Something' is the entity that performs the act of insertion. Since it's 'Something' and not 'Somebody', it implies a non-human or non-volitional agent (e.g., a machine or natural force)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "Interpreting the frame 'Something inclose something' as 'Something inserts something', the second 'something' is the entity that undergoes the change of location, being introduced or placed into another."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The verb 'insert' inherently implies a target location or container for the inserted item, as evidenced by its definition 'put into a certain place'. This is a core semantic component of the action, even if not explicitly represented as a separate syntactic argument in this compact frame (interpreting 'inclose' as 'insert')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inserting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the 'Something' subject in the interpreted frame, the action is not driven by human will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inserting itself is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something inclose something' (interpreted as 'Something inserts something') features 'Something' as the subject, indicating a non-volitional agent (e.g., a machine or a natural process) or an ergative construction where the patient is the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of insertion is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'insert' typically describes a single, discrete event of placing something."
+    }
+  }
+}

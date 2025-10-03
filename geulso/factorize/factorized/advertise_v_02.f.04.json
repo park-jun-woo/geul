@@ -1,0 +1,58 @@
+{
+  "synset_id": "advertise.v.02",
+  "frame_id": 4,
+  "frame_text": "Something advertise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "publicity.n.01",
+      "reasoning": "The verb 'advertise' describes an action that causes a change in the state of public knowledge or awareness regarding an entity, making it more public.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity that performs the function of advertising (e.g., a billboard, a website, a campaign), thereby causing publicity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is made public or for which publicity is generated (e.g., a product, service, event)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "sale.n.01",
+      "reasoning": "The definition 'try to sell (a product)' explicitly states the primary commercial purpose behind the act of advertising in this context."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of advertising is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or function."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the subject in this frame typically refers to an inanimate entity (e.g., an advertisement, a medium) which lacks personal will, even if it fulfills an intended function set by an external agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of advertising itself is neutral; its sentiment depends on the product or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something advertise something' indicates that the subject 'Something' is typically not a volitional agent (e.g., 'The sign advertises the sale'). The volition comes from the creator of the 'Something', not the 'Something' itself."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When an entity advertises, it is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Advertising is often a continuous or repeated process to achieve and maintain publicity, implying high repetition rather than a single event."
+    }
+  }
+}

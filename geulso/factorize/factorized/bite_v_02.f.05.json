@@ -1,0 +1,59 @@
+{
+  "synset_id": "bite.v.02",
+  "frame_id": 5,
+  "frame_text": "Something sting something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb describes causing a change in the patient's physical state from not being in pain to experiencing pain.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the sharp or stinging pain, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "organism.n.01",
+          "reasoning": "The 'something' that experiences the pain or discomfort, typically a living organism or body part."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pain.n.01",
+      "value_type": "sharp_pain.n.01",
+      "reasoning": "The definition specifies the nature of the pain as 'sharp' or 'stinging', indicating a particular quality of the pain."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The experience of pain, whether caused by self or others, is a direct sensory experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' typically lacks will or intention in causing this type of pain (e.g., 'The cold bites')."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb describes causing 'pain' or 'discomfort', which are inherently negative experiences."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent, meaning the action is not performed with conscious intent or will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of causing pain is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing pain, not an inherently repetitive action."
+    }
+  }
+}

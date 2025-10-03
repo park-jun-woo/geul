@@ -1,0 +1,57 @@
+{
+  "synset_id": "count.v.01",
+  "frame_id": 10,
+  "frame_text": "Something number something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'count' describes the process of determining a quantity, leading to a change from a state of not knowing to knowing that quantity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of determining the number, acting as an impersonal agent or instrument, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose number or amount is being determined by the counting process."
+        },
+        {
+          "semantic_role": "result.n.02",
+          "value_type": "number.n.02",
+          "reasoning": "The outcome of the counting action is the specific number or amount determined."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Counting involves direct observation or calculation to determine a quantity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or outcome."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional subject (e.g., a machine), thus lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counting is a neutral process; its sentiment depends on the context or what is being counted."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'determine' implies a high level of certainty in the derived number or amount."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of 'determining the number' typically refers to a single, completed instance of quantification, rather than continuous repetition."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "fall_back.v.04",
+  "frame_id": 3,
+  "frame_text": "Somebody lose",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'fall back' (retreat) describes a change in physical location or position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity performing the action of moving."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.02",
+      "value_type": "backward.a.01",
+      "reasoning": "The definition 'retreat' and the phrase 'fall back' inherently specify movement away from a front or previous position."
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The hypernym 'regress.v.03' ('get worse or fall back to a previous condition') indicates that 'fall back' often implies a change to a less favorable state or a loss of progress/advantage, indirectly connecting to the 'lose' in the given frame as an implied outcome.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' (causal agent) is also the entity whose condition or position deteriorates or who experiences a loss of advantage."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "disadvantage.n.01",
+          "reasoning": "The outcome of falling back or regressing is typically a disadvantage or deterioration of a previous state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of falling back or retreating is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "While the action of moving itself is neutral, 'retreat' or 'fall back' often implies failure, defeat, or moving to a less advantageous position, supported by the hypernym 'regress' ('get worse')."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lose' (implying 'Somebody falls back') explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of falling back is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Falling back or retreating usually involves a continuous sequence of repetitive movements or actions over a period."
+    }
+  }
+}

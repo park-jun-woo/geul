@@ -1,0 +1,52 @@
+{
+  "synset_id": "enrich.v.01",
+  "frame_id": 2,
+  "frame_text": "Something enrich something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "quality.n.01",
+      "reasoning": "The definition 'make better or improve in quality' describes causing a change in the state of an object's quality.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' that causes the improvement, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' that undergoes the change and has its quality improved."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of enriching or improving something is typically directly observable or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-agentive subject, thus no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'make better or improve in quality' inherently carries a positive sentiment or outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' has a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of causing improvement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme can describe a single act of improvement or an ongoing process resulting in improvement. In the absence of explicit context for repetition, a single event is assumed for the core meaning."
+    }
+  }
+}

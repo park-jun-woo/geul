@@ -1,0 +1,59 @@
+{
+  "synset_id": "bruise.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody bruise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_integrity.n.01",
+      "reasoning": "The definition 'damage (plant tissue)' describes a change in the physical state or integrity of the object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that causes the damage."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "plant_tissue.n.01",
+          "reasoning": "The 'something' in the verb frame is the entity that undergoes the change (damage), specifically plant tissue as per the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abrasion_or_pressure",
+      "reasoning": "The definition explicitly states 'by abrasion or pressure' as the specific means or manner through which the damage occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bruising is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'bruise' inherently implies damage, which is a negative outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bruise something' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bruising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of inflicting a bruise."
+    }
+  }
+}

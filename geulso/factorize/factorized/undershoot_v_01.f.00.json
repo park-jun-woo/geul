@@ -1,0 +1,58 @@
+{
+  "synset_id": "undershoot.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody undershoot something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.02",
+      "reasoning": "The verb describes an action involving movement that alters the relative position of the agent (or the vehicle controlled by the agent) with respect to a target.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action, e.g., the pilot controlling the aircraft."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'something' that is the intended target or goal of the movement, such as 'the runway'."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "achievement.n.01",
+      "value_type": "failed",
+      "reasoning": "The core meaning of 'undershoot' is to 'fall short of', indicating a failure to fully achieve the intended destination or goal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Undershooting is an event that is typically observed directly or confirmed by direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or outcome."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While the overall action (e.g., landing) may be willed, the specific outcome of 'undershooting' (falling short) is generally not intended by the agent and represents a failure or error."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The concept of 'falling short' or failing to reach a goal inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates that the action is initiated by a volitional agent, even if the specific undesirable outcome is unintentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of undershooting, when it occurs, is a definite and factual occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of falling short of a target during an attempt."
+    }
+  }
+}

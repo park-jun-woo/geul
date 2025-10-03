@@ -1,0 +1,59 @@
+{
+  "synset_id": "impress.v.07",
+  "frame_id": 1,
+  "frame_text": "Somebody yarn-dye something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The primary meaning of 'yarn-dye' is to effect a change in the color of a material, as implied by 'dye'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity who initiates and carries out the dyeing process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fabric.n.01",
+          "reasoning": "The 'something' whose color is changed, which the definition specifies as 'fabric' and the verb 'yarn-dye' implies is in yarn form."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "stage.n.02",
+      "value_type": "pre_spinning.n.01",
+      "reasoning": "The 'yarn-' prefix and the definition 'before it is spun' specify that the dyeing occurs when the material is in the yarn stage, prior to being spun into finished fabric. This defines a specific process stage for the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of yarn-dyeing is a physical and directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dyeing is a neutral process; its sentiment depends on context or the resulting color."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite and certain occurrence of the dyeing process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular event of dyeing a batch of material, even if the internal process is continuous."
+    }
+  }
+}

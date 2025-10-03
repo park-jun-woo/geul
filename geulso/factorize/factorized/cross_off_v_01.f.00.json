@@ -1,0 +1,64 @@
+{
+  "synset_id": "cross_off.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody cross_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "membership.n.01",
+      "reasoning": "The verb describes causing a change in the membership status of an item, specifically its removal from a list.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of removing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is removed from the list, undergoing the change in membership."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "list.n.01",
+          "reasoning": "The 'list' from which the item is removed, acting as the source of its previous membership."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "marking.n.01",
+      "reasoning": "A core component of 'cross off' is the specific manner of removal, which involves making a mark (typically a line) over the item on the list.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crossing off an item is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of crossing something off a list is neutral; its sentiment depends on the context (e.g., crossing off a completed task is positive, crossing off a person from a team list could be negative)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cross_off something' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of crossing off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'cross off something' refers to a single event of removing one item, even if part of a larger process."
+    }
+  }
+}

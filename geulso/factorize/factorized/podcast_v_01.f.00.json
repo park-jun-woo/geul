@@ -1,0 +1,64 @@
+{
+  "synset_id": "podcast.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody podcast",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "availability.n.01",
+      "reasoning": "The verb describes the action of making multimedia files available to others, which is a change in the state of their accessibility from being unavailable or privately held to being publicly accessible.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the distribution of the multimedia files."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'multimedia files' are the direct object of the distribution; their content is what is made available."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "internet.n.01",
+      "reasoning": "The definition specifies that the distribution occurs explicitly 'over the internet'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "playback.n.01",
+      "reasoning": "The distributed files are intended 'for playback on a mobile device or a personal computer', indicating their ultimate purpose."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Podcasting is a directly observable action of distributing content."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention to distribute the content."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of podcasting itself is neutral; the content of the podcast determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody podcast' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of podcasting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'podcast' in this frame refers to a single act of distributing multimedia files, even though the overall activity might be repetitive. This particular event is treated as a single instance."
+    }
+  }
+}

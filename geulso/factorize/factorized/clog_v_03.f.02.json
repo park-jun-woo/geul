@@ -1,0 +1,60 @@
+{
+  "synset_id": "clog.v.03",
+  "frame_id": 2,
+  "frame_text": "Something clog somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of causing a change in the patient's state of motion, specifically leading to a reduction or cessation of their movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or performs the action of impeding, as specified by the verb frame.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose motion is affected and becomes impeded by the action.",
+          "value_type": "person.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "motion.n.03",
+      "value_type": "restricted.a.01",
+      "reasoning": "A defining characteristic of the motion, once 'clogged', is that it becomes restricted or hindered."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act and effect of impeding motion are typically directly observable phenomena."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in the verb frame implies a lack of will or intention for the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'impede' motion is generally considered negative, as it hinders a normal or desired state or action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' explicitly indicates a non-volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of causing impedance."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of impeding or clogging often implies a continuous or sustained hindrance, rather than a single discrete event, akin to 'run' which involves continuous repetitive action."
+    }
+  }
+}

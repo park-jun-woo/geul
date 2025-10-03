@@ -1,0 +1,64 @@
+{
+  "synset_id": "tailgate.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody tailgate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "spatial_relation.n.01",
+      "reasoning": "The verb describes the act of one entity moving to establish or maintain a specific spatial relationship (being behind) relative to another entity, implying a continuous change in position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of tailgating, controlling their movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being followed; the object of the tailgater's action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "distance.n.01",
+      "value_type": "close.a.01",
+      "reasoning": "A core semantic component of 'tailgate' is the explicit specification of maintaining a short or close distance from the entity being followed."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "safety.n.01",
+      "value_type": "unsafe.a.01",
+      "reasoning": "The definition includes the adverb 'dangerously,' which denotes an inherent negative impact on safety as a characteristic of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tailgating is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'dangerously' in the definition gives the verb an inherently negative polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of tailgating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Tailgating is an action that involves continuous, highly repetitive adjustments to maintain a close following distance, thus implying high iterativity."
+    }
+  }
+}

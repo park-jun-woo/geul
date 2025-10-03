@@ -1,0 +1,63 @@
+{
+  "synset_id": "wholesale.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody wholesale something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'sell' implies a transfer of possession from the seller to a buyer, which is a change of ownership state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the selling action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being sold and whose possession changes."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "buyer.n.01",
+          "reasoning": "Though not explicitly stated in the frame, 'sell' inherently implies a recipient (a buyer) to whom the item is transferred."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "large.a.01",
+      "reasoning": "The definition explicitly states 'in large quantities', which is a key distinguishing property of 'wholesale'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Selling is typically a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an intentional act driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wholesaling is a neutral economic transaction; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of selling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of selling."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of selling, even if it involves large quantities of goods in that one transaction."
+    }
+  }
+}

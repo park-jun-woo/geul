@@ -1,0 +1,60 @@
+{
+  "synset_id": "dally.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody dawdle",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The verb describes an action of using up or expending a resource, specifically 'time', as stated in the definition 'waste time'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of dallying.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'time' that is being consumed or wasted by the agent, inferred from the definition 'waste time'.",
+          "value_type": "time.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "efficiency.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The 'waste' aspect of the definition 'waste time' inherently implies a low level of efficiency or productivity in the consumption of the resource (time)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dallying (wasting time) is typically directly observable behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement about an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame implies the action is driven by their will or choice, even if it's a choice to be unproductive."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'waste time' inherently carries a negative connotation, as wasting time is generally considered undesirable."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody dawdle' indicates that the agent 'Somebody' intentionally performs the act of dallying, even if it's procrastination or idleness."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or state of behavior."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dawdling or wasting time often involves a prolonged period of continuous or repetitive minor unproductive actions, not a single discrete event. Thus, it exhibits high repetition."
+    }
+  }
+}

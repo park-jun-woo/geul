@@ -1,0 +1,53 @@
+{
+  "synset_id": "botch.v.01",
+  "frame_id": 8,
+  "frame_text": "Somebody bollix",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "quality.n.01",
+      "reasoning": "The verb describes an agent performing an action that causes a negative change in the state or quality of an implied task or effort, as indicated by 'make a mess of, destroy or ruin'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action that leads to a mess or ruin, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "task.n.01",
+          "reasoning": "The implied 'something' (a task or effort) that is affected negatively by the agent's action, consistent with the transitive nature of the definition even in an intransitive frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The outcome of botching is typically a directly observable phenomenon (e.g., a ruined object or failed task)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or outcome."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the agent's underlying action is driven by will or intention, even if the botched outcome is unintended."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'make a mess of, destroy or ruin' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates a volitional agent performing an action, even if the negative result (botching) is unintentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of making a mess or ruining something."
+    }
+  }
+}

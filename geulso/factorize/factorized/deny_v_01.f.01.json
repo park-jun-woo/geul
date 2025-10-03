@@ -1,0 +1,53 @@
+{
+  "synset_id": "deny.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody deny that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "truth.n.01",
+      "reasoning": "The verb 'deny' describes an action that changes the declared truth status of a proposition from assumed or asserted to explicitly untrue.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of declaring the proposition untrue, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the proposition whose truth is being denied by the agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of denying is a direct speech act, a form of direct experience or communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of denying is neutral; the content being denied or the context determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deny...' explicitly indicates a volitional agent performing the act of denying."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To deny something implies a high degree of certainty from the agent that the proposition is untrue."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of declaring a proposition untrue."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "fax.v.01",
+  "frame_id": 7,
+  "frame_text": "Somebody fax somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'send something' describes a transfer of something (information/document) from a sender to a recipient, implying a change in possession or location of that item.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the action of sending."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being sent or transferred."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame who receives the sent item."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "facsimile_machine.n.01",
+      "reasoning": "The definition explicitly states 'via a facsimile machine', which specifies the instrument used for the transfer and is a core part of the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of faxing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of faxing is neutral; its sentiment depends on the context or content."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly describes an intentional action performed by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sending is typically described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single event of sending a specific item."
+    }
+  }
+}

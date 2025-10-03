@@ -1,0 +1,64 @@
+{
+  "synset_id": "defame.v.01",
+  "frame_id": 11,
+  "frame_text": "Something calumniate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The definition 'attack the good name and reputation of someone' indicates that the verb describes an action that causes a negative change in someone's reputation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the defamation or attack on reputation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the individual whose reputation is negatively affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The definition 'charge falsely' indicates that a core component of defaming is the lack of truth in the accusation."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intent.n.01",
+      "value_type": "malicious.a.01",
+      "reasoning": "The definition 'with malicious intent' highlights the inherent negative intention behind the act of defaming, even if the grammatical subject of the frame ('Something') itself is not volitional."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming is typically an observable event, whether through direct communication or its resulting manifestations."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the frame 'Something ----s somebody', the immediate grammatical subject 'Something' does not possess will or intention, despite the verb's inherent 'malicious intent' being part of the action's nature. This qualifier reflects the subject's immediate lack of will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation' inherently carries a negative sentiment due to the harmful nature of the action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' explicitly features a non-agentive subject ('Something'), which performs the action in a non-volitional manner."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the act of calumniating."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete act of charging or attacking reputation."
+    }
+  }
+}

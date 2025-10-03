@@ -1,0 +1,53 @@
+{
+  "synset_id": "anchor.v.02",
+  "frame_id": 9,
+  "frame_text": "Something drop_anchor",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attachment.n.01",
+      "reasoning": "The definition 'secure a vessel' describes a transition from an unsecured state to a secured state, which is a change in the state of attachment.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame refers to the vessel, which undergoes the process of becoming secured."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "anchor.n.01",
+          "reasoning": "The 'anchor' is the specific tool or means by which the vessel is secured, as implied by 'drop_anchor' and the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of anchoring a vessel is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something drop_anchor' has a non-agentive subject ('Something' referring to the vessel), which lacks the capacity for will, according to the rule."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of securing a vessel is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something drop_anchor' describes an event happening with a non-agentive subject ('Something' / vessel), making the explicit action non-volitional for the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of securing, when described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of dropping anchor typically refers to a single event of securing a vessel at a particular location."
+    }
+  }
+}

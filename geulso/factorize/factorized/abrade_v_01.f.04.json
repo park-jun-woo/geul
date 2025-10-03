@@ -1,0 +1,58 @@
+{
+  "synset_id": "abrade.v.01",
+  "frame_id": 4,
+  "frame_text": "Something rub_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "size.n.01",
+      "reasoning": "The verb 'abrade' means to 'wear away' or 'diminish' something, indicating a change in the physical size or amount of material of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the wearing away, acting as the instigator of the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose material or size is diminished or removed due to the abrasion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "friction.n.01",
+      "reasoning": "The definitions 'wear away' and 'diminish, as by friction' explicitly highlight that the change occurs through a rubbing or abrasive action, which is a specific manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of abrading is a physically observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something rub_off something' indicates an inanimate or non-volitional agent, therefore no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of abrading is neutral; its positive or negative sentiment depends on the context (e.g., sanding wood vs. skin abrasion)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something rub_off something' specifies an inanimate subject ('Something') as the causal agent, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of wearing away."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Abrasion or wearing away is typically a continuous process composed of many repetitive small actions (friction), implying high iterativity."
+    }
+  }
+}

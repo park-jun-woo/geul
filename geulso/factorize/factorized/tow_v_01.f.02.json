@@ -1,0 +1,64 @@
+{
+  "synset_id": "tow.v.01",
+  "frame_id": 2,
+  "frame_text": "Something tow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'tow' describes causing an object to change its physical location by pulling it along.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity exerting the force and initiating the movement of another object."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object whose location is changed as a result of being pulled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "dragging.n.01",
+      "reasoning": "The definition 'drag behind' and the hypernym 'shlep' indicate a specific manner of movement that involves continuous pulling, often with implied resistance and physical contact."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "spatial_relation.n.01",
+      "value_type": "behind.r.01",
+      "reasoning": "The definition 'drag behind' explicitly states a spatial relationship where the patient (towed object) is located in the rear of the causal agent (towing object)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Towing is a physical action that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence in a declarative manner."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies an inanimate subject, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of towing itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate 'Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Towing is an action that involves continuous application of force and sustained movement over a period, rather than a single, instantaneous event, akin to high repetition of small movements."
+    }
+  }
+}

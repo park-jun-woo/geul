@@ -1,0 +1,62 @@
+{
+  "synset_id": "fink.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody rat",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "employment.n.01",
+      "reasoning": "The definition 'take the place of work' describes an action that alters the state of who is performing a specific employment role.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of taking over the work, as implied by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "work_role.n.01",
+          "reasoning": "The specific work role or position that is being occupied by the agent, undergoing a change in who performs it."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "striking_worker.n.01",
+          "reasoning": "The 'someone on strike' whose work role is being taken, serving as the origin of the vacated position, as specified in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking someone's place at work is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The verb 'fink' (and 'rat' in the context of strikebreaking) is a derogatory and informal term, making the expression impolite."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of replacing a worker is semantically neutral; its negative sentiment arises from the social context of a strike, not from the core action itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of replacing a worker."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of assuming a work role in place of another."
+    }
+  }
+}

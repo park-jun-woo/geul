@@ -1,0 +1,59 @@
+{
+  "synset_id": "claim.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody claim something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.02",
+      "reasoning": "The verb 'claim' describes an action of communicating a statement or assertion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of claiming, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'something' that is claimed, which is typically a statement or a fact asserted to be true or existing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "strong.a.01",
+      "reasoning": "The definition 'assert or affirm strongly' indicates that the communication is performed with a high degree of emphasis or conviction, which is a manner component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of claiming is a direct communicative act, implying direct knowledge or assertion by the speaker."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an assertion."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame acts with clear intention and will to make the claim."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of claiming itself is neutral; the content of the claim may carry positive or negative sentiment, but the verb does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody claim something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'claim' something implies the speaker states it 'to be true or existing', reflecting a high degree of certainty from the speaker's perspective."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of making an assertion."
+    }
+  }
+}

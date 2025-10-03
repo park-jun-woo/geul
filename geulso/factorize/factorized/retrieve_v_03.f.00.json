@@ -1,0 +1,68 @@
+{
+  "synset_id": "retrieve.v.03",
+  "frame_id": 0,
+  "frame_text": "Something retrieve",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes a process of acquiring an object and delivering it, resulting in a change of possession of the retrieved item by the 'master'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the composite action of running, picking up, and bringing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The object that is pursued, picked up, and brought, undergoing a change in location and possession."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'master' to whom the object is brought, receiving the possession."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "pursuit.n.01",
+      "reasoning": "The phrase 'run after' in the definition specifies the manner of the initial approach or search for the object."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "grasping.n.01",
+      "reasoning": "The phrase 'pick up' in the definition specifies the manner of physically acquiring the object."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of retrieving is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The actions 'run after, pick up, and bring to the master' imply intentionality and will on the part of the agent, even if it is an animal ('Something')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of retrieving is neutral; its sentiment depends on context or the item being retrieved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' frame, the definition describes active, intentional steps ('run after', 'pick up', 'bring'), characteristic of a volitional agent (e.g., a trained animal)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is carried out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a singular, complete act of retrieving a specific item or set of items for a single task."
+    }
+  }
+}

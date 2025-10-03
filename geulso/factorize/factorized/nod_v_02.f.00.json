@@ -1,0 +1,59 @@
+{
+  "synset_id": "nod.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody nod",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the physical action of lowering and raising the head, which is a change in its position and involves motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the head movement, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "head.n.04",
+          "reasoning": "The 'head' is the anatomical part of the agent that undergoes the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "communicative_function.n.01",
+      "value_type": "agreement.n.01",
+      "reasoning": "The act of nodding inherently serves the purpose of indicating assent, agreement, or confirmation, as stated in the definition and supported by its hypernym 'communicate'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of nodding is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of nodding itself is neutral; its sentiment depends on the context of the agreement or confirmation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody nod' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of nodding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'nod' in this frame typically describes a single instance of the action, not repeated movements."
+    }
+  }
+}

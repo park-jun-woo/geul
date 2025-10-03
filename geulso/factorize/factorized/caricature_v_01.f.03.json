@@ -1,0 +1,62 @@
+{
+  "synset_id": "caricature.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody caricature something",
+  "sememes": [
+    {
+      "verb_type": "create",
+      "verb_property": "representation.n.01",
+      "reasoning": "The definition 'produce a caricature of' directly indicates an act of creation, where the outcome is a representation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity that performs the action of creating the representation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that is being represented or caricatured."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "exaggeration.n.01",
+      "reasoning": "A core characteristic of a caricature is its exaggerated or distorted nature, which is an inherent property of the representation created."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "mockery.n.01",
+      "reasoning": "Caricatures are commonly created with the intent to ridicule or mock, as further supported by the hypernym 'mock.v.02'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of caricaturing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies that the subject ('Something') does not necessarily possess personal will or intention in the human sense."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The purpose of caricature often involves ridicule or satire, which carries a negative sentiment, reinforced by the hypernym 'mock'."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically indicates a non-volitional agent (e.g., an abstract entity, a tool, or a non-sentient being) performing the action, as per the task rules for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of caricaturing, once described, is treated as a certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of producing a caricature."
+    }
+  }
+}

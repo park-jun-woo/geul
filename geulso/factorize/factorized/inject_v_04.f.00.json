@@ -1,0 +1,59 @@
+{
+  "synset_id": "inject.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody inject something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'take by injection' describes a change in the agent's internal state, specifically gaining internal possession of a substance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of injecting, and whose body receives the substance, thus gaining internal possession of it."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "substance.n.01",
+          "reasoning": "The 'something' (a substance, typically a drug) that is introduced into the agent's body, changing its internal composition/state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "injection.n.01",
+      "reasoning": "The verb's definition explicitly includes the specific manner of introduction, which is 'by injection'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of injecting is a directly observable event or a direct experience for the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention, especially in the context of 'taking' a substance."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Given the hypernym 'drug.v.02' ('use recreational drugs'), the verb often carries a negative connotation related to drug use or health risks."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of taking by injection is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'inject' typically describes a single, discrete event of introducing a substance, rather than a continuous or highly repetitive process in one instance."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "indicate.v.03",
+  "frame_id": 2,
+  "frame_text": "Something indicate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb describes an action that brings information from an unexpressed state to an expressed state, thereby changing its availability or known status for an audience.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of stating or expressing the information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific information or proposition that is being stated or expressed, undergoing a change from unknown/unsaid to known/said."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "brief.a.01",
+      "reasoning": "The definition explicitly states that the expression is done 'briefly', which indicates a manner property of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of indicating is a direct expression by the agent, implying direct experience of the communicated content (from the agent's perspective)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or expressing information."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies a volitional agent performing the action, driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of indicating is neutral; the sentiment depends on the content being indicated or the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody indicate that CLAUSE' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'indicate' something implies a level of certainty or conviction from the perspective of the agent making the statement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of stating or expressing information."
+    }
+  }
+}

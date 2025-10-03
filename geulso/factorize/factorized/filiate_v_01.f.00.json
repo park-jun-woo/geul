@@ -1,0 +1,59 @@
+{
+  "synset_id": "filiate.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody filiate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "relationship.n.01",
+      "reasoning": "The definition 'fix the paternity of' describes an action that changes the state of a relationship (paternity) from undetermined to determined.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of fixing paternity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'something' whose paternity is being fixed, which is inherently a person."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "completeness.n.01",
+      "value_type": "definite.a.01",
+      "reasoning": "The word 'fix' in the definition 'fix the paternity' implies making something conclusive and definite, indicating a state of certainty or finality about the paternity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fixing paternity, while often involving legal or investigative processes (inference), results in a declared or direct determination, treating the outcome as a direct factual statement."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative action, stating that an action takes place."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates an agent acting with explicit will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fixing paternity is inherently neutral; its positive or negative connotations depend on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'fix' implies a conclusive and certain determination of paternity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The action of fixing paternity is typically a single, definitive event for a given individual."
+    }
+  }
+}

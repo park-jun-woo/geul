@@ -1,0 +1,59 @@
+{
+  "synset_id": "profess.v.07",
+  "frame_id": 1,
+  "frame_text": "Somebody pretend that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes an act of verbal communication, specifically a statement, as implied by 'state'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of stating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' that is stated, representing the content of the communication."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sincerity.n.01",
+      "value_type": "insincere",
+      "reasoning": "The definition 'state insincerely' explicitly adds the characteristic of lacking sincerity to the act of communication, making it a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of professing is a directly observable linguistic action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or situation."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The explicit mention of 'insincerely' in the definition gives the act of professing a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of professing, as a definite statement, implies certainty in the performance of the action itself, regardless of the truth of the statement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of stating something."
+    }
+  }
+}

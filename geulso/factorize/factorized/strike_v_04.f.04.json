@@ -1,0 +1,64 @@
+{
+  "synset_id": "strike.v.04",
+  "frame_id": 4,
+  "frame_text": "Somebody strike somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "conflict.n.01",
+      "reasoning": "The definition 'make a strategic, offensive, assault' describes an action that constitutes or initiates a conflict.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, representing the entity that initiates the strategic assault."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, representing the target of the assault (enemy, opponent, or target)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "strategic.a.01",
+      "reasoning": "The definition explicitly includes 'strategic' as a characteristic of the assault, indicating a planned and purposeful nature."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "offensive.a.01",
+      "reasoning": "The definition explicitly includes 'offensive' as a characteristic of the assault, describing the aggressive nature of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A military strike or assault is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'make a strategic, offensive, assault' strongly implies the agent's will and intention, even if the grammatical subject is 'Something' (e.g., a military force or system acting deliberately)."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "An 'assault against an enemy, opponent, or a target' carries an inherently negative connotation due to its harmful intent and impact on the patient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' in the verb frame, the specific phrasing in the definition ('strategic, offensive, assault') implies a deliberate and intentional act, overriding the general non-volitional default for 'Something' subjects when the agent is conceptualized as a strategic actor."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of striking or assaulting."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "In this context, 'strike' refers to a singular, discrete event of assault, not a repetitive action."
+    }
+  }
+}

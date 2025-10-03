@@ -1,0 +1,58 @@
+{
+  "synset_id": "check_in.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody sign_in somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The verb describes an action that changes the status of an individual from unannounced/unregistered to announced/registered, fulfilling the definition 'announce one's arrival'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent who performs the action of registering or announcing someone else's arrival."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the person whose arrival is being announced and whose status is therefore changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "act.n.02",
+      "value_type": "communication.n.02",
+      "reasoning": "The act of 'signing in' or 'checking in' inherently involves a form of communication or declaration of presence, as reflected in the definition 'announce one's arrival' and the hypernym 'report'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of signing somebody in is a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the causal agent implies an intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of signing somebody in is a neutral process; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sign_in somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of signing somebody in, when completed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This describes a single, discrete event of processing one person's arrival."
+    }
+  }
+}

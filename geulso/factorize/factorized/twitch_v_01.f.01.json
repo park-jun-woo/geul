@@ -1,0 +1,60 @@
+{
+  "synset_id": "twitch.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody twitch",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a physical movement, which is a change in location or state of a body part.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The '(body part)' which is the grammatical subject of the verb and undergoes the motion. It is not an agent as the motion is uncontrolled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "jerky.a.01",
+      "reasoning": "The definition explicitly describes the motion as 'jerky', indicating a specific manner of movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "short.a.01",
+      "reasoning": "The definition specifies the motion as 'short', indicating its brief temporal extent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Twitching is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The definition 'uncontrolled' implies the absence of the agent's will or intention for the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of twitching is inherently neutral; any positive or negative sentiment depends on context or the observer's interpretation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly states 'uncontrolled motion', making the action non-volitional. The frame 'Somebody's (body part) twitch' also places the body part as the subject, not a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of a motion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'twitch' refers to a single, discrete, brief instance of motion, as implied by 'make an uncontrolled, short, jerky motion' (singular 'motion')."
+    }
+  }
+}

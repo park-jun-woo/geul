@@ -1,0 +1,70 @@
+{
+  "synset_id": "cruise.v.01",
+  "frame_id": 1,
+  "frame_text": "Something cruise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'cruise' fundamentally describes a change of location or movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., a vehicle, boat) that performs the action of moving. While grammatically inanimate, the definition implies an underlying volitional operator for the specified manner of movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is traversed or driven around (e.g., a road, an area), which is the object of the cruising action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "aimless.a.01",
+      "reasoning": "The definition explicitly states the movement is 'aimlessly', indicating a lack of specific goal or destination."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "ostentatious.a.01",
+      "reasoning": "The definition explicitly states the movement is 'ostentatiously', describing it as being done for show or to attract attention."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pace.n.01",
+      "value_type": "leisurely.a.01",
+      "reasoning": "The definition explicitly states the movement is 'at leisure', indicating a relaxed and unhurried pace."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cruising is an observable action, hence direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition's description ('aimlessly but ostentatiously and at leisure') implies the action is performed with a specific intention and will by an implicit agent, even if the grammatical subject is 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cruising itself is neutral; its context might impart sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' frame, the specific manner ('aimlessly but ostentatiously and at leisure') inherently describes an intentional, volitional act of movement by an underlying agent (e.g., a driver)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of cruising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'drive around' suggests a continuous, highly repetitive action over a period, rather than a single event."
+    }
+  }
+}

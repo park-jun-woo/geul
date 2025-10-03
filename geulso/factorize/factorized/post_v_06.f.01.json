@@ -1,0 +1,57 @@
+{
+  "synset_id": "post.v.06",
+  "frame_id": 1,
+  "frame_text": "Somebody post something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "inclusion.n.01",
+      "reasoning": "The definition 'enter on a public list' implies causing someone to be added to a list, which is a change in their state of inclusion on that list.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who actively performs the action of entering someone onto the list."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the entity being added to the public list."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "list.n.01",
+          "reasoning": "The implicit 'public list' derived from the definition, which serves as the location or medium for the entry."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of posting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of posting is neutral; its sentiment depends on the context and the nature of the list or person being posted."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of posting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of entering a person onto a list."
+    }
+  }
+}

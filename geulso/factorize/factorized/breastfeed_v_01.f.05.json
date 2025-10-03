@@ -1,0 +1,52 @@
+{
+  "synset_id": "breastfeed.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody lactate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "nutrition.n.01",
+      "reasoning": "The verb 'breastfeed' (to give suck to) describes an action that causes a change in the nutritional state of the recipient, moving them from a state of hunger/need to satiation/nourishment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame `Somebody lactate somebody` is the volitional agent performing the act of giving suck."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame `Somebody lactate somebody` is the entity receiving the milk/suck, and whose nutritional state is changed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Breastfeeding is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an explicit agent 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of breastfeeding itself is neutral in sentiment; its positive or negative connotations depend on context or cultural views."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent ('Somebody') initiating and performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'give suck to' implies a discrete, complete instance of feeding during a single occasion, similar to 'give' or 'break' as single events. While breastfeeding can be repetitive over time, each instance of 'giving suck' is a singular act."
+    }
+  }
+}

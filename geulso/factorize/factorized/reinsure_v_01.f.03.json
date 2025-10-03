@@ -1,0 +1,52 @@
+{
+  "synset_id": "reinsure.v.01",
+  "frame_id": 3,
+  "frame_text": "Something reinsure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "protection.n.01",
+      "reasoning": "The verb 'reinsure' describes the act of providing additional insurance, which fundamentally alters the state of financial protection for the patient, typically by increasing or renewing it. This constitutes a change in the level or existence of protection.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame represents the entity (e.g., a company) that provides the additional insurance, thereby initiating the change in protection."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity (e.g., a policy, an asset, a risk) for which additional insurance is provided and whose state of protection is thus affected."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a business transaction that is typically a direct and observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "As per the GEUL rule, the frame 'Something ----s something' implies a non-volitional subject ('Something'), which lacks inherent will or intention. Therefore, Modality is neutral or absent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a neutral financial transaction. Its positive or negative implications depend entirely on the context of the risk and financial outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The instruction specifies that if the `verb_frame` contains 'Something', the action is likely non-volitional. While corporate entities can act with 'will' in a legal sense, the grammatical subject 'Something' points to a non-personal, non-volitional action in this framework."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reinsuring, once executed, is a definite and certain event or agreement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'reinsure' refers to a discrete act of providing additional insurance, considered as a single event or transaction, even if it can be repeated over time."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "dry-dock.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody dry-dock something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of maneuvering, which is a change in the location of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of maneuvering the ship, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "ship.n.01",
+          "reasoning": "The 'something' that is being maneuvered, explicitly stated as 'a ship' in the definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "drydock.n.01",
+          "reasoning": "The destination 'into a drydock' is a core part of the verb's meaning, indicating the target location of the maneuvering."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Maneuvering a ship into a drydock is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dry-docking a ship is a neutral operation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody dry-dock something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dry-docking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of maneuvering a ship into a drydock."
+    }
+  }
+}

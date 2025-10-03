@@ -1,0 +1,66 @@
+{
+  "synset_id": "correct.v.08",
+  "frame_id": 0,
+  "frame_text": "Something correct something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb 'correct' describes an action that causes a change from a defective state to an improved or non-defective state, as per the definition 'treat a defect'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity initiating or carrying out the correction.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "defect.n.01",
+          "reasoning": "The 'defect' is the primary entity undergoing the change, as specified by the verb's definition 'treat a defect'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of correcting a defect is typically a directly observable process or event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an ongoing action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is 'Something', which, while purposeful (e.g., a system), typically does not possess conscious 'will' or 'intention' in the human sense."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The decomposition is generic for the present, though the frame 'is correcting' implies present tense."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is correcting' explicitly indicates a progressive aspect, signifying an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The expression is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Correcting a defect is generally considered a positive action, as it leads to improvement or removal of a negative condition."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' implies a non-volitional agent (e.g., a machine, a system, a process) even if the action is purposeful by design."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The frame describes a definite, certain occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The progressive aspect ('is correcting') combined with the nature of 'treating a defect' often implies a continuous, potentially highly repetitive, or iterative process until the defect is resolved."
+    }
+  }
+}

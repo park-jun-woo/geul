@@ -1,0 +1,58 @@
+{
+  "synset_id": "infect.v.04",
+  "frame_id": 1,
+  "frame_text": "Something infect somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb 'infect' describes a change in the health state of a participant.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity (e.g., pathogen) that causes the change in health."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity whose health state is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "contagious.a.01",
+      "reasoning": "The definition explicitly states 'in a contagious way', which is a defining manner of this type of affection."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of infection is typically a directly observable phenomenon, or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' is non-volitional; it does not act with will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'infect' someone implies a negative outcome, usually illness or disease."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something infects somebody' indicates that the action is caused by a non-volitional entity ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of affecting someone in a contagious way."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of a person becoming infected."
+    }
+  }
+}

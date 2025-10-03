@@ -1,0 +1,58 @@
+{
+  "synset_id": "unwrap.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody break something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "secrecy.n.01",
+      "reasoning": "The verb 'unwrap' in this sense describes an action that causes a change in the state of information, specifically transitioning it from being secret or unknown to being publicly known, thereby reducing its secrecy.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the revelation or disclosure of the information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The second 'something' in the frame is the piece of information (secret) that undergoes the change in its state of secrecy."
+        },
+        {
+          "semantic_role": "target.n.01",
+          "value_type": "public.n.01",
+          "reasoning": "The definition explicitly states 'make known to the public', indicating the intended audience or recipient for the newly revealed information."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making information known can be directly observed or inferred from its public dissemination."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of disclosure."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the subject in this frame is not necessarily a volitional agent (e.g., 'An investigation unwrapped the truth'), hence implying no inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of unwrapping/revealing information is neutral; its sentiment depends on the nature of the information itself (e.g., 'unwrapping a scandal' vs. 'unwrapping a cure')."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something unwrap something' implies that the subject ('Something') is not necessarily a conscious, volitional agent, in line with the rule for generic 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of making information known, implying certainty about its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of disclosure."
+    }
+  }
+}

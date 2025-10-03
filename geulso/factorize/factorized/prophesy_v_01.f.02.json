@@ -1,0 +1,65 @@
+{
+  "synset_id": "prophesy.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody vaticinate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'prophesy' describes the act of making future knowledge or information known, which is a change in the state of knowledge for an audience. This aligns with 'reveal'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of prophesying, as specified by the verb frame, is the one causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content of the prophecy, which is the information being revealed or predicted. This is the entity whose state of knowledge is affected or made known."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "divine inspiration",
+      "reasoning": "The definition explicitly states that the prediction or revelation occurs 'through, or as if through, divine inspiration', indicating the specific means by which the knowledge is conveyed."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_relation.n.01",
+      "value_type": "future.n.01",
+      "reasoning": "The definition 'predict' inherently implies that the content of the prophecy relates to events that will happen in the future."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of prophesying implies that the prophet experiences or receives the 'divine inspiration' directly, making it a direct experience for the one conveying the prophecy."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a revealed fact."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of prophesying itself is neutral; the content of the prophecy can be positive, negative, or neutral depending on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody prophesy...' explicitly indicates a volitional agent performing the action, choosing to convey the prophecy."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A prophecy is typically delivered with an assertion of certainty by the prophet regarding the future event or revelation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of delivering a specific prophecy, not an inherently repetitive action."
+    }
+  }
+}

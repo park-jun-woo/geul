@@ -1,0 +1,63 @@
+{
+  "synset_id": "spy.v.04",
+  "frame_id": 1,
+  "frame_text": "Somebody spy PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes gaining possession of information, which is a change of state from not possessing to possessing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of collecting information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'sensitive or classified information' that is collected and becomes possessed."
+        },
+        {
+          "semantic_role": "target.n.02",
+          "reasoning": "The 'PP' in the frame indicates the entity or domain that is the subject of the spying activity, from which information is sought."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "clandestine.a.01",
+      "reasoning": "The definition explicitly includes 'secretly' and 'engage in espionage', implying the clandestine nature of the information collection."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spying is an event that is directly experienced by the agent, and potentially observable by others if detected."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by strong will and intent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Espionage, by its nature of 'secretly collect sensitive or classified information', often carries negative connotations due to its clandestine and potentially illicit nature."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of spying."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of spying is described as a definite occurrence or ongoing activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'engage in espionage' implies a continuous or highly repetitive series of actions rather than a single event, making it highly iterative."
+    }
+  }
+}

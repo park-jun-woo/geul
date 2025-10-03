@@ -1,0 +1,58 @@
+{
+  "synset_id": "razor.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody razor something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The verb describes an action that changes the state of the patient's surface from being covered with hair to being hairless, which is a change in coverage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of shaving, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., skin, beard) whose hair coverage is changed by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "razor.n.01",
+      "reasoning": "The verb 'razor' inherently specifies the instrument used for performing the action of removing hair, distinguishing it from other methods of depilation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shaving with a razor is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shaving is neutral; its sentiment (e.g., positive for grooming, negative for injury) depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shaving is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of shaving, while a single goal-oriented event, is composed of continuous, highly repetitive strokes with the razor, similar to the repetitive steps in 'running'."
+    }
+  }
+}

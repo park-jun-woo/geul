@@ -1,0 +1,58 @@
+{
+  "synset_id": "misprint.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody misprint something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "representation.n.01",
+      "reasoning": "The verb 'misprint' involves the act of printing, which is a process of creating a physical representation of text or information, thus changing its state from conceptual/digital to physical.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of printing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., text, document) that undergoes the change by being printed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "accuracy.n.01",
+      "value_type": "incorrect.a.01",
+      "reasoning": "The prefix 'mis-' and the definition 'print incorrectly' specify a characteristic of the printing process or its result: a lack of accuracy or correctness."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of misprinting is a directly observable event, as its result (the misprint) is physical."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual action, aligning with a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with strong will to initiate the printing process, even if the 'mis-' outcome is unintended."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'print incorrectly' clearly implies a negative outcome or quality of the action, indicating negative polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent ('Somebody') who intentionally performs the act of printing, even if the incorrectness is an unintentional result of that volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A misprint is a definite occurrence when it happens; there is certainty about its existence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of printing something incorrectly, not an inherently repetitive action."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "reconvict.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody reconvict somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "legal_status.n.01",
+      "reasoning": "The verb `reconvict` describes the act of declaring someone guilty again, which constitutes a change in their legal status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (e.g., court, jury) who performs the act of reconvicting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the act of being reconvicted, undergoing the change in status."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_relation.n.01",
+      "value": "recurrent",
+      "reasoning": "The prefix 're-' in `reconvict` and the definition 'convict anew' explicitly indicate that this act of conviction is a repetition of a previous conviction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reconvicting is a formal, legal act that is directly observable or officially recorded."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will in a legal context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reconvicting is a neutral legal procedure, though the outcome for the individual is negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody reconvict somebody' explicitly indicates a volitional agent (a court or legal body) performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A legal reconviction is a definite and certain declaration."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the act is a repetition of a *previous* conviction (captured in sememes), the verb `reconvict` itself describes a single instance of this repeated action."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "put_on.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody put_on something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'put on' describes a physical action that changes the location of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the placement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is moved and placed."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "stove.n.01",
+          "reasoning": "The implicit location where the object is placed, as specified by the definition 'put on the stove'."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "cooking.n.01",
+          "reasoning": "The explicit purpose of the action, 'ready for cooking', as specified by the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of putting something on the stove is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of putting something on for cooking is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody put_on something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of placing something."
+    }
+  }
+}

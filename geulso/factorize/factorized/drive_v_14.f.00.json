@@ -1,0 +1,70 @@
+{
+  "synset_id": "drive.v.14",
+  "frame_id": 0,
+  "frame_text": "Something is driveing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move' describes a change in location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the motion, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame indicates the direction, path, or endpoint of the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "propelled by external force",
+      "reasoning": "The definition explicitly states that the movement occurs 'by being propelled by a force', indicating a specific manner or mechanism of motion that is not self-initiated."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of something moving by being propelled is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is driveing PP' lacks an agent capable of will, and the definition implies external propulsion rather than internal will, hence no agent's will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The core meaning of the lemma doesn't intrinsically lean towards past or future when analyzed out of context of the specific frame; thus, neutral."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is driveing PP' explicitly indicates a progressive aspect, signifying an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness marking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving by being propelled is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is driveing PP' describes an event happening to a non-agentive subject ('Something') due to an external force, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'driving' (moving continuously along a path) is composed of continuous, highly repetitive micro-actions of forward movement. The progressive aspect also supports an ongoing, repeated nature rather than a single event."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "tug.v.05",
+  "frame_id": 1,
+  "frame_text": "Something tug something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'tug' describes causing an object to change its location, which is a change in its state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that exerts the pulling force and initiates the motion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change in motion due to the pulling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "pull.n.01",
+      "reasoning": "The definition 'move by pulling hard' indicates that 'pulling' is the specific manner or method by which the movement is achieved. The 'hard' aspect is inherent in the lexical choice of 'tug' over 'pull'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tugging is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-agentive force or object, thus lacking conscious will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tugging itself is neutral; its sentiment depends on the context and the outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something tug something' features a non-agentive 'Something' as the subject, indicating a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action causing movement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'move by pulling hard' often implies a sustained or repeated application of force to achieve the desired motion, suggesting high iterativity rather than a single instantaneous event."
+    }
+  }
+}

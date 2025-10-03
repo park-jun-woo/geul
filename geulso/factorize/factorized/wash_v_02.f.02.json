@@ -1,0 +1,58 @@
+{
+  "synset_id": "wash.v.02",
+  "frame_id": 2,
+  "frame_text": "Somebody lave something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb 'wash' describes the act of causing a change in the state of cleanliness of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of washing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose body is being cleansed by the action, as indicated by the verb frame and definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "soap_and_water.n.01",
+      "reasoning": "The definition explicitly states 'with soap and water' as the instruments/means by which the cleansing is performed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of washing is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of washing itself is neutral; the result (being clean) is often positive, but the verb's inherent sentiment is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody wash somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of washing typically involves continuous and repetitive motions over a duration, rather than being a single, instantaneous event."
+    }
+  }
+}

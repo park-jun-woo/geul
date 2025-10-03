@@ -1,0 +1,53 @@
+{
+  "synset_id": "test.v.06",
+  "frame_id": 0,
+  "frame_text": "Somebody test something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "determination.n.01",
+      "reasoning": "The verb 'test' describes an active process of investigation or experimentation aimed at determining the properties or presence of a substance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the process of testing to make a determination."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "substance.n.01",
+          "reasoning": "The 'something' (a substance) that is the object of the testing process, whose properties or presence are being determined."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of testing involves direct observation and experimentation by the agent to determine facts."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to perform the test."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of testing is neutral; the outcome of the test may have positive or negative implications."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The purpose of testing is to determine something 'with certainty' (as per hypernym 'determine.v.08'), implying high confidence in the process and its potential results."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'test' in this frame refers to a single instance of carrying out a process to make a determination, rather than inherent repetition."
+    }
+  }
+}

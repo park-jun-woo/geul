@@ -1,0 +1,58 @@
+{
+  "synset_id": "buy.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody purchase",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'obtain by purchase; acquire by means of a financial transaction' describes a transition from not possessing something to possessing it, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of acquiring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is acquired through purchase. While not explicitly stated as a direct object in this intransitive frame ('Somebody purchase'), the act of buying inherently entails an object of acquisition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "financial_transaction.n.01",
+      "reasoning": "The definition explicitly states that the acquisition of possession is achieved 'by means of a financial transaction', which is a defining characteristic of 'buy' that differentiates it from other forms of acquisition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of buying is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody purchase' implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of buying is neutral; the object purchased and context determine its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody purchase' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of buying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of acquisition through transaction."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "synset_id": "thunder.v.01",
+  "frame_id": 0,
+  "frame_text": "Something is thundering PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The core definition 'move' implies a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition explicitly states 'fast' as a manner of movement, which is a core semantic component of 'thunder'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sound.n.02",
+      "value_type": "loud.a.01",
+      "reasoning": "The definition explicitly states 'noisily', indicating a loud sound is a defining characteristic of the movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "heavy.a.01",
+      "reasoning": "The definition explicitly states 'heavily', indicating a weighty or impactful manner of movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of thundering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something thunder' lacks an agent capable of will, indicating no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of thundering is neutral; its sentiment depends on context (e.g., storm vs. impressive march)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something thunder' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of thundering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Thundering typically describes a continuous, repetitive, or sustained movement, not a single discrete event."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "arbitrage.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody arbitrage",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "financial_holding.n.01",
+      "reasoning": "The verb 'arbitrage' denotes an action that causes a change (typically an increase) in the financial holdings or assets of the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of arbitrage, aiming to change their financial holdings."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "financial_instrument.n.01",
+          "reasoning": "The 'something' (financial instruments like stocks, commodities, or currencies) that is being traded and whose price differences are exploited."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "by_exploiting_price_differences_for_profit.s.01",
+      "reasoning": "The definition and nature of arbitrage specify that the financial change occurs through a specific method: exploiting price disparities across different markets or forms, with the inherent goal of making profit. This captures the unique essence of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of arbitrage is a directly observable financial transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame, performing a complex financial strategy, implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of arbitrage itself is a neutral financial strategy; its outcome (profit/loss) might have sentiment, but the verb is objective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody arbitrage' explicitly indicates a volitional agent performing the action, as arbitrage is an intentional financial maneuver."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of arbitrating is described as a definite occurrence or practice."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'practice arbitrage' suggests that arbitrage is an activity often performed repeatedly or as an ongoing practice, rather than a single, isolated event. It involves continuous observation and action."
+    }
+  }
+}

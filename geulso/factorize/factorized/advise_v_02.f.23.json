@@ -1,0 +1,57 @@
+{
+  "synset_id": "advise.v.02",
+  "frame_id": 23,
+  "frame_text": "Something send_word somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'inform' (which 'advise' means in this sense) describes a change in the state of a participant's knowledge, from not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the non-volitional source or cause that initiates the transfer of information."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the verb frame is the direct object and the intended receiver whose knowledge state changes."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The implicit 'something' from the definition 'inform (somebody) of something', which represents the specific knowledge or information being conveyed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of informing (advising in this sense) typically involves direct communication or presentation of facts."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of communication."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates that the cause of the informing is not a volitional agent, therefore lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of informing is neutral; the sentiment might reside in the content of the information, not the act itself."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' implies a non-volitional subject ('Something') causing the action, thus the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Informing implies that the conveyed information is presented with certainty by the source."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of information transfer."
+    }
+  }
+}

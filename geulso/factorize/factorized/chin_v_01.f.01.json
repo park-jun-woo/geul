@@ -1,0 +1,75 @@
+{
+  "synset_id": "chin.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody chin_up",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes a physical act where the agent changes their own vertical position from a lower point to a higher one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates and performs the upward movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'oneself' (the agent's body) that undergoes the upward change in position. In this reflexive action, the patient is the same as the causal agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suspension_by_hands",
+      "reasoning": "The upward movement is executed specifically by gripping a support with one's hands while the body is suspended."
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "alignment.n.01",
+      "reasoning": "The action culminates when the agent's chin achieves a specific horizontal alignment with a support bar.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "chin.n.01",
+          "reasoning": "The specific body part (chin) that is intended to be aligned with the support."
+        },
+        {
+          "semantic_role": "reference_point.n.01",
+          "value_type": "bar.n.01",
+          "reasoning": "The object, typically a bar, that defines the target height for the chin's alignment."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Performing or observing a chin-up is a direct sensory experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody chin_up' implies the agent acts with clear intention and will to perform the exercise."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chinning up is a physical exercise, which is neutral in inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody chin_up' explicitly indicates a volitional agent performing the action, as it requires conscious effort."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, observable action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'chin_up' in this frame refers to a single, complete instance of the exercise."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "bake.v.01",
+  "frame_id": 1,
+  "frame_text": "Something bake",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb describes the process of transforming food from an uncooked state to an edible, cooked state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of cooking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The 'something' (food item) that undergoes the transformation to become edible."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "heating.n.01",
+      "reasoning": "The transformation is specifically achieved through the application of heat, as implied by 'putting in a hot oven'."
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "oven.n.01",
+      "reasoning": "The definition explicitly states 'by putting in a hot oven', indicating the primary instrument used for this cooking method."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of baking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of baking itself is neutral; the outcome or context might imbue it with sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of baking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of baking an item or batch of items."
+    }
+  }
+}

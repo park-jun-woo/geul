@@ -1,0 +1,56 @@
+{
+  "synset_id": "cast.v.07",
+  "frame_id": 1,
+  "frame_text": "Somebody mold something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The definition 'form by pouring... into a cast or mold' clearly describes a process that alters the shape or form of a material.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity who performs the action of forming."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the material that undergoes the change in shape."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'mold' is explicitly mentioned in the definition ('into a cast or mold') as the tool or vessel used to achieve the new form. Although 'mold' appears as the verb in the input frame, given the `synset_id` 'cast.v.07', it is semantically parsed as the instrument of the casting action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of casting is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of forming or casting is neutral; its sentiment depends on the context and the resulting object."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' indicates an intentional and volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of casting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of forming an object. While multiple objects can be cast, each instance is a single event."
+    }
+  }
+}

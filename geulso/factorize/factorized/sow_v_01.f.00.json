@@ -1,0 +1,64 @@
+{
+  "synset_id": "sow.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody seed something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the action of moving seeds from one state/location to being 'in or on the ground'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of placing the seeds, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "seed.n.01",
+          "reasoning": "The 'something' being placed, explicitly identified as 'seeds' in the definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "ground.n.01",
+          "reasoning": "The 'ground' is the target location for the seeds, as specified by the definition 'in or on the ground'."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "growth.n.01",
+      "reasoning": "The definition explicitly states 'for future growth', indicating the primary purpose of the action.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sowing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sowing is inherently neutral; its outcome or context might carry sentiment, but the action itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sowing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sowing typically involves placing multiple seeds in a continuous or highly repetitive manner, rather than a single discrete event."
+    }
+  }
+}

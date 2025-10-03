@@ -1,0 +1,64 @@
+{
+  "synset_id": "pay.v.01",
+  "frame_id": 4,
+  "frame_text": "Somebody pay something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'pay' fundamentally describes a transfer of money, which is a change in the state of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the action of paying.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' being transferred, which the definition specifies as 'money'.",
+          "value_type": "money.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the payment, indicated by the 'to somebody' phrase in the frame.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "reasoning": "The definition clarifies that the payment is 'usually in exchange for goods or services', indicating the purpose of the transfer.",
+          "value_type": "exchange.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of paying is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to perform the payment."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of paying itself is neutral; the context or the nature of the exchange determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pay...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of paying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of transfer of money, without implying repetition unless explicitly stated by context."
+    }
+  }
+}

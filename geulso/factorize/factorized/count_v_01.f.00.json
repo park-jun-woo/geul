@@ -1,0 +1,53 @@
+{
+  "synset_id": "count.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody count somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the acquisition of knowledge regarding the number or amount of something, which is a change in the agent's cognitive state from not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cognitive action of determining the number."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quantity.n.01",
+          "reasoning": "The 'something' whose number or amount is being determined; the knowledge acquired by the agent is specifically about its quantity."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of counting involves direct cognitive and often physical experience by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to determine the count."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counting itself is neutral; the implications of the count may carry sentiment, but the action does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody count something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of counting is typically performed with the aim of achieving a definite and certain result."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of counting involves highly repetitive steps, where individual units are enumerated sequentially."
+    }
+  }
+}

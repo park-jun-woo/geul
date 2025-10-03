@@ -1,0 +1,59 @@
+{
+  "synset_id": "dial.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody dial",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "selection.n.01",
+      "reasoning": "The verb 'dial' describes an action that results in the selection of a telephone number, initiating a change in the phone system's state towards establishing a connection.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of dialing, as indicated by the verb frame.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'telephone number' that is selected as a direct result of the dialing action, implied by the verb's definition, even if not explicit in the intransitive frame.",
+          "value_type": "telephone_number.n.01"
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'dial' or keypad mechanism that is operated to perform the selection, directly implied by the verb itself and its definition.",
+          "value_type": "dial.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Dialing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dialing is neutral; its outcome or context determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dialing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of selecting a telephone number to initiate a call."
+    }
+  }
+}

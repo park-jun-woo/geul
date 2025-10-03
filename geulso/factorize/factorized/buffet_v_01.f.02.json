@@ -1,0 +1,58 @@
+{
+  "synset_id": "buffet.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody buffet somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb describes a forceful physical impact that causes an alteration in the physical state or position of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates and delivers the forceful strike."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the forceful strike and whose physical state is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition explicitly states that the action involves striking 'forcefully'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of buffeting is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in the frame implies no will or intention behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'strike against forcefully' inherently implies a negative or unpleasant impact for the entity being buffeted."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something buffet somebody' indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'buffet' often implies repeated or continuous striking or force, rather than a single, isolated event (e.g., 'buffeted by wind')."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "write.v.08",
+  "frame_id": 1,
+  "frame_text": "Somebody write something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information_storage.n.01",
+      "reasoning": "The verb describes the action of recording data, which is a change in the state of information storage (from not recorded to recorded).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., a computer system, program) that performs the action of writing, causing the data to be recorded."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "data.n.01",
+          "reasoning": "The 'something' (data) that undergoes the change of state by being recorded."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "computer.n.01",
+          "reasoning": "The definition explicitly states 'on a computer', indicating the location where the data is stored."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of writing data to a computer is a directly observable or verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame (a computer system or program) does not possess will in the human sense, even if it performs an action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of recording data is inherently neutral; the sentiment depends on the context or the data itself."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject (a machine or program) performing the action. The action is executed, not willed."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'write' in this context implies a definite occurrence of the data being recorded."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed action of recording a piece of data. While a system can write continuously, this frame refers to an instance of the action."
+    }
+  }
+}

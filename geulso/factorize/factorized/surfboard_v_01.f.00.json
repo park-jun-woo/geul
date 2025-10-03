@@ -1,0 +1,64 @@
+{
+  "synset_id": "surfboard.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody surf",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of moving across waves, indicating a change in spatial state or location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of moving."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "surfboard.n.01",
+          "reasoning": "The definition explicitly states 'with a surfboard', making it the primary instrument for the action."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "wave.n.01",
+          "reasoning": "The action takes place 'on the waves of the sea', specifying the surface/medium of the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "riding.n.01",
+      "reasoning": "The definition 'ride the waves' specifies a particular manner of interaction with the waves, distinguishing it from other forms of water-based motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of surfing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of surfing is a recreational activity and is neutral in inherent sentiment; its polarity depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody surfboard' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Surfing is an ongoing activity composed of continuous, repetitive movements and adjustments over a period, rather than a single, discrete event."
+    }
+  }
+}

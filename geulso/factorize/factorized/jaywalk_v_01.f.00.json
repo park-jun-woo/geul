@@ -1,0 +1,59 @@
+{
+  "synset_id": "jaywalk.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody jaywalk",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the core action of moving across a space, which constitutes a change in location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing the action of moving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "road.n.01",
+          "reasoning": "The 'road' is the implicit object being traversed, derived from the definition 'cross the road'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "in_violation_of_traffic_rules_at_a_red_light",
+      "reasoning": "The 'jay' aspect of jaywalk specifies the illegal manner of crossing, particularly 'at a red light', as detailed in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Jaywalking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Jaywalking is inherently a negative action as it involves violating traffic laws."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody jaywalk' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of jaywalking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of crossing illegally."
+    }
+  }
+}

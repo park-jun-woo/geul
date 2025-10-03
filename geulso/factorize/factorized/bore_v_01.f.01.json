@@ -1,0 +1,65 @@
+{
+  "synset_id": "bore.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody tire somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotion.n.01",
+      "reasoning": "The definition 'cause to be bored' describes a causative action that induces a change in an emotional state from not bored to bored.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "object.n.01",
+          "reasoning": "The 'Something' that causes the change in emotional state, acting as the causer of boredom."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' who undergoes the change in emotional state, becoming bored; the experiencer of the emotion."
+        }
+      ]
+    },
+    {
+      "verb_type": "result_state",
+      "verb_property": "bored.a.01",
+      "reasoning": "The verb explicitly implies the resultant state of 'being bored' in the patient.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is in the state of being bored as a result of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing boredom is generally directly observable or inferable from direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a cause-effect relationship."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no will or intention, thus the modality is neutral (no will)."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Boredom is typically considered a negative emotional state, hence the action of causing it carries a negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bore somebody' explicitly indicates a non-volitional agent ('Something') performing the action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'bore' describes a definite occurrence of causing boredom."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing someone to become bored."
+    }
+  }
+}

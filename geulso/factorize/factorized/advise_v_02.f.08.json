@@ -1,0 +1,57 @@
+{
+  "synset_id": "advise.v.02",
+  "frame_id": 8,
+  "frame_text": "Somebody apprize that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'apprize' (meaning to inform) describes a change in the state of knowledge of a recipient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of informing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the information being conveyed, which is a proposition."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "Although the syntactic frame 'Somebody apprize that CLAUSE' does not explicitly include a direct object, the verb 'apprize' and its definition 'inform (somebody)' semantically require a recipient whose knowledge state changes."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of apprizing/informing typically involves a direct conveyance of information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to inform."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of informing is neutral; the content of the information determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of apprizing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'apprize' means to inform with certainty about the conveyed information."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of informing."
+    }
+  }
+}

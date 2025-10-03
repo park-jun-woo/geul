@@ -1,0 +1,54 @@
+{
+  "synset_id": "fume.v.02",
+  "frame_id": 1,
+  "frame_text": "Something smoke",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "emission.n.01",
+      "reasoning": "The verb 'fume' specifically means to 'emit', which is an action of giving off a substance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that performs the action of emitting, acting as the source.",
+          "value_type": "source.n.03"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'cloud of fine particles' is the substance that is emitted, the direct object of the emission.",
+          "value_type": "cloud_of_particles.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fuming is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something smoke' indicates a non-agentive subject, implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fuming is neutral; its positive or negative connotation depends on the context (e.g., pollution vs. steam from food)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something smoke' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of fuming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Emitting a 'cloud of fine particles' implies a continuous or highly repetitive release of individual particles over a period, rather than a single discrete event."
+    }
+  }
+}

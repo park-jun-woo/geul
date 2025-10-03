@@ -1,0 +1,65 @@
+{
+  "synset_id": "splash.v.06",
+  "frame_id": 0,
+  "frame_text": "Somebody splash something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The definition 'soil or stain' directly indicates a transition from a clean state to a soiled or stained state, which is a change in cleanliness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity who intentionally causes the soiling or staining."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the entity that undergoes the change of state, becoming soiled or stained."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "action.n.01",
+      "value_type": "splattering.n.01",
+      "reasoning": "The soiling or staining is specifically brought about by the action of causing liquid to scatter suddenly and irregularly onto the object, which is the core meaning of 'splashing'.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The definition specifies 'with a splashed liquid', indicating that liquid is the medium or instrument used to cause the soiling."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of splashing and soiling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody splash something' implies an agent with intent and will to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of splashing/soiling is neutral in sentiment; its positivity or negativity depends on the context and the nature of the liquid or object."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody splash something' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action and its resulting state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of causing a stain or soil, although the act of splashing itself might involve multiple small drops."
+    }
+  }
+}

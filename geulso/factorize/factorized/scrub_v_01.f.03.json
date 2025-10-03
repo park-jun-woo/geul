@@ -1,0 +1,64 @@
+{
+  "synset_id": "scrub.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody scrub something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb 'scrub' describes an action that changes the state of an object, typically from dirty to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that performs the scrubbing action, causing the change in cleanliness (e.g., a cleaning tool or machine)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the object that undergoes the change of state, becoming clean."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rubbing.n.01",
+      "reasoning": "The definition explicitly states that the cleaning is achieved 'with hard rubbing', indicating the specific manner of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "hard.a.01",
+      "reasoning": "The definition specifies the 'rubbing' is done with 'hard' intensity, which is a key characteristic distinguishing 'scrub' from other cleaning verbs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scrubbing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies an inanimate or non-volitional agent (e.g., a tool or machine) acting without inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of scrubbing itself is neutral, though the outcome (cleanliness) is often perceived positively."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something scrub something' clearly indicates a non-volitional subject, as 'Something' lacks intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of scrubbing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Scrubbing inherently involves continuous, highly repetitive rubbing motions to achieve the desired cleaning effect."
+    }
+  }
+}

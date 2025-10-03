@@ -1,0 +1,63 @@
+{
+  "synset_id": "leak.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody leak something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The definition 'tell anonymously' describes causing a change in the state of information from being secret/private to being known by a recipient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the act of revealing information."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame, who receives the leaked information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' in the frame, which refers to the specific information being revealed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "anonymously.adv.01",
+      "reasoning": "The definition explicitly includes 'anonymously', indicating a specific manner of the action where the source's identity is concealed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of leaking is typically a directly perceived or reported event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Leaking (especially secret information) often implies a breach of trust or confidentiality, carrying a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of revealing information."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of revelation, though it could be part of a larger, repeated process depending on context."
+    }
+  }
+}

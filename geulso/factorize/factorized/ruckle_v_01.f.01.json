@@ -1,0 +1,60 @@
+{
+  "synset_id": "ruckle.v.01",
+  "frame_id": 1,
+  "frame_text": "Something ruckle",
+  "sememes": [
+    {
+      "verb_type": "production",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb's definition 'make a hoarse, rattling sound' explicitly indicates the production of a sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that actively produces the sound."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "hoarse.a.01",
+      "reasoning": "The definition specifies that the sound produced has a 'hoarse' quality."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "rattling.a.01",
+      "reasoning": "The definition specifies that the sound produced has a 'rattling' quality, further supported by the hypernym 'rattle.v.01' ('make short successive sounds')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Making a sound is a directly observable/audible phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will to make the sound."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a sound, even if described as 'hoarse' or 'rattling', is semantically neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ruckle' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of ruckling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'rattling sound' implies a series of short, successive sounds, indicating high repetition rather than a single discrete event."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "synset_id": "clock_in.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody clock_on",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "registration.n.01",
+      "reasoning": "The verb 'clock on' describes the act of officially registering an event (arrival), which constitutes a change in one's recorded status from unregistered to registered.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who intentionally performs the action of clocking on."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The implied 'arrival' at work is the event being registered or whose status changes from unrecorded to recorded."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Clocking on is a directly observable action or one performed by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear will and intention to register their arrival."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of clocking on is a neutral administrative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody clock_on' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of clocking on is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of registering arrival at a specific time."
+    }
+  }
+}

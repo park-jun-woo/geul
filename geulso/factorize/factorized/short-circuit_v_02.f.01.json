@@ -1,0 +1,54 @@
+{
+  "synset_id": "short-circuit.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody short-circuit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'short-circuit' describes an action that causes a transition in the electrical condition of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the electrical malfunction, acting as the cause of the change, as specified by the verb frame.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in its electrical condition, resulting in it becoming short-circuited.",
+          "value_type": "short_circuit.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The occurrence of a short circuit is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent 'Something' in the frame is inanimate and therefore lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A short circuit is inherently a malfunction or fault, typically having negative consequences."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The action is performed by an inanimate 'Something', indicating it is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of a short circuit."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'short-circuit' in this context typically refers to a single event of creating a short circuit."
+    }
+  }
+}

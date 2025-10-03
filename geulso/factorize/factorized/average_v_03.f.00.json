@@ -1,0 +1,58 @@
+{
+  "synset_id": "average.v.03",
+  "frame_id": 0,
+  "frame_text": "Somebody average something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "data.n.01",
+      "reasoning": "The verb describes an action that transforms raw input data ('something') into a processed output value.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the computation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a set of numbers or data) upon which the computation is performed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "result.n.01",
+      "value_type": "average.n.01",
+      "reasoning": "A core semantic component of the verb is that the specific result of the change is an 'average'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of computing is a directly observable and verifiable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The mathematical operation of averaging is inherently neutral; its positive or negative connotations depend on the context of the data."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly refers to a volitional agent performing an intentional act of computation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'average' implies a definite and certain outcome when the computation is completed correctly."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of computing an average for a given set of data."
+    }
+  }
+}

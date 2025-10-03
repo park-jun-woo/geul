@@ -1,0 +1,63 @@
+{
+  "synset_id": "rain_out.v.01",
+  "frame_id": 0,
+  "frame_text": "Something rain_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "occurrence.n.01",
+      "reasoning": "The verb 'prevent or interrupt' describes a change from a state of potential or ongoing occurrence to a state of non-occurrence or cessation for an event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the rain or weather condition, acts as the non-volitional cause of the prevention/interruption."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The second 'something' in the frame refers to the event or activity that is prevented or interrupted."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "causation.n.01",
+      "value_type": "weather_related.a.01",
+      "reasoning": "The 'rain_out' explicitly specifies that the prevention is 'due to rain', indicating a specific weather-related cause."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of something being rained out is typically a directly observed phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent ('Something', i.e., rain) is not capable of will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'prevent or interrupt' an event due to rain is generally perceived as a negative outcome for those involved."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The 'Something' that rains out an event (e.g., rain) is a natural phenomenon and thus non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When an event is 'rained out', it is a definite occurrence or non-occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single instance of an event being prevented or interrupted."
+    },
+    "Aspect": {
+      "value": 4,
+      "reasoning": "The verb 'rain out' focuses on the *result* of the rain, which is the prevention or interruption of the event."
+    }
+  }
+}

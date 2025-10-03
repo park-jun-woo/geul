@@ -1,0 +1,58 @@
+{
+  "synset_id": "box.v.02",
+  "frame_id": 1,
+  "frame_text": "Somebody box something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "impact.n.01",
+      "reasoning": "The definition 'hit' describes an action that involves causing an impact or physical contact, which is a change in the state of interaction between two entities.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the action of hitting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the impact or hit, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "fist.n.01",
+      "reasoning": "The definition explicitly states 'with the fist', indicating the specific instrument used for the hitting action, which is a core semantic component of 'box'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hitting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of hitting someone with a fist, as implied by 'box', typically carries a negative connotation due to its association with aggression or harm, even in a sporting context where the *intent* is regulated, the *action* is still a strike."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of boxing/hitting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While boxing as a sport involves repeated actions, the singular frame 'Somebody box somebody' typically refers to a single instance or act of hitting, rather than a continuous, highly repetitive process in this generalized sense. If referring to the sport 'to box' as an activity, it would be 'MAX-1', but for a single frame of hitting, '1' is appropriate."
+    }
+  }
+}

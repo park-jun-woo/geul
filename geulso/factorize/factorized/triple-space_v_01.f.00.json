@@ -1,0 +1,64 @@
+{
+  "synset_id": "triple-space.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody triple-space something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "spacing.n.01",
+      "reasoning": "The verb describes the action of altering the vertical spacing between lines in a text.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of spacing the text, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (referring to text or a document) whose spacing is being modified."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "typing.n.01",
+      "reasoning": "The definition 'type with two empty spaces between lines' explicitly states that the change in spacing is achieved through the act of typing, which is a specific manner of creation/modification."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "measure.n.01",
+      "value_type": "triple",
+      "reasoning": "The verb 'triple-space' and the definition 'two empty spaces between lines' quantify the specific measure of the spacing being applied."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of triple-spacing is a directly observable act and its result."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of triple-spacing is a neutral formatting action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of spacing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of triple-spacing is described as a definite occurrence or instruction."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "As described by 'type with two empty spaces between lines,' the act of triple-spacing a document usually involves continuous, repetitive actions (typing, hitting enter) to achieve the desired effect across multiple lines, hence high iterativity."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "endanger.v.01",
+  "frame_id": 2,
+  "frame_text": "Something endanger something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "danger.n.01",
+      "reasoning": "The verb 'endanger' describes the act of causing an entity or its state (e.g., existence, safety) to be in a dangerous or threatened condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of threatening, thereby initiating the state of danger."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "action.n.01",
+          "reasoning": "The 'to INFINITIVE' clause specifies the threatened action, which serves as the means or instrument by which the danger is posed."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "entity.n.01",
+          "reasoning": "The entity that is put in danger. While not explicitly stated in the surface frame 'Somebody threaten to INFINITIVE', the verb 'endanger' inherently requires an object that is threatened or put at risk. This is a generic role representing what is at stake (e.g., lives, environment, reputation)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of threatening, and its direct impact of endangering, is typically observable or directly inferable from direct communication or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action of threatening and thereby endangering is performed with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'endanger' or 'pose a threat to' is inherently a negative action or outcome, as it puts something at risk of harm."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody threaten to INFINITIVE' explicitly includes a volitional agent ('Somebody') performing the action, making it inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of causing a state of danger."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'endanger' in this context typically refers to a single, definable act of posing a threat or creating danger."
+    }
+  }
+}

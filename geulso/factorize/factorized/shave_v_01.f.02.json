@@ -1,0 +1,57 @@
+{
+  "synset_id": "shave.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody shave something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "hairiness.n.01",
+      "reasoning": "The verb 'shave' describes an action that causes a change in the state of a person's hairiness, specifically the removal of body hair.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of shaving, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose body hair is removed, undergoing the change in hairiness."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "razor.n.01",
+          "reasoning": "The definition explicitly states 'with a razor', indicating the primary instrument used for this action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Shaving is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shaving is inherently neutral; its positive or negative sentiment depends on context or individual preference."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shave somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While a shave involves multiple strokes, the overall act of 'shaving somebody' is typically considered a single, discrete event or task."
+    }
+  }
+}

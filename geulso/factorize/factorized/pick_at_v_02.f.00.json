@@ -1,0 +1,59 @@
+{
+  "synset_id": "pick_at.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody peck",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The verb 'pick at' describes the ongoing process of consuming food, as indicated by the definition 'eat like a bird' and the hypernym 'eat.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of picking at food, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The implicit 'something' (food) that is being picked at, which is essential to the meaning of 'eat like a bird' despite not being explicitly stated in this intransitive frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "daintily.r.01",
+      "reasoning": "The definition 'eat like a bird' explicitly specifies a particular manner of eating, implying small, delicate, often unenthusiastic portions and movements."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of picking at food is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will, even if the eating itself is unenthusiastic."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of picking at food is neutral; any negative sentiment (e.g., lack of appetite) is contextual rather than inherent to the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pick_at' indicates a volitional agent ('Somebody') intentionally performing the action, even if without great enthusiasm."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of picking at is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'pick at' inherently suggests a series of small, repeated actions (like a bird pecking) rather than a single, continuous event."
+    }
+  }
+}

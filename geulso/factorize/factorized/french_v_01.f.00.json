@@ -1,0 +1,64 @@
+{
+  "synset_id": "french.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody French something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb 'french' describes an action that causes a change in the physical shape or form of an object by cutting it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cutting action, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., beans) that undergoes the change in shape."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "lengthwise",
+      "reasoning": "A specific characteristic of the cutting action is that it is performed 'lengthwise', defining the manner of the cut."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "preparation.n.01",
+      "value": "cooking",
+      "reasoning": "The action is performed 'in preparation for cooking', indicating a clear purpose."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cutting food is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an intentional agent with will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of frenching food is a neutral action; its sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody French something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cutting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "While a single cut produces the 'frenched' state for one piece, the process of 'frenching' typically involves multiple, repetitive cuts to prepare a quantity of food."
+    }
+  }
+}

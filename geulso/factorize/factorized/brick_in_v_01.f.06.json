@@ -1,0 +1,58 @@
+{
+  "synset_id": "brick_in.v.01",
+  "frame_id": 6,
+  "frame_text": "Something brick_in somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The definition 'wall up with brick' describes a transition from not being enclosed to being enclosed, indicating a change of state regarding containment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that non-volitionally causes the enclosure, as specified by the verb frame and its implicit lack of an intentional actor."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the state change of being enclosed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "brick.n.01",
+      "reasoning": "The verb explicitly specifies that the enclosure is performed 'with brick', indicating the specific material or instrument used for the action, which is a defining property of this verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bricking in is a physical process, directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s somebody' implies no will or intention from the non-agentive 'Something'."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "When applied to 'somebody', being 'bricked in' typically implies imprisonment or entombment, carrying a strong negative sentiment for the enclosed individual."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') causing the action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of bricking in is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially drawn-out, event of enclosure until completion, not an inherently repetitive action."
+    }
+  }
+}

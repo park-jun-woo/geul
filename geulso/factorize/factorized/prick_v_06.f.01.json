@@ -1,0 +1,66 @@
+{
+  "synset_id": "prick.v.06",
+  "frame_id": 1,
+  "frame_text": "Somebody prick something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The verb describes causing a transition from a state of no emotional pain to experiencing emotional pain, thus changing the emotional state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the emotional change in another person, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change in emotional state, experiencing pain, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "sharp.a.01",
+      "reasoning": "The definition explicitly states 'sharp emotional pain', indicating a distinct, acute, or sudden quality to the induced pain."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing emotional pain is typically a directly experienced or observed event, even if the pain itself is internal."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies the agent's will and intention in performing the action."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense information is provided in the input, so a neutral/present tense is assumed for the core meaning."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "No specific aspect information is provided, so a simple aspect is assumed for the core meaning."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'to cause a sharp emotional pain' inherently carries a negative sentiment due to 'pain'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing pain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of causing emotional pain, rather than continuous repetition."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "combust.v.04",
+  "frame_id": 1,
+  "frame_text": "Something combust somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The definition 'cause to become violent or angry' explicitly describes a change in the emotional state of a participant.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the change in emotional state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the person who undergoes the change to a violent or angry emotional state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "emotion.n.01",
+      "value_type": "anger.n.01",
+      "reasoning": "The core outcome of the combustion is the state of being 'angry' or 'violent', which specifies the nature of the emotional change."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing someone to become angry or violent is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event that causes a change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', indicating no inherent will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The resulting state of being 'violent or angry' carries a negative inherent sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional agent ('Something') initiating the action, and the patient's reaction is typically involuntary."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite causal event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a singular event of causing someone to become violent or angry, rather than a repetitive action."
+    }
+  }
+}

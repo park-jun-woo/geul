@@ -1,0 +1,72 @@
+{
+  "synset_id": "visit.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody see something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'visit' inherently involves a physical movement of the agent from one location to another, as indicated by 'go to see'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the movement, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'something' which is the location or entity to which the agent travels, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "activity",
+      "verb_property": "experience.n.01",
+      "reasoning": "Beyond mere movement, 'visit' implies an active period of engaging with, observing, or experiencing the destination, as captured by 'to see a place, as for entertainment'.",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'Somebody' who engages with or experiences the visited entity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the experience or observation."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "entertainment.n.01",
+          "reasoning": "The definition explicitly mentions 'as for entertainment' as a common underlying purpose for the visit, making it an intrinsic part of this frame's meaning."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Visiting implies direct personal experience and observation by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame suggests the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of visiting is generally neutral; its sentiment depends on context and the nature of the visit."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody visit something' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or intention of an action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of going to and experiencing a place or entity."
+    }
+  }
+}

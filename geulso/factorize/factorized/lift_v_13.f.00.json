@@ -1,0 +1,53 @@
+{
+  "synset_id": "lift.v.13",
+  "frame_id": 0,
+  "frame_text": "Somebody lift something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "financial_obligation.n.01",
+      "reasoning": "The definition 'pay off (a mortgage)' describes a transition from a state of having a financial obligation to not having it, which is a change of state regarding debt.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of paying off the mortgage."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "debt.n.01",
+          "reasoning": "The 'something' (e.g., a mortgage) that undergoes the change of state, from being owed to being paid off. This is a type of debt."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of paying off a mortgage is a concrete, directly verifiable financial transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Paying off a mortgage is generally considered a positive financial act, as it eliminates a debt or burden."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lift something' clearly indicates a volitional agent ('Somebody') performing the action of paying off."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of 'lifting' (paying off) is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'lift' in this context refers to a single, complete act of settling a specific debt, not a repetitive action."
+    }
+  }
+}

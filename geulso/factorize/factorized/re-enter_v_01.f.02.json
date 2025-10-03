@@ -1,0 +1,69 @@
+{
+  "synset_id": "re-enter.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody re-enter something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'enter' (the base of re-enter) fundamentally describes a change in an entity's spatial location, moving from outside to inside a particular space.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of location, as specified by the verb frame and indicating the entity in motion."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The prepositional phrase (PP) indicates the target location or space that is being entered."
+        }
+      ]
+    },
+    {
+      "verb_type": "temporal_relation",
+      "verb_property": "recurrence.n.01",
+      "reasoning": "The prefix 're-' explicitly indicates that the current act of entering is a repetition of a similar previous event, establishing a temporal relationship of recurrence."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of re-entering is typically a directly observable event, implying direct experience as the source of information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an ongoing event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-agentive entity, therefore lacking will or intention for the action."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb frame 'is re-entering' implies a present tense, ongoing action."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The auxiliary 'is' followed by the present participle 're-entering' explicitly marks the progressive aspect, indicating an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries a neutral politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of re-entering is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional entity, meaning the action is not performed with intention or will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Something is re-entering' describes a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the prefix 're-' indicates a repeated *type* of action (captured as a sememe), the event described by the verb frame itself ('is re-entering') refers to a single, continuous instance of that repeated action, not internal high repetition like 'running'."
+    }
+  }
+}

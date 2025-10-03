@@ -1,0 +1,59 @@
+{
+  "synset_id": "agitate.v.01",
+  "frame_id": 5,
+  "frame_text": "Somebody foment something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "social_state.n.01",
+      "reasoning": "The verb describes an attempt to cause a change in the collective state or sentiment of the public, from a calmer state to one of increased activity or unrest.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of trying to stir up public opinion, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "public_opinion.n.01",
+          "reasoning": "The 'something' (public opinion) that is the target of the agitation and whose state is intended to change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stir_up.v.01",
+      "reasoning": "The definition 'try to stir up public opinion' explicitly includes the manner of action: to 'stir up', implying to incite or arouse."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of agitating or fomenting is generally observable or directly experienced as an event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or attempt to influence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to stir up public opinion."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The terms 'agitate' and 'foment' in the context of 'stirring up public opinion' often carry a connotation of causing trouble, unrest, or discord, which is generally perceived negatively."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody foment something' explicitly indicates a volitional agent ('Somebody') intentionally performing the action of stirring up."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite attempt or action of agitating."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'stir up public opinion' typically involves continuous or repeated actions and efforts over time, rather than a single instantaneous event, implying high repetition."
+    }
+  }
+}

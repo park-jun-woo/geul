@@ -1,0 +1,58 @@
+{
+  "synset_id": "adjourn.v.01",
+  "frame_id": 4,
+  "frame_text": "Somebody recess",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The definition 'close at the end of a session' describes a change from an active state (session in progress) to an inactive state (session closed/recessed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of adjourning, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "session.n.01",
+          "reasoning": "The 'session' or 'meeting' that is implicitly closed or brought to a temporary halt, derived from the verb's definition."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "recess.n.01",
+          "reasoning": "The 'recess' in the frame `Somebody recess` indicates the specific outcome or state (a temporary cessation) that the agent brings about for the session."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of adjourning is a directly observable event or declaration."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of adjourning is generally neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of closing or suspending a session."
+    }
+  }
+}

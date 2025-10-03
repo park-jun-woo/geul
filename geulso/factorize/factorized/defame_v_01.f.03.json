@@ -1,0 +1,65 @@
+{
+  "synset_id": "defame.v.01",
+  "frame_id": 3,
+  "frame_text": "Somebody defame somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb 'defame' describes an action that aims to negatively alter or damage the reputation of a person.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of defaming, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' (a person) whose reputation is targeted for damage, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "A core component of defaming is that the charges made are 'falsely' presented, as per the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intent.n.01",
+      "value_type": "malicious.a.01",
+      "reasoning": "The action is characterized by 'malicious intent', as explicitly stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming (e.g., making false statements) is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' agent and the explicit mention of 'malicious intent' indicate strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody defame somebody' and the definition 'malicious intent' confirm the action is performed with intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of defaming."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or act of defamation, though it can be repeated."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "disgust.v.01",
+  "frame_id": 2,
+  "frame_text": "Somebody repel somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotion.n.01",
+      "reasoning": "The verb 'disgust' describes causing a change in the emotional state of a participant, specifically from a neutral or non-distasted state to a state of distaste.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Somebody' in the frame 'Somebody repel somebody' is the entity that causes the feeling of distaste in another."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who experiences the distaste; the undergoer of the emotional change."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "distaste.n.01",
+          "reasoning": "The direct result of the action is the feeling of distaste, as indicated by the definition 'fill with distaste'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing disgust can be directly observed through reactions, and the experience of disgust is direct for the patient."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causing a feeling."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The causal agent ('Somebody') in the frame 'Somebody repel somebody' implies an intentional action (even if the disgust itself is an involuntary reaction to the agent's action/quality)."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The feeling of 'distaste' is inherently a negative emotion, indicating negative polarity for the verb 'disgust'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody repel somebody' indicates a volitional agent ('Somebody') performing an action that causes disgust."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing an emotion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of filling someone with distaste, though the state may persist."
+    }
+  }
+}

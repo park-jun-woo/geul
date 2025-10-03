@@ -1,0 +1,81 @@
+{
+  "synset_id": "perjure.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody perjure somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "deception.n.01",
+      "reasoning": "The verb describes the intentional act of conveying false information (telling an untruth) with intent to deceive, as derived from the definition and its hypernym 'lie.v.05'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who intentionally commits the act of false testimony."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the object or target of the false testimony."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "legal_court.n.01",
+          "reasoning": "The definition explicitly specifies that the action occurs 'in a legal court'."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "guilt.n.01",
+      "reasoning": "The definition explicitly states that the act 'renders oneself guilty of perjury', indicating a resultant state for the agent.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The individual who is in the state of guilt, which refers to the causal agent of the deception."
+        },
+        {
+          "semantic_role": "attribute.n.01",
+          "value_type": "perjury.n.01",
+          "reasoning": "The specific crime or type of guilt incurred as a result of the deception is perjury."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of perjuring is a directly observable event within the context of a court."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or its consequence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'knowingly tell an untruth' implies a strong will and clear intention from the agent."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb describes a general action, typically in the present tense unless otherwise specified by context."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple, completed act of perjury unless specified as ongoing or having a past result."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of telling an untruth in court and becoming guilty of perjury is inherently negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'knowingly tell an untruth' explicitly states the action is intentional and volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the act when used declaratively."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of committing perjury."
+    }
+  }
+}

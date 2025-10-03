@@ -1,0 +1,61 @@
+{
+  "synset_id": "slop.v.04",
+  "frame_id": 0,
+  "frame_text": "Somebody slop something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "nourishment.n.01",
+      "reasoning": "The definition 'feed pigs' describes an action that causes a change in the state of the pigs from unfed to fed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of feeding.",
+          "value": "somebody"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "slop.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the food that is being given. For the verb 'slop', this food is specifically 'slop' (animal food, often liquid/semi-liquid).",
+          "value": "something"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "pig.n.01",
+          "reasoning": "The definition explicitly states 'pigs' as the recipients of the food. This role is inherent to the specific verb 'slop' in this sense.",
+          "value": "pigs"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of slopping (feeding pigs) is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of feeding pigs is generally considered neutral; the sentiment would depend on context (e.g., caring for animals vs. a chore)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action; there is no inherent uncertainty implied."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of feeding, without implying inherent repetition."
+    }
+  }
+}

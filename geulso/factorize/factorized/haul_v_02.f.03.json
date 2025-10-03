@@ -1,0 +1,62 @@
+{
+  "synset_id": "haul.v.02",
+  "frame_id": 3,
+  "frame_text": "Somebody haul something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'transport' indicates a change in location or state of motion for the object being hauled.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of transporting, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being moved or transported."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' in the frame most commonly specifies the endpoint or goal of the transport, although it could also indicate source or path."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "vehicle.n.01",
+      "reasoning": "The definition 'transport in a vehicle' explicitly states that a vehicle is the instrument used for this type of transport, distinguishing 'haul' from other forms of transport."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hauling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') implies strong will and intent behind the action of hauling."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hauling itself is neutral; its positive or negative connotation depends on the context and what is being hauled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of transport."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'haul' refers to a single, potentially extended, event of transporting a specific load, rather than a series of distinct, repeated actions."
+    }
+  }
+}

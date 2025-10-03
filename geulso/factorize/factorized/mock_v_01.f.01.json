@@ -1,0 +1,62 @@
+{
+  "synset_id": "mock.v.01",
+  "frame_id": 1,
+  "frame_text": "Somebody bemock something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "interact.v.01",
+      "reasoning": "The hypernym 'treat.v.01' is defined as 'interact in a certain way', and 'mock' is an instance of such interaction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of mocking."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the mocking interaction."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "contempt.n.01",
+      "reasoning": "The definition 'treat with contempt' explicitly states the manner and underlying attitude of the interaction, which is contempt."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Mocking is an observable action performed directly by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state of affairs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody mock somebody' indicates a volitional agent ('Somebody') acting with intention."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "To 'mock' someone is to treat them with contempt, which is an inherently impolite form of expression."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of treating someone with contempt is inherently negative in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action described by 'mock' is performed intentionally by a sentient agent ('Somebody'), making it volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Mocking often involves a series of derisive actions, words, or gestures, implying a high degree of repetition rather than a single discrete event."
+    }
+  }
+}

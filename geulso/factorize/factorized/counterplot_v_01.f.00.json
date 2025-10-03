@@ -1,0 +1,65 @@
+{
+  "synset_id": "counterplot.v.01",
+  "frame_id": 0,
+  "frame_text": "Somebody counterplot",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "planning.n.01",
+      "reasoning": "The definition 'make a plot' and the hypernym 'plot.v.01' indicate that the core semantic component is the mental action of devising a plan or scheme.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of planning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "plot.n.01",
+          "reasoning": "The implicit 'plot' or scheme that is the result or object of the planning."
+        }
+      ]
+    },
+    {
+      "verb_type": "relation",
+      "verb_property": "opposition.n.01",
+      "reasoning": "The 'counter-' prefix and the phrase 'in response to another plot' in the definition signify that this planning is adversarial or reactive, establishing a relationship of opposition.",
+      "participants": [
+        {
+          "semantic_role": "stimulus.n.01",
+          "value_type": "plot.n.01",
+          "reasoning": "The 'another plot' serves as the external trigger or object of the counter-planning, against which the opposition is directed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of counterplotting, while often secret, is presented as a directly actionable and, within a narrative, observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' implies a deliberate and intentional action, indicating strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'plot' inherently carries negative connotations (secrecy, malicious intent), and 'counterplot' is a response to such a negative act, maintaining a negative overall sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody counterplot' explicitly indicates an agent performing the action, making it inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of creating a plot."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of 'making a plot' is typically considered a single, complex event of devising a scheme, rather than a repetitive action."
+    }
+  }
+}

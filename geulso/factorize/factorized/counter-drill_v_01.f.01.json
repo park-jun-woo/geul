@@ -1,0 +1,58 @@
+{
+  "synset_id": "counter-drill.v.01",
+  "frame_id": 1,
+  "frame_text": "Something counter-drill something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "hole.n.01",
+      "reasoning": "The verb 'drill' inherently describes the action of creating or altering a hole, which is a change in the physical state or form of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, representing the instrument or machine that performs the drilling action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, representing the material or object that undergoes the drilling process and has a hole created or altered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "opposite.a.01",
+      "reasoning": "The prefix 'counter-' and the definition 'in an opposite direction' specify a core semantic component related to the direction of the drilling action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of drilling is a physical, directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject (an instrument or machine), thus no inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drilling itself is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' implies that the subject is an inanimate object (e.g., a drill machine) and thus performs the action non-volitionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Drilling is an action that typically involves continuous, repetitive movements (e.g., rotation, pushing) to achieve its goal, indicating high iterativity."
+    }
+  }
+}

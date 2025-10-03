@@ -1,0 +1,58 @@
+{
+  "synset_id": "smite.v.01",
+  "frame_id": 2,
+  "frame_text": "Something smite somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb 'smite' describes the act of inflicting a heavy blow, which causes a change in the physical state of the recipient, often leading to damage or impact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the inflictor or the source of the heavy blow, causing the physical change to the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the one who receives the heavy blow and undergoes the physical change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "heavy.a.01",
+      "reasoning": "The definition explicitly states 'inflict a heavy blow', which denotes a significant level of force or intensity as an inherent characteristic of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of smiting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame implies a non-volitional agent, thus lacking intentional will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'smite' involves inflicting a 'heavy blow,' which is inherently associated with harm or negative consequences, indicating a negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something smite somebody' indicates a non-volitional subject ('Something') performing the action, making the action unintentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of inflicting a blow, rather than a continuous or highly repetitive action by default."
+    }
+  }
+}

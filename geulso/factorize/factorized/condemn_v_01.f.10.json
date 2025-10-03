@@ -1,0 +1,58 @@
+{
+  "synset_id": "condemn.v.01",
+  "frame_id": 10,
+  "frame_text": "Something condemn something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The definition 'express strong disapproval of' indicates an action of conveying information or a judgment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity that performs the action of expressing disapproval, often a collective body or institution capable of judgment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity or action that is the target of the expressed disapproval."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "disapproval.n.01",
+      "value_type": "strong.a.01",
+      "reasoning": "The core semantic content of the expression is 'strong disapproval', which is a specific type of negative sentiment or judgment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of condemning is a direct and observable expression."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an act of expression."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Given the definition 'express strong disapproval', even if the subject is 'Something', it implies an agent (e.g., a committee, a report) acting with clear intention and will to convey judgment."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly states 'strong disapproval', which is an inherently negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Although the frame contains 'Something', the definition 'express strong disapproval' requires a volitional agent capable of forming and expressing a judgment (e.g., a council, a government, an author of a report). Therefore, the action is intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of condemning is presented as a definite occurrence or statement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single act of expressing a judgment, though it could be repeated. In its core sense, it's a discrete event."
+    }
+  }
+}

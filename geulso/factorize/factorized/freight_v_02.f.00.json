@@ -1,0 +1,63 @@
+{
+  "synset_id": "freight.v.02",
+  "frame_id": 0,
+  "frame_text": "Somebody freight something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "burden.n.01",
+      "reasoning": "The definition 'load with goods' describes an action that causes a container or vehicle to transition from an unburdened to a burdened state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of loading."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., vehicle, ship) that is being loaded and whose state changes to being burdened."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "goods.n.01",
+          "reasoning": "The 'goods' that are placed into or onto the patient, as specified by the definition 'load with goods'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "transportation.n.01",
+      "reasoning": "The act of loading is explicitly done 'for transportation', indicating the ultimate goal of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of loading is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of freighting is inherently neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an intentional and volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action, implying certainty of its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'freight' describes a single, complete event of preparing something for transport by loading it, even if the loading process itself involves multiple small steps."
+    }
+  }
+}

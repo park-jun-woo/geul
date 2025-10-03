@@ -1,0 +1,64 @@
+{
+  "synset_id": "defame.v.01",
+  "frame_id": 9,
+  "frame_text": "Something asperse somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The definition 'attack the good name and reputation of someone' describes an action that causes a negative change in a person's social standing or public perception.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the indirect cause or instrument of the defamation (e.g., a libelous article, a rumor)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose good name and reputation are attacked and negatively affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The definition explicitly states 'charge falsely,' indicating that the substance of the defamation is untrue."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intention.n.01",
+      "value_type": "malicious.a.01",
+      "reasoning": "The definition specifies 'with malicious intent,' indicating the negative underlying motivation of the act of defaming."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming is typically a directly perceivable event or communicated statement."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in this frame does not possess will or intention, even if it is the instrument of a malicious act. Modality refers to the immediate agent's will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of defaming, which involves 'falsely charging' and 'malicious intent' to 'attack a good name,' is inherently negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something asperse somebody' implies that the 'Something' is a non-volitional agent (e.g., a statement, an event) causing the defamation, rather than a conscious actor."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'defame' describes a definite action that has occurred or is occurring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single instance or act of attacking a reputation, even if its effects are prolonged."
+    }
+  }
+}

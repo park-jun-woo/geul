@@ -1,0 +1,54 @@
+{
+  "synset_id": "label.v.01",
+  "frame_id": 2,
+  "frame_text": "Something label somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "identification.n.01",
+      "reasoning": "The verb 'label' describes the act of assigning a designation or category to an entity, which changes its identified status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that performs the act of labeling, causing the change in identification.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that is designated or categorized by the label, whose identification is affected.",
+          "value_type": "person.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of labeling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies the absence of an agent's will or intention in causing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of labeling is inherently neutral; the sentiment depends on the specific label and context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional agent ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of assigning a label."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of assigning a label."
+    }
+  }
+}

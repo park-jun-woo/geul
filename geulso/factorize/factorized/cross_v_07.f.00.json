@@ -1,0 +1,64 @@
+{
+  "synset_id": "cross.v.07",
+  "frame_id": 0,
+  "frame_text": "Somebody cross something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "mark.n.01",
+      "reasoning": "The verb describes an action that causes a mark to be made on 'something', changing its state from unmarked to marked.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of marking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (surface or object) that is marked and undergoes the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "form.n.02",
+      "value_type": "line.n.01",
+      "reasoning": "The specific form of the mark created is a line, as indicated by the definition 'trace a line'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "spatial_relation.n.01",
+      "value_type": "traversal.n.01",
+      "reasoning": "The line has a spatial relationship of traversing, meaning it extends through or across the patient, as specified in the definition 'through or across'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Tracing a line is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tracing a line is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of tracing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of tracing a line, not a continuous or repeated action."
+    }
+  }
+}
