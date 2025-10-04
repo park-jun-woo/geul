@@ -1,0 +1,66 @@
+{
+  "synset_id": "spatter.v.01",
+  "definition": "dash a liquid upon or against",
+  "frame_id": 8,
+  "frame_text": "Somebody splash somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes causing a change in the condition of a person by covering them with liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the action of splashing.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state, becoming covered with liquid.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'liquid' (implied by the definition 'dash a liquid') is the means by which the condition of the patient changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid_and_dispersed.a.01",
+      "reasoning": "The term 'dash' implies rapid and somewhat forceful movement, and 'spatter' implies a scattered or dispersed application of the liquid."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody splash somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing liquid to be splashed, not a repetitive process inherently."
+    }
+  }
+}

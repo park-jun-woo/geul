@@ -1,0 +1,75 @@
+{
+  "synset_id": "woo.v.01",
+  "definition": "seek someone's favor",
+  "frame_id": 7,
+  "frame_text": "Something woo something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "quest.n.01",
+      "reasoning": "The verb describes an active process of attempting to gain something, specifically favor.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates or performs the seeking action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object of the seeking."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "disposition.n.01",
+      "reasoning": "The ultimate aim of wooing is to change the disposition of the patient towards the agent to a more favorable one.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose disposition is intended to change."
+        },
+        {
+          "semantic_role": "result.n.02",
+          "value_type": "favor.n.01",
+          "reasoning": "The desired outcome of the process is the acquisition of favor or a positive disposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "attraction.n.01",
+      "reasoning": "The act of wooing implies a specific method of seeking favor, typically through charm, enticement, or attraction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wooing, even metaphorically by an inanimate object, is typically a directly observable phenomenon or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent, therefore there is no agent's will or intention involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wooing is neutral in itself; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-human/non-agentive subject, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or attempt."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'seek favor' typically involves multiple, continuous actions or efforts over time, implying high repetition rather than a single event."
+    }
+  }
+}

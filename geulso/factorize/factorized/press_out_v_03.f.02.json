@@ -1,0 +1,64 @@
+{
+  "synset_id": "press_out.v.03",
+  "definition": "obtain from a substance, as by mechanical action",
+  "frame_id": 2,
+  "frame_text": "Somebody press_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'obtain from a substance' signifies a change in who possesses the 'something', transitioning from being part of a substance to being possessed or available to the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action to obtain the substance."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is separated and obtained from the substance."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "substance.n.01",
+          "reasoning": "The material 'from a substance' from which the 'something' is extracted, as implied by the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mechanical.a.01",
+      "reasoning": "The action of pressing out is performed 'by mechanical action', indicating a specific manner of force application."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pressing out is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to press out something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pressing out itself is neutral; the specific substance or context would determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event or a continuous action performed to obtain a quantity of something, rather than a repeating sequence of distinct events."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "stock.v.05",
+  "definition": "amass so as to keep for future use or sale or for a particular occasion or use",
+  "frame_id": 1,
+  "frame_text": "Somebody stock something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "quantity.n.01",
+      "reasoning": "The verb 'stock' inherently describes an action that results in an increase or accumulation of a certain quantity of items.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of accumulating.",
+          "value_type": "animate.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is amassed or increased in quantity.",
+          "value_type": "substance.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "future_provision.n.01",
+      "reasoning": "A defining characteristic of 'stocking' is the explicit purpose of 'keeping for future use or sale', which distinguishes it from other forms of accumulation. 'future_provision' encapsulates this intended outcome."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of stocking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stocking is neutral; the sentiment depends on the specific context or items being stocked."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of stocking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'amass' implies a process of accumulation that can be continuous or involve multiple repeated actions to build or maintain a stock, suggesting high repetition."
+    }
+  }
+}

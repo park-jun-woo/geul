@@ -1,0 +1,65 @@
+{
+  "synset_id": "pinch.v.01",
+  "definition": "squeeze tightly between the fingers",
+  "frame_id": 8,
+  "frame_text": "Something squeeze something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The definition 'squeeze tightly' implies applying force that causes a temporary change in the shape or form of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of pinching, as specified by the verb frame. Given the frame, this agent is typically inanimate or non-volitional."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the action of being pinched and experiences a change in shape."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "tightly.r.01",
+      "reasoning": "The adverb 'tightly' is an explicit part of the definition, specifying the manner of squeezing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "finger.n.01",
+      "reasoning": "The phrase 'between the fingers' specifies the particular instrument used in the act of pinching, distinguishing it from other types of squeezing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Pinching is a physical action that can be directly observed or felt."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates a non-volitional agent, thus implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pinching itself is neutral; its sentiment depends on context (e.g., painful vs. playful)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of squeezing tightly."
+    }
+  }
+}

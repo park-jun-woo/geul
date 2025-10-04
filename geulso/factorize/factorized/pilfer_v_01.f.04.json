@@ -1,0 +1,63 @@
+{
+  "synset_id": "pilfer.v.01",
+  "definition": "make off with belongings of others",
+  "frame_id": 4,
+  "frame_text": "Somebody filch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'make off with belongings of others' describes a transfer of possession from an owner to the pilferer.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of taking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is taken, whose possession changes."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implied by 'belongings of others' in the definition and the hypernym 'steal'; this participant represents the original owner from whom the item is taken."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "petty.a.01",
+      "reasoning": "The verbs 'pilfer' and 'filch' (used in the frame) inherently imply that the act of taking is typically for small, insignificant items or is done in a casual, somewhat stealthy, or petty manner, distinguishing it from general 'stealing'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pilfering is an observable action, hence direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'making off with belongings of others' or 'stealing' is inherently negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of taking an item or items."
+    }
+  }
+}

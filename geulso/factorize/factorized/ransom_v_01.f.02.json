@@ -1,0 +1,69 @@
+{
+  "synset_id": "ransom.v.01",
+  "definition": "exchange or buy back for money; under threat",
+  "frame_id": 2,
+  "frame_text": "Somebody redeem somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "freedom.n.01",
+      "reasoning": "The verb describes the act of causing a person to transition from a state of captivity to a state of freedom through exchange.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of redeeming or buying back, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being redeemed, changing from a captive state to a free state."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "money.n.01",
+          "reasoning": "The 'money' is the means by which the exchange or buying back occurs, as indicated in the definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "captor.n.01",
+          "reasoning": "Implied participant; the entity from whom the captive is bought back, inherent in the concept of 'ransom' and 'under threat'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "circumstance.n.01",
+      "value_type": "coercive.a.01",
+      "reasoning": "The definition explicitly states 'under threat', indicating a non-voluntary or coercive circumstance for the exchange."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ransoming is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to redeem the other person."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of ransoming inherently arises from a negative situation (captivity, threat), making its overall polarity negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody redeem somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of ransoming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of exchange for freedom."
+    }
+  }
+}

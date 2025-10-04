@@ -1,0 +1,61 @@
+{
+  "synset_id": "mumble.v.01",
+  "definition": "talk indistinctly; usually in a low voice",
+  "frame_id": 3,
+  "frame_text": "Somebody mumble",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "speech.n.02",
+      "reasoning": "The verb describes the ongoing process of producing spoken words, as indicated by the hypernym 'talk.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of speaking, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "clarity.n.01",
+      "value_type": "indistinct.a.01",
+      "reasoning": "The definition explicitly states 'talk indistinctly', which is a core semantic component describing the lack of clarity in the speech."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "volume.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The definition includes 'usually in a low voice', indicating the typical volume associated with this manner of speech."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mumbling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will, even if the result is indistinct."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mumbling is neutral; its sentiment depends on context or intent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody mumble' indicates that the agent ('Somebody') intentionally performs the act of speaking, making it volitional, despite the quality of the speech."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of speaking."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Mumbling is typically a continuous or highly repetitive act of vocalization, consisting of multiple indistinct sounds or words."
+    }
+  }
+}

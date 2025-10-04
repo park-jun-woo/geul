@@ -1,0 +1,63 @@
+{
+  "synset_id": "travel_rapidly.v.01",
+  "definition": "move very fast",
+  "frame_id": 4,
+  "frame_text": "Something is hurrying PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move very fast' describes a transition from one location to another, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of location, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint or direction of the movement, represented by the 'PP' (prepositional phrase) in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The phrase 'very fast' in the definition explicitly describes the manner of motion, which is a core semantic component of 'travel_rapidly' and 'hurrying'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of moving rapidly is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is hurrying' lacks an agent capable of will, implying no volition behind the action."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The auxiliary 'is' combined with the '-ing' form ('is hurrying') indicates a progressive aspect, signifying an ongoing action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving fast is inherently neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is hurrying PP' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hurrying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The continuous nature of 'hurrying' implies a high degree of repetition in the individual motions that constitute the rapid travel."
+    }
+  }
+}

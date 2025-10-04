@@ -1,0 +1,59 @@
+{
+  "synset_id": "run_down.v.03",
+  "definition": "injure or kill by running over, as with a vehicle",
+  "frame_id": 6,
+  "frame_text": "Something run_over somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_integrity.n.01",
+      "reasoning": "The verb describes a severe change in the physical state of the 'somebody', leading to injury or death, a direct impact on their physical integrity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (typically a vehicle) that performs the action of running over, causing the injury or death."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the harmful change of state (is injured or killed)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "collision.n.01",
+      "reasoning": "The action is specifically achieved 'by running over', which denotes a particular manner of harmful contact or collision."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of running someone over is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something', e.g., a vehicle), lacking will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'injure or kill' inherently carries a strong negative sentiment due to the harmful outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' means the subject ('Something') is non-agentive and cannot act volitionally, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of injury or death."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of causing injury or death."
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "synset_id": "pilfer.v.01",
+  "definition": "make off with belongings of others",
+  "frame_id": 2,
+  "frame_text": "Somebody cabbage something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes taking belongings from others, which is a change in who possesses the items.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of pilfering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (belongings) that is taken, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implicitly, the 'others' from whom the belongings are taken, who are the original owners, as per the definition 'belongings of others'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stealthy.a.01",
+      "reasoning": "Pilfering implies a discreet or stealthy manner of taking, distinguishing it from more overt forms of theft or simple taking."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "value.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The verb 'pilfer' typically refers to stealing items of small value or in small quantities, a key semantic distinction from general 'steal' (its hypernym)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pilfering is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Pilfering is an act of theft, which is inherently negative from a legal and ethical perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of pilfering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of making off with belongings, unless context implies otherwise. For a general decomposition, a single event is assumed."
+    }
+  }
+}

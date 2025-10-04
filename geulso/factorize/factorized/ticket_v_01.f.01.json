@@ -1,0 +1,59 @@
+{
+  "synset_id": "ticket.v.01",
+  "definition": "issue a ticket or a fine to as a penalty",
+  "frame_id": 1,
+  "frame_text": "Somebody ticket somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "obligation.n.01",
+      "reasoning": "The verb 'ticket' describes an action that causes a change in the recipient's legal or financial state by imposing a new obligation (a fine or other legal requirement).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who issues the ticket or fine, thereby initiating the change in obligation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the ticketing and incurs the new obligation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "nature.n.01",
+      "value_type": "penalty.n.01",
+      "reasoning": "The definition explicitly states that the ticket or fine is issued 'as a penalty', which defines the inherent punitive nature of the imposed obligation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Issuing a ticket is a directly observable and verifiable act."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of ticketing involves issuing a penalty, which is inherently a negative consequence for the recipient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing the action of ticketing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of ticketing is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of issuing a ticket for a specific infraction."
+    }
+  }
+}

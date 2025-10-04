@@ -1,0 +1,59 @@
+{
+  "synset_id": "travel_by.v.01",
+  "definition": "move past",
+  "frame_id": 10,
+  "frame_text": "Somebody pass_by somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move past' explicitly describes a change in location or position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity that performs the action of moving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' is the entity relative to which the causal agent moves; it is the object being passed."
+        }
+      ]
+    },
+    {
+      "verb_type": "relation",
+      "verb_property": "spatial_relation.n.01",
+      "value_type": "past.r.01",
+      "reasoning": "The 'by' and 'past' in 'pass_by' and the definition 'move past' explicitly denote a specific spatial relationship or trajectory relative to the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of moving past is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of passing by is neutral in sentiment; context would determine any positive or negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of moving."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of moving past is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of moving past something. Iteration would be expressed by repetition or continuous aspect."
+    }
+  }
+}

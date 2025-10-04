@@ -1,0 +1,60 @@
+{
+  "synset_id": "score.v.01",
+  "definition": "gain points in a game",
+  "frame_id": 3,
+  "frame_text": "Somebody rack_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'score' (and 'rack up') describes the act of gaining points, which is a change in the agent's possession of those points.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of gaining points, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "point.n.01",
+          "reasoning": "The 'something' that is gained, referring to points in a game context."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "large_amount.n.01",
+      "reasoning": "The phrasal verb 'rack up' specifically implies accumulating a significant or large quantity of the patient (points), distinguishing it from merely 'gaining' a single point."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Gaining points in a game is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to gain points."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of gaining points is generally positive in context, but the verb itself does not carry inherent sentiment beyond neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rack_up something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of scoring/racking up points is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrasal verb 'rack up' implies an accumulation of multiple points over time, suggesting a high degree of repetition or continuous action."
+    }
+  }
+}

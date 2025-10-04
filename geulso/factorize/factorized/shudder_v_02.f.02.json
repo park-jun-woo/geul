@@ -1,0 +1,61 @@
+{
+  "synset_id": "shudder.v.02",
+  "definition": "tremble convulsively, as from fear or excitement",
+  "frame_id": 2,
+  "frame_text": "Somebody thrill",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a physical movement, a change from a stable state to a trembling state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who experiences the internal state (fear/excitement) that causes the physical trembling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "convulsive.a.01",
+      "reasoning": "The definition explicitly states 'convulsively', which describes the manner of the trembling motion."
+    },
+    {
+      "verb_type": "cause",
+      "verb_property": "emotion.n.01",
+      "value_type": "fear.n.01 OR excitement.n.01",
+      "reasoning": "The definition specifies the cause of the trembling as 'fear or excitement', indicating an internal emotional trigger."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shuddering is a directly observable physical manifestation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The trembling is an involuntary reaction, not driven by the agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shuddering itself is neutral; its associated emotion (fear/excitement) might carry sentiment, but the physical act does not."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition 'tremble convulsively, as from fear or excitement' implies an involuntary, non-volitional action or reaction."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of shuddering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Trembling convulsively is a continuous, highly repetitive action over a period rather than a single discrete event."
+    }
+  }
+}

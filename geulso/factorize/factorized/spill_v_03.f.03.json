@@ -1,0 +1,58 @@
+{
+  "synset_id": "spill.v.03",
+  "definition": "cause or allow (a solid substance) to flow or run out or over",
+  "frame_id": 3,
+  "frame_text": "Somebody shed something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The verb describes an agent (Somebody) causing or allowing a substance (something) to change its state from being contained to flowing out or over a boundary, thus affecting its containment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or permits the flow of the substance, as indicated by the verb frame 'Somebody shed something PP'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "substance.n.01",
+          "reasoning": "The 'something' (a solid substance, according to the definition) that undergoes the change of state from contained to flowing."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' indicates the spatial trajectory or general direction ('out or over') where the substance flows, describing its path during the spilling event."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spilling is typically a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shed something PP' and the definition 'cause or allow' imply an agent's will or intentionality in initiating the action, even if the ultimate outcome is unintentional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spilling is inherently neutral; any positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent who 'causes or allows' the action makes it inherently volitional, referring to the agent's intent to perform the action leading to the spill."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, factual occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of a substance flowing out or over."
+    }
+  }
+}

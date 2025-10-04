@@ -1,0 +1,64 @@
+{
+  "synset_id": "plagiarize.v.01",
+  "definition": "take without referencing from someone else's writing or speech; of intellectual property",
+  "frame_id": 6,
+  "frame_text": "Somebody plagiarize",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'take ... from someone else' describes a transfer of intellectual property, leading to a change in its asserted ownership or attribution.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of plagiarizing, initiating the illicit transfer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "intellectual_property.n.01",
+          "reasoning": "The 'something' that is taken, which is explicitly defined as intellectual property in the verb's definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The original author or speaker from whom the intellectual property is taken, indicated by 'from someone else's writing or speech'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "unreferenced.a.01",
+      "reasoning": "A defining characteristic of plagiarism is that the intellectual property is taken 'without referencing', indicating an unreferenced manner of acquisition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of plagiarizing, involving the copying of text or speech, is typically verifiable through direct comparison, implying direct experience or evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or occurrence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention to perform the act of plagiarizing."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Plagiarism is inherently a negative act, involving dishonesty, illicit taking, and violation of intellectual integrity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody plagiarize' explicitly includes a volitional agent ('Somebody'), and plagiarism is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the act of plagiarizing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the act of plagiarizing, although it can be repeated."
+    }
+  }
+}

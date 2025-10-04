@@ -1,0 +1,65 @@
+{
+  "synset_id": "vomit.v.01",
+  "definition": "eject the contents of the stomach through the mouth",
+  "frame_id": 15,
+  "frame_text": "Somebody spew",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "elimination.n.01",
+      "reasoning": "The verb describes the process of expelling bodily contents, which is a change of state from internal to external containment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' whose body performs the act of elimination."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "matter.n.01",
+          "reasoning": "The 'contents of the stomach' (matter) that are being ejected."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "stomach.n.01",
+          "reasoning": "The anatomical origin from which the contents are ejected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "path.n.02",
+      "value_type": "oral_cavity.n.01",
+      "reasoning": "The definition explicitly specifies the ejection occurs 'through the mouth', indicating the path."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is typically a directly observable or personally experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is largely an involuntary bodily reflex and not an action driven by conscious will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of vomiting is almost universally considered an unpleasant and negative experience."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Despite the 'Somebody' agent in the frame, the verb 'vomit' describes an involuntary bodily function, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The occurrence of vomiting is a definite and certain event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Vomiting often involves multiple, successive expulsions or retches over a period of time, indicating a highly repetitive process within a single 'event' of vomiting."
+    }
+  }
+}

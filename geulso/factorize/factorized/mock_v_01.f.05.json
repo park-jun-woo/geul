@@ -1,0 +1,60 @@
+{
+  "synset_id": "mock.v.01",
+  "definition": "treat with contempt",
+  "frame_id": 5,
+  "frame_text": "Something mock somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "interaction.n.01",
+      "reasoning": "The verb describes a type of interaction or treatment, as indicated by the hypernym 'treat.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of treating, as specified by the verb frame. This entity is the instigator of the interaction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the contemptuous treatment."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "contempt.n.01",
+      "reasoning": "The definition explicitly states 'treat with contempt', indicating the specific manner or quality of the interaction.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mocking or treating with contempt is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or characteristic behavior."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame implies a lack of active will or intention from the instigator."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of treating 'with contempt' is inherently negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something mock somebody' indicates a non-volitional subject ('Something') initiating the action, therefore the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of treatment."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'treat with contempt' often implies an ongoing or repeated behavior or a continuous state of disrespect, rather than a single isolated event, suggesting high repetition."
+    }
+  }
+}

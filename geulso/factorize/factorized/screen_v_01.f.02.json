@@ -1,0 +1,66 @@
+{
+  "synset_id": "screen.v.01",
+  "definition": "test or examine for the presence of disease or infection",
+  "frame_id": 2,
+  "frame_text": "Somebody test somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'screen' describes an action that causes a change in the agent's knowledge state, specifically regarding the patient's health status as defined by 'test or examine for the presence of disease or infection'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the screening and gains knowledge about the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' who is subjected to the screening, whose health status is the object of the knowledge gained."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of screening involves direct testing and observation, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated by the input, so a neutral (present) tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "No specific aspect is indicated by the input, so a simple aspect is assumed."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "There is no information to suggest a deviation from a neutral politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of screening itself is neutral; the outcome of the screening may have positive or negative implications."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of screening is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'screen' in this frame describes a single event or instance of examination, not continuous repetition."
+    }
+  }
+}

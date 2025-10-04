@@ -1,0 +1,59 @@
+{
+  "synset_id": "iron.v.01",
+  "definition": "press and smooth with a heated iron",
+  "frame_id": 4,
+  "frame_text": "Something iron_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "smoothness.n.01",
+      "reasoning": "The verb describes the process of altering an object's surface from a wrinkled to a smooth state, indicating a change in a physical property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, representing the entity (e.g., a machine or mechanism) that actively performs the pressing and smoothing action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the change of state from wrinkled to smooth."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "iron.n.02",
+      "reasoning": "The definition 'press and smooth with a heated iron' explicitly states the essential instrument used for this action, making it an intrinsic semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ironing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent in the frame ('Something') is typically inanimate (e.g., a machine) and therefore does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ironing itself is neutral; its sentiment depends on context or the outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject or a process that occurs without conscious intent from the acting entity (e.g., a machine)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, observable action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Ironing typically involves continuous and repetitive motions (strokes of the iron) until the desired smoothness is achieved, indicating high iterativity for the action."
+    }
+  }
+}

@@ -6,17 +6,23 @@ import os
 import re
 import argparse
 import asyncio
+import httpx
 from pathlib import Path
 from tqdm import tqdm
-from typing import List, Dict
+from typing import List, Dict, Optional
 import nltk
 from nltk.corpus import wordnet as wn
 
 FACTORIZED_DIR = 'geulso/factorize/factorized/'
 INVALID_DIR = 'geulso/factorize/invalid/'
+PROMPT_TEMPLATE_PATH = 'geulso/factorize/validate_prompt.txt'
+
+# Ollama 설정
+OLLAMA_API_URL = 'http://localhost:11434/api/generate'
+OLLAMA_MODEL = 'gpt-oss:20b'
 
 class SynsetValidator:
-    """JSON 파일의 synset 참조를 검증하고 후보를 찾는 클래스"""
+    """JSON 파일의 synset 참조를 검증하고 LLM으로 교정하는 클래스"""
     
     def __init__(self):
         """NLTK WordNet 초기화 및 캐시 준비"""
@@ -27,14 +33,31 @@ class SynsetValidator:
             nltk.download('wordnet')
         
         self.validation_cache = {}
+        self.prompt_template = self.load_prompt_template()
         self.stats = {
             'total_files': 0,
             'skipped_files': 0,
             'processed_files': 0,
             'invalid_files': 0,
             'sememe_errors': 0,
-            'participant_errors': 0
+            'participant_errors': 0,
+            'llm_success': 0,
+            'llm_failed': 0
         }
+    
+    def load_prompt_template(self) -> str:
+        """프롬프트 템플릿 파일 로드"""
+        try:
+            with open(PROMPT_TEMPLATE_PATH, 'r', encoding='utf-8') as f:
+                template = f.read()
+            print(f"✓ 프롬프트 템플릿 로드 완료: {PROMPT_TEMPLATE_PATH}")
+            return template
+        except FileNotFoundError:
+            print(f"✗ 프롬프트 템플릿 파일을 찾을 수 없습니다: {PROMPT_TEMPLATE_PATH}")
+            return ""
+        except Exception as e:
+            print(f"✗ 프롬프트 템플릿 로드 실패: {e}")
+            return ""
     
     def is_valid_synset(self, synset_id: str) -> bool:
         """synset_id가 NLTK에서 유효한지 확인 (캐싱)"""
@@ -52,23 +75,30 @@ class SynsetValidator:
             self.validation_cache[synset_id] = False
             return False
     
-    def find_candidates(self, invalid_synset_id: str, max_candidates: int = 5) -> List[Dict[str, str]]:
+    def find_candidates(self, invalid_synset_id: str, max_candidates: int = 50) -> List[Dict[str, str]]:
         """find.py의 3단계 로직을 사용해 후보 synset 찾기"""
         candidates = []
+        seen = set()
         
-        # 2단계: 동의어(Lemma) 검색
-        candidates.extend(self._find_by_lemma(invalid_synset_id, max_candidates))
-        if len(candidates) >= max_candidates:
-            return candidates[:max_candidates]
+        # 2단계: 동의어(Lemma) 검색 - 모든 매칭 수집
+        lemma_candidates = self._find_by_lemma(invalid_synset_id)
+        for candidate in lemma_candidates:
+            if candidate['synset_id'] not in seen:
+                candidates.append(candidate)
+                seen.add(candidate['synset_id'])
         
-        # 3단계: 키워드(Gloss) 검색
-        remaining = max_candidates - len(candidates)
-        candidates.extend(self._find_by_gloss(invalid_synset_id, remaining))
+        # 3단계: 키워드(Gloss) 검색 - 모든 매칭 수집
+        gloss_candidates = self._find_by_gloss(invalid_synset_id)
+        for candidate in gloss_candidates:
+            if candidate['synset_id'] not in seen:
+                candidates.append(candidate)
+                seen.add(candidate['synset_id'])
         
+        # 상위 max_candidates개만 반환
         return candidates[:max_candidates]
     
-    def _find_by_lemma(self, synset_id: str, max_results: int) -> List[Dict[str, str]]:
-        """2단계: 동의어 검색"""
+    def _find_by_lemma(self, synset_id: str) -> List[Dict[str, str]]:
+        """2단계: 동의어 검색 - 모든 매칭 수집"""
         keyword = synset_id.split('.')[0].replace('_', ' ')
         pos_match = re.search(r'\.([nvasr])\.', synset_id)
         pos = pos_match.group(1) if pos_match else None
@@ -80,8 +110,6 @@ class SynsetValidator:
         
         try:
             for synset in wn.all_synsets(pos=pos if pos else None):
-                if len(candidates) >= max_results:
-                    break
                 for lemma in synset.lemmas():
                     if keyword.lower() == lemma.name().lower().replace('_', ' '):
                         if synset.name() not in seen:
@@ -96,8 +124,8 @@ class SynsetValidator:
         
         return candidates
     
-    def _find_by_gloss(self, synset_id: str, max_results: int) -> List[Dict[str, str]]:
-        """3단계: 정의(Gloss) 검색"""
+    def _find_by_gloss(self, synset_id: str) -> List[Dict[str, str]]:
+        """3단계: 정의(Gloss) 검색 - 모든 매칭 수집"""
         keywords_str = synset_id.split('.')[0]
         keywords = keywords_str.replace('-', ' ').split('_')
         pos_match = re.search(r'\.([nvasr])\.', synset_id)
@@ -110,14 +138,11 @@ class SynsetValidator:
         
         try:
             for synset in wn.all_synsets(pos=pos if pos else None):
-                if len(candidates) >= max_results:
-                    break
-                
                 gloss = synset.definition()
                 for example in synset.examples():
                     gloss += " " + example
                 
-                if any(keyword.lower() in gloss.lower() for keyword in keywords):
+                if all(keyword.lower() in gloss.lower() for keyword in keywords):
                     if synset.name() not in seen:
                         candidates.append({
                             "synset_id": synset.name(),
@@ -129,8 +154,105 @@ class SynsetValidator:
         
         return candidates
     
+    async def call_ollama_llm(self, errors_data: Dict) -> Optional[Dict]:
+        """Ollama LLM을 호출하여 교정 결과를 받아옴"""
+        if not self.prompt_template:
+            return None
+        
+        # 프롬프트 생성
+        input_json = json.dumps(errors_data, indent=2, ensure_ascii=False)
+        prompt = self.prompt_template.replace('{{input}}', input_json)
+        
+        try:
+            async with httpx.AsyncClient(timeout=120.0) as client:
+                response = await client.post(
+                    OLLAMA_API_URL,
+                    json={
+                        "model": OLLAMA_MODEL,
+                        "prompt": prompt,
+                        "stream": False,
+                        "options": {
+                            "temperature": 0.2,
+                            "top_p": 0.9
+                        }
+                    }
+                )
+                
+                if response.status_code == 200:
+                    result = response.json()
+                    response_text = result.get('response', '')
+                    
+                    # JSON 추출 및 파싱
+                    corrected = self.extract_json_from_response(response_text)
+                    if corrected:
+                        self.stats['llm_success'] += 1
+                        return corrected
+                    else:
+                        self.stats['llm_failed'] += 1
+                        return None
+                else:
+                    self.stats['llm_failed'] += 1
+                    return None
+                    
+        except Exception as e:
+            self.stats['llm_failed'] += 1
+            return None
+    
+    def extract_json_from_response(self, response_text: str) -> Optional[Dict]:
+        """LLM 응답에서 JSON 추출"""
+        if not response_text or not response_text.strip():
+            return None
+        
+        cleaned = response_text.strip()
+        
+        # 직접 파싱 시도
+        try:
+            return json.loads(cleaned)
+        except json.JSONDecodeError:
+            pass
+        
+        # 코드 블록에서 추출 시도
+        patterns = [
+            r'```json\s*(.*?)\s*```',
+            r'```\s*(.*?)\s*```'
+        ]
+        
+        for pattern in patterns:
+            matches = re.findall(pattern, cleaned, re.DOTALL | re.IGNORECASE)
+            if matches:
+                for match in matches:
+                    try:
+                        return json.loads(match.strip())
+                    except json.JSONDecodeError:
+                        continue
+        
+        # 중괄호로 JSON 추출
+        brace_count = 0
+        start_idx = -1
+        end_idx = -1
+        
+        for i, char in enumerate(cleaned):
+            if char == '{':
+                if start_idx == -1:
+                    start_idx = i
+                brace_count += 1
+            elif char == '}':
+                brace_count -= 1
+                if brace_count == 0 and start_idx != -1:
+                    end_idx = i
+                    break
+        
+        if start_idx != -1 and end_idx != -1:
+            try:
+                json_str = cleaned[start_idx:end_idx+1]
+                return json.loads(json_str)
+            except json.JSONDecodeError:
+                pass
+        
+        return None
+    
     async def validate_json_file(self, filepath: Path, output_path: Path) -> bool:
-        """JSON 파일을 검증하고 오류가 있으면 저장 (비동기)"""
+        """JSON 파일을 검증하고 LLM으로 교정한 후 저장 (비동기)"""
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -194,11 +316,50 @@ class SynsetValidator:
                             })
                             self.stats['participant_errors'] += 1
             
-            # 오류가 있으면 저장
+            # 오류가 있으면 LLM 호출 후 저장
             if errors['sememes'] or errors['participants']:
+                # LLM으로 교정 요청
+                corrections = await self.call_ollama_llm(errors)
+
+                # LLM 교정 결과 검증
+                validated_corrections = {
+                    'sememes': [],
+                    'participants': []
+                }
+
+                if corrections and 'errors' in corrections:
+                    # sememes 검증
+                    for correction in corrections['errors'].get('sememes', []):
+                        corrected_value = correction.get('corrected_value', '')
+                        if corrected_value and corrected_value != 'NO_CANDIDATE':
+                            # LLM이 제안한 synset이 실제로 유효한지 확인
+                            if not self.is_valid_synset(corrected_value):
+                                correction['corrected_value'] = 'NO_CANDIDATE'
+                                correction['corrected_reasoning'] += f" (Original suggestion '{corrected_value}' was invalid in NLTK)"
+                        validated_corrections['sememes'].append(correction)
+                    
+                    # participants 검증
+                    for correction in corrections['errors'].get('participants', []):
+                        corrected_value = correction.get('corrected_value', '')
+                        if corrected_value and corrected_value != 'NO_CANDIDATE':
+                            # LLM이 제안한 synset이 실제로 유효한지 확인
+                            if not self.is_valid_synset(corrected_value):
+                                correction['corrected_value'] = 'NO_CANDIDATE'
+                                correction['corrected_reasoning'] += f" (Original suggestion '{corrected_value}' was invalid in NLTK)"
+                        validated_corrections['participants'].append(correction)
+
+                # 최종 결과 구성
+                result = {
+                    'original': data,
+                    'errors': errors,
+                    'corrections': validated_corrections
+                }
+                
+                # 파일 저장
                 output_file = output_path / filepath.name
                 with open(output_file, 'w', encoding='utf-8') as f:
-                    json.dump(errors, f, indent=2, ensure_ascii=False)
+                    json.dump(result, f, indent=2, ensure_ascii=False)
+                
                 self.stats['invalid_files'] += 1
                 return True
             
@@ -259,7 +420,7 @@ class SynsetValidator:
         
         # 프로그레스 바와 함께 비동기 처리
         tasks = []
-        with tqdm(total=len(json_files), desc="JSON 파일 검증") as pbar:
+        with tqdm(total=len(json_files), desc="JSON 파일 검증 및 교정") as pbar:
             for filepath in json_files:
                 task = asyncio.create_task(process_with_semaphore(filepath))
                 tasks.append(task)
@@ -283,6 +444,8 @@ class SynsetValidator:
         print(f"오류가 있는 파일: {self.stats['invalid_files']:,}개")
         print(f"Sememe 오류: {self.stats['sememe_errors']:,}개")
         print(f"Participant 오류: {self.stats['participant_errors']:,}개")
+        print(f"LLM 교정 성공: {self.stats['llm_success']:,}개")
+        print(f"LLM 교정 실패: {self.stats['llm_failed']:,}개")
         
         if self.stats['invalid_files'] > 0:
             print(f"\n✗ 오류 파일 저장 위치: {INVALID_DIR}")
@@ -293,13 +456,13 @@ class SynsetValidator:
 
 async def main():
     parser = argparse.ArgumentParser(
-        description="Factorized JSON 파일의 synset 참조를 검증하고 후보를 찾습니다."
+        description="Factorized JSON 파일의 synset 참조를 검증하고 LLM으로 교정합니다."
     )
     parser.add_argument(
         "--concurrent",
         type=int,
-        default=10,
-        help="동시 처리할 파일 수 (기본값: 10)"
+        default=5,
+        help="동시 처리할 파일 수 (기본값: 5, LLM 호출이 있어 낮게 설정)"
     )
     parser.add_argument(
         "--skip-existing",
@@ -315,7 +478,7 @@ async def main():
     args = parser.parse_args()
     
     print("="*60)
-    print("GEUL Factorized JSON Synset 검증 및 후보 탐색")
+    print("GEUL Factorized JSON Synset 검증 및 LLM 교정")
     print("="*60)
     
     validator = SynsetValidator()

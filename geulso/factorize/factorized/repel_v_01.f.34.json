@@ -1,0 +1,65 @@
+{
+  "synset_id": "repel.v.01",
+  "definition": "cause to move back by force or influence",
+  "frame_id": 34,
+  "frame_text": "Something force_back somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'repel' describes causing a change in the physical location of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity that initiates the repelling action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity whose motion is affected by being moved."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "backward.a.01",
+      "reasoning": "The definition 'cause to move back' and the frame element 'force_back' explicitly indicate a backward direction of movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "force.n.01",
+      "reasoning": "The definition 'by force or influence' specifies the means or instrumentality of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of repelling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates that the action is not driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of repelling itself is neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'repel' implies a definite causation of movement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially sustained, event of causing movement, rather than discrete repetitions."
+    }
+  }
+}

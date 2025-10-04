@@ -1,0 +1,65 @@
+{
+  "synset_id": "overawe.v.01",
+  "definition": "subdue, restrain, or overcome by affecting with a feeling of awe; frighten (as with threats)",
+  "frame_id": 2,
+  "frame_text": "Something cow somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "agency.n.01",
+      "reasoning": "The verb describes causing a change in the patient's state from having active agency or resistance to being subdued or restrained.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or causes the subduing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose agency or resistance is overcome."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "awe.n.01",
+      "reasoning": "The definition explicitly states 'by affecting with a feeling of awe' as a primary method of subduing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "fear.n.01",
+      "reasoning": "The definition also includes 'frighten (as with threats)' as a means of subduing, implying the generation of fear."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of overawing is typically a directly observable phenomenon or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', implying a lack of conscious will or intention, even if it causes a strong effect."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition includes 'subdue, restrain, overcome, frighten', which all carry negative connotations for the patient."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional agent ('Something') performing the action, consistent with the `Modality`."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of subduing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of subduing someone."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "synset_id": "rate.v.01",
+  "definition": "assign a rank or rating to",
+  "frame_id": 2,
+  "frame_text": "Somebody order somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "classification.n.01",
+      "reasoning": "The definition 'assign a rank or rating to' describes an action that causes a change in the classification or ranking of the patient. The verb 'rate' implies moving something from an unclassified state to a classified state, or changing an existing classification.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of assigning a rank or rating, acting as the initiator of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the assigned rank or rating, undergoing the change in classification. (Interpreted 'order' in frame as placeholder for 'rates' due to `synset_id`.)"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rating is typically a direct judgment or observation made by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') performing the action implies volition and will in assigning the rating."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of assigning a rank or rating is inherently neutral. The specific rank or rating given might have a positive or negative connotation, but the verb itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody [rates] somebody' explicitly indicates a volitional agent performing the action of rating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rating implies that the agent is certain about the rank or rating they are assigning at that moment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'rate' describes a single, completed act of assigning a rank or rating to an individual patient, even if multiple patients can be rated or a patient can be re-rated at different times."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "revoke.v.02",
+  "definition": "cancel officially",
+  "frame_id": 16,
+  "frame_text": "Something revoke something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'cancel officially' indicates a transition from an active or valid status to an inactive or invalid one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that causes the change in status, typically an institution, law, or abstract condition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose status is changed (revoked)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "official.a.01",
+      "reasoning": "The adverb 'officially' in the definition specifies the formal or authoritative manner in which the cancellation occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of revoking an official status is typically a directly observable or documented event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something revoke something' implies a non-human or abstract entity as the agent, which lacks personal will or intention. Therefore, no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of revoking is semantically neutral; its positive or negative sentiment depends on the context and what is being revoked."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something revoke something' indicates a non-volitional agent (e.g., a law, a condition, or an inanimate object) performing the action, aligning with the rule for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of revoking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'revoke' describes a single, discrete act of cancellation."
+    }
+  }
+}

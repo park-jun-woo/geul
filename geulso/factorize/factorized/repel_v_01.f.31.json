@@ -1,0 +1,64 @@
+{
+  "synset_id": "repel.v.01",
+  "definition": "cause to move back by force or influence",
+  "frame_id": 31,
+  "frame_text": "Something beat_back something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes causing an entity to change its spatial position, specifically moving it away from the causal agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (subject) that exerts the force or influence, initiating the movement of another entity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (object) that is caused to change its position."
+        },
+        {
+          "semantic_role": "direction.n.01",
+          "value": "backward.r.01",
+          "reasoning": "The definition 'cause to move back' explicitly indicates the direction of displacement."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "means.n.01",
+      "value": "force_or_influence.n.01",
+      "reasoning": "The definition specifies the mechanism ('by force or influence') through which the movement is caused."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of repelling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive cause, lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of repelling is neutral; its sentiment depends on the context (e.g., repelling an attack vs. repelling a customer)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' implies that the subject ('Something') is not a volitional agent, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing movement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single event of causing something to move back, not inherently repetitive."
+    }
+  }
+}

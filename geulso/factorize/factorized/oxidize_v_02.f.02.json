@@ -1,0 +1,53 @@
+{
+  "synset_id": "oxidize.v.02",
+  "definition": "add oxygen to or combine with oxygen",
+  "frame_id": 2,
+  "frame_text": "Somebody oxidize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "chemical_composition.n.01",
+      "reasoning": "The definition 'add oxygen to or combine with oxygen' describes a chemical transformation, specifically a change in the chemical composition of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of adding oxygen, thus causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the chemical change by receiving or combining with oxygen."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chemical processes like oxidization are typically directly observable or experimentally verifiable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the agent in the frame implies an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Oxidization itself is a neutral chemical process; its positive or negative connotation depends entirely on context (e.g., rust vs. cellular respiration)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of oxidizing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome of a chemical process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of causing oxidization, even if the process itself can be continuous."
+    }
+  }
+}

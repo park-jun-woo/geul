@@ -1,0 +1,66 @@
+{
+  "synset_id": "unwrap.v.02",
+  "definition": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+  "frame_id": 40,
+  "frame_text": "Something let_on something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'let on' describes a transition where information changes from a state of being unknown or secret to being known or public.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "event.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the non-volitional entity or circumstance that causes the information to be disclosed."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The second 'something' in the frame, which is the specific information or secret that undergoes the change of state from unknown to known."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "public.n.01",
+          "reasoning": "Implied by the definition 'make known to the public', indicating the target audience for the disclosed information."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "secrecy.n.01",
+      "value_type": "prior_state.n.01",
+      "reasoning": "The definition explicitly highlights that the information 'was previously known only to a few people or that was meant to be kept a secret', indicating an inherent prior state of secrecy."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'letting on' (disclosing information) results in directly observable or experienced knowledge."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or fact."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-agentive entity, thus no will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disclosing information is neutral; its sentiment depends on the nature of the information itself."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something let_on something' clearly indicates a non-volitional subject, meaning the action is unintentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the disclosure."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a piece of information known."
+    }
+  }
+}

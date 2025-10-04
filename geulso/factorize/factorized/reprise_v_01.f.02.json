@@ -1,0 +1,61 @@
+{
+  "synset_id": "reprise.v.01",
+  "definition": "repeat an earlier theme of a composition",
+  "frame_id": 2,
+  "frame_text": "Somebody reprise something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "musical_performance.n.01",
+      "reasoning": "The definition refers to performing a 'theme of a composition', which falls under the domain of musical performance, and 'reprise' is an action verb.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the theme that is being performed, specifically a 'theme of a composition'.",
+          "value_type": "musical_theme.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "repetition.n.01",
+      "reasoning": "The core of the definition 'repeat an earlier theme' signifies that the action carries the inherent property of repetition or recurrence, distinguishing it from a novel performance.",
+      "value_type": "earlier_instance.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reprising a theme is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to reprise the theme."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reprising is neutral; the specific theme or context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of reprising."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reprising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'reprise' describes a single event of performing something again. While the content is a repetition, the act of reprising itself is a distinct, singular event."
+    }
+  }
+}

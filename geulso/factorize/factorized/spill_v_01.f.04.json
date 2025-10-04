@@ -1,0 +1,63 @@
+{
+  "synset_id": "spill.v.01",
+  "definition": "cause or allow (a liquid substance) to run or flow from a container",
+  "frame_id": 4,
+  "frame_text": "Somebody splatter something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The verb describes a change in the state of a liquid from being contained within a container to flowing or running out of it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or allows the liquid to exit the container, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (liquid substance) that undergoes the change of containment."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The implicit container from which the liquid exits, as per the definition 'from a container'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful_dispersion.n.01",
+      "reasoning": "The use of 'splatter' in the verb frame specifies a particular manner of spilling characterized by forceful, often messy, and wide dispersion of the liquid."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spilling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody splatter something' implies an agent acting with strong will and intention to cause the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spilling itself is neutral; any negative sentiment (e.g., mess, waste) is contextual."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody splatter something' explicitly indicates a volitional agent ('Somebody') performing the action, and 'splatter' implies an intentional, forceful act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of spilling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of causing a liquid to spill."
+    }
+  }
+}

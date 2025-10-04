@@ -1,0 +1,63 @@
+{
+  "synset_id": "pepper.v.02",
+  "definition": "attack and bombard with or as if with missiles",
+  "frame_id": 1,
+  "frame_text": "Somebody pepper somebody with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes an action that causes a target to undergo multiple instances of physical contact, transitioning from a state of no contact to being in contact with projectiles.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of attacking and bombarding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the impacts or physical contact."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'something' (missiles, projectiles, etc.) used by the agent to cause the physical contact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The verb 'pepper' specifically implies a large number of individual impacts or projectiles, akin to sprinkling pepper, and is reinforced by 'bombard'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of peppering or bombarding is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is carried out with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack and bombard' inherently carries a negative sentiment, as it involves hostile actions."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of attacking and bombarding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The terms 'pepper' and 'bombard' strongly imply continuous or highly repetitive impacts, not a single event, hence high iterativity."
+    }
+  }
+}

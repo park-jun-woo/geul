@@ -1,0 +1,60 @@
+{
+  "synset_id": "vomit.v.01",
+  "definition": "eject the contents of the stomach through the mouth",
+  "frame_id": 3,
+  "frame_text": "Somebody cat",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "expulsion.n.01",
+      "reasoning": "The definition 'eject the contents of the stomach' describes a physical change involving the forceful removal of internal bodily contents from an internal state to an external one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' whose body performs the action of expulsion, as specified by the verb frame.",
+          "value_type": "animate_being.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'contents of the stomach' that are being ejected, which undergo the change of location.",
+          "value_type": "stomach_contents.n.01"
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The bodily opening through which the contents are ejected, as specified in the definition 'through the mouth'.",
+          "value_type": "mouth.n.02"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is typically an involuntary bodily function, not an act driven by an agent's will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of vomiting is generally associated with illness, discomfort, or an unpleasant experience, hence negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Vomiting is predominantly an involuntary bodily reflex. Although it can be self-induced, its core meaning describes a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of ejecting stomach contents, even if it involves multiple retches within that event."
+    }
+  }
+}

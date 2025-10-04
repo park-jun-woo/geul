@@ -1,0 +1,63 @@
+{
+  "synset_id": "sculpt.v.02",
+  "definition": "shape (a material like stone or wood) by whittling away at it",
+  "frame_id": 5,
+  "frame_text": "Somebody sculpture something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The definition 'shape (a material like stone or wood)' indicates that the verb describes an alteration of the form of a material, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the shaping action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (material) that undergoes the change in shape."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The 'PP' can indicate the resulting form or object that the 'something' is shaped into."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "material_removal.n.01",
+      "reasoning": "The definition 'by whittling away at it' specifies a particular manner of shaping that involves the subtractive removal of material."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sculpting is a physical activity that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sculpting itself is neutral; the artistic value or outcome can be positive or negative, but not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sculpting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sculpting, especially 'whittling away,' involves numerous small, continuous, and repetitive actions to achieve the final shape, indicating high iterativity."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "subsidize.v.01",
+  "definition": "support through subsidies",
+  "frame_id": 3,
+  "frame_text": "Somebody subsidize something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "support.n.01",
+      "reasoning": "The verb describes the active process of providing support or assistance, as indicated by the definition 'support through subsidies' and the hypernym 'support'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of providing support."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., an industry, activity) that receives the support."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "subsidy.n.01",
+      "reasoning": "The definition specifies that the support is provided 'through subsidies', indicating the particular financial instrument or means by which the support is given. Using `means.n.01` to capture the 'through' aspect, with the specific `value_type` of a `subsidy`."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of subsidizing is a directly observable and verifiable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Subsidies are inherently positive, as they are provided to assist or benefit."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody subsidize something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of subsidizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Without additional context, the lexeme typically describes a single act of providing a subsidy or initiating a subsidization."
+    }
+  }
+}

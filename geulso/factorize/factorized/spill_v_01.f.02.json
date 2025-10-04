@@ -1,0 +1,60 @@
+{
+  "synset_id": "spill.v.01",
+  "definition": "cause or allow (a liquid substance) to run or flow from a container",
+  "frame_id": 2,
+  "frame_text": "Somebody spill something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'cause or allow (a liquid substance) to run or flow from a container' describes a change in the liquid's location, specifically its movement from being contained to flowing out.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively causes or allows the liquid to run or flow, as specified by the verb frame and definition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'something' that is the liquid substance undergoing the change in location and containment, as per the verb frame and definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "flowing.a.01",
+      "reasoning": "The definition explicitly includes 'to run or flow', which describes the characteristic manner of the liquid's movement during the event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spilling is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame causes or allows the action, implying a direct involvement of will or conscious decision (even if negligent)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spilling is inherently neutral; its positive or negative connotation depends on the context and what is spilled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody spill something' indicates that an agent performs an action that leads to the spill. The agent either intentionally causes it or volitionally allows it to happen."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of liquid leaving its container."
+    }
+  }
+}

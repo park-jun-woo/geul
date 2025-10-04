@@ -1,0 +1,53 @@
+{
+  "synset_id": "number.v.03",
+  "definition": "enumerate",
+  "frame_id": 7,
+  "frame_text": "Something number something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "identification.n.01",
+      "reasoning": "The verb 'number' means to enumerate or assign a number, which changes the state of an entity from unnumbered to numbered, thereby providing a form of identification.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of numbering or enumerating, acting as the grammatical subject. Following sample behavior where `causal_agent` is used for the subject even if non-volitional."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being numbered or enumerated; the object undergoing the change of state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of numbering is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies that the subject 'Something' acts without inherent will, often as a result of a programmed or designed process, or a natural function."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of numbering itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "As the subject is 'Something', the action is typically not performed with direct intention by the 'Something' itself, indicating non-volitionality according to the rule for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of numbering is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'number' or 'enumerate' implies applying a sequence of numbers, usually to multiple items, which is a highly repetitive or serial action."
+    }
+  }
+}

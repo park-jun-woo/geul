@@ -1,0 +1,53 @@
+{
+  "synset_id": "treat.v.03",
+  "definition": "provide treatment for",
+  "frame_id": 3,
+  "frame_text": "Somebody treat something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb describes the action of providing care or remedy to improve or manage the health or condition of something, indicating an intended change of state (from unwell to well, or maintaining a state).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of providing treatment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that receives the treatment and whose health or condition is affected."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Providing treatment is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to provide care."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of treating is neutral; while the outcome is generally positive, the action itself is descriptive."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of providing treatment is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Treatment often involves a series of continuous or repetitive actions (e.g., administering medication, performing procedures) over a period, implying high iterativity rather than a single discrete event."
+    }
+  }
+}

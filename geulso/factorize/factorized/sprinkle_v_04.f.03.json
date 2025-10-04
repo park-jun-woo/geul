@@ -1,0 +1,59 @@
+{
+  "synset_id": "sprinkle.v.04",
+  "definition": "scatter with liquid; wet lightly",
+  "frame_id": 3,
+  "frame_text": "Something besprinkle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "wetness.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of an object, specifically making it wet, as per the definition 'wet lightly'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the change in wetness."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the object that undergoes the change of state, becoming wet."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "scattered_application.n.01",
+      "reasoning": "The definition 'scatter with liquid' describes the specific manner in which the wetting occurs, involving dispersion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sprinkling is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something besprinkle something' implies a non-volitional agent (e.g., rain, a mechanism), thus no will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sprinkling is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something besprinkle something' indicates a non-volitional subject ('Something') as the causal agent, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of sprinkling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sprinkling involves the repeated application of small particles or droplets, indicating high iterativity."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "ride_off.v.01",
+  "definition": "ride away on a horse, for example",
+  "frame_id": 6,
+  "frame_text": "Something ride_away",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a change in location, which is a change of state, specifically moving away from a point.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity (e.g., rider, animal) that performs the action of moving, thus initiating its own change in location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "locomotion_by_riding_an_animal_or_vehicle",
+      "reasoning": "The verb 'ride' inherently specifies the means of locomotion as being carried upon an animal or vehicle, as per its definition 'ride away on a horse'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "away",
+      "reasoning": "The particle 'away' indicates movement departing from a previous location or point of reference."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Riding away is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action of riding off, even with a generic 'Something' as subject, implies intent and will from the performing entity (e.g., a person deciding to leave, or an animal moving of its own accord)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of riding off is neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of riding off is typically a volitional action performed by an agent (e.g., a person or an animal with agency), as implied by the verb's nature and typical subjects, even with the generic 'Something' in the frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of riding off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Riding, similar to running, involves continuous, highly repetitive motions (e.g., steps of the animal or rotations of wheels). Therefore, it has high iterativity."
+    }
+  }
+}

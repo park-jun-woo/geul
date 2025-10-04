@@ -1,0 +1,64 @@
+{
+  "synset_id": "vomit.v.01",
+  "definition": "eject the contents of the stomach through the mouth",
+  "frame_id": 20,
+  "frame_text": "Somebody vomit",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the physical expulsion of stomach contents from inside the body to outside, which is a change in their location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who is the subject of the verb, indicating the person whose body is performing the expulsion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "contents.n.01",
+          "reasoning": "The 'contents of the stomach' as specified in the definition, which are being ejected."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "stomach.n.01",
+          "reasoning": "The 'stomach' from which the contents originate, as per the definition."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "value_type": "mouth.n.01",
+          "reasoning": "The 'mouth' is the specific conduit through which the ejection occurs, as described in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is a directly observable physiological event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is typically an involuntary bodily function, indicating a lack of agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Vomiting is generally associated with illness, discomfort, and is a negative experience."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Despite 'Somebody' in the frame, the act of vomiting is almost entirely a non-volitional, involuntary physiological response."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of vomiting, when it occurs, is a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'vomit' typically refers to a single, albeit potentially multi-stage, event of expelling stomach contents, rather than an inherently continuous or highly repetitive action like 'running'."
+    }
+  }
+}

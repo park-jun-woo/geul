@@ -1,0 +1,58 @@
+{
+  "synset_id": "plug_in.v.01",
+  "definition": "plug into an outlet",
+  "frame_id": 4,
+  "frame_text": "Somebody plug_into something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb 'plug into' describes the action of establishing a connection between two entities, causing a change from a disconnected to a connected state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of plugging an item into a receptacle."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "plug.n.01",
+          "reasoning": "The 'plug' (or the device attached to it) is the implicit entity that undergoes the action of being inserted and connected."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'something' (e.g., an outlet) serves as the receptacle or endpoint where the connection is established."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of plugging something in is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of plugging in is semantically neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody plug_into something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence or instruction."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of establishing a connection."
+    }
+  }
+}

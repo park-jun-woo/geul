@@ -1,0 +1,65 @@
+{
+  "synset_id": "storm.v.05",
+  "definition": "attack by storm; attack suddenly",
+  "frame_id": 3,
+  "frame_text": "Somebody surprise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "aggression.n.01",
+      "reasoning": "The verb 'storm' signifies an act of initiating hostile action, which changes the state of the target from not-attacked to attacked.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who initiates the attack."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the entity that is subjected to the attack."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition 'attack suddenly' explicitly includes the manner of suddenness."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The phrase 'attack by storm' implies a forceful and intense manner of attack."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An act of 'storming' or attacking is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with clear will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Attacking is generally considered a negative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of attacking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of storming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'storm' refers to a singular, complete event of attack, even if it involves multiple sub-actions."
+    }
+  }
+}

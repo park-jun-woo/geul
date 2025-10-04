@@ -1,0 +1,65 @@
+{
+  "synset_id": "sprinkle.v.02",
+  "definition": "cause (a liquid) to spatter about, especially with force",
+  "frame_id": 11,
+  "frame_text": "Somebody sprinkle something with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "distribution.n.02",
+      "reasoning": "The verb describes causing a liquid to change its distribution from a concentrated state to a scattered state, fitting 'spatter about'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of sprinkling.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'with something' from the frame, which is the liquid that undergoes the change in distribution ('spatters about')."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'something' from the frame, which is the surface or object onto which the liquid is sprinkled and distributed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "force.n.01",
+      "reasoning": "The definition specifies that the liquid spatters 'especially with force', indicating a specific manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sprinkling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sprinkling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sprinkle...' explicitly includes a volitional agent, making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of sprinkling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of sprinkling involves the dispersion of multiple small particles or drops ('spatter about'), implying a high degree of repetition within the overall action."
+    }
+  }
+}

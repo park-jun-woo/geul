@@ -1,0 +1,61 @@
+{
+  "synset_id": "nuzzle.v.02",
+  "definition": "rub noses",
+  "frame_id": 3,
+  "frame_text": "Something nuzzle",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb 'nuzzle' describes a physical action involving contact between entities.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that performs the action of making contact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "nose.n.01",
+      "reasoning": "The definition 'rub noses' explicitly states that the contact is made using the nose as the instrument."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "gentle_rubbing",
+      "reasoning": "The definition 'rub noses' and the hypernym 'caress' suggest the contact is characterized by a gentle, rubbing motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of nuzzling is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame makes the agent's will ambiguous; it could be an animal (volitional) or an inanimate object (non-volitional) in extended use. Neutral reflects this ambiguity."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of nuzzling is generally neutral, though often associated with positive (affectionate) connotations, it does not carry inherent sentiment in its core definition."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something nuzzle' does not definitively indicate volition. While nuzzling often implies intentionality (e.g., by an animal), 'Something' allows for non-volitional interpretations, making it neutral as per the rule for 'Something' frames."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'rubbing' implies a continuous or repeated motion, not a single, instantaneous event. Therefore, it has high iterativity."
+    }
+  }
+}

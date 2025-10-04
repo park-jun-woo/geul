@@ -1,0 +1,60 @@
+{
+  "synset_id": "wash.v.02",
+  "definition": "cleanse (one's body) with soap and water",
+  "frame_id": 3,
+  "frame_text": "Somebody wash",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb describes an action that changes the state of 'Somebody' from unclean to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of washing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body.n.01",
+          "reasoning": "The 'body' of the 'Somebody' that is cleansed, as implied by the definition 'cleanse (one's body)' and co-referential with the causal agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value": "soap and water",
+      "reasoning": "The definition explicitly states the means used for cleansing is 'with soap and water'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Washing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of washing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody wash' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of washing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete act of cleansing one's body."
+    }
+  }
+}

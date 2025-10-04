@@ -1,0 +1,63 @@
+{
+  "synset_id": "lease.v.04",
+  "definition": "engage for service under a term of contract",
+  "frame_id": 17,
+  "frame_text": "Somebody take something from somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The verb 'lease' in this frame describes the act of the agent acquiring temporary control or the right to use an item or service.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of taking/leasing, acting as the lessee."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (item or service) that is being taken under temporary control."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the item/service is taken, representing the lessor or provider."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "contractual.a.01",
+      "reasoning": "The act of gaining control or service is explicitly defined as occurring 'under a term of contract', which is a fundamental manner characteristic of leasing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of leasing is typically a directly observed or verifiable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or transaction."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody take' implies the agent acts with clear intention and will to enter into the contract."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of leasing itself is neutral; its sentiment depends on context or outcomes."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody take...' explicitly indicates a volitional agent performing the action of engaging a lease."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The engagement for service under contract is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of engaging for service, even if the service itself is ongoing."
+    }
+  }
+}

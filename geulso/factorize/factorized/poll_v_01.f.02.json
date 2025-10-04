@@ -1,0 +1,65 @@
+{
+  "synset_id": "poll.v.01",
+  "definition": "get the opinions (of people) by asking specific questions",
+  "frame_id": 2,
+  "frame_text": "Somebody canvass somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'poll' describes the act of gaining knowledge (specifically, opinions) by an agent, which constitutes a change in the agent's state of information possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of getting opinions."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' who is the direct object of the verb and from whom the opinions are being sought."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "opinion.n.01",
+          "reasoning": "The specific type of knowledge (opinions) that is the outcome of the polling action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "inquiry.n.01",
+      "reasoning": "The definition 'by asking specific questions' describes the inherent method or manner of conducting the poll, which is a form of systematic inquiry."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Polling involves direct interaction (asking questions) to gather information, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of polling is a neutral action; its sentiment depends on context or the opinions gathered."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody canvass somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of polling, when described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'poll' refers to a single instance of conducting a poll (which itself may involve multiple questions or individuals, but is conceptually a single event of polling)."
+    }
+  }
+}

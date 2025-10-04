@@ -1,0 +1,59 @@
+{
+  "synset_id": "push.v.02",
+  "definition": "press, drive, or impel (someone) to action or completion of an action",
+  "frame_id": 6,
+  "frame_text": "Somebody push something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "action_state.n.01",
+      "reasoning": "The verb describes causing a change in the patient's state, specifically initiating or completing an action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action or causes the change in the patient's activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (which the definition clarifies is 'someone') that is pressed, driven, or impelled to action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "coercive.a.01",
+      "reasoning": "The definition uses terms like 'press, drive, or impel,' indicating a forceful or influential manner of causing the action, rather than a mere request."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pushing someone to action is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will or intention to influence another."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pushing someone to action is neutral; its sentiment depends on the specific context and the nature of the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of impelling."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event or continuous effort of causing action, typically conceived as a single instance of 'pushing' them to act."
+    }
+  }
+}

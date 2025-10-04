@@ -1,0 +1,55 @@
+{
+  "synset_id": "resume.v.01",
+  "definition": "take up or begin anew",
+  "frame_id": 4,
+  "frame_text": "Somebody restart something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb describes an agent causing an activity or process to transition from an inactive or paused state to an active, ongoing state. This explicitly means to 'take up or begin anew', implying a re-initiation after a previous interruption.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of resuming or restarting the activity.",
+          "value_type": "agent.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'something' which is an activity, process, or task that is brought back to an active state after being interrupted."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of resuming an activity is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of resuming is semantically neutral; its positive or negative connotation depends on the specific context or activity being resumed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody restart something' clearly indicates a volitional agent performing the action, implying intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or initiation of an action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'resume' describes a single event of restarting an activity, even if the activity itself is ongoing or repetitive. It is not about the internal repetition of the resumed activity, but the act of resuming itself."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "sear.v.01",
+  "definition": "make very hot and dry",
+  "frame_id": 2,
+  "frame_text": "Something scorch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "value_type": "hot.a.01",
+      "reasoning": "The verb 'sear' inherently describes an action that causes a significant increase in temperature, resulting in a hot state for the object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the temperature change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the entity that undergoes the change in temperature."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "dryness.n.01",
+      "value_type": "dry.a.01",
+      "reasoning": "The verb 'sear' also implies an action that causes the object to become dry, indicating a change in its moisture content to a low state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the change in dryness."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the entity that undergoes the change in dryness."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of searing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of searing is inherently neutral; its positive or negative sentiment depends on the context (e.g., searing food vs. searing flesh)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the subject 'Something' is inanimate or acts without volition, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'sear' describes a definite and certain occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of heating and drying a specific object, rather than a repetitive action."
+    }
+  }
+}

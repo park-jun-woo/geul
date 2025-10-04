@@ -46,6 +46,7 @@ python3 geulso/wordnet/postgres.py
 pip install -q -U google-genai
 pip install psycopg2-binary tqdm
 python3 geulso/factorize/factorize.py --skip-existing --concurrent 10
+python3 geulso/factorize/update.py
 # 워드넷 동사 의미소분해 유효한 synset id인지 확인
 python3 geulso/factorize/validate.py --skip-existing --concurrent 10
 # 워드넷 동사 의미소분해 PostgreSQL에 입력

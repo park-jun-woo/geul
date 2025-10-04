@@ -1,0 +1,62 @@
+{
+  "synset_id": "ransom.v.01",
+  "definition": "exchange or buy back for money; under threat",
+  "frame_id": 3,
+  "frame_text": "Somebody redeem something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'exchange or buy back for money' describes a transfer of ownership or control, which is a change in the state of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the exchange by providing money to secure the 'something'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred from the holder back to the causal agent or its rightful owner."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "money.n.01",
+          "reasoning": "The specific means (money) used to effect the exchange or buying back, as explicitly stated in the definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The implicit party (e.g., captor) from whom the 'something' is bought back or released, corresponding to the one who receives the money and is associated with the 'threat'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ransoming is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to pay the ransom and secure the release of 'something'."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'under threat', indicating that the circumstances necessitating the ransom are inherently negative and coercive."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of ransoming, even if the act is undertaken under duress."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of ransoming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of exchange for a specific item or person."
+    }
+  }
+}

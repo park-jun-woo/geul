@@ -1,0 +1,60 @@
+{
+  "synset_id": "italicize.v.01",
+  "definition": "print in italics",
+  "frame_id": 1,
+  "frame_text": "Somebody italicize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "visual_style.n.01",
+      "reasoning": "The verb describes an action that alters the visual presentation or style of text from a default state to a specific one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of italicizing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "text.n.01",
+          "reasoning": "The 'something' (text or content) that undergoes the change in visual style."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "visual_style.n.01",
+      "value_type": "italic.a.01",
+      "reasoning": "The specific visual style or characteristic that the patient acquires as a result of the action is italic."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of italicizing is a directly observable action, such as printing or formatting text."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of italicizing text is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of italicizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of applying an italic style to a specific 'something'."
+    }
+  }
+}

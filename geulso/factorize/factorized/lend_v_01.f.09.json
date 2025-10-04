@@ -1,0 +1,58 @@
+{
+  "synset_id": "lend.v.01",
+  "definition": "bestow a quality on",
+  "frame_id": 9,
+  "frame_text": "Somebody impart something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attribute.n.01",
+      "reasoning": "The definition 'bestow a quality on' describes a change in the attributes of an entity, brought about by the agent. The hypernym 'change.v.01' supports this.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame acts as the initiator of the action, bestowing the quality."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quality.n.01",
+          "reasoning": "The 'something' that is imparted is the quality itself, which undergoes the transfer."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' (or entity) is the recipient of the bestowed quality, indicated by the 'to somebody' phrase."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing or observing the effect of a bestowed quality is typically experienced directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame performing an action implies an agent acting with clear intention and will to bestow a quality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing a quality is neutral; the specific quality determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody impart...' explicitly indicates a volitional agent performing the action of bestowing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bestowing a quality is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of bestowing a specific quality, not a repetitive process."
+    }
+  }
+}

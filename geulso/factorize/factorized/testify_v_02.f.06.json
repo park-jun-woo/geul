@@ -1,0 +1,54 @@
+{
+  "synset_id": "testify.v.02",
+  "definition": "provide evidence for",
+  "frame_id": 6,
+  "frame_text": "Somebody prove that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "evidence.n.01",
+      "reasoning": "The verb 'prove' describes an action aimed at changing the state of belief or knowledge about a proposition by providing evidence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of providing evidence to establish the truth of a clause."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the proposition whose truth is being established or for which evidence is being provided."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'proving' or 'providing evidence' is typically a direct presentation of facts or argument."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action of establishing a fact."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will to prove something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of proving is semantically neutral; the content being proven may have positive or negative implications, but the act itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody prove...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'prove' implies a strong assertion of certainty or truth regarding the proposition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of proving a specific clause. While the process of gathering evidence might be iterative, the act of 'proving' itself for a single claim is typically seen as a singular event."
+    }
+  }
+}

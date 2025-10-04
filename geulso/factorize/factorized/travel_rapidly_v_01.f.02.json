@@ -1,0 +1,59 @@
+{
+  "synset_id": "travel_rapidly.v.01",
+  "definition": "move very fast",
+  "frame_id": 2,
+  "frame_text": "Somebody travel_rapidly PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move very fast' describes a change of location, which is a fundamental change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' that performs the action of moving, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint or direction of the rapid movement, often specified by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "A core semantic component of 'travel_rapidly' is the 'very fast' manner of movement, distinguishing it from general 'travel'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Rapid travel is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of traveling rapidly is neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rapid travel is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Traveling rapidly is a continuous action composed of many repetitive smaller movements (e.g., steps, engine cycles), indicating high iterativity."
+    }
+  }
+}

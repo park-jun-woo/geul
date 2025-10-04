@@ -1,0 +1,71 @@
+{
+  "synset_id": "iron.v.01",
+  "definition": "press and smooth with a heated iron",
+  "frame_id": 3,
+  "frame_text": "Something iron something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "smoothness.n.01",
+      "reasoning": "The verb describes the action of causing an object to transition from a wrinkled state to a smooth state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, representing the non-volitional entity or machine that performs the action of ironing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object that undergoes the change to a smooth state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "iron.n.01",
+      "reasoning": "The action is specifically performed using an 'iron' as the primary tool, as indicated in the definition 'with a heated iron'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "heat.n.01",
+      "reasoning": "The definition 'heated iron' explicitly states that heat is an essential component of the method used to achieve smoothing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "pressure.n.01",
+      "reasoning": "The verb's definition 'press and smooth' and its hypernym 'press.v.04' confirm that applying pressure is a fundamental part of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of ironing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual action, implying a declarative mood."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-human agent (e.g., a machine or tool), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ironing is neutral; its sentiment depends on context or the outcome for the object."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-volitional entity (e.g., a machine) as the subject performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite and certain action, not speculation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of ironing typically involves continuous and highly repetitive motions (pressing, gliding) to achieve the desired smoothness."
+    }
+  }
+}

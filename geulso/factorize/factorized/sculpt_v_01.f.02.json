@@ -1,0 +1,54 @@
+{
+  "synset_id": "sculpt.v.01",
+  "definition": "create by shaping stone or wood or any other hard material",
+  "frame_id": 2,
+  "frame_text": "Somebody sculpture",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The verb describes the action of creating an object by physically altering and changing the form of a raw material.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of shaping and creating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "material.n.02",
+          "reasoning": "The 'stone or wood or any other hard material' mentioned in the definition, which undergoes the change of form to become a sculpture. This patient is implied even if not explicitly stated in the given verb frame 'Somebody sculpture', as the definition strongly suggests an object of shaping."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sculpting is a physical activity that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of sculpting is a creative endeavor typically driven by an agent's strong will and artistic intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sculpting itself is neutral; the aesthetic value of the resulting sculpture may vary."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' (interpreting 'sculpture' as the verb 'sculpts') clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sculpting, when performed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of sculpting involves numerous continuous and highly repetitive actions (e.g., chiseling, carving, filing, sanding) to shape the material over time. Therefore, it exhibits high iterativity."
+    }
+  }
+}

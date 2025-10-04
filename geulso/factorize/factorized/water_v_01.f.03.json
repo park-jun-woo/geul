@@ -1,0 +1,58 @@
+{
+  "synset_id": "water.v.01",
+  "definition": "supply with water, as with channels or ditches or streams",
+  "frame_id": 3,
+  "frame_text": "Something water something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "hydration.n.01",
+      "reasoning": "The verb describes the action of supplying water, which causes a change in the hydration state (from less hydrated to more hydrated) of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' in the frame acts as the inanimate entity or means that causes the water to be supplied."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that receives the water and undergoes a change in its hydration."
+        },
+        {
+          "semantic_role": "substance.n.01",
+          "value_type": "water.n.01",
+          "reasoning": "The core substance being supplied by the action of watering, as indicated in the definition 'supply with water'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of watering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates an inanimate subject, therefore lacking personal will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of supplying water is neutral; its positive or negative impact depends on context (e.g., too much or too little water)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' describes an action performed by a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of watering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'supply with water, as with channels or ditches or streams' implies a continuous or highly repetitive process to maintain the supply over time."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "rent.v.04",
+  "definition": "hold under a lease or rental agreement; of goods and services",
+  "frame_id": 2,
+  "frame_text": "Somebody hire something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb, in the context of 'hire', describes the action of acquiring temporary possession or use of something, causing a change from a state of not having to having it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the hiring action to gain temporary use or control."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (goods or services) whose temporary possession or use is acquired."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "contract.n.02",
+      "reasoning": "This sememe specifies that the acquisition of temporary possession occurs through a formal, typically paid, contractual agreement (lease or rental), as indicated by the definition and the term 'hire'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A hiring or rental transaction is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hire something' implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hiring/renting is a neutral transaction; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hire something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hiring, when completed, is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of entering into a rental or hiring agreement."
+    }
+  }
+}

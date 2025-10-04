@@ -1,0 +1,68 @@
+{
+  "synset_id": "twitch.v.01",
+  "definition": "make an uncontrolled, short, jerky motion",
+  "frame_id": 2,
+  "frame_text": "Somebody's (body part) jerk",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the body part undergoing a change in its spatial state, moving from one position to another.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body_part.n.01",
+          "reasoning": "The '(body part)' specified in the frame is the entity that undergoes the motion, not an agent performing the action volitionally."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "control.n.01",
+      "value_type": "uncontrolled.a.01",
+      "reasoning": "The definition 'make an uncontrolled motion' and the hypernym 'move involuntarily' explicitly indicate a lack of conscious control over the motion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "jerky.a.01",
+      "reasoning": "The definition explicitly describes the motion as 'jerky', indicating a characteristic manner of movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "short.a.01",
+      "reasoning": "The definition explicitly describes the motion as 'short', indicating its brief temporal extent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A twitch is a physical event that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The action is 'uncontrolled' and 'involuntary', indicating no agent's will or intention is involved in causing it."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of twitching is neutral; its sentiment depends on context or perception."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition 'uncontrolled' and the hypernym 'move involuntarily' explicitly classify this action as non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of movement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition describes 'a short, jerky motion', implying a single instance of the movement rather than continuous repetition inherent in the verb's core meaning for this frame."
+    }
+  }
+}

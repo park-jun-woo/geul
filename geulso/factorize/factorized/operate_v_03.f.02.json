@@ -1,0 +1,68 @@
+{
+  "synset_id": "operate.v.03",
+  "definition": "handle and cause to function",
+  "frame_id": 2,
+  "frame_text": "Something control something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "functionality.n.01",
+      "reasoning": "The definition 'cause to function' directly describes a change in the state of an object from non-functional to functional, or the maintenance of its functional state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the other object to function."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose functionality is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "control.n.01",
+      "reasoning": "The definition 'handle' and the frame 'Something control something' indicate that the action involves exercising control or manipulation over the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' is the entity that exerts control."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the object being controlled or handled."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of operating/controlling something is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in this frame refers to an inanimate object or system, which does not possess will or intention in the human sense."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of operating something is semantically neutral; its positive or negative sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent 'Something' indicates an inanimate or non-agentive entity, making the action non-volitional. Even if designed with purpose, the 'Something' itself does not have volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of causing something to function."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Operating or controlling something often implies a continuous or highly repetitive process of handling to maintain functionality, suggesting high iterativity rather than a single event."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "revert.v.01",
+  "definition": "go back to a previous state",
+  "frame_id": 13,
+  "frame_text": "Something is reverting PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The definition 'go back to a previous state' explicitly describes a transition, which is a change in the state of an entity.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity undergoing the change of state."
+        },
+        {
+          "semantic_role": "final_state.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) typically indicates the previous state or condition to which the subject returns."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.02",
+      "value_type": "backwards.r.01",
+      "reasoning": "The core meaning of 'revert' implies a change in direction, specifically 'back' to a previous state, as reflected in the hypernym 'change_by_reversal'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reverting is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is reverting' indicates a non-agentive subject, so there is no implied will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reverting is inherently neutral; the desirability of the previous state determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is reverting' clearly indicates that the action happens to a non-volitional subject ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing process of change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the process of reverting might take time, the change itself (from current state to previous state) is generally considered a single, completed instance of reversal."
+    }
+  }
+}

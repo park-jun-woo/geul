@@ -1,0 +1,60 @@
+{
+  "synset_id": "sluice.v.01",
+  "definition": "pour as if from a sluice",
+  "frame_id": 3,
+  "frame_text": "Something sluice_down",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a movement of liquid, representing a change in its state of being stationary to flowing.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the motion, typically a liquid, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "direction.n.01",
+          "value": "downward.r.01",
+          "reasoning": "The particle 'down' in 'sluice_down' explicitly indicates the direction of the flow."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition 'pour as if from a sluice' and the hypernym 'pour heavily' indicate a strong, intense, or abundant manner of flow, characteristic of being forceful."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sluicing or pouring heavily is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something sluice_down' lacks an agent capable of will, as the subject 'Something' is inanimate."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sluicing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something sluice_down' describes an event happening to an inanimate, non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of sluicing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sluicing or heavy pouring is typically a continuous, sustained event rather than a single discrete action or an infinitely repeatable one. It implies high repetition of the flow for a duration, similar to 'rain heavily'."
+    }
+  }
+}

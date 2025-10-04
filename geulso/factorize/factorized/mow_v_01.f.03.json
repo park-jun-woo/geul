@@ -1,0 +1,59 @@
+{
+  "synset_id": "mow.v.01",
+  "definition": "cut with a blade or mower",
+  "frame_id": 3,
+  "frame_text": "Something mow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The definition 'cut with a blade' describes an action that alters the physical integrity or form of the patient by separating parts.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the inanimate entity (e.g., a machine like a mower) that performs the action of mowing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity (e.g., grass) whose integrity is changed by being cut."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "blade.n.01",
+      "reasoning": "The definition 'cut with a blade or mower' specifies the essential tool for the action. If the causal agent is the mower, the blade is the direct instrument of cutting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mowing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies an inanimate subject (e.g., a machine) that lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mowing itself is neutral; any positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in this frame is inanimate and therefore incapable of intentional action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Mowing typically involves continuous, highly repetitive cutting motions over an extended surface (e.g., cutting many blades of grass)."
+    }
+  }
+}

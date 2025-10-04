@@ -1,0 +1,59 @@
+{
+  "synset_id": "wag.v.01",
+  "definition": "move from side to side",
+  "frame_id": 5,
+  "frame_text": "Something waggle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'wag' describes causing a change in the physical position of an object through motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the motion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the side-to-side motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "oscillatory_motion.n.01",
+      "reasoning": "A core component of 'wag' is the specific manner of movement, which is repetitive oscillation, explicitly stated as 'move from side to side' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of wagging is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the generic 'Something' as the causal agent, there is no inherent indication of human-like will, making the modality neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wagging is neutral; its sentiment depends on context (e.g., a dog wagging its tail vs. a loose board wagging)."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something waggle something' uses a generic 'Something' as the causal agent. While an animate agent might wag volitionally, an inanimate one would not. The generic term makes volitionality neutral."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of motion."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'move from side to side' inherently implies a continuous, highly repetitive action, not a single discrete event."
+    }
+  }
+}

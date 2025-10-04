@@ -1,0 +1,59 @@
+{
+  "synset_id": "shoot.v.02",
+  "definition": "kill by firing a missile",
+  "frame_id": 1,
+  "frame_text": "Somebody shoot somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "reasoning": "The definition 'kill' explicitly indicates a change of state from alive to dead.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the death, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose life is terminated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.02",
+      "value_type": "projectile_weapon.n.01",
+      "reasoning": "The definition 'by firing a missile' specifies the instrument used for the act of killing, distinguishing 'shoot' from other forms of killing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shooting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of killing is inherently negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shoot somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of shooting and killing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of shooting leading to a kill."
+    }
+  }
+}

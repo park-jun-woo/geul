@@ -1,0 +1,65 @@
+{
+  "synset_id": "rub.v.03",
+  "definition": "scrape or rub as if to relieve itching",
+  "frame_id": 5,
+  "frame_text": "Something itch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes a continuous physical interaction involving dynamic contact and friction between two surfaces, implying a change in their relative state of contact or position. (Assuming 'itch' in the verb_frame is a typo for 'rub' based on synset_id and definition)",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates and performs the action of continuous physical contact and movement against another surface."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the rubbing contact, experiencing the physical interaction."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "alleviation.n.01",
+      "reasoning": "A defining characteristic of this specific type of rubbing, as per the definition 'as if to relieve itching', is its implied purpose: to alleviate an irritating sensation.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (from the main action) from which the alleviation of an irritating sensation (like itching) is intended to occur."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The phrase 'as if to relieve itching' implies an underlying purpose or will behind the action, suggesting strong will, even if the grammatical subject 'Something' is not explicitly human."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical act of rubbing is neutral in sentiment. Its intended outcome (relief) might be positive, but the action itself is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'as if to relieve itching' strongly indicates an intentional or purposeful act, meaning the agent acts volitionally to achieve a state of relief."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rubbing is typically a continuous action involving repeated motions, indicating a high degree of iterativity."
+    }
+  }
+}

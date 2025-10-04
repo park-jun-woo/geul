@@ -1,0 +1,63 @@
+{
+  "synset_id": "lease.v.03",
+  "definition": "grant use or occupation of under a term of contract",
+  "frame_id": 5,
+  "frame_text": "Somebody let something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "right.n.04",
+      "reasoning": "The verb 'lease' or 'let' in this context describes the act of granting the temporary right of use or occupation of an asset, which is a change in who holds that right.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who grants the use or occupation, acting as the lessor."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (asset) whose use or occupation is granted."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the use or occupation is granted, acting as the lessee, indicated by the 'to' preposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value_type": "contract.n.01",
+      "reasoning": "The definition explicitly states 'under a term of contract', indicating that the contractual nature is an essential condition or manner of this specific act of granting use."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of leasing is a direct, observable transaction or event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of leasing is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody let something to somebody' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of leasing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of granting a lease, even though the lease itself may cover a period."
+    }
+  }
+}

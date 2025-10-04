@@ -1,0 +1,58 @@
+{
+  "synset_id": "refund.v.01",
+  "definition": "pay back",
+  "frame_id": 3,
+  "frame_text": "Somebody refund somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'pay back' describes a transfer of money, which constitutes a change in financial possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of refunding; the one who pays back."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the frame who receives the money back."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' that is being paid back, which is typically money or financial value."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of refunding is a concrete, directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the subject indicates the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of refunding is generally neutral; it returns value but doesn't inherently carry positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of refunding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of refunding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of payment being returned."
+    }
+  }
+}

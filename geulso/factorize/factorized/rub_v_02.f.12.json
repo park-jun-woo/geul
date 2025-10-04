@@ -1,0 +1,65 @@
+{
+  "synset_id": "rub.v.02",
+  "definition": "cause friction",
+  "frame_id": 12,
+  "frame_text": "Something rub somebody",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "friction.n.01",
+      "reasoning": "The definition 'cause friction' explicitly indicates a causal relationship resulting in friction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that initiates or brings about the friction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that experiences or is affected by the friction."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "contact.n.02",
+      "value_type": "direct.a.01",
+      "reasoning": "Rubbing inherently involves direct physical contact between the causal agent and the patient."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "motion.n.03",
+      "value_type": "reciprocal.a.01",
+      "reasoning": "Rubbing implies motion of one surface against another, which is a form of relative or reciprocal motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame lacks the capacity for will or intention, making modality neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing itself is neutral; the context determines its sentiment (e.g., soothing vs. irritating)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something rub somebody' explicitly indicates a non-volitional agent ('Something') causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of friction being caused."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rubbing typically involves a continuous or highly repetitive action to cause friction, rather than a single discrete event."
+    }
+  }
+}

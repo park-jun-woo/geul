@@ -1,0 +1,65 @@
+{
+  "synset_id": "tear.v.03",
+  "definition": "move quickly and violently",
+  "frame_id": 6,
+  "frame_text": "Something is chargeing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move quickly and violently' describes a change in location, which is a fundamental change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the motion, as specified by the verb frame. It is the entity being moved or that moves itself."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the spatial context, such as the path, area, or general direction of the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The 'quickly' part of the definition describes the speed or manner of the motion, distinguishing it from slower movements. This is a core characteristic of 'tear.v.03'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The 'violently' part of the definition describes the intensity or forceful nature of the motion, further characterizing 'tear.v.03'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of moving quickly and violently is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is ...ing PP' with an inanimate or unspecified 'Something' implies no inherent will or intention for the action described by the subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving quickly and violently is intrinsically neutral. Its positive or negative connotation depends entirely on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame defaults to a non-volitional agent. Even if the 'Something' could be animate, the frame does not explicitly denote volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite event or ongoing process rather than a hypothetical or uncertain one."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The 'is ...ing' progressive aspect, combined with the nature of 'moving quickly and violently,' suggests a continuous action composed of many rapid, repeated, or ongoing smaller movements."
+    }
+  }
+}

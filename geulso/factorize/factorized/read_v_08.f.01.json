@@ -1,0 +1,55 @@
+{
+  "synset_id": "read.v.08",
+  "definition": "indicate a certain reading; of gauges and instruments",
+  "frame_id": 1,
+  "frame_text": "Something record something",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb describes a state where an instrument conveys or displays specific information (a reading). It's not an action causing a change in the instrument, but rather its function of outputting data.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (instrument/gauge) that performs the function of indicating or displaying the reading. Although non-volitional, it is the entity initiating the display.",
+          "value_type": "instrument.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (the reading or value) that is indicated or displayed by the instrument.",
+          "value_type": "value.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The reading indicated by an instrument is considered direct, observable data."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about an instrument's display."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "An instrument (the 'Something' in the frame) does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of indicating a reading is neutral; the value itself may have positive or negative implications depending on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with 'Something' referring to an instrument or gauge explicitly indicates a non-volitional subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "An instrument's reading is typically presented as certain and factual."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "As a description of a state or a single instance of indicating a particular reading, the concept of repetition is not inherently applicable. It's treated as a single, perhaps continuous, instance of the state."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "ladle.v.02",
+  "definition": "remove with or as if with a ladle",
+  "frame_id": 2,
+  "frame_text": "Somebody laden something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'remove' implies a change in the location of an object, moving it from one place to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of removing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of location (is removed)."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Inherent to the act of 'removing', there is an implicit source from which the 'something' is taken, even if not explicitly present in the surface verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value": "ladle.n.01",
+      "reasoning": "The definition explicitly states the action is performed 'with or as if with a ladle', specifying the instrument used for the removal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ladling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ladling is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of ladling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single event of removing with a ladle, unless context specifies repetition."
+    }
+  }
+}

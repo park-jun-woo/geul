@@ -1,0 +1,55 @@
+{
+  "synset_id": "recover.v.03",
+  "definition": "regain a former condition after a financial loss",
+  "frame_id": 4,
+  "frame_text": "Something is go_backing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "financial_condition.n.01",
+      "reasoning": "The verb describes a transition in financial status, specifically from a state of loss back to a previous, more favorable condition.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., a market, an asset) that undergoes the change in financial condition, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "former_condition.n.01",
+          "reasoning": "The verb 'regain a former condition' inherently implies a target state which is the goal of the recovery. The generic 'PP' in the frame could specify this destination more precisely.",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Financial recovery is typically inferred or observed through direct financial data and reports."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-agentive entity, so its recovery is not driven by will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Regaining a former condition after a financial loss is inherently a positive development."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is go_backing' indicates a non-volitional subject ('Something') undergoing the process of recovery, as financial entities typically do not act with intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite event or process of recovery, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While recovery can be a prolonged process, the lexeme 'regain a former condition' refers to a single, overarching event of returning to a state, not a repetition of discrete actions."
+    }
+  }
+}

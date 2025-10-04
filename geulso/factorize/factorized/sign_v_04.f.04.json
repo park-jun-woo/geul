@@ -1,0 +1,60 @@
+{
+  "synset_id": "sign.v.04",
+  "definition": "engage by written agreement",
+  "frame_id": 4,
+  "frame_text": "Somebody sign_up somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'sign up somebody' describes causing a person to change their status from unengaged to engaged or enrolled, as per the definition 'engage by written agreement' and hypernym 'hire'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the action of signing someone up."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame whose status is changed by being engaged or enrolled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "agreement.n.01",
+      "reasoning": "The definition 'engage by written agreement' indicates that a written agreement is the instrument by which the engagement occurs. 'Agreement.n.01' is the conceptual type of this instrument.",
+      "value": "written"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of signing someone up is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of signing someone up is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of signing up is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of engaging someone via an agreement."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "trace.v.02",
+  "definition": "make a mark or lines on a surface",
+  "frame_id": 4,
+  "frame_text": "Somebody draw something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb describes the action of causing marks or lines to come into existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of making marks or lines, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "mark.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the mark or lines that are created. 'Mark' is a general term encompassing 'line'."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "surface.n.01",
+          "reasoning": "The definition explicitly states that the action occurs 'on a surface', indicating the location of the newly created mark."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "following_an_outline.n.01",
+      "reasoning": "The verb 'trace' inherently implies making marks by following an existing outline, pattern, or path, distinguishing it from general 'making a mark' or 'drawing'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tracing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tracing is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody draw something' (interpreted as 'Somebody traces something') explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of tracing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Tracing typically involves a series of continuous, repetitive strokes to form the desired marks or lines over a period, implying high iterativity."
+    }
+  }
+}

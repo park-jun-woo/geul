@@ -1,0 +1,58 @@
+{
+  "synset_id": "refund.v.01",
+  "definition": "pay back",
+  "frame_id": 10,
+  "frame_text": "Somebody return something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'pay back' describes a transfer of money, which is a change in its possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the payment back, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' that is paid back, which by the definition of 'refund' is inherently money."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "Implied by the verb 'refund' and its definition 'pay back'; the entity to whom the money is returned."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of refunding is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to pay back."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of refunding is neutral; its sentiment depends on context for both parties involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' (implicitly 'refunds') explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of refunding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed instance of paying back money for a specific transaction."
+    }
+  }
+}

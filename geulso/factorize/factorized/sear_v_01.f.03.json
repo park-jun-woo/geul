@@ -1,0 +1,66 @@
+{
+  "synset_id": "sear.v.01",
+  "definition": "make very hot and dry",
+  "frame_id": 3,
+  "frame_text": "Something sear something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'sear' describes an action that causes a significant change in the physical condition (temperature and moisture) of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of searing, causing the change in the patient.",
+          "value_type": "inanimate.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in physical condition (becomes hot and dry)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temperature.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "A core semantic outcome of 'sear' is the attainment of a high temperature for the patient, as indicated by 'very hot' in the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "moisture.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "A core semantic outcome of 'sear' is the reduction of moisture (drying) for the patient, as indicated by 'dry' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of searing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional causer, lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of searing itself is neutral; its positive or negative connotation depends on the context and desired outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' explicitly describes an inanimate or non-agentive subject ('Something') as the causer, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of searing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Searing is typically a continuous process involving the sustained application of heat to achieve the desired hot and dry state, similar to actions composed of repetitive sub-events."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "lam_into.v.01",
+  "definition": "hit violently, as in an attack",
+  "frame_id": 4,
+  "frame_text": "Somebody lay_into somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_impact.n.01",
+      "reasoning": "The definition 'hit violently' describes an action that causes a physical impact or change in the state of the patient due to force.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of hitting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the hitting or attack."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The adverb 'violently' is explicitly stated in the definition and is a core semantic component describing the manner of hitting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hitting is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The phrase 'hit violently, as in an attack' indicates a strongly negative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "'Lay into' implies a sustained or repeated act of hitting, suggesting high repetition rather than a single discrete event."
+    }
+  }
+}

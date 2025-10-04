@@ -1,0 +1,59 @@
+{
+  "synset_id": "pursue.v.02",
+  "definition": "follow in or as if in pursuit",
+  "frame_id": 5,
+  "frame_text": "Something follow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'follow' in the definition, and its hypernym 'travel', denote a change in location or relative position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity initiating or performing the motion of following."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that is being followed, whose relative position is affected by the pursuit."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "pursuit.n.01",
+      "reasoning": "The definition 'in or as if in pursuit' specifies the goal-oriented nature of the following action, making 'pursuit' a core semantic property related to purpose."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of following or pursuing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something follow something' indicates non-agentive subjects, implying an absence of will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pursuing can be neutral; its sentiment depends on context (e.g., pursuing a dream vs. a predator pursuing prey)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something follow something' explicitly features non-volitional subjects, making the action non-intentional. The 'as if in pursuit' nuance reinforces that it only appears volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of following/pursuit."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Following/pursuit is typically a continuous action composed of sustained, repetitive movements rather than a single discrete event."
+    }
+  }
+}

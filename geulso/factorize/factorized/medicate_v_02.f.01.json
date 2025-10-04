@@ -1,0 +1,59 @@
+{
+  "synset_id": "medicate.v.02",
+  "definition": "treat medicinally, treat with medicine",
+  "frame_id": 1,
+  "frame_text": "Somebody medicine somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb describes an action that aims to alter the health or medical condition of an individual, implying a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of administering treatment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose health is affected by the treatment, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "medicine.n.01",
+      "reasoning": "The definition 'treat medicinally, treat with medicine' inherently specifies that the action is performed using medicine, which is captured as the means of the change in health."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of medicating is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of medicating is generally intended to be positive, but the verb itself is neutral; negative connotations arise from context (e.g., forced medication, side effects)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of medicating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of administering medicine, although it can be repeated, the verb itself does not imply inherent repetition."
+    }
+  }
+}

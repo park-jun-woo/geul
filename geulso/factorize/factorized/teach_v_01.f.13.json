@@ -1,0 +1,58 @@
+{
+  "synset_id": "teach.v.01",
+  "definition": "impart skills or knowledge to",
+  "frame_id": 13,
+  "frame_text": "Something learn somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'impart skills or knowledge to' describes a transition from not possessing knowledge to possessing it, which is a change of state in the recipient. The verb 'teach' causes this change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame functions as the entity that initiates or causes the impartation of knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "knowledge.n.01",
+          "reasoning": "Derived from the definition 'impart skills or knowledge', this represents the specific content (knowledge or skills) that is transferred."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the verb frame who receives the imparted skills or knowledge."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of teaching is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The core meaning of the verb 'teach' in this frame describes a declarative statement of an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', implying it does not possess intrinsic will or intention in the human sense, even if it causes an effect."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of teaching itself is neutral; the sentiment depends on the specific context or the content being taught."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "As the subject of the action is 'Something' rather than 'Somebody', the action is inherently non-volitional according to the specified rules."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of imparting knowledge or skills."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single event of imparting a specific set of skills or knowledge without indicating repetition."
+    }
+  }
+}

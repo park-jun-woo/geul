@@ -1,0 +1,65 @@
+{
+  "synset_id": "stock.v.01",
+  "definition": "have on hand",
+  "frame_id": 2,
+  "frame_text": "Somebody stockpile something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'stockpile' describes the action of acquiring and storing items, leading to a state where the agent possesses them or has them on hand, thus representing a change in possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the accumulation of items."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being accumulated and brought into possession by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "large.a.01",
+      "reasoning": "A core semantic component of 'stockpile' is the implied accumulation of a significant, often large, amount of the item, distinguishing it from merely having a single item."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "future_use.n.01",
+      "reasoning": "The action of stockpiling is inherently performed with the explicit purpose of holding items for later, potential, or emergency use, rather than for immediate consumption."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of stockpiling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to accumulate items."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stockpiling is neutral; its sentiment depends on the context and the items being stockpiled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody stockpile something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of stockpiling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Stockpiling is typically a process that involves continuous and repeated actions of acquiring and adding items to a reserve over time, implying high repetition."
+    }
+  }
+}

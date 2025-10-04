@@ -1,0 +1,58 @@
+{
+  "synset_id": "serve.v.05",
+  "definition": "help to some food; help with food or drink",
+  "frame_id": 1,
+  "frame_text": "Somebody serve somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "provision.n.02",
+      "reasoning": "The definition 'help to some food; help with food or drink' describes an action that results in a change in the recipient's state of having sustenance (provision).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who performs the action of providing the food or drink."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the beneficiary who receives the food or drink."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "sustenance.n.01",
+          "reasoning": "The object of the serving action is implicitly 'food or drink' as per the definition, which can be generalized as sustenance."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of serving food or drink is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject implies intentionality and will in performing the action of serving."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of serving food or drink is generally neutral; its positive or negative connotation depends on the specific context or items served."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody serve somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of serving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This frame typically describes a single instance of serving a person. While a server might serve many people, this particular frame implies one complete action of serving one 'somebody'."
+    }
+  }
+}

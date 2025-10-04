@@ -1,0 +1,59 @@
+{
+  "synset_id": "whack.v.01",
+  "definition": "hit hard",
+  "frame_id": 10,
+  "frame_text": "Something wham somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb describes an action involving forceful physical contact that results in a change to the physical state or position of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that delivers the blow, acting as the non-volitional source of the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the forceful impact and undergoes a change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "hard.a.01",
+      "reasoning": "The definition 'hit hard' explicitly includes 'hard' as an intrinsic manner of the action 'whack'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of whacking is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something wham somebody' lacks an agent capable of will, as 'Something' is the subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of whacking is neutral; its sentiment depends on context and outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something wham somebody' features a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of whacking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of forceful hitting."
+    }
+  }
+}
