@@ -1,62 +1,44 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import time
-import os
 import json
+import os
+import re
 import argparse
-import psycopg2
-import psycopg2.extras
+import asyncio
+from pathlib import Path
 from tqdm import tqdm
-from typing import Dict, Set
-
-# NLTK 라이브러리 import
+from typing import List, Dict, Optional
 import nltk
 from nltk.corpus import wordnet as wn
 
-# PostgreSQL 연결 설정
-DB_CONFIG = {
-    'host': 'localhost',
-    'database': 'geuldev',
-    'user': 'postgres',
-    'password': 'test1224!'
-}
+FACTORIZED_DIR = 'geulso/factorize/factorized/'
+INVALID_DIR = 'geulso/factorize/invalid/'
 
-class FactorizedDataValidator:
-    """
-    DB에 저장된 Factorized WordNet 데이터의 참조 무결성을 NLTK 실시간 조회를 통해 검사하고,
-    오류를 종류별 파일에 기록하는 클래스.
-    """
-    def __init__(self, db_config: Dict[str, str], sememes_output: str, participants_output: str):
-        self.conn = psycopg2.connect(**db_config)
-        self.sememes_output_file = sememes_output
-        self.participants_output_file = participants_output
-        self.error_count = 0
-
-        # [개선] Synset 유효성 검사 결과를 저장할 캐시(cache) 초기화
-        self.validation_cache = {}
-
-        # NLTK 데이터 다운로드 (필요시)
+class SynsetValidator:
+    """JSON 파일의 synset 참조를 검증하고 후보를 찾는 클래스"""
+    
+    def __init__(self):
+        """NLTK WordNet 초기화 및 캐시 준비"""
         try:
             nltk.data.find('corpora/wordnet.zip')
         except nltk.downloader.DownloadError:
             print("WordNet 데이터 다운로드 중...")
             nltk.download('wordnet')
-
-        for filepath in [self.sememes_output_file, self.participants_output_file]:
-            output_dir = os.path.dirname(filepath)
-            if output_dir:
-                os.makedirs(output_dir, exist_ok=True)
-            if os.path.exists(filepath):
-                os.remove(filepath)
-
-    # [개선] NLTK 실시간 조회 및 캐싱을 사용한 유효성 검사 메서드
-    def _is_valid_synset(self, synset_id: str) -> bool:
-        """
-        주어진 synset_id가 NLTK에서 유효한지 (리다이렉트 포함) 확인합니다.
-        성능 향상을 위해 결과를 캐싱합니다.
-        """
-        if not synset_id:  # None 또는 빈 문자열은 유효한 것으로 간주
+        
+        self.validation_cache = {}
+        self.stats = {
+            'total_files': 0,
+            'skipped_files': 0,
+            'processed_files': 0,
+            'invalid_files': 0,
+            'sememe_errors': 0,
+            'participant_errors': 0
+        }
+    
+    def is_valid_synset(self, synset_id: str) -> bool:
+        """synset_id가 NLTK에서 유효한지 확인 (캐싱)"""
+        if not synset_id or synset_id.strip() == "":
             return True
         
         if synset_id in self.validation_cache:
@@ -69,101 +51,288 @@ class FactorizedDataValidator:
         except (nltk.corpus.reader.wordnet.WordNetError, ValueError, KeyError):
             self.validation_cache[synset_id] = False
             return False
-
-    def _log_error(self, output_file: str, error_entry: Dict):
-        with open(output_file, 'a', encoding='utf-8') as f:
-            f.write(json.dumps(error_entry, ensure_ascii=False) + '\n')
-        self.error_count += 1
-
-    def validate_sememes(self):
-        print("\n'wordnet_factorized_sememes' 테이블 검사 중...")
-        query = "SELECT sememe_id, synset_id, frame_id, verb_property FROM wordnet_factorized_sememes"
+    
+    def find_candidates(self, invalid_synset_id: str, max_candidates: int = 5) -> List[Dict[str, str]]:
+        """find.py의 3단계 로직을 사용해 후보 synset 찾기"""
+        candidates = []
         
-        with self.conn.cursor() as cur:
-            cur.execute("SELECT COUNT(*) FROM wordnet_factorized_sememes")
-            total_rows = cur.fetchone()[0]
-            if total_rows == 0:
-                print("-> 검사할 데이터가 없습니다.")
-                return
-            
-            cur.execute(query)
-            for sememe_id, synset_id, frame_id, verb_property in tqdm(cur, total=total_rows, desc="Sememes 검사"):
-                # [개선] _is_valid_synset 메서드로 유효성 확인
-                if not self._is_valid_synset(verb_property):
-                    reason = f"verb_property '{verb_property}' is not a valid synset in NLTK."
-                    error_data = { "sememe_id": sememe_id, "synset_id": synset_id, "frame_id": frame_id, "key": "verb_property", "value": verb_property, "reasoning": reason }
-                    self._log_error(self.sememes_output_file, error_data)
-
-    def validate_participants(self):
-        print("\n'wordnet_factorized_participants' 테이블 검사 중...")
-        query = """
-            SELECT p.sememe_id, s.synset_id, s.frame_id, p.semantic_role, p.value_type
-            FROM wordnet_factorized_participants p
-            JOIN wordnet_factorized_sememes s ON p.sememe_id = s.sememe_id
-        """
-        with self.conn.cursor() as cur:
-            cur.execute("SELECT COUNT(*) FROM wordnet_factorized_participants")
-            total_rows = cur.fetchone()[0]
-            if total_rows == 0:
-                print("-> 검사할 데이터가 없습니다.")
-                return
-
-            cur.execute(query)
-            for sememe_id, synset_id, frame_id, semantic_role, value_type in tqdm(cur, total=total_rows, desc="Participants 검사"):
-                # [개선] _is_valid_synset 메서드로 유효성 확인
-                if not self._is_valid_synset(semantic_role):
-                    reason = f"semantic_role '{semantic_role}' is not a valid synset in NLTK."
-                    error_data = { "sememe_id": sememe_id, "synset_id": synset_id, "frame_id": frame_id, "key": "semantic_role", "value": semantic_role, "reasoning": reason }
-                    self._log_error(self.participants_output_file, error_data)
+        # 2단계: 동의어(Lemma) 검색
+        candidates.extend(self._find_by_lemma(invalid_synset_id, max_candidates))
+        if len(candidates) >= max_candidates:
+            return candidates[:max_candidates]
+        
+        # 3단계: 키워드(Gloss) 검색
+        remaining = max_candidates - len(candidates)
+        candidates.extend(self._find_by_gloss(invalid_synset_id, remaining))
+        
+        return candidates[:max_candidates]
+    
+    def _find_by_lemma(self, synset_id: str, max_results: int) -> List[Dict[str, str]]:
+        """2단계: 동의어 검색"""
+        keyword = synset_id.split('.')[0].replace('_', ' ')
+        pos_match = re.search(r'\.([nvasr])\.', synset_id)
+        pos = pos_match.group(1) if pos_match else None
+        if pos == 's':
+            pos = 'a'
+        
+        candidates = []
+        seen = set()
+        
+        try:
+            for synset in wn.all_synsets(pos=pos if pos else None):
+                if len(candidates) >= max_results:
+                    break
+                for lemma in synset.lemmas():
+                    if keyword.lower() == lemma.name().lower().replace('_', ' '):
+                        if synset.name() not in seen:
+                            candidates.append({
+                                "synset_id": synset.name(),
+                                "description": f"{synset.definition()} (lemma match)"
+                            })
+                            seen.add(synset.name())
+                        break
+        except Exception:
+            pass
+        
+        return candidates
+    
+    def _find_by_gloss(self, synset_id: str, max_results: int) -> List[Dict[str, str]]:
+        """3단계: 정의(Gloss) 검색"""
+        keywords_str = synset_id.split('.')[0]
+        keywords = keywords_str.replace('-', ' ').split('_')
+        pos_match = re.search(r'\.([nvasr])\.', synset_id)
+        pos = pos_match.group(1) if pos_match else None
+        if pos == 's':
+            pos = 'a'
+        
+        candidates = []
+        seen = set()
+        
+        try:
+            for synset in wn.all_synsets(pos=pos if pos else None):
+                if len(candidates) >= max_results:
+                    break
                 
-                if not self._is_valid_synset(value_type):
-                    reason = f"value_type '{value_type}' is not a valid synset in NLTK."
-                    error_data = { "sememe_id": sememe_id, "synset_id": synset_id, "frame_id": frame_id, "key": "value_type", "value": value_type, "reasoning": reason }
-                    self._log_error(self.participants_output_file, error_data)
-
-    def print_summary(self):
-        print("\n========== 유효성 검사 완료 ==========")
-        if self.error_count == 0:
-            print("  - ✅ 모든 참조가 유효합니다.")
+                gloss = synset.definition()
+                for example in synset.examples():
+                    gloss += " " + example
+                
+                if any(keyword.lower() in gloss.lower() for keyword in keywords):
+                    if synset.name() not in seen:
+                        candidates.append({
+                            "synset_id": synset.name(),
+                            "description": f"{synset.definition()} (gloss match)"
+                        })
+                        seen.add(synset.name())
+        except Exception:
+            pass
+        
+        return candidates
+    
+    async def validate_json_file(self, filepath: Path, output_path: Path) -> bool:
+        """JSON 파일을 검증하고 오류가 있으면 저장 (비동기)"""
+        try:
+            # 비동기 파일 읽기를 위해 동기 함수를 thread에서 실행
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            synset_id = data.get('synset_id')
+            frame_id = data.get('frame_id')
+            
+            if not synset_id or frame_id is None:
+                return False
+            
+            errors = {
+                'sememes': [],
+                'participants': []
+            }
+            
+            # Sememes 검증
+            sememes = data.get('sememes', [])
+            if isinstance(sememes, list):
+                for sememe in sememes:
+                    verb_property = sememe.get('verb_property')
+                    if verb_property and not self.is_valid_synset(verb_property):
+                        candidates = self.find_candidates(verb_property)
+                        errors['sememes'].append({
+                            "synset_id": synset_id,
+                            "frame_id": frame_id,
+                            "key": "verb_property",
+                            "value": verb_property,
+                            "reasoning": f"verb_property '{verb_property}' is not a valid synset in NLTK.",
+                            "candidates": candidates if candidates else [{"synset_id": "", "description": ""}]
+                        })
+                        self.stats['sememe_errors'] += 1
+                    
+                    # Participants 검증
+                    participants = sememe.get('participants', [])
+                    for participant in participants:
+                        # semantic_role 검증
+                        semantic_role = participant.get('semantic_role')
+                        if semantic_role and not self.is_valid_synset(semantic_role):
+                            candidates = self.find_candidates(semantic_role)
+                            errors['participants'].append({
+                                "synset_id": synset_id,
+                                "frame_id": frame_id,
+                                "key": "semantic_role",
+                                "value": semantic_role,
+                                "reasoning": f"semantic_role '{semantic_role}' is not a valid synset in NLTK.",
+                                "candidates": candidates if candidates else [{"synset_id": "", "description": ""}]
+                            })
+                            self.stats['participant_errors'] += 1
+                        
+                        # value_type 검증
+                        value_type = participant.get('value_type')
+                        if value_type and not self.is_valid_synset(value_type):
+                            candidates = self.find_candidates(value_type)
+                            errors['participants'].append({
+                                "synset_id": synset_id,
+                                "frame_id": frame_id,
+                                "key": "value_type",
+                                "value": value_type,
+                                "reasoning": f"value_type '{value_type}' is not a valid synset in NLTK.",
+                                "candidates": candidates if candidates else [{"synset_id": "", "description": ""}]
+                            })
+                            self.stats['participant_errors'] += 1
+            
+            # 오류가 있으면 저장
+            if errors['sememes'] or errors['participants']:
+                output_file = output_path / filepath.name
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(errors, f, indent=2, ensure_ascii=False)
+                self.stats['invalid_files'] += 1
+                return True
+            
+            return False
+            
+        except json.JSONDecodeError:
+            return False
+        except Exception as e:
+            return False
+    
+    async def process_directory(self, input_dir: str, output_dir: str, 
+                               concurrent: int, skip_existing: bool):
+        """디렉토리의 모든 JSON 파일 처리 (비동기 병렬)"""
+        input_path = Path(input_dir)
+        output_path = Path(output_dir)
+        
+        if not input_path.exists():
+            print(f"✗ 입력 디렉토리를 찾을 수 없습니다: {input_dir}")
+            return
+        
+        # 출력 디렉토리 생성
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        # JSON 파일 목록
+        json_files = list(input_path.glob('*.json'))
+        
+        # skip_existing 옵션 처리
+        if skip_existing:
+            filtered_files = []
+            for filepath in json_files:
+                output_file = output_path / filepath.name
+                if not output_file.exists():
+                    filtered_files.append(filepath)
+                else:
+                    self.stats['skipped_files'] += 1
+            json_files = filtered_files
+        
+        self.stats['total_files'] = len(json_files)
+        
+        if skip_existing and self.stats['skipped_files'] > 0:
+            print(f"이미 처리된 파일 {self.stats['skipped_files']:,}개 건너뛰기")
+        
+        print(f"\n총 {len(json_files):,}개의 JSON 파일 검증 중 (동시 처리: {concurrent}개)...")
+        print("="*60)
+        
+        # 세마포어로 동시 처리 수 제어
+        semaphore = asyncio.Semaphore(concurrent)
+        
+        async def process_with_semaphore(filepath):
+            async with semaphore:
+                return await self.validate_json_file(filepath, output_path)
+        
+        # 프로그레스 바와 함께 비동기 처리
+        tasks = []
+        with tqdm(total=len(json_files), desc="JSON 파일 검증") as pbar:
+            for filepath in json_files:
+                task = asyncio.create_task(process_with_semaphore(filepath))
+                tasks.append(task)
+            
+            # 태스크가 완료될 때마다 프로그레스 바 업데이트
+            for coro in asyncio.as_completed(tasks):
+                await coro
+                self.stats['processed_files'] += 1
+                pbar.update(1)
+        
+        print("="*60)
+        print("검증 완료!")
+    
+    def print_stats(self):
+        """최종 통계 출력"""
+        print("\n========== 검증 결과 ==========")
+        print(f"전체 파일: {self.stats['total_files']:,}개")
+        if self.stats['skipped_files'] > 0:
+            print(f"건너뛴 파일: {self.stats['skipped_files']:,}개")
+        print(f"처리한 파일: {self.stats['processed_files']:,}개")
+        print(f"오류가 있는 파일: {self.stats['invalid_files']:,}개")
+        print(f"Sememe 오류: {self.stats['sememe_errors']:,}개")
+        print(f"Participant 오류: {self.stats['participant_errors']:,}개")
+        
+        if self.stats['invalid_files'] > 0:
+            print(f"\n✗ 오류 파일 저장 위치: {INVALID_DIR}")
         else:
-            print(f"  - ❌ 총 {self.error_count:,}개의 잘못된 참조를 발견했습니다.")
-            print(f"  - Sememe 오류 로그: '{self.sememes_output_file}'")
-            print(f"  - Participant 오류 로그: '{self.participants_output_file}'")
-        print("======================================")
+            print("\n✓ 모든 파일이 유효합니다!")
+        print("==============================")
 
-    def close(self):
-        self.conn.close()
 
-def main():
-    parser = argparse.ArgumentParser(description="DB에 저장된 Factorized WordNet 데이터의 참조 무결성을 NLTK 기준으로 검사합니다.")
-    parser.add_argument(
-        "--sememes-output", 
-        default="geulso/factorize/invalid.sememes.json", 
-        help="잘못된 Sememe 참조 로그를 저장할 JSON 파일 경로"
+async def main():
+    parser = argparse.ArgumentParser(
+        description="Factorized JSON 파일의 synset 참조를 검증하고 후보를 찾습니다."
     )
     parser.add_argument(
-        "--participants-output", 
-        default="geulso/factorize/invalid.participants.json", 
-        help="잘못된 Participant 참조 로그를 저장할 JSON 파일 경로"
+        "--input-dir", 
+        type=str, 
+        default=FACTORIZED_DIR,
+        help="입력 JSON 파일 디렉토리"
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default=INVALID_DIR,
+        help="오류 파일 출력 디렉토리"
+    )
+    parser.add_argument(
+        "--concurrent",
+        type=int,
+        default=10,
+        help="동시 처리할 파일 수 (기본값: 10)"
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action='store_true',
+        help="이미 처리된 파일 건너뛰기"
     )
     args = parser.parse_args()
-
-    validator = FactorizedDataValidator(DB_CONFIG, args.sememes_output, args.participants_output)
+    
+    print("="*60)
+    print("GEUL Factorized JSON Synset 검증 및 후보 탐색")
+    print("="*60)
+    
+    validator = SynsetValidator()
     
     try:
-        start_time = time.time()
+        await validator.process_directory(
+            args.input_dir, 
+            args.output_dir,
+            args.concurrent,
+            args.skip_existing
+        )
+        validator.print_stats()
         
-        validator.validate_sememes()
-        validator.validate_participants()
-        validator.print_summary()
-
-        elapsed = time.time() - start_time
-        print(f"\n전체 소요 시간: {elapsed:.2f}초")
-
     except Exception as e:
-        print(f"치명적 에러 발생: {e}")
-    finally:
-        validator.close()
+        print(f"\n✗ 치명적 오류 발생: {e}")
+
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

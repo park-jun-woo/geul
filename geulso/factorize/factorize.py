@@ -293,6 +293,15 @@ async def process_verb_frame(client, prompt_template: Dict, synset_id: str,
             
             raw_response_text = response.text
             parsed_json = extract_json_from_response(raw_response_text)
+
+            from collections import OrderedDict
+            ordered_json = OrderedDict()
+            for key, value in parsed_json.items():
+                ordered_json[key] = value
+                if key == 'frame_id':
+                    ordered_json['frame_text'] = frame_text
+            parsed_json = ordered_json
+
             inference_time = time.time() - start_time
             
             result_data = {
