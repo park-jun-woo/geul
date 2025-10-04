@@ -10,16 +10,8 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 import argparse
 import re
-import logging
 from google import genai
 import copy # deepcopy를 위해 추가
-
-# 로깅 설정
-logging.basicConfig(
-    filename='geulso/factorize/factorize_error.log',
-    level=logging.ERROR,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
 
 # 기본 설정값
 DB_CONFIG = {
@@ -32,7 +24,6 @@ DB_CONFIG = {
 PROMPT_TEMPLATE_PATH = 'geulso/factorize/factorize_prompt.json'
 SAMPLES_DIR = 'geulso/factorize/samples/'
 RESULTS_DIR = 'geulso/factorize/factorized/'
-ERRORS_DIR = 'geulso/factorize/errors/'
 API_KEY_PATH = 'geulso/.key'
 
 def load_api_key(path: str) -> str:
@@ -215,8 +206,7 @@ def extract_json_from_response(response_text: str) -> Dict[str, Any]:
     
     raise ValueError("유효한 JSON 객체를 찾을 수 없습니다.")
 
-def save_result_immediately(result: Dict[str, Any], synset_id: str, frame_id: int, 
-                           output_dir: Path, error_dir: Path) -> bool:
+def save_result_immediately(result: Dict[str, Any], synset_id: str, frame_id: int, output_dir: Path) -> bool:
     """결과를 즉시 파일로 저장합니다."""
     safe_synset = synset_id.replace('.', '_')
     filename = f"{safe_synset}.f.{frame_id:02d}"
@@ -230,29 +220,12 @@ def save_result_immediately(result: Dict[str, Any], synset_id: str, frame_id: in
             return True
         except Exception as e:
             print(f"  ✗ 파일 저장 실패 {filename}: {e}")
-            logging.error(f"파일 저장 실패 ({filename}): {e}")
             return False
-    else:
-        error_dir.mkdir(parents=True, exist_ok=True)
-        error_path = error_dir / f"{filename}.error.json"
-        try:
-            with open(error_path, 'w', encoding='utf-8') as f:
-                json.dump({
-                    "synset_id": synset_id,
-                    "frame_id": frame_id,
-                    "error": result.get("error", "Unknown"),
-                    "raw_response": result.get("raw_response", "")[:2000],
-                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-                }, f, indent=2, ensure_ascii=False)
-        except Exception as e:
-            print(f"  ✗ 에러 저장 실패 {filename}: {e}")
-            logging.error(f"에러 저장 실패 ({filename}): {e}")
-        return False
+    return False
 
 async def process_verb_frame(client, prompt_template: Dict, synset_id: str, 
                             frame_id: int, frame_text: str, conn,
-                            output_dir: Path, error_dir: Path, 
-                            retry_count: int = 3) -> Dict[str, Any]:
+                            output_dir: Path, retry_count: int = 3) -> Dict[str, Any]:
     """단일 verb frame을 처리하고 즉시 저장합니다."""
     
     start_time = time.time()
@@ -313,8 +286,7 @@ async def process_verb_frame(client, prompt_template: Dict, synset_id: str,
                 "token_count": token_count
             }
             
-            saved = save_result_immediately(result_data, synset_id, frame_id, 
-                                          output_dir, error_dir)
+            saved = save_result_immediately(result_data, synset_id, frame_id, output_dir)
             result_data["saved"] = saved
             return result_data
 
@@ -333,8 +305,7 @@ async def process_verb_frame(client, prompt_template: Dict, synset_id: str,
                 "inference_time": inference_time,
                 "token_count": token_count
             }
-            save_result_immediately(result_data, synset_id, frame_id, 
-                                  output_dir, error_dir)
+            save_result_immediately(result_data, synset_id, frame_id, output_dir)
             return result_data
             
         except Exception as e:
@@ -352,8 +323,7 @@ async def process_verb_frame(client, prompt_template: Dict, synset_id: str,
                 "inference_time": inference_time,
                 "token_count": token_count
             }
-            save_result_immediately(result_data, synset_id, frame_id, 
-                                  output_dir, error_dir)
+            save_result_immediately(result_data, synset_id, frame_id, output_dir)
             return result_data
 
 async def test_gemini_connection(client) -> bool:
@@ -450,7 +420,6 @@ async def main():
     print("-"*60)
     
     start_time = time.time()
-    error_dir = Path(ERRORS_DIR)
     semaphore = asyncio.Semaphore(args.concurrent)
     
     success_count = 0
@@ -465,7 +434,7 @@ async def main():
         async with semaphore:
             result = await process_verb_frame(
                 client, prompt_template, synset_id, frame_id, frame_text,
-                conn, output_dir, error_dir
+                conn, output_dir
             )
             
             progress += 1
@@ -512,7 +481,6 @@ async def main():
     print("-"*60)
     print(f"✓ 결과 파일: {output_dir}")
     if fail_count > 0:
-        print(f"✗ 에러 파일: {error_dir}")
         print(f"✗ 에러 로그: geulso/wordnet/error.log")
     
     conn.close()
