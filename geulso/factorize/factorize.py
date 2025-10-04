@@ -480,8 +480,6 @@ async def main():
     print(f"평균 토큰 수: {total_tokens/max(1, len(all_frames)):.0f}개/frame")
     print("-"*60)
     print(f"✓ 결과 파일: {output_dir}")
-    if fail_count > 0:
-        print(f"✗ 에러 로그: geulso/wordnet/error.log")
     
     conn.close()
 

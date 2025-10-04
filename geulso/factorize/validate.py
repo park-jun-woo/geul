@@ -8,7 +8,7 @@ import argparse
 import asyncio
 from pathlib import Path
 from tqdm import tqdm
-from typing import List, Dict, Optional
+from typing import List, Dict
 import nltk
 from nltk.corpus import wordnet as wn
 
@@ -132,7 +132,6 @@ class SynsetValidator:
     async def validate_json_file(self, filepath: Path, output_path: Path) -> bool:
         """JSON 파일을 검증하고 오류가 있으면 저장 (비동기)"""
         try:
-            # 비동기 파일 읽기를 위해 동기 함수를 thread에서 실행
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
@@ -210,14 +209,13 @@ class SynsetValidator:
         except Exception as e:
             return False
     
-    async def process_directory(self, input_dir: str, output_dir: str, 
-                               concurrent: int, skip_existing: bool):
+    async def process_directory(self, concurrent: int, skip_existing: bool, limit: int):
         """디렉토리의 모든 JSON 파일 처리 (비동기 병렬)"""
-        input_path = Path(input_dir)
-        output_path = Path(output_dir)
+        input_path = Path(FACTORIZED_DIR)
+        output_path = Path(INVALID_DIR)
         
         if not input_path.exists():
-            print(f"✗ 입력 디렉토리를 찾을 수 없습니다: {input_dir}")
+            print(f"✗ 입력 디렉토리를 찾을 수 없습니다: {FACTORIZED_DIR}")
             return
         
         # 출력 디렉토리 생성
@@ -225,6 +223,10 @@ class SynsetValidator:
         
         # JSON 파일 목록
         json_files = list(input_path.glob('*.json'))
+        
+        # limit 옵션 적용
+        if limit > 0:
+            json_files = json_files[:limit]
         
         # skip_existing 옵션 처리
         if skip_existing:
@@ -241,6 +243,9 @@ class SynsetValidator:
         
         if skip_existing and self.stats['skipped_files'] > 0:
             print(f"이미 처리된 파일 {self.stats['skipped_files']:,}개 건너뛰기")
+        
+        if limit > 0:
+            print(f"처리 대상: {len(json_files):,}개로 제한")
         
         print(f"\n총 {len(json_files):,}개의 JSON 파일 검증 중 (동시 처리: {concurrent}개)...")
         print("="*60)
@@ -291,18 +296,6 @@ async def main():
         description="Factorized JSON 파일의 synset 참조를 검증하고 후보를 찾습니다."
     )
     parser.add_argument(
-        "--input-dir", 
-        type=str, 
-        default=FACTORIZED_DIR,
-        help="입력 JSON 파일 디렉토리"
-    )
-    parser.add_argument(
-        "--output-dir",
-        type=str,
-        default=INVALID_DIR,
-        help="오류 파일 출력 디렉토리"
-    )
-    parser.add_argument(
         "--concurrent",
         type=int,
         default=10,
@@ -312,6 +305,12 @@ async def main():
         "--skip-existing",
         action='store_true',
         help="이미 처리된 파일 건너뛰기"
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="처리할 최대 파일 수 (0=전체)"
     )
     args = parser.parse_args()
     
@@ -323,10 +322,9 @@ async def main():
     
     try:
         await validator.process_directory(
-            args.input_dir, 
-            args.output_dir,
             args.concurrent,
-            args.skip_existing
+            args.skip_existing,
+            args.limit
         )
         validator.print_stats()
         

@@ -6,10 +6,14 @@ sudo apt install python3-pip python3.12-venv -y
 curl -fsSL https://ollama.com/install.sh | sh
 
 # 3. 파이썬 가상환경 설정
-mkdir ~/ollama-project
-cd ~/ollama-project
+mkdir ~/geul-project
+cd ~/geul-project
 python3 -m venv geul
 source geul/bin/activate
+echo 'source ~/geul-project/geul/bin/activate' >> ~/.bashrc
+ln -s {geul-gitrepo-path} ~/geul
+echo 'cd ~/geul' >> ~/.bashrc
+source ~/.bashrc
 
 # 4. Ollama 파이썬 라이브러리 설치
 pip install ollama
