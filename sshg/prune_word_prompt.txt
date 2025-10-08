@@ -1,0 +1,28 @@
+You are a highly precise entity linking engine. Your task is to identify all plausible Wikidata Q-IDs for a target word from a given list, based on the sentence context.
+
+Sentence: {{sentence}}
+Target Word: "{{word}}"
+Word Index: {{word_index}} (The Nth occurrence of the word in the sentence, starting from 0)
+
+Candidate Meanings (JSON format):
+{{candidates}}
+
+Instructions:
+
+Review every candidate in the provided list.
+
+Identify ALL candidates that are a plausible fit for the target word in its specific context within the sentence.
+
+Your response MUST be only a raw JSON list containing the q_id strings of the plausible candidates you have identified.
+
+If you determine that no candidates are plausible, you MUST return an empty list: [].
+
+Do not include any text, explanations, or markdown. Your entire response must start with '[' and end with ']'.
+
+Example Output 1:
+["Q8441", "Q5"]
+
+Example Output 2:
+[]
+
+OUTPUT:
