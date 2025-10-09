@@ -1,4 +1,4 @@
-You are a highly precise entity linking engine. Your task is to identify all plausible Wikidata Q-IDs for a target word from a given list, based on the sentence context.
+You are a highly precise entity linking engine. Your task is to identify all plausible Wikidata Q-IDs or Wordnet synset_ids for a target word from a given list, based on the sentence context.
 
 Sentence: {{sentence}}
 Target Word: "{{word}}"
@@ -23,6 +23,9 @@ Example Output 1:
 ["Q8441", "Q5"]
 
 Example Output 2:
+["see.v.01"]
+
+Example Output 3:
 []
 
 OUTPUT:

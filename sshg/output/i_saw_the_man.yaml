@@ -1,15 +1,16 @@
 metadata:
-  timestamp: '2025-10-03T14:21:53.612289'
+  timestamp: '2025-10-09T15:58:22.523928'
   sentence: I saw the man with the telescope.
   parser: ACE + ERG
   knowledge_bases:
   - Wikidata (nouns only)
   - WordNet
-  num_parses: 5
+  pruning: LLM-based (ollama gpt-oss:20b)
+  num_parses: 3
   num_noun_nodes: 2
-  num_verb_nodes: 2
-  note: 'Pruned: Wikidata for nouns, empty descriptions removed, verb synsets filtered
-    by frame compatibility, examples/lemmas removed, simplemrs removed'
+  num_verb_nodes: 1
+  note: 'Pruned: Wikidata for nouns, empty descriptions removed, LLM-based candidate
+    pruning, examples/lemmas removed, simplemrs removed'
 parses:
 - parse_id: 0
   mrs:
@@ -198,128 +199,6 @@ parses:
       hi: h18
       lo: h20
     icons: []
-- parse_id: 3
-  mrs:
-    top: h0
-    index: e2
-    rels:
-    - predicate: pron
-      label: h4
-      args:
-        ARG0: x3
-    - predicate: pronoun_q
-      label: h5
-      args:
-        ARG0: x3
-        RSTR: h6
-        BODY: h7
-    - predicate: _saw_v_1
-      label: h1
-      args:
-        ARG0: e2
-        ARG1: x3
-        ARG2: x8
-    - predicate: _the_q
-      label: h9
-      args:
-        ARG0: x8
-        RSTR: h10
-        BODY: h11
-    - predicate: _man_n_1
-      label: h12
-      args:
-        ARG0: x8
-    - predicate: _with_p
-      label: h1
-      args:
-        ARG0: e13
-        ARG1: e2
-        ARG2: x14
-    - predicate: _the_q
-      label: h15
-      args:
-        ARG0: x14
-        RSTR: h16
-        BODY: h17
-    - predicate: _telescope_n_1
-      label: h18
-      args:
-        ARG0: x14
-    hcons:
-    - relation: qeq
-      hi: h0
-      lo: h1
-    - relation: qeq
-      hi: h6
-      lo: h4
-    - relation: qeq
-      hi: h10
-      lo: h12
-    - relation: qeq
-      hi: h16
-      lo: h18
-    icons: []
-- parse_id: 4
-  mrs:
-    top: h0
-    index: e2
-    rels:
-    - predicate: pron
-      label: h4
-      args:
-        ARG0: x3
-    - predicate: pronoun_q
-      label: h5
-      args:
-        ARG0: x3
-        RSTR: h6
-        BODY: h7
-    - predicate: _saw_v_1
-      label: h1
-      args:
-        ARG0: e2
-        ARG1: x3
-        ARG2: x8
-    - predicate: _the_q
-      label: h9
-      args:
-        ARG0: x8
-        RSTR: h10
-        BODY: h11
-    - predicate: _man_n_1
-      label: h12
-      args:
-        ARG0: x8
-    - predicate: _with_p
-      label: h12
-      args:
-        ARG0: e13
-        ARG1: x8
-        ARG2: x14
-    - predicate: _the_q
-      label: h15
-      args:
-        ARG0: x14
-        RSTR: h16
-        BODY: h17
-    - predicate: _telescope_n_1
-      label: h18
-      args:
-        ARG0: x14
-    hcons:
-    - relation: qeq
-      hi: h0
-      lo: h1
-    - relation: qeq
-      hi: h6
-      lo: h4
-    - relation: qeq
-      hi: h10
-      lo: h12
-    - relation: qeq
-      hi: h16
-      lo: h18
-    icons: []
 nodes:
   nouns:
   - lemma: man
@@ -330,76 +209,24 @@ nodes:
       predicate: _man_n_1
     - parse_id: 2
       predicate: _man_n_1
-    - parse_id: 3
-      predicate: _man_n_1
-    - parse_id: 4
-      predicate: _man_n_1
     wikidata:
-    - qid: Q11230993
-      label: Man
-      description: 1996 studio album by Kan
+    - qid: Q18352004
+      label: man
+      description: English word
       source: label
-    - qid: Q16278811
-      label: Man
-      description: 'name: given name and surname'
+    - qid: Q8441
+      label: man
+      description: male adult human
       source: label
-    - qid: Q1758439
-      label: Man
-      description: Welsh rock band
-      source: label
-    - qid: Q42529595
-      label: Man
-      description: character from 2008 film 'Minutemen'
-      source: label
-    - qid: Q49172664
-      label: MAN
-      description: painting by Bruce Conner
-      source: label
-    - qid: Q55003374
-      label: Man
-      description: operatic character in the opera Moses und Aron
-      source: label
-    - qid: Q58969523
-      label: Man
-      description: scientific article published in Nature
-      source: label
-    - qid: Q64569549
-      label: Man
-      description: theatrical character in the play "The Rose Tattoo"
-      source: label
-    - qid: Q65925500
-      label: Man
-      description: family name (漫)
-      source: label
-    - qid: Q79991480
-      label: Man
-      description: print by Elizabeth Catlett (American, 1915-2012) (2005.35)
-      source: label
+    - qid: Q15978631
+      label: Homo sapiens
+      description: species of mammal
+      source: alias
     wordnet:
     - synset: man.n.01
       definition: an adult person who is male (as opposed to a woman)
-    - synset: serviceman.n.01
-      definition: someone who serves in the armed forces; a member of a military force
     - synset: man.n.03
       definition: the generic use of the word to refer to any human being
-    - synset: homo.n.02
-      definition: any living or extinct member of the family Hominidae characterized
-        by superior intelligence, articulate speech, and erect carriage
-    - synset: man.n.05
-      definition: a male subordinate
-    - synset: man.n.06
-      definition: an adult male person who has a manly character (virile and courageous
-        competent)
-    - synset: valet.n.01
-      definition: a manservant who acts as a personal attendant to his employer
-    - synset: man.n.08
-      definition: a male person who plays a significant role (husband or lover or
-        boyfriend) in the life of a particular woman
-    - synset: man.n.10
-      definition: game equipment consisting of an object used in playing certain board
-        games
-    - synset: world.n.08
-      definition: all of the living human inhabitants of the earth
   - lemma: telescope
     sources:
     - parse_id: 0
@@ -408,50 +235,10 @@ nodes:
       predicate: _telescope_n_1
     - parse_id: 2
       predicate: _telescope_n_1
-    - parse_id: 3
-      predicate: _telescope_n_1
-    - parse_id: 4
-      predicate: _telescope_n_1
     wikidata:
-    - qid: Q105352364
-      label: Telescope
-      description: 2020 single by Man with a Mission
-      source: label
-    - qid: Q122140141
-      label: Telescope
-      description: song
-      source: label
-    - qid: Q122140143
-      label: Telescope
-      description: 2013 music track by Cage the Elephant
-      source: label
-    - qid: Q122558120
-      label: Telescope
-      description: hamlet in Potter County, Pennsylvania, United States
-      source: label
-    - qid: Q131118135
-      label: Telescope
-      description: scientific article published on 17 October 2016
-      source: label
-    - qid: Q29710645
+    - qid: Q4213
       label: telescope
-      description: genetic element in the species Drosophila melanogaster
-      source: label
-    - qid: Q60920972
-      label: Telescope
-      description: woodblock print by Katsushika Hokusai
-      source: label
-    - qid: Q7696798
-      label: Telescope
-      description: TV series
-      source: label
-    - qid: Q7696799
-      label: Telescope
-      description: album by Circle
-      source: label
-    - qid: Q97988102
-      label: Telescope
-      description: Ship built in Aberdeen in 1826
+      description: instrument that aids in the observation of remote objects
       source: label
     wordnet:
     - synset: telescope.n.01
@@ -468,57 +255,3 @@ nodes:
     wordnet:
     - synset: see.v.01
       definition: perceive by sight or have the power to perceive by sight
-    - synset: understand.v.02
-      definition: perceive (an idea or situation) mentally
-    - synset: witness.v.02
-      definition: perceive or be contemporaneous with
-    - synset: visualize.v.01
-      definition: imagine; conceive of; see in one's mind
-    - synset: see.v.05
-      definition: deem to be
-    - synset: learn.v.02
-      definition: get to know or become aware of, usually accidentally
-    - synset: watch.v.03
-      definition: see or watch
-    - synset: meet.v.01
-      definition: come together
-    - synset: determine.v.08
-      definition: find out, learn, or determine with certainty, usually by making
-        an inquiry or other effort
-    - synset: see.v.11
-      definition: go to see for professional or business reasons
-    - synset: see.v.12
-      definition: go to see for a social visit
-    - synset: visit.v.01
-      definition: go to see a place, as for entertainment
-    - synset: attend.v.02
-      definition: take charge of or deal with
-    - synset: see.v.15
-      definition: receive as a specified guest
-    - synset: go_steady.v.01
-      definition: date regularly; have a steady relationship with
-    - synset: see.v.17
-      definition: see and understand, have a good eye
-    - synset: see.v.18
-      definition: deliberate or decide
-    - synset: see.v.19
-      definition: observe as if with an eye
-    - synset: examine.v.02
-      definition: observe, check out, and look over carefully or inspect
-    - synset: experience.v.01
-      definition: go or live through
-    - synset: see.v.22
-      definition: accompany or escort
-    - synset: see.v.23
-      definition: match or meet
-    - synset: interpret.v.01
-      definition: make sense of; assign a meaning to
-  - lemma: saw
-    sources:
-    - parse_id: 3
-      predicate: _saw_v_1
-    - parse_id: 4
-      predicate: _saw_v_1
-    wordnet:
-    - synset: saw.v.01
-      definition: cut with a saw

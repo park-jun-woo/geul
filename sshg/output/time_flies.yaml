@@ -1,0 +1,392 @@
+metadata:
+  timestamp: '2025-10-09T16:01:46.268790'
+  sentence: Time flies like an arrow.
+  parser: ACE + ERG
+  knowledge_bases:
+  - Wikidata (nouns only)
+  - WordNet
+  pruning: LLM-based (ollama gpt-oss:20b)
+  num_parses: 6
+  num_noun_nodes: 2
+  num_verb_nodes: 1
+  note: 'Pruned: Wikidata for nouns, empty descriptions removed, LLM-based candidate
+    pruning, examples/lemmas removed, simplemrs removed'
+parses:
+- parse_id: 0
+  mrs:
+    top: h0
+    index: e2
+    rels:
+    - predicate: udef_q
+      label: h4
+      args:
+        ARG0: x3
+        RSTR: h5
+        BODY: h6
+    - predicate: _time_n_of
+      label: h7
+      args:
+        ARG0: x3
+    - predicate: _fly_v_1
+      label: h1
+      args:
+        ARG0: e2
+        ARG1: x3
+    - predicate: _like_p
+      label: h1
+      args:
+        ARG0: e8
+        ARG1: e2
+        ARG2: x9
+    - predicate: _a_q
+      label: h10
+      args:
+        ARG0: x9
+        RSTR: h11
+        BODY: h12
+    - predicate: _arrow_n_1
+      label: h13
+      args:
+        ARG0: x9
+    hcons:
+    - relation: qeq
+      hi: h0
+      lo: h1
+    - relation: qeq
+      hi: h5
+      lo: h7
+    - relation: qeq
+      hi: h11
+      lo: h13
+    icons: []
+- parse_id: 1
+  mrs:
+    top: h0
+    index: e2
+    rels:
+    - predicate: proper_q
+      label: h4
+      args:
+        ARG0: x3
+        RSTR: h5
+        BODY: h6
+    - predicate: named
+      label: h7
+      args:
+        CARG: Time
+        ARG0: x3
+    - predicate: _fly_v_1
+      label: h1
+      args:
+        ARG0: e2
+        ARG1: x3
+    - predicate: _like_p
+      label: h1
+      args:
+        ARG0: e9
+        ARG1: e2
+        ARG2: x10
+    - predicate: _a_q
+      label: h11
+      args:
+        ARG0: x10
+        RSTR: h12
+        BODY: h13
+    - predicate: _arrow_n_1
+      label: h14
+      args:
+        ARG0: x10
+    hcons:
+    - relation: qeq
+      hi: h0
+      lo: h1
+    - relation: qeq
+      hi: h5
+      lo: h7
+    - relation: qeq
+      hi: h12
+      lo: h14
+    icons: []
+- parse_id: 2
+  mrs:
+    top: h0
+    index: e2
+    rels:
+    - predicate: proper_q
+      label: h4
+      args:
+        ARG0: x3
+        RSTR: h5
+        BODY: h6
+    - predicate: named
+      label: h7
+      args:
+        CARG: Time
+        ARG0: x3
+    - predicate: _fly_v_to
+      label: h1
+      args:
+        ARG0: e2
+        ARG1: x3
+        ARG2: x9
+    - predicate: _a_q
+      label: h10
+      args:
+        ARG0: x9
+        RSTR: h11
+        BODY: h12
+    - predicate: _arrow_n_1
+      label: h13
+      args:
+        ARG0: x9
+    hcons:
+    - relation: qeq
+      hi: h0
+      lo: h1
+    - relation: qeq
+      hi: h5
+      lo: h7
+    - relation: qeq
+      hi: h11
+      lo: h13
+    icons: []
+- parse_id: 3
+  mrs:
+    top: h0
+    index: e2
+    rels:
+    - predicate: udef_q
+      label: h4
+      args:
+        ARG0: x3
+        RSTR: h5
+        BODY: h6
+    - predicate: _time_n_of
+      label: h7
+      args:
+        ARG0: x3
+    - predicate: _fly_v_to
+      label: h1
+      args:
+        ARG0: e2
+        ARG1: x3
+        ARG2: x8
+    - predicate: _a_q
+      label: h9
+      args:
+        ARG0: x8
+        RSTR: h10
+        BODY: h11
+    - predicate: _arrow_n_1
+      label: h12
+      args:
+        ARG0: x8
+    hcons:
+    - relation: qeq
+      hi: h0
+      lo: h1
+    - relation: qeq
+      hi: h5
+      lo: h7
+    - relation: qeq
+      hi: h10
+      lo: h12
+    icons: []
+- parse_id: 4
+  mrs:
+    top: h0
+    index: e2
+    rels:
+    - predicate: udef_q
+      label: h4
+      args:
+        ARG0: x3
+        RSTR: h5
+        BODY: h6
+    - predicate: _time_n_of
+      label: h7
+      args:
+        ARG0: x3
+    - predicate: _fly_v_1
+      label: h1
+      args:
+        ARG0: e2
+        ARG1: x3
+    - predicate: mod
+      label: h1
+      args:
+        ARG0: e8
+        ARG1: e2
+        ARG2: x9
+    - predicate: _a_q
+      label: h10
+      args:
+        ARG0: x9
+        RSTR: h11
+        BODY: h12
+    - predicate: _arrow_n_1
+      label: h13
+      args:
+        ARG0: x9
+    hcons:
+    - relation: qeq
+      hi: h0
+      lo: h1
+    - relation: qeq
+      hi: h5
+      lo: h7
+    - relation: qeq
+      hi: h11
+      lo: h13
+    icons: []
+- parse_id: 5
+  mrs:
+    top: h0
+    index: e2
+    rels:
+    - predicate: proper_q
+      label: h4
+      args:
+        ARG0: x3
+        RSTR: h5
+        BODY: h6
+    - predicate: named
+      label: h7
+      args:
+        CARG: Time
+        ARG0: x3
+    - predicate: _fly_v_1
+      label: h1
+      args:
+        ARG0: e2
+        ARG1: x3
+    - predicate: mod
+      label: h1
+      args:
+        ARG0: e9
+        ARG1: e2
+        ARG2: x10
+    - predicate: _a_q
+      label: h11
+      args:
+        ARG0: x10
+        RSTR: h12
+        BODY: h13
+    - predicate: _arrow_n_1
+      label: h14
+      args:
+        ARG0: x10
+    hcons:
+    - relation: qeq
+      hi: h0
+      lo: h1
+    - relation: qeq
+      hi: h5
+      lo: h7
+    - relation: qeq
+      hi: h12
+      lo: h14
+    icons: []
+nodes:
+  nouns:
+  - lemma: time
+    sources:
+    - parse_id: 0
+      predicate: _time_n_of
+    - parse_id: 3
+      predicate: _time_n_of
+    - parse_id: 4
+      predicate: _time_n_of
+    wikidata:
+    - qid: Q12322185
+      label: time
+      description: designation of a point in time
+      source: label
+    - qid: Q2199864
+      label: duration
+      description: physical quantity for describing the temporal distance between
+        events
+      source: alias
+    wordnet: []
+  - lemma: arrow
+    sources:
+    - parse_id: 0
+      predicate: _arrow_n_1
+    - parse_id: 1
+      predicate: _arrow_n_1
+    - parse_id: 2
+      predicate: _arrow_n_1
+    - parse_id: 3
+      predicate: _arrow_n_1
+    - parse_id: 4
+      predicate: _arrow_n_1
+    - parse_id: 5
+      predicate: _arrow_n_1
+    wikidata:
+    - qid: Q116432245
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 19.3.201)
+      source: label
+    - qid: Q116432403
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 27.3.17)
+      source: label
+    - qid: Q116432405
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 27.3.20)
+      source: label
+    - qid: Q116432406
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 27.3.27)
+      source: label
+    - qid: Q116432408
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 27.3.29)
+      source: label
+    - qid: Q116432409
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 27.3.25)
+      source: label
+    - qid: Q116432410
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 27.3.31)
+      source: label
+    - qid: Q116434593
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 19.3.202)
+      source: label
+    - qid: Q116434599
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 19.3.203)
+      source: label
+    - qid: Q116434605
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 19.3.204)
+      source: label
+    - qid: Q116434612
+      label: Arrow
+      description: arrow at the Metropolitan Museum of Art (MET, 19.3.205)
+      source: label
+    - qid: Q45922
+      label: arrow
+      description: shafted projectile that is shot with a bow
+      source: label
+    wordnet: []
+  verbs:
+  - lemma: fly
+    sources:
+    - parse_id: 0
+      predicate: _fly_v_1
+    - parse_id: 1
+      predicate: _fly_v_1
+    - parse_id: 2
+      predicate: _fly_v_to
+    - parse_id: 3
+      predicate: _fly_v_to
+    - parse_id: 4
+      predicate: _fly_v_1
+    - parse_id: 5
+      predicate: _fly_v_1
+    wordnet:
+    - synset: fly.v.02
+      definition: move quickly or suddenly

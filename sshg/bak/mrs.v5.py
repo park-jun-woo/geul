@@ -610,71 +610,6 @@ def save_all_mrs_to_yaml(mrs_list: list, noun_nodes: list, verb_nodes: list,
     print(f"Total noun nodes saved: {len(noun_nodes)}")
     print(f"Total verb nodes saved: {len(verb_nodes)}")
 
-def filter_parses_by_empty_nodes(mrs_list: list, noun_nodes: list, verb_nodes: list) -> tuple:
-    """
-    Filter out parses that use nodes with no knowledge links
-    Args:
-        mrs_list: List of MRS objects
-        noun_nodes: List of noun node dicts
-        verb_nodes: List of verb node dicts
-    Returns:
-        (filtered_mrs_list, filtered_parse_ids, removed_parse_ids)
-    """
-    print("\n=== Filtering parses with unlinked nodes ===")
-    
-    # Collect parse_ids from nodes with empty knowledge links
-    parse_ids_to_remove = set()
-    
-    # Check noun nodes
-    for node in noun_nodes:
-        wordnet = node.get('wordnet', [])
-        wikidata = node.get('wikidata', [])
-        
-        # If both are empty, this node has no knowledge links
-        if not wordnet and not wikidata:
-            lemma = node['lemma']
-            sources = node.get('sources', [])
-            affected_parse_ids = [s['parse_id'] for s in sources]
-            
-            print(f"  Node '{lemma}' has no knowledge links")
-            print(f"    Affected parse_ids: {affected_parse_ids}")
-            
-            parse_ids_to_remove.update(affected_parse_ids)
-    
-    # Check verb nodes
-    for node in verb_nodes:
-        wordnet = node.get('wordnet', [])
-        wikidata = node.get('wikidata', [])  # Verbs usually don't have wikidata
-        
-        # For verbs, only check wordnet (since wikidata is expected to be empty)
-        if not wordnet:
-            lemma = node['lemma']
-            sources = node.get('sources', [])
-            affected_parse_ids = [s['parse_id'] for s in sources]
-            
-            print(f"  Node '{lemma}' (verb) has no knowledge links")
-            print(f"    Affected parse_ids: {affected_parse_ids}")
-            
-            parse_ids_to_remove.update(affected_parse_ids)
-    
-    if not parse_ids_to_remove:
-        print("  No parses to remove (all nodes have knowledge links)")
-        return mrs_list, list(range(len(mrs_list))), []
-    
-    # Filter mrs_list and create mapping
-    filtered_mrs_list = []
-    filtered_parse_ids = []
-    removed_parse_ids = sorted(parse_ids_to_remove)
-    
-    for i, mrs_obj in enumerate(mrs_list):
-        if i not in parse_ids_to_remove:
-            filtered_mrs_list.append(mrs_obj)
-            filtered_parse_ids.append(i)
-    
-    print(f"\n  Removed parse_ids: {removed_parse_ids}")
-    print(f"  Remaining parses: {len(filtered_mrs_list)}/{len(mrs_list)}")
-    
-    return filtered_mrs_list, filtered_parse_ids, removed_parse_ids
 
 def main():
     main_start_time = time.perf_counter()
@@ -783,54 +718,6 @@ def main():
         
         linking_end_time = time.perf_counter()
         linking_duration = linking_end_time - linking_start_time
-        
-        # 후처리, Q-id나 synset_id이 하나도 남아있지 않은 node가 있을 경우 해당 parse_id를 pruning
-        filtering_start_time = time.perf_counter()
-        
-        # Filter parses based on empty nodes
-        filtered_mrs_list, kept_parse_ids, removed_parse_ids = filter_parses_by_empty_nodes(
-            mrs_list, noun_nodes, verb_nodes
-        )
-        
-        # Update mrs_list to filtered version
-        mrs_list = filtered_mrs_list
-        
-        # Update node sources to reflect new parse_ids
-        # Create mapping from old parse_id to new parse_id
-        old_to_new = {old_id: new_id for new_id, old_id in enumerate(kept_parse_ids)}
-        
-        # Update noun nodes
-        for node in noun_nodes:
-            updated_sources = []
-            for source in node['sources']:
-                old_parse_id = source['parse_id']
-                if old_parse_id in old_to_new:
-                    updated_sources.append({
-                        'parse_id': old_to_new[old_parse_id],
-                        'predicate': source['predicate']
-                    })
-            node['sources'] = updated_sources
-        
-        # Update verb nodes
-        for node in verb_nodes:
-            updated_sources = []
-            for source in node['sources']:
-                old_parse_id = source['parse_id']
-                if old_parse_id in old_to_new:
-                    updated_sources.append({
-                        'parse_id': old_to_new[old_parse_id],
-                        'predicate': source['predicate']
-                    })
-            node['sources'] = updated_sources
-        
-        # Remove nodes that no longer appear in any parse
-        noun_nodes = [node for node in noun_nodes if node['sources']]
-        verb_nodes = [node for node in verb_nodes if node['sources']]
-        
-        filtering_end_time = time.perf_counter()
-        filtering_duration = filtering_end_time - filtering_start_time
-        
-        print(f"\n  Parse filtering took: {filtering_duration:.4f} seconds")
         
         # Save to YAML
         save_start_time = time.perf_counter()
