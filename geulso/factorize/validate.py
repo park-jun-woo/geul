@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from google import genai
 import json
 import os
 import re
@@ -16,10 +17,8 @@ from nltk.corpus import wordnet as wn
 FACTORIZED_DIR = 'geulso/factorize/factorized/'
 INVALID_DIR = 'geulso/factorize/invalid/'
 PROMPT_TEMPLATE_PATH = 'geulso/factorize/validate_prompt.txt'
-
-# Ollama 설정
-OLLAMA_API_URL = 'http://localhost:11434/api/generate'
-OLLAMA_MODEL = 'gpt-oss:20b'
+API_KEY_PATH = 'geulso/.key'
+GEMINI_MODEL = 'gemini-2.5-flash'
 
 class SynsetValidator:
     """JSON 파일의 synset 참조를 검증하고 LLM으로 교정하는 클래스"""
@@ -31,6 +30,10 @@ class SynsetValidator:
         except nltk.downloader.DownloadError:
             print("WordNet 데이터 다운로드 중...")
             nltk.download('wordnet')
+        
+        # Gemini 클라이언트 초기화 추가
+        api_key = self.load_api_key(API_KEY_PATH)
+        self.client = genai.Client(api_key=api_key)
         
         self.validation_cache = {}
         self.prompt_template = self.load_prompt_template()
@@ -58,7 +61,19 @@ class SynsetValidator:
         except Exception as e:
             print(f"✗ 프롬프트 템플릿 로드 실패: {e}")
             return ""
-    
+        
+    def load_api_key(self, path: str) -> str:
+        """API 키를 파일에서 로드합니다."""
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                return f.read().strip()
+        except FileNotFoundError:
+            print(f"✗ API 키 파일을 찾을 수 없습니다: {path}")
+            raise
+        except Exception as e:
+            print(f"✗ API 키 로드 실패: {e}")
+            raise
+
     def is_valid_synset(self, synset_id: str) -> bool:
         """synset_id가 NLTK에서 유효한지 확인 (캐싱)"""
         if not synset_id or synset_id.strip() == "":
@@ -154,8 +169,8 @@ class SynsetValidator:
         
         return candidates
     
-    async def call_ollama_llm(self, errors_data: Dict) -> Optional[Dict]:
-        """Ollama LLM을 호출하여 교정 결과를 받아옴"""
+    async def call_gemini_llm(self, errors_data: Dict) -> Optional[Dict]:
+        """Gemini LLM을 호출하여 교정 결과를 받아옴"""
         if not self.prompt_template:
             return None
         
@@ -164,35 +179,26 @@ class SynsetValidator:
         prompt = self.prompt_template.replace('{{input}}', input_json)
         
         try:
-            async with httpx.AsyncClient(timeout=120.0) as client:
-                response = await client.post(
-                    OLLAMA_API_URL,
-                    json={
-                        "model": OLLAMA_MODEL,
-                        "prompt": prompt,
-                        "stream": False,
-                        "options": {
-                            "temperature": 0.2,
-                            "top_p": 0.9
-                        }
-                    }
-                )
+            response = await asyncio.to_thread(
+                self.client.models.generate_content,
+                model=GEMINI_MODEL,
+                contents=prompt
+            )
+            
+            if response and response.text:
+                response_text = response.text
                 
-                if response.status_code == 200:
-                    result = response.json()
-                    response_text = result.get('response', '')
-                    
-                    # JSON 추출 및 파싱
-                    corrected = self.extract_json_from_response(response_text)
-                    if corrected:
-                        self.stats['llm_success'] += 1
-                        return corrected
-                    else:
-                        self.stats['llm_failed'] += 1
-                        return None
+                # JSON 추출 및 파싱
+                corrected = self.extract_json_from_response(response_text)
+                if corrected:
+                    self.stats['llm_success'] += 1
+                    return corrected
                 else:
                     self.stats['llm_failed'] += 1
                     return None
+            else:
+                self.stats['llm_failed'] += 1
+                return None
                     
         except Exception as e:
             self.stats['llm_failed'] += 1
@@ -319,7 +325,7 @@ class SynsetValidator:
             # 오류가 있으면 LLM 호출 후 저장
             if errors['sememes'] or errors['participants']:
                 # LLM으로 교정 요청
-                corrections = await self.call_ollama_llm(errors)
+                corrections = await self.call_gemini_llm(errors)
 
                 # LLM 교정 결과 검증
                 validated_corrections = {

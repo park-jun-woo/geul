@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "abet.v.01",
+    "definition": "assist or encourage, usually in some wrongdoing",
+    "frame_id": 0,
+    "frame_text": "Somebody abet somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "assistance.n.01",
+        "reasoning": "The verb's core meaning is to provide assistance or encouragement, which is an action.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame who performs the act of abetting."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame who receives the assistance or encouragement."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "ethical_valence.n.01",
+        "value_type": "negative.a.01",
+        "reasoning": "The definition explicitly states the assistance is 'usually in some wrongdoing,' imparting a negative ethical valence to the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of abetting is typically a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly links 'abet' to 'wrongdoing,' giving it an inherent negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody abet somebody' implies a volitional agent performing an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of abetting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a singular instance of providing assistance, even if the wrongdoing is ongoing."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "abet.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "ethical_valence.n.01",
+        "reasoning": "verb_property 'ethical_valence.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "abet.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "morality.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}
