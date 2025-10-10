@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "nettle.v.01",
+    "definition": "sting with or as with nettles and cause a stinging pain or sensation",
+    "frame_id": 1,
+    "frame_text": "Something urticate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "pain.n.01",
+        "reasoning": "The verb describes causing a transition from a state of no pain to a state of stinging pain or sensation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which is the entity (e.g., nettle) that causes the stinging sensation."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The second 'something' in the frame, which is the entity that undergoes and feels the stinging pain or sensation."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "stinging.a.01",
+        "reasoning": "The verb specifies a particular quality of pain or sensation, specifically a 'stinging' manner, which is a core part of its meaning."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of urticating and the resulting sensation are typically experienced directly or observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The causal agent is 'Something', indicating it does not possess will or intention in causing the sting."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Causing 'pain or sensation' is inherently a negative experience."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something urticate something' indicates a non-volitional agent (like a nettle) performing the action, meaning the action is unintentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing a stinging sensation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of causing a stinging sensation. Repetition is not inherent to the core meaning."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "nettle.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect WordNet synset found for the semantic role 'experiencer' in NLTK WordNet."
+      }
+    ]
+  }
+}

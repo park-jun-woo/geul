@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "prove.v.01",
+    "definition": "be shown or be found to be",
+    "frame_id": 2,
+    "frame_text": "It turn_up that CLAUSE",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "status.n.01",
+        "reasoning": "The verb describes a transition where the true nature or condition of the subject becomes apparent or confirmed, representing a change in its known status, as indicated by the definition 'be shown or be found to be'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' is the entity whose status or characteristic is revealed or confirmed by the event, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "value_type": "property.n.01",
+            "reasoning": "The infinitive phrase ('to INFINITIVE') denotes the specific property or characteristic that the subject is revealed to possess, thus describing the resultant state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb implies the outcome is directly observed or discovered, leading to a state of being known."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact about the subject's revealed nature."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject ('Somebody') in this frame is not acting with will; they are merely found to be a certain way, implying no agentive will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of being proven or found to be something is neutral; the specific outcome (e.g., innocent, guilty, effective) determines its sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The definition 'be shown or be found to be' means the subject ('Somebody') is not performing a volitional action but rather undergoing a process where their nature is revealed, making the action non-volitional for the subject."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'prove' inherently suggests a confirmation of truth or certainty about the subject's state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of a subject being revealed or confirmed to be a certain way."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prove.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prove.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion: 'result.n.01' is a perfect semantic fit for 'resultant_state.n.01' as a semantic role."
+      }
+    ]
+  }
+}

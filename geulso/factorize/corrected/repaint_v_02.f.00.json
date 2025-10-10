@@ -1,0 +1,59 @@
+{
+  "synset_id": "repaint.v.02",
+  "definition": "paint again",
+  "frame_id": 0,
+  "frame_text": "Somebody repaint something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coating.n.01",
+      "reasoning": "The verb 'repaint' describes the action of applying a new coating to a surface, which alters its state or appearance. This is a change of a physical property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent who intentionally performs the action of repainting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the object whose surface is being painted again; it undergoes the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "repetition.n.01",
+      "value": "again",
+      "reasoning": "The prefix 're-' in 'repaint' explicitly indicates that the action of painting is being performed anew or a second (or subsequent) time, signifying repetition of the base action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Repainting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of repainting itself is neutral in sentiment; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the 're-' prefix implies a previous instance of painting (captured as a sememe), the act of 'repainting' itself, as a single event, is not inherently iterative in its execution like 'running'. It refers to one complete act of applying paint again."
+    }
+  }
+}

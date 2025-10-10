@@ -1,0 +1,143 @@
+{
+  "original": {
+    "synset_id": "scallop.v.02",
+    "definition": "bake in a sauce, milk, etc., often with breadcrumbs on top",
+    "frame_id": 0,
+    "frame_text": "Somebody escallop something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "food_state.n.01",
+        "reasoning": "The verb describes the act of preparing food, transitioning it from an uncooked state to a cooked state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the one performing the action of cooking."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the frame is the food item undergoing the cooking process."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value": "baking_with_sauce_and_breadcrumbs",
+        "reasoning": "The definition explicitly details the specific culinary method: baking in a sauce (milk, etc.) often with breadcrumbs on top."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of scalloping (cooking) is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of cooking is neutral; its sentiment depends on context or the outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of scalloping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event of preparing a dish, rather than a repetitive action within the frame."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "scallop.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "food_state.n.01",
+        "reasoning": "verb_property 'food_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "domestic_carp.n.01",
+            "description": "large Old World freshwater bottom-feeding fish introduced into Europe from Asia; inhabits ponds and sluggish streams and often raised for food; introduced into United States where it has become a pest (gloss match)"
+          },
+          {
+            "synset_id": "common_opossum.n.01",
+            "description": "omnivorous opossum of the eastern United States; noted for feigning death when in danger; esteemed as food in some areas; considered same species as the crab-eating opossum of South America (gloss match)"
+          },
+          {
+            "synset_id": "channel_catfish.n.01",
+            "description": "freshwater food fish common throughout central United States (gloss match)"
+          },
+          {
+            "synset_id": "white_perch.n.01",
+            "description": "small silvery food and game fish of eastern United States streams (gloss match)"
+          },
+          {
+            "synset_id": "sea_bass.n.02",
+            "description": "any of various food and sport fishes of the Atlantic coast of the United States having an elongated body and long spiny dorsal fin (gloss match)"
+          },
+          {
+            "synset_id": "sheepshead.n.01",
+            "description": "large (up to 20 lbs) food fish of the eastern coast of the United States and Mexico (gloss match)"
+          },
+          {
+            "synset_id": "catfish.n.01",
+            "description": "flesh of scaleless food fish of the southern United States; often farmed (gloss match)"
+          },
+          {
+            "synset_id": "weakfish.n.01",
+            "description": "lean flesh of food and game fishes of the Atlantic coast of the United States (gloss match)"
+          },
+          {
+            "synset_id": "heinz.n.01",
+            "description": "United States industrialist who manufactured and sold processed foods (1844-1919) (gloss match)"
+          },
+          {
+            "synset_id": "kellogg.n.01",
+            "description": "United States food manufacturer who (with his brother) developed a breakfast cereal of crisp flakes of rolled and toasted wheat and corn; he established a company to manufacture the cereal (1860-1951) (gloss match)"
+          },
+          {
+            "synset_id": "japanese_millet.n.01",
+            "description": "coarse annual grass cultivated in Japan and southeastern Asia for its edible seeds and for forage; important wildlife food in United States (gloss match)"
+          },
+          {
+            "synset_id": "jerusalem_thorn.n.03",
+            "description": "large shrub or shrubby tree having sharp spines and pinnate leaves with small deciduous leaflets and sweet-scented racemose yellow-orange flowers; grown as ornamentals or hedging or emergency food for livestock; tropical America but naturalized in southern United States (gloss match)"
+          },
+          {
+            "synset_id": "cowpea.n.02",
+            "description": "sprawling Old World annual cultivated especially in southern United States for food and forage and green manure (gloss match)"
+          },
+          {
+            "synset_id": "malnutrition.n.01",
+            "description": "a state of poor nutrition; can result from insufficient or excessive or unbalanced diet or from inability to absorb foods (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "food_state.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'prepared_food.n.01' semantically represents a 'state of food' (food that has been prepared) relevant to the verb 'scallop.v.02' which describes a preparation process, aligning with the 'verb_property' key. No candidate was a suitable semantic replacement. (Original suggestion 'prepared_food.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

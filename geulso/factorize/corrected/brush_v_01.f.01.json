@@ -1,0 +1,63 @@
+{
+  "synset_id": "brush.v.01",
+  "definition": "rub with a brush, or as if with a brush",
+  "frame_id": 1,
+  "frame_text": "Somebody brush something PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "contact.n.01",
+      "reasoning": "The verb describes a physical action involving contact and movement across a surface, as implied by 'rub' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the surface interaction."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' specifies the spatial aspect of the action, such as the location on the patient, or the direction of the brushing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "brush.n.01",
+      "reasoning": "The core of the verb 'brush' specifies that the action is performed using a 'brush' as an instrument, or in a manner characteristic of using a brush."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of brushing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies the agent's will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of brushing is semantically neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody brush...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Brushing typically involves a series of continuous, repeated strokes, indicating high iterativity."
+    }
+  }
+}

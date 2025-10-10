@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "diminish.v.02",
+    "definition": "lessen the authority, dignity, or reputation of",
+    "frame_id": 3,
+    "frame_text": "Somebody diminish something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "quantity.n.01",
+        "reasoning": "The definition 'lessen' indicates a reduction in the amount or degree of something, which signifies a change in its quantity or extent.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that causes the diminution to occur."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "abstract_quality.n.01",
+            "reasoning": "The second 'something' refers to the abstract quality (like authority, dignity, or reputation) that is being lessened."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of diminishing is typically a directly observable event or its effects are directly ascertainable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something diminish something' implies a non-volitional agent (the first 'Something'), and therefore lacks will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'lessen the authority, dignity, or reputation of' inherently implies a negative outcome or sentiment for the patient."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something diminish something' indicates that the causal agent ('Something') is non-volitional, performing the action without intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or an effect that is certain."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of reduction unless otherwise specified by context."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "diminish.v.02",
+        "frame_id": 3,
+        "key": "value_type",
+        "value": "abstract_quality.n.01",
+        "reasoning": "value_type 'abstract_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "concreteness.n.01",
+            "description": "the quality of being concrete (not abstract) (gloss match)"
+          },
+          {
+            "synset_id": "personification.n.02",
+            "description": "representing an abstract quality or idea as a person or creature (gloss match)"
+          },
+          {
+            "synset_id": "personification.n.01",
+            "description": "a person who represents an abstract quality (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "diminish.v.02",
+        "frame_id": 3,
+        "key": "value_type",
+        "corrected_value": "attribute.n.02",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'abstract quality'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "diffuse.v.01",
+    "definition": "move outward",
+    "frame_id": 10,
+    "frame_text": "Something spread_out",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The definition 'move outward' explicitly describes a change in an entity's location or distribution.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the outward movement or spreading."
+          }
+        ]
+      },
+      {
+        "verb_type": "direction",
+        "verb_property": "spatial_direction.n.01",
+        "value_type": "outward.r.01",
+        "reasoning": "The verb specifically describes movement 'outward', indicating a spatial direction of dispersion."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of diffusing or moving outward is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something spread_out' implies no agent and thus no will involved in the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of diffusing is neutral; its sentiment depends on the context of what is diffusing."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something spread_out' indicates an inanimate subject ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Diffusing or spreading outward is typically a continuous or highly repetitive process, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "diffuse.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "value": "spatial_direction.n.01",
+        "reasoning": "verb_property 'spatial_direction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "direction.n.02",
+            "description": "the spatial relation between something and the course along which it points or moves (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "diffuse.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "corrected_value": "direction.n.02",
+        "corrected_reasoning": "Candidate 'direction.n.02' is a perfect semantic match for 'spatial_direction.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

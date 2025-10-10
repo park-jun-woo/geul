@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "mechanize.v.01",
+    "definition": "equip with armed and armored motor vehicles",
+    "frame_id": 3,
+    "frame_text": "Somebody motorize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "equipment.n.01",
+        "reasoning": "The verb 'mechanize' (used here as 'motorize') describes the action of providing something with specific equipment, thereby changing its state regarding its available equipment and capabilities.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of equipping, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being equipped and whose state of equipment is changed."
+          },
+          {
+            "semantic_role": "means.n.01",
+            "value_type": "military_motor_vehicle.n.01",
+            "reasoning": "The definition explicitly specifies the type of equipment used as a means for this mechanization: 'armed and armored motor vehicles'. This specifies the nature of the means/equipment provided."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of equipping or motorizing is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of equipping or motorizing is neutral; its sentiment depends on context or purpose."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody motorize something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of equipping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of equipping an entity or a collective of entities, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "mechanize.v.01",
+        "frame_id": 3,
+        "key": "value_type",
+        "value": "military_motor_vehicle.n.01",
+        "reasoning": "value_type 'military_motor_vehicle.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "half_track.n.01",
+            "description": "a motor vehicle propelled by half tracks; frequently used by the military (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "mechanize.v.01",
+        "frame_id": 3,
+        "key": "value_type",
+        "corrected_value": "half_track.n.01",
+        "corrected_reasoning": "Candidate 'half_track.n.01' is a specific type of military motor vehicle and perfectly fits the context of the invalid synset."
+      }
+    ]
+  }
+}

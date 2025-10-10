@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "pension.v.01",
+    "definition": "grant a pension to",
+    "frame_id": 0,
+    "frame_text": "Somebody pension somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb 'pension' means to 'grant a pension to', which describes a transfer of a financial asset, thus a change in possession/financial status.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame, who performs the action of granting the pension."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The second 'somebody' in the frame, who receives the pension."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "financial_asset.n.01",
+            "reasoning": "The 'pension' itself, which is the financial asset being granted to the recipient."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of granting a pension is a directly observable event or decision."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to grant the pension."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of pensioning is semantically neutral, although the outcome (receiving a pension) is generally positive for the recipient."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the act of granting."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of granting a pension is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'pension' refers to the single event of granting the pension to someone, not the ongoing payments."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pension.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "financial_asset.n.01",
+        "reasoning": "value_type 'financial_asset.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "portfolio.n.03",
+            "description": "a list of the financial assets held by an individual or a bank or other financial institution (gloss match)"
+          },
+          {
+            "synset_id": "financial_institution.n.01",
+            "description": "an institution (public or private) that collects funds (from the public or other institutions) and invests them in financial assets (gloss match)"
+          },
+          {
+            "synset_id": "balance_sheet.n.01",
+            "description": "a record of the financial situation of an institution on a particular date by listing its assets and the claims against those assets (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pension.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'financial_instrument.n.01' is a precise and valid WordNet synset for the concept of a financial asset. (Original suggestion 'financial_instrument.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

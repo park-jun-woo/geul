@@ -1,0 +1,59 @@
+{
+  "synset_id": "underwrite.v.01",
+  "definition": "guarantee financial support of",
+  "frame_id": 4,
+  "frame_text": "Something subvention something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "easy_street.n.01",
+      "reasoning": "The definition 'guarantee financial support of' describes an action that initiates or establishes a state of financial security or backing, which is a change from a state of no guarantee to one with a guarantee.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity (e.g., an institution, a fund) that provides the guarantee or financial support."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that receives the financial support or guarantee."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "commitment.n.03",
+      "value_type": "guarantee.n.01",
+      "reasoning": "The core of 'underwrite' is the act of providing a 'guarantee', which is a strong form of commitment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of underwriting typically involves documented agreements, making it a directly verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or the establishment of a state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-human entity (e.g., a company, an organization) acting, which, in this framework, is interpreted as 'No will' even if institutional intent is present."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of guaranteeing financial support is neutral; its positive or negative sentiment depends on context or the nature of the entity being supported."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-human agent ('Something'), thus aligning with a non-volitional action according to the specified rule."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'guarantee' implies a high level of certainty and commitment regarding the financial support."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of underwriting (guaranteeing) is generally a discrete event that establishes the terms of support, rather than a repetitive action."
+    }
+  }
+}

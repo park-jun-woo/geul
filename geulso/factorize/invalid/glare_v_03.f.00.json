@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "glare.v.03",
+    "definition": "shine intensely",
+    "frame_id": 0,
+    "frame_text": "Something glare",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "light_emission.n.01",
+        "reasoning": "The verb 'glare' describes the activity of a light source emitting light, as seen in its hypernym 'shine.v.02' ('emit light').",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity (e.g., the sun, a lamp) that performs the activity of emitting light."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "high.a.01",
+        "reasoning": "The definition 'shine intensely' explicitly states that the light emission is of a high degree of intensity, making this a core semantic component."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of glaring (shining intensely) is a directly observable phenomenon through sight."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an activity or continuous state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' (e.g., a celestial body, an inanimate object) in the frame does not possess will or intention in emitting light."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of shining intensely is inherently neutral; while its effect might be positive or negative depending on context (e.g., blinding), the action itself carries no intrinsic sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something glare' clearly indicates a non-agentive subject, meaning the action is non-volitional and not performed with intention."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or a continuous state of intense shining."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The verb 'glare' typically implies a continuous or sustained intense emission of light over a period, rather than a single momentary event, thus indicating high repetition or a continuous process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "glare.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "light_emission.n.01",
+        "reasoning": "verb_property 'light_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "laser.n.01",
+            "description": "an acronym for light amplification by stimulated emission of radiation; an optical device that produces an intense monochromatic beam of coherent light (gloss match)"
+          },
+          {
+            "synset_id": "orthicon.n.01",
+            "description": "a now obsolete picture pickup tube in a television camera; electrons emitted from a photoemissive surface in proportion to the intensity of the incident light are focused onto the target causing secondary emission of electrons (gloss match)"
+          },
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          },
+          {
+            "synset_id": "incandescence.n.01",
+            "description": "the phenomenon of light emission by a body as its temperature is raised (gloss match)"
+          },
+          {
+            "synset_id": "elves.n.01",
+            "description": "an acronym for emissions of light and very low frequency perturbations due to electromagnetic pulse sources; extremely bright extremely short (less than a msec) electrical flashes forming a huge ring (up to 400 km diameter) in the ionosphere (gloss match)"
+          },
+          {
+            "synset_id": "lightning.n.01",
+            "description": "abrupt electric discharge from cloud to cloud or from cloud to earth accompanied by the emission of light (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "glare.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "luminosity.n.01",
+        "corrected_reasoning": "LLM suggestion: 'luminosity.n.01' ('the quality of being luminous; emitting or reflecting light') perfectly captures the intended meaning of 'light_emission' as a verb property for 'glare.v.03'."
+      }
+    ],
+    "participants": []
+  }
+}

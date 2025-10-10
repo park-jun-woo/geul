@@ -1,0 +1,124 @@
+{
+  "original": {
+    "synset_id": "videotape.v.01",
+    "definition": "record on videotape",
+    "frame_id": 0,
+    "frame_text": "Somebody tape",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "information_storage.n.01",
+        "reasoning": "The verb describes the act of converting ephemeral content into a persistent record, representing a change in its state from unrecorded to recorded.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of recording, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "content.n.01",
+            "reasoning": "The implicit 'something' (e.g., an event, image, or sound) that is being recorded and stored, inherent in the meaning of the verb 'videotape'."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "medium.n.01",
+        "value_type": "videotape.n.01",
+        "reasoning": "The verb 'videotape' explicitly indicates that the recording is performed using videotape technology as the primary medium or instrument."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of videotaping is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of videotaping is neutral; its sentiment depends on the content being recorded."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody videotape' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of videotaping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, continuous event of recording a specific instance of content."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "videotape.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "information_storage.n.01",
+        "reasoning": "verb_property 'information_storage.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "magnetic_bubble_memory.n.01",
+            "description": "a nonvolatile storage device that holds information in the form of bubbles on a thin film of magnetic silicate; no longer used in most computers (gloss match)"
+          },
+          {
+            "synset_id": "random-access_memory.n.01",
+            "description": "the most common computer memory which can be used by programs to perform necessary tasks while the computer is on; an integrated circuit memory chip allows information to be stored or accessed in any order and all storage locations are equally accessible (gloss match)"
+          },
+          {
+            "synset_id": "recording.n.03",
+            "description": "a storage device on which information (sounds or images) have been recorded (gloss match)"
+          },
+          {
+            "synset_id": "scratchpad.n.01",
+            "description": "(computer science) a high-speed internal memory used for temporary storage of preliminary information (gloss match)"
+          },
+          {
+            "synset_id": "bits_per_inch.n.01",
+            "description": "a measure of how densely information is packed on a storage medium (gloss match)"
+          },
+          {
+            "synset_id": "descriptor.n.02",
+            "description": "a piece of stored information that is used to identify an item in an information storage and retrieval system (gloss match)"
+          },
+          {
+            "synset_id": "magnetic_storage_medium.n.01",
+            "description": "any storage medium in which different patterns of magnetization are used to represent stored bits or bytes of information (gloss match)"
+          },
+          {
+            "synset_id": "digital_communication.n.01",
+            "description": "electronic transmission of information that has been encoded digitally (as for storage and processing by computers) (gloss match)"
+          },
+          {
+            "synset_id": "medical_literature_analysis_and_retrieval_system.n.01",
+            "description": "relational database of the United States National Library of Medicine for the storage and retrieval of bibliographical information concerning the biomedical literature (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "videotape.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "recording.n.03",
+        "corrected_reasoning": "Candidate from list."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "turn_a_nice_dime.v.01",
+    "definition": "make a satisfactory profit",
+    "frame_id": 4,
+    "frame_text": "Something turn_a_nice_dollar",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "financial_status.n.01",
+        "reasoning": "The verb describes an improvement in financial status, representing a change in the state of wealth or assets.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' (e.g., a business, venture) that generates or yields the profit, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "profit.n.02",
+            "reasoning": "The 'profit' that is gained as a result of the 'Something's' activity, representing the object of the financial gain."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "quality.n.01",
+        "value_type": "satisfactory.a.01",
+        "reasoning": "The idiom 'turn a nice dime/dollar' specifically refers to making a 'satisfactory' or good quality of profit, indicating a positive evaluation of the financial outcome.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "profit.n.02",
+            "reasoning": "This sememe describes the quality of the profit, which is inherently 'satisfactory' as per the definition of the idiom."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Making a profit is typically a quantifiable and observable financial outcome."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an outcome."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' implies that the 'Something' is typically an entity (like a business or investment) that generates profit, not an agent acting with conscious will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The definition 'make a *satisfactory* profit' and the word 'nice' in the idiom explicitly indicate a positive outcome."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' indicates a non-volitional subject; a business or investment doesn't 'intend' to make a profit in a volitional sense, but rather performs actions that lead to it."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of making a profit."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of achieving a satisfactory profit."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "turn_a_nice_dime.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "financial_status.n.01",
+        "reasoning": "verb_property 'financial_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "standing.n.01",
+            "description": "social or financial or professional status or reputation (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "turn_a_nice_dime.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "standing.n.01",
+        "corrected_reasoning": "Candidate 'standing.n.01' perfectly matches the semantic intent of 'financial_status.n.01' as its description includes 'financial status' and aligns with the verb 'turn_a_nice_dime'."
+      }
+    ],
+    "participants": []
+  }
+}

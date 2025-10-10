@@ -1,0 +1,114 @@
+{
+  "original": {
+    "synset_id": "oxidize.v.02",
+    "definition": "add oxygen to or combine with oxygen",
+    "frame_id": 3,
+    "frame_text": "Something oxidate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "value_type": "oxidized.a.01",
+        "reasoning": "The definition 'add oxygen to or combine with oxygen' describes a process where the chemical composition of a substance (the patient) is altered to an oxidized state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the agent or cause of the oxidation process."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity whose chemical composition undergoes the change due to oxidation."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Oxidation is a chemical process that can be directly observed or inferred from experimental results."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a chemical event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame indicates a non-volitional agent, therefore the action is not driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of oxidation is a neutral chemical process; its outcome can be positive or negative depending on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something oxidate something' implies a non-volitional agent ('Something') causing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a chemical process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically refers to a single instance or completion of the oxidation process for a given patient."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "oxidize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "oxidize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Closest semantic match from candidates, its gloss explicitly includes 'chemical composition'."
+      }
+    ],
+    "participants": []
+  }
+}

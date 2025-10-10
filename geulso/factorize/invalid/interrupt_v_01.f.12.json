@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "interrupt.v.01",
+    "definition": "make a break in",
+    "frame_id": 12,
+    "frame_text": "Something break_up somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "continuity.n.01",
+        "reasoning": "The definition 'make a break in' describes causing a cessation or disruption of an ongoing state or process, which is a change in continuity.",
+        "participants": [
+          {
+            "semantic_role": "causer.n.01",
+            "reasoning": "The 'Something' that causes the interruption, as it is inanimate and non-volitional but brings about the change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose activity or state of continuity is affected by the interruption."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "An interruption is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a lack of will or intention for the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of interrupting is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s...' indicates that the action is performed by a non-agentive subject ('Something'), making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of making a break."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'make a break in' describes a single instance of disruption."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "interrupt.v.01",
+        "frame_id": 12,
+        "key": "semantic_role",
+        "value": "causer.n.01",
+        "reasoning": "semantic_role 'causer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "interrupt.v.01",
+        "frame_id": 12,
+        "key": "semantic_role",
+        "corrected_value": "cause.n.01",
+        "corrected_reasoning": "LLM suggestion. 'cause.n.01' is a perfect semantic fit for the concept of 'causer' (one that causes)."
+      }
+    ]
+  }
+}

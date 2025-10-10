@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "spatter.v.01",
+    "definition": "dash a liquid upon or against",
+    "frame_id": 7,
+    "frame_text": "Somebody spatter something with something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_coverage.n.01",
+        "reasoning": "The verb describes an action that causes a surface to be covered or marked by a liquid, representing a change in the surface's state. The definition 'dash a liquid upon or against' directly implies this outcome.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of spattering, initiating the change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The direct object 'something' (e.g., a wall, a coat) that undergoes the change of state by being covered or marked."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "reasoning": "The object of the 'with something' phrase (e.g., paint, mud) which is the liquid/material used to cause the spattering."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of spattering is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of spattering itself is neutral; its sentiment depends on the context and the material involved."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action, implying certainty."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Spattering, by its nature, involves the dispersion of multiple droplets or particles, implying a high degree of repetition or multiplicity within the single event of spattering."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "surface_coverage.n.01",
+        "reasoning": "verb_property 'surface_coverage.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "spreading.n.01",
+        "corrected_reasoning": "LLM suggestion: 'spreading.n.01' semantically matches the verb property of 'spatter.v.01' as an act of extending over an area."
+      }
+    ],
+    "participants": []
+  }
+}

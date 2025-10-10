@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "bury.v.02",
+    "definition": "place in a grave or tomb",
+    "frame_id": 7,
+    "frame_text": "Somebody inter something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "location.n.01",
+        "reasoning": "The definition 'place in a grave or tomb' describes a change in the physical location of an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who performs the action of placing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being placed or interred."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "value_type": "grave_or_tomb.n.01",
+            "reasoning": "The implicit location or container ('grave or tomb') where the patient is placed, derived from the verb's specific meaning."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of burying is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of burying itself is neutral; context determines its sentiment (e.g., mournful, ritualistic)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody inter something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of burying is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed event of placing something in a grave or tomb."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "bury.v.02",
+        "frame_id": 7,
+        "key": "value_type",
+        "value": "grave_or_tomb.n.01",
+        "reasoning": "value_type 'grave_or_tomb.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "grave.n.02",
+            "description": "a place for the burial of a corpse (especially beneath the ground and marked by a tombstone) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "bury.v.02",
+        "frame_id": 7,
+        "key": "value_type",
+        "corrected_value": "grave.n.02",
+        "corrected_reasoning": "Selected 'grave.n.02' from candidates; it is a perfect semantic match for 'a place for the burial of a corpse'."
+      }
+    ]
+  }
+}

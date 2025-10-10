@@ -1,0 +1,121 @@
+{
+  "original": {
+    "synset_id": "cash.v.01",
+    "definition": "exchange for cash",
+    "frame_id": 0,
+    "frame_text": "Somebody cash something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "financial_value.n.01",
+        "reasoning": "The verb describes the action of converting a financial instrument or non-cash item into physical currency, thereby changing its form of financial value and liquidity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the action of exchanging an item for cash, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "financial_instrument.n.01",
+            "reasoning": "The 'something' (e.g., a check, voucher, bond) that undergoes the conversion from its current form to cash."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "cash.n.01",
+            "reasoning": "The 'cash' that is obtained by the agent as the outcome of the exchange, directly implied by the definition 'exchange for cash'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Cashing an item is typically a directly observable financial transaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of cashing is a neutral financial transaction; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of cashing is described as a definite and certain event."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete instance of exchanging an item for cash."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "cash.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "financial_value.n.01",
+        "reasoning": "verb_property 'financial_value.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "derivative_instrument.n.01",
+            "description": "a financial instrument whose value is based on another security (gloss match)"
+          },
+          {
+            "synset_id": "financial_loss.n.01",
+            "description": "loss of money or decrease in financial value (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "cash.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "financial_instrument.n.01",
+        "reasoning": "value_type 'financial_instrument.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "derivative_instrument.n.01",
+            "description": "a financial instrument whose value is based on another security (gloss match)"
+          },
+          {
+            "synset_id": "futures_contract.n.01",
+            "description": "an agreement to buy or sell a specific amount of a commodity or financial instrument at a particular price on a stipulated future date; the contract can be sold before the settlement date (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "cash.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "monetary_value.n.01",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'financial_value'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "cash.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "negotiable_instrument.n.01",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for the invalid 'financial_instrument'."
+      }
+    ]
+  }
+}

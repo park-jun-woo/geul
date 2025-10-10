@@ -1,0 +1,59 @@
+{
+  "synset_id": "spectate.v.01",
+  "definition": "be a spectator in a sports event",
+  "frame_id": 0,
+  "frame_text": "Somebody spectate",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "observation.n.01",
+      "reasoning": "The verb describes the sustained activity of observing, as indicated by its definition and hypernym 'watch.v.03'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the activity of spectating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The implicit entity or occurrence that is being observed. The definition further specifies this as a 'sports event'."
+        }
+      ]
+    },
+    {
+      "verb_type": "context",
+      "verb_property": "sport.n.02",
+      "reasoning": "The definition explicitly restricts the activity of observation to the context of 'a sports event', making this a key distinguishing semantic feature of 'spectate'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Spectating inherently involves direct sensory experience of the event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the agent's will and intention to perform the activity of spectating."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spectating is semantically neutral; its sentiment depends on the specific event or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody spectate' explicitly indicates a volitional agent performing the action, choosing to be a spectator."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the activity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, sustained instance of observing an event, rather than a series of discrete, rapidly repeating actions (like 'running')."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "chirk.v.01",
+    "definition": "make a shrill creaking, squeaking, or noise, as of a door, mouse, or bird",
+    "frame_id": 0,
+    "frame_text": "Something chirk",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sound.n.02",
+        "reasoning": "The verb describes the act of producing a sound, indicating a change from a state of silence to one of audibility.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that acts as the source and producer of the sound."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "shrill_creaking_squeaking.n.01",
+        "reasoning": "The definition explicitly specifies 'shrill creaking, squeaking' as the defining characteristics of the noise produced by the verb."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'chirking' produces an audibly perceivable sound, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of sound production."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something chirk' and the nature of the sound (e.g., from a door) do not imply an agent's will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of chirking is neutral; the specific context determines any associated sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something chirk' often refers to inanimate objects (like a door) or involuntary sounds from animate sources (like a mouse or bird), indicating a non-volitional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of sound production."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The base lexeme describes a single instance of making such a noise; repetition would require additional modification."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "chirk.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "chirk.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "timbre.n.01",
+        "corrected_reasoning": "LLM suggestion: 'timbre.n.01' perfectly captures the distinctive property or quality of a sound, which aligns with 'sound_quality' in the context of 'chirk.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

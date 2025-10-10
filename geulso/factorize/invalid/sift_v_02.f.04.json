@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "sift.v.02",
+    "definition": "separate by passing through a sieve or other straining device to separate out coarser elements",
+    "frame_id": 4,
+    "frame_text": "Something sift something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "separation.n.01",
+        "reasoning": "The verb's definition explicitly states 'separate by passing through a sieve', indicating a process that results in elements being separated.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which refers to the straining device or mechanism that performs the act of sifting."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which is the material undergoing the separation."
+          }
+        ]
+      },
+      {
+        "verb_type": "means",
+        "verb_property": "straining_device.n.01",
+        "reasoning": "The definition specifies the method or instrument used for separation: 'by passing through a sieve or other straining device'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Sifting is a physical process that is directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' refers to an inanimate object or device, which does not possess will or intention in the human sense."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sifting is neutral; its sentiment depends on context or the outcome."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something sift something' implies an inanimate subject (a device or a natural process) performing the action, which is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of separation."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Sifting inherently involves continuous or highly repetitive actions (e.g., shaking, moving) to pass material through a sieve, implying high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sift.v.02",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "straining_device.n.01",
+        "reasoning": "verb_property 'straining_device.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sift.v.02",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "sieve.n.01",
+        "corrected_reasoning": "LLM suggestion. 'sieve.n.01' is a valid synset representing a device used for sifting, which perfectly fits the context of 'sift.v.02' and the original intent of 'straining_device.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

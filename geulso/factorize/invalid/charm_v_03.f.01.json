@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "charm.v.03",
+    "definition": "protect through supernatural powers or charms",
+    "frame_id": 1,
+    "frame_text": "Something charm somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "safety.n.01",
+        "reasoning": "The definition 'protect' implies a change from a state of vulnerability to a state of safety, or the maintenance of a safe state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "value_type": "supernatural_power.n.01",
+            "reasoning": "The 'Something' that provides the protection, explicitly stated as supernatural powers or charms in the definition."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is being protected by the charm or supernatural power."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "method.n.01",
+        "value": "supernatural",
+        "reasoning": "A core component of the verb's meaning is that the protection is achieved 'through supernatural powers or charms', indicating a specific, non-physical method."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effect of being protected can be directly experienced or observed, even if the cause is supernatural."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or a state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' (supernatural power or charm) is not an agent capable of conscious will, thus Modality is neutral."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of 'protecting' is inherently a positive outcome for the patient."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something charm somebody' indicates that the subject 'Something' (supernatural powers or charms) is non-volitional; it does not act with intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'charm' in this context describes a definite act of providing protection."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single act of bestowing protection or a continuous state resulting from a single act, rather than repeated instances of the charming action itself."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "charm.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "supernatural_power.n.01",
+        "reasoning": "value_type 'supernatural_power.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "religion.n.01",
+            "description": "a strong belief in a supernatural power or powers that control human destiny (gloss match)"
+          },
+          {
+            "synset_id": "magic.n.01",
+            "description": "any art that invokes supernatural powers (gloss match)"
+          },
+          {
+            "synset_id": "occultism.n.02",
+            "description": "a belief in supernatural powers and the possibility of bringing them under human control (gloss match)"
+          },
+          {
+            "synset_id": "execration.n.02",
+            "description": "an appeal to some supernatural power to inflict evil on someone or some group (gloss match)"
+          },
+          {
+            "synset_id": "diviner.n.01",
+            "description": "someone who claims to discover hidden knowledge with the aid of supernatural powers (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "charm.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "force.n.05",
+        "corrected_reasoning": "LLM suggestion: 'force.n.05' directly means 'a supernatural or magical force or power', perfectly matching the semantic intent of the original invalid value 'supernatural_power.n.01'."
+      }
+    ]
+  }
+}

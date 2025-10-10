@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "sum_up.v.01",
+    "definition": "give a summary (of)",
+    "frame_id": 10,
+    "frame_text": "Something summarise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "information_representation.n.01",
+        "reasoning": "The verb 'summarise' describes an action that transforms information from a more elaborate form into a more condensed or concise representation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of summarising, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The original 'something' (content) that is being transformed into a summary."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "summary.n.01",
+            "reasoning": "The condensed information that is the outcome of the summarization process, implied by the verb's definition 'give a summary'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of summarising is a directly observable or verifiable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something summarise something' implies a non-sentient agent ('Something'), thus lacking will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of summarising is neutral; the content being summarised determines any sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something summarise something' describes an action performed by a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of summarising is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, complete event of producing a summary."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sum_up.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "value": "information_representation.n.01",
+        "reasoning": "verb_property 'information_representation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "schema.n.01",
+            "description": "an internal representation of the world; an organization of concepts and actions that can be revised by new information about the world (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sum_up.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "corrected_value": "representation.n.01",
+        "corrected_reasoning": "LLM suggestion: The act of summing up creates a concise representation of information. 'representation.n.01' is a perfect semantic fit for a property of this verb."
+      }
+    ],
+    "participants": []
+  }
+}

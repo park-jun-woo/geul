@@ -1,0 +1,147 @@
+{
+  "original": {
+    "synset_id": "cut_in.v.04",
+    "definition": "interrupt a dancing couple in order to take one of them as one's own partner",
+    "frame_id": 0,
+    "frame_text": "Somebody cut_in",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "interruption.n.01",
+        "reasoning": "The definition explicitly states the verb means to 'interrupt' an activity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' from the verb frame who performs the action of interrupting."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "social_interaction.n.01",
+            "reasoning": "The dancing activity or social interaction that is the direct object of the interruption."
+          }
+        ]
+      },
+      {
+        "verb_type": "change",
+        "verb_property": "partnership.n.01",
+        "reasoning": "The interruption is performed with the specific goal of changing an existing dancing partnership and forming a new one, indicating a resultant change in social state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who, by interrupting, causes the formation of a new dancing partnership."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "person.n.01",
+            "reasoning": "One of the individuals from the original couple who is taken as the new dancing partner."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "value_type": "dancing_couple.n.01",
+            "reasoning": "The original dancing couple from which one partner is taken, serving as the source of the partnership disruption."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of cutting in is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to interrupt and take a partner."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of cutting in is context-dependent for its sentiment, and is not inherently positive or negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody cut_in' explicitly indicates a volitional agent, and the definition 'in order to take' confirms intentionality."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete event of interrupting a couple."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "cut_in.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "social_interaction.n.01",
+        "reasoning": "value_type 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "cut_in.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "dancing_couple.n.01",
+        "reasoning": "value_type 'dancing_couple.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "twist.n.11",
+            "description": "social dancing in which couples vigorously twist their hips and arms in time to the music; was popular in the 1960s (gloss match)"
+          },
+          {
+            "synset_id": "longways.n.01",
+            "description": "country dancing performed with couples in two long lines facing each other (gloss match)"
+          },
+          {
+            "synset_id": "square_dance.n.01",
+            "description": "American country dancing in which couples form squares (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "cut_in.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "interaction.n.01",
+        "corrected_reasoning": "LLM suggestion: 'interaction.n.01' is a precise semantic match for the intended meaning of 'social_interaction'."
+      },
+      {
+        "synset_id": "cut_in.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate or LLM suggestion found with >99% confidence."
+      }
+    ]
+  }
+}

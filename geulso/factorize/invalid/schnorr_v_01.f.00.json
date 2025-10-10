@@ -1,0 +1,100 @@
+{
+  "original": {
+    "synset_id": "schnorr.v.01",
+    "definition": "obtain or seek to obtain by cadging or wheedling",
+    "frame_id": 0,
+    "frame_text": "Somebody cadge",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "acquisition.n.01",
+        "reasoning": "The verb describes an action of 'seeking to obtain', which has the goal of acquisition.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of seeking to obtain, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "goods_or_resources.n.01",
+            "reasoning": "The implicit 'something' (goods or resources) that the agent seeks to obtain, as indicated by the definition 'obtain...something', even if not explicitly realized in this intransitive frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "cadging_or_wheedling.n.01",
+        "reasoning": "The action of seeking to obtain is performed in a specific manner characterized by 'cadging or wheedling', which implies manipulative or insistent persuasion."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of schnorring is typically a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or a way of acting."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with strong will and intention."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "The verb 'schnorr' itself is informal/colloquial, and the associated methods ('cadging', 'wheedling') are generally considered impolite or pushy."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of 'cadging or wheedling' to obtain something often carries negative connotations, suggesting exploitation or undue influence."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' describes an intentional action performed by a volitional agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action being performed."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The methods of 'cadging or wheedling' often imply persistent, repeated attempts or a characteristic habitual behavior rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "schnorr.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "goods_or_resources.n.01",
+        "reasoning": "value_type 'goods_or_resources.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "market_economy.n.01",
+            "description": "an economy that relies chiefly on market forces to allocate goods and resources and to determine prices (gloss match)"
+          },
+          {
+            "synset_id": "managed_economy.n.01",
+            "description": "a non-market economy in which government intervention is important in allocating goods and resources and determining prices (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "schnorr.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'asset.n.02' ('anything of material value or usefulness that is owned by a person or company') perfectly encapsulates the meaning of 'goods or resources' as something that can be begged or borrowed. (Original suggestion 'asset.n.02' was invalid in NLTK)"
+      }
+    ]
+  }
+}

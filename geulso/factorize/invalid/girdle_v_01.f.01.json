@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "girdle.v.01",
+    "definition": "cut a girdle around so as to kill by interrupting the circulation of water and nutrients",
+    "frame_id": 1,
+    "frame_text": "Somebody girdle something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "life_status.n.01",
+        "reasoning": "The definition explicitly states the purpose is 'to kill' by interrupting circulation, which describes a change in the life status of the patient from living to dying/dead.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who intentionally performs the action of girdling, initiating the change.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the verb frame, typically a tree or plant, that undergoes the change in life status.",
+            "value_type": "organism.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "cutting.n.01",
+        "reasoning": "The act of girdling inherently involves 'cutting a girdle around' the object, describing the specific manner of the action."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "means.n.01",
+        "value_type": "interruption_of_circulation.n.01",
+        "reasoning": "The definition explicitly states 'by interrupting the circulation of water and nutrients' as the mechanism or means by which the killing is achieved."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of girdling is a physically observable event, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's strong will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The primary outcome of girdling, as defined, is 'to kill', which carries a negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent ('Somebody') performing the intentional act of girdling."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of girdling is presented as a definite occurrence, not a speculation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Girdling typically refers to a single, complete act performed on one object to achieve its stated purpose."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "girdle.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "life_status.n.01",
+        "reasoning": "verb_property 'life_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "status.n.01",
+            "description": "the relative position or standing of things or especially persons in a society (gloss match)"
+          },
+          {
+            "synset_id": "civil_death.n.01",
+            "description": "the legal status of a person who is alive but who has been deprived of the rights and privileges of a citizen or a member of society; the legal status of one sentenced to life imprisonment (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "girdle.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "liveness.n.01",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for 'life status'."
+      }
+    ],
+    "participants": []
+  }
+}

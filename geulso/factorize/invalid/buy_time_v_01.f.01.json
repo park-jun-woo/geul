@@ -1,0 +1,166 @@
+{
+  "original": {
+    "synset_id": "buy_time.v.01",
+    "definition": "act so as to delay an event or action in order to gain an advantage",
+    "frame_id": 1,
+    "frame_text": "Something buy_time",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "temporal_state.n.01",
+        "reasoning": "The definition 'act so as to delay an event or action' indicates causing a change in the timing or temporal state of something.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of delaying, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "event_or_action.n.01",
+            "reasoning": "The implicit 'event or action' that is delayed, as stated in the definition. This is the entity whose temporal state is changed."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "gain_advantage.n.01",
+        "reasoning": "The phrase 'in order to gain an advantage' describes the intrinsic purpose or motivation behind the action, which is a core semantic component of 'buy time'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of buying time is typically a directly observable action or its effects are directly experienced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or strategy."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to delay an event."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of delaying itself is neutral; the advantage gained can be positive or negative depending on context, but the verb's inherent sentiment is neutral."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody buy_time' explicitly includes a volitional agent ('Somebody') performing an intentional act ('act so as to delay')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that occurs, not a speculation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process of delaying might involve multiple steps, 'buy time' usually refers to a single, strategic act of achieving a delay, not continuous repetition of the *same* delay."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "buy_time.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "temporal_state.n.01",
+        "reasoning": "verb_property 'temporal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "buy_time.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "event_or_action.n.01",
+        "reasoning": "value_type 'event_or_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "surveillance_of_disease.n.01",
+            "description": "the ongoing systematic collection and analysis of data about an infectious disease that can lead to action being taken to control or prevent the disease (gloss match)"
+          },
+          {
+            "synset_id": "electronic_warfare.n.01",
+            "description": "military action involving the use of electromagnetic energy to determine or exploit or reduce or prevent hostile use of the electromagnetic spectrum (gloss match)"
+          },
+          {
+            "synset_id": "deterrence.n.03",
+            "description": "the act or process of discouraging actions or preventing occurrences by instilling fear or doubt or anxiety (gloss match)"
+          },
+          {
+            "synset_id": "advantage.n.03",
+            "description": "benefit resulting from some event or action (gloss match)"
+          },
+          {
+            "synset_id": "stimulation.n.02",
+            "description": "any stimulating information or event; acts to arouse action (gloss match)"
+          },
+          {
+            "synset_id": "wave_mechanics.n.01",
+            "description": "the modern form of quantum theory; an extension of quantum mechanics based on Schrodinger's equation; atomic events are explained as interactions between particle waves (gloss match)"
+          },
+          {
+            "synset_id": "action.n.05",
+            "description": "the series of events that form a plot (gloss match)"
+          },
+          {
+            "synset_id": "register.n.01",
+            "description": "an official written record of names or events or transactions (gloss match)"
+          },
+          {
+            "synset_id": "stay.n.03",
+            "description": "a judicial order forbidding some action until an event occurs or the order is lifted (gloss match)"
+          },
+          {
+            "synset_id": "course.n.02",
+            "description": "a connected series of events or actions or developments (gloss match)"
+          },
+          {
+            "synset_id": "venue.n.01",
+            "description": "the scene of any event or action (especially the place of a meeting) (gloss match)"
+          },
+          {
+            "synset_id": "life.n.03",
+            "description": "the course of existence of an individual; the actions and events that occur in living (gloss match)"
+          },
+          {
+            "synset_id": "flux.n.05",
+            "description": "a state of uncertainty about what should be done (usually following some important event) preceding the establishment of a new direction of action (gloss match)"
+          },
+          {
+            "synset_id": "phimosis.n.01",
+            "description": "an abnormal tightness of the foreskin preventing retraction over the glans (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "buy_time.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "temporality.n.01",
+        "corrected_reasoning": "LLM suggestion: `temporality.n.01` perfectly captures the meaning of 'temporal state'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "buy_time.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate or LLM suggestion found that perfectly represents the disjunctive concept 'event_or_action.n.01'."
+      }
+    ]
+  }
+}

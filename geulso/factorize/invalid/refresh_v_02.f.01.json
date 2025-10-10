@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "refresh.v.02",
+    "definition": "make (to feel) fresh",
+    "frame_id": 1,
+    "frame_text": "Somebody refresh something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "freshness.n.01",
+        "reasoning": "The definition 'make (to feel) fresh' describes causing a transition in a person's state towards a state of freshness, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that acts as the source or cause initiating the change in the experiencer's state, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change and experiences the feeling of freshness, as implied by 'make (to feel) fresh'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of being refreshed is typically a direct experience for the 'somebody'."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or effect."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame implies a non-volitional cause; there is no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "To 'refresh' implies a positive improvement from a less fresh or tired state to a more vigorous and renewed state."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') as the agent causing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or outcome of making someone feel fresh."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of making someone feel fresh, though the effect might last."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "refresh.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "refresh.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "perceiver.n.01",
+        "corrected_reasoning": "LLM suggestion. 'perceiver.n.01' is a valid NLTK synset that semantically aligns with the concept of an 'experiencer' in the context of a semantic role."
+      }
+    ]
+  }
+}

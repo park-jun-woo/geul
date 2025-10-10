@@ -1,0 +1,65 @@
+{
+  "synset_id": "chisel.v.03",
+  "definition": "carve with a chisel",
+  "frame_id": 1,
+  "frame_text": "Something chisel something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The verb 'chisel' describes an action that alters the physical form or shape of an object through carving.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.05",
+          "reasoning": "The 'Something' that performs the action and causes the change in the object's form, as specified by the verb frame. Given the 'Something' subject and non-volitionality, it's a causer rather than a volitional agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose form or material is being carved or altered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "chisel.n.01",
+      "reasoning": "The verb's definition 'carve with a chisel' explicitly names 'chisel' as the indispensable instrument for the action, making it a core semantic component."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "chipping.n.01",
+      "reasoning": "The action of chiseling inherently involves a specific manner of cutting, typically by 'chipping away at a surface', derived from its hypernym 'carve'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chiseling is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something chisel something' with 'Something' as the subject indicates that the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chiseling is generally neutral; its positive or negative connotation depends on the context or result."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something chisel something' with 'Something' as the subject implies a non-volitional actor, consistent with the specified rules for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chiseling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chiseling is a continuous action involving repeated strikes or cuts to achieve the desired form, thus exhibiting high repetition."
+    }
+  }
+}

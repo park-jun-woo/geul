@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "compartmentalize.v.01",
+    "definition": "separate into isolated compartments or categories",
+    "frame_id": 2,
+    "frame_text": "Somebody cut_up something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "structure.n.01",
+        "reasoning": "The verb 'compartmentalize' describes the act of altering the internal organization or structure of an entity, moving it from a unified or undifferentiated state to a divided one. This is a change of structure.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally initiates and performs the action of separating/structuring, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the change in structure, being divided or categorized."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "resultant_state.n.01",
+        "value_type": "distinct.a.01",
+        "reasoning": "The change in structure specifically results in a state characterized by discrete, isolated parts or categories, reflecting the 'isolated compartments or categories' aspect of the definition. 'Distinct' captures this separation and individualization."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of compartmentalizing is typically a directly observable action or its results are directly verifiable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning in this frame is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the subject in the frame implies that the action is driven by an agent's strong will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of compartmentalizing is semantically neutral; its positive or negative implications depend entirely on the context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action, making it an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that is carried out, implying certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Compartmentalizing refers to a single, completed act of establishing a new separated or categorized state, rather than a continuous or highly repetitive action in its core sense."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "compartmentalize.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "resultant_state.n.01",
+        "reasoning": "verb_property 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "resultant_state.n.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found for 'resultant_state' in NLTK WordNet."
+      }
+    ],
+    "participants": []
+  }
+}

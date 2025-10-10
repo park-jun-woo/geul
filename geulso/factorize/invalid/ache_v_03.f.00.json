@@ -1,0 +1,81 @@
+{
+  "original": {
+    "synset_id": "ache.v.03",
+    "definition": "be the source of pain",
+    "frame_id": 0,
+    "frame_text": "Somebody's (body part) ache",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "pain.n.01",
+        "reasoning": "The definition 'be the source of pain' describes a continuous condition or state of discomfort, not an action or event.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that is experiencing or exhibiting the pain, thus fulfilling the role of an experiencer."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Pain is typically a directly experienced or overtly manifest sensation, hence direct evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a state of being."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Aching is a state that occurs without the will or intention of the subject; it's not an action performed with volition."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Pain is inherently a negative sensation, indicating discomfort or suffering."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ache' indicates a non-agentive subject, and the act of aching is an involuntary bodily state, not a volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "If something aches, it is a definite and certain state of that entity."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Aching typically implies a persistent or recurring sensation, rather than a single, instantaneous event, indicating high repetition or a continuous state."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "ache.v.03",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "ache.v.03",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "subject.n.01",
+        "corrected_reasoning": "LLM suggestion: 'subject.n.01' is the closest valid WordNet synset for the semantic role of an experiencer."
+      }
+    ]
+  }
+}

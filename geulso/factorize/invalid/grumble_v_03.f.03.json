@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "grumble.v.03",
+    "definition": "to utter or emit low dull rumbling sounds",
+    "frame_id": 3,
+    "frame_text": "Something growl",
+    "sememes": [
+      {
+        "verb_type": "event",
+        "verb_property": "sound.n.02",
+        "reasoning": "The definition 'to utter or emit low dull rumbling sounds' describes an event where a sound is produced.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that produces or emits the sound."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "rumbling.a.01",
+        "reasoning": "The specific characteristics 'low dull rumbling' are integral to the meaning of 'grumble' and differentiate it from other sound-making verbs. 'Rumbling' encompasses the core quality."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emission of a sound is typically a directly observable or audible event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating that a sound occurs."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' suggests a non-agentive subject, implying no conscious will behind the sound production, such as a stomach grumbling or machinery."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of emitting a rumbling sound is inherently neutral; its emotional connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' indicates a non-volitional subject. The sounds produced (e.g., by a stomach or machinery) are not typically intentional acts."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description of the sound event is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Rumbling sounds are typically continuous or composed of high repetition, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "grumble.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "grumble.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "timbre.n.01",
+        "corrected_reasoning": "LLM suggestion: 'timbre.n.01' (the distinctive property of a complex sound) is a perfect semantic and contextual replacement for the general concept of 'sound quality' as a verb property of 'grumble'."
+      }
+    ],
+    "participants": []
+  }
+}

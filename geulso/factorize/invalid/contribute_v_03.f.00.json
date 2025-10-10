@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "contribute.v.03",
+    "definition": "be conducive to",
+    "frame_id": 0,
+    "frame_text": "Something is conduceing PP",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "causal_relationship.n.01",
+        "reasoning": "The definition 'be conducive to' describes an ongoing state where the subject has a particular causal influence or supportive relationship towards an outcome. It's not an action of changing, but a state of facilitating.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame that is in the state of being conducive or exerting influence."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The object, state, or outcome that the 'Something' is conducive to, typically expressed by the Prepositional Phrase (PP)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual relationship or observation of an entity being conducive to something else."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact or relationship."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no agentive will or intention."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The verb frame 'is contributeing' explicitly indicates a present temporal reference."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The frame 'is contributeing' uses the progressive aspect, indicating an ongoing state or process."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb itself carries no inherent politeness marking; it is neutral."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of being 'conducive to' is neutral; the outcome it contributes to may be positive or negative, but the verb itself does not imply sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' indicates a non-volitional entity, making the action or state non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite assertion about the relationship of conduciveness."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state of influence or facilitation (indicated by 'be conducive to' and the progressive aspect), it's considered a single, ongoing instance rather than discrete repetitions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "contribute.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "causal_relationship.n.01",
+        "reasoning": "verb_property 'causal_relationship.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "contribute.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion (Original suggestion 'causal_relation.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

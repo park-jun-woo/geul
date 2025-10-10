@@ -1,0 +1,58 @@
+{
+  "synset_id": "acquit.v.01",
+  "definition": "pronounce not guilty of criminal charges",
+  "frame_id": 9,
+  "frame_text": "Somebody exculpate somebody of something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "legal_status.n.01",
+      "reasoning": "The verb describes an action that changes the legal status of an individual from being subject to criminal charges to being pronounced not guilty.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (e.g., judge, jury) who performs the act of pronouncing a verdict, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (the accused) whose legal status is changed through the pronouncement of not guilty."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "charge.n.02",
+          "reasoning": "The 'something' from which the patient is exculpated, referring to the specific criminal charges or offense."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A legal pronouncement of acquittal is a direct, observable event in a judicial setting."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of legal fact."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of acquitting is a deliberate and intentional decision made by a legal authority."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Being acquitted is inherently a positive outcome for the accused party."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody exculpate somebody of something' indicates a volitional agent performing an intentional legal action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A legal pronouncement of 'not guilty' is a definitive and certain judgment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "An acquittal is typically a single, discrete event in relation to a specific set of charges."
+    }
+  }
+}

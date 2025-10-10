@@ -1,0 +1,292 @@
+{
+  "original": {
+    "synset_id": "spool.v.01",
+    "definition": "transfer data intended for a peripheral device (usually a printer) into temporary storage",
+    "frame_id": 0,
+    "frame_text": "Somebody spool something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "location.n.01",
+        "reasoning": "The verb 'spool' describes the action of transferring data from one initial location to a temporary storage location, which constitutes a change in its effective location or state of readiness.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of transferring the data, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "data.n.01",
+            "reasoning": "The 'something' that is being transferred, which is identified as data in the definition."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "value_type": "storage.n.01",
+            "reasoning": "The temporary storage is the endpoint of the transfer, functioning as the destination for the data. WordNet `storage.n.01` describes the act of storing or the place of storage."
+          },
+          {
+            "semantic_role": "purpose.n.01",
+            "value_type": "processing.n.03",
+            "reasoning": "The data is 'intended for a peripheral device', implying that the purpose of spooling is for subsequent processing or output by that device. WordNet `processing.n.03` (preparing or putting through a prescribed procedure) fits this purpose."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of spooling is a technical action that is typically directly initiated or observed within a computing context."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a factual event or action, indicating a declarative mood."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the subject of the frame implies that the action is carried out with clear intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of spooling data is a neutral technical process; it carries no inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The verb frame 'Somebody spool something' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of transferring data, implying certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'spool' refers to a single, complete act of transferring a given 'something' (data) into temporary storage. While many data items can be spooled, each instance of spooling an item or a batch is considered a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spool.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "processing.n.03",
+        "reasoning": "value_type 'processing.n.03' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "processing.n.01",
+            "description": "preparing or putting through a prescribed procedure (lemma match)"
+          },
+          {
+            "synset_id": "recycling.n.01",
+            "description": "the act of processing used or abandoned materials for use in creating new products (gloss match)"
+          },
+          {
+            "synset_id": "telemetry_intelligence.n.01",
+            "description": "intelligence derived from the interception and processing and analysis of foreign telemetry (gloss match)"
+          },
+          {
+            "synset_id": "meatpacking.n.01",
+            "description": "wholesale packaging of meat for future sale (including slaughtering and processing and distribution to retailers) (gloss match)"
+          },
+          {
+            "synset_id": "central_processing_unit.n.01",
+            "description": "(computer science) the part of a computer (a microprocessor chip) that does most of the data processing (gloss match)"
+          },
+          {
+            "synset_id": "microprocessor.n.01",
+            "description": "integrated circuit semiconductor chip that performs the bulk of the processing and controls the parts of a system (gloss match)"
+          },
+          {
+            "synset_id": "multiprocessor.n.01",
+            "description": "a computer that uses two or more processing units under integrated control (gloss match)"
+          },
+          {
+            "synset_id": "off-line_equipment.n.01",
+            "description": "electronic equipment not in direct communication (or under the control of) the central processing unit (gloss match)"
+          },
+          {
+            "synset_id": "printer.n.02",
+            "description": "(computer science) an output device that prints the results of data processing (gloss match)"
+          },
+          {
+            "synset_id": "recycling_plant.n.01",
+            "description": "a plant for reprocessing used or abandoned materials (gloss match)"
+          },
+          {
+            "synset_id": "association_area.n.01",
+            "description": "cortical areas that are neither motor or sensory but are thought to be involved in higher processing of information (gloss match)"
+          },
+          {
+            "synset_id": "lateral_geniculate_body.n.01",
+            "description": "a neural structure that serves as a processing station on the way from the retina to the occipital lobe of the cerebral cortex (gloss match)"
+          },
+          {
+            "synset_id": "medial_geniculate_body.n.01",
+            "description": "a neural structure that serves as the last of a series of processing centers along the auditory pathway from the cochlea to the temporal lobe of the cerebral cortex (gloss match)"
+          },
+          {
+            "synset_id": "information_theory.n.01",
+            "description": "(computer science) a statistical theory dealing with the limits and efficiency of information processing (gloss match)"
+          },
+          {
+            "synset_id": "digital_communication.n.01",
+            "description": "electronic transmission of information that has been encoded digitally (as for storage and processing by computers) (gloss match)"
+          },
+          {
+            "synset_id": "messaging.n.01",
+            "description": "the sending and processing of e-mail by computer (gloss match)"
+          },
+          {
+            "synset_id": "queue.n.02",
+            "description": "(information processing) an ordered list of tasks to be performed or messages to be transmitted (gloss match)"
+          },
+          {
+            "synset_id": "transaction_file.n.01",
+            "description": "(computer science) a computer file containing relatively transient data about a particular data processing task (gloss match)"
+          },
+          {
+            "synset_id": "application.n.04",
+            "description": "a program that gives a computer instructions that provide the user with tools to accomplish a task (gloss match)"
+          },
+          {
+            "synset_id": "disambiguator.n.01",
+            "description": "(computer science) a natural language processing application that tries to determine the intended meaning of a word or phrase by examining the linguistic context in which it is used (gloss match)"
+          },
+          {
+            "synset_id": "monitor_program.n.01",
+            "description": "a program that observes and regulates and controls or verifies the operations of a data-processing system (gloss match)"
+          },
+          {
+            "synset_id": "supervisory_software.n.01",
+            "description": "specialized programs that reside permanently in the computer's main memory and control the processing of user's programs (gloss match)"
+          },
+          {
+            "synset_id": "format.n.01",
+            "description": "the organization of information according to preset specifications (usually for computer processing) (gloss match)"
+          },
+          {
+            "synset_id": "prolog.n.01",
+            "description": "a computer language designed in Europe to support natural language processing (gloss match)"
+          },
+          {
+            "synset_id": "processor.n.01",
+            "description": "a business engaged in processing agricultural products and preparing them for market (gloss match)"
+          },
+          {
+            "synset_id": "united_states_postal_service.n.01",
+            "description": "an independent federal agency that provides mail processing and delivery service for individuals and businesses in the United States (gloss match)"
+          },
+          {
+            "synset_id": "merchant_bank.n.01",
+            "description": "a credit card processing bank; merchants receive credit for credit card receipts less a processing fee (gloss match)"
+          },
+          {
+            "synset_id": "albany.n.02",
+            "description": "a town in southwest Georgia; processing center for peanuts and pecans (gloss match)"
+          },
+          {
+            "synset_id": "computational_linguist.n.01",
+            "description": "someone trained in computer science and linguistics who uses computers for natural language processing (gloss match)"
+          },
+          {
+            "synset_id": "guggenheim.n.02",
+            "description": "United States industrialist (born in Switzerland) who with his sons established vast mining and metal processing companies (1828-1905) (gloss match)"
+          },
+          {
+            "synset_id": "administrative_data_processing.n.01",
+            "description": "data processing in accounting or business management (gloss match)"
+          },
+          {
+            "synset_id": "automatic_data_processing.n.01",
+            "description": "data processing by a computer (gloss match)"
+          },
+          {
+            "synset_id": "auxiliary_operation.n.01",
+            "description": "a operation performed by off-line equipment not under the control of the central processing unit (gloss match)"
+          },
+          {
+            "synset_id": "background_processing.n.01",
+            "description": "the execution of low priority programs while higher priority programs are not using the processing system (gloss match)"
+          },
+          {
+            "synset_id": "blowing.n.01",
+            "description": "processing that involves blowing a gas (gloss match)"
+          },
+          {
+            "synset_id": "control_operation.n.01",
+            "description": "an operation that controls the recording or processing or transmission of interpretation of data (gloss match)"
+          },
+          {
+            "synset_id": "data_mining.n.01",
+            "description": "data processing using sophisticated data search capabilities and statistical algorithms to discover patterns and correlations in large preexisting databases; a way to discover new meaning in data (gloss match)"
+          },
+          {
+            "synset_id": "development.n.08",
+            "description": "processing a photosensitive material in order to make an image visible (gloss match)"
+          },
+          {
+            "synset_id": "distributed_data_processing.n.01",
+            "description": "data processing in which some of the functions are performed in different places and connected by transmission facilities (gloss match)"
+          },
+          {
+            "synset_id": "electronic_data_processing.n.01",
+            "description": "automatic data processing by electronic means without the use of tabulating cards or punched tapes (gloss match)"
+          },
+          {
+            "synset_id": "foreground_processing.n.01",
+            "description": "the execution of a program that preempts the use of the processing system (gloss match)"
+          },
+          {
+            "synset_id": "integrated_data_processing.n.01",
+            "description": "automatic data processing in which data acquisition and other stages or processing are integrated into a coherent system (gloss match)"
+          },
+          {
+            "synset_id": "ion_exchange.n.01",
+            "description": "a process in which ions are exchanged between a solution and an insoluble (usually resinous) solid; widely used in industrial processing (gloss match)"
+          },
+          {
+            "synset_id": "list_processing.n.01",
+            "description": "processing data that is given in the form of chained lists (gloss match)"
+          },
+          {
+            "synset_id": "multiprocessing.n.01",
+            "description": "simultaneous processing by two or more processing units (gloss match)"
+          },
+          {
+            "synset_id": "operation.n.04",
+            "description": "(computer science) data processing in which the result is completely specified by a rule (especially the processing that results from a single instruction) (gloss match)"
+          },
+          {
+            "synset_id": "priority_processing.n.01",
+            "description": "data processing in which the operations performed are determined by a system of priorities (gloss match)"
+          },
+          {
+            "synset_id": "real-time_processing.n.01",
+            "description": "data processing fast enough to keep up with an outside process (gloss match)"
+          },
+          {
+            "synset_id": "serial_processing.n.01",
+            "description": "sequential processing by two or more processing units (gloss match)"
+          },
+          {
+            "synset_id": "underdevelopment.n.02",
+            "description": "(photography) inadequate processing of film resulting in inadequate contrast (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spool.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "processing.n.01",
+        "corrected_reasoning": "Best candidate: perfect lemma match and general semantic fit for 'processing'."
+      }
+    ]
+  }
+}

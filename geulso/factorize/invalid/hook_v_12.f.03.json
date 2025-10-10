@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "hook.v.12",
+    "definition": "approach with an offer of sexual favors",
+    "frame_id": 3,
+    "frame_text": "Somebody hook somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "offer.n.01",
+        "reasoning": "The definition explicitly states 'approach with an offer', indicating the core action is presenting something for acceptance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the action of making the offer, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' to whom the offer is directed or made."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "sexual_favors.n.01",
+            "reasoning": "The specific 'something' that is being offered, as detailed in the verb's definition ('sexual favors')."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act described is typically a directly observable social interaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies the action is driven by an agent's will and intention."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "The verb 'hook' in this context (offering sexual favors) is inherently informal and often carries a derogatory connotation."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of offering or soliciting sexual favors is generally viewed negatively or as an illicit activity in many social contexts."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of offering."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete act of making an offer."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hook.v.12",
+        "frame_id": 3,
+        "key": "value_type",
+        "value": "sexual_favors.n.01",
+        "reasoning": "value_type 'sexual_favors.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "proposition.n.03",
+            "description": "an offer for a private bargain (especially a request for sexual favors) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hook.v.12",
+        "frame_id": 3,
+        "key": "value_type",
+        "corrected_value": "proposition.n.03",
+        "corrected_reasoning": "Candidate 'proposition.n.03' is a perfect semantic and contextual replacement for the invalid 'sexual_favors.n.01', as its gloss explicitly refers to 'a request for sexual favors'."
+      }
+    ]
+  }
+}

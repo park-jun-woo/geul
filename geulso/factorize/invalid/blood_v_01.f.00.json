@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "blood.v.01",
+    "definition": "smear with blood, as in a hunting initiation rite, where the face of a person is smeared with the blood of the kill",
+    "frame_id": 0,
+    "frame_text": "Somebody blood something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The verb describes an action that alters the surface condition or covering of an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of applying blood, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose surface condition is changed by the application of blood."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "smear.v.01",
+        "reasoning": "The definition explicitly states 'smear with blood', indicating a specific manner of application."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "substance.n.01",
+        "value_type": "blood.n.01",
+        "reasoning": "The verb's core meaning includes the specific substance 'blood' used for the smearing."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'blooding' is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of smearing with blood is neutral in itself; its positive or negative connotation depends on cultural context (e.g., a ritual)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ---- something' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action described is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of smearing an object with blood in the specified context."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "blood.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "blood.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "stain.n.01",
+        "corrected_reasoning": "LLM suggestion. 'stain.n.01' perfectly describes the surface condition resulting from the action of 'blood.v.01' (to cover with blood)."
+      }
+    ],
+    "participants": []
+  }
+}

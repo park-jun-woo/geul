@@ -1,0 +1,81 @@
+{
+  "original": {
+    "synset_id": "exist.v.02",
+    "definition": "support oneself",
+    "frame_id": 0,
+    "frame_text": "Somebody exist",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "self-sustenance.n.01",
+        "reasoning": "The definition 'support oneself' describes an ongoing activity or a continuous process of maintaining one's being or livelihood.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that actively performs the process of supporting itself, indicating an entity capable of self-sustenance."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb typically describes a directly observable or known fact about the existence and self-support of an entity."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact or ongoing process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of 'supporting oneself' implies an inherent drive, capability, or active intention from the agent ('Something') to sustain its own existence."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of supporting oneself is inherently neutral; its positive or negative sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "Although the frame is 'Something ----s', the specific definition 'support oneself' implies an active, often intentional, effort or inherent drive by the subject, making it volitional in this context (e.g., an organism striving to survive)."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite, factual state or process of existence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Supporting oneself is a continuous, ongoing process, implying high repetition of necessary actions over time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "exist.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "self-sustenance.n.01",
+        "reasoning": "verb_property 'self-sustenance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "self-sustenance.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion (Original suggestion 'self-support.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "cover.v.01",
+    "definition": "provide with a covering or cause to be covered",
+    "frame_id": 1,
+    "frame_text": "Something cover something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The definition 'provide with a covering or cause to be covered' describes a transition from an uncovered state to a covered state, indicating a change in the surface condition of an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity that causes the covering to occur."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change of state and becomes covered."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of covering is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something cover something' indicates a non-agentive subject ('Something'), implying no will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of covering is semantically neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something cover something' explicitly uses a non-volitional subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of covering is typically described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'cover' describes a single, completed event of applying a covering."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "cover.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "surface_condition.n.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "condition.n.01",
+        "corrected_reasoning": "LLM suggestion: 'condition.n.01' is the most semantically appropriate general synset for 'condition' when referring to the state of a surface as a verb property of 'cover.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

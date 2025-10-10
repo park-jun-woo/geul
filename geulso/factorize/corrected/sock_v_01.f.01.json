@@ -1,0 +1,59 @@
+{
+  "synset_id": "sock.v.01",
+  "definition": "hit hard",
+  "frame_id": 1,
+  "frame_text": "Somebody bonk somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The verb 'sock' describes an action that causes a physical impact, resulting in a change to the physical state (e.g., position, energy, integrity) of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of hitting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the physical impact and undergoes a change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition 'hit hard' explicitly indicates a high degree of intensity or force in the action, distinguishing it from a light touch."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of socking/hitting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While often negative, the act of hitting itself is mechanically neutral; its positive or negative sentiment is determined by context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ---- somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of socking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'sock' typically describes a single, discrete event of hitting."
+    }
+  }
+}

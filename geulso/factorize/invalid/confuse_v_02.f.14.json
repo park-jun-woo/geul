@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "confuse.v.02",
+    "definition": "be confusing or perplexing to; cause to be unable to think clearly",
+    "frame_id": 14,
+    "frame_text": "Something confuse somebody",
+    "sememes": [
+      {
+        "verb_type": "causation",
+        "verb_property": "confusion.n.01",
+        "reasoning": "The verb's definition 'cause to be unable to think clearly' directly indicates that it is a causative verb resulting in a state of confusion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that causes the confusion."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' in the frame is the individual who experiences the state of being confused."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes a direct causal event, implying direct observation or established fact."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no will or intention behind the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Being confused or unable to think clearly is generally considered a negative state."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something confuse somebody' indicates that the action is caused by a non-volitional entity ('Something')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing confusion."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance or event of causing confusion."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "confuse.v.02",
+        "frame_id": 14,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "confuse.v.02",
+        "frame_id": 14,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No confident replacement found from candidates or internal knowledge for the invalid 'experiencer.n.01'."
+      }
+    ]
+  }
+}

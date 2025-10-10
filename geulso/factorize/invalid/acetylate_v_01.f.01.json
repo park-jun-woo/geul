@@ -1,0 +1,109 @@
+{
+  "original": {
+    "synset_id": "acetylate.v.01",
+    "definition": "receive substitution of an acetyl group",
+    "frame_id": 1,
+    "frame_text": "Something acetylise",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The definition 'receive substitution of an acetyl group' indicates a fundamental alteration in the chemical makeup of the subject, aligning with a change in chemical composition.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the chemical change, acting as the patient."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical reactions are typically observed or measured directly through experimentation or analysis."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual chemical process, making the mood declarative."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no agent with will, as it refers to an inanimate substance undergoing a reaction."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Acetylation is a neutral chemical process; its outcome may be positive or negative depending on the broader context, but the act itself is neutral."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something acetylise' and the definition 'receive substitution' indicate that the action is not performed volitionally by the subject, but rather something happens to it."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a chemical reaction, implying certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single instance of a chemical transformation. While similar transformations can occur repeatedly, the lexical entry describes a discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "acetylate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "acetylate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Selected candidate `chemistry.n.02` as its description 'the chemical composition and properties of a substance or object' is a perfect semantic match for the intended meaning of 'chemical_composition'."
+      }
+    ],
+    "participants": []
+  }
+}

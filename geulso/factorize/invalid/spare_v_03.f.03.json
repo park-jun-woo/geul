@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "spare.v.03",
+    "definition": "give up what is not strictly needed",
+    "frame_id": 3,
+    "frame_text": "Somebody spare something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The definition 'give up' and the hypernym 'give.v.03' clearly describe a transition of possession, meaning a change in who possesses an item.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who voluntarily initiates the act of giving up the item."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose possession is transferred away from the agent."
+          }
+        ]
+      },
+      {
+        "verb_type": "state",
+        "verb_property": "necessity.n.01",
+        "value_type": "superfluous.a.01",
+        "reasoning": "A core aspect of 'spare' in this sense is that the item being given up is 'not strictly needed' by the agent, indicating its superfluous status, which is a state of the item relative to the agent.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is in the state of being superfluous or not strictly needed."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who considers the item to be not strictly needed."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sparing something is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sparing is neutral; the specific context or what is spared determines its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody spare...' explicitly indicates a volitional agent performing the action of giving up something."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of sparing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme implies a single event of giving up an item or quantity, not continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spare.v.03",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spare.v.03",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'person.n.01' is a valid WordNet synset representing a human being, which is a common and appropriate entity to fill the semantic role of an experiencer."
+      }
+    ]
+  }
+}

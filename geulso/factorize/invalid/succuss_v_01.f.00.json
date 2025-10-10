@@ -1,0 +1,287 @@
+{
+  "original": {
+    "synset_id": "succuss.v.01",
+    "definition": "shake; especially (a patient to detect fluids or air in the body)",
+    "frame_id": 0,
+    "frame_text": "Somebody shake_up something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'succuss' is defined as a specific type of 'shake', which involves causing an object to undergo a rapid, back-and-forth change in position or state of motion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally initiates and performs the shaking action, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "patient.n.03",
+            "reasoning": "The 'something' that is subjected to the shaking, which, according to the definition, is often specifically a 'patient' (human body) in a medical context."
+          }
+        ]
+      },
+      {
+        "verb_type": "goal",
+        "value": "detection of internal bodily conditions",
+        "reasoning": "The definition explicitly specifies the underlying purpose of performing this particular type of shaking: 'to detect fluids or air in the body'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of succussing is a direct and observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with strong will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of succussing itself is neutral; its sentiment depends on the medical context, which is not inherent in the verb's core meaning."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, as it requires conscious effort and intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "'Succuss' is a form of 'shake', which inherently implies a rapid and highly repetitive movement."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "succuss.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "patient.n.03",
+        "reasoning": "value_type 'patient.n.03' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "affected_role.n.01",
+            "description": "the semantic role of an entity that is not the agent but is directly involved in or affected by the happening denoted by the verb in the clause (lemma match)"
+          },
+          {
+            "synset_id": "patient.n.01",
+            "description": "a person who requires medical care (lemma match)"
+          },
+          {
+            "synset_id": "follow-up.n.03",
+            "description": "a subsequent examination of a patient for the purpose of monitoring earlier treatment (gloss match)"
+          },
+          {
+            "synset_id": "motion.n.03",
+            "description": "a change of position that does not entail a change of location (gloss match)"
+          },
+          {
+            "synset_id": "doctor.n.03",
+            "description": "children take the roles of physician or patient or nurse and pretend they are at the physician's office (gloss match)"
+          },
+          {
+            "synset_id": "therapeutic_cloning.n.01",
+            "description": "nuclear transplantation of a patient's own cells to make an oocyte from which immune-compatible cells (especially stem cells) can be derived for transplant (gloss match)"
+          },
+          {
+            "synset_id": "aftercare.n.01",
+            "description": "care and treatment of a convalescent patient (gloss match)"
+          },
+          {
+            "synset_id": "tapotement.n.01",
+            "description": "massage in which the body is tapped rhythmically with the fingers or with short rapid movements of the sides of the hand; used to loosen mucus on the chest walls of patients with bronchitis (gloss match)"
+          },
+          {
+            "synset_id": "autoplasty.n.02",
+            "description": "surgical repair by using tissue from another part of the patient's own body (gloss match)"
+          },
+          {
+            "synset_id": "psychosurgery.n.01",
+            "description": "brain surgery on human patients intended to relieve severe and otherwise intractable mental or behavioral problems (gloss match)"
+          },
+          {
+            "synset_id": "evisceration.n.01",
+            "description": "surgical removal of an organ (or the contents of an organ) from a patient (gloss match)"
+          },
+          {
+            "synset_id": "laying_on_of_hands.n.01",
+            "description": "the application of a faith healer's hands to the patient's body (gloss match)"
+          },
+          {
+            "synset_id": "token_economy.n.01",
+            "description": "a form of behavior therapy that has been used in some mental institutions; patients are rewarded with tokens for appropriate behavior and the tokens may be cashed in for valued rewards (gloss match)"
+          },
+          {
+            "synset_id": "refrigeration.n.02",
+            "description": "deliberately lowering the body's temperature for therapeutic purposes (gloss match)"
+          },
+          {
+            "synset_id": "autogenic_therapy.n.01",
+            "description": "training patients in self-induced relaxation (gloss match)"
+          },
+          {
+            "synset_id": "intensive_care.n.01",
+            "description": "close monitoring and constant medical care of patients with life-threatening conditions (gloss match)"
+          },
+          {
+            "synset_id": "phase_iv_clinical_trial.n.01",
+            "description": "sometimes the FDA approves a drug for general use but requires the manufacturer to continue to monitor its effects; during this phase the drug may be tried on slightly different patient populations than those studied in earlier trials (gloss match)"
+          },
+          {
+            "synset_id": "ring_vaccination.n.01",
+            "description": "administering vaccine only to people in close contact with an isolated infected patient; prevents the spread of a highly infectious disease by surrounding the patient with a ring of immunization (gloss match)"
+          },
+          {
+            "synset_id": "side-glance.n.01",
+            "description": "a glance sideways (gloss match)"
+          },
+          {
+            "synset_id": "observation.n.02",
+            "description": "the act of observing; taking a patient look (gloss match)"
+          },
+          {
+            "synset_id": "primary_health_care.n.01",
+            "description": "health care that is provided by a health care professional in the first contact of a patient with the health care system (gloss match)"
+          },
+          {
+            "synset_id": "domestic_ass.n.01",
+            "description": "domestic beast of burden descended from the African wild ass; patient but stubborn (gloss match)"
+          },
+          {
+            "synset_id": "artificial_kidney.n.01",
+            "description": "a machine that uses dialysis to remove impurities and waste products from the bloodstream before returning the blood to the patient's body (gloss match)"
+          },
+          {
+            "synset_id": "bedpan.n.01",
+            "description": "a shallow vessel used by a bedridden patient for defecation and urination (gloss match)"
+          },
+          {
+            "synset_id": "blind.n.02",
+            "description": "a hiding place sometimes used by hunters (especially duck hunters) (gloss match)"
+          },
+          {
+            "synset_id": "burn_center.n.01",
+            "description": "a center where patients with severe burns can be treated (gloss match)"
+          },
+          {
+            "synset_id": "clinic.n.03",
+            "description": "a healthcare facility for outpatient care (gloss match)"
+          },
+          {
+            "synset_id": "couch.n.03",
+            "description": "a narrow bed on which a patient lies during psychiatric or psychoanalytic treatment (gloss match)"
+          },
+          {
+            "synset_id": "detox.n.01",
+            "description": "the hospital ward or clinic in which patients are detoxified (gloss match)"
+          },
+          {
+            "synset_id": "drape.n.03",
+            "description": "a sterile covering arranged over a patient's body during a medical examination or during surgery in order to reduce the possibility of contamination (gloss match)"
+          },
+          {
+            "synset_id": "emesis_basin.n.01",
+            "description": "a basin used by bedridden patients for vomiting (gloss match)"
+          },
+          {
+            "synset_id": "encainide.n.01",
+            "description": "antiarrhythmic drug (trade name Enkaid) used to treat life-threatening arrhythmias but increases the risk of sudden death in heart attack patients (gloss match)"
+          },
+          {
+            "synset_id": "flecainide.n.01",
+            "description": "oral antiarrhythmic medication (trade name Tambocor) used as a last resort in treating arrhythmias; increases the risk of sudden death in heart attack patients (gloss match)"
+          },
+          {
+            "synset_id": "funny_wagon.n.01",
+            "description": "an ambulance used to transport patients to a mental hospital (gloss match)"
+          },
+          {
+            "synset_id": "hospital.n.01",
+            "description": "a health facility where patients receive treatment (gloss match)"
+          },
+          {
+            "synset_id": "hospital_room.n.01",
+            "description": "a room in a hospital for the care of patients (gloss match)"
+          },
+          {
+            "synset_id": "iron_lung.n.01",
+            "description": "respirator that produces alternations in air pressure in a chamber surrounding a patient's chest to force air into and out of the lungs thus providing artificial respiration (gloss match)"
+          },
+          {
+            "synset_id": "ketamine.n.01",
+            "description": "a general anesthetic and tranquilizer (not a barbiturate) that is administered intravenously or intramuscularly; used mainly by veterinarians or for minor surgery with geriatric or pediatric patients; taken in large doses it causes hallucinations similar to those associated with the use of PCP (gloss match)"
+          },
+          {
+            "synset_id": "life-support_system.n.02",
+            "description": "medical equipment that assists or replaces important bodily functions and so enables a patient to live who otherwise might not survive (gloss match)"
+          },
+          {
+            "synset_id": "operating_table.n.01",
+            "description": "table on which the patient lies during a surgical operation (gloss match)"
+          },
+          {
+            "synset_id": "ramipril.n.01",
+            "description": "an ACE inhibitor (trade name Altace) used to treat high blood pressure or in some patients who have had a heart attack (gloss match)"
+          },
+          {
+            "synset_id": "recovery_room.n.01",
+            "description": "a hospital room for the care of patients immediately after surgery (gloss match)"
+          },
+          {
+            "synset_id": "trandolapril.n.01",
+            "description": "an ACE inhibiting drug (trade name Mavik) used in some patients after a heart attack or to treat hypertension (gloss match)"
+          },
+          {
+            "synset_id": "ward.n.03",
+            "description": "block forming a division of a hospital (or a suite of rooms) shared by patients who need a similar kind of care (gloss match)"
+          },
+          {
+            "synset_id": "meekness.n.02",
+            "description": "a disposition to be patient and long suffering (gloss match)"
+          },
+          {
+            "synset_id": "bedside_manner.n.01",
+            "description": "manner or conduct of a physician in the presence of a patient (gloss match)"
+          },
+          {
+            "synset_id": "sufferance.n.01",
+            "description": "patient endurance especially of pain or distress (gloss match)"
+          },
+          {
+            "synset_id": "long-sufferance.n.01",
+            "description": "patient endurance of pain or unhappiness (gloss match)"
+          },
+          {
+            "synset_id": "sequence.n.02",
+            "description": "a following of one thing after another in time (gloss match)"
+          },
+          {
+            "synset_id": "physician-patient_privilege.n.01",
+            "description": "the right of a physician to refuse to divulge confidential information from a patient without the consent of the patient (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "succuss.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "patient.n.01",
+        "corrected_reasoning": "Corrects invalid noun synset 'patient.n.03' to a valid sense referring to a person receiving medical care, fitting the verb's context."
+      }
+    ]
+  }
+}

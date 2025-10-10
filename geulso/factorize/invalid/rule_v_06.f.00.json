@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "rule.v.06",
+    "definition": "mark or draw with a ruler",
+    "frame_id": 0,
+    "frame_text": "Somebody rule something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_appearance.n.01",
+        "reasoning": "The verb describes causing a change in the physical appearance of a surface by adding marks or drawings.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of marking or drawing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (surface or object) whose appearance is changed."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "instrument.n.01",
+        "value_type": "ruler.n.01",
+        "reasoning": "The definition explicitly states that the action is performed 'with a ruler', indicating the specific tool used."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of marking or drawing with a ruler is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of ruling is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of ruling is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of marking or drawing with a ruler."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "rule.v.06",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "surface_appearance.n.01",
+        "reasoning": "verb_property 'surface_appearance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "transformation.n.05",
+            "description": "the act of changing in form or shape or appearance (gloss match)"
+          },
+          {
+            "synset_id": "defacement.n.01",
+            "description": "the act of damaging the appearance or surface of something (gloss match)"
+          },
+          {
+            "synset_id": "coating.n.02",
+            "description": "a decorative texture or appearance of a surface (or the substance that gives it that appearance) (gloss match)"
+          },
+          {
+            "synset_id": "texture.n.04",
+            "description": "the characteristic appearance of a surface having a tactile quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "rule.v.06",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "texture.n.04",
+        "corrected_reasoning": "Candidate 'texture.n.04' gloss ('the characteristic appearance of a surface having a tactile quality') is a perfect semantic and contextual match for 'surface_appearance'."
+      }
+    ],
+    "participants": []
+  }
+}

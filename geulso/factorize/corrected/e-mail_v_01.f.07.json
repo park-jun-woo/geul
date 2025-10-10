@@ -1,0 +1,58 @@
+{
+  "synset_id": "e-mail.v.01",
+  "definition": "communicate electronically on the computer",
+  "frame_id": 7,
+  "frame_text": "Somebody netmail something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb's definition 'communicate electronically' directly points to the act of communication as the core action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame initiates and performs the action of sending the email."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the content or message that is being communicated via email."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "communication_channel.n.01",
+          "reasoning": "The definition 'electronically on the computer' specifies the medium and instrument used for communication."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of emailing is a directly observable and verifiable action for the sender and often the receiver."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual, declarative action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sending an email is inherently neutral; its positive or negative sentiment depends on the content and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of emailing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of communication."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'e-mail' in this context typically refers to a single instance of sending a message, not a continuous or highly repetitive action."
+    }
+  }
+}

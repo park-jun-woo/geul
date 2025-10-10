@@ -1,0 +1,105 @@
+{
+  "original": {
+    "synset_id": "draw.v.06",
+    "definition": "represent by making a drawing of, as with a pencil, chalk, etc. on a surface",
+    "frame_id": 1,
+    "frame_text": "Somebody draw somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "representation.n.01",
+        "reasoning": "The verb describes the action of creating a visual representation, which causes a change in the state of a surface to include the drawing, and changes the state of 'something' to being depicted.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the act of drawing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being depicted or represented in the drawing."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'surface' on which the drawing is made, acting as the medium where the representation is created, as specified by the definition 'on a surface'."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "instrument.n.01",
+        "reasoning": "The definition explicitly mentions 'as with a pencil, chalk, etc.', indicating specific instruments used for the act of drawing.",
+        "participants": [
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "drawing_tool.n.01",
+            "reasoning": "The tools used for making the drawing (e.g., pencil, chalk), which are inherent to the manner of drawing in this context."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of drawing is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of drawing itself is neutral; the content or outcome of the drawing might carry sentiment, but the action does not."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody draw something' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of drawing, when described, is typically presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Drawing is a process that typically involves continuous and repetitive strokes or marks to form a complete image, indicating high iterativity during the creation process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "draw.v.06",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "drawing_tool.n.01",
+        "reasoning": "value_type 'drawing_tool.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pyrography.n.01",
+            "description": "the act of producing drawings on wood or leather by using heated tools or a fine flame (gloss match)"
+          },
+          {
+            "synset_id": "stylus.n.02",
+            "description": "a pointed tool for writing or drawing or engraving (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "draw.v.06",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "stylus.n.02",
+        "corrected_reasoning": "Selected 'stylus.n.02' as a perfect semantic match for 'drawing_tool.n.01' from candidates, as it describes a type of drawing tool."
+      }
+    ]
+  }
+}

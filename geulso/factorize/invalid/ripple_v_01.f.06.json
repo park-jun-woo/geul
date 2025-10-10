@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "ripple.v.01",
+    "definition": "stir up (water) so as to form ripples",
+    "frame_id": 6,
+    "frame_text": "Something riffle",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_state.n.01",
+        "reasoning": "The verb describes a dynamic change in the condition of a surface, specifically the formation of small waves or undulations, as indicated by the definition 'so as to form ripples'. The 'Something' in the frame undergoes this change.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity whose surface state changes to exhibit ripples (e.g., 'The water ripples')."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "undulating.a.01",
+        "reasoning": "The specific characteristic of the change described by 'ripple' is its wave-like or undulating manner, distinguishing it from other types of surface changes."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of rippling is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' (interpreting 'riffle' as the verb 'ripple' used intransitively) indicates that the action is not driven by an agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rippling is semantically neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The occurrence of rippling is described as a definite event."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Ripples are by nature composed of continuous, repetitive wave-like motions, indicating high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "ripple.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "surface_state.n.01",
+        "reasoning": "verb_property 'surface_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "lowland_burrowing_treefrog.n.01",
+            "description": "terrestrial burrowing nocturnal frog of grassy terrain and scrub forests having very hard upper surface of head; of the United States southwest (gloss match)"
+          },
+          {
+            "synset_id": "red-shafted_flicker.n.01",
+            "description": "western United States bird with red undersurface to wings and tail (gloss match)"
+          },
+          {
+            "synset_id": "langmuir.n.01",
+            "description": "United States chemist who studied surface chemistry and developed the gas-filled tungsten lamp and worked on high temperature electrical discharges (1881-1957) (gloss match)"
+          },
+          {
+            "synset_id": "white_poplar.n.01",
+            "description": "a poplar that is widely cultivated in the United States; has white bark and leaves with whitish undersurfaces (gloss match)"
+          },
+          {
+            "synset_id": "desorption.n.01",
+            "description": "changing from an adsorbed state on a surface to a gaseous or liquid state (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "ripple.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "undulation.n.01",
+        "corrected_reasoning": "LLM suggestion. 'undulation.n.01' perfectly describes the wavelike motion or state created by rippling, aligning with the intent of a 'surface_state' verb property."
+      }
+    ],
+    "participants": []
+  }
+}

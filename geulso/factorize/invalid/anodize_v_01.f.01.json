@@ -1,0 +1,123 @@
+{
+  "original": {
+    "synset_id": "anodize.v.01",
+    "definition": "coat a metal with an oxide coat",
+    "frame_id": 1,
+    "frame_text": "Somebody anodize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_covering.n.01",
+        "reasoning": "The verb 'anodize' describes the action of applying a layer to a metal's surface, thereby changing its physical state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the anodizing process."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (metal) that undergoes the coating process and receives the surface layer."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "composition.n.01",
+        "value_type": "oxide.n.01",
+        "reasoning": "A core aspect of 'anodize' is that the specific surface covering applied or formed is an oxide layer, distinguishing it from other coating processes."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Anodizing is a physical process that is directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of anodizing is a technical process, inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of anodizing, when described, is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of treating an object. While multiple objects can be anodized, the verb itself refers to a singular event for one 'something'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "anodize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "surface_covering.n.01",
+        "reasoning": "verb_property 'surface_covering.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "coaster.n.03",
+            "description": "a covering (plate or mat) that protects the surface of a table (i.e., from the condensation on a cold glass or bottle) (gloss match)"
+          },
+          {
+            "synset_id": "lining.n.01",
+            "description": "a protective covering that protects an inside surface (gloss match)"
+          },
+          {
+            "synset_id": "epithelium.n.01",
+            "description": "membranous tissue covering internal organs and other internal surfaces of the body (gloss match)"
+          },
+          {
+            "synset_id": "epidermis.n.01",
+            "description": "the outer layer of the skin covering the exterior body surface of vertebrates (gloss match)"
+          },
+          {
+            "synset_id": "headful.n.02",
+            "description": "a covering over the surface of your head (gloss match)"
+          },
+          {
+            "synset_id": "bulbar_conjunctiva.n.01",
+            "description": "the part of the conjunctiva covering the anterior face of the sclera and the surface epithelium of the cornea (gloss match)"
+          },
+          {
+            "synset_id": "periosteum.n.01",
+            "description": "a dense fibrous membrane covering the surface of bones (except at their extremities) and serving as an attachment for tendons and muscles; contains nerves and blood vessels that nourish the enclosed bone (gloss match)"
+          },
+          {
+            "synset_id": "nail.n.01",
+            "description": "horny plate covering and protecting part of the dorsal surface of the digits (gloss match)"
+          },
+          {
+            "synset_id": "skim.n.01",
+            "description": "a thin layer covering the surface of a liquid (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "anodize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "covering.n.01",
+        "corrected_reasoning": "LLM suggestion: 'covering.n.01' is a general term for an artifact that covers something, aligning with the implied meaning of the original invalid synset 'surface_covering.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

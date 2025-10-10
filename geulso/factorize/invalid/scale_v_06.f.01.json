@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "scale.v.06",
+    "definition": "remove the scales from",
+    "frame_id": 1,
+    "frame_text": "Somebody scale something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The verb 'scale' describes a physical alteration to an object's surface by detaching components (scales), resulting in a changed surface condition.",
+        "participants": [
+          {
+            "semantic_role": "agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which performs the physical action of scaling, even if inanimate."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which is the object from which the scales are removed."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of scaling is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something scale something' implies an inanimate subject, therefore lacking an agent capable of will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of scaling is neutral; its sentiment depends on context (e.g., preparing food is generally positive, but damaging an object is negative)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something scale something' describes an action performed by an inanimate subject, making it inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of scaling is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The action of removing scales typically involves continuous, repeated physical movements or sub-actions to achieve the complete removal from an object."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "scale.v.06",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "scale.v.06",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "texture.n.01",
+        "corrected_reasoning": "LLM suggestion: Replaced invalid synset 'surface_condition.n.01' with 'texture.n.01', which perfectly captures a fundamental property of a surface that is directly affected by the verb 'scale.v.06' (removing scales)."
+      }
+    ],
+    "participants": []
+  }
+}

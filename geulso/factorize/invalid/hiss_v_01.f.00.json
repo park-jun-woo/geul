@@ -1,0 +1,112 @@
+{
+  "original": {
+    "synset_id": "hiss.v.01",
+    "definition": "make a sharp hissing sound, as if to show disapproval",
+    "frame_id": 0,
+    "frame_text": "Somebody hiss",
+    "sememes": [
+      {
+        "verb_type": "event",
+        "verb_property": "production.n.01",
+        "reasoning": "The verb describes the action of making or producing a sound.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that initiates or causes the production of the sound."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "sound.n.01",
+            "reasoning": "The 'sound' is the outcome or the thing that is produced by the action."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "hissing.a.01",
+        "reasoning": "The verb 'hiss' inherently specifies the particular quality or characteristic of the sound being produced."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of hissing is a directly observable (audible) phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "For a generic 'Something' in the frame, the act of hissing does not necessarily imply will or intention (e.g., a leaky pipe hisses without will)."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The sound itself is neutral. While it can be associated with disapproval, this is contextual and not an inherent sentiment of the sound itself."
+      },
+      "Volitionality": {
+        "value": 0.0,
+        "reasoning": "For the generic 'Something' frame, the action can be either volitional (e.g., a person showing disapproval) or non-volitional (e.g., a snake, a machine). Thus, it is neutral."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the sound being made."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Hissing is typically a continuous or sustained sound, or one made through rapid, repetitive instances, indicating high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "hiss.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "hiss.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "timbre.n.01",
+        "corrected_reasoning": "LLM suggestion: timbre.n.01 is a precise term for the distinctive quality of a sound, which perfectly replaces 'sound_quality' in the context of 'hiss.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

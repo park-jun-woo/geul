@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "flush.v.04",
+    "definition": "make level or straight",
+    "frame_id": 7,
+    "frame_text": "Something level something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "levelness.n.01",
+        "reasoning": "The definition 'make level or straight' indicates a causative action that results in a change in the physical state (levelness or straightness) of an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the agent or cause that brings about the change in the patient."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change, becoming level or straight."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Making something level is typically a directly observable action or its result is directly perceivable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a non-volitional agent or an impersonal force, indicating no inherent will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making something level is inherently neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject ('Something') performing the action, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or outcome of an action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'make level' describes the achievement of a state, implying a single, completed event of transformation, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "flush.v.04",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "levelness.n.01",
+        "reasoning": "verb_property 'levelness.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "levelness.n.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "flatness.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}

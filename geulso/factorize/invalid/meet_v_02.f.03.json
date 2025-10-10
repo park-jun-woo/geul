@@ -1,0 +1,163 @@
+{
+  "original": {
+    "synset_id": "meet.v.02",
+    "definition": "get together socially or for a specific purpose",
+    "frame_id": 3,
+    "frame_text": "Somebody meet PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The definition 'get together socially' describes a transition from a state of not being together to being engaged in social interaction or a gathering.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' is the primary actor who initiates or participates in the meeting."
+          },
+          {
+            "semantic_role": "co_participant.n.01",
+            "reasoning": "The 'PP' in this frame typically specifies the other entity or entities with whom the 'Somebody' is getting together, which is integral to the meaning of 'meet socially'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of meeting is a directly observable event or experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will or intention to meet."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of meeting itself is neutral; its sentiment depends on the context or purpose."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description implies a definite occurrence of the meeting."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'meet' in this frame describes a single instance of getting together."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "meet.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "meet.v.02",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "co_participant.n.01",
+        "reasoning": "semantic_role 'co_participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "guessing_game.n.01",
+            "description": "a game in which participants compete to identify some obscurely indicated thing (gloss match)"
+          },
+          {
+            "synset_id": "sweepstakes.n.01",
+            "description": "a lottery in which the prize consists of the money paid by the participants (gloss match)"
+          },
+          {
+            "synset_id": "honor_system.n.01",
+            "description": "a system of conduct in which participants are trusted not to take unfair advantage of others (gloss match)"
+          },
+          {
+            "synset_id": "pyramid_scheme.n.01",
+            "description": "a fraudulent scheme in which people are recruited to make payments to the person who recruited them while expecting to receive payments from the persons they recruit; when the number of new recruits fails to sustain the hierarchical payment structure the scheme collapses with most of the participants losing the money they put in (gloss match)"
+          },
+          {
+            "synset_id": "deixis.n.01",
+            "description": "the function of pointing or specifying from the perspective of a participant in an act of speech or writing; aspects of a communication whose interpretation depends on knowledge of the context in which the communication occurs (gloss match)"
+          },
+          {
+            "synset_id": "experimenter_bias.n.01",
+            "description": "(psychology) bias introduced by an experimenter whose expectations about the outcome of the experiment can be subtly communicated to the participants in the experiment (gloss match)"
+          },
+          {
+            "synset_id": "gag_order.n.01",
+            "description": "a court order restricting information or comment by the participants involved in a lawsuit (gloss match)"
+          },
+          {
+            "synset_id": "clearing_house.n.01",
+            "description": "a central collection place where banks exchange checks or drafts; participants maintain an account against which credits or debits are posted (gloss match)"
+          },
+          {
+            "synset_id": "symposium.n.01",
+            "description": "a meeting or conference for the public discussion of some topic especially one in which the participants form an audience and make presentations (gloss match)"
+          },
+          {
+            "synset_id": "player.n.05",
+            "description": "an important participant (as in a business deal) (gloss match)"
+          },
+          {
+            "synset_id": "active_birth.n.01",
+            "description": "childbirth during which the mother is encouraged to be an active participant (gloss match)"
+          },
+          {
+            "synset_id": "shakeout.n.01",
+            "description": "an economic condition that results in the elimination of marginally financed participants in an industry (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "meet.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "interaction.n.01",
+        "corrected_reasoning": "LLM suggestion: 'interaction.n.01' is the most semantically appropriate general concept for 'social interaction' when the original value 'social_interaction.n.01' is invalid, especially given the context of 'meet.v.02'. None of the candidates were a perfect general fit."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "meet.v.02",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "participant.n.01",
+        "corrected_reasoning": "LLM suggestion: 'participant.n.01' is the most semantically appropriate general concept for 'co-participant' when the original value 'co_participant.n.01' is invalid. None of the candidates were a perfect general fit."
+      }
+    ]
+  }
+}

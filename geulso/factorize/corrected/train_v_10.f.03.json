@@ -1,0 +1,59 @@
+{
+  "synset_id": "train.v.10",
+  "definition": "travel by rail or train",
+  "frame_id": 3,
+  "frame_text": "Somebody train PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'travel by rail or train' inherently describes a change in location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of traveling."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame often specifies the destination or direction of travel."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "transportation.n.02",
+      "value_type": "railway_transport.n.01",
+      "reasoning": "The core of the definition 'by rail or train' specifies the manner or mode of transportation used for the travel."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Traveling by train is a directly observable action or experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, hence strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of traveling by train is inherently neutral; positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody train PP' indicates that the action is performed by a volitional agent ('Somebody')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of traveling by train is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'train' in this context describes a single instance of traveling by train, even if it's a long journey."
+    }
+  }
+}

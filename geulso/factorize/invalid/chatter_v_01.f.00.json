@@ -1,0 +1,109 @@
+{
+  "original": {
+    "synset_id": "chatter.v.01",
+    "definition": "click repeatedly or uncontrollably",
+    "frame_id": 0,
+    "frame_text": "Something chatter",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "sound.n.02",
+        "reasoning": "The verb describes the ongoing process of producing an audible phenomenon, consistent with its hypernym.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that is the source and producer of the sound, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_characteristic.n.01",
+        "value_type": "click.n.01",
+        "reasoning": "The definition explicitly states that the sound produced is a 'click', specifying its characteristic."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "control.n.01",
+        "value_type": "uncontrolled.a.01",
+        "reasoning": "The definition includes 'uncontrollably', indicating a lack of control over the sound production process."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of chattering produces an audible sound that is directly perceivable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or a process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something chatter' indicates a non-agentive subject, and the 'uncontrollably' aspect further negates will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of chattering itself carries no inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something chatter' implies a non-volitional subject, and the term 'uncontrollably' in the definition explicitly states a lack of volition."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement of chattering implies a definite occurrence of the sound production."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'repeatedly' indicates that the sound occurs multiple times, suggesting high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "chatter.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_characteristic.n.01",
+        "reasoning": "verb_property 'sound_characteristic.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "ring.n.01",
+            "description": "a characteristic sound (gloss match)"
+          },
+          {
+            "synset_id": "birdcall.n.01",
+            "description": "the characteristic sound produced by a bird (gloss match)"
+          },
+          {
+            "synset_id": "gobble.n.01",
+            "description": "the characteristic sound made by a turkey cock (gloss match)"
+          },
+          {
+            "synset_id": "neigh.n.01",
+            "description": "the characteristic sounds made by a horse (gloss match)"
+          },
+          {
+            "synset_id": "song.n.02",
+            "description": "a distinctive or characteristic sound (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "chatter.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "sound.n.01",
+        "corrected_reasoning": "LLM suggestion: 'sound.n.01' (definition: 'the particular auditory effect produced by a given cause') is a perfect semantic and contextual replacement for the general concept of 'sound characteristic'."
+      }
+    ],
+    "participants": []
+  }
+}

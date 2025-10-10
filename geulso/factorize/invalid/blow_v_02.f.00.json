@@ -1,0 +1,142 @@
+{
+  "original": {
+    "synset_id": "blow.v.02",
+    "definition": "be blowing or storming",
+    "frame_id": 0,
+    "frame_text": "It is blowing",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "air_movement.n.01",
+        "reasoning": "The verb describes an ongoing natural atmospheric process, specifically the movement of air, consistent with the definition 'be blowing or storming'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "value_type": "natural_phenomenon.n.01",
+            "reasoning": "The 'Something' in the frame refers to an inanimate natural force, such as wind or a storm, which is the agent causing the blowing."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Weather phenomena like blowing or storming are typically experienced and observed directly."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact about the weather."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' (e.g., wind, storm) is a natural, inanimate force and therefore lacks will or intention."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The inherent meaning of the verb is generally considered in the present tense unless specified otherwise."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The verb 'blow' describes a continuous, durative process. While often expressed progressively, its inherent aspect as a verb is simple, indicating the event as a whole without grammatical temporal markers like progressive or perfect."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb 'blow' itself carries a neutral politeness level."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of blowing or storming is a natural phenomenon and is inherently neutral in sentiment. Its positive or negative impact depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something blow' indicates that the subject 'Something' is an inanimate natural entity, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state when it is observed to be blowing or storming."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Blowing, as a natural phenomenon, is a continuous, sustained process, implying a high degree of ongoing activity rather than a single, discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "blow.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "air_movement.n.01",
+        "reasoning": "verb_property 'air_movement.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "control.n.03",
+            "description": "(physiology) regulation or maintenance of a function or action or reflex etc (gloss match)"
+          },
+          {
+            "synset_id": "pectoral_fin.n.01",
+            "description": "either of a pair of fins situated just behind the head in fishes that help control the direction of movement (gloss match)"
+          },
+          {
+            "synset_id": "pelvic_fin.n.01",
+            "description": "either of a pair of fins attached to the pelvic girdle in fishes that help control the direction of movement; correspond to hind limbs of a land vertebrate (gloss match)"
+          },
+          {
+            "synset_id": "balance_wheel.n.01",
+            "description": "a wheel that regulates the rate of movement in a machine; especially a wheel oscillating against the hairspring of a timepiece to regulate its beat (gloss match)"
+          },
+          {
+            "synset_id": "fan.n.01",
+            "description": "a device for creating a current of air by movement of a surface or surfaces (gloss match)"
+          },
+          {
+            "synset_id": "circulation.n.05",
+            "description": "free movement or passage (as of cytoplasm within a cell or sap through a plant) (gloss match)"
+          },
+          {
+            "synset_id": "rise.n.04",
+            "description": "a movement upward (gloss match)"
+          },
+          {
+            "synset_id": "rastafari.n.01",
+            "description": "(Jamaica) a Black youth subculture and religious movement that arose in the ghettos of Kingston, Jamaica, in the 1950s; males grow hair in long dreadlocks and wear woolen caps; use marijuana and listen to reggae music (gloss match)"
+          },
+          {
+            "synset_id": "palestine_liberation_organization.n.01",
+            "description": "a political movement uniting Palestinian Arabs in an effort to create an independent state of Palestine; when formed in 1964 it was a terrorist organization dominated by Yasser Arafat's al-Fatah; in 1968 Arafat became chairman; received recognition by the United Nations and by Arab states in 1974 as a government in exile; has played a largely political role since the creation of the Palestine National Authority (gloss match)"
+          },
+          {
+            "synset_id": "mods.n.01",
+            "description": "a youth subculture that began in London in the early 1960s; a working-class movement with highly stylized dress and short hair; listened to rhythm and blues music and travelled on motor scooters (gloss match)"
+          },
+          {
+            "synset_id": "air_traffic.n.01",
+            "description": "traffic created by the movement of aircraft (gloss match)"
+          },
+          {
+            "synset_id": "breath.n.05",
+            "description": "a slight movement of the air (gloss match)"
+          },
+          {
+            "synset_id": "psychomotor_epilepsy.n.01",
+            "description": "epilepsy characterized clinically by impairment of consciousness and amnesia for the episode; often involves purposeful movements of the arms and legs and sometimes hallucinations (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "blow.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "breath.n.05",
+        "corrected_reasoning": "Candidate 'breath.n.05' (a slight movement of the air) perfectly matches the concept of air movement in the context of 'blow.v.02'."
+      }
+    ],
+    "participants": []
+  }
+}

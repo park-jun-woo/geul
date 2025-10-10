@@ -1,0 +1,106 @@
+{
+  "original": {
+    "synset_id": "muffle.v.02",
+    "definition": "deaden (a sound or noise), especially by wrapping",
+    "frame_id": 6,
+    "frame_text": "Something damp something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sound_intensity.n.01",
+        "reasoning": "The verb 'muffle' means to 'deaden (a sound or noise)', indicating a change in the intensity of a sound from a normal state to a reduced state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame 'Something damp something' (interpreted as 'Something muffles something') is the entity that causes the sound to be deadened. This is the causal agent."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "sound.n.02",
+            "reasoning": "The second 'something' in the verb frame refers to the sound or noise that undergoes the change in intensity. This is the patient."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of muffling a sound is directly perceived through hearing."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame refers to an inanimate entity, which lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of muffling is neutral; its positive or negative sentiment depends on the context of the muffled sound."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something damp something' (interpreted as 'Something muffles something') explicitly features an inanimate 'Something' as the subject, indicating a non-volitional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'muffle' describes a definite action and its resulting effect."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of deadening a sound or the continuous application of a deadening effect, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "muffle.v.02",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "sound_intensity.n.01",
+        "reasoning": "verb_property 'sound_intensity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "dimness.n.02",
+            "description": "the property of lights or sounds that lack brilliance or are reduced in intensity (gloss match)"
+          },
+          {
+            "synset_id": "intensity.n.01",
+            "description": "the amount of energy transmitted (as by acoustic or electromagnetic radiation) (gloss match)"
+          },
+          {
+            "synset_id": "acoustic_power.n.01",
+            "description": "the physical intensity of sound (gloss match)"
+          },
+          {
+            "synset_id": "attenuation.n.01",
+            "description": "weakening in force or intensity (gloss match)"
+          },
+          {
+            "synset_id": "bel.n.01",
+            "description": "a logarithmic unit of sound intensity equal to 10 decibels (gloss match)"
+          },
+          {
+            "synset_id": "decibel.n.01",
+            "description": "a logarithmic unit of sound intensity; 10 times the logarithm of the ratio of the sound intensity to some reference intensity (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "muffle.v.02",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "acoustic_power.n.01",
+        "corrected_reasoning": "Candidate 'acoustic_power.n.01' ('the physical intensity of sound') is a perfect semantic and contextual replacement for the invalid 'sound_intensity.n.01' in the context of 'muffle.v.02'."
+      }
+    ],
+    "participants": []
+  }
+}

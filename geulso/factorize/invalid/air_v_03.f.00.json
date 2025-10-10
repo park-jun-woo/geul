@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "air.v.03",
+    "definition": "broadcast over the airwaves, as in radio or television",
+    "frame_id": 0,
+    "frame_text": "Somebody air something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "availability.n.01",
+        "reasoning": "The definition 'broadcast over the airwaves' describes an action that changes the state of something from not being publicly available to being publicly available.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of broadcasting, initiating the change in availability."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (content, program) that undergoes the change in availability by being broadcast."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "transmission_method.n.01",
+        "value_type": "airwaves.n.01",
+        "reasoning": "The definition explicitly states 'over the airwaves', indicating a specific method of transmission inherent to the verb's meaning."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Broadcasting is an observable action, implying direct experience of the event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as an agent implies an intentional and willful action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of broadcasting itself is neutral; its sentiment depends on the content being aired."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of broadcasting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'air something' typically refers to a single instance of broadcasting a particular item, even if the broadcast itself has duration."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "air.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "transmission_method.n.01",
+        "reasoning": "verb_property 'transmission_method.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "air.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "transmission.n.01",
+        "corrected_reasoning": "LLM suggestion: 'transmission.n.01' (the act of sending a signal) is a perfect semantic and contextual fit for 'transmission_method.n.01' as a property of 'air.v.03'."
+      }
+    ],
+    "participants": []
+  }
+}

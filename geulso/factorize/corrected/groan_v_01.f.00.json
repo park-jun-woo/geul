@@ -1,0 +1,62 @@
+{
+  "synset_id": "groan.v.01",
+  "definition": "indicate pain, discomfort, or displeasure",
+  "frame_id": 0,
+  "frame_text": "Somebody groan",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "expression.n.01",
+      "reasoning": "The verb 'groan' describes an act of expressing an internal state audibly, which is an action of communication/utterance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performs the action of groaning, serving as the agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "inwardness.n.03",
+          "value": "pain, discomfort, or displeasure",
+          "reasoning": "The 'pain, discomfort, or displeasure' are the internal states being indicated or expressed by the groan. While not explicitly a direct object in the frame, it is the semantic content of the groan."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sound.n.01",
+      "value": "low, inarticulate sound",
+      "reasoning": "Groaning specifically refers to a particular type of sound (low, inarticulate, often prolonged) used to express the given internal states."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Groaning is an audible phenomenon, directly perceived through hearing."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Even when involuntary due to pain, the act of producing a sound (groaning) still involves the body's mechanisms being willed to some extent, or at least capable of being controlled, distinguishing it from purely passive states. The 'Somebody' performs the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly states 'pain, discomfort, or displeasure,' which are inherently negative states. The groan is an expression of these negative feelings."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Although often a reaction to an involuntary state (pain), the act of uttering a groan itself can be considered volitional in the sense that the agent produces the sound, even if reflexively. The frame 'Somebody groan' indicates an agentive action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of groaning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The simple verb 'groan' refers to a single instance of producing the sound, not necessarily a repeated action unless specified (e.g., 'groan repeatedly')."
+    }
+  }
+}

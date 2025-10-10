@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "move.v.11",
+    "definition": "arouse sympathy or compassion in",
+    "frame_id": 0,
+    "frame_text": "Somebody move somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The definition 'arouse sympathy or compassion in' describes a transition from a state of lacking or having less emotion to experiencing that emotion, which is a change in an internal state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame is the initiator or cause of the emotional change in the other person."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The second 'somebody' in the frame is the one who undergoes the emotional change or experiences the feeling of sympathy/compassion."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emotional impact of 'moving' someone is typically perceived as a direct experience, either by the experiencer or observed by others."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of emotional arousal."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The verb 'arouse' implies that the causal agent acts with the will or intention to produce an emotional response in the other participant."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Arousing sympathy or compassion is inherently neutral; the overall context may determine if it's perceived as positive or negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing an action that causes the emotional effect."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of emotional impact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of causing an emotional state, although the state itself may persist."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "move.v.11",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "move.v.11",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "percipient.n.01",
+        "corrected_reasoning": "LLM suggestion: 'percipient.n.01' is the closest semantic equivalent to 'experiencer'."
+      }
+    ]
+  }
+}

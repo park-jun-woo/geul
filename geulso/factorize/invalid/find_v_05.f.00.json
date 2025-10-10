@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "find.v.05",
+    "definition": "come to believe on the basis of emotion, intuitions, or indefinite grounds",
+    "frame_id": 0,
+    "frame_text": "Somebody feel that CLAUSE",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "belief.n.01",
+        "reasoning": "The definition 'come to believe' describes a transition from not holding a belief to holding one, which is a change in a cognitive state.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who undergoes the change in belief, as specified by the verb frame, is the one experiencing the cognitive shift."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "proposition.n.01",
+            "reasoning": "The 'CLAUSE' represents the proposition or fact that the experiencer comes to believe."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "subjective.a.01",
+        "reasoning": "The definition explicitly states that the belief is formed 'on the basis of emotion, intuitions, or indefinite grounds', indicating a subjective and non-rational manner of cognitive processing."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": -1.0,
+        "reasoning": "The belief is based on 'intuitions or indefinite grounds', which implies drawing a conclusion through internal processing rather than direct observation, aligning with inference."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of coming to believe."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The phrase 'come to believe' and the basis on 'emotion, intuitions' suggests a cognitive process that occurs rather than one driven by strong conscious will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of coming to believe itself is neutral; any positive or negative sentiment would stem from the content of the belief or its implications."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Forming a belief 'on the basis of emotion, intuitions, or indefinite grounds' is typically not a deliberate, intentional choice, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": -1.0,
+        "reasoning": "The belief is formed on 'indefinite grounds', which inherently implies a low level of certainty or points towards speculation rather than certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of forming a particular belief."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "find.v.05",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "find.v.05",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion. 'person.n.01' represents a human being, which is typically the entity that fulfills the 'experiencer' semantic role."
+      }
+    ]
+  }
+}

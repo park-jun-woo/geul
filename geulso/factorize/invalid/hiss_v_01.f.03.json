@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "hiss.v.01",
+    "definition": "make a sharp hissing sound, as if to show disapproval",
+    "frame_id": 3,
+    "frame_text": "Somebody sizz",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "vocalization.n.01",
+        "reasoning": "The verb describes the act of producing an audible sound, as indicated by 'make a sharp hissing sound' and hypernym 'utter'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who intentionally generates the sound."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "hissing.a.01",
+        "reasoning": "The definition explicitly specifies 'a sharp hissing sound', indicating the distinct manner and quality of the vocalization."
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "expression.n.01",
+        "value_type": "disapproval.n.01",
+        "reasoning": "The phrase 'as if to show disapproval' indicates the communicative intent or purpose behind making the sound."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of hissing is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody sizz' implies an agent acting with will to produce the sound."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly includes 'as if to show disapproval', which carries a negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody sizz' indicates a volitional agent performing the action, especially with the purpose of showing disapproval."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of hissing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The definition 'make a sharp hissing sound' implies a single instance of producing the sound, even if the sound itself can be sustained."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "hiss.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "hiss.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "noise.n.02",
+        "corrected_reasoning": "Selected 'noise.n.02' from candidates list as it perfectly describes the sound quality of 'hiss' (lacks musical quality)."
+      }
+    ],
+    "participants": []
+  }
+}

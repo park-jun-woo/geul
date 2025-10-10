@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "corrupt.v.01",
+    "definition": "corrupt morally or by intemperance or sensuality",
+    "frame_id": 16,
+    "frame_text": "Something deprave somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moral_quality.n.01",
+        "reasoning": "The definition 'corrupt morally' describes causing a change in the moral quality of an individual, from a neutral or positive state to a debased one.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the moral corruption, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change in moral quality due to the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of corrupting can be directly observed or inferred from its effects on an individual's moral state."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of change."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The causal agent is 'Something', indicating a lack of will or intention for the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'corrupt morally' inherently carries a strong negative sentiment, indicating a detrimental change."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something deprave somebody' explicitly states a non-volitional agent ('Something') performing the action, making the event non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single, although possibly gradual, event of causing corruption."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "corrupt.v.01",
+        "frame_id": 16,
+        "key": "verb_property",
+        "value": "moral_quality.n.01",
+        "reasoning": "verb_property 'moral_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "solidity.n.03",
+            "description": "the quality of being solid and reliable financially or factually or morally (gloss match)"
+          },
+          {
+            "synset_id": "immorality.n.01",
+            "description": "the quality of not being in accord with standards of right or good conduct (gloss match)"
+          },
+          {
+            "synset_id": "evil.n.03",
+            "description": "the quality of being morally wrong in principle or practice (gloss match)"
+          },
+          {
+            "synset_id": "amorality.n.01",
+            "description": "the quality of being amoral (gloss match)"
+          },
+          {
+            "synset_id": "decency.n.01",
+            "description": "the quality of conforming to standards of propriety and morality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "corrupt.v.01",
+        "frame_id": 16,
+        "key": "verb_property",
+        "corrected_value": "immorality.n.01",
+        "corrected_reasoning": "Selected 'immorality.n.01' from candidates as it is a direct and precise semantic replacement for 'moral_quality' in the context of the verb 'corrupt', which means to make something morally bad."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "original": {
+    "synset_id": "drip.v.01",
+    "definition": "fall in drops",
+    "frame_id": 1,
+    "frame_text": "Something is driping PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'drip' describes a downward change in the location of a liquid or substance, consistent with 'fall'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' (typically a liquid or viscous substance) that is undergoing the motion, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "direction.n.01",
+            "value_type": "downwards.adv.01",
+            "reasoning": "The definition 'fall in drops' inherently specifies a downward direction for the motion."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "reasoning": "The 'PP' in the verb frame indicates the location where the drops arrive or onto which they fall."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "in_drops.adv.01",
+        "reasoning": "The core of the definition 'fall in drops' specifies the distinctive manner in which the motion occurs, distinguishing it from other forms of falling or flowing."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Dripping is a physical phenomenon typically perceived directly through sight or sound."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's primary meaning is declarative, stating an observable event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no agentive will or intention behind the action."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb frame 'Something is driping' explicitly uses the progressive aspect ('is -ing'), indicating an ongoing event."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of dripping itself is neutral; any positive or negative sentiment is context-dependent."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' indicates a non-agentive entity, meaning the action is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite, observable physical event."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Dripping inherently involves a continuous or highly repetitive series of individual drops falling, rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "drip.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "downwards.adv.01",
+        "reasoning": "value_type 'downwards.adv.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "down.r.01",
+            "description": "spatially or metaphorically from a higher to a lower level or position (lemma match)"
+          },
+          {
+            "synset_id": "transposition.n.07",
+            "description": "(music) playing in a different key from the key intended; moving the pitch of a piece of music upwards or downwards (gloss match)"
+          },
+          {
+            "synset_id": "duck.v.01",
+            "description": "to move (the head or body) quickly downwards or away (gloss match)"
+          },
+          {
+            "synset_id": "dip.v.09",
+            "description": "slope downwards (gloss match)"
+          },
+          {
+            "synset_id": "pronate.v.01",
+            "description": "turn the forearm or the hand so that the palm is directed downwards (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "drip.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "down.r.01",
+        "corrected_reasoning": "Candidate 'down.r.01' is a perfect semantic and contextual match for 'downwards.adv.01'."
+      }
+    ]
+  }
+}

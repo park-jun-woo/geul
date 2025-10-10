@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "intoxicate.v.02",
+    "definition": "make drunk (with alcoholic drinks)",
+    "frame_id": 0,
+    "frame_text": "Something inebriate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.01",
+        "reasoning": "The verb describes a causative action that results in a change of the 'somebody's' physiological state to being drunk, implying a transition from a sober state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the change in state, as specified by the verb frame. This is the entity bringing about the intoxication."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change of state and becomes intoxicated."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "resultant_state.n.01",
+        "value_type": "drunk.a.01",
+        "reasoning": "The core semantic outcome of the verb is the state of being 'drunk' or 'intoxicated' for the patient."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "means.n.01",
+        "value_type": "alcoholic_drink.n.01",
+        "reasoning": "The definition explicitly states 'with alcoholic drinks' as the means by which intoxication occurs."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of making someone drunk and the state of intoxication are typically directly observable phenomena."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the causal agent in the frame does not possess will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The state of being 'drunk' is generally considered negative due to impaired function and potential harm."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject of the verb is 'Something', indicating a non-volitional entity causing the action. The process of becoming intoxicated itself is not a volitional act of the patient."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of causation leading to a definite state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, distinct event of making someone drunk. While it can be repeated, the verb itself refers to one instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "intoxicate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "resultant_state.n.01",
+        "reasoning": "verb_property 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "intoxicate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}

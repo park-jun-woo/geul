@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "suffer.v.10",
+    "definition": "undergo or suffer",
+    "frame_id": 1,
+    "frame_text": "Somebody suffer something",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "experience.n.01",
+        "reasoning": "The verb 'suffer' in this sense, defined as 'undergo or suffer', describes the ongoing process of experiencing an event or condition, often undesirable. Its hypernym 'experience.v.01' ('go or live through') reinforces the 'process' nature.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' is the one who undergoes or lives through the experience, not actively causing it."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "event.n.01",
+            "reasoning": "The 'something' is the event, condition, or consequence that is experienced or undergone by the subject."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of suffering or undergoing something is typically a direct experience for the subject."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Somebody' is undergoing an experience, implying they are subject to it rather than acting with conscious will or intention to perform the suffering."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "While 'undergo' can be neutral, the explicit presence of 'suffer' in the definition and the synset ID 'suffer.v.10' carries an inherent negative connotation, implying distress or hardship."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "To 'suffer' or 'undergo' something means it happens to the subject; it is not an intentional act performed by the subject, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "When someone suffers something, it is presented as a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of undergoing an event or entering a state of suffering, even if the process itself might be prolonged."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suffer.v.10",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suffer.v.10",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'undergoer.n.01' semantically matches the concept of an experiencer (one who undergoes an experience). (Original suggestion 'undergoer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

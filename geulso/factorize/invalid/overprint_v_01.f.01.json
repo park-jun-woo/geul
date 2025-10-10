@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "overprint.v.01",
+    "definition": "print (additional text or colors) onto an already imprinted paper",
+    "frame_id": 1,
+    "frame_text": "Somebody print_over something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "visual_information.n.01",
+        "reasoning": "The verb describes an action that alters the visual information content on a surface by adding new elements.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' (e.g., a printing machine) that performs the action of adding visual information."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., a paper) whose visual information content is modified."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "superimposed.a.01",
+        "reasoning": "The 'over-' prefix and the definition 'additional text or colors onto an already imprinted paper' specify that the new content is applied on top of existing visual information in a layered fashion."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Overprinting is a directly observable mechanical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame, typically a machine, lacks inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of overprinting is neutral; its sentiment depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (e.g., a machine) performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of overprinting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of adding content to a particular piece of paper. While it can be repeated for many papers, the verb itself describes one act."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "overprint.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "visual_information.n.01",
+        "reasoning": "verb_property 'visual_information.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "audiovisual.n.01",
+            "description": "materials using sight or sound to present information (gloss match)"
+          },
+          {
+            "synset_id": "display.n.06",
+            "description": "an electronic device that represents information in visual form (gloss match)"
+          },
+          {
+            "synset_id": "readout.n.03",
+            "description": "an electronic device the displays information is a visual form (gloss match)"
+          },
+          {
+            "synset_id": "chart.n.01",
+            "description": "a visual display of information (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "overprint.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "graphic.n.01",
+        "corrected_reasoning": "LLM suggestion: 'graphic.n.01' semantically matches 'visual information' as an image or picture, fitting the context of what can be overprinted."
+      }
+    ],
+    "participants": []
+  }
+}

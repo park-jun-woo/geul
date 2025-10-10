@@ -1,0 +1,137 @@
+{
+  "original": {
+    "synset_id": "betroth.v.01",
+    "definition": "give to in marriage",
+    "frame_id": 7,
+    "frame_text": "Somebody plight somebody PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "commitment.n.01",
+        "reasoning": "The verb 'betroth' describes the act of formally establishing a commitment, specifically a pre-marital commitment, which signifies a change in relational status.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of betrothing or arranging the betrothal, as indicated by the subject of the frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is being formally committed to marriage, functioning as the direct object of the verb."
+          },
+          {
+            "semantic_role": "co_participant.n.01",
+            "reasoning": "The individual specified by the 'PP' (prepositional phrase) to whom the patient is being committed in marriage, representing the other party in the betrothal."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "A betrothal is a formal act that is typically directly observed or publicly announced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's strong will and intention to establish the commitment."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of betrothal itself is neutral; its positive or negative sentiment depends on the specific context and individuals involved."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the act of betrothing."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of betrothing implies a definite and certain establishment of a commitment."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "A betrothal is a singular, formal event that marks the initiation of a commitment, not a repetitive action."
+      },
+      "Politeness": {
+        "value": 1.0,
+        "reasoning": "The term 'betroth' and the concept of 'plighting' suggest a formal and traditional context for the action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "betroth.v.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "value": "co_participant.n.01",
+        "reasoning": "semantic_role 'co_participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "guessing_game.n.01",
+            "description": "a game in which participants compete to identify some obscurely indicated thing (gloss match)"
+          },
+          {
+            "synset_id": "sweepstakes.n.01",
+            "description": "a lottery in which the prize consists of the money paid by the participants (gloss match)"
+          },
+          {
+            "synset_id": "honor_system.n.01",
+            "description": "a system of conduct in which participants are trusted not to take unfair advantage of others (gloss match)"
+          },
+          {
+            "synset_id": "pyramid_scheme.n.01",
+            "description": "a fraudulent scheme in which people are recruited to make payments to the person who recruited them while expecting to receive payments from the persons they recruit; when the number of new recruits fails to sustain the hierarchical payment structure the scheme collapses with most of the participants losing the money they put in (gloss match)"
+          },
+          {
+            "synset_id": "deixis.n.01",
+            "description": "the function of pointing or specifying from the perspective of a participant in an act of speech or writing; aspects of a communication whose interpretation depends on knowledge of the context in which the communication occurs (gloss match)"
+          },
+          {
+            "synset_id": "experimenter_bias.n.01",
+            "description": "(psychology) bias introduced by an experimenter whose expectations about the outcome of the experiment can be subtly communicated to the participants in the experiment (gloss match)"
+          },
+          {
+            "synset_id": "gag_order.n.01",
+            "description": "a court order restricting information or comment by the participants involved in a lawsuit (gloss match)"
+          },
+          {
+            "synset_id": "clearing_house.n.01",
+            "description": "a central collection place where banks exchange checks or drafts; participants maintain an account against which credits or debits are posted (gloss match)"
+          },
+          {
+            "synset_id": "symposium.n.01",
+            "description": "a meeting or conference for the public discussion of some topic especially one in which the participants form an audience and make presentations (gloss match)"
+          },
+          {
+            "synset_id": "player.n.05",
+            "description": "an important participant (as in a business deal) (gloss match)"
+          },
+          {
+            "synset_id": "active_birth.n.01",
+            "description": "childbirth during which the mother is encouraged to be an active participant (gloss match)"
+          },
+          {
+            "synset_id": "shakeout.n.01",
+            "description": "an economic condition that results in the elimination of marginally financed participants in an industry (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "betroth.v.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "corrected_value": "participant.n.01",
+        "corrected_reasoning": "LLM suggestion: 'participant.n.01' is a general and fitting semantic role for the original invalid 'co_participant.n.01', as none of the provided candidates represent a semantic role."
+      }
+    ]
+  }
+}

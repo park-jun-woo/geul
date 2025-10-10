@@ -1,0 +1,118 @@
+{
+  "original": {
+    "synset_id": "splice.v.03",
+    "definition": "join together so as to form new genetic combinations",
+    "frame_id": 0,
+    "frame_text": "Somebody splice something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "combination.n.01",
+        "reasoning": "The definition 'join together so as to form new genetic combinations' describes an action that causes a change in the state of genetic material, from separate components to a combined form.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the act of joining/combining, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "genetic_material.n.01",
+            "reasoning": "The 'something' that is subjected to the splicing, resulting in new genetic combinations."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of splicing is typically a directly observable or documented process in a scientific context."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with intent and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of splicing itself is a neutral process; its ethical or practical implications depend on context, not the verb's inherent meaning."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody splice something' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'splice' describes a definite action, implying certainty in its occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete event of joining genetic material, rather than a continuous or highly repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "splice.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "genetic_material.n.01",
+        "reasoning": "value_type 'genetic_material.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "somatic_cell_nuclear_transplantation.n.01",
+            "description": "moving a cell nucleus and its genetic material from one cell to another (gloss match)"
+          },
+          {
+            "synset_id": "human_genome_project.n.01",
+            "description": "an international study of the entire human genetic material (gloss match)"
+          },
+          {
+            "synset_id": "molecular_genetics.n.01",
+            "description": "the branch of genetics concerned with the structure and activity of genetic material at the molecular level (gloss match)"
+          },
+          {
+            "synset_id": "identical_twin.n.01",
+            "description": "either of two twins developed from the same fertilized ovum (having the same genetic material) (gloss match)"
+          },
+          {
+            "synset_id": "transduction.n.01",
+            "description": "(genetics) the process of transfering genetic material from one cell to another by a plasmid or bacteriophage (gloss match)"
+          },
+          {
+            "synset_id": "lysogeny.n.01",
+            "description": "the condition of a host bacterium that has incorporated a phage into its own genetic material (gloss match)"
+          },
+          {
+            "synset_id": "williams_syndrome.n.01",
+            "description": "a rare congenital disorder associated with deletion of genetic material in chromosome 7; characterized by mental deficiency and some growth deficiency and elfin faces but an overly social personality and a remarkable gift for vocabulary (gloss match)"
+          },
+          {
+            "synset_id": "provirus.n.01",
+            "description": "cDNA copy of the RNA genome of a retrovirus; the genetic material of a virus as incorporated into and able to replicate with the genome of a host cell (gloss match)"
+          },
+          {
+            "synset_id": "ribonucleic_acid.n.01",
+            "description": "(biochemistry) a long linear polymer of nucleotides found in the nucleus but mainly in the cytoplasm of a cell where it is associated with microsomes; it transmits genetic information from DNA to the cytoplasm and controls certain chemical processes in the cell (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "splice.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "genome.n.01",
+        "corrected_reasoning": "LLM suggestion: 'genome.n.01' is defined as 'all of the genetic material in an organism', providing a perfect semantic and contextual fit for the general concept of genetic material."
+      }
+    ]
+  }
+}

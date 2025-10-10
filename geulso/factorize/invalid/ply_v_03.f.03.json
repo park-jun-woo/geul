@@ -1,0 +1,100 @@
+{
+  "original": {
+    "synset_id": "ply.v.03",
+    "definition": "travel a route regularly",
+    "frame_id": 3,
+    "frame_text": "Something is runing PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'ply' in this sense describes the act of continuous travel or movement, indicating a change in spatial location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the travel, as specified by the verb frame 'Something is runing PP' (interpreted for 'ply')."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "route.n.01",
+            "reasoning": "The definition 'travel a route' indicates the path itself as the primary object that is traversed."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'PP' in the verb frame (e.g., 'plying between') further specifies the area, origin, or destination along the route."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "temporal_pattern.n.01",
+        "value_type": "habitual.a.01",
+        "reasoning": "The adverb 'regularly' in the definition signifies a consistent, repeated pattern of travel, making this a core semantic characteristic of this verb sense."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of 'plying' a route is an observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or ongoing activity."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the verb frame (e.g., a vehicle) indicates an inanimate or non-agentive entity, which does not possess will or intention for the action itself."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of plying a route is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is ----ing PP' with 'Something' as the subject indicates that the action is performed by a non-agentive entity, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement describes a definite, existing activity."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'travel a route regularly' explicitly implies high, continuous repetition of the travel activity over time."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The `verb_frame` 'Something is runing PP' (interpreted as 'Something is plying PP' for the verb 'ply') explicitly uses the progressive 'is -ing' construction, indicating an ongoing action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "ply.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "temporal_pattern.n.01",
+        "reasoning": "verb_property 'temporal_pattern.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "ply.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "periodicity.n.01",
+        "corrected_reasoning": "LLM suggestion: 'periodicity.n.01' perfectly captures the concept of a 'temporal pattern' as a verb property, referring to actions recurring at regular intervals."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "crackle.v.03",
+    "definition": "to become, or to cause to become, covered with a network of small cracks",
+    "frame_id": 0,
+    "frame_text": "It is crackleing",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "integrity.n.01",
+        "reasoning": "The definition 'to become... covered with a network of small cracks' describes a process where the physical completeness or structure of an object is altered.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the change of state, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "surface_condition.n.01",
+        "value_type": "covered with a network of small cracks",
+        "reasoning": "This sememe specifies the particular resultant state or characteristic of the surface after the change, detailing the nature of the cracks as implied by 'crackle'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of crackling (forming cracks) is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something crackle' lacks an agent, thus no will is involved in the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The physical process of crackling is neutral; its sentiment depends on context (e.g., paint crackling vs. glass crackling)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something crackle' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of crackling is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'network of small cracks' implies multiple, often continuous or closely spaced, instances of cracking, suggesting high repetition or a distributed process rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "crackle.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "crackle.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "texture.n.01",
+        "corrected_reasoning": "LLM suggestion: 'texture.n.01' semantically captures the idea of a 'surface condition' (the characteristic structure/feel of a surface) and is a plausible verb property for 'crackle.v.03'."
+      }
+    ],
+    "participants": []
+  }
+}

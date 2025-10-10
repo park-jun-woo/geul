@@ -1,0 +1,62 @@
+{
+  "synset_id": "distribute.v.04",
+  "definition": "give to several people",
+  "frame_id": 3,
+  "frame_text": "Somebody give_out somebody something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "distribution.n.01",
+      "reasoning": "The verb's definition 'give to several people' describes the act of allocating or spreading something among multiple recipients. 'Distribution.n.01' in WordNet means 'the act of distributing or spreading or apportioning'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of distributing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being distributed, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the distributed items; this role implies multiple recipients due to the nature of distribution ('several people' in the definition)."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "gift.n.02",
+      "reasoning": "The hypernym 'give.v.08' (meaning 'give as a present') specifies that this distribution is performed in the manner of presenting a gift, indicating the inherent nature of the distributed item or the context of its transfer."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is neutral; the specific items distributed or the context can determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody give_out...' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of distribution is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of distributing items to multiple recipients, rather than a continuous, highly repetitive action composed of individual, identical sub-actions."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "sparkle.v.01",
+    "definition": "reflect brightly",
+    "frame_id": 2,
+    "frame_text": "Something sparkle",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "light_emission.n.01",
+        "reasoning": "The definition 'reflect brightly' describes an ongoing physical phenomenon where an object produces or reflects light.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes or exhibits the process of light emission/reflection, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "brightness.n.01",
+        "reasoning": "The adverb 'brightly' in the definition specifies the intensity and quality of the light produced during the sparkling process, indicating a specific manner."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sparkling is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something sparkle' implies no agent with will, as the action is non-volitional."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sparkling is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something sparkle' describes an event happening to a non-agentive subject, making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite observation or state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Sparkling typically involves numerous, often rapid, intermittent flashes or glints of light, suggesting a high degree of repetition in the visual phenomenon."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sparkle.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "light_emission.n.01",
+        "reasoning": "verb_property 'light_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "laser.n.01",
+            "description": "an acronym for light amplification by stimulated emission of radiation; an optical device that produces an intense monochromatic beam of coherent light (gloss match)"
+          },
+          {
+            "synset_id": "orthicon.n.01",
+            "description": "a now obsolete picture pickup tube in a television camera; electrons emitted from a photoemissive surface in proportion to the intensity of the incident light are focused onto the target causing secondary emission of electrons (gloss match)"
+          },
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          },
+          {
+            "synset_id": "incandescence.n.01",
+            "description": "the phenomenon of light emission by a body as its temperature is raised (gloss match)"
+          },
+          {
+            "synset_id": "elves.n.01",
+            "description": "an acronym for emissions of light and very low frequency perturbations due to electromagnetic pulse sources; extremely bright extremely short (less than a msec) electrical flashes forming a huge ring (up to 400 km diameter) in the ionosphere (gloss match)"
+          },
+          {
+            "synset_id": "lightning.n.01",
+            "description": "abrupt electric discharge from cloud to cloud or from cloud to earth accompanied by the emission of light (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sparkle.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "luminosity.n.01",
+        "corrected_reasoning": "LLM suggestion: 'luminosity.n.01' perfectly captures the concept of emitting light as a property of sparkling."
+      }
+    ],
+    "participants": []
+  }
+}

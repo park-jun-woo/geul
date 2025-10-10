@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "demagnetize.v.01",
+    "definition": "erase (a magnetic storage device)",
+    "frame_id": 0,
+    "frame_text": "Somebody demagnetise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "integrity.n.01",
+        "reasoning": "The verb describes causing a change in the state of a magnetic storage device from containing magnetic information (its integrity) to being without it, effectively erasing the data.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally initiates the demagnetization process."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "magnetic_storage_device.n.01",
+            "reasoning": "The 'something' (magnetic storage device) that undergoes the change of state, losing its magnetic integrity and recorded information."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Demagnetizing is a physical process that is directly observable or verifiable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of demagnetizing is neutral; its sentiment depends on the context (e.g., secure erasure vs. accidental data loss)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody demagnetize something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of demagnetizing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of demagnetizing a specific item. While the process might take time, the action itself constitutes one event of completion."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "demagnetize.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "magnetic_storage_device.n.01",
+        "reasoning": "value_type 'magnetic_storage_device.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "magnetic_bubble_memory.n.01",
+            "description": "a nonvolatile storage device that holds information in the form of bubbles on a thin film of magnetic silicate; no longer used in most computers (gloss match)"
+          },
+          {
+            "synset_id": "disk_pack.n.01",
+            "description": "(computer science) a portable pack of magnetic disks used in a disk storage device (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "demagnetize.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "magnetic_storage.n.01",
+        "corrected_reasoning": "LLM suggestion: 'magnetic_storage.n.01' is a general term for a storage device that uses magnetic properties, which perfectly matches the intended meaning of the invalid 'magnetic_storage_device.n.01'."
+      }
+    ]
+  }
+}

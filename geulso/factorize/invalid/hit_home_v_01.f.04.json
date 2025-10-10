@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "hit_home.v.01",
+    "definition": "refer to or be relevant or familiar to",
+    "frame_id": 4,
+    "frame_text": "Something strike_home",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cognition.n.01",
+        "reasoning": "The verb describes an event where 'Something' causes a shift in an implicit experiencer's internal state, resulting in deep understanding, familiarity, or emotional resonance, which is a change in cognitive or emotional possession.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame acts as the stimulus or source of the cognitive/emotional impact, even if non-volitional.",
+            "value_type": "thing.n.01"
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The implicit sentient being for whom the 'Something' becomes relevant, familiar, or deeply impactful, undergoing the internal change.",
+            "value_type": "person.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "high.a.01",
+        "reasoning": "The idiomatic 'home' in 'hit home' signifies that the impact is profound, significant, or deeply felt/understood, indicating a high degree of intensity."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes an impact that is directly experienced by the affected individual or can be directly observed through their reaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event that occurs."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' indicates that the action is not driven by an agent's will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of 'hitting home' is neutral; the resulting impact or realization can be perceived as positive or negative depending on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something strike_home' explicitly features a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The phrase 'hit home' implies a definite occurrence of the impact or realization."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The phrase typically describes a singular, discrete event of impact or realization, even if its effects are lasting."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hit_home.v.01",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hit_home.v.01",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'experiencer' typically refers to a sentient entity. 'person.n.01' is a common and appropriate synset for this semantic role."
+      }
+    ]
+  }
+}

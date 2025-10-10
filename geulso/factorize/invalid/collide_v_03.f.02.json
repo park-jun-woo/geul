@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "collide.v.03",
+    "definition": "crash together with violent impact",
+    "frame_id": 2,
+    "frame_text": "Somebody collide",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_contact.n.01",
+        "reasoning": "The verb 'collide' describes a forceful coming together of entities, resulting in a state of physical contact and impact, which is a change from a state of non-contact.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the primary entity undergoing or involved in the collision."
+          },
+          {
+            "semantic_role": "co-patient.n.01",
+            "reasoning": "The prepositional phrase (PP) in the frame typically denotes the other entity with which the subject collides, functioning as a co-participant in the impact."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The definition 'crash together with violent impact' explicitly indicates a high degree of force or intensity as a core component of the collision event."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "A collision is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame implies a non-agentive participant, hence no inherent will or intention driving the action."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb frame 'Something is collideing PP' uses the progressive aspect, indicating an ongoing event."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb 'collide' itself does not carry inherent politeness markers; its usage is neutral."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The terms 'crash' and 'violent impact' in the definition carry negative connotations, implying an undesirable or damaging event."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is collideing PP' indicates that the subject 'Something' is non-volitional; the collision occurs without its intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement of a collision typically implies a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "A collision is generally understood as a single, distinct event of impact, even if it has a short duration."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "collide.v.03",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "co-patient.n.01",
+        "reasoning": "semantic_role 'co-patient.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "collide.v.03",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found in list or via LLM knowledge for invalid semantic role 'co-patient.n.01'."
+      }
+    ]
+  }
+}

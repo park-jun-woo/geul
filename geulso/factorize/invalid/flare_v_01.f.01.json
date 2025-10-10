@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "flare.v.01",
+    "definition": "burn brightly",
+    "frame_id": 1,
+    "frame_text": "Something burn_up",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "combustion.n.01",
+        "reasoning": "The definition 'burn brightly' and hypernym 'burn' indicate that the core meaning is the process of undergoing combustion.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the frame is the entity that undergoes the process of burning."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "visual_quality.n.01",
+        "value_type": "bright.a.01",
+        "reasoning": "The 'brightly' in the definition specifies a distinct visual characteristic of the burning process."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of flaring or burning brightly is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something burn_up' implies no agent and thus no will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of flaring is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something burn_up' indicates a non-volitional subject ('Something') undergoing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of flaring is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Burning brightly implies a continuous process rather than a single discrete event, indicating high iterativity for the micro-events of combustion."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "flare.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "visual_quality.n.01",
+        "reasoning": "verb_property 'visual_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "emblem.n.01",
+            "description": "special design or visual object representing a quality, type, group, etc. (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "flare.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "visibility.n.01",
+        "corrected_reasoning": "LLM suggestion: 'visibility.n.01' is a perfect semantic fit for 'visual_quality' as a property of a verb like 'flare.v.01' (to shine brightly)."
+      }
+    ],
+    "participants": []
+  }
+}

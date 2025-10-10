@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "swell.v.02",
+    "definition": "become filled with pride, arrogance, or anger",
+    "frame_id": 0,
+    "frame_text": "Something puff_up",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "internal_state.n.01",
+        "reasoning": "The verb describes a transition or intensification in the subject's internal emotional or mental state, moving from a less affected state to one that is 'filled'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the internal emotional change, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "degree.n.01",
+        "value_type": "high.a.01",
+        "reasoning": "The phrase 'become filled with' indicates a high degree or intensity of the specified emotions, which is an inherent part of this verb's meaning."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "emotion.n.01",
+        "value_type": "emotion.n.01",
+        "reasoning": "The definition specifies the content of the internal state as 'pride, arrogance, or anger', which are all types of emotions. 'emotion.n.01' serves as a general category for these specific affects."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Internal emotional changes are typically experienced directly by the subject or directly observable through their manifestations by an observer."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or a change of state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something swell' lacks an agent capable of will, and the 'swelling' is an internal, often reactive, process rather than a willed action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The emotions specified ('pride, arrogance, or anger') are often presented with a negative connotation, especially when reaching a 'filled' or excessive state (e.g., 'swelling with arrogance')."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something swell' describes an internal change happening to a non-agentive subject ('Something'). Even if the subject is animate, the emotional 'swelling' is typically an involuntary reaction, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of an emotional change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of becoming filled with an emotion, representing a transition to a new state rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "swell.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "internal_state.n.01",
+        "reasoning": "verb_property 'internal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "federation.n.03",
+            "description": "the act of constituting a political unity out of a number of separate states or colonies or provinces so that each member retains the management of its internal affairs (gloss match)"
+          },
+          {
+            "synset_id": "inwardness.n.03",
+            "description": "the quality or state of being inward or internal (gloss match)"
+          },
+          {
+            "synset_id": "protectorate.n.01",
+            "description": "a state or territory partly controlled by (but not a possession of) a stronger state but autonomous in internal affairs; protectorates are established by treaty (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "swell.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "inwardness.n.03",
+        "corrected_reasoning": "Candidate 'inwardness.n.03' is a perfect semantic and contextual fit for 'internal_state.n.01', as it describes the quality or state of being inward or internal."
+      }
+    ],
+    "participants": []
+  }
+}

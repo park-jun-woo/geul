@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "bifurcate.v.02",
+    "definition": "divide into two branches",
+    "frame_id": 0,
+    "frame_text": "Something bifurcate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "unity.n.01",
+        "reasoning": "The verb describes a process where a single entity transitions from a unified state to a divided one.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the division and changes its state of unity."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "resultant_form.n.01",
+        "value": "two branches",
+        "reasoning": "The explicit semantic component of 'bifurcate' is that the division results in the formation of two distinct branches or parts."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of bifurcation is typically a directly observable event or process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something bifurcate' lacks an explicit agent, implying the action occurs without an agent's will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of bifurcating is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something bifurcate' indicates a non-agentive subject, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description of an event implies a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete event of dividing into two."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "bifurcate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "resultant_form.n.01",
+        "reasoning": "verb_property 'resultant_form.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "bifurcate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "bifurcation.n.01",
+        "corrected_reasoning": "LLM suggestion: 'bifurcation.n.01' perfectly describes the resultant form of the verb 'bifurcate', meaning 'a split or division into two branches'."
+      }
+    ],
+    "participants": []
+  }
+}

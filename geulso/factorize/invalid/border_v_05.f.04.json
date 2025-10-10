@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "border.v.05",
+    "definition": "lie adjacent to another or share a boundary",
+    "frame_id": 4,
+    "frame_text": "Something butt_against something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "relation.n.01",
+        "reasoning": "The verb describes a spatial relationship or adjacency between two entities, indicating a state rather than an action or change.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The first 'Something' in the frame, which is in the state of bordering or lying adjacent."
+          },
+          {
+            "semantic_role": "related_entity.n.01",
+            "reasoning": "The second 'something' in the frame, which the first entity borders or lies adjacent to, indicating the other part of the relationship."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of two things bordering each other is typically directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a factual relationship or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subjects ('Something') are inanimate and cannot exert will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of bordering or sharing a boundary is inherently neutral."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something butt_against something' describes a physical state or relationship between inanimate objects, which is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite, observable state of adjacency."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a state verb, it describes a continuous or static condition, not a repetitive event. It is considered a single, ongoing instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "border.v.05",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "value": "related_entity.n.01",
+        "reasoning": "semantic_role 'related_entity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "system.n.01",
+            "description": "instrumentality that combines interrelated interacting artifacts designed to work as a coherent entity (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "border.v.05",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "The candidate 'system.n.01' is not a perfect semantic and contextual fit for 'related_entity.n.01'. No other perfect replacement could be identified from internal knowledge that maintains the generic 'related entity' concept for a semantic role."
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "original": {
+    "synset_id": "elapse.v.01",
+    "definition": "pass by",
+    "frame_id": 12,
+    "frame_text": "Something is slip_bying PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'elapse' describes the progression or movement of time, indicating a change in its temporal position.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "time.n.01",
+            "reasoning": "The 'Something' in the frame refers to a duration of time or a temporal entity that undergoes the action of passing."
+          },
+          {
+            "semantic_role": "temporal_location.n.01",
+            "reasoning": "The 'PP' (prepositional phrase) specifies a temporal context, landmark, or destination relative to which time passes."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "gradually.r.01",
+        "reasoning": "The lexicalization 'slip_bying' in the verb frame emphasizes a manner of passing that is smooth, gradual, or often unnoticed."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The passage of time is a universally direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating the fact of time passing."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Time, as the subject 'Something', has no will or intention."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something is slip_bying' indicates a present tense action."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The 'is slip_bying' construction clearly indicates a progressive aspect, showing ongoing action."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The expression is neutral in terms of politeness."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of time passing is inherently neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Time (the 'Something' in the frame) is an inanimate entity and cannot act volitionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The passage of time is a certain and undeniable phenomenon."
+      },
+      "Iterativity": {
+        "value": "MAX",
+        "reasoning": "The verb describes the continuous and infinite progression of time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "elapse.v.01",
+        "frame_id": 12,
+        "key": "semantic_role",
+        "value": "temporal_location.n.01",
+        "reasoning": "semantic_role 'temporal_location.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "deictic.n.01",
+            "description": "a word specifying identity or spatial or temporal location from the perspective of a speaker or hearer in the context in which the communication occurs; - R.Rommetveit (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "elapse.v.01",
+        "frame_id": 12,
+        "key": "semantic_role",
+        "corrected_value": "point_in_time.n.01",
+        "corrected_reasoning": "LLM suggestion: 'point_in_time.n.01' semantically matches 'temporal_location' as an instant or specific moment in time."
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "original": {
+    "synset_id": "hiccup.v.01",
+    "definition": "breathe spasmodically, and make a sound",
+    "frame_id": 1,
+    "frame_text": "Somebody hiccup",
+    "sememes": [
+      {
+        "verb_type": "event",
+        "verb_property": "physiological_process.n.01",
+        "reasoning": "The verb describes a discrete, involuntary bodily event, specifically related to physiological processes like breathing.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' in the frame is the entity that undergoes or experiences the physiological event of hiccupping."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "spasmodic.a.01",
+        "reasoning": "The definition explicitly states 'breathe spasmodically', indicating a characteristic manner of the breathing involved in a hiccup."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "auditory_manifestation.n.01",
+        "value_type": "audible.a.01",
+        "reasoning": "The definition includes 'and make a sound', signifying that producing an audible sound is an inherent characteristic of the hiccup event."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Hiccupping is a directly observable physiological phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Hiccupping is an involuntary bodily function, not driven by the agent's will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of hiccupping is a neutral bodily event; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Hiccupping is an involuntary reflex; the 'Somebody' subject does not intentionally perform it."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the physiological event."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'hiccup' refers to a single instance of the spasmodic breathing and sound. While hiccups often occur in series, the base verb itself describes one such event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "hiccup.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "physiological_process.n.01",
+        "reasoning": "verb_property 'physiological_process.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "polygraph.n.01",
+            "description": "a medical instrument that records several physiological processes simultaneously (e.g., pulse rate and blood pressure and respiration and perspiration) (gloss match)"
+          },
+          {
+            "synset_id": "biofeedback.n.01",
+            "description": "a training program in which a person is given information about physiological processes (heart rate or blood pressure) that is not normally available with the goal of gaining conscious control of them (gloss match)"
+          },
+          {
+            "synset_id": "physiological_psychology.n.01",
+            "description": "the branch of psychology that is concerned with the physiological bases of psychological processes (gloss match)"
+          },
+          {
+            "synset_id": "bioluminescence.n.01",
+            "description": "luminescence produced by physiological processes (as in the firefly) (gloss match)"
+          },
+          {
+            "synset_id": "autoregulation.n.01",
+            "description": "(physiology) processes that maintain a generally constant physiological state in a cell or organism (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "hiccup.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "auditory_manifestation.n.01",
+        "reasoning": "verb_property 'auditory_manifestation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "hiccup.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "hiccup.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "process.n.06",
+        "corrected_reasoning": "LLM suggestion: `process.n.06` explicitly defines physiological processes."
+      },
+      {
+        "synset_id": "hiccup.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "sound.n.01",
+        "corrected_reasoning": "LLM suggestion: `sound.n.01` is a perfect general semantic and contextual fit for an auditory manifestation."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "hiccup.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No valid WordNet synset perfectly represents the abstract semantic role 'experiencer'."
+      }
+    ]
+  }
+}

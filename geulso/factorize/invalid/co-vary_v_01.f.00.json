@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "co-vary.v.01",
+    "definition": "vary in the same time period (of two random variables)",
+    "frame_id": 0,
+    "frame_text": "Something co-vary",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "variation.n.01",
+        "reasoning": "The verb describes a continuous state where entities are undergoing changes or fluctuations, which is a form of variation.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "plural_entity.n.01",
+            "reasoning": "The 'Something' in the frame, which implicitly refers to multiple entities (e.g., 'two random variables' from the definition) that are in the state of co-variation."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "mutual.a.01",
+        "reasoning": "The 'co-' prefix and the phrase 'in the same time period' from the definition specify that the variation occurs jointly or concurrently between the involved entities, indicating a mutual manner."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Co-variation is an observable phenomenon, often through data analysis or direct observation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a factual relationship or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something co-vary' describes an inherent characteristic or a process without an agent's will or intention."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The verb describes a general, characteristic state or ongoing process of relationship between entities, rather than a specific event or a temporary progressive action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of co-varying is a neutral descriptive term; it does not inherently carry positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something co-vary' features a non-agentive subject ('Something'), indicating that the action is not volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite observed or established relationship or state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The term 'vary' implies continuous or highly repetitive change. 'Co-vary' extends this to multiple entities, suggesting ongoing, highly repetitive fluctuations."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "co-vary.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "plural_entity.n.01",
+        "reasoning": "value_type 'plural_entity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "co-vary.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "set.n.01",
+        "corrected_reasoning": "LLM suggestion: 'set.n.01' semantically represents a collection of entities, fitting the concept of a 'plural_entity' as a value type."
+      }
+    ]
+  }
+}

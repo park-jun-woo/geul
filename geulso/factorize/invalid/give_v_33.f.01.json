@@ -1,0 +1,122 @@
+{
+  "original": {
+    "synset_id": "give.v.33",
+    "definition": "be flexible under stress of physical force",
+    "frame_id": 1,
+    "frame_text": "Something yield",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "shape.n.01",
+        "reasoning": "The verb describes a change in the physical form or shape of an object (by flexing or deforming) in response to an external stimulus, transitioning from its original state to a flexible one.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the change of shape and exhibits flexibility, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "cause.n.01",
+            "value_type": "physical_force.n.01",
+            "reasoning": "The implicit 'physical force' that applies stress and causes the object to flex or yield, as detailed in the definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of an object yielding or flexing under stress is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or characteristic."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame is inanimate and therefore has no will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of being flexible or yielding is inherently neutral; its positive or negative connotation depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' indicates an inanimate subject that cannot act volitionally, and the action is a passive response to force."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the object yielding or showing flexibility."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance or event of an object yielding or flexing under a specific stress."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "give.v.33",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "physical_force.n.01",
+        "reasoning": "value_type 'physical_force.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "torture.n.05",
+            "description": "the deliberate, systematic, or wanton infliction of physical or mental suffering by one or more persons in an attempt to force another person to yield information or to make a confession or for any other reason (gloss match)"
+          },
+          {
+            "synset_id": "force.n.03",
+            "description": "physical energy or intensity (gloss match)"
+          },
+          {
+            "synset_id": "telekinesis.n.01",
+            "description": "the power to move something by thinking about it without the application of physical force (gloss match)"
+          },
+          {
+            "synset_id": "work.n.05",
+            "description": "(physics) a manifestation of energy; the transfer of energy from one physical system to another expressed as the product of a force and the distance through which it moves a body in the direction of that force (gloss match)"
+          },
+          {
+            "synset_id": "force.n.02",
+            "description": "(physics) the influence that produces a change in a physical quantity (gloss match)"
+          },
+          {
+            "synset_id": "stress.n.05",
+            "description": "(physics) force that produces strain on a physical body (gloss match)"
+          },
+          {
+            "synset_id": "strain.n.01",
+            "description": "(physics) deformation of a physical body under the action of applied forces (gloss match)"
+          },
+          {
+            "synset_id": "life_force.n.01",
+            "description": "(biology) a hypothetical force (not physical or chemical) once thought by Henri Bergson to cause the evolution and development of organisms (gloss match)"
+          },
+          {
+            "synset_id": "chemisorption.n.01",
+            "description": "adsorption (especially when irreversible) by means of chemical instead of physical forces (gloss match)"
+          },
+          {
+            "synset_id": "force_unit.n.01",
+            "description": "a unit of measurement of physical force (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "give.v.33",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "force.n.03",
+        "corrected_reasoning": "Candidate 'force.n.03' (physical energy or intensity) is a perfect semantic and contextual match for 'physical_force'."
+      }
+    ]
+  }
+}

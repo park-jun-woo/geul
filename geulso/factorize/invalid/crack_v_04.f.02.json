@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "crack.v.04",
+    "definition": "hit forcefully; deal a hard blow, making a cracking noise",
+    "frame_id": 2,
+    "frame_text": "Somebody crack something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_impact.n.01",
+        "reasoning": "The verb describes an action of physical contact, specifically dealing a forceful blow, which results in a change of state for the patient (from not impacted to impacted).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that delivers the forceful blow, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who receives the forceful blow."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The definition explicitly specifies the hit as 'forcefully' or a 'hard blow', indicating a high degree of intensity."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound.n.01",
+        "value_type": "cracking_noise.n.01",
+        "reasoning": "The definition states that the action results in 'making a cracking noise'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of hitting and the associated noise are typically directly observable phenomena."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') as the causal agent, implying no inherent will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of hitting itself is semantically neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' explicitly features a non-agentive subject ('Something'), making the action non-volitional from the perspective of the initiator."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a definite occurrence of hitting."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, distinct event of striking or delivering a blow."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "crack.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "physical_impact.n.01",
+        "reasoning": "verb_property 'physical_impact.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "crack.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "impact.n.01",
+        "corrected_reasoning": "LLM suggestion: 'impact.n.01' is a valid synset denoting the striking of one body against another, suitable as a verb_property for 'crack.v.04'."
+      }
+    ],
+    "participants": []
+  }
+}

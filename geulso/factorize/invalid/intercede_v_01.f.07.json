@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "intercede.v.01",
+    "definition": "act between parties with a view to reconciling differences",
+    "frame_id": 7,
+    "frame_text": "Somebody liaise PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "relationship.n.01",
+        "reasoning": "The verb describes an action aimed at changing the state of a relationship between parties, moving from a state of difference/disagreement towards reconciliation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the act of intercession or liaison."
+          },
+          {
+            "semantic_role": "involved_parties.n.01",
+            "reasoning": "The 'PP' represents the parties between whom the agent acts, whose relationship is being influenced or mediated."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of interceding or liaising is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of interceding is done 'with a view to reconciling differences', implying a constructive and positive intent to resolve conflict."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody liaise...' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of interceding is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The term 'liaise' often implies sustained communication and repeated interactions to maintain connections or resolve ongoing issues, suggesting a high degree of repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "intercede.v.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "value": "involved_parties.n.01",
+        "reasoning": "semantic_role 'involved_parties.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "direct_trust.n.01",
+            "description": "a trust created by the free and deliberate act of the parties involved (usually on the basis of written documentation) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "intercede.v.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "corrected_value": "participant.n.01",
+        "corrected_reasoning": "LLM suggestion: 'participant.n.01' is a perfect semantic and contextual fit for 'involved_parties' as a semantic role."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "scrape.v.01",
+    "definition": "scratch repeatedly",
+    "frame_id": 5,
+    "frame_text": "Something grate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_state.n.01",
+        "reasoning": "The verb 'scrape' describes an action that causes an alteration to the surface of an object, which constitutes a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which performs the action of scraping."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which is the object whose surface is affected by the scraping."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "abrasion.n.01",
+        "reasoning": "The definition 'scratch repeatedly' and the nature of 'scrape' imply a manner of action involving abrasive contact or friction that causes minor surface damage.",
+        "participants": []
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of scraping is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The grammatical subject 'Something' implies no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of scraping is inherently neutral; its positive or negative connotation depends on the specific context and outcome (e.g., scraping food off a plate vs. scraping a car)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something ----s something' indicates that the subject 'Something' is a non-volitional agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'scratch repeatedly' explicitly indicates high repetition, and the nature of scraping often involves continuous or repeated contact."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "scrape.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "surface_state.n.01",
+        "reasoning": "verb_property 'surface_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "lowland_burrowing_treefrog.n.01",
+            "description": "terrestrial burrowing nocturnal frog of grassy terrain and scrub forests having very hard upper surface of head; of the United States southwest (gloss match)"
+          },
+          {
+            "synset_id": "red-shafted_flicker.n.01",
+            "description": "western United States bird with red undersurface to wings and tail (gloss match)"
+          },
+          {
+            "synset_id": "langmuir.n.01",
+            "description": "United States chemist who studied surface chemistry and developed the gas-filled tungsten lamp and worked on high temperature electrical discharges (1881-1957) (gloss match)"
+          },
+          {
+            "synset_id": "white_poplar.n.01",
+            "description": "a poplar that is widely cultivated in the United States; has white bark and leaves with whitish undersurfaces (gloss match)"
+          },
+          {
+            "synset_id": "desorption.n.01",
+            "description": "changing from an adsorbed state on a surface to a gaseous or liquid state (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "scrape.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "condition.n.01",
+        "corrected_reasoning": "LLM suggestion: 'condition.n.01' (a state at a particular time) is a fitting general concept for the state of a surface, replacing the invalid 'surface_state.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "dehumanize.v.02",
+    "definition": "make mechanical or routine",
+    "frame_id": 2,
+    "frame_text": "Something dehumanise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "human_quality.n.01",
+        "reasoning": "The verb describes an action that causes something to lose its inherent human-like characteristics or spontaneity, transforming it into a mechanical or routine state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that causes the transformation or reduction of human qualities."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change, becoming mechanical or routine."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of making something mechanical or routine is generally a directly observable phenomenon or its effects are directly experienced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or change."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' indicates a lack of will or intention; the action is not driven by an agent's conscious desire."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The term 'dehumanize' inherently carries a negative connotation, implying a loss of valuable attributes associated with being human."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' explicitly includes a non-agentive subject ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of transformation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single, though potentially gradual, act of making something mechanical or routine."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "dehumanize.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "human_quality.n.01",
+        "reasoning": "verb_property 'human_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humanness.n.01",
+            "description": "the quality of being human (gloss match)"
+          },
+          {
+            "synset_id": "particularity.n.01",
+            "description": "the quality of being particular and pertaining to a specific case or instance (gloss match)"
+          },
+          {
+            "synset_id": "humanity.n.01",
+            "description": "the quality of being humane (gloss match)"
+          },
+          {
+            "synset_id": "compassion.n.02",
+            "description": "the humane quality of understanding the suffering of others and wanting to do something about it (gloss match)"
+          },
+          {
+            "synset_id": "atrocity.n.01",
+            "description": "the quality of being shockingly cruel and inhumane (gloss match)"
+          },
+          {
+            "synset_id": "kindness.n.01",
+            "description": "the quality of being warmhearted and considerate and humane and sympathetic (gloss match)"
+          },
+          {
+            "synset_id": "sufficiency.n.03",
+            "description": "the quality of being sufficient for the end in view (gloss match)"
+          },
+          {
+            "synset_id": "human_right.n.01",
+            "description": "(law) any basic right or freedom to which all human beings are entitled and in whose exercise a government may not interfere (including rights to life and liberty as well as freedom of thought and expression and equality before the law) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "dehumanize.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "humanness.n.01",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates list ('the quality of being human')."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "original": {
+    "synset_id": "take_back.v.06",
+    "definition": "cause someone to remember the past",
+    "frame_id": 1,
+    "frame_text": "Something take_back somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "memory.n.01",
+        "reasoning": "The verb describes causing a transition in a person's cognitive state, specifically moving them into a state of remembering the past.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of causing remembrance."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose memory is activated; the experiencer of the remembrance."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "past_event.n.01",
+            "reasoning": "The 'PP' refers to the specific past event or period that is being remembered, which is the content or theme of the memory."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of causing someone to remember is typically a directly observable interaction or event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action that causes a cognitive state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of causing remembrance is neutral; the sentiment depends on the specific memory recalled."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of causing remembrance."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of causing someone to remember."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of causing a person to remember something."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "take_back.v.06",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "past_event.n.01",
+        "reasoning": "value_type 'past_event.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "time.n.05",
+            "description": "the continuum of experience in which events pass from the future through the present to the past (gloss match)"
+          },
+          {
+            "synset_id": "probability.n.02",
+            "description": "the quality of being probable; a probable event or the most probable event (gloss match)"
+          },
+          {
+            "synset_id": "dead_hand.n.02",
+            "description": "the oppressive influence of past events or decisions (gloss match)"
+          },
+          {
+            "synset_id": "retrovision.n.01",
+            "description": "a vision of events in the distant past (gloss match)"
+          },
+          {
+            "synset_id": "memento.n.01",
+            "description": "a reminder of past events (gloss match)"
+          },
+          {
+            "synset_id": "paletiology.n.01",
+            "description": "the explanation of past events in terms of scientific causes (as geological causes) (gloss match)"
+          },
+          {
+            "synset_id": "history.n.03",
+            "description": "the discipline that records and interprets past events involving human beings (gloss match)"
+          },
+          {
+            "synset_id": "chronology.n.03",
+            "description": "the determination of the actual temporal sequence of past events (gloss match)"
+          },
+          {
+            "synset_id": "history.n.02",
+            "description": "a record or narrative description of past events (gloss match)"
+          },
+          {
+            "synset_id": "record.n.01",
+            "description": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events (gloss match)"
+          },
+          {
+            "synset_id": "bygone.n.01",
+            "description": "past events to be put aside (gloss match)"
+          },
+          {
+            "synset_id": "history.n.01",
+            "description": "the aggregate of past events (gloss match)"
+          },
+          {
+            "synset_id": "history.n.04",
+            "description": "the continuum of events occurring in succession leading from the past to the present and even into the future (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "take_back.v.06",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "history.n.01",
+        "corrected_reasoning": "Candidate 'history.n.01' (the aggregate of past events) is the most semantically fitting and general representation for 'past_event' as a value type."
+      }
+    ]
+  }
+}

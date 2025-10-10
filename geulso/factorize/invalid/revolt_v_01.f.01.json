@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "revolt.v.01",
+    "definition": "make revolution",
+    "frame_id": 1,
+    "frame_text": "Somebody revolt PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_order.n.01",
+        "reasoning": "The definition 'make revolution' describes an action that aims to significantly alter or overthrow an existing social or political order, which constitutes a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the act of revolution, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "antagonist.n.01",
+            "reasoning": "The entity (often represented by the prepositional phrase 'PP', e.g., 'against the government') that is the target or opposition of the revolt."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The act of 'revolt' inherently implies a forceful, often violent, and determined manner of opposition or resistance to authority."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of revolting is typically a directly observable public event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by strong will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of revolt, while disruptive, is semantically neutral regarding its inherent goodness or badness, as it depends on the perspective of those involved and the context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description implies a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "A 'revolution' or 'revolt' is not a single, instantaneous event but a complex process involving a series of sustained and often repetitive actions over a period."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "revolt.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "social_order.n.01",
+        "reasoning": "verb_property 'social_order.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "dislocation.n.02",
+            "description": "the act of disrupting an established order so it fails to continue (gloss match)"
+          },
+          {
+            "synset_id": "isoptera.n.01",
+            "description": "order of social insects that live in colonies, including: termites; often placed in subclass Exopterygota (gloss match)"
+          },
+          {
+            "synset_id": "estate_of_the_realm.n.01",
+            "description": "a major social class or order of persons regarded collectively as part of the body politic of the country (especially in the United Kingdom) and formerly possessing distinct political rights (gloss match)"
+          },
+          {
+            "synset_id": "machinery.n.02",
+            "description": "a system of means and activities whereby a social institution functions (gloss match)"
+          },
+          {
+            "synset_id": "old_boy_network.n.01",
+            "description": "an exclusive informal network linking members of a social class or profession or organization in order to provide connections and information and favors (especially in business or politics) (gloss match)"
+          },
+          {
+            "synset_id": "sociopath.n.01",
+            "description": "someone with a sociopathic personality; a person with an antisocial personality disorder (`psychopath' was once widely used but has now been superseded by `sociopath') (gloss match)"
+          },
+          {
+            "synset_id": "turbulence.n.03",
+            "description": "a state of violent disturbance and disorder (as in politics or social conditions generally) (gloss match)"
+          },
+          {
+            "synset_id": "asperger's_syndrome.n.01",
+            "description": "a psychiatric disorder usually noted during early school years; characterized by impaired social relations and by repetitive patterns of behavior (gloss match)"
+          },
+          {
+            "synset_id": "phobia.n.01",
+            "description": "an anxiety disorder characterized by extreme and irrational fear of simple things or social situations (gloss match)"
+          },
+          {
+            "synset_id": "antisocial_personality_disorder.n.01",
+            "description": "a personality disorder characterized by amorality and lack of affect; capable of violent acts without guilt feelings (`psychopathic personality' was once widely used but was superseded by `sociopathic personality' to indicate the social aspects of the disorder, but now `antisocial personality disorder' is the preferred term) (gloss match)"
+          },
+          {
+            "synset_id": "schizophrenia.n.01",
+            "description": "any of several psychotic disorders characterized by distortions of reality and disturbances of thought and language and withdrawal from social contact (gloss match)"
+          },
+          {
+            "synset_id": "williams_syndrome.n.01",
+            "description": "a rare congenital disorder associated with deletion of genetic material in chromosome 7; characterized by mental deficiency and some growth deficiency and elfin faces but an overly social personality and a remarkable gift for vocabulary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "revolt.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "social_organization.n.01",
+        "corrected_reasoning": "LLM suggestion: Corrected to the valid NLTK synset for 'social order'."
+      }
+    ],
+    "participants": []
+  }
+}

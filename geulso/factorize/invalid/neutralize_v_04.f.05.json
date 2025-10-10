@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "neutralize.v.04",
+    "definition": "get rid of (someone who may be a threat) by killing",
+    "frame_id": 5,
+    "frame_text": "Somebody waste somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "death.n.01",
+        "reasoning": "The verb describes the act of causing a person to transition from a living state to a dead state, as explicitly stated by 'by killing' in the definition.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of killing, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is the target of the action and undergoes the change from living to dead."
+          }
+        ]
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "threat_elimination.n.01",
+        "reasoning": "The killing is performed with the specific intent to 'get rid of (someone who may be a threat)', indicating the purpose of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of killing (or 'wasting') is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of killing, even if for a perceived purpose, is inherently negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody waste somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of killing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of killing an individual."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "neutralize.v.04",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "threat_elimination.n.01",
+        "reasoning": "verb_property 'threat_elimination.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "neutralize.v.04",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "nullification.n.01",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'threat_elimination' and 'neutralize.v.04'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "original": {
+    "synset_id": "arise.v.03",
+    "definition": "rise to one's feet",
+    "frame_id": 0,
+    "frame_text": "Somebody arise",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "posture.n.01",
+        "reasoning": "The definition 'rise to one's feet' explicitly describes a change in bodily posture from a lower position (e.g., sitting or lying) to a standing position. The hypernym 'change_posture.v.01' confirms this.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the entity initiating and performing the action of rising."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "value_type": "standing_posture.n.01",
+            "reasoning": "The verb describes the outcome of the change, which is achieving a standing posture ('to one's feet')."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of rising is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with a strong will or intention to change their posture."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rising is generally neutral in sentiment; context would determine any positive or negative connotations."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody arise' clearly indicates that the action is performed by a volitional agent ('Somebody'), implying intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action described is a definite occurrence, not speculative."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'arise' typically refers to a single, complete event of changing from a non-standing to a standing position."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "arise.v.03",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "arise.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "standing_posture.n.01",
+        "reasoning": "value_type 'standing_posture.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stance.n.01",
+            "description": "standing posture (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "arise.v.03",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion: 'result.n.01' perfectly represents a resultant state."
+      },
+      {
+        "synset_id": "arise.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "stance.n.01",
+        "corrected_reasoning": "Candidate 'stance.n.01' is a perfect semantic and contextual match for 'standing posture'."
+      }
+    ]
+  }
+}

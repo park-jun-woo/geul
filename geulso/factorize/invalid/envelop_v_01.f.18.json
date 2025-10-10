@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "envelop.v.01",
+    "definition": "enclose or enfold completely with or as if with a covering",
+    "frame_id": 18,
+    "frame_text": "Something wrap somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_boundary.n.01",
+        "reasoning": "The verb 'envelop' describes a process of change where a patient's physical boundary is altered by being enclosed or enfolded.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that causes the enclosure or enfolding, acting as the agent of change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the verb frame is the entity that undergoes the change of being enclosed or enfolded."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of enveloping is a directly observable physical event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' indicates that the action is not driven by an agent's will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of enveloping is neutral; its sentiment (positive or negative) depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something wrap somebody' describes an action performed by a non-agentive 'Something', making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of enveloping is described as a definite and certain occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'envelop' typically describes a single, complete act of enclosing or enfolding, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "envelop.v.01",
+        "frame_id": 18,
+        "key": "verb_property",
+        "value": "physical_boundary.n.01",
+        "reasoning": "verb_property 'physical_boundary.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "envelop.v.01",
+        "frame_id": 18,
+        "key": "verb_property",
+        "corrected_value": "boundary.n.01",
+        "corrected_reasoning": "LLM suggestion: 'boundary.n.01' is a general and perfect semantic fit for 'physical_boundary', representing the line or plane indicating a limit or extent."
+      }
+    ],
+    "participants": []
+  }
+}

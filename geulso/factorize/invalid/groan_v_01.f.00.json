@@ -1,0 +1,102 @@
+{
+  "original": {
+    "synset_id": "groan.v.01",
+    "definition": "indicate pain, discomfort, or displeasure",
+    "frame_id": 0,
+    "frame_text": "Somebody groan",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "expression.n.01",
+        "reasoning": "The verb 'groan' describes an act of expressing an internal state audibly, which is an action of communication/utterance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' performs the action of groaning, serving as the agent."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "internal_state.n.01",
+            "value": "pain, discomfort, or displeasure",
+            "reasoning": "The 'pain, discomfort, or displeasure' are the internal states being indicated or expressed by the groan. While not explicitly a direct object in the frame, it is the semantic content of the groan."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "sound.n.01",
+        "value": "low, inarticulate sound",
+        "reasoning": "Groaning specifically refers to a particular type of sound (low, inarticulate, often prolonged) used to express the given internal states."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Groaning is an audible phenomenon, directly perceived through hearing."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Even when involuntary due to pain, the act of producing a sound (groaning) still involves the body's mechanisms being willed to some extent, or at least capable of being controlled, distinguishing it from purely passive states. The 'Somebody' performs the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly states 'pain, discomfort, or displeasure,' which are inherently negative states. The groan is an expression of these negative feelings."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "Although often a reaction to an involuntary state (pain), the act of uttering a groan itself can be considered volitional in the sense that the agent produces the sound, even if reflexively. The frame 'Somebody groan' indicates an agentive action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of groaning is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The simple verb 'groan' refers to a single instance of producing the sound, not necessarily a repeated action unless specified (e.g., 'groan repeatedly')."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "groan.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "internal_state.n.01",
+        "reasoning": "value_type 'internal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "federation.n.03",
+            "description": "the act of constituting a political unity out of a number of separate states or colonies or provinces so that each member retains the management of its internal affairs (gloss match)"
+          },
+          {
+            "synset_id": "inwardness.n.03",
+            "description": "the quality or state of being inward or internal (gloss match)"
+          },
+          {
+            "synset_id": "protectorate.n.01",
+            "description": "a state or territory partly controlled by (but not a possession of) a stronger state but autonomous in internal affairs; protectorates are established by treaty (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "groan.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "inwardness.n.03",
+        "corrected_reasoning": "Candidate 'inwardness.n.03' perfectly matches the meaning of 'internal_state'."
+      }
+    ]
+  }
+}

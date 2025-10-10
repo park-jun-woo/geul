@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "grasp.v.01",
+    "definition": "hold firmly",
+    "frame_id": 2,
+    "frame_text": "Somebody hold_on somebody",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "physical_control.n.01",
+        "reasoning": "The definition 'hold firmly' describes a continuous state of maintaining physical contact and control over an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that is in the state of holding firmly; it exerts the physical control."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the entity that is being held or is under physical control."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of grasping/holding is generally a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a state of being."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something grasp something' implies a non-volitional subject ('Something'), thus no inherent will is involved."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of grasping or holding is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' with a non-agentive 'Something' as the subject indicates that the action or state is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The state of holding is described as a definite occurrence or fact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state of holding, the concept of repetition is not applicable. It is treated as a single, ongoing instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "grasp.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "physical_control.n.01",
+        "reasoning": "verb_property 'physical_control.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "actual_possession.n.01",
+            "description": "(law) immediate and direct physical control over property (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "grasp.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "actual_possession.n.01",
+        "corrected_reasoning": "Candidate 'actual_possession.n.01' is a perfect semantic and contextual replacement for the original value 'physical_control.n.01', as its definition explicitly mentions 'physical control over property' and aligns with the action of 'grasp.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

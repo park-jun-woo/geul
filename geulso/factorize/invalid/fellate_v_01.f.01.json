@@ -1,0 +1,116 @@
+{
+  "original": {
+    "synset_id": "fellate.v.01",
+    "definition": "provide sexual gratification through oral stimulation",
+    "frame_id": 1,
+    "frame_text": "Somebody fellate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sexual_gratification.n.01",
+        "reasoning": "The definition 'provide sexual gratification' describes a transition from a state of non-gratification to gratification for the patient.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action that causes the change in gratification, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who receives the stimulation and experiences the change to a state of sexual gratification."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "oral_stimulation.n.01",
+        "reasoning": "The definition specifies the method of gratification as 'through oral stimulation', which details the manner of the action.",
+        "participants": []
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action described is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Politeness": {
+        "value": 1.0,
+        "reasoning": "The term 'fellate' is a formal or clinical word for a sexual act, indicating a formal register."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While the outcome is 'gratification' (positive), the act itself is semantically neutral; its positive or negative connotation depends on context and participants' feelings."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The act of 'fellation' involves continuous and repetitive actions of stimulation, akin to the continuous steps in 'running', thus indicating high iterativity over a period."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "fellate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "sexual_gratification.n.01",
+        "reasoning": "verb_property 'sexual_gratification.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "fetishism.n.02",
+            "description": "sexual arousal or gratification resulting from handling a fetish (or a specific part of the body other than the sexual organs) (gloss match)"
+          },
+          {
+            "synset_id": "voyeurism.n.01",
+            "description": "a perversion in which a person receives sexual gratification from seeing the genitalia of others or witnessing others' sexual behavior (gloss match)"
+          },
+          {
+            "synset_id": "pleasure.n.05",
+            "description": "sexual gratification (gloss match)"
+          },
+          {
+            "synset_id": "fetish.n.01",
+            "description": "a form of sexual desire in which gratification depends to an abnormal degree on some object or item of clothing or part of the body (gloss match)"
+          },
+          {
+            "synset_id": "flagellant.n.01",
+            "description": "a person who is whipped or whips himself for sexual gratification (gloss match)"
+          },
+          {
+            "synset_id": "sex_object.n.01",
+            "description": "any person regarded simply as an object of sexual gratification (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sexual_gratification.n.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "pleasure.n.05",
+        "corrected_reasoning": "Candidate 'pleasure.n.05' glosses as 'sexual gratification', which is a perfect semantic match for the original invalid value and fits the context of 'fellate.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

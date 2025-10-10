@@ -1,0 +1,121 @@
+{
+  "original": {
+    "synset_id": "undress.v.01",
+    "definition": "get undressed",
+    "frame_id": 3,
+    "frame_text": "Somebody disrobe",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state_of_dress.n.01",
+        "reasoning": "The verb 'undress' describes a transition from being dressed to being undressed, indicating a change in the state of dress.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of disrobing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' who is acted upon and undergoes the change in the state of dress, as the action is reflexive in this frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of undressing is a directly observable event or a direct personal experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "No specific tense is indicated by the frame or definition, so a neutral/present default is applied."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "No specific aspect is indicated by the frame or definition, so a simple/completed default is applied."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb itself is neutral in terms of politeness; context would determine a different value."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of undressing is neutral in sentiment; its polarity depends on the context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody disrobe' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete event of becoming undressed, even if composed of multiple smaller actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "undress.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "state_of_dress.n.01",
+        "reasoning": "verb_property 'state_of_dress.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "peasanthood.n.01",
+            "description": "the state of being a peasant (gloss match)"
+          },
+          {
+            "synset_id": "presidential_directive.n.01",
+            "description": "a directive issued by the President of the United States; usually addressed to all heads of departments and agencies (gloss match)"
+          },
+          {
+            "synset_id": "plaint.n.01",
+            "description": "(United Kingdom) a written statement of the grounds of complaint made to court of law asking for the grievance to be redressed (gloss match)"
+          },
+          {
+            "synset_id": "beat_generation.n.01",
+            "description": "a United States youth subculture of the 1950s; rejected possessions or regular work or traditional dress; for communal living and psychedelic drugs and anarchism; favored modern forms of jazz (e.g., bebop) (gloss match)"
+          },
+          {
+            "synset_id": "clash.n.03",
+            "description": "a state of conflict between colors (gloss match)"
+          },
+          {
+            "synset_id": "undress.n.01",
+            "description": "partial or complete nakedness (gloss match)"
+          },
+          {
+            "synset_id": "dishabille.n.01",
+            "description": "the state of being carelessly or partially dressed (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "undress.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "undress.n.01",
+        "corrected_reasoning": "Candidate 'undress.n.01' (partial or complete nakedness) is a perfect semantic and contextual replacement, directly describing the state of dress related to 'undress.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

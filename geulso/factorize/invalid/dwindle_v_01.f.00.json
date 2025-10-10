@@ -1,0 +1,155 @@
+{
+  "original": {
+    "synset_id": "dwindle.v.01",
+    "definition": "become smaller or lose substance",
+    "frame_id": 0,
+    "frame_text": "Something dwindle",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "quantity.n.01",
+        "reasoning": "The definition 'become smaller or lose substance' indicates a change in the amount or extent of the subject.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the change in quantity, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "change_direction.n.01",
+        "value_type": "decrease.n.01",
+        "reasoning": "The verb 'dwindle' specifically denotes a reduction or diminution in quantity, not an increase."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of dwindling is typically directly observable or inferable from direct evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something dwindle' indicates a non-agentive subject, thus no inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of dwindling is semantically neutral; context determines if it's positive or negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something dwindle' describes an event happening to a non-agentive subject, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Dwindle describes a continuous, ongoing process of reduction, which implies high repetition of smaller decrements over time rather than a single instantaneous event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "dwindle.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "change_direction.n.01",
+        "reasoning": "verb_property 'change_direction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "face_lift.n.02",
+            "description": "a renovation that improves the outward appearance (as of a building) but usually does not involve major changes (gloss match)"
+          },
+          {
+            "synset_id": "change_of_course.n.01",
+            "description": "a change in the direction that you are moving (gloss match)"
+          },
+          {
+            "synset_id": "foucault_pendulum.n.01",
+            "description": "pendulum with a long wire; can swing in any direction; the change in the swing plane demonstrates the earth's rotation (gloss match)"
+          },
+          {
+            "synset_id": "gear.n.01",
+            "description": "a toothed wheel that engages another toothed mechanism in order to change the speed or direction of transmitted motion (gloss match)"
+          },
+          {
+            "synset_id": "pulley.n.01",
+            "description": "a simple machine consisting of a wheel with a groove in which a rope can run to change the direction or point of application of a force applied to the rope (gloss match)"
+          },
+          {
+            "synset_id": "worm_gear.n.01",
+            "description": "gear consisting of a shaft with screw thread (the worm) that meshes with a toothed wheel (the worm wheel); changes the direction of the axis of rotary motion (gloss match)"
+          },
+          {
+            "synset_id": "shiftiness.n.02",
+            "description": "the quality of being changeable in direction (gloss match)"
+          },
+          {
+            "synset_id": "second_law_of_motion.n.01",
+            "description": "the rate of change of momentum is proportional to the imposed force and goes in the direction of the force (gloss match)"
+          },
+          {
+            "synset_id": "evolutionary_trend.n.01",
+            "description": "a general direction of evolutionary change (gloss match)"
+          },
+          {
+            "synset_id": "collision.n.01",
+            "description": "(physics) a brief event in which two or more bodies come together (gloss match)"
+          },
+          {
+            "synset_id": "return.n.03",
+            "description": "the occurrence of a change in direction back in the opposite direction (gloss match)"
+          },
+          {
+            "synset_id": "monsoon.n.03",
+            "description": "any wind that changes direction with the seasons (gloss match)"
+          },
+          {
+            "synset_id": "refraction.n.01",
+            "description": "the change in direction of a propagating wave (light or sound) when passing from one medium to another (gloss match)"
+          },
+          {
+            "synset_id": "shear.n.01",
+            "description": "(physics) a deformation of an object in which parallel planes remain parallel but are shifted in a direction parallel to themselves (gloss match)"
+          },
+          {
+            "synset_id": "random_walk.n.01",
+            "description": "a stochastic process consisting of a sequence of changes each of whose characteristics (as magnitude or direction) is determined by chance (gloss match)"
+          },
+          {
+            "synset_id": "transformation.n.02",
+            "description": "(mathematics) a function that changes the position or direction of the axes of a coordinate system (gloss match)"
+          },
+          {
+            "synset_id": "curve.n.01",
+            "description": "the trace of a point whose direction of motion changes (gloss match)"
+          },
+          {
+            "synset_id": "jog.n.01",
+            "description": "a sharp change in direction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "dwindle.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "change_of_course.n.01",
+        "corrected_reasoning": "Selected 'change_of_course.n.01' from candidates due to perfect semantic match with the original concept of 'change direction'."
+      }
+    ],
+    "participants": []
+  }
+}

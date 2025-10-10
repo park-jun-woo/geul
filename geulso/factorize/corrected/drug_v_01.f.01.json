@@ -1,0 +1,58 @@
+{
+  "synset_id": "drug.v.01",
+  "definition": "administer a drug to",
+  "frame_id": 1,
+  "frame_text": "Somebody drug somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The verb describes an action that causes a change in the physiological state of the recipient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally administers the drug, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose bodily state is affected or changed by the administered drug."
+        }
+      ]
+    },
+    {
+      "verb_type": "means",
+      "verb_property": "drug.n.01",
+      "reasoning": "The verb 'drug' inherently specifies that a chemical substance (a drug) is the means by which the change in bodily state is brought about."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of administering a drug is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of administering a drug is neutral; its sentiment depends on the context and intent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of drugging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of administering a drug."
+    }
+  }
+}

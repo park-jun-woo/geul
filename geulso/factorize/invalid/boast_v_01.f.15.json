@@ -1,0 +1,100 @@
+{
+  "original": {
+    "synset_id": "boast.v.01",
+    "definition": "show off",
+    "frame_id": 15,
+    "frame_text": "Somebody brag to somebody",
+    "sememes": [
+      {
+        "verb_type": "communication",
+        "verb_property": "expression.n.01",
+        "reasoning": "The verb 'boast' (synonymous with 'brag' in this context) involves an act of expressing information.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who is performing the act of bragging/boasting, as per the frame."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' to whom the boast is directed, as indicated by 'to somebody' in the frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "positive_attribute.n.01",
+            "reasoning": "The implicit 'something' that is boasted about is typically a positive attribute, achievement, or possession of the boaster."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "impress.v.01",
+        "reasoning": "The definition 'show off' highlights that the communication is done with the specific purpose of impressing or demonstrating superiority to others."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Boasting is a direct act of communication from the speaker."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of boasting is intentional and driven by the agent's will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Boasting generally carries a negative social connotation due to its nature of excessive self-praise or arrogance, also indicated by the definition 'show off'."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody brag to somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The boaster typically expresses high confidence in the claims being made, even if exaggerated."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme implies a single act of bragging rather than a continuous or highly repetitive process."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "Boasting is generally considered an impolite or socially inappropriate behavior."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "boast.v.01",
+        "frame_id": 15,
+        "key": "value_type",
+        "value": "positive_attribute.n.01",
+        "reasoning": "value_type 'positive_attribute.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "boast.v.01",
+        "frame_id": 15,
+        "key": "value_type",
+        "corrected_value": "merit.n.01",
+        "corrected_reasoning": "LLM suggestion: 'merit.n.01' means any admirable quality or attribute, which is a perfect semantic match for 'positive_attribute.n.01'."
+      }
+    ]
+  }
+}

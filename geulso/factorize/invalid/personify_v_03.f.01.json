@@ -1,0 +1,120 @@
+{
+  "original": {
+    "synset_id": "personify.v.03",
+    "definition": "attribute human qualities to something",
+    "frame_id": 1,
+    "frame_text": "Somebody personify something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "quality.n.01",
+        "reasoning": "The verb describes an action that conceptually changes an entity's inherent attributes by assigning it human qualities, transitioning it to a state of being perceived as having those qualities.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the attribution of human qualities.",
+            "value_type": "human.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' to which human qualities are attributed, undergoing a conceptual change in its properties.",
+            "value_type": "entity.n.01"
+          },
+          {
+            "semantic_role": "attribute.n.01",
+            "reasoning": "The specific type of qualities being assigned or attributed to the patient, which are human characteristics.",
+            "value_type": "human_quality.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of personifying is a direct mental or expressive act, perceived directly by the agent performing it or through its manifestation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or a state of affairs."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will and intention to attribute qualities."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of personifying is semantically neutral; its positive or negative sentiment depends on the context and the specific qualities attributed."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') performing an intentional act of attribution."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of attributing, implying certainty about its occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance or act of attributing qualities. Repeated acts would imply multiple instances."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "personify.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "human_quality.n.01",
+        "reasoning": "value_type 'human_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humanness.n.01",
+            "description": "the quality of being human (gloss match)"
+          },
+          {
+            "synset_id": "particularity.n.01",
+            "description": "the quality of being particular and pertaining to a specific case or instance (gloss match)"
+          },
+          {
+            "synset_id": "humanity.n.01",
+            "description": "the quality of being humane (gloss match)"
+          },
+          {
+            "synset_id": "compassion.n.02",
+            "description": "the humane quality of understanding the suffering of others and wanting to do something about it (gloss match)"
+          },
+          {
+            "synset_id": "atrocity.n.01",
+            "description": "the quality of being shockingly cruel and inhumane (gloss match)"
+          },
+          {
+            "synset_id": "kindness.n.01",
+            "description": "the quality of being warmhearted and considerate and humane and sympathetic (gloss match)"
+          },
+          {
+            "synset_id": "sufficiency.n.03",
+            "description": "the quality of being sufficient for the end in view (gloss match)"
+          },
+          {
+            "synset_id": "human_right.n.01",
+            "description": "(law) any basic right or freedom to which all human beings are entitled and in whose exercise a government may not interfere (including rights to life and liberty as well as freedom of thought and expression and equality before the law) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "personify.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "humanness.n.01",
+        "corrected_reasoning": "Candidate 'humanness.n.01' ('the quality of being human') is a perfect semantic and contextual match for the original invalid value 'human_quality.n.01'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "float.v.01",
+    "definition": "be in motion due to some air or water current",
+    "frame_id": 3,
+    "frame_text": "Something float",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb describes the state of being in motion, which is a continuous change of location or position.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that is in motion and undergoes the change in position, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "external_cause.n.01",
+            "reasoning": "The 'air or water current' is the external force that causes the 'Something' to be in motion, as per the definition 'due to some air or water current'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of floating is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame is not an agent capable of will, and the motion is due to external forces."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of floating is inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something float' describes an event happening to a non-agentive subject ('Something') and driven by external forces, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of being in motion."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Floating describes a continuous and sustained state of motion rather than an instantaneous single event, implying high repetition or ongoing activity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "float.v.01",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "external_cause.n.01",
+        "reasoning": "semantic_role 'external_cause.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pseudohermaphrodite.n.01",
+            "description": "someone having external genitalia of one sex and internal sex organs of the other sex; not a true hermaphrodite because there is no ambiguity in the sex of the external genitalia and hence no question about gender at birth (gloss match)"
+          },
+          {
+            "synset_id": "paracelsus.n.01",
+            "description": "Swiss physician who introduced treatments of particular illnesses based on his observation and experience; he saw illness as having an external cause (rather than an imbalance of humors) and replaced traditional remedies with chemical remedies (1493-1541) (gloss match)"
+          },
+          {
+            "synset_id": "perpetual_motion.n.01",
+            "description": "motion that continues indefinitely without any external source of energy; impossible in practice because of friction (gloss match)"
+          },
+          {
+            "synset_id": "blister_rust.n.01",
+            "description": "any of several diseases of pines caused by rust fungi of the genus Cronartium and marked by destructive invasion of bark and sapwood and producing blisters externally (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "float.v.01",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "agent.n.01",
+        "corrected_reasoning": "LLM suggestion. 'agent.n.01' ('an active and efficient cause; capable of producing a certain effect') perfectly captures the concept of an active external cause as a semantic role, given the verb 'float' and the invalid synset 'external_cause.n.01'. None of the candidates were a perfect semantic fit."
+      }
+    ]
+  }
+}

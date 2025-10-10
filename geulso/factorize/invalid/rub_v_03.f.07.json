@@ -1,0 +1,105 @@
+{
+  "original": {
+    "synset_id": "rub.v.03",
+    "definition": "scrape or rub as if to relieve itching",
+    "frame_id": 7,
+    "frame_text": "Something rub somebody",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "friction.n.01",
+        "reasoning": "The verb describes the physical process of applying friction through rubbing or scraping, as indicated by the definition 'scrape or rub'.",
+        "participants": [
+          {
+            "semantic_role": "agent.n.01",
+            "reasoning": "The 'Something' in the verb frame acts as the initiator of the physical rubbing/scraping process."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the verb frame is the entity whose body is subjected to the rubbing/scraping."
+          }
+        ]
+      },
+      {
+        "verb_type": "change",
+        "verb_property": "sensation.n.01",
+        "reasoning": "The definition explicitly states the purpose/characteristic outcome of the rubbing is 'as if to relieve itching', indicating a change in the state of sensation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' (from the first sememe) is the entity that causes the change in sensation, even though it is non-volitional."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' is the person who experiences the change in sensation (relief from itching)."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "itching.n.01",
+            "reasoning": "The specific sensation, 'itching', that is being affected or relieved."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of rubbing is a directly observable physical event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame implies no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rubbing, even to relieve itching, is generally neutral in sentiment; its overall effect might be positive, but the action itself is not inherently polarized."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something rub somebody' clearly indicates a non-volitional subject ('Something') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Rubbing or scraping to relieve itching typically involves continuous or highly repetitive actions rather than a single, instantaneous event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "rub.v.03",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidates provided. Step 2 failed to find a different perfect semantic and contextual replacement for the invalid synset 'experiencer.n.01' with >99% confidence."
+      }
+    ]
+  }
+}

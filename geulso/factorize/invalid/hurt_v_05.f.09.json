@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "hurt.v.05",
+    "definition": "hurt the feelings of",
+    "frame_id": 9,
+    "frame_text": "Something offend somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "reasoning": "The definition 'hurt the feelings of' describes a transition in a person's emotional state from neutral/positive to negative/hurt.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the emotional change in the experiencer, as specified by the verb frame. It acts as the cause or stimulus."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' whose feelings are affected and who undergoes the emotional change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emotional impact can be directly observed or inferred from direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of causing emotional pain."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame is an inanimate cause and lacks will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'hurt the feelings' inherently carries a negative sentiment as it causes distress or discomfort."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' indicates a non-volitional cause, as it cannot act with intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of emotional impact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event of causing emotional hurt, though it could be repeated."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hurt.v.05",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hurt.v.05",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No valid candidates provided. The original value 'experiencer.n.01' represents a specific semantic role for which no alternative NLTK WordNet synset can be identified with >99% confidence as a perfect semantic and contextual replacement."
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "original": {
+    "synset_id": "copolymerize.v.01",
+    "definition": "polymerize together",
+    "frame_id": 0,
+    "frame_text": "Something copolymerise",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "molecular_structure.n.01",
+        "reasoning": "The verb describes a chemical process where smaller molecular units (monomers) are transformed into a larger, more complex molecular structure (copolymer).",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame refers to the molecular components (monomers) that undergo the chemical transformation to form a copolymer."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "combination.n.01",
+        "reasoning": "The 'co-' prefix and the explicit 'together' in the definition 'polymerize together' signify that multiple distinct types of molecular components are combined or integrated into a single polymer chain."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes like copolymerization are typically established through direct scientific observation and experimentation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a factual chemical process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is an inanimate entity undergoing a chemical reaction, thus it lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Copolymerization is a neutral scientific process; it does not inherently carry positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something copolymerize' indicates an inanimate subject, meaning the action is non-volitional and occurs due to chemical properties and conditions rather than intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite scientific process or occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Copolymerization is a process that involves the continuous and highly repetitive bonding of monomer units over a period until the polymer chain is formed."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "copolymerize.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "molecular_structure.n.01",
+        "reasoning": "verb_property 'molecular_structure.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "determination.n.01",
+            "description": "the act of determining the properties of something, usually by research or calculation (gloss match)"
+          },
+          {
+            "synset_id": "reformer.n.02",
+            "description": "an apparatus that reforms the molecular structure of hydrocarbons to produce richer fuel (gloss match)"
+          },
+          {
+            "synset_id": "molecular_genetics.n.01",
+            "description": "the branch of genetics concerned with the structure and activity of genetic material at the molecular level (gloss match)"
+          },
+          {
+            "synset_id": "kendrew.n.01",
+            "description": "English biologist noted for studies of the molecular structure of blood components (born in 1917) (gloss match)"
+          },
+          {
+            "synset_id": "lipscomb.n.01",
+            "description": "United States chemist noted for his theories of molecular structure (born in 1919) (gloss match)"
+          },
+          {
+            "synset_id": "perutz.n.01",
+            "description": "English biochemist (born in Austria); studied the molecular structure of blood (1914-2002) (gloss match)"
+          },
+          {
+            "synset_id": "robinson.n.01",
+            "description": "English chemist noted for his studies of molecular structures in plants (1886-1975) (gloss match)"
+          },
+          {
+            "synset_id": "chemical_process.n.01",
+            "description": "(chemistry) any process determined by the atomic and molecular composition and structure of the substances involved (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "copolymerize.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'chemical_structure.n.01' precisely describes the arrangement of atoms in a molecule, which is the property relevant to a verb like 'copolymerize'. (Original suggestion 'chemical_structure.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

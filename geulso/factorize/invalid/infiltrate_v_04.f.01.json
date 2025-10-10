@@ -1,0 +1,129 @@
+{
+  "original": {
+    "synset_id": "infiltrate.v.04",
+    "definition": "pass through an enemy line; in a military conflict",
+    "frame_id": 1,
+    "frame_text": "Somebody pass_through something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'infiltrate' describes the action of moving from one side of a boundary or barrier to another, representing a change in location or state relative to that barrier.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of passing through, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "path.n.03",
+            "value_type": "military_line.n.01",
+            "reasoning": "The 'something' refers to an 'enemy line' which is traversed by the agent, functioning as a path or barrier in the context of the action."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value": "stealthily",
+        "reasoning": "The verb 'infiltrate' inherently implies a surreptitious, secretive, or gradual manner of passing through, distinguishing it from a simple 'pass through'."
+      },
+      {
+        "verb_type": "circumstance",
+        "verb_property": "conflict.n.01",
+        "reasoning": "The definition explicitly places the action within the context of a 'military conflict' or 'enemy line', indicating a specific type of situation."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of passing through an area can be directly observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a declarative action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of infiltrating is neutral; its sentiment depends on the broader context and objectives."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody pass_through something' indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that occurs."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'infiltrate' in this context typically refers to a single, complete act of passing through a specific boundary."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "infiltrate.v.04",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "military_line.n.01",
+        "reasoning": "value_type 'military_line.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "amphibious_landing.n.01",
+            "description": "a military action of coordinated land, sea, and air forces organized for an invasion (gloss match)"
+          },
+          {
+            "synset_id": "basic_training.n.01",
+            "description": "the initial period of training for new military personnel; involves intense physical activity and behavioral discipline (gloss match)"
+          },
+          {
+            "synset_id": "field_hospital.n.01",
+            "description": "a temporary military hospital near the battle lines (gloss match)"
+          },
+          {
+            "synset_id": "trip_wire.n.01",
+            "description": "a small military force that serves as a first line of defense; if they become engaged in hostilities it will trigger the intervention of stronger military forces (gloss match)"
+          },
+          {
+            "synset_id": "military_police.n.01",
+            "description": "a military corps that enforces discipline and guards prisoners (gloss match)"
+          },
+          {
+            "synset_id": "military_court.n.01",
+            "description": "a judicial court of commissioned officers for the discipline and punishment of military personnel (gloss match)"
+          },
+          {
+            "synset_id": "military_law.n.01",
+            "description": "the body of laws and rules of conduct administered by military courts for the discipline, trial, and punishment of military personnel (gloss match)"
+          },
+          {
+            "synset_id": "salient.n.01",
+            "description": "(military) the part of the line of battle that projects closest to the enemy (gloss match)"
+          },
+          {
+            "synset_id": "drill_master.n.01",
+            "description": "a noncommissioned officer who instructs recruits in military marching and discipline (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "infiltrate.v.04",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "salient.n.01",
+        "corrected_reasoning": "Candidate 'salient.n.01' (the part of the line of battle) is a precise semantic and contextual match for 'military_line' in the context of infiltration."
+      }
+    ]
+  }
+}

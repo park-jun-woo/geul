@@ -1,0 +1,150 @@
+{
+  "original": {
+    "synset_id": "perjure.v.01",
+    "definition": "knowingly tell an untruth in a legal court and render oneself guilty of perjury",
+    "frame_id": 0,
+    "frame_text": "Somebody perjure somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "deception.n.01",
+        "reasoning": "The verb describes the intentional act of conveying false information (telling an untruth) with intent to deceive, as derived from the definition and its hypernym 'lie.v.05'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame, who intentionally commits the act of false testimony."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame, who is the object or target of the false testimony."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "value_type": "legal_court.n.01",
+            "reasoning": "The definition explicitly specifies that the action occurs 'in a legal court'."
+          }
+        ]
+      },
+      {
+        "verb_type": "state",
+        "verb_property": "guilt.n.01",
+        "reasoning": "The definition explicitly states that the act 'renders oneself guilty of perjury', indicating a resultant state for the agent.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The individual who is in the state of guilt, which refers to the causal agent of the deception."
+          },
+          {
+            "semantic_role": "attribute.n.01",
+            "value_type": "perjury.n.01",
+            "reasoning": "The specific crime or type of guilt incurred as a result of the deception is perjury."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of perjuring is a directly observable event within the context of a court."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or its consequence."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The definition 'knowingly tell an untruth' implies a strong will and clear intention from the agent."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The verb describes a general action, typically in the present tense unless otherwise specified by context."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The verb describes a simple, completed act of perjury unless specified as ongoing or having a past result."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of telling an untruth in court and becoming guilty of perjury is inherently negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The definition 'knowingly tell an untruth' explicitly states the action is intentional and volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description implies a definite occurrence of the act when used declaratively."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically refers to a single instance of committing perjury."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "perjure.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "legal_court.n.01",
+        "reasoning": "value_type 'legal_court.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "objection.n.04",
+            "description": "(law) a procedure whereby a party to a suit says that a particular line of questioning or a particular witness or a piece of evidence or other matter is improper and should not be continued and asks the court to rule on its impropriety or illegality (gloss match)"
+          },
+          {
+            "synset_id": "lawsuit.n.01",
+            "description": "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy (gloss match)"
+          },
+          {
+            "synset_id": "appeal.n.03",
+            "description": "(law) a legal proceeding in which the appellant resorts to a higher court for the purpose of obtaining a review of a lower court decision and a reversal of the lower court's judgment or the granting of a new trial (gloss match)"
+          },
+          {
+            "synset_id": "litigation.n.01",
+            "description": "a legal proceeding in a court; a judicial contest to determine and enforce legal rights (gloss match)"
+          },
+          {
+            "synset_id": "judicial_review.n.01",
+            "description": "review by a court of law of actions of a government official or entity or of some other legally appointed person or body or the review by an appellate court of the decision of a trial court (gloss match)"
+          },
+          {
+            "synset_id": "letters_testamentary.n.01",
+            "description": "a legal document from a probate court or court officer informing you of your appointment as executor of a will and empowering you to discharge those responsibilities (gloss match)"
+          },
+          {
+            "synset_id": "decree.n.01",
+            "description": "a legally binding command or decision entered on the court record (as if issued by a court or judge) (gloss match)"
+          },
+          {
+            "synset_id": "writ.n.01",
+            "description": "(law) a legal document issued by a court or judicial officer (gloss match)"
+          },
+          {
+            "synset_id": "contextual_definition.n.01",
+            "description": "a definition in which the term is used by embedding it in a larger expression containing its explanation (gloss match)"
+          },
+          {
+            "synset_id": "arraignment.n.01",
+            "description": "a legal document calling someone to court to answer an indictment (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "perjure.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. 'law_court.n.01' is a valid synset referring to a place where justice is administered, a direct semantic fit for 'legal_court.n.01'. (Original suggestion 'law_court.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

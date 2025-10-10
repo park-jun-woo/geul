@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "scratch.v.02",
+    "definition": "cut the surface of; wear away the surface of",
+    "frame_id": 6,
+    "frame_text": "Something scrape somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_integrity.n.01",
+        "reasoning": "The definition 'cut the surface of; wear away the surface of' describes an action that causes a change in the physical state or integrity of a surface.",
+        "participants": [
+          {
+            "semantic_role": "instrument.n.01",
+            "reasoning": "The 'Something' in the frame acts as the instrument or causal force that performs the scraping action, as it is inanimate and non-volitional in this context. While it acts as the subject, its role is more akin to a natural force or tool than a volitional agent."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' is the entity whose surface undergoes the change (being scraped or cut)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of scratching or scraping is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something scrape somebody' features an inanimate subject ('Something'), indicating no inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of scratching/scraping is generally neutral in sentiment, though its result can be negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' implies a non-volitional entity causing the action. The action is not intentional on the part of the 'Something'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, albeit potentially continuous, event of altering a surface."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "scratch.v.02",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "surface_integrity.n.01",
+        "reasoning": "verb_property 'surface_integrity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "scratch.v.02",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "integrity.n.02",
+        "corrected_reasoning": "LLM suggestion. 'integrity.n.02' ('an undivided or unbroken completeness') perfectly captures the concept of 'surface integrity' as a property affected by scratching."
+      }
+    ],
+    "participants": []
+  }
+}

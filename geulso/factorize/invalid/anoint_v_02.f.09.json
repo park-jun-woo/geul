@@ -1,0 +1,125 @@
+{
+  "original": {
+    "synset_id": "anoint.v.02",
+    "definition": "administer an oil or ointment to ; often in a religious ceremony of blessing",
+    "frame_id": 9,
+    "frame_text": "Somebody inunct somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The verb describes the physical act of applying a substance (oil or ointment) to a surface, thereby changing its condition or state (e.g., covered with a layer).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of administering the oil/ointment, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who receives the oil/ointment, whose surface condition is changed by the application."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "oil_or_ointment.n.01",
+            "reasoning": "The specific substance (oil or ointment) that is administered, as stated in the definition."
+          },
+          {
+            "semantic_role": "purpose.n.01",
+            "value_type": "blessing.n.01",
+            "reasoning": "The spiritual intent or aim of the anointing, explicitly mentioned in the definition as 'religious ceremony of blessing'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Administering an oil or ointment is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of anointing itself is neutral; its associated blessing usually implies positive sentiment, but the verb's core action is not inherently positive or negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event of anointing, even if it's part of a ritual with multiple steps, the anointing itself is usually a discrete act."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "anoint.v.02",
+        "frame_id": 9,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "anoint.v.02",
+        "frame_id": 9,
+        "key": "value_type",
+        "value": "oil_or_ointment.n.01",
+        "reasoning": "value_type 'oil_or_ointment.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pomade.n.01",
+            "description": "hairdressing consisting of a perfumed oil or ointment (gloss match)"
+          },
+          {
+            "synset_id": "oleic_acid.n.01",
+            "description": "a colorless oily liquid occurring as a glyceride; it is the major fatty acid in olive oil and canola oil; used in making soap and cosmetics and ointments and lubricating oils (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "anoint.v.02",
+        "frame_id": 9,
+        "key": "verb_property",
+        "corrected_value": "state.n.01",
+        "corrected_reasoning": "LLM suggestion, 'state.n.01' is a general term for condition, semantically matching the original intent of 'surface_condition'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "anoint.v.02",
+        "frame_id": 9,
+        "key": "value_type",
+        "corrected_value": "oil.n.01",
+        "corrected_reasoning": "LLM suggestion, 'oil.n.01' is a core component of 'oil_or_ointment' and commonly used for anointing."
+      }
+    ]
+  }
+}

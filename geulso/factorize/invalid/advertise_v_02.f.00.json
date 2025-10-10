@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "advertise.v.02",
+    "definition": "make publicity for; try to sell (a product)",
+    "frame_id": 0,
+    "frame_text": "Somebody advertise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "awareness.n.01",
+        "reasoning": "The definition 'make publicity for' implies an action that causes a change in the state of public awareness regarding the advertised item.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who initiates and performs the act of advertising."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (product, service, etc.) whose public awareness is increased or made known."
+          }
+        ]
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "commercial_promotion.n.01",
+        "reasoning": "The definition 'try to sell (a product)' clearly states the underlying commercial purpose or goal of making publicity for something.",
+        "participants": []
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of advertising is a directly observable phenomenon or action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as an agent in the frame implies intentionality and will in performing the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of advertising itself is neutral; its sentiment depends on the product and context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of advertising."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of advertising is described as a definite occurrence or action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Advertising often involves repeated actions or continuous efforts to build and maintain publicity for a product or service, rather than a single, discrete event. 'Make publicity for' implies an ongoing process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "advertise.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "commercial_promotion.n.01",
+        "reasoning": "verb_property 'commercial_promotion.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "advertise.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "advertising.n.01",
+        "corrected_reasoning": "LLM suggestion. `advertising.n.01` (the business of drawing public attention to goods and services) is a perfect semantic and contextual replacement for the invalid 'commercial_promotion.n.01' as a verb property of 'advertise.v.02'."
+      }
+    ],
+    "participants": []
+  }
+}

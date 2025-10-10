@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "detribalize.v.01",
+    "definition": "cause members of a tribe to lose their cultural identity",
+    "frame_id": 1,
+    "frame_text": "Somebody detribalize somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cultural_identity.n.01",
+        "reasoning": "The definition 'cause members of a tribe to lose their cultural identity' describes a transition from possessing cultural identity to not possessing it, which is a change of state concerning a specific property.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and causes the loss of cultural identity, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "person.n.01",
+            "reasoning": "The 'somebody' (members of a tribe) who undergoes the change of state by losing their cultural identity."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of detribalizing is typically an observable social or political process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state change."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody detribalize somebody' implies an agent acting with explicit will and intention to cause this change."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The loss of cultural identity, as implied by 'detribalize', is generally understood as a negative outcome or process due to its association with cultural erosion or forced assimilation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody detribalize...' explicitly includes a volitional agent ('Somebody') performing the action of causing the loss of identity."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of causing a change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a singular act of initiating or performing the process of detribalization, rather than a continuously repeated simple action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "detribalize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "cultural_identity.n.01",
+        "reasoning": "verb_property 'cultural_identity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "detribalize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'ethnic_identity.n.01' is a precise semantic and contextual replacement for the invalid 'cultural_identity.n.01', aligning with the meaning of 'detribalize'. (Original suggestion 'ethnic_identity.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "action.v.01",
+    "definition": "institute legal proceedings against; file a suit against",
+    "frame_id": 0,
+    "frame_text": "Somebody action somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "legal_process.n.01",
+        "reasoning": "The definition 'institute legal proceedings' describes initiating a process that changes the legal situation or status of the involved parties.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame who initiates the legal proceedings."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame against whom the legal proceedings are instituted; the one affected by the legal process."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The institution of legal proceedings is typically a public and documented event, implying direct observation or verifiable evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with strong will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of 'actioning' someone is legally neutral, though it may have positive or negative outcomes depending on the context and participants. The verb itself carries no inherent sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action of initiating legal proceedings."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of instituting legal proceedings is a definite and factual occurrence when it happens."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes the initiation of a single set of legal proceedings, even if the process itself involves multiple steps."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "action.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "legal_process.n.01",
+        "reasoning": "verb_property 'legal_process.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "seizure.n.04",
+            "description": "the taking possession of something by legal process (gloss match)"
+          },
+          {
+            "synset_id": "bankruptcy.n.03",
+            "description": "a legal process intended to insure equality among the creditors of a corporation declared to be insolvent (gloss match)"
+          },
+          {
+            "synset_id": "eviction.n.01",
+            "description": "action by a landlord that compels a tenant to leave the premises (as by rendering the premises unfit for occupancy); no physical expulsion or legal process is involved (gloss match)"
+          },
+          {
+            "synset_id": "unwieldiness.n.01",
+            "description": "the quality of being difficult to direct or control by reason of complexity (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "action.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "legal_proceeding.n.01",
+        "corrected_reasoning": "LLM suggestion: 'legal_proceeding.n.01' is a perfect semantic and contextual replacement for the general concept of a legal process, which was intended by the invalid synset 'legal_process.n.01'. No candidate met the >99% confidence threshold as they were specific types of legal processes rather than the general concept."
+      }
+    ],
+    "participants": []
+  }
+}

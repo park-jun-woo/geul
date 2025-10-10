@@ -1,0 +1,117 @@
+{
+  "original": {
+    "synset_id": "barbeque.v.01",
+    "definition": "cook outdoors on a barbecue grill",
+    "frame_id": 5,
+    "frame_text": "Somebody cook_out something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cooked_state.n.01",
+        "reasoning": "The verb describes the act of transforming food from an uncooked state to a cooked state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the cooking, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being cooked and undergoes the change of state."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "cooking_method.n.01",
+        "value_type": "grilling.n.01",
+        "reasoning": "A core semantic component of 'barbeque' is the specific cooking method of grilling, supported by the hypernym 'grill.v.01'."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "location.n.01",
+        "value_type": "outdoors.n.01",
+        "reasoning": "The definition explicitly states the action occurs 'outdoors'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of barbequing is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of barbequing is neutral; the outcome or context might determine sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody cook_out something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of barbequing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme, in this frame, describes a single, complete event of cooking by this method."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "barbeque.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "cooked_state.n.01",
+        "reasoning": "verb_property 'cooked_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "flame_flower.n.02",
+            "description": "plant with fleshy roots and erect stems with narrow succulent leaves and one reddish-orange flower in each upper leaf axil; southwestern United States; Indians once cooked the fleshy roots (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "barbeque.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "cooking_method.n.01",
+        "reasoning": "verb_property 'cooking_method.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "barbeque.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'doneness.n.01' perfectly describes the state of being cooked, replacing the invalid 'cooked_state.n.01'. (Original suggestion 'doneness.n.01' was invalid in NLTK)"
+      },
+      {
+        "synset_id": "barbeque.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'cooking.n.02' refers to the act of preparing food by applying heat, which encompasses various cooking methods, replacing the invalid 'cooking_method.n.01'. (Original suggestion 'cooking.n.02' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

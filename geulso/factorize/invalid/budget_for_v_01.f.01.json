@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "budget_for.v.01",
+    "definition": "calculate enough money for; provide for in the budget",
+    "frame_id": 1,
+    "frame_text": "Somebody budget_for something",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "calculation.n.01",
+        "reasoning": "The definition 'calculate enough money for' describes a cognitive action of determining the necessary financial resources.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the cognitive act of calculating."
+          }
+        ]
+      },
+      {
+        "verb_type": "change",
+        "verb_property": "financial_provision.n.01",
+        "reasoning": "The definition 'provide for in the budget' indicates a change in the state of financial allocation or readiness for a participant.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and executes the provision of funds."
+          },
+          {
+            "semantic_role": "beneficiary.n.01",
+            "reasoning": "The 'somebody' for whom the money is budgeted or provided, as specified by the verb frame's prepositional object."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Budgeting is a direct action or process, typically based on known facts or direct financial planning."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates the action is driven by the agent's explicit will and intention."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The verb's inherent meaning does not specify a particular tense; it is neutral."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The verb describes a simple, completed act of budgeting, not an ongoing or perfected state."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb 'budget for' is neutral in terms of politeness."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of budgeting itself is neutral; its sentiment depends on the context and purpose of the budget."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody budget_for...' explicitly includes a volitional agent ('Somebody') performing the action of budgeting."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of budgeting is typically stated as a definite and certain occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single instance of budgeting for a specific individual or purpose at a given time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "budget_for.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "financial_provision.n.01",
+        "reasoning": "verb_property 'financial_provision.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "budget_for.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "fund.n.01",
+        "corrected_reasoning": "LLM suggestion: 'fund.n.01' perfectly describes the financial resource or allocation implied by 'financial_provision.n.01' in the context of budgeting."
+      }
+    ],
+    "participants": []
+  }
+}

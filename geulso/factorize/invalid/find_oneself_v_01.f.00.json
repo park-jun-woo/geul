@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "find_oneself.v.01",
+    "definition": "accept and make use of one's personality, abilities, and situation",
+    "frame_id": 0,
+    "frame_text": "Somebody find",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "self-understanding.n.01",
+        "reasoning": "The verb describes a process of developing a deeper acceptance and effective utilization of one's identity, capabilities, and circumstances, representing a change in one's internal state of self-awareness and integration.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the individual who actively undergoes and influences this process of self-discovery and acceptance."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "identity.n.01",
+            "reasoning": "The object of finding is 'oneself', which refers to the agent's own identity, personality, abilities, and situation as the domain of the change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "This is an internal cognitive and emotional process, experienced directly by the individual."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a process of personal development."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The process of accepting and utilizing one's self implies conscious effort and an agent's will to engage in self-discovery and growth."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of accepting and making use of one's full self, leading to maturity, is universally considered a positive and desirable outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The phrase 'Somebody find_oneself' implies active participation and effort from the agent in the process of self-discovery and acceptance, making it volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The completion of 'finding oneself' is presented as a definite state of self-acceptance and understanding."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a comprehensive and often transformative process of self-discovery, considered a singular developmental milestone rather than a repeatedly occurring action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "find_oneself.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "self-understanding.n.01",
+        "reasoning": "verb_property 'self-understanding.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "find_oneself.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "self-knowledge.n.01",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for 'self-understanding'."
+      }
+    ],
+    "participants": []
+  }
+}

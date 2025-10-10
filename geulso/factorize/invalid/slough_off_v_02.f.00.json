@@ -1,0 +1,134 @@
+{
+  "original": {
+    "synset_id": "slough_off.v.02",
+    "definition": "separate from surrounding living tissue, as in an abortion",
+    "frame_id": 0,
+    "frame_text": "Somebody slough_off something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "separation.n.01",
+        "reasoning": "The verb 'slough off' describes a transition from a state of being attached to being separated, which is a change of state related to separation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of causing the separation, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is caused to separate from the surrounding tissue."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "value_type": "living_tissue.n.01",
+            "reasoning": "The implicit 'surrounding living tissue' from which the patient separates, as specified in the definition 'separate from surrounding living tissue'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sloughing off can be directly observed or confirmed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of separating tissue is a neutral physical process, even if its context (e.g., 'abortion') might carry sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of separation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete event of separating a specific entity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "slough_off.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "living_tissue.n.01",
+        "reasoning": "value_type 'living_tissue.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "fixation.n.04",
+            "description": "(histology) the preservation and hardening of a tissue sample to retain as nearly as possible the same relations they had in the living body (gloss match)"
+          },
+          {
+            "synset_id": "epikeratophakia.n.01",
+            "description": "using a piece of donated corneal tissue to repair the eye of someone who has had a cataract removed (gloss match)"
+          },
+          {
+            "synset_id": "filaria.n.02",
+            "description": "slender threadlike roundworms living in the blood and tissues of vertebrates; transmitted as larvae by biting insects (gloss match)"
+          },
+          {
+            "synset_id": "pigmentation.n.02",
+            "description": "coloration of living tissues by pigment (gloss match)"
+          },
+          {
+            "synset_id": "biopsy.n.01",
+            "description": "examination of tissues or liquids from the living body to determine the existence or cause of a disease (gloss match)"
+          },
+          {
+            "synset_id": "cryobiology.n.01",
+            "description": "the branch of biology that studies the effects of low temperatures on living tissues or organs or organisms (gloss match)"
+          },
+          {
+            "synset_id": "anabolism.n.01",
+            "description": "the synthesis in living organisms of more complex substances (e.g., living tissue) from simpler ones together with the storage of energy (gloss match)"
+          },
+          {
+            "synset_id": "wound.n.01",
+            "description": "an injury to living tissue (especially an injury involving a cut or break in the skin) (gloss match)"
+          },
+          {
+            "synset_id": "nitrogen.n.01",
+            "description": "a common nonmetallic element that is normally a colorless odorless tasteless inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent of all living tissues (gloss match)"
+          },
+          {
+            "synset_id": "protein.n.01",
+            "description": "any of a large group of nitrogenous organic compounds that are essential constituents of living cells; consist of polymers of amino acids; essential in the diet of animals for growth and for repair of tissues; can be obtained from meat and eggs and milk and legumes (gloss match)"
+          },
+          {
+            "synset_id": "caustic.n.01",
+            "description": "any chemical substance that burns or destroys living tissue (gloss match)"
+          },
+          {
+            "synset_id": "porphyrin.n.01",
+            "description": "any of various pigments distributed widely in living tissues (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "slough_off.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "animal_tissue.n.01",
+        "corrected_reasoning": "LLM suggestion: 'animal_tissue.n.01' is a general term for biological tissue, which semantically aligns perfectly with 'living_tissue' in this context as a type of material that can be sloughed off."
+      }
+    ]
+  }
+}

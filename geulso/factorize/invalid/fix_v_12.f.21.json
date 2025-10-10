@@ -1,0 +1,130 @@
+{
+  "original": {
+    "synset_id": "fix.v.12",
+    "definition": "make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
+    "frame_id": 21,
+    "frame_text": "Somebody ready to INFINITIVE",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "readiness.n.01",
+        "reasoning": "The definition 'make ready or suitable' describes a transition from a state of not being ready to being ready, which is a causative change of state. The frame implies the subject undergoes this change.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of making ready."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' who undergoes the change of state to being ready. In this frame, the agent is also the patient (reflexive implied)."
+          },
+          {
+            "semantic_role": "purpose.n.01",
+            "value_type": "intended_action.n.01",
+            "reasoning": "The 'INFINITIVE' specifies the future action or purpose for which the agent is made ready."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of making something ready is typically a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or the resulting state of readiness."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The agent ('Somebody') intentionally 'makes ready', indicating strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making ready is neutral; its sentiment depends on the context or purpose."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of making ready."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of making ready is described as a definite occurrence or an achieved state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, albeit potentially multi-step, event of preparing for a particular purpose."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fix.v.12",
+        "frame_id": 21,
+        "key": "value_type",
+        "value": "intended_action.n.01",
+        "reasoning": "value_type 'intended_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "mind_game.n.02",
+            "description": "deliberate actions of calculated psychological manipulation intended to intimidate or confuse (usually for competitive advantage) (gloss match)"
+          },
+          {
+            "synset_id": "neutralization.n.04",
+            "description": "action intended to nullify the effects of some previous action (gloss match)"
+          },
+          {
+            "synset_id": "neutralization.n.01",
+            "description": "action intended to keep a country politically neutral or exclude it from a possible war (gloss match)"
+          },
+          {
+            "synset_id": "approach.n.01",
+            "description": "ideas or actions intended to deal with a problem or situation (gloss match)"
+          },
+          {
+            "synset_id": "procedure.n.01",
+            "description": "a particular course of action intended to achieve a result (gloss match)"
+          },
+          {
+            "synset_id": "smoke_screen.n.02",
+            "description": "an action intended to conceal or confuse or obscure (gloss match)"
+          },
+          {
+            "synset_id": "purpose.n.01",
+            "description": "an anticipated outcome that is intended or that guides your planned actions (gloss match)"
+          },
+          {
+            "synset_id": "exhortation.n.01",
+            "description": "a communication intended to urge or persuade the recipients to take some action (gloss match)"
+          },
+          {
+            "synset_id": "persuasion.n.01",
+            "description": "the act of persuading (or attempting to persuade); communication intended to induce belief or action (gloss match)"
+          },
+          {
+            "synset_id": "dissuasion.n.02",
+            "description": "persuading not to do or believe something; talking someone out of a belief or an intended course of action (gloss match)"
+          },
+          {
+            "synset_id": "punks.n.01",
+            "description": "a youth subculture closely associated with punk rock music in the late 1970s; in part a reaction to the hippy subculture; dress was optional but intended to shock (plastic garbage bags or old school uniforms) and hair was dyed in bright colors (in Mohican haircuts or sometimes spiked in bright plumes) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "intended_action.n.01",
+        "frame_id": 21,
+        "key": "value_type",
+        "corrected_value": "plan.n.01",
+        "corrected_reasoning": "LLM suggestion. 'plan.n.01' is defined as 'a set of intended actions, usually with a particular aim', which is a perfect semantic match for 'intended_action'."
+      }
+    ]
+  }
+}

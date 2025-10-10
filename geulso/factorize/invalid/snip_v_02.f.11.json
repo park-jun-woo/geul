@@ -1,0 +1,165 @@
+{
+  "original": {
+    "synset_id": "snip.v.02",
+    "definition": "cultivate, tend, and cut back the growth of",
+    "frame_id": 11,
+    "frame_text": "Something dress something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb 'snip' in this context (as defined by 'cut back the growth of') describes an action that modifies an object's physical state or form by reducing its size or density.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of cutting back growth, as indicated by the subject position in the interpreted verb frame.",
+            "value_type": "entity.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., plant, hair) whose growth is being cut back and whose physical state is changed.",
+            "value_type": "biological_growth.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "quick_and_precise.a.01",
+        "reasoning": "The verb 'snip' itself denotes a specific manner of cutting that is typically quick, often in small, controlled, and precise movements."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "maintenance.n.01",
+        "reasoning": "The definition 'cultivate, tend, and cut back the growth of' implies that the action of snipping serves the purpose of maintaining or caring for the patient's growth, rather than just random cutting."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of snipping or cultivating is generally a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame implies that the agent's will is not explicitly defined or is absent. Given its generic nature, it can encompass non-volitional agents (e.g., a machine), thus resulting in a neutral modality."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of cutting back growth is inherently neutral. Its positive or negative sentiment is entirely dependent on the specific context and the desired outcome (e.g., healthy pruning versus accidental damage)."
+      },
+      "Volitionality": {
+        "value": 0.0,
+        "reasoning": "Following the rule that 'Something' as the subject suggests non-volitional or neutral volitionality. Although 'cultivate' and 'tend' imply volition, the generic 'Something' in the frame allows for non-volitional actors (e.g., automated systems), making the volitionality neutral overall."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of snipping for cultivation is generally described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The broader process of 'cultivating, tending, and cutting back growth' typically involves numerous, repeated individual 'snips' over time, indicating a high degree of iterativity rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "snip.v.02",
+        "frame_id": 11,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "snip.v.02",
+        "frame_id": 11,
+        "key": "value_type",
+        "value": "biological_growth.n.01",
+        "reasoning": "value_type 'biological_growth.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "bacteriostat.n.01",
+            "description": "a chemical or biological material that inhibits bacterial growth (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "snip.v.02",
+        "frame_id": 11,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate provides a >99% confident semantic and contextual replacement for a general 'physical state'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "snip.v.02",
+        "frame_id": 11,
+        "key": "value_type",
+        "corrected_value": "growth.n.04",
+        "corrected_reasoning": "LLM suggestion: 'growth.n.04' perfectly describes the process of an organism growing, which aligns with 'biological_growth'."
+      }
+    ]
+  }
+}

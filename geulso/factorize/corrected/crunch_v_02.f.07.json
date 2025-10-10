@@ -1,0 +1,59 @@
+{
+  "synset_id": "crunch.v.02",
+  "definition": "press or grind with a crushing noise",
+  "frame_id": 7,
+  "frame_text": "Something grind something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The verb describes an action ('press or grind') that alters the physical state of an object, typically reducing it or breaking it, hence a change in its integrity or form.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the instrument or force that causes the change in the patient. While inanimate, it is the instigator of the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity undergoing the physical change (being pressed or ground)."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "sound.n.02",
+      "value_type": "crushing.a.01",
+      "reasoning": "The definition explicitly states 'with a crushing noise', indicating that a specific type of sound is an inherent and resultant characteristic of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crunching or grinding is a directly observable and audible event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject is 'Something', indicating an inanimate agent or force, which lacks conscious will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of crunching or grinding is inherently neutral; its positive or negative connotation depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something grind something' indicates that the action is performed by a non-volitional entity ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The actions 'press' and especially 'grind' imply a continuous or highly repetitive application of force and production of noise rather than a single discrete event."
+    }
+  }
+}

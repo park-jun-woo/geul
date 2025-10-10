@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "ostracize.v.02",
+    "definition": "avoid speaking to or dealing with",
+    "frame_id": 1,
+    "frame_text": "Somebody ostracise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The verb describes an action that causes a change from a state of social interaction to one of social exclusion or non-interaction.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the act of ostracizing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is the target of the ostracism and experiences the change in social interaction."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "social_avoidance.n.01",
+        "reasoning": "The definition specifies 'avoid speaking to or dealing with', indicating the particular manner in which the exclusion occurs."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of ostracizing is a directly observable social phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or occurrence."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a volitional agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Ostracizing inherently carries a negative connotation due to its nature of social exclusion and rejection."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action, making it an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of ostracizing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of initiating social exclusion, even if the resulting state of exclusion may be prolonged."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "ostracize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "ostracize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "social_relation.n.01",
+        "corrected_reasoning": "LLM suggestion: 'social_relation.n.01' is a perfect semantic and contextual fit for the concept of 'social interaction' as a verb property, referring to the relationships between individuals within a group that 'ostracize' acts upon."
+      }
+    ],
+    "participants": []
+  }
+}

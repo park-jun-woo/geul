@@ -1,0 +1,148 @@
+{
+  "original": {
+    "synset_id": "wrap.v.01",
+    "definition": "arrange or fold as a cover or protection",
+    "frame_id": 5,
+    "frame_text": "Somebody wrap_up something PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes an action that changes the physical state of an object from an exposed or unarranged state to a covered or enclosed state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of wrapping, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the change in physical state and becomes covered/protected."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "reasoning": "The 'PP' in the frame typically specifies the material used as the cover (e.g., 'in paper', 'with ribbon')."
+          },
+          {
+            "semantic_role": "purpose.n.01",
+            "value_type": "protection.n.01",
+            "reasoning": "The intended outcome of the action, derived from the definition 'as a cover or protection', which is to provide protection or coverage."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "arrangement.n.01",
+        "reasoning": "The action inherently involves a specific manner of physical manipulation, characterized by arranging or folding, as indicated in the definition 'arrange or fold'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Wrapping is a directly observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of wrapping is neutral; the sentiment depends on the context or what is being wrapped."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody wrap_up...' clearly indicates a volitional agent performing the action intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of wrapping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The act of wrapping, even with 'up', is generally considered a single, bounded event that leads to a completed state, rather than an inherently repetitive process like 'running'."
+      },
+      "Aspect": {
+        "value": 4,
+        "reasoning": "The phrasal verb 'wrap up' specifically emphasizes the completion of the action and the resultant state of being fully wrapped or enclosed, aligning with a result-focused aspect."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "wrap.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "wrap.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "condition.n.01",
+        "corrected_reasoning": "LLM suggestion: 'condition.n.01' (a state at a particular time) is a general and semantically appropriate replacement for 'physical_state.n.01' as a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

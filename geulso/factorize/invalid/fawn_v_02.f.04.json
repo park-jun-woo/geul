@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "fawn.v.02",
+    "definition": "try to gain favor by cringing or flattering",
+    "frame_id": 4,
+    "frame_text": "Somebody kowtow PP",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The verb describes an intentional act of engaging with another person to achieve a social outcome.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of trying to gain favor."
+          },
+          {
+            "semantic_role": "target.n.01",
+            "reasoning": "The person, specified by the 'PP' (prepositional phrase), towards whom the fawning behavior is directed, and whose favor is sought."
+          },
+          {
+            "semantic_role": "goal.n.01",
+            "value_type": "favor.n.01",
+            "reasoning": "The implicit objective of the action, which is to 'gain favor' as stated in the definition."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "subservient_behavior.n.01",
+        "reasoning": "The definition specifies the manner of the action as 'by cringing or flattering', which are forms of subservient or obsequious behavior."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of fawning or kowtowing is a directly observable behavior."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The agent 'Somebody' in the frame is performing an action with the clear intention ('try to gain favor'), indicating strong will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The description 'cringing or flattering' carries a negative connotation, implying insincere or excessively subservient behavior."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody kowtow PP' and the definition 'try to gain favor' explicitly indicate a volitional agent performing an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action taken by the agent."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Fawning or kowtowing often implies a sustained or repeated pattern of behavior ('try to gain favor' suggests ongoing effort) rather than a single discrete event. Thus, high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "fawn.v.02",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "fawn.v.02",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. 'social_behavior.n.01' (behavior that affects the behavior of others) is a perfect semantic and contextual fit for the invalid 'social_interaction.n.01' as a verb property of 'fawn.v.02'. (Original suggestion 'social_behavior.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

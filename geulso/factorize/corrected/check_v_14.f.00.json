@@ -1,0 +1,77 @@
+{
+  "synset_id": "check.v.14",
+  "definition": "abandon the intended prey, turn, and pursue an inferior prey",
+  "frame_id": 0,
+  "frame_text": "Something check",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "focus.n.01",
+      "reasoning": "The verb describes a shift in the object of the hunt from an 'intended prey' to an 'inferior prey', indicating a change in the agent's focus or target of pursuit.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (likely an animal/predator) that performs the action of changing its hunting target."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "prey.n.01",
+          "value_modifier": "intended",
+          "reasoning": "The original target ('intended prey') that is abandoned, representing the source of the focus change."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "prey.n.01",
+          "value_modifier": "inferior",
+          "reasoning": "The new target ('inferior prey') that is pursued, representing the destination of the focus change."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition explicitly includes 'turn' as a physical action involved in redirecting the pursuit.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the physical act of turning."
+        },
+        {
+          "semantic_role": "manner.n.01",
+          "value_type": "change_of_course.n.01",
+          "reasoning": "The action of turning inherently implies a change in direction."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action described is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' in this context (a predator) performs a deliberate action (abandon, turn, pursue), implying will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'checking' (redirecting a hunt) is a neutral action within the context of predation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' frame, the subject (a predator) intentionally 'abandons', 'turns', and 'pursues', which are volitional acts."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single instance of redirecting a pursuit, not an inherently repetitive or continuous action."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "winnow.v.01",
+    "definition": "separate the chaff from by using air currents",
+    "frame_id": 1,
+    "frame_text": "Somebody fan something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state_of_composition.n.01",
+        "reasoning": "The verb 'winnow' describes an action that causes a transition from a mixed state to a separated state for a material.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who performs the action of separating."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., grain with chaff) that undergoes the change in composition, becoming separated."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "using_air_currents.n.01",
+        "reasoning": "The definition explicitly states the method of separation: 'by using air currents', which is a core distinguishing manner for 'winnow'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Winnowing is a physical action that is directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual or declarative action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear will and intention to separate the material."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of winnowing itself is neutral; its sentiment depends on the context or purpose of the separation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite and certain action or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Winnowing typically involves repeated actions (e.g., tossing, agitating) or a continuous process of applying air currents to achieve separation, suggesting high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "winnow.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "state_of_composition.n.01",
+        "reasoning": "verb_property 'state_of_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "joplin.n.02",
+            "description": "United States composer who was the first creator of ragtime to write down his compositions (1868-1917) (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "winnow.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "phase.n.02",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates."
+      }
+    ],
+    "participants": []
+  }
+}

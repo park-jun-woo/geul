@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "predominate.v.01",
+    "definition": "be larger in number, quantity, power, status or importance",
+    "frame_id": 12,
+    "frame_text": "Something is predominateing PP",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "superiority.n.01",
+        "reasoning": "The definition 'be larger in number, quantity, power, status or importance' describes a continuous state of having a greater degree of something compared to others.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that is in the state of superiority or predominance."
+          },
+          {
+            "semantic_role": "comparison_group.n.01",
+            "reasoning": "The 'PP' (Prepositional Phrase) specifies the group, domain, or entity against which the subject's superiority is established."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of predominance is generally directly observable or verifiable through factual assessment."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual state, thus it is declarative."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Being in a state of predominance does not involve an agent's will or intention; it is a condition of existence."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb frame 'Something is predominateing' explicitly indicates the progressive aspect, signifying an ongoing state or process."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of predominating is neutral; its sentiment depends on the specific context or what is predominating."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The 'Something' in the frame is typically non-agentive, and the state of being predominant is not an action performed volitionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'predominate' asserts a definite state or fact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state, the concept of repetition is not applicable. It is treated as a single, ongoing instance, with the progressive aspect already capturing its temporal flow."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "predominate.v.01",
+        "frame_id": 12,
+        "key": "semantic_role",
+        "value": "comparison_group.n.01",
+        "reasoning": "semantic_role 'comparison_group.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "predominate.v.01",
+        "frame_id": 12,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate provided a perfect semantic and contextual replacement, and no perfect fit was found in internal knowledge. The original 'comparison_group.n.01' is not a valid WordNet synset, and existing valid synsets like 'group.n.02' or 'standard.n.01' are either too general or change the ontological type, failing to meet the >99% confidence threshold for a perfect fit."
+      }
+    ]
+  }
+}

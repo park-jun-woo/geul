@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "ping.v.05",
+    "definition": "send a message from one computer to another to check whether it is reachable and active",
+    "frame_id": 2,
+    "frame_text": "Something ping something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "information_transfer.n.01",
+        "reasoning": "The verb 'ping' describes the act of sending a message, which is a transfer of information, thereby changing the state of communication between entities.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which is the computer or system initiating the message transfer."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The implicit message or data packet that is being sent as part of the 'ping' action."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The second 'something' in the frame, which is the target computer or system receiving the message."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sending a message and checking reachability is a directly observable or verifiable process within a system."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a factual action, thus declarative."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Something' (e.g., a computer system) initiates this action with a programmed purpose or 'will' to check connectivity."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of 'pinging' is a neutral technical action; its outcome can be positive or negative but the act itself is neutral."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "Even for a non-human agent (a computer), 'pinging' is an intentional, initiated action for a specific purpose, making it volitional in a functional sense, as opposed to an accidental occurrence."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of sending a ping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'ping' in this context describes a single instance of sending a message."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "ping.v.05",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "information_transfer.n.01",
+        "reasoning": "verb_property 'information_transfer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypertext_transfer_protocol.n.01",
+            "description": "a protocol (utilizing TCP) to transfer hypertext requests and information between servers and browsers (gloss match)"
+          },
+          {
+            "synset_id": "blind_trust.n.01",
+            "description": "a trust that enables a person to avoid possible conflict of interest by transferring assets to a fiduciary; the person establishing the trust gives up the right to information about the assets (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "ping.v.05",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "communication.n.02",
+        "corrected_reasoning": "LLM suggestion: 'communication.n.02' perfectly describes the activity of conveying information, aligning with the general concept of 'information transfer' as a verb property for 'ping.v.05'."
+      }
+    ],
+    "participants": []
+  }
+}

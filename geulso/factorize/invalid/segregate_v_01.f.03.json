@@ -1,0 +1,116 @@
+{
+  "original": {
+    "synset_id": "segregate.v.01",
+    "definition": "separate by race or religion; practice a policy of racial segregation",
+    "frame_id": 3,
+    "frame_text": "Something segregate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_relationship.n.01",
+        "reasoning": "The verb describes an action that causes a change in the social relationship of individuals or groups, moving them from a state of unity or integration to separation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the act of segregation, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "person.n.01",
+            "reasoning": "The 'somebody' who is subjected to segregation; the individual or group whose social relationship is altered."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "criterion.n.01",
+        "value": "race and/or religion",
+        "reasoning": "The definition explicitly states that the separation is 'by race or religion', making this criterion an inherent and defining characteristic of the act of segregating."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of segregation is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody segregate somebody' implies an agent acting with strong will, further supported by the definition 'practice a policy of racial segregation'."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of segregation is inherently negative due to its discriminatory nature and harmful social implications."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody segregate somebody' explicitly includes a volitional agent ('Somebody'), and the definition 'practice a policy' reinforces intentionality."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of segregating is described as a definite occurrence or practice."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'practice a policy of racial segregation' suggests an action that is ongoing, habitual, or involves high repetition, rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "segregate.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "social_relationship.n.01",
+        "reasoning": "verb_property 'social_relationship.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "kinship_system.n.01",
+            "description": "(anthropology) the system of social relationships that constitute kinship in a particular culture, including the terminology that is used and the reciprocal obligations that are entailed (gloss match)"
+          },
+          {
+            "synset_id": "anthropology.n.01",
+            "description": "the social science that studies the origins and social relationships of human beings (gloss match)"
+          },
+          {
+            "synset_id": "sociometry.n.01",
+            "description": "the quantitative study of social relationships (gloss match)"
+          },
+          {
+            "synset_id": "social_organization.n.01",
+            "description": "the people in a society considered as a system organized by a characteristic pattern of relationships (gloss match)"
+          },
+          {
+            "synset_id": "affiliation.n.01",
+            "description": "a social or business relationship (gloss match)"
+          },
+          {
+            "synset_id": "fragmentation.n.02",
+            "description": "the disintegration of social norms governing behavior and thought and social relationships (gloss match)"
+          },
+          {
+            "synset_id": "dysfunction.n.01",
+            "description": "(medicine) any disturbance in the functioning of an organ or body part or a disturbance in the functioning of a social group (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "segregate.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "affiliation.n.01",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates list; 'affiliation.n.01' is defined as 'a social or business relationship', directly matching the intended meaning of the invalid 'social_relationship.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

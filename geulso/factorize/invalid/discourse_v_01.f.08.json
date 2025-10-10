@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "discourse.v.01",
+    "definition": "to consider or examine in speech or writing",
+    "frame_id": 8,
+    "frame_text": "Something discuss somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "intellectual_activity.n.01",
+        "reasoning": "The core of the definition 'to consider or examine' denotes an intellectual activity performed by the subject.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame acts as the initiator or performer of the intellectual activity, even if metaphorically (e.g., a text)."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the frame is the object or subject of this intellectual consideration or examination."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "communication.n.02",
+        "reasoning": "The definition's explicit mention of 'in speech or writing' indicates that the intellectual activity is conveyed or expressed through a communicative medium.",
+        "participants": []
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Discourse, being 'in speech or writing', implies a directly observable or documented form of communication."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' typically lacks inherent will or intention. Although the act of discoursing itself implies intention from a source, the frame specifies a non-volitional subject."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of discoursing is semantically neutral; its positive or negative valence depends on the content and context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something discuss somebody' implies a non-volitional subject 'Something', which does not inherently possess intentionality, despite the verb's definition."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of discoursing is presented as a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Discourse often involves an extended or repeated consideration/examination of a topic, indicating a high degree of repetition or continuous activity rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "discourse.v.01",
+        "frame_id": 8,
+        "key": "verb_property",
+        "value": "intellectual_activity.n.01",
+        "reasoning": "verb_property 'intellectual_activity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "discourse.v.01",
+        "frame_id": 8,
+        "key": "verb_property",
+        "corrected_value": "intellection.n.01",
+        "corrected_reasoning": "LLM suggestion: 'intellection.n.01' perfectly matches 'intellectual activity'."
+      }
+    ],
+    "participants": []
+  }
+}

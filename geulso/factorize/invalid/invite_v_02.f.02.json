@@ -1,0 +1,162 @@
+{
+  "original": {
+    "synset_id": "invite.v.02",
+    "definition": "invite someone to one's house",
+    "frame_id": 2,
+    "frame_text": "Somebody invite somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "presence.n.01",
+        "reasoning": "The verb 'invite' describes an action that aims to change the state of the invited person's presence at a particular location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of inviting, initiating the change.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is invited and whose presence is being requested/affected.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "reasoning": "The implicit location, 'one's house', where the invited person is requested to be present, as per the definition.",
+            "value_type": "house.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "act_of_communication.n.01",
+        "value_type": "request.n.01",
+        "reasoning": "Inviting is a specific form of communication, making a request for someone to come."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of inviting is a directly observable and performed action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of inviting itself is neutral; the context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody invite somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of inviting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete act of extending an invitation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "invite.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "act_of_communication.n.01",
+        "reasoning": "verb_property 'act_of_communication.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "joining.n.01",
+            "description": "the act of bringing two things into contact (especially for communication) (gloss match)"
+          },
+          {
+            "synset_id": "callosotomy.n.01",
+            "description": "severing the corpus callosum so that communication between the cerebral hemispheres is interrupted (in cases of severe intractable epilepsy) (gloss match)"
+          },
+          {
+            "synset_id": "monitoring.n.01",
+            "description": "the act of observing something (and sometimes keeping a record of it) (gloss match)"
+          },
+          {
+            "synset_id": "communications_technology.n.01",
+            "description": "the activity of designing and constructing and maintaining communication systems (gloss match)"
+          },
+          {
+            "synset_id": "home_banking.n.01",
+            "description": "banking in which transactions are conducted by means of electronic communication (via telephone or computer) (gloss match)"
+          },
+          {
+            "synset_id": "immediacy.n.03",
+            "description": "the quickness of action or occurrence (gloss match)"
+          },
+          {
+            "synset_id": "deixis.n.01",
+            "description": "the function of pointing or specifying from the perspective of a participant in an act of speech or writing; aspects of a communication whose interpretation depends on knowledge of the context in which the communication occurs (gloss match)"
+          },
+          {
+            "synset_id": "communication.n.01",
+            "description": "the activity of communicating; the activity of conveying information (gloss match)"
+          },
+          {
+            "synset_id": "didacticism.n.01",
+            "description": "communication that is suitable for or intended to be instructive (gloss match)"
+          },
+          {
+            "synset_id": "eye_contact.n.01",
+            "description": "a meeting of the eyes between two people that expresses meaningful nonverbal communication (gloss match)"
+          },
+          {
+            "synset_id": "colloquialism.n.01",
+            "description": "a colloquial expression; characteristic of spoken or written communication that seeks to imitate informal speech (gloss match)"
+          },
+          {
+            "synset_id": "discussion.n.01",
+            "description": "an extended communication (often interactive) dealing with some particular topic (gloss match)"
+          },
+          {
+            "synset_id": "address.n.03",
+            "description": "the act of delivering a formal spoken communication to an audience (gloss match)"
+          },
+          {
+            "synset_id": "persuasion.n.01",
+            "description": "the act of persuading (or attempting to persuade); communication intended to induce belief or action (gloss match)"
+          },
+          {
+            "synset_id": "traffic.n.03",
+            "description": "the amount of activity over a communication system during a given period of time (gloss match)"
+          },
+          {
+            "synset_id": "support_system.n.01",
+            "description": "a network of facilities and people who interact and remain in informal communication for mutual assistance; a network that enables you to live in a certain style (gloss match)"
+          },
+          {
+            "synset_id": "spin_doctor.n.01",
+            "description": "a public relations person who tries to forestall negative publicity by publicizing a favorable interpretation of the words or actions of a company or political party or famous person (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "invite.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "communication.n.01",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates list."
+      }
+    ],
+    "participants": []
+  }
+}

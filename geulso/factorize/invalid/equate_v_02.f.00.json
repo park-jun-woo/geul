@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "equate.v.02",
+    "definition": "be equivalent or parallel, in mathematics",
+    "frame_id": 0,
+    "frame_text": "Something equate something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "equivalence.n.01",
+        "reasoning": "The definition 'be equivalent or parallel' describes a continuous state of relationship between entities.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that is in the state of equivalence, as the grammatical subject."
+          },
+          {
+            "semantic_role": "co-patient.n.01",
+            "reasoning": "The entity introduced by the prepositional phrase (PP), with which the 'Something' is equivalent."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The statement of equivalence is typically presented as a direct assertion or observed fact (e.g., in mathematics)."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a relationship or fact."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no agentive will or intention; it's a description of an inherent state."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The frame 'Something is equateing PP' uses the progressive aspect, indicating an ongoing state or relationship."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of being equivalent is inherently neutral; it simply describes a relationship."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' is non-agentive, and the verb describes a state, not an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "To 'equate' implies a definitive statement of sameness or parallelism, suggesting certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state, the concept of repetition is not applicable; it is a single, ongoing instance of equivalence."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "equate.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "co-patient.n.01",
+        "reasoning": "semantic_role 'co-patient.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "co-patient.n.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found in candidates or internal knowledge for 'co-patient.n.01', as the 'co-' aspect is not captured by standard semantic role synsets in NLTK WordNet."
+      }
+    ]
+  }
+}

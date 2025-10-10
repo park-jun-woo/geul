@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "interject.v.01",
+    "definition": "to insert between other elements",
+    "frame_id": 2,
+    "frame_text": "Somebody come_in that CLAUSE",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "discourse_flow.n.01",
+        "reasoning": "The definition 'to insert between other elements' and the hypernym 'interrupt' indicate a change in the sequential state or flow of an ongoing discourse or event.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame initiates the act of interjecting, causing the change in discourse flow."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "discourse.n.01",
+            "reasoning": "The 'discourse' or ongoing conversation/sequence is the entity whose flow is altered by the interjection."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "utterance.n.01",
+            "reasoning": "The act of interjecting typically involves a verbal contribution (an utterance or remark) as the means by which the agent inserts themselves or their thoughts into the discourse, even if not explicitly stated in the 'Somebody come_in' frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of interjecting is a directly observable event within a conversation or situation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or occurrence."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention to perform the interjection."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of interjecting is semantically neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody come_in' explicitly indicates a volitional agent ('Somebody') performing the action of interjecting."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action; an interjection either occurs or it does not."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete act of inserting something into a sequence or discourse."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "interject.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "discourse_flow.n.01",
+        "reasoning": "verb_property 'discourse_flow.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "interject.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "discourse.n.01",
+        "corrected_reasoning": "LLM suggestion: 'discourse.n.01' is a valid synset representing verbal expression, which is semantically and contextually a perfect fit for the property of 'interject.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

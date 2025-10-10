@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "humiliate.v.01",
+    "definition": "cause to feel shame; hurt the pride of",
+    "frame_id": 9,
+    "frame_text": "Something mortify somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The verb describes causing a change in someone's emotional state, specifically from a neutral state to one of shame or hurt pride.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' acts as the cause of the emotional change in the experiencer, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the emotional change and experiences the feeling of shame or hurt pride."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of humiliating, though causing an internal feeling, can be directly observed through its effects or reported by the experiencer."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event that occurs."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent is 'Something', implying a lack of conscious will or intention in causing the humiliation."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "No specific tense information is provided in the input; thus, it defaults to present/neutral."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The verb describes a simple, completed act of causing humiliation, not an ongoing or perfected state."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb itself carries a neutral politeness level; politeness depends on context."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'cause to feel shame; hurt the pride of' inherently indicates a negative experience or outcome."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional agent ('Something') causing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or causation of shame."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of causing humiliation, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "humiliate.v.01",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "Original synset 'experiencer.n.01' claimed invalid; no perfect semantic replacement found in candidates or LLM knowledge that meets >99% confidence for this specific role."
+      }
+    ]
+  }
+}

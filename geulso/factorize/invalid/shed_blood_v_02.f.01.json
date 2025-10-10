@@ -1,0 +1,81 @@
+{
+  "original": {
+    "synset_id": "shed_blood.v.02",
+    "definition": "lose blood from one's body",
+    "frame_id": 1,
+    "frame_text": "Somebody hemorrhage",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "blood_quantity.n.01",
+        "reasoning": "The verb 'hemorrhage' describes a decrease in the quantity of blood within a body, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' in the frame is the entity whose blood quantity is changing."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Hemorrhage is typically a directly observable or diagnosable physiological event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a physiological event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Hemorrhage is an involuntary bodily process; the subject does not exert will over it."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The loss of blood from the body is generally a negative event, often indicative of injury or illness."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Hemorrhage is a non-volitional bodily function or malfunction; it is not an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite physiological event."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Hemorrhage typically describes a continuous or highly repetitive process of blood loss rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "shed_blood.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "blood_quantity.n.01",
+        "reasoning": "verb_property 'blood_quantity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "drop.n.02",
+            "description": "a small indefinite quantity (especially of a liquid); ; ; ; --Kipling (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "shed_blood.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "drop.n.02",
+        "corrected_reasoning": "Candidate 'drop.n.02' is a perfect semantic and contextual replacement for 'blood_quantity.n.01', referring to a small quantity of liquid."
+      }
+    ],
+    "participants": []
+  }
+}

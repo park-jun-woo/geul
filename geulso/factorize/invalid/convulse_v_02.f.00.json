@@ -1,0 +1,138 @@
+{
+  "original": {
+    "synset_id": "convulse.v.02",
+    "definition": "be overcome with laughter",
+    "frame_id": 0,
+    "frame_text": "Somebody convulse",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "body_movement.n.01",
+        "reasoning": "The verb describes a physical reaction involving involuntary, intense body movements, representing a change from a normal state to a state of bodily agitation.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' in the frame is the entity experiencing the involuntary body movements, hence a patient undergoing the change."
+          },
+          {
+            "semantic_role": "cause.n.01",
+            "value_type": "laughter.n.01",
+            "reasoning": "The definition 'be overcome with laughter' explicitly identifies 'laughter' as the cause or stimulus for the convulsive movements."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Convulsing due to laughter is a directly observable physical phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The phrasing 'be overcome with laughter' implies an involuntary reaction, indicating no active will or intention from the subject to perform the convulsion."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While laughter itself can be positive, the act of convulsing implies an extreme, sometimes uncomfortable or uncontrolled, physical reaction, rendering the action itself neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The definition 'be overcome with laughter' strongly indicates a non-volitional, involuntary action. The subject does not choose to convulse; it is a reaction."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Convulsing typically involves a series of rapid, repetitive, involuntary movements or contractions, suggesting a high degree of iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "convulse.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "body_movement.n.01",
+        "reasoning": "verb_property 'body_movement.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "rotational_nystagmus.n.01",
+            "description": "nystagmus caused by the body rotating rapidly; large slow movements of the eyeballs are in the direction of rotation (gloss match)"
+          },
+          {
+            "synset_id": "post-rotational_nystagmus.n.01",
+            "description": "nystagmus caused by suddenly stopping the rapid rotation of the body; large slow movements of the eyeballs are in the direction opposite to the direction of rotation (gloss match)"
+          },
+          {
+            "synset_id": "mime.n.02",
+            "description": "a performance using gestures and body movements without words (gloss match)"
+          },
+          {
+            "synset_id": "stroke.n.11",
+            "description": "any one of the repeated movements of the limbs and body used for locomotion in swimming or rowing (gloss match)"
+          },
+          {
+            "synset_id": "tapotement.n.01",
+            "description": "massage in which the body is tapped rhythmically with the fingers or with short rapid movements of the sides of the hand; used to loosen mucus on the chest walls of patients with bronchitis (gloss match)"
+          },
+          {
+            "synset_id": "proprioceptor.n.01",
+            "description": "special nerve endings in the muscles and tendons and other organs that respond to stimuli regarding the position and movement of the body (gloss match)"
+          },
+          {
+            "synset_id": "kinesthesis.n.01",
+            "description": "the ability to feel movements of the limbs and body (gloss match)"
+          },
+          {
+            "synset_id": "proprioception.n.01",
+            "description": "the ability to sense the position and location and orientation and movement of the body and its parts (gloss match)"
+          },
+          {
+            "synset_id": "kinesthesia.n.01",
+            "description": "the perception of body position and movement and muscular tensions etc (gloss match)"
+          },
+          {
+            "synset_id": "labanotation.n.01",
+            "description": "a system of notation for dance movements that uses symbols to represent points on a dancer's body and the direction of the dancer's movement and the tempo and the dynamics (gloss match)"
+          },
+          {
+            "synset_id": "body_language.n.01",
+            "description": "communication via the movements or attitudes of the body (gloss match)"
+          },
+          {
+            "synset_id": "chorea.n.02",
+            "description": "any of several degenerative nervous disorders characterized by spasmodic movements of the body and limbs (gloss match)"
+          },
+          {
+            "synset_id": "athetosis.n.01",
+            "description": "a continuous succession of slow, writhing, involuntary movements of the hands and feet and other body parts (gloss match)"
+          },
+          {
+            "synset_id": "tourette's_syndrome.n.01",
+            "description": "neurological disorder characterized by facial grimaces and tics and movements of the upper body and grunts and shouts and coprolalia (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "convulse.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'bodily_motion.n.01' is a general term for any change in the place or position of the body or any part of the body, which perfectly matches the intended meaning of 'body_movement'. (Original suggestion 'bodily_motion.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "dock.v.04",
+    "definition": "remove or shorten the tail of an animal",
+    "frame_id": 0,
+    "frame_text": "Somebody bob something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_attribute.n.01",
+        "reasoning": "The verb describes a deliberate alteration to an animal, specifically the removal or shortening of its tail, which is a change in its physical attributes.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of docking the animal."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "animal.n.01",
+            "reasoning": "The 'something' that is the direct object of the action, referring to the animal whose tail is altered."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of docking is a directly observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a 'Somebody' in the frame implies an agent acting with clear will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of docking is semantically neutral; any positive or negative sentiment arises from context or ethical considerations, not the verb itself."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Docking an animal's tail is typically a singular, completed event per animal rather than a repeated or continuous action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "dock.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "physical_attribute.n.01",
+        "reasoning": "verb_property 'physical_attribute.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "property.n.02",
+            "description": "a basic or essential attribute shared by all members of a class (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "dock.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "property.n.02",
+        "corrected_reasoning": "Candidate 'property.n.02' is a perfect semantic and contextual replacement for 'physical_attribute.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

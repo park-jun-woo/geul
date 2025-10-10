@@ -1,0 +1,71 @@
+{
+  "synset_id": "autopsy.v.01",
+  "definition": "perform an autopsy on a dead body; do a post-mortem",
+  "frame_id": 0,
+  "frame_text": "Somebody autopsy",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "examination.n.01",
+      "reasoning": "The verb describes the act of performing a detailed, systematic observation or inspection, as indicated by the definition 'perform an autopsy' and hypernym 'examine'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the autopsy, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "dead_body.n.01",
+          "reasoning": "The specific object of the examination, which is always a dead body according to the definition ('on a dead body')."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "cause_of_death.n.01",
+          "reasoning": "The inherent purpose of an autopsy, implied by 'do a post-mortem', is to investigate the circumstances and cause of death."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "detailed_and_systematic.a.01",
+      "reasoning": "An autopsy is intrinsically a thorough, methodical, and careful examination."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "domain.n.01",
+      "value_type": "medical.a.01",
+      "reasoning": "The examination explicitly falls within the medical and forensic domain, indicated by 'autopsy' and 'post-mortem'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Performing an autopsy is a direct, observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to perform the autopsy."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of autopsying is a neutral medical procedure; its sentiment depends on the context of its findings."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The performance of an autopsy is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of examining a body, though the examination itself has many steps."
+    }
+  }
+}

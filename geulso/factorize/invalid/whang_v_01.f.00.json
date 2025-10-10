@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "whang.v.01",
+    "definition": "beat with force",
+    "frame_id": 0,
+    "frame_text": "Somebody whang something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb 'whang' describes causing a change to the physical state or position of an object through forceful impact, which is a core aspect of 'beating'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the entity performing the action of beating with force."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the frame is the entity that undergoes the physical impact and change of state."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The definition explicitly includes 'with force', indicating a specific manner or intensity of the beating action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'whanging' is a directly observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of 'whanging' or beating is neutral in sentiment; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'beat with force' and the hypernym 'beat.v.03' (hit repeatedly) suggest that 'whang' implies a high degree of repetition in the striking action, but not necessarily infinite or continuous in the sense of a state."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "whang.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "whang.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate from the list or internal knowledge perfectly matches the general concept of 'physical_state.n.01' without being overly specific (e.g., state of matter, physiological state of a body)."
+      }
+    ],
+    "participants": []
+  }
+}

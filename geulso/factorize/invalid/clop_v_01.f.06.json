@@ -1,0 +1,138 @@
+{
+  "original": {
+    "synset_id": "clop.v.01",
+    "definition": "make or move along with a sound as of a horse's hooves striking the ground",
+    "frame_id": 6,
+    "frame_text": "Something clunk",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb's definition includes 'move along', signifying a change in spatial location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that performs the movement."
+          }
+        ]
+      },
+      {
+        "verb_type": "action",
+        "verb_property": "sound_emission.n.01",
+        "reasoning": "The definition explicitly states 'make... a sound', indicating the act of producing auditory output.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' is the source or originator of the sound."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "percussive, hoof-like",
+        "reasoning": "The phrase 'as of a horse's hooves striking the ground' specifies the characteristic percussive and hoof-like nature of the sound."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The sound and motion described by 'clop' are directly observable phenomena."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something clunk' (interpreted as 'Something clops') lacks an agent capable of will, making the action without an explicit will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of clopping is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' describes an event happening involving a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the sound and motion."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The action of 'clopping' inherently implies continuous, high repetition of sounds and movements, typical of a gait."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "clop.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "sound_emission.n.01",
+        "reasoning": "verb_property 'sound_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "clop.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "clop.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "sound.n.01",
+        "corrected_reasoning": "LLM suggestion, sound.n.01 represents the auditory effect produced, which aligns with 'sound emission' as a verb property."
+      },
+      {
+        "synset_id": "clop.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "timbre.n.01",
+        "corrected_reasoning": "LLM suggestion, timbre.n.01 is the distinctive property or quality of a complex sound, which is a perfect semantic match for 'sound quality'."
+      }
+    ],
+    "participants": []
+  }
+}

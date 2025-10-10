@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "debut.v.03",
+    "definition": "make one's debut",
+    "frame_id": 0,
+    "frame_text": "Somebody debut",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "status.n.02",
+        "reasoning": "The verb 'debut' describes the act of making a first public appearance, which inherently signifies a change in one's public or professional status.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the agent who initiates this change in their own status."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "ordinality.n.01",
+        "value_type": "first.s.01",
+        "reasoning": "The core semantic component of 'debut' is that the event is the *first* public appearance or performance of the subject."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "A debut is a publicly observable event, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to make their debut."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making a debut is generally neutral; its sentiment depends on context or outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----' indicates a volitional agent performing the action, as making a debut is an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "By definition, a 'debut' is a singular, first event that cannot be repeated as a debut."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "debut.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "ordinality.n.01",
+        "reasoning": "verb_property 'ordinality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "debut.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "priority.n.01",
+        "corrected_reasoning": "LLM suggestion. Replaced invalid 'ordinality.n.01' with 'priority.n.01' which represents precedence in time, a perfect fit for the 'first appearance' meaning of 'debut.v.03'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "affect.v.05",
+    "definition": "have an emotional or cognitive impact upon",
+    "frame_id": 2,
+    "frame_text": "Something move somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "internal_state.n.01",
+        "reasoning": "The definition 'have an emotional or cognitive impact upon' describes causing a change in the internal (emotional or cognitive) state of a person.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the emotional or cognitive impact, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the emotional or cognitive change, as specified by the verb frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The impact of an event can be directly observed or experienced, especially by the affected individual."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of impact."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no inherent will or intention driving the impact."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of affecting is neutral; the specific impact can be positive or negative depending on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something move somebody' indicates a non-volitional subject ('Something') causing the effect."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of an impact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of having an emotional or cognitive impact, though repeated impacts are possible, the core is a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "affect.v.05",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "internal_state.n.01",
+        "reasoning": "verb_property 'internal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "federation.n.03",
+            "description": "the act of constituting a political unity out of a number of separate states or colonies or provinces so that each member retains the management of its internal affairs (gloss match)"
+          },
+          {
+            "synset_id": "inwardness.n.03",
+            "description": "the quality or state of being inward or internal (gloss match)"
+          },
+          {
+            "synset_id": "protectorate.n.01",
+            "description": "a state or territory partly controlled by (but not a possession of) a stronger state but autonomous in internal affairs; protectorates are established by treaty (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "affect.v.05",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "inwardness.n.03",
+        "corrected_reasoning": "Selected 'inwardness.n.03' from candidates as its gloss ('the quality or state of being inward or internal') perfectly matches the concept of an 'internal state'."
+      }
+    ],
+    "participants": []
+  }
+}

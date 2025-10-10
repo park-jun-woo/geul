@@ -1,0 +1,137 @@
+{
+  "original": {
+    "synset_id": "silhouette.v.02",
+    "definition": "represent by a silhouette",
+    "frame_id": 2,
+    "frame_text": "Something silhouette somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "representation.n.01",
+        "reasoning": "The verb 'silhouette' describes the action of causing an entity to appear as a visual representation, a change in its perceived state.",
+        "participants": [
+          {
+            "semantic_role": "causal_source.n.01",
+            "reasoning": "The 'Something' in the frame (e.g., light, background) is the inanimate entity that causes the silhouetted appearance."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the frame is the entity whose visual appearance is being represented or affected."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "visual_form.n.01",
+        "value_type": "silhouette.n.01",
+        "reasoning": "This sememe specifies the intrinsic manner or form of the representation, which is a silhouette, as indicated by the verb's definition 'represent by a silhouette'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The visual effect of being silhouetted is typically a direct and observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an observable visual effect."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate, implying no will or intention behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of silhouetting is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject causing the effect."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the visual effect."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of creating a silhouetted appearance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "silhouette.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "visual_form.n.01",
+        "reasoning": "verb_property 'visual_form.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "audiovisual.n.01",
+            "description": "materials using sight or sound to present information (gloss match)"
+          },
+          {
+            "synset_id": "display.n.06",
+            "description": "an electronic device that represents information in visual form (gloss match)"
+          },
+          {
+            "synset_id": "readout.n.03",
+            "description": "an electronic device the displays information is a visual form (gloss match)"
+          },
+          {
+            "synset_id": "chromesthesia.n.01",
+            "description": "a form of synesthesia in which nonvisual stimulation results in the experience of color sensations (gloss match)"
+          },
+          {
+            "synset_id": "form.n.03",
+            "description": "a perceptual structure (gloss match)"
+          },
+          {
+            "synset_id": "fusion.n.05",
+            "description": "the combining of images from the two eyes to form a single visual percept (gloss match)"
+          },
+          {
+            "synset_id": "chart.n.01",
+            "description": "a visual display of information (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "silhouette.v.02",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "causal_source.n.01",
+        "reasoning": "semantic_role 'causal_source.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "silhouette.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "form.n.03",
+        "corrected_reasoning": "Perfect semantic and contextual replacement from candidates for 'visual_form.n.01'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "silhouette.v.02",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "cause.n.01",
+        "corrected_reasoning": "LLM suggestion: 'cause.n.01' is a perfect semantic fit for 'causal_source.n.01' by identifying the entity that produces the effect."
+      }
+    ]
+  }
+}

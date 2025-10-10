@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "encore.v.01",
+    "definition": "request an encore, from a performer",
+    "frame_id": 0,
+    "frame_text": "Somebody encore somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "request.n.01",
+        "reasoning": "The definition 'request an encore' directly indicates that the verb describes the act of making a request.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who performs the action of requesting."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' in the frame who is the performer and receives the request."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "additional_performance.n.01",
+            "reasoning": "The 'encore' itself is the implicit object of the request, inherent in the verb's meaning."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of requesting an encore is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of requesting an encore is generally neutral in sentiment, though it typically arises from positive audience reception."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of requesting."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of requesting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of requesting an encore."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "encore.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "additional_performance.n.01",
+        "reasoning": "value_type 'additional_performance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "encore.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "encore.n.01",
+        "corrected_reasoning": "LLM suggestion: 'encore.n.01' perfectly describes an 'additional performance' in this context, aligning with the definition 'an artists' reappearance in response to the audience's demand for an additional song or performance'."
+      }
+    ]
+  }
+}

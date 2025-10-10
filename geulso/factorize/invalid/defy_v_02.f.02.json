@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "defy.v.02",
+    "definition": "elude, especially in a baffling way",
+    "frame_id": 2,
+    "frame_text": "Something resist something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "comprehension.n.01",
+        "reasoning": "The definition 'elude, especially in a baffling way' and its hypernym 'be incomprehensible to; escape understanding by' describe a state where something cannot be understood or grasped.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The first 'Something' in the frame `Something resist something` is the entity that is in a state of being uncomprehensible or ungraspable, it is the one that eludes."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The second 'something' in the frame `Something resist something` is the entity attempting to comprehend or grasp, and thus experiences the elusiveness or resistance."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "baffling.a.01",
+        "reasoning": "The definition explicitly states 'especially in a baffling way,' indicating a specific manner of eluding or resisting comprehension."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of something eluding comprehension is experienced directly by the one attempting to comprehend it."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a state of affairs."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The verb describes an inherent characteristic or a passive state of the defying entity, not an act driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of eluding or resisting comprehension is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something resist something' implies a non-agentive subject ('Something'). The act of eluding comprehension is a passive characteristic rather than an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'defy' implies a certainty that the entity cannot be understood or overcome in this context."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a continuous state of being ungraspable or a single instance of being defied, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "defy.v.02",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "defy.v.02",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "animate_thing.n.01",
+        "corrected_reasoning": "LLM suggestion: 'animate_thing.n.01' best represents a general entity capable of sensation or activity, fitting the semantic role of an experiencer."
+      }
+    ]
+  }
+}

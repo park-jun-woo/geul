@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "salute.v.04",
+    "definition": "become noticeable",
+    "frame_id": 0,
+    "frame_text": "Something salute somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "noticeability.n.01",
+        "reasoning": "The definition 'become noticeable' indicates a transition from a state of not being perceived to being perceived.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' is the entity that undergoes the change of state, becoming noticeable."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' is the entity who perceives or notices the 'Something'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of becoming noticeable is directly experienced by the perceiving entity."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' lacks volition, so the event is not driven by its will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of becoming noticeable is inherently neutral; its sentiment is determined by context (e.g., a bad smell 'saluting' someone)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something salute somebody' describes an event where a non-agentive 'Something' becomes noticeable, which is a non-volitional process."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of something becoming noticeable."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of becoming noticeable, or the onset of a state."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "salute.v.04",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "salute.v.04",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "feeler.n.01",
+        "corrected_reasoning": "LLM suggestion: 'feeler.n.01' is a perfect semantic match for 'experiencer'."
+      }
+    ]
+  }
+}

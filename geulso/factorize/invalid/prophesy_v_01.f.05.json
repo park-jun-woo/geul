@@ -1,0 +1,116 @@
+{
+  "original": {
+    "synset_id": "prophesy.v.01",
+    "definition": "predict or reveal through, or as if through, divine inspiration",
+    "frame_id": 5,
+    "frame_text": "Something vaticinate something",
+    "sememes": [
+      {
+        "verb_type": "communication",
+        "verb_property": "information.n.02",
+        "reasoning": "The verb describes the act of making information about future events known, which is a form of communication.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the act of prophesying, acting as a non-volitional source or instrument, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "future_event.n.01",
+            "reasoning": "The 'something' that is the content of the prophecy, referring to a future event."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "supernatural_revelation",
+        "reasoning": "A core aspect of 'prophesy' is that the prediction or revelation is made through, or as if through, divine or supernatural inspiration, distinguishing it from ordinary prediction."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": -1.0,
+        "reasoning": "Prophecy involves revealing information about the future through supernatural means, which is not direct experience but typically involves interpretation or a belief in a non-observable source, thus falling under inference."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the verb frame is inanimate and lacks the capacity for will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of prophesying itself is neutral; the content of the prophecy can be positive or negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something'), making the action inherently non-volitional. The 'divine inspiration' also implies the subject is a conduit, not a volitional actor."
+      },
+      "Confidence": {
+        "value": 0.0,
+        "reasoning": "While prophecies often claim certainty from their source, they are predictions about the future, which are inherently uncertain until realized. As a verb of prediction, it is neutral on confidence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of delivering a prophecy or revelation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prophesy.v.01",
+        "frame_id": 5,
+        "key": "value_type",
+        "value": "future_event.n.01",
+        "reasoning": "value_type 'future_event.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "time.n.05",
+            "description": "the continuum of experience in which events pass from the future through the present to the past (gloss match)"
+          },
+          {
+            "synset_id": "crystal_gazing.n.01",
+            "description": "staring into a crystal ball to arouse visions of future or distant events (gloss match)"
+          },
+          {
+            "synset_id": "predictor.n.02",
+            "description": "information that supports a probabilistic estimate of future events (gloss match)"
+          },
+          {
+            "synset_id": "rain_check.n.02",
+            "description": "a ticket stub entitling the holder to admission to a future event if the scheduled event was cancelled due to rain (gloss match)"
+          },
+          {
+            "synset_id": "forewarning.n.01",
+            "description": "an early warning about a future event (gloss match)"
+          },
+          {
+            "synset_id": "destiny.n.01",
+            "description": "an event (or a course of events) that will inevitably happen in the future (gloss match)"
+          },
+          {
+            "synset_id": "history.n.04",
+            "description": "the continuum of events occurring in succession leading from the past to the present and even into the future (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prophesy.v.01",
+        "frame_id": 5,
+        "key": "value_type",
+        "corrected_value": "destiny.n.01",
+        "corrected_reasoning": "Best semantic match from candidates, representing an inevitable future event, which aligns with the concept of prophesy."
+      }
+    ]
+  }
+}

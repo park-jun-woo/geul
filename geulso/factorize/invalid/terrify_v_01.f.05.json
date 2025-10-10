@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "terrify.v.01",
+    "definition": "fill with terror; frighten greatly",
+    "frame_id": 5,
+    "frame_text": "Something terrorize somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "fear.n.01",
+        "reasoning": "The verb 'terrify' describes causing a change in a person's emotional state, specifically initiating or increasing fear/terror.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that causes the terror in the experiencer, initiating the change of emotional state."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' in the frame is the individual who undergoes the change in emotional state and experiences the terror."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effect of terrifying can be directly observed through the reactions of the affected individual."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of causing terror."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame is not necessarily an agent acting with will or intention (e.g., 'The loud noise terrified me')."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'terrify' inherently describes an action with a negative sentiment, as terror is an unpleasant emotion."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Given the frame 'Something terrorize somebody', the 'Something' is not typically a volitional agent, meaning the act of terrifying is non-volitional on its part."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing terror."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event or instance of filling someone with terror, though it could be sustained."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "terrify.v.01",
+        "frame_id": 5,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "terrify.v.01",
+        "frame_id": 5,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'person.n.01' is a general and appropriate synset for an experiencer."
+      }
+    ]
+  }
+}

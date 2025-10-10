@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "educate.v.03",
+    "definition": "teach or refine to be discriminative in taste or judgment",
+    "frame_id": 1,
+    "frame_text": "Somebody civilise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cognitive_ability.n.01",
+        "reasoning": "The definition 'teach or refine to be discriminative in taste or judgment' describes a process that causes a transition in a person's cognitive state or ability from a less refined to a more refined state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame who performs the action of teaching or refining."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame who undergoes the change in their cognitive ability, specifically in taste or judgment."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of educating is a directly observable interaction or process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by intention and will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of educating to be 'discriminative in taste or judgment' and the hypernym 'polish' (improve, perfect) indicate a generally positive or beneficial outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody educate somebody' explicitly includes a volitional agent ('Somebody') initiating the action of educating."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite process of teaching or refining."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Educating or refining typically involves an ongoing, continuous process composed of multiple acts or instances of teaching and guidance, rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "educate.v.03",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "cognitive_ability.n.01",
+        "reasoning": "verb_property 'cognitive_ability.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "higher_cognitive_process.n.01",
+            "description": "cognitive processes that presuppose the availability of knowledge and put it to use (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "educate.v.03",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "higher_cognitive_process.n.01",
+        "corrected_reasoning": "Selected candidate 'higher_cognitive_process.n.01' due to strong semantic and contextual match (gloss match)."
+      }
+    ],
+    "participants": []
+  }
+}

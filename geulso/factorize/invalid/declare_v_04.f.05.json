@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "declare.v.04",
+    "definition": "declare to be",
+    "frame_id": 5,
+    "frame_text": "Something hold something Adjective/Noun",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "status.n.02",
+        "reasoning": "The definition 'declare to be' signifies a formal pronouncement that changes the official state or designation of an entity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' (e.g., an institution, authority) that performs the act of declaring, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose status or state is being declared or assigned, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "reasoning": "The 'Adjective/Noun' that specifies the new status or characteristic attributed to the patient as a result of the declaration, as specified by the verb frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "To 'declare' implies a direct, explicit statement or pronouncement."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The core meaning of the verb is declarative, stating an official status or fact."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The verb 'declare' inherently implies an intentional act. Even when the subject is 'Something', it refers to an entity (e.g., an institution) capable of performing a volitional act of declaration."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of declaring itself is neutral; the content or implications of the declaration may carry positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The verb 'declare' implies a deliberate and intentional action. Even when the subject is 'Something', it refers to an agent capable of volition (e.g., a court, a government body)."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "To 'declare' implies a definitive and certain pronouncement or establishment of a state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete act of formal declaration."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "declare.v.04",
+        "frame_id": 5,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "declare.v.04",
+        "frame_id": 5,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ]
+  }
+}

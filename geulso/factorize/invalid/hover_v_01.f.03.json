@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "hover.v.01",
+    "definition": "be undecided about something; waver between conflicting positions or courses of action",
+    "frame_id": 3,
+    "frame_text": "Somebody vibrate",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "mental_state.n.01",
+        "value_type": "indecision.n.01",
+        "reasoning": "The definition 'be undecided about something; waver between conflicting positions or courses of action' describes a dynamic mental process of being in a state of uncertainty.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who is undergoing the mental process of indecision, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "choice.n.02",
+            "reasoning": "The implied object of indecision, referring to the 'conflicting positions or courses of action' mentioned in the definition."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "oscillation.n.01",
+        "reasoning": "The verb 'hover' (and the metaphorical 'vibrate' in the frame) implies a continuous, unstable, back-and-forth movement or oscillation between different options or thoughts, characteristic of wavering."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of indecision is often directly experienced by the subject or directly inferred from observable behavior."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a mental process or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Being undecided or wavering is typically an inability to make a choice, rather than a deliberate act of will or intention to remain in that state."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of indecision itself is neutral; any associated sentiment depends on context or the outcome of the decision."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Being undecided is a mental state or process that occurs to an individual, not a volitional act they intentionally perform."
+      },
+      "Confidence": {
+        "value": -1.0,
+        "reasoning": "The verb 'hover' in this sense inherently describes a lack of certainty or confidence regarding a decision or course of action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'waver between conflicting positions' and the frame 'vibrate' imply a continuous, highly repetitive mental oscillation between choices."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hover.v.01",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hover.v.01",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "organism.n.01",
+        "corrected_reasoning": "LLM suggestion: 'experiencer.n.01' is not a valid synset. 'organism.n.01' is a valid synset representing the general type of entity capable of experiencing."
+      }
+    ]
+  }
+}

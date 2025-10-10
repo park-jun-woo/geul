@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "europeanize.v.01",
+    "definition": "make (continental) European in customs, character, or ideas",
+    "frame_id": 1,
+    "frame_text": "Something Europeanise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cultural_characteristics.n.01",
+        "reasoning": "The definition 'make (continental) European in customs, character, or ideas' explicitly describes a transformation or alteration of cultural traits, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame functions as the entity that causes the change in cultural characteristics."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "european.a.01",
+            "reasoning": "The second 'something' is the entity that undergoes the transformation, acquiring European customs, character, or ideas as its new state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process and outcome of Europeanization can be observed through cultural shifts and changes."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent 'Something' typically does not possess conscious will or intention, making the action without an agent's will in the human sense."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of Europeanizing is neutral in sentiment; its positive or negative connotation is context-dependent."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates that the action is caused by a non-volitional entity ('Something')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition implies a definite and certain outcome of making something European."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a process leading to a single transformed state, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "europeanize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "cultural_characteristics.n.01",
+        "reasoning": "verb_property 'cultural_characteristics.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "europeanize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'cultural_trait.n.01' is a precise fit for the concept of 'cultural characteristics' in the context of 'europeanize.v.01'. (Original suggestion 'cultural_trait.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

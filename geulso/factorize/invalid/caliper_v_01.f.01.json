@@ -1,0 +1,96 @@
+{
+  "original": {
+    "synset_id": "caliper.v.01",
+    "definition": "measure the diameter of something with calipers",
+    "frame_id": 1,
+    "frame_text": "Somebody calliper something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "knowledge.n.01",
+        "reasoning": "The verb 'caliper' describes the action of determining a specific dimension of an object, thereby changing the state of knowledge about that object's dimension from unknown to known.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the measurement, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose dimension is being measured and about which knowledge is gained."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "calipers.n.01",
+            "reasoning": "The specific tool ('calipers') used to perform the measurement, which is intrinsic to the verb's meaning."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "dimension.n.01",
+        "value_type": "diameter.n.01",
+        "reasoning": "The definition explicitly states 'measure the diameter', indicating that 'diameter' is the specific dimension targeted by the act of calipering."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of calipering is a physical, directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody caliper something' implies an agent acting with clear intention and will to measure."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of measuring is neutral; its sentiment depends on context or the outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of measuring."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of measuring inherently implies an aim to determine a value with certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete act of measuring a specific dimension of an object."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "caliper.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "calipers.n.01",
+        "reasoning": "value_type 'calipers.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "caliper.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "caliper.n.01",
+        "corrected_reasoning": "LLM suggestion: Replaced invalid synset 'calipers.n.01' with valid and semantically equivalent 'caliper.n.01' representing the singular form of the measuring tool."
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "chafe.v.01",
+    "definition": "become or make sore by or as if by rubbing",
+    "frame_id": 6,
+    "frame_text": "Something fret",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes a transition of the subject to a new physical condition, specifically becoming sore.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change and becomes sore."
+          }
+        ],
+        "result_state": {
+          "value": "sore.a.01",
+          "reasoning": "The definition indicates the final physical condition is 'sore'."
+        }
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "rubbing.n.01",
+        "reasoning": "The definition explicitly states that the change occurs 'by or as if by rubbing', indicating the manner or cause of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of chafing and becoming sore is typically a directly observable or felt experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something fret' (interpreted as 'Something chafes') implies no agent with will or intention for the action to occur."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The outcome of 'soreness' is generally considered a negative physical state."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something fret' indicates a non-agentive subject ('Something') undergoing the action, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of becoming sore."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'become sore' describes a single event of reaching a sore state, even if the rubbing action that causes it might be continuous."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "chafe.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "chafe.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion. 'state.n.02' is a valid, general synset representing 'the way something is with respect to its main attributes', serving as a suitable replacement for the invalid 'physical_state.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

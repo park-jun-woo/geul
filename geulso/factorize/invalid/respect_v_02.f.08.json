@@ -1,0 +1,138 @@
+{
+  "original": {
+    "synset_id": "respect.v.02",
+    "definition": "show respect towards",
+    "frame_id": 8,
+    "frame_text": "Somebody respect somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_behavior.n.01",
+        "value_type": "respect.n.01",
+        "reasoning": "The verb 'to show respect towards' describes an action that demonstrates a specific positive social behavior or attitude.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of showing respect."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' towards whom the respect is shown; the object of the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of showing respect is typically a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention to show respect."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of showing respect is inherently a positive social interaction."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of showing respect."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of showing respect is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Showing respect often involves continuous or highly repetitive behaviors and attitudes over time, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "respect.v.02",
+        "frame_id": 8,
+        "key": "verb_property",
+        "value": "social_behavior.n.01",
+        "reasoning": "verb_property 'social_behavior.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "biologism.n.01",
+            "description": "use of biological principles in explaining human especially social behavior (gloss match)"
+          },
+          {
+            "synset_id": "socialization.n.03",
+            "description": "the adoption of the behavior patterns of the surrounding culture (gloss match)"
+          },
+          {
+            "synset_id": "good_form.n.01",
+            "description": "behavior that conforms to social conventions of the time (gloss match)"
+          },
+          {
+            "synset_id": "education.n.05",
+            "description": "the result of good upbringing (especially knowledge of correct social behavior) (gloss match)"
+          },
+          {
+            "synset_id": "instinct.n.01",
+            "description": "inborn pattern of behavior often responsive to specific stimuli (gloss match)"
+          },
+          {
+            "synset_id": "culture.n.06",
+            "description": "the attitudes and behavior that are characteristic of a particular social group or organization (gloss match)"
+          },
+          {
+            "synset_id": "kalashnikov_culture.n.01",
+            "description": "the attitudes and behavior in a social group that resolves political disputes by force of arms (gloss match)"
+          },
+          {
+            "synset_id": "zero_tolerance.n.01",
+            "description": "extreme intolerance of antisocial behavior (usually by an uncompromising application of the law) (gloss match)"
+          },
+          {
+            "synset_id": "etiquette.n.01",
+            "description": "rules governing socially acceptable behavior (gloss match)"
+          },
+          {
+            "synset_id": "subculture.n.01",
+            "description": "a social group within a national culture that has distinctive patterns of behavior and beliefs (gloss match)"
+          },
+          {
+            "synset_id": "social_climber.n.01",
+            "description": "someone seeking social prominence by obsequious behavior (gloss match)"
+          },
+          {
+            "synset_id": "sociobiologist.n.01",
+            "description": "a biologist who studies the biological determinants of social behavior (gloss match)"
+          },
+          {
+            "synset_id": "fragmentation.n.02",
+            "description": "the disintegration of social norms governing behavior and thought and social relationships (gloss match)"
+          },
+          {
+            "synset_id": "asperger's_syndrome.n.01",
+            "description": "a psychiatric disorder usually noted during early school years; characterized by impaired social relations and by repetitive patterns of behavior (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "respect.v.02",
+        "frame_id": 8,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'social behavior' as behavior involving communication and/or enjoyment. (Original suggestion 'social_interaction.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

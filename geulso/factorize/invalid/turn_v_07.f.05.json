@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "turn.v.07",
+    "definition": "pass into a condition gradually, take on a specific property or attribute; become",
+    "frame_id": 5,
+    "frame_text": "Something turn something Adjective/Noun",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "condition.n.01",
+        "reasoning": "The definition 'pass into a condition gradually, take on a specific property or attribute; become' describes a transition from one state/condition to another, indicating a change.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that causes the change in the patient's condition."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change of condition."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "reasoning": "The 'Adjective/Noun' specifies the new condition or property that the patient acquires as a result of the change."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "gradual.a.01",
+        "reasoning": "The definition explicitly includes 'gradually', specifying the manner in which the change occurs."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of something changing into another condition is typically directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame begins with 'Something' as the causal agent, which does not imply inherent will or intention for the action described by the verb 'turn' in this sense."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of changing condition is semantically neutral; the sentiment depends on the specific condition it changes into."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The first 'Something' in the frame refers to a non-volitional entity that causes the change, and the patient also undergoes the change passively. Therefore, the action is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or process of change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Despite being gradual, the verb 'turn' in this sense refers to a single, complete transformation into a new state, rather than a series of repetitive, distinct events."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "turn.v.07",
+        "frame_id": 5,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "turn.v.07",
+        "frame_id": 5,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion. 'result.n.01' is a precise fit for 'resultant state'."
+      }
+    ]
+  }
+}

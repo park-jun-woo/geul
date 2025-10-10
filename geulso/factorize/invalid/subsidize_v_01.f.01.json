@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "subsidize.v.01",
+    "definition": "support through subsidies",
+    "frame_id": 1,
+    "frame_text": "Somebody subsidise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb 'subsidize' inherently describes an action that transfers financial resources, thereby changing the financial possession or status of the recipient.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the act of providing subsidies, causing the transfer of resources."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' who receives the financial resources (subsidies) and whose possession or financial status is affected."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "financial_resources.n.01",
+            "reasoning": "The 'something' that is implicitly transferred, which is financial aid or resources."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "means.n.01",
+        "value_type": "subsidy.n.01",
+        "reasoning": "The definition 'support through subsidies' explicitly states that the financial support is provided by means of subsidies, detailing the specific method or form of the aid."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of subsidizing is typically a directly observable or documented action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody subsidize somebody' indicates an agent acting with clear intention and will to provide support."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of subsidizing itself is generally neutral in sentiment, although its effects or the motivation behind it can be positive or negative depending on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the subject in the verb frame indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of providing support."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a singular act or establishment of support, although subsidies can be provided over time, the verb 'subsidize' refers to the action of granting them."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "subsidize.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "financial_resources.n.01",
+        "reasoning": "value_type 'financial_resources.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pocketbook_issue.n.01",
+            "description": "an issue whose settlement will affect financial resources (gloss match)"
+          },
+          {
+            "synset_id": "support.n.11",
+            "description": "financial resources provided to make some project possible (gloss match)"
+          },
+          {
+            "synset_id": "crunch.n.02",
+            "description": "a critical situation that arises because of a shortage (as a shortage of time or money or resources) (gloss match)"
+          },
+          {
+            "synset_id": "insolvency.n.01",
+            "description": "the lack of financial resources (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "subsidize.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "support.n.11",
+        "corrected_reasoning": "Selected from candidates list: 'support.n.11' (financial resources provided to make some project possible) is a perfect semantic and contextual match for the original 'financial_resources.n.01' in the context of 'subsidize.v.01'."
+      }
+    ]
+  }
+}

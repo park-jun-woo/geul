@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "displace.v.03",
+    "definition": "terminate the employment of; discharge from an office or position",
+    "frame_id": 23,
+    "frame_text": "Somebody terminate somebody to INFINITIVE",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "employment.n.01",
+        "reasoning": "The definition 'terminate the employment of; discharge from an office or position' indicates a change in the state of a person's employment status.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame, who causes the termination of employment."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame, who undergoes the change of state by having their employment terminated."
+          },
+          {
+            "semantic_role": "purpose.n.01",
+            "value_type": "infinitive_clause.n.01",
+            "reasoning": "The 'to INFINITIVE' clause specifies the purpose or intended outcome for the displaced person, as initiated by the agent's action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Terminating employment is a directly observable administrative or social action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of displacing, while often having negative consequences for the patient, is inherently a neutral description of an administrative or organizational change."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ---- somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of displacing someone from employment is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete act of terminating one person's employment."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "displace.v.03",
+        "frame_id": 23,
+        "key": "value_type",
+        "value": "infinitive_clause.n.01",
+        "reasoning": "value_type 'infinitive_clause.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "displace.v.03",
+        "frame_id": 23,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate met >99% confidence, and no perfect fit for 'infinitive_clause' found in internal knowledge."
+      }
+    ]
+  }
+}

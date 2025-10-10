@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "grow.v.08",
+    "definition": "come to have or undergo a change of (physical features and attributes)",
+    "frame_id": 7,
+    "frame_text": "Something get something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_attribute.n.01",
+        "reasoning": "The definition 'come to have or undergo a change of (physical features and attributes)' directly indicates a change in the physical attributes of a subject.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The first 'Something' in the frame is the entity that undergoes the change or comes to possess the new attribute, thus acting as the patient."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "physical_attribute.n.01",
+            "reasoning": "The second 'something' in the frame represents the specific physical feature or attribute that is acquired or that constitutes the change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of acquiring or changing physical features is generally a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of change."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something get something' lacks an agent with will; the change happens to 'Something'."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of undergoing a change of attributes is inherently neutral; the specific attribute or context determines sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something get something' implies a non-volitional subject ('Something') undergoing a change, not actively performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or acquisition of an attribute."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The frame 'Something get something' implies a single instance of acquiring a specific attribute, rather than a continuous or repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "grow.v.08",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "physical_attribute.n.01",
+        "reasoning": "verb_property 'physical_attribute.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "property.n.02",
+            "description": "a basic or essential attribute shared by all members of a class (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "grow.v.08",
+        "frame_id": 7,
+        "key": "value_type",
+        "value": "physical_attribute.n.01",
+        "reasoning": "value_type 'physical_attribute.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "property.n.02",
+            "description": "a basic or essential attribute shared by all members of a class (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "grow.v.08",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "property.n.02",
+        "corrected_reasoning": "Candidate 'property.n.02' is a perfect semantic and contextual replacement for 'physical_attribute.n.01'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "grow.v.08",
+        "frame_id": 7,
+        "key": "value_type",
+        "corrected_value": "property.n.02",
+        "corrected_reasoning": "Candidate 'property.n.02' is a perfect semantic and contextual replacement for 'physical_attribute.n.01'."
+      }
+    ]
+  }
+}

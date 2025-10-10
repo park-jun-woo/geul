@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "masculinize.v.02",
+    "definition": "produce virilism in or cause to assume masculine characteristics, as through a hormonal imbalance or hormone therapy",
+    "frame_id": 0,
+    "frame_text": "Somebody masculinise somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "gender_characteristic.n.01",
+        "reasoning": "The definition 'produce virilism in or cause to assume masculine characteristics' indicates a change in the gender-related physical state of a participant.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who initiates and causes the change in masculine characteristics."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change and assumes masculine characteristics."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of masculinizing is typically a directly observable or medically verifiable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies an action driven by will or intention, especially in the context of therapy."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of masculinizing is semantically neutral; its positive or negative valence depends on the context and individual perspective."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of causing a change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to the single event or process of causing masculinization, rather than a repetitive short-cycle action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "masculinize.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "gender_characteristic.n.01",
+        "reasoning": "verb_property 'gender_characteristic.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "masculinize.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "sex_characteristic.n.01",
+        "corrected_reasoning": "LLM suggestion: 'sex_characteristic.n.01' is a perfect semantic and contextual fit for the original invalid 'gender_characteristic.n.01' as it directly refers to distinguishing qualities of male or female."
+      }
+    ],
+    "participants": []
+  }
+}

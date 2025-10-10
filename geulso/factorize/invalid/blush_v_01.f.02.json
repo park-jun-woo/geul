@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "blush.v.01",
+    "definition": "turn red, as if in embarrassment or shame",
+    "frame_id": 2,
+    "frame_text": "Somebody flush",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "color.n.01",
+        "reasoning": "The verb describes a physiological change in skin color.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' who experiences the physiological change of their skin, as implied by the verb frame 'Somebody flush' (interpreted as 'Somebody blushes')."
+          }
+        ],
+        "result_state": {
+          "state_type": "property.n.01",
+          "state_value": "red.a.01",
+          "reasoning": "The change results in the skin becoming red, as specified by the definition 'turn red'."
+        }
+      },
+      {
+        "verb_type": "cause",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The definition 'as if in embarrassment or shame' specifies the typical emotional trigger for the physiological change.",
+        "value_type": "negative_emotion.n.01",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who experiences the emotion that triggers the blushing."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Blushing is a directly observable physiological reaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a factual occurrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Blushing is an involuntary physiological response, not an action driven by conscious will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of turning red is a neutral physiological response; its sentiment (e.g., embarrassment, shyness) is associated with its cause, not the act itself."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Blushing is an involuntary physiological reaction, not an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence when it happens."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of the physical change."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "blush.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "blush.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'experiencer.n.01' is a valid NLTK WordNet synset and is a perfect semantic and contextual fit for the role. (Original suggestion 'experiencer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

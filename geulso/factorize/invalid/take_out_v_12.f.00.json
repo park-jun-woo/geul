@@ -1,0 +1,115 @@
+{
+  "original": {
+    "synset_id": "take_out.v.12",
+    "definition": "buy and consume food from a restaurant or establishment that sells prepared food",
+    "frame_id": 0,
+    "frame_text": "Somebody take_away something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The definition explicitly includes 'buy', which means a change of possession of the food from the vendor to the individual.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the purchase.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (food) that is acquired.",
+            "value_type": "food.n.01"
+          },
+          {
+            "semantic_role": "source.n.03",
+            "reasoning": "The food is acquired 'from a restaurant or establishment that sells prepared food', indicating a commercial source.",
+            "value_type": "commercial_food_establishment.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "action",
+        "verb_property": "ingestion.n.01",
+        "reasoning": "The definition explicitly states 'consume food,' which refers to the act of eating.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of consumption.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (food) being consumed.",
+            "value_type": "food.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "off_premises_removal",
+        "reasoning": "The phrasal verb 'take out' specifically implies that the food is removed from the establishment, generally with the intention of consuming it elsewhere, distinguishing it from dining in."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of taking out food is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention (to buy and consume)."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of taking out food is neutral; the context and the food itself determine its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody take_out something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of taking out food is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of acquiring and consuming a meal in this manner, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "take_out.v.12",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "commercial_food_establishment.n.01",
+        "reasoning": "value_type 'commercial_food_establishment.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "take_out.v.12",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "restaurant.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ]
+  }
+}

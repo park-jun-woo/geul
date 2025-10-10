@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "upset.v.02",
+    "definition": "cause to lose one's composure",
+    "frame_id": 9,
+    "frame_text": "Something upset somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "composure.n.01",
+        "reasoning": "The definition 'cause to lose one's composure' indicates a transition from a state of composure to a state of lacking it.",
+        "participants": [
+          {
+            "semantic_role": "stimulus.n.01",
+            "reasoning": "The 'Something' in the frame acts as the impersonal cause or trigger of the emotional change."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change in emotional state, specifically losing composure."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effect of being upset is often directly observed through a person's demeanor or actions."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a non-volitional cause, lacking will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Losing one's composure is inherently a negative emotional experience."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something upset somebody' indicates a non-volitional cause for the emotional change."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing upset."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically refers to a single event of causing someone to lose composure."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "upset.v.02",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'experient.n.01' is a valid synset meaning 'a person who experiences', semantically equivalent to 'experiencer'. (Original suggestion 'experient.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "assail.v.01",
+    "definition": "attack someone physically or emotionally",
+    "frame_id": 10,
+    "frame_text": "Something attack somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state_of_well-being.n.01",
+        "reasoning": "The verb 'assail' describes an action that causes a negative change in the target's state of well-being, which can be physical or emotional.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of assailing, initiating the change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose state of well-being is negatively affected by the assailing."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "aggressive.a.01",
+        "reasoning": "The verb 'assail' inherently denotes an aggressive and hostile manner in which the action is performed, as it means to attack."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Assailing is an observable action, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something attack somebody' suggests the 'Something' agent may not possess will (e.g., a storm, doubts), leading to a neutral modality for the verb itself in this frame."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'assail' or 'attack' someone is inherently a negative act."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something attack somebody' specifies a non-agentive 'Something' as the subject, implying a non-volitional action or event."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of assailing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of attack, even if it can be sustained over a period."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "assail.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "value": "state_of_well-being.n.01",
+        "reasoning": "verb_property 'state_of_well-being.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "state_of_well-being.n.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "corrected_value": "well-being.n.01",
+        "corrected_reasoning": "LLM suggestion. Found a valid synset for 'state of well-being'."
+      }
+    ],
+    "participants": []
+  }
+}

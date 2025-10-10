@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "miscegenate.v.01",
+    "definition": "marry or cohabit with a person of another race",
+    "frame_id": 0,
+    "frame_text": "Somebody miscegenate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "relationship.n.01",
+        "reasoning": "The verb describes the act of entering into a marital or cohabitational relationship, signifying a change in the relational status between individuals.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who forms or engages in the relationship, as the subject of the verb."
+          },
+          {
+            "semantic_role": "co-participant.n.01",
+            "reasoning": "The implicit second person involved in the reciprocal relationship, essential to the meaning of 'marry' or 'cohabit', and explicitly understood to be of another race in this verb's context."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "race.n.01",
+        "value_type": "interracial.a.01",
+        "reasoning": "A defining semantic component of 'miscegenate' is that the relationship established is between individuals of different racial backgrounds."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of forming a relationship is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The verb frame 'Somebody miscegenate' implies an agent acting with clear intention and will to form a relationship."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The term 'miscegenate' historically carries and often retains a negative and pejorative connotation due to its origins in racist ideologies concerning 'racial mixing'."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "Forming a marital or cohabitational relationship is an intentional and volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of entering a relationship."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Entering into a specific relationship (marriage or cohabitation) is typically a single event, even if the state is continuous."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "miscegenate.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "co-participant.n.01",
+        "reasoning": "semantic_role 'co-participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "co-participant.n.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "participant.n.01",
+        "corrected_reasoning": "LLM suggestion: 'participant.n.01' is a valid and semantically equivalent replacement for 'co-participant.n.01' in the context of a semantic role."
+      }
+    ]
+  }
+}

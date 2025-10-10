@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "press.v.10",
+    "definition": "press from a plastic",
+    "frame_id": 3,
+    "frame_text": "Something press_out something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "form.n.01",
+        "reasoning": "The definition 'press from a plastic' describes the action of shaping or forming a material, causing a change in its physical form or state of emergence.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which acts as the non-volitional instrument or machine causing the pressing and shaping action."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which is the material undergoing the change of form and being extruded or pushed out."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "application_of_force.n.01",
+        "value_type": "pressure.n.01",
+        "reasoning": "The core meaning of 'press' inherently involves the application of force or pressure."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of pressing and forming is a directly observable physical process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-human agent (e.g., a machine or tool), implying no intrinsic will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of pressing to form is neutral; its sentiment depends on the product or context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' refers to a non-volitional agent (e.g., a machine or a natural force) performing the action, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action described is a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The frame implies a single act of pressing out to form an object, rather than a continuous or highly repetitive series of individual distinct actions (though it can be part of a repetitive manufacturing process, the verb itself describes one instance)."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "press.v.10",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "application_of_force.n.01",
+        "reasoning": "verb_property 'application_of_force.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pulley.n.01",
+            "description": "a simple machine consisting of a wheel with a groove in which a rope can run to change the direction or point of application of a force applied to the rope (gloss match)"
+          },
+          {
+            "synset_id": "pascal's_law.n.01",
+            "description": "pressure applied anywhere to a body of fluid causes a force to be transmitted equally in all directions; the force acts at right angles to any surface in contact with the fluid (gloss match)"
+          },
+          {
+            "synset_id": "telekinesis.n.01",
+            "description": "the power to move something by thinking about it without the application of physical force (gloss match)"
+          },
+          {
+            "synset_id": "bouncing_putty.n.01",
+            "description": "a soft elastic silicone polymer that increases in elasticity with the application of force; used in the center of golf balls and as shock-absorbent padding (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "press.v.10",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion (Original suggestion 'physical_force.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

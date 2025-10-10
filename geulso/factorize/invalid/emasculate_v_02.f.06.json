@@ -1,0 +1,142 @@
+{
+  "original": {
+    "synset_id": "emasculate.v.02",
+    "definition": "remove the testicles of a male animal",
+    "frame_id": 6,
+    "frame_text": "Somebody emasculate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "integrity.n.01",
+        "reasoning": "The verb describes an action that causes a change in the physical integrity of a male animal by removing its testicles, thus affecting its reproductive state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the act of emasculation, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "male_animal.n.01",
+            "reasoning": "The 'somebody' (a male animal) whose testicles are removed, undergoing the change in physical integrity and reproductive ability."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of emasculation is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of emasculation, while sometimes performed for practical reasons (e.g., castration of livestock), inherently involves an invasive procedure, the removal of a body part, and the loss of reproductive function for the affected animal, which can be perceived as a negative outcome or deprivation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of emasculation is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of performing emasculation on an individual."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "emasculate.v.02",
+        "frame_id": 6,
+        "key": "value_type",
+        "value": "male_animal.n.01",
+        "reasoning": "value_type 'male_animal.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "castration.n.01",
+            "description": "neutering a male animal by removing the testicles (gloss match)"
+          },
+          {
+            "synset_id": "servicing.n.01",
+            "description": "the act of mating by male animals (gloss match)"
+          },
+          {
+            "synset_id": "territoriality.n.01",
+            "description": "the behavior of a male animal that defines and defends its territory (gloss match)"
+          },
+          {
+            "synset_id": "female.n.01",
+            "description": "an animal that produces gametes (ova) that can be fertilized by male gametes (spermatozoa) (gloss match)"
+          },
+          {
+            "synset_id": "hen.n.04",
+            "description": "female of certain aquatic animals e.g. octopus or lobster (gloss match)"
+          },
+          {
+            "synset_id": "male.n.01",
+            "description": "an animal that produces gametes (spermatozoa) that can fertilize female gametes (ova) (gloss match)"
+          },
+          {
+            "synset_id": "sire.n.03",
+            "description": "male parent of an animal especially a domestic animal such as a horse (gloss match)"
+          },
+          {
+            "synset_id": "dam.n.03",
+            "description": "female parent of an animal especially domestic livestock (gloss match)"
+          },
+          {
+            "synset_id": "egg.n.01",
+            "description": "animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds (gloss match)"
+          },
+          {
+            "synset_id": "horsefly.n.02",
+            "description": "large swift fly the female of which sucks blood of various animals (gloss match)"
+          },
+          {
+            "synset_id": "mosquito.n.01",
+            "description": "two-winged insect whose female has a long proboscis to pierce the skin and suck the blood of humans and animals (gloss match)"
+          },
+          {
+            "synset_id": "mare.n.01",
+            "description": "female equine animal (gloss match)"
+          },
+          {
+            "synset_id": "fertilization.n.01",
+            "description": "creation by the physical union of male and female gametes; of sperm and ova in an animal or pollen and ovule in a plant (gloss match)"
+          },
+          {
+            "synset_id": "harvey.n.01",
+            "description": "English physician and scientist who described the circulation of the blood; he later proposed that all animals originate from an ovum produced by the female of the species (1578-1657) (gloss match)"
+          },
+          {
+            "synset_id": "impotence.n.02",
+            "description": "an inability (usually of the male animal) to copulate (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "emasculate.v.02",
+        "frame_id": 6,
+        "key": "value_type",
+        "corrected_value": "male.n.01",
+        "corrected_reasoning": "Candidate 'male.n.01' is a perfect semantic and contextual fit for 'male_animal.n.01', defining a male animal."
+      }
+    ]
+  }
+}

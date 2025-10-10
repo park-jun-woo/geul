@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "make.v.02",
+    "definition": "give certain properties to something",
+    "frame_id": 2,
+    "frame_text": "Something get something Adjective/Noun",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.01",
+        "reasoning": "The verb 'make' in this sense means 'to cause to be or become', specifically 'give certain properties to something'. This describes a transition from one state (lacking the property) to another (having the property).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The verb 'make' is inherently causative, implying an agent who brings about the change, even if not explicitly present in the provided frame syntax 'Something get...'."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The first 'Something' in the frame 'Something get something Adjective/Noun' refers to the entity that undergoes the change of state or acquires new properties."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "reasoning": "The 'Adjective/Noun' in the frame represents the new property or state that the patient acquires as a result of the 'make' action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of making something happen, or causing a change, is typically directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or a caused event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The causative nature of 'make' implies that the agent acts with a strong will and intention to bring about the change."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of causing a change in properties is neutral; the specific property imparted may carry sentiment, but the verb itself does not."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The verb 'make' (to cause) implies an intentional act by an agent to bring about a specific outcome or property change, making it volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'make' implies a definite and certain outcome of the causative action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed event of causing a change in state or property, unless specified otherwise by context."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "make.v.02",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "resultant_state.n.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "state.n.01",
+        "corrected_reasoning": "LLM suggestion: 'state.n.01' perfectly describes the 'resultant state' as the way something is after an action."
+      }
+    ]
+  }
+}

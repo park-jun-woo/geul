@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "exceed.v.02",
+    "definition": "be superior or better than some standard",
+    "frame_id": 11,
+    "frame_text": "Something transcend something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "superiority.n.01",
+        "reasoning": "The definition 'be superior or better than' describes a static condition or relationship, not an action or a process of change.",
+        "participants": [
+          {
+            "semantic_role": "theme.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity whose state of superiority is being described."
+          },
+          {
+            "semantic_role": "comparison_point.n.01",
+            "reasoning": "The second 'something' in the frame represents the standard or entity against which the theme is compared and found to be superior."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The statement of exceeding/being superior is typically based on direct observation or assessment."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact or condition."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Being superior is a state of being, not an action driven by an agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The verb itself is neutral; whether being superior is positive or negative depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' is typically inanimate or abstract and does not volitionally 'transcend' or 'exceed' another entity. It describes an inherent or resultant state."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "To 'exceed' implies a definite observation or conclusion of superiority."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a descriptive state, the concept of repetition is not applicable in the sense of iterative actions. It is treated as a single, continuous instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "exceed.v.02",
+        "frame_id": 11,
+        "key": "semantic_role",
+        "value": "comparison_point.n.01",
+        "reasoning": "semantic_role 'comparison_point.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "springboard.n.02",
+            "description": "a beginning from which an enterprise is launched (gloss match)"
+          },
+          {
+            "synset_id": "collation.n.03",
+            "description": "careful examination and comparison to note points of disagreement (gloss match)"
+          },
+          {
+            "synset_id": "standard.n.01",
+            "description": "a basis for comparison; a reference point against which other things can be evaluated (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "exceed.v.02",
+        "frame_id": 11,
+        "key": "semantic_role",
+        "corrected_value": "standard.n.01",
+        "corrected_reasoning": "Candidate 'standard.n.01' is a perfect semantic match for 'comparison_point.n.01' ('a basis for comparison; a reference point')."
+      }
+    ]
+  }
+}

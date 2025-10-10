@@ -1,0 +1,82 @@
+{
+  "original": {
+    "synset_id": "misinform.v.01",
+    "definition": "give false or misleading information to",
+    "frame_id": 2,
+    "frame_text": "Something misinform somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "knowledge.n.01",
+        "reasoning": "The verb 'misinform' describes a process of altering or establishing a state of knowledge in the recipient, specifically by providing incorrect information.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame acts as the non-volitional source or cause of the misinformation."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "false_information.n.01",
+            "reasoning": "The core of what is transferred; the 'false or misleading information' itself, which is the object of the action."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' who receives the false or misleading information."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of misinforming is a directly observable event of communication."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something misinform somebody' lacks an agent capable of will, indicating no will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The verb 'misinform' inherently carries a negative sentiment due to the provision of 'false or misleading' information."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something misinform somebody' implies that the 'Something' is a non-volitional source of misinformation."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of misinforming is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single act of providing misinformation, unless context suggests otherwise."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "misinform.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "false_information.n.01",
+        "reasoning": "value_type 'false_information.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": []
+  }
+}

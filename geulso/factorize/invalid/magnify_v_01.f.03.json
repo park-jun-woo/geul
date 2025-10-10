@@ -1,0 +1,143 @@
+{
+  "original": {
+    "synset_id": "magnify.v.01",
+    "definition": "increase in size, volume or significance",
+    "frame_id": 3,
+    "frame_text": "Something amplify something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "magnitude.n.01",
+        "reasoning": "The verb 'magnify' describes a process where the target 'something' undergoes a change in its size, volume, or significance, which are aspects of magnitude.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The initial 'Something' in the frame 'Something amplify something' acts as the entity causing the change in magnitude of the patient. This implies an instrumental or impersonal causer."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the entity whose magnitude is increased, undergoing the change."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "direction_of_change.n.01",
+        "value_type": "increase.n.01",
+        "reasoning": "The definition explicitly specifies that the change is an 'increase' in size, volume, or significance, indicating the direction of the magnitude change."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of increasing in size, volume, or significance is typically a directly observable or ascertainable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something amplify something' indicates a non-human or inanimate subject, suggesting no will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of magnifying is neutral; its positive or negative sentiment depends on the specific context and what is being magnified."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something amplify something' implies that the action is carried out by a non-volitional agent ('Something')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or effect."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'magnify' in this context typically refers to a single instance or event of causing an increase, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "magnify.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "direction_of_change.n.01",
+        "reasoning": "verb_property 'direction_of_change.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "face_lift.n.02",
+            "description": "a renovation that improves the outward appearance (as of a building) but usually does not involve major changes (gloss match)"
+          },
+          {
+            "synset_id": "gear.n.01",
+            "description": "a toothed wheel that engages another toothed mechanism in order to change the speed or direction of transmitted motion (gloss match)"
+          },
+          {
+            "synset_id": "pulley.n.01",
+            "description": "a simple machine consisting of a wheel with a groove in which a rope can run to change the direction or point of application of a force applied to the rope (gloss match)"
+          },
+          {
+            "synset_id": "worm_gear.n.01",
+            "description": "gear consisting of a shaft with screw thread (the worm) that meshes with a toothed wheel (the worm wheel); changes the direction of the axis of rotary motion (gloss match)"
+          },
+          {
+            "synset_id": "shiftiness.n.02",
+            "description": "the quality of being changeable in direction (gloss match)"
+          },
+          {
+            "synset_id": "second_law_of_motion.n.01",
+            "description": "the rate of change of momentum is proportional to the imposed force and goes in the direction of the force (gloss match)"
+          },
+          {
+            "synset_id": "evolutionary_trend.n.01",
+            "description": "a general direction of evolutionary change (gloss match)"
+          },
+          {
+            "synset_id": "collision.n.01",
+            "description": "(physics) a brief event in which two or more bodies come together (gloss match)"
+          },
+          {
+            "synset_id": "return.n.03",
+            "description": "the occurrence of a change in direction back in the opposite direction (gloss match)"
+          },
+          {
+            "synset_id": "refraction.n.01",
+            "description": "the change in direction of a propagating wave (light or sound) when passing from one medium to another (gloss match)"
+          },
+          {
+            "synset_id": "shear.n.01",
+            "description": "(physics) a deformation of an object in which parallel planes remain parallel but are shifted in a direction parallel to themselves (gloss match)"
+          },
+          {
+            "synset_id": "random_walk.n.01",
+            "description": "a stochastic process consisting of a sequence of changes each of whose characteristics (as magnitude or direction) is determined by chance (gloss match)"
+          },
+          {
+            "synset_id": "transformation.n.02",
+            "description": "(mathematics) a function that changes the position or direction of the axes of a coordinate system (gloss match)"
+          },
+          {
+            "synset_id": "curve.n.01",
+            "description": "the trace of a point whose direction of motion changes (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "magnify.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "trend.n.01",
+        "corrected_reasoning": "LLM suggestion: 'trend.n.01' perfectly describes a general direction in which something is developing or changing, aligning with the implied meaning of 'direction_of_change'."
+      }
+    ],
+    "participants": []
+  }
+}

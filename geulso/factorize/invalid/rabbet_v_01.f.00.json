@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "rabbet.v.01",
+    "definition": "join with a rabbet joint",
+    "frame_id": 0,
+    "frame_text": "Somebody rabbet something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "connection.n.01",
+        "reasoning": "The verb 'rabbet' is defined as 'join', indicating a change from a state of separation to a state of being connected.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of joining."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., pieces of material) that undergoes the process of being joined."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "joint_type.n.01",
+        "value_type": "rabbet.n.01",
+        "reasoning": "The verb 'rabbet' specifically denotes that the joining is performed using a particular kind of joint, a rabbet joint, which is a core characteristic of this action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Rabbeting is a physical action that is typically directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of joining is neutral; its sentiment depends on the context and purpose."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that is performed."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance or process of forming a joint, not inherently a repetitive series of distinct events."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "rabbet.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "joint_type.n.01",
+        "reasoning": "verb_property 'joint_type.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "arthroscope.n.01",
+            "description": "a type of endoscope that is inserted into a joint for visual examination (gloss match)"
+          },
+          {
+            "synset_id": "genus_gnetum.n.01",
+            "description": "type genus of the Gnetaceae; small trees or shrubs usually with climbing jointed stems and terminal spikes of flowers with orange-red seeds clustered in rough cones (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "rabbet.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "Neither candidate provided a perfect semantic and contextual replacement, and no suitable alternative could be found in NLTK WordNet that perfectly represents 'joint_type.n.01' with >99% confidence."
+      }
+    ],
+    "participants": []
+  }
+}

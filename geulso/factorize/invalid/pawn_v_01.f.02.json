@@ -1,0 +1,118 @@
+{
+  "original": {
+    "synset_id": "pawn.v.01",
+    "definition": "leave as a guarantee in return for money",
+    "frame_id": 2,
+    "frame_text": "Somebody soak something",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb describes an action that results in a temporary change of possession of an item from one party to another.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the action of pawning, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose possession is temporarily transferred, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The implicit party (e.g., a pawnbroker) to whom the item is given, as implied by the definition 'leave as a guarantee' and the hypernym 'consign'."
+          }
+        ]
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "financial_transaction.n.01",
+        "reasoning": "The temporary transfer of possession is specifically for the purpose of a financial transaction, where the item serves as a guarantee for money received (a loan)."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Pawning is typically a directly observable transaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' implies an agent acting with clear intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of pawning is neutral; its sentiment depends on the specific context and reasons for the transaction."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of pawning is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete transaction."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "pawn.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "financial_transaction.n.01",
+        "reasoning": "verb_property 'financial_transaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "high_finance.n.01",
+            "description": "large and complex financial transactions (often used with the implication that those individuals or institutions who engage in them are unethical) (gloss match)"
+          },
+          {
+            "synset_id": "operations.n.01",
+            "description": "financial transactions at a brokerage; having to do with the execution of trades and keeping customer records (gloss match)"
+          },
+          {
+            "synset_id": "financier.n.01",
+            "description": "a person skilled in large scale financial transactions (gloss match)"
+          },
+          {
+            "synset_id": "principal.n.06",
+            "description": "the major party to a financial transaction at a stock exchange; buys and sells for his own account (gloss match)"
+          },
+          {
+            "synset_id": "operating_capital.n.01",
+            "description": "capital available for the operations of a firm (e.g. manufacturing or transportation) as distinct from financial transactions and long-term improvements (gloss match)"
+          },
+          {
+            "synset_id": "smart_card.n.01",
+            "description": "a plastic card containing a microprocessor that enables the holder to perform operations requiring data that is stored in the microprocessor; typically used to perform financial transactions (gloss match)"
+          },
+          {
+            "synset_id": "operating_budget.n.01",
+            "description": "a budget for current expenses as distinct from financial transactions or permanent improvements (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "pawn.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "deal.n.02",
+        "corrected_reasoning": "LLM suggestion: 'deal.n.02' (a financial transaction) is a perfect semantic fit for the invalid 'financial_transaction.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

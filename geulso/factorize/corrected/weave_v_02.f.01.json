@@ -1,0 +1,65 @@
+{
+  "synset_id": "weave.v.02",
+  "definition": "create a piece of cloth by interlacing strands of fabric, such as wool or cotton",
+  "frame_id": 1,
+  "frame_text": "Somebody weave something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "production.n.01",
+      "reasoning": "The verb 'weave' describes the act of creating a new object (cloth) from raw materials, which is a change in the state of existence or form.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of weaving and brings the cloth into existence."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "cloth.n.01",
+          "reasoning": "The 'something' being woven, which is a piece of cloth."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "yarn.n.01",
+          "reasoning": "The definition explicitly mentions 'strands of fabric' as the raw material used in the weaving process."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "interlacing.n.01",
+      "reasoning": "The core definition specifies the manner of creation as 'interlacing strands', which is a crucial distinguishing characteristic of weaving."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Weaving is a physical action that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of weaving itself is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody weave something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of weaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Weaving is a continuous process involving highly repetitive, cyclical actions of interlacing strands to produce a single item."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "reinsure.v.01",
+    "definition": "provide additional insurance for",
+    "frame_id": 2,
+    "frame_text": "Something reinsure somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "financial_protection.n.01",
+        "reasoning": "The verb 'reinsure' describes an act that changes the state of financial protection for someone by providing additional insurance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that provides the additional insurance, acting as the entity initiating the change in protection."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who receives the additional insurance and whose financial protection status is changed."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of reinsuring is a formal, transactional event that can be directly documented and observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a non-personal entity (e.g., a company, a policy) without inherent will or intention driving the action itself, even if human agents are involved behind the scenes."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of providing insurance is generally neutral, offering protection without inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something reinsure somebody' indicates a non-volitional subject ('Something'), meaning the action is not driven by a conscious, intentional will from the grammatical subject."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of reinsuring is described as a definite and certain event or arrangement."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, distinct event of providing additional insurance for a specific person or policy."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "reinsure.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "financial_protection.n.01",
+        "reasoning": "verb_property 'financial_protection.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "security.n.02",
+            "description": "defense against financial failure; financial independence (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "reinsure.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "security.n.02",
+        "corrected_reasoning": "Candidate 'security.n.02' is a perfect semantic and contextual match, meaning 'defense against financial failure; financial independence'."
+      }
+    ],
+    "participants": []
+  }
+}

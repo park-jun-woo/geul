@@ -1,0 +1,136 @@
+{
+  "original": {
+    "synset_id": "clean.v.07",
+    "definition": "remove all contents or possession from, or empty completely",
+    "frame_id": 5,
+    "frame_text": "Somebody strip something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "content_state.n.01",
+        "reasoning": "The definition 'remove all contents or possession from, or empty completely' indicates a change in the state of an object's contents or fullness.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the action of removing or emptying."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' from which contents or possessions are removed; the entity that undergoes the change of state (becomes empty)."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "content.n.01",
+            "reasoning": "The 'contents or possession' that are removed from the patient. This is the entity being moved or acted upon."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "completeness.n.01",
+        "value_type": "complete.a.01",
+        "reasoning": "The definition emphasizes 'remove *all* contents' and 'empty *completely*', indicating a total extent of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of stripping or emptying is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of stripping/emptying is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody strip something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of stripping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete event of removing all contents, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "clean.v.07",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "content_state.n.01",
+        "reasoning": "verb_property 'content_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "counter.n.07",
+            "description": "(computer science) a register whose contents go through a regular series of states (usually states indicating consecutive integers) (gloss match)"
+          },
+          {
+            "synset_id": "assay.n.01",
+            "description": "an appraisal of the state of affairs (gloss match)"
+          },
+          {
+            "synset_id": "symbolic_logic.n.01",
+            "description": "any logical system that abstracts the form of statements away from their content in order to establish abstract criteria of consistency and validity (gloss match)"
+          },
+          {
+            "synset_id": "verb.n.02",
+            "description": "a content word that denotes an action, occurrence, or state of existence (gloss match)"
+          },
+          {
+            "synset_id": "hays.n.01",
+            "description": "United States lawyer and politician who formulated a production code that prescribed the moral content of United States films from 1930 to 1966 (1879-1954) (gloss match)"
+          },
+          {
+            "synset_id": "death.n.03",
+            "description": "the absence of life or state of being dead (gloss match)"
+          },
+          {
+            "synset_id": "happiness.n.01",
+            "description": "state of well-being characterized by emotions ranging from contentment to intense joy (gloss match)"
+          },
+          {
+            "synset_id": "unhappiness.n.02",
+            "description": "state characterized by emotions ranging from mild discontentment to deep grief (gloss match)"
+          },
+          {
+            "synset_id": "contentedness.n.01",
+            "description": "the state of being contented with your situation in life (gloss match)"
+          },
+          {
+            "synset_id": "wellbeing.n.01",
+            "description": "a contented state of being happy and healthy and prosperous (gloss match)"
+          },
+          {
+            "synset_id": "turgor.n.01",
+            "description": "(biology) the normal rigid state of fullness of a cell or blood vessel or capillary resulting from pressure of the contents against the wall or membrane (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "clean.v.07",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "cleanliness.n.02",
+        "corrected_reasoning": "LLM suggestion: 'cleanliness.n.02' is a perfect semantic and contextual fit for the verb property, interpreting the invalid 'content_state.n.01' as the state of being clean for 'clean.v.07'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "sign.v.04",
+    "definition": "engage by written agreement",
+    "frame_id": 1,
+    "frame_text": "Somebody sign",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "contractual_status.n.01",
+        "reasoning": "The verb describes an action that causes a change in an individual's status, transitioning them into a state of being contractually 'engaged' or committed.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the signing action, thereby initiating or confirming their engagement."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "written_agreement.n.01",
+            "reasoning": "The definition 'by written agreement' explicitly states the means through which the engagement is formalized, making the written document the instrument of the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of signing an agreement is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will when entering an agreement."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of signing itself is neutral; the terms or outcome of the agreement may carry sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody sign' explicitly indicates a volitional agent performing the action of entering an agreement."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of signing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, punctual event of entering into an agreement."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sign.v.04",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "contractual_status.n.01",
+        "reasoning": "verb_property 'contractual_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sign.v.04",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'contractual_relation.n.01' is a perfect semantic and contextual fit for 'contractual_status.n.01', describing the state or relation arising from a contract. (Original suggestion 'contractual_relation.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

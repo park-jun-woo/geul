@@ -1,0 +1,125 @@
+{
+  "original": {
+    "synset_id": "season.v.02",
+    "definition": "make fit",
+    "frame_id": 1,
+    "frame_text": "Something season somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "condition.n.01",
+        "reasoning": "The definition 'make fit' indicates a transformation or improvement in the state or condition of the patient.",
+        "participants": [
+          {
+            "semantic_role": "material_cause.n.01",
+            "reasoning": "The 'Something' in the frame acts as the non-volitional cause or means by which the patient's condition is altered."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' is the entity undergoing the change, becoming more fit, experienced, or resilient."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes a general, directly observable process or outcome."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a lack of agentive will or intention in causing the change."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "To 'make fit' or 'toughen' (as per hypernym) implies a positive improvement or enhancement in the patient's state."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-agentive subject, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite process of making something fit."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Seasoning typically implies a gradual process requiring repeated exposure or action over time to achieve fitness or resilience, rather than a single instantaneous event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "season.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "material_cause.n.01",
+        "reasoning": "semantic_role 'material_cause.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "nuclear_terrorism.n.01",
+            "description": "the use of a nuclear device by a terrorist organization to cause massive devastation or the use (or threat of use) of fissionable radioactive materials (gloss match)"
+          },
+          {
+            "synset_id": "summary_judgment.n.01",
+            "description": "a judgment rendered by the court prior to a verdict because no material issue of fact exists and one party or the other is entitled to a judgment as a matter of law (gloss match)"
+          },
+          {
+            "synset_id": "agglomerator.n.01",
+            "description": "a device that causes material to gather into rounded balls (gloss match)"
+          },
+          {
+            "synset_id": "straitjacket.n.01",
+            "description": "anything immaterial that severely hinders or confines (gloss match)"
+          },
+          {
+            "synset_id": "support.n.03",
+            "description": "something providing immaterial assistance to a person or cause or interest (gloss match)"
+          },
+          {
+            "synset_id": "soul.n.01",
+            "description": "the immaterial part of a person; the actuating cause of an individual life (gloss match)"
+          },
+          {
+            "synset_id": "hobbes.n.01",
+            "description": "English materialist and political philosopher who advocated absolute sovereignty as the only kind of government that could resolve problems caused by the selfishness of human beings (1588-1679) (gloss match)"
+          },
+          {
+            "synset_id": "hysteresis.n.01",
+            "description": "the lagging of an effect behind its cause; especially the phenomenon in which the magnetic induction of a ferromagnetic material lags behind the changing magnetic field (gloss match)"
+          },
+          {
+            "synset_id": "induction_heating.n.01",
+            "description": "the heating of a conducting material caused by an electric current induced in it (gloss match)"
+          },
+          {
+            "synset_id": "fatigue.n.02",
+            "description": "used of materials (especially metals) in a weakened state caused by long stress (gloss match)"
+          },
+          {
+            "synset_id": "toxic_waste.n.01",
+            "description": "poisonous waste materials; can cause injury (especially by chemical means) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "season.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "ingredient.n.02",
+        "corrected_reasoning": "LLM suggestion: 'ingredient.n.02' perfectly represents the material used for seasoning in the context of 'season.v.02'."
+      }
+    ]
+  }
+}

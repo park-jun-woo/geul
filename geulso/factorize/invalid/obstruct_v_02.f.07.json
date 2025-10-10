@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "obstruct.v.02",
+    "definition": "block passage through",
+    "frame_id": 7,
+    "frame_text": "Something block something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "passability.n.01",
+        "reasoning": "The verb 'obstruct' means to 'block passage through', which describes causing a change in the state of something's passability from being passable to not being passable.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that causes the obstruction, acting as the causal agent."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity whose passage is blocked, or whose passability is affected; this is the patient."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of obstructing is generally a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or a state being caused."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s something' indicates that the causal agent is non-human ('Something'), therefore lacking will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To obstruct or block passage is inherently a negative action as it hinders or prevents something, which is generally undesirable."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' in the frame is non-agentive, implying a non-volitional action or causation."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or an established state of blockage."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of establishing an obstruction, rather than a repetitive action for its core meaning."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "obstruct.v.02",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "passability.n.01",
+        "reasoning": "verb_property 'passability.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "obstruct.v.02",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect replacement found."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "strike_a_chord.v.01",
+    "definition": "create an emotional response",
+    "frame_id": 1,
+    "frame_text": "Something is strike_a_chording PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The idiom describes causing a change in someone's emotional state, from not having a specific emotional response to having one.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that evokes or causes the emotional response."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The person or entity that experiences the emotional response, typically introduced by the 'PP' in this frame (e.g., 'with him', 'in her')."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'striking a chord' leads to a directly experienced emotional response."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' causing the response is typically inanimate or abstract, lacking conscious will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The emotional response itself can be positive or negative, but the act of 'striking a chord' is neutral."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The causal agent 'Something' is typically not volitional, as it doesn't intentionally choose to create the emotional response."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The idiom describes a definite occurrence of creating an emotional response."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The idiom refers to a single instance of creating an emotional response."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "strike_a_chord.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "strike_a_chord.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'experiencer'. (Original suggestion 'experient.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "excommunicate.v.01",
+  "definition": "exclude from a church or a religious community",
+  "frame_id": 5,
+  "frame_text": "Something unchurch somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "membership.n.01",
+      "reasoning": "The verb 'excommunicate' (represented by 'unchurch' in the frame) describes a transition from being a member to being excluded from a religious community, indicating a change in membership status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity (e.g., an institution, authority, or established process) that formally initiates or causes the exclusion.",
+          "value_type": "institution.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the direct object of the verb and undergoes the change of membership status.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'church or a religious community' from which the patient is excluded, as implied by the definition and the verb 'unchurch'.",
+          "value_type": "religious_order.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Excommunication is typically a formally declared act, making it a directly observable or documented event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in the frame refers to an institution or process, which lacks personal will or intention in the act of excommunication."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Exclusion from a religious community is widely perceived as a punitive and negative outcome for the individual involved."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The action is attributed to 'Something', which is a non-volitional entity, meaning the action is not performed with personal intent by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Once enacted, the act of excommunication is a definite and certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Excommunication is understood as a single, conclusive act of removal, not a repetitive process."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "solmizate.v.02",
+    "definition": "sing using syllables like `do', `re' and `mi' to represent the tones of the scale",
+    "frame_id": 0,
+    "frame_text": "Somebody solmizate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sound_state.n.01",
+        "reasoning": "The verb describes the act of producing vocal sounds, which alters the auditory environment, representing a change of sound state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally produces the vocal sounds, as indicated by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "solmization.n.01",
+        "reasoning": "The definition explicitly states 'using syllables like `do', `re' and `mi'' which specifies the particular manner or method of vocal sound production."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of solmizating is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of solmizating is neutral; its sentiment depends on context or outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody solmizate' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of solmizating is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Solmizating, as a form of singing, typically involves the continuous and repetitive production of multiple syllables/tones over a period."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "solmizate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_state.n.01",
+        "reasoning": "verb_property 'sound_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "olympia.n.01",
+            "description": "capital of the state of Washington; located in western Washington on Puget Sound (gloss match)"
+          },
+          {
+            "synset_id": "connecticut.n.02",
+            "description": "a river in the northeastern United States; flows south from northern New Hampshire along the border between New Hampshire and Vermont and through Massachusetts and Connecticut where it empties into Long Island Sound (gloss match)"
+          },
+          {
+            "synset_id": "zanuck.n.01",
+            "description": "United States filmmaker whose works include the first full-length feature film with sound sequences (1902-1979) (gloss match)"
+          },
+          {
+            "synset_id": "harmony.n.03",
+            "description": "a harmonious state of things in general and of their properties (as of colors and sounds); congruity of parts with one another and with the whole (gloss match)"
+          },
+          {
+            "synset_id": "hiccup.n.01",
+            "description": "(usually plural) the state of having reflex spasms of the diaphragm accompanied by a rapid closure of the glottis producing an audible sound; sometimes a symptom of indigestion (gloss match)"
+          },
+          {
+            "synset_id": "rationality.n.01",
+            "description": "the state of having good sense and sound judgment (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sound_state.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "audibility.n.01",
+        "corrected_reasoning": "LLM suggestion: 'audibility.n.01' (the quality of being audible) is a precise fit for a 'sound state' as a property of solmization."
+      }
+    ],
+    "participants": []
+  }
+}

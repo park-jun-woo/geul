@@ -1,0 +1,109 @@
+{
+  "original": {
+    "synset_id": "precede.v.04",
+    "definition": "move ahead (of others) in time or space",
+    "frame_id": 10,
+    "frame_text": "Something precede somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "relative_order.n.01",
+        "reasoning": "The definition 'move ahead (of others) in time or space' describes a dynamic process resulting in a change in the relative temporal or spatial order between entities.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that moves into the position of being ahead or earlier, establishing the new relative order."
+          },
+          {
+            "semantic_role": "reference_point.n.01",
+            "reasoning": "The 'somebody' against whom the preceding entity's position or time is measured and established."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act or state of preceding is generally a directly observable or ascertainable fact."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or relationship."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no inherent will or intention, thus modality is neutral."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of preceding is a neutral relational concept; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something precede somebody' indicates a non-volitional subject ('Something'), and the verb in this sense often describes a natural sequence or an inherent property rather than an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or an established state of relative order."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'precede' establishes a single, albeit potentially continuous, state of being before, rather than a sequence of repeated actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "precede.v.04",
+        "frame_id": 10,
+        "key": "verb_property",
+        "value": "relative_order.n.01",
+        "reasoning": "verb_property 'relative_order.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "transposition.n.05",
+            "description": "(electricity) a rearrangement of the relative positions of power lines in order to minimize the effects of mutual capacitance and inductance (gloss match)"
+          },
+          {
+            "synset_id": "clamatores.n.01",
+            "description": "used in some classification systems; a suborder or superfamily nearly coextensive with suborder Tyranni; Passeriformes having relatively simple vocal organs and little power of song; clamatorial birds (gloss match)"
+          },
+          {
+            "synset_id": "standing.n.02",
+            "description": "an ordered listing of scores or results showing the relative positions of competitors (individuals or teams) in a sporting event (gloss match)"
+          },
+          {
+            "synset_id": "weight.n.08",
+            "description": "(statistics) a coefficient assigned to elements of a frequency distribution in order to represent their relative importance (gloss match)"
+          },
+          {
+            "synset_id": "anxiety.n.01",
+            "description": "(psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic (gloss match)"
+          },
+          {
+            "synset_id": "split_personality.n.01",
+            "description": "a relatively rare dissociative disorder in which the usual integrity of the personality breaks down and two or more independent personalities emerge (gloss match)"
+          },
+          {
+            "synset_id": "insanity.n.01",
+            "description": "relatively permanent disorder of the mind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "precede.v.04",
+        "frame_id": 10,
+        "key": "verb_property",
+        "corrected_value": "standing.n.02",
+        "corrected_reasoning": "Selected 'standing.n.02' from candidates, as its description ('ordered listing of scores or results showing the relative positions of competitors') provides a perfect semantic and contextual match for the concept of 'relative order' as a verb property for 'precede.v.04'."
+      }
+    ],
+    "participants": []
+  }
+}

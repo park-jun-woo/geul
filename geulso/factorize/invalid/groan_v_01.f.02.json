@@ -1,0 +1,133 @@
+{
+  "original": {
+    "synset_id": "groan.v.01",
+    "definition": "indicate pain, discomfort, or displeasure",
+    "frame_id": 2,
+    "frame_text": "Somebody moan",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "vocalization.n.01",
+        "reasoning": "The verb describes the physical act of producing an audible sound using one's voice.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' from the verb frame who is the initiator and performer of the vocalization."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "low_and_muffled.a.01",
+        "reasoning": "A groan is characterized by a specific type of low, often prolonged, inarticulate vocal sound, distinguishing it from other vocalizations."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "communicative_intent.n.01",
+        "value_type": "negative_internal_state.n.01",
+        "reasoning": "The definition 'indicate pain, discomfort, or displeasure' specifies the purpose of the vocalization, which is to communicate an internal negative state."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of groaning is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame, combined with the explicit definition 'indicate', implies a degree of will and intention in expressing the internal state."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly links groaning to 'pain, discomfort, or displeasure', which are inherently negative sentiments."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' and the definition 'indicate' suggest that the action is performed with some level of intentionality, even if the underlying cause (pain) is involuntary."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of groaning is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Groaning can be a sustained or repeated vocalization, especially when indicating an ongoing internal state, thus having high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "groan.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "groan.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "communicative_intent.n.01",
+        "reasoning": "verb_property 'communicative_intent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "groan.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "sound.n.01",
+        "corrected_reasoning": "LLM suggestion: 'sound.n.01' ('the particular auditory quality of a sound') is a perfect semantic and contextual replacement for the invalid 'sound_quality.n.01'."
+      },
+      {
+        "synset_id": "groan.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "expression.n.01",
+        "corrected_reasoning": "LLM suggestion: 'expression.n.01' ('the communication (in speech or writing or art) of ideas or feelings or attitudes') is a perfect semantic and contextual replacement for the invalid 'communicative_intent.n.01', as groaning often expresses pain or disapproval."
+      }
+    ],
+    "participants": []
+  }
+}

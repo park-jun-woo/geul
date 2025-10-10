@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "incandesce.v.01",
+    "definition": "cause to become incandescent or glow",
+    "frame_id": 0,
+    "frame_text": "Somebody incandesce something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "thermal_state.n.01",
+        "reasoning": "The definition 'cause to become incandescent or glow' describes a change of state where an object transitions to emitting light due to heat.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who initiates or causes the change, as per the definition 'cause to become incandescent'."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the change of state and becomes incandescent or glows."
+          }
+        ]
+      },
+      {
+        "verb_type": "state",
+        "verb_property": "light.n.01",
+        "reasoning": "Incandescence inherently involves the emission of light, which is a state or property of the object once the change occurs. This is the resulting state.",
+        "participants": []
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of incandescence and its result (glowing) are directly observable phenomena."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody incandesce something' implies the agent has the will and intention to cause the incandescence."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of causing incandescence is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action leading to a definite state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes the singular act of causing something to become incandescent, implying a discrete event of initiation, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "incandesce.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "thermal_state.n.01",
+        "reasoning": "verb_property 'thermal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "incandesce.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "temperature.n.01",
+        "corrected_reasoning": "LLM suggestion. 'temperature.n.01' is a perfect semantic match for 'thermal_state'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "massage.v.02",
+  "definition": "give a massage to",
+  "frame_id": 0,
+  "frame_text": "Somebody massage somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.02",
+      "reasoning": "The verb 'massage' describes an action that aims to modify the physical state (e.g., tension, circulation, comfort) of the recipient's body, which constitutes a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the massage, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (person or body part) that receives the massage and whose physical state is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "massage.n.01",
+      "reasoning": "The verb inherently specifies a particular manner of physical manipulation or treatment, which is precisely the act of 'massage' itself (e.g., rubbing, kneading, pressing), distinguishing it from other types of physical interaction or treatment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of massaging is a directly observable physical action, indicating direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of massaging is inherently neutral; its positive or negative sentiment depends on the specific context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody massage something' explicitly includes a volitional agent ('Somebody') performing the action, indicating intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of massaging is described as a definite occurrence, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A massage typically involves a continuous series of repetitive physical manipulations (e.g., rubbing, kneading strokes) over a period, indicating high iterativity rather than a single event."
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "panic.v.02",
+    "definition": "cause sudden fear in or fill with sudden panic",
+    "frame_id": 1,
+    "frame_text": "Something panic somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "value_type": "panic.n.01",
+        "reasoning": "The verb 'panic' in this frame describes causing a transition from a non-panicked state to a state of panic, indicating a change in emotional state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that induces the emotional change, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change to a state of panic, experiencing the emotion."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "sudden.a.01",
+        "reasoning": "The definition explicitly includes 'sudden fear' or 'sudden panic', indicating that the onset of this emotional state is abrupt."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of causing panic and the panic itself are typically directly experienced or observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame, as the subject causing the panic, is non-volitional and does not act with intention or will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The emotion of panic is inherently negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The 'Something' causing the panic is non-volitional. The 'somebody' experiencing panic does so involuntarily, making the overall event non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing panic."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb implies a single, discrete event of causing someone to enter a state of panic. The 'sudden' aspect reinforces this singular event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "panic.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'person.n.01' is a common and appropriate synset for an experiencer of psychological states."
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "reform.v.02",
+    "definition": "bring, lead, or force to abandon a wrong or evil course of life, conduct, and adopt a right one",
+    "frame_id": 0,
+    "frame_text": "Somebody reclaim somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moral_status.n.01",
+        "reasoning": "The definition describes causing a transition from a 'wrong or evil course of life, conduct' to a 'right one', which is a fundamental change in moral or behavioral state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame explicitly performs the action of 'bring, lead, or force', making them the initiator of the change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "person.n.01",
+            "reasoning": "The 'something' being reformed is implicitly a person or a group of people whose 'course of life, conduct' is being altered, making them the entity undergoing the change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of reforming is typically a directly observable process or event, or its outcome is directly perceived."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb 'reform' describes a declarative action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' and the definition 'bring, lead, or force' strongly imply the agent's will and intention in performing the action."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The inherent meaning of the verb itself does not specify a tense, thus defaulting to present/neutral."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The verb describes a simple, completed action of causing a change, without emphasizing its duration, repetition, or result beyond the change itself."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb 'reform' itself does not carry an inherent politeness level; it is context-dependent."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The definition specifies a change from 'wrong or evil' to 'right', which is an inherently positive transformation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The verb frame 'Somebody ----s something' clearly indicates an intentional action performed by a volitional agent ('Somebody')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of the act of reforming, or the intention to do so."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process of reform might take time, 'reform' as a verb describes a single, overarching event of achieving a complete transformation, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "reform.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "moral_status.n.01",
+        "reasoning": "verb_property 'moral_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "reform.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion (Original suggestion 'moral_quality.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

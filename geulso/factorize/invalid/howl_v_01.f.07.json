@@ -1,0 +1,143 @@
+{
+  "original": {
+    "synset_id": "howl.v.01",
+    "definition": "emit long loud cries",
+    "frame_id": 7,
+    "frame_text": "Something roar",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "sound_production.n.01",
+        "reasoning": "The verb 'howl' describes the action of creating and emitting a sound.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that initiates and produces the sound, as indicated by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "duration.n.01",
+        "value_type": "long.a.01",
+        "reasoning": "The definition 'emit long loud cries' explicitly states 'long' as a characteristic of the sound emitted."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "loud.a.01",
+        "reasoning": "The definition 'emit long loud cries' explicitly states 'loud' as a characteristic of the sound emitted."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_type.n.01",
+        "value_type": "cry.n.01",
+        "reasoning": "The definition 'emit long loud cries' specifies the nature of the sound as 'cries'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emission of a howl is a directly observable auditory event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame implies that the action may not be driven by strong will (e.g., wind howls, an animal's instinctual howl)."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of howling is neutral; its sentiment depends on context (e.g., pain, warning, communication)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' often indicates a non-volitional subject. Even for animals, howling can be instinctual rather than a conscious, intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of emitting sound."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'emit long loud cries' and the nature of howling suggest a sustained or highly repetitive action rather than a single, instantaneous event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "howl.v.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "sound_production.n.01",
+        "reasoning": "verb_property 'sound_production.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "sound_reproduction.n.01",
+            "description": "the reproduction of sound (gloss match)"
+          },
+          {
+            "synset_id": "high_fidelity.n.01",
+            "description": "the reproduction of sound with little or no distortion (gloss match)"
+          },
+          {
+            "synset_id": "hi-fi.n.01",
+            "description": "equipment for the reproduction of sound with high fidelity (gloss match)"
+          },
+          {
+            "synset_id": "music.n.04",
+            "description": "(music) the sounds produced by singers or musical instruments (or reproductions of such sounds) (gloss match)"
+          },
+          {
+            "synset_id": "mutter.n.01",
+            "description": "a low continuous indistinct sound; often accompanied by movement of the lips without the production of articulate speech (gloss match)"
+          },
+          {
+            "synset_id": "acoustic_phenomenon.n.01",
+            "description": "a physical phenomenon associated with the production or transmission of sound (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "howl.v.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "sound_type.n.01",
+        "reasoning": "verb_property 'sound_type.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "blues.n.01",
+            "description": "a type of folksong that originated among Black Americans at the beginning of the 20th century; has a melancholy sound from repeated use of blue notes (gloss match)"
+          },
+          {
+            "synset_id": "rattle.n.01",
+            "description": "a rapid series of short loud sounds (as might be heard with a stethoscope in some types of respiratory disorders) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "howl.v.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "vocalization.n.01",
+        "corrected_reasoning": "LLM suggestion, perfect semantic fit for 'howl' as a vocal sound production."
+      },
+      {
+        "synset_id": "howl.v.01",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "howl.n.01",
+        "corrected_reasoning": "LLM suggestion, direct noun form describing the specific type of sound."
+      }
+    ],
+    "participants": []
+  }
+}

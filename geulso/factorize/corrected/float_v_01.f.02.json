@@ -1,0 +1,61 @@
+{
+  "synset_id": "float.v.01",
+  "definition": "be in motion due to some air or water current",
+  "frame_id": 2,
+  "frame_text": "Something drift",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'be in motion' directly describes a change in location or state of position.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the motion, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "cause",
+      "verb_property": "kinetic_energy.n.01",
+      "reasoning": "The motion is explicitly stated as being 'due to some air or water current', which is the external cause of the movement.",
+      "participants": [
+        {
+          "semantic_role": "cause.n.01",
+          "value_type": "current.n.01",
+          "reasoning": "The 'air or water current' is the external force causing the motion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Floating or drifting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The motion is caused by external forces (currents), not by the will of the 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of floating/drifting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something drift' and the definition 'due to some air or water current' indicate that the action is non-volitional, caused by external factors rather than an agent's intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of motion is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Floating/drifting implies continuous, ongoing motion, which consists of many small, repetitive displacements."
+    }
+  }
+}

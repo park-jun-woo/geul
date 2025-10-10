@@ -1,0 +1,153 @@
+{
+  "original": {
+    "synset_id": "flog.v.01",
+    "definition": "beat severely with a whip or rod",
+    "frame_id": 12,
+    "frame_text": "Somebody welt somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes causing a detrimental change in the physical state of the patient through physical force, resulting from beating.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the flogging, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who receives the flogging and undergoes the change in physical state, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "severe.a.01",
+        "reasoning": "The action is characterized by a high degree of force or intensity, as indicated by 'severely' in the definition."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "instrument.n.01",
+        "value_type": "whip_or_rod.n.01",
+        "reasoning": "The specific tools ('whip or rod') used for the beating are integral to the meaning of 'flog', as specified in the definition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Flogging is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "No specific tense is implied by the verb's base meaning or the provided frame, so it defaults to a neutral (present) interpretation."
+      },
+      "Aspect": {
+        "value": 0,
+        "reasoning": "The frame describes a simple, completed action without specifying progressive or perfective aspects."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb itself is descriptive of an action and is neutral in terms of politeness."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The action 'beat severely' is inherently harmful and therefore carries a negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "'Flog' typically implies repeated blows, indicating a high level of repetition within the action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "flog.v.01",
+        "frame_id": 12,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "flog.v.01",
+        "frame_id": 12,
+        "key": "verb_property",
+        "corrected_value": "physical_condition.n.01",
+        "corrected_reasoning": "LLM suggestion: 'physical_condition.n.01' is a perfect semantic match for 'physical state' and is a valid NLTK WordNet synset."
+      }
+    ],
+    "participants": []
+  }
+}

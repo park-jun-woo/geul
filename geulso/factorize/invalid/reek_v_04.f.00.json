@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "reek.v.04",
+    "definition": "give off smoke, fumes, warm vapour, steam, etc.",
+    "frame_id": 0,
+    "frame_text": "Something reek",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emission.n.02",
+        "reasoning": "The verb 'reek' in this sense describes the act or process of giving off substances, which constitutes a change in the environment due to their presence.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity from which the smoke, fumes, etc., are emitted, acting as the initiator or cause of the emission."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "gaseous_substance.n.01",
+            "reasoning": "The definition specifies 'smoke, fumes, warm vapour, steam, etc.', which are all types of gaseous substances that are the object being emitted."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emission of smoke or fumes is a directly observable physical phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no inherent will or intention for the emission."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of emitting substances is neutral; any positive or negative sentiment would derive from the nature of the emitted substance itself or its context, not the act of emission."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something reek' indicates a non-volitional subject, as 'Something' typically does not act with intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or ongoing process of emission."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The verb 'give off' implies a continuous or sustained process of emission, rather than a single, discrete event, suggesting high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "reek.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "gaseous_substance.n.01",
+        "reasoning": "value_type 'gaseous_substance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "reek.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "gas.n.01",
+        "corrected_reasoning": "LLM suggestion: 'gas.n.01' is a general term for a substance in a gaseous state, fitting 'gaseous substance'."
+      }
+    ]
+  }
+}

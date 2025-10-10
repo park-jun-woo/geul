@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "sell.v.07",
+    "definition": "be responsible for the sale of",
+    "frame_id": 0,
+    "frame_text": "Something sell something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "commercial_transaction.n.01",
+        "reasoning": "The definition 'be responsible for the sale of' describes a continuous state or function related to enabling a commercial transaction, rather than an active event of selling.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame (e.g., a store, a website) is the entity that holds the state of being responsible for or facilitating the sale. While inanimate, it acts as the grammatical subject of this stative construction.",
+            "value_type": "entity.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the item that is being sold or made available for sale."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of being responsible for a sale is typically a directly observable or known fact."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact or state of being."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is typically inanimate and does not possess will or intention in this facilitative sense."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Being responsible for the sale of an item is a neutral concept; the sentiment depends on the item or context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' implies an inanimate subject ('Something') which cannot act volitionally, and the verb describes a state of responsibility, not an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement of an entity being responsible for a sale is typically presented as a certain fact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state or ongoing function, the concept of repetition is not directly applicable. It is treated as a single, sustained instance of responsibility."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sell.v.07",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "commercial_transaction.n.01",
+        "reasoning": "verb_property 'commercial_transaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "transaction.n.01",
+            "description": "the act of transacting within or between groups (as carrying on commercial activities) (gloss match)"
+          },
+          {
+            "synset_id": "mercantile_law.n.01",
+            "description": "the body of rules applied to commercial transactions; derived from the practices of traders rather than from jurisprudence (gloss match)"
+          },
+          {
+            "synset_id": "kickback.n.01",
+            "description": "a commercial bribe paid by a seller to a purchasing agent in order to induce the agent to enter into the transaction (gloss match)"
+          },
+          {
+            "synset_id": "entry.n.03",
+            "description": "a written record of a commercial transaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sell.v.07",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "transaction.n.01",
+        "corrected_reasoning": "Selected 'transaction.n.01' from candidates as a direct semantic match for 'commercial_transaction', which includes commercial activities in its definition."
+      }
+    ],
+    "participants": []
+  }
+}

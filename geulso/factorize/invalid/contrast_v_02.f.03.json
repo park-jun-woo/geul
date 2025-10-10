@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "contrast.v.02",
+    "definition": "to show differences when compared; be different",
+    "frame_id": 3,
+    "frame_text": "Something is counterpointing PP",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "difference.n.01",
+        "reasoning": "The definition 'to show differences when compared; be different' describes a state or relationship of distinctness, not an action or change.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that exists in a state of difference, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "comparison_object.n.01",
+            "reasoning": "The entity or concept specified by the 'PP' (Prepositional Phrase) against which the 'Something' is observed to be different."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of 'counterpointing' implies direct observation or understanding of a difference."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an existing state or relationship."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something is counterpointing PP' indicates a non-agentive subject, and the verb describes an inherent state, not an act of will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of being different or counterpointing is neutral; it carries no inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' is non-volitional, and the verb describes an inherent relationship or state, not an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement 'Something is counterpointing PP' implies a definite observation or declaration of a difference."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state or ongoing relationship, the concept of repetition is not applicable in the sense of discrete events. It represents a single, enduring instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "contrast.v.02",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "comparison_object.n.01",
+        "reasoning": "semantic_role 'comparison_object.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "contrast.v.02",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "standard.n.01",
+        "corrected_reasoning": "LLM suggestion: 'standard.n.01' ('a basis for comparison; a reference point against which other things can be evaluated or assessed') perfectly captures the meaning of a 'comparison object' in the context of contrasting."
+      }
+    ]
+  }
+}

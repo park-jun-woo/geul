@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "dot.v.01",
+    "definition": "scatter or intersperse like dots or studs",
+    "frame_id": 0,
+    "frame_text": "Something constellate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_state.n.01",
+        "reasoning": "The verb 'dot' describes an action that modifies the visual or physical state of a surface by adding distributed elements to it, representing a change from an undotted state to a dotted state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity that causes the change in the surface's state, even if inanimate (e.g., 'freckles dot the nose')."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the surface or area that undergoes the change, becoming covered with dots."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value": "in a scattered, point-like pattern",
+        "reasoning": "The definition 'scatter or intersperse like dots or studs' explicitly indicates the specific visual manner or pattern of how the elements are placed on the surface."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of dotting is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something dot something' indicates an inanimate or non-volitional subject, implying a lack of conscious will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of dotting itself is neutral; any positive or negative connotation would come from context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something dot something' implies a non-volitional agent (the first 'Something'), as it is often an inanimate object or natural phenomenon causing the dotting."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'scatter or intersperse like dots' implies a process involving the creation of multiple, distinct points or marks, suggesting high repetition or continuous distribution rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "dot.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "surface_state.n.01",
+        "reasoning": "verb_property 'surface_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "lowland_burrowing_treefrog.n.01",
+            "description": "terrestrial burrowing nocturnal frog of grassy terrain and scrub forests having very hard upper surface of head; of the United States southwest (gloss match)"
+          },
+          {
+            "synset_id": "red-shafted_flicker.n.01",
+            "description": "western United States bird with red undersurface to wings and tail (gloss match)"
+          },
+          {
+            "synset_id": "langmuir.n.01",
+            "description": "United States chemist who studied surface chemistry and developed the gas-filled tungsten lamp and worked on high temperature electrical discharges (1881-1957) (gloss match)"
+          },
+          {
+            "synset_id": "white_poplar.n.01",
+            "description": "a poplar that is widely cultivated in the United States; has white bark and leaves with whitish undersurfaces (gloss match)"
+          },
+          {
+            "synset_id": "desorption.n.01",
+            "description": "changing from an adsorbed state on a surface to a gaseous or liquid state (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "dot.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion: 'state.n.02' meaning 'the way something is with respect to its main attributes' is the best general semantic fit for 'surface_state'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "original": {
+    "synset_id": "bequeath.v.01",
+    "definition": "leave or give by will after one's death",
+    "frame_id": 1,
+    "frame_text": "Somebody bequeath something to somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb's core meaning is to 'leave or give', which describes a transfer of ownership, hence a change in possession.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the transfer by making a will. This is the grantor."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose possession is transferred, typically an inheritance or legacy."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' who receives the bequeathed item, usually a beneficiary."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "legal_instrument.n.01",
+        "value_type": "will.n.05",
+        "reasoning": "The transfer is specifically carried out 'by will', indicating a legal document as the instrument of transfer, a core distinguishing feature of 'bequeath'."
+      },
+      {
+        "verb_type": "timing",
+        "verb_property": "event_time.n.01",
+        "value_type": "posthumous_event.n.01",
+        "reasoning": "The definition states 'after one's death', indicating that the actual transfer of possession takes effect subsequent to the bequeather's demise, which is a critical temporal condition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of bequeathing (e.g., creating a will) is typically a documented and directly verifiable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's primary use is to state a fact about a transfer of property."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of bequeathing 'by will' is a deliberate and intentional action by the agent, indicating strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of bequeathing itself is neutral; its sentiment depends on the context and the nature of the legacy."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody bequeath...' explicitly denotes a volitional agent performing an intentional act of giving through a will."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of transferring property."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The act of bequeathing a specific item or estate is generally considered a single, distinct event, even if a will can be changed."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "bequeath.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "event_time.n.01",
+        "reasoning": "verb_property 'event_time.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "reenactment.n.01",
+            "description": "performing a role in an event that occurred at an earlier time (gloss match)"
+          },
+          {
+            "synset_id": "countdown.n.01",
+            "description": "counting backward from an arbitrary number to indicate the time remaining before some event (such as launching a space vehicle) (gloss match)"
+          },
+          {
+            "synset_id": "scheduling.n.01",
+            "description": "setting an order and time for planned events (gloss match)"
+          },
+          {
+            "synset_id": "screen_saver.n.01",
+            "description": "(computer science) a moving design that appears on a computer screen when there has been no input for a specified period of time (gloss match)"
+          },
+          {
+            "synset_id": "time-delay_measuring_instrument.n.01",
+            "description": "chronoscope for measuring the time difference between two events (gloss match)"
+          },
+          {
+            "synset_id": "temporal_arrangement.n.01",
+            "description": "arrangement of events in time (gloss match)"
+          },
+          {
+            "synset_id": "anterograde_amnesia.n.01",
+            "description": "loss of memory for events immediately following a trauma; sometimes in effect for events during and for a long time following the trauma (gloss match)"
+          },
+          {
+            "synset_id": "fatalism.n.02",
+            "description": "a philosophical doctrine holding that all events are predetermined in advance for all time and human beings are powerless to change them (gloss match)"
+          },
+          {
+            "synset_id": "space-time.n.01",
+            "description": "the four-dimensional coordinate system (3 dimensions of space and 1 of time) in which physical events are located (gloss match)"
+          },
+          {
+            "synset_id": "proximity.n.03",
+            "description": "a Gestalt principle of organization holding that (other things being equal) objects or events that are near to one another (in space or time) are perceived as belonging together as a unit (gloss match)"
+          },
+          {
+            "synset_id": "timetable.n.01",
+            "description": "a schedule listing events and the times at which they will take place (gloss match)"
+          },
+          {
+            "synset_id": "accompaniment.n.01",
+            "description": "an event or situation that happens at the same time as or in connection with another (gloss match)"
+          },
+          {
+            "synset_id": "time.n.01",
+            "description": "an instance or single occasion for some event (gloss match)"
+          },
+          {
+            "synset_id": "juncture.n.01",
+            "description": "an event that occurs at a critical time (gloss match)"
+          },
+          {
+            "synset_id": "asynchronous_operation.n.01",
+            "description": "operations that occur without a regular or predictable time relation to other events (gloss match)"
+          },
+          {
+            "synset_id": "prevalence.n.02",
+            "description": "(epidemiology) the ratio (for a given time period) of the number of occurrences of a disease or event to the number of units at risk in the population (gloss match)"
+          },
+          {
+            "synset_id": "chronology.n.01",
+            "description": "an arrangement of events in time (gloss match)"
+          },
+          {
+            "synset_id": "time_bomb.n.01",
+            "description": "a problematic situation that will eventually become dangerous if not addressed (gloss match)"
+          },
+          {
+            "synset_id": "history.n.01",
+            "description": "the aggregate of past events (gloss match)"
+          },
+          {
+            "synset_id": "earth-received_time.n.01",
+            "description": "the coordinated universal time when an event is received on Earth (gloss match)"
+          },
+          {
+            "synset_id": "elapsed_time.n.01",
+            "description": "the time that elapses while some event is occurring (gloss match)"
+          },
+          {
+            "synset_id": "time_scale.n.01",
+            "description": "an arrangement of events used as a measure of duration (gloss match)"
+          },
+          {
+            "synset_id": "occasion.n.04",
+            "description": "the time of a particular event (gloss match)"
+          },
+          {
+            "synset_id": "interim.n.01",
+            "description": "the time between one event, process, or period and another (gloss match)"
+          },
+          {
+            "synset_id": "spacing.n.01",
+            "description": "the time between occurrences of a repeating event (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.01",
+            "description": "any distinct time period in a sequence of events (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "bequeath.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "occasion.n.04",
+        "corrected_reasoning": "Candidate 'occasion.n.04' ('the time of a particular event') is a perfect semantic and contextual replacement for the invalid 'event_time.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

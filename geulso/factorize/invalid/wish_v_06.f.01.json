@@ -1,0 +1,152 @@
+{
+  "original": {
+    "synset_id": "wish.v.06",
+    "definition": "invoke upon",
+    "frame_id": 1,
+    "frame_text": "Somebody bid something to somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_relationship.n.01",
+        "reasoning": "The verb 'wish' in this context, defined as 'invoke upon' and related to 'greet', describes an action that initiates or affects a communicative or social interaction, thereby changing the social state or context between the participants.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of wishing or invoking."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "abstract_concept.n.01",
+            "reasoning": "The 'something' that represents the content of the wish or invocation (e.g., good luck, happy birthday), which is an abstract idea or notion."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' to whom the wish or invocation is directed."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of wishing or invoking is a directly performed and observable communicative event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating that an action takes place."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of wishing or invoking itself is neutral; the sentiment is determined by the specific 'something' being wished."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of wishing/invoking is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, distinct instance of performing a wish or invocation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "wish.v.06",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "social_relationship.n.01",
+        "reasoning": "verb_property 'social_relationship.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "kinship_system.n.01",
+            "description": "(anthropology) the system of social relationships that constitute kinship in a particular culture, including the terminology that is used and the reciprocal obligations that are entailed (gloss match)"
+          },
+          {
+            "synset_id": "anthropology.n.01",
+            "description": "the social science that studies the origins and social relationships of human beings (gloss match)"
+          },
+          {
+            "synset_id": "sociometry.n.01",
+            "description": "the quantitative study of social relationships (gloss match)"
+          },
+          {
+            "synset_id": "social_organization.n.01",
+            "description": "the people in a society considered as a system organized by a characteristic pattern of relationships (gloss match)"
+          },
+          {
+            "synset_id": "affiliation.n.01",
+            "description": "a social or business relationship (gloss match)"
+          },
+          {
+            "synset_id": "fragmentation.n.02",
+            "description": "the disintegration of social norms governing behavior and thought and social relationships (gloss match)"
+          },
+          {
+            "synset_id": "dysfunction.n.01",
+            "description": "(medicine) any disturbance in the functioning of an organ or body part or a disturbance in the functioning of a social group (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "wish.v.06",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "abstract_concept.n.01",
+        "reasoning": "value_type 'abstract_concept.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "embodiment.n.03",
+            "description": "giving concrete form to an abstract concept (gloss match)"
+          },
+          {
+            "synset_id": "abstraction.n.03",
+            "description": "the process of formulating general concepts by abstracting common properties of instances (gloss match)"
+          },
+          {
+            "synset_id": "outwardness.n.01",
+            "description": "concern with outward things or material objects as opposed to the mind and spirit (gloss match)"
+          },
+          {
+            "synset_id": "abstraction.n.01",
+            "description": "a concept or idea not associated with any specific instance (gloss match)"
+          },
+          {
+            "synset_id": "platonism.n.01",
+            "description": "(philosophy) the philosophical doctrine that abstract concepts exist independent of their names (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "wish.v.06",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "affiliation.n.01",
+        "corrected_reasoning": "Candidate 'affiliation.n.01' perfectly matches the semantic intent of 'social_relationship.n.01' as it is defined as 'a social or business relationship'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "wish.v.06",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "abstraction.n.01",
+        "corrected_reasoning": "Candidate 'abstraction.n.01' perfectly matches the semantic intent of 'abstract_concept.n.01' as it is defined as 'a concept or idea not associated with any specific instance'."
+      }
+    ]
+  }
+}

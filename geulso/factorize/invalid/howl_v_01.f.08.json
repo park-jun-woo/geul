@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "howl.v.01",
+    "definition": "emit long loud cries",
+    "frame_id": 8,
+    "frame_text": "Something ululate",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "sound_emission.n.01",
+        "reasoning": "The verb describes the ongoing act of producing or emitting sound.",
+        "participants": [
+          {
+            "semantic_role": "agent.n.01",
+            "reasoning": "The 'Something' from the verb frame is the entity that performs the action of emitting the cry."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "duration.n.01",
+        "value": "long.a.01",
+        "reasoning": "The definition explicitly states 'long' cries, indicating a duration property of the emitted sound."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "loudness.n.01",
+        "value": "loud.a.01",
+        "reasoning": "The definition explicitly states 'loud' cries, indicating an intensity property of the emitted sound."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "type.n.01",
+        "value": "cry.n.01",
+        "reasoning": "The definition states 'cries', specifying the type of vocalization that is emitted."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of howling is a directly observable phenomenon through sound."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame implies the action is not necessarily driven by an agent's deliberate will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of howling is neutral; its sentiment depends on context (e.g., pain, warning, joy)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' describes an event happening, often to a non-agentive subject ('Something' like wind or an animal reacting instinctively), making the action typically non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of howling is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, sustained event of emitting a prolonged sound or a series of closely related cries, treated as one instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "howl.v.01",
+        "frame_id": 8,
+        "key": "verb_property",
+        "value": "sound_emission.n.01",
+        "reasoning": "verb_property 'sound_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "howl.v.01",
+        "frame_id": 8,
+        "key": "verb_property",
+        "corrected_value": "vocalization.n.01",
+        "corrected_reasoning": "LLM suggestion: 'vocalization.n.01' perfectly captures the property of 'howl.v.01' as an act of producing sound using vocal cords."
+      }
+    ],
+    "participants": []
+  }
+}

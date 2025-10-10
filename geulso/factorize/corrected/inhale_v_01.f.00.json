@@ -1,0 +1,59 @@
+{
+  "synset_id": "inhale.v.01",
+  "definition": "draw deep into the lungs in by breathing",
+  "frame_id": 0,
+  "frame_text": "Somebody inhale",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of moving a substance from outside into the body, specifically the lungs, indicating a change in location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of drawing in the breath, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "substance.n.01",
+          "reasoning": "The substance (e.g., air, smoke) that is drawn into the lungs. Though not explicit in the frame, it's the inherent object of 'inhale'."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "lung.n.01",
+          "reasoning": "The implied final location for the inhaled substance, derived from 'into the lungs' in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inhaling is a directly observable physiological process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody inhale' implies an agent acting with intention and will, even when referring to a physiological act that can be controlled."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inhaling is neutral; its sentiment is dependent on the context or the substance inhaled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody inhale' clearly indicates a volitional agent performing the action, suggesting an intentional act of inhaling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of inhaling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Inhaling is an integral component of breathing, which is a continuous and highly repetitive physiological process, akin to the repetitive steps involved in running."
+    }
+  }
+}

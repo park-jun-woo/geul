@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "mellow.v.03",
+    "definition": "make or grow (more) mellow",
+    "frame_id": 1,
+    "frame_text": "Something mellow something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "mellow.n.01",
+        "reasoning": "The definition 'make or grow (more) mellow' describes a transition towards a state of being mellow, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity causing the change in the object."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change and becomes mellow."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of mellowing or being mellowed is typically observable directly."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies an inanimate or non-volitional agent, thus lacking human-like will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of mellowing itself is neutral; its desirability depends on the context and the item being mellowed."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something mellow something' indicates that the action is caused by a non-volitional entity ('Something')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of change or causation of change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single event or process of causing something to become mellow, even if the state of being mellow can be continuous."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "mellow.v.03",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "mellow.n.01",
+        "reasoning": "verb_property 'mellow.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "mellowness.n.04",
+            "description": "a soft shade of a color (gloss match)"
+          },
+          {
+            "synset_id": "fullness.n.02",
+            "description": "the property of a sensation that is rich and pleasing (gloss match)"
+          },
+          {
+            "synset_id": "mellowing.n.01",
+            "description": "the process of becoming mellow (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "mellow.n.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No single candidate or internal suggestion provides a perfect semantic and contextual fit for the verb_property of 'mellow.v.03' with >99% confidence, as the verb itself has multiple distinct aspects (sensory and dispositional) not fully captured by one synset."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "synset_id": "take.v.02",
+  "definition": "require (time or space)",
+  "frame_id": 4,
+  "frame_text": "Something take something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "utilization.n.01",
+      "reasoning": "The verb describes a process where an entity consumes or occupies a quantity of time or space. This represents a change in the state of the resource (from available to utilized/occupied) and aligns with the hypernym 'use up' which implies consumption.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame (e.g., 'The project', 'The table'). This entity, though non-volitional, is the instigator or cause of the resource being utilized or occupied. It is the entity whose existence or execution leads to the 'taking' of the resource."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "time.n.01 OR space.n.01",
+          "reasoning": "The second 'something' in the frame, which is the specific resource (time or space) that is being consumed or occupied by the causal agent, undergoing the change of state from available to utilized."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of requiring or occupying time/space is generally a directly observable or ascertainable fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about resource allocation or consumption."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-agentive entity; thus, no will or intention is involved in the act of 'taking'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taking/requiring time or space is semantically neutral; the positive or negative sentiment is entirely context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' explicitly indicates a non-volitional subject ('Something'), making the action of requiring or occupying inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'take' in this sense typically expresses a definite requirement or usage of resources, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This lexeme describes a single, bounded event or process of resource consumption or allocation. Even if the duration is extended (e.g., 'takes two hours'), it refers to one instance of taking that entire period."
+    }
+  }
+}

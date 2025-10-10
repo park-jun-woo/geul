@@ -1,0 +1,123 @@
+{
+  "original": {
+    "synset_id": "compress.v.01",
+    "definition": "make more compact by or as if by pressing",
+    "frame_id": 6,
+    "frame_text": "Something compact something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "compactness.n.01",
+        "reasoning": "The definition 'make more compact' describes a transition to a state of increased compactness, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity causing the compression."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the entity that undergoes the change in compactness."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "physical_action.n.01",
+        "value_type": "pressing.n.01",
+        "reasoning": "The definition specifies 'by or as if by pressing', indicating the manner in which the compaction occurs. This is a core semantic component of the verb."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of compressing is a directly observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent 'Something' in the frame implies no inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of compressing is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something compact something' describes an action performed by a non-agentive subject ('Something'), making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of compression is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of making something more compact, though the process of pressing might involve repeated small actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "compress.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "physical_action.n.01",
+        "reasoning": "verb_property 'physical_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "objectification.n.01",
+            "description": "the act of representing an abstraction as a physical thing (gloss match)"
+          },
+          {
+            "synset_id": "eviction.n.01",
+            "description": "action by a landlord that compels a tenant to leave the premises (as by rendering the premises unfit for occupancy); no physical expulsion or legal process is involved (gloss match)"
+          },
+          {
+            "synset_id": "animalism.n.02",
+            "description": "preoccupation with satisfaction of physical drives and appetites (gloss match)"
+          },
+          {
+            "synset_id": "refractivity.n.01",
+            "description": "the physical property of a medium as determined by its index of refraction (gloss match)"
+          },
+          {
+            "synset_id": "conservation.n.03",
+            "description": "(physics) the maintenance of a certain quantities unchanged during chemical reactions or physical transformations (gloss match)"
+          },
+          {
+            "synset_id": "ecosystem.n.01",
+            "description": "a system formed by the interaction of a community of organisms with their physical environment (gloss match)"
+          },
+          {
+            "synset_id": "strain.n.01",
+            "description": "(physics) deformation of a physical body under the action of applied forces (gloss match)"
+          },
+          {
+            "synset_id": "comfort.n.05",
+            "description": "satisfaction or physical well-being provided by a person or thing (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "compress.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'bodily_motion.n.01' (a movement of the body or any of its parts) is a precise semantic and contextual replacement for the invalid 'physical_action.n.01', as 'compress.v.01' describes a physical action involving bodily movement. (Original suggestion 'bodily_motion.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

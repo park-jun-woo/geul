@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "shed_blood.v.02",
+    "definition": "lose blood from one's body",
+    "frame_id": 0,
+    "frame_text": "Somebody bleed",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "loss.n.01",
+        "reasoning": "The definition 'lose blood from one's body' describes a transition from having blood within the body to a state of that blood being outside or lost, indicating a change in the state of the subject's bodily fluids.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' in the frame is the entity that undergoes or experiences the loss of blood from their body."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "blood.n.01",
+            "reasoning": "The 'blood' is the specific substance that is lost or eliminated from the body of the experiencer."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Losing blood is typically a directly observable or experienced phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The act of losing blood, as defined here, is typically an involuntary bodily process and not driven by the agent's will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The loss of blood from one's body is generally associated with injury, harm, or a negative health outcome, indicating a negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Based on the definition 'lose blood from one's body', the action is typically non-volitional, resulting from injury or an internal condition rather than intentional action by the 'Somebody'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement of losing blood is typically presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'shed blood' in this sense describes a singular event or the initiation of a discrete process of blood loss rather than inherent repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "shed_blood.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "shed_blood.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'undergoer.n.01' is a perfect semantic fit for 'experiencer'. (Original suggestion 'undergoer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "original": {
+    "synset_id": "translate.v.01",
+    "definition": "restate (words) from one language into another language",
+    "frame_id": 4,
+    "frame_text": "Somebody render somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "linguistic_expression.n.01",
+        "reasoning": "The definition 'restate (words) from one language into another' indicates a transformation of linguistic content, changing its form while ideally preserving its meaning.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame is the agent performing the act of translation.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'words' or linguistic content that is being restated, implicit in the frame but central to the verb's definition.",
+            "value_type": "linguistic_content.n.01"
+          },
+          {
+            "semantic_role": "source.n.03",
+            "reasoning": "The original language from which the content is translated, implied by 'from one language' in the definition.",
+            "value_type": "language.n.01"
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "reasoning": "The target language into which the content is translated, implied by 'into another language' in the definition.",
+            "value_type": "language.n.01"
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The second 'somebody' in the frame represents the person for whom the translation is performed or who receives the translated content, as in 'render (a translation to) somebody'.",
+            "value_type": "person.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of translating is typically a directly observed or experienced process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of translation itself is neutral; the content being translated may carry sentiment, but the process does not inherently."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody render somebody' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of translating, when referred to, is typically presented as a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Translating involves 'restating (words)', which inherently implies a continuous and often highly repetitive process of converting multiple words or phrases."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "translate.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "linguistic_expression.n.01",
+        "reasoning": "verb_property 'linguistic_expression.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "denotatum.n.01",
+            "description": "an actual object referred to by a linguistic expression (gloss match)"
+          },
+          {
+            "synset_id": "designatum.n.01",
+            "description": "something (whether existing or not) that is referred to by a linguistic expression (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "translate.v.01",
+        "frame_id": 4,
+        "key": "value_type",
+        "value": "linguistic_content.n.01",
+        "reasoning": "value_type 'linguistic_content.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "lexical_meaning.n.01",
+            "description": "the meaning of a content word that depends on the nonlinguistic concepts it is used to express (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "translate.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "utterance.n.01",
+        "corrected_reasoning": "LLM suggestion: 'utterance.n.01' is a perfect semantic and contextual replacement for 'linguistic_expression.n.01' as it broadly captures the concept of a unit of spoken or written language."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "translate.v.01",
+        "frame_id": 4,
+        "key": "value_type",
+        "corrected_value": "meaning.n.01",
+        "corrected_reasoning": "LLM suggestion: 'meaning.n.01' is a perfect semantic and contextual replacement for 'linguistic_content.n.01', representing the core message or content conveyed by language, which is more appropriate than the more specific candidate 'lexical_meaning.n.01'."
+      }
+    ]
+  }
+}

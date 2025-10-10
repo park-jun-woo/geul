@@ -1,0 +1,145 @@
+{
+  "original": {
+    "synset_id": "goose.v.01",
+    "definition": "pinch in the buttocks",
+    "frame_id": 1,
+    "frame_text": "Somebody goose something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes a physical action that causes a temporary change in the physical state or sensation of the patient, specifically a deformation or discomfort resulting from squeezing.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the act of pinching, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose physical state or sensation is affected by the pinching."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "pinch.n.01",
+        "reasoning": "The action is specifically performed by pinching, which is further detailed by the hypernym 'pinch.v.01' (squeeze tightly between fingers)."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "location.n.01",
+        "value_type": "buttocks.n.01",
+        "reasoning": "The specific anatomical location on the patient where the pinching occurs, as explicitly stated in the definition 'pinch in the buttocks'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'goosing' is a directly observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of 'goosing' is generally considered inappropriate, intrusive, or annoying, thus carrying a negative connotation."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "The act of 'goosing' is typically informal and often considered rude or offensive in most social contexts."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description implies a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of pinching."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "goose.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "goose.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate from the list or from internal knowledge provides a perfect semantic and contextual replacement for the general concept of 'physical_state.n.01'. Specific WordNet synsets like 'state_of_matter.n.01' are too narrow, and 'physical_condition.n.01' has a gloss ('bodily process') that conflicts with the intended meaning of 'state'."
+      }
+    ],
+    "participants": []
+  }
+}

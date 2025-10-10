@@ -1,0 +1,127 @@
+{
+  "original": {
+    "synset_id": "hum.v.03",
+    "definition": "sound with a monotonous hum",
+    "frame_id": 0,
+    "frame_text": "Somebody hum",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "sound_emission.n.01",
+        "reasoning": "The verb describes the ongoing process of emitting a sound, as per the definition 'sound with a monotonous hum' and hypernym 'make a certain noise or sound'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that produces or undergoes the process of emitting the sound, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "monotonous.a.01",
+        "reasoning": "The definition explicitly states 'monotonous' as a characteristic of the hum, indicating a specific quality of the sound being produced."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of humming produces an audible sound, which is a direct sensory experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a process of sound production."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something hum' implies no agent with will or intention involved in the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of humming is inherently neutral; its emotional connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something hum' indicates a non-agentive subject, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or ongoing process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "A 'hum' is typically a continuous, sustained sound, not a sequence of distinct, repeated events. Therefore, it is treated as a single, ongoing instance of sound production."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "hum.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_emission.n.01",
+        "reasoning": "verb_property 'sound_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "hum.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "hum.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "emission.n.01",
+        "corrected_reasoning": "LLM suggestion: 'emission.n.01' perfectly captures the general concept of emitting, which is the core meaning of 'sound_emission.n.01'."
+      },
+      {
+        "synset_id": "hum.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "voice.n.01",
+        "corrected_reasoning": "Selected 'voice.n.01' from candidates as its definition ('the distinctive quality or pitch or condition of a person's speech') is a perfect semantic and contextual replacement for 'sound_quality.n.01', especially for a sound like a 'hum'."
+      }
+    ],
+    "participants": []
+  }
+}

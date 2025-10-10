@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "cross-link.v.01",
+    "definition": "join by creating covalent bonds (of adjacent chains of a polymer or protein)",
+    "frame_id": 0,
+    "frame_text": "Somebody cross-link something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "connection.n.01",
+        "reasoning": "The verb 'cross-link' describes causing a change from a state of being separate to being physically joined or connected, as indicated by its hypernym 'join'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally initiates the joining action, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., polymer chains) that undergoes the change of state from separate to connected."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "bond_formation.n.01",
+        "value_type": "covalent.a.01",
+        "reasoning": "The definition explicitly states that the joining occurs 'by creating covalent bonds', specifying the precise chemical mechanism or manner of connection."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of cross-linking is typically an observable scientific or industrial process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies an intentional and willed action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of cross-linking is a technical process and inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody cross-link something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that is carried out."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While a cross-linking process might result in multiple bonds, the verb 'cross-link' itself describes a single, completed instance of initiating or achieving the joining state for a given entity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "cross-link.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "bond_formation.n.01",
+        "reasoning": "verb_property 'bond_formation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "electronegativity.n.01",
+            "description": "(chemistry) the tendency of an atom or radical to attract electrons in the formation of an ionic bond (gloss match)"
+          },
+          {
+            "synset_id": "interview.n.01",
+            "description": "the questioning of a person (or a conversation in which information is elicited); often conducted by journalists (gloss match)"
+          },
+          {
+            "synset_id": "male_bonding.n.01",
+            "description": "the formation of a close personal relationship between men (gloss match)"
+          },
+          {
+            "synset_id": "acceptor.n.01",
+            "description": "(chemistry) in the formation of a coordinate bond it is the compound to which electrons are donated (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "cross-link.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "bonding.n.02",
+        "corrected_reasoning": "LLM suggestion: 'bonding.n.02' (the formation of a bond) perfectly matches the meaning of the original 'bond_formation' and is a valid synset for a verb property of 'cross-link.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

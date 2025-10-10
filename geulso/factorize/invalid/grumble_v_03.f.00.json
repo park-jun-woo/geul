@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "grumble.v.03",
+    "definition": "to utter or emit low dull rumbling sounds",
+    "frame_id": 0,
+    "frame_text": "Somebody growl",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "emission.n.01",
+        "reasoning": "The verb describes the action of producing and sending out sounds, explicitly stated by 'emit' in the definition.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' is the entity that acts as the source and producer of the sounds, as indicated by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_type.n.01",
+        "value_type": "rumble.n.01",
+        "reasoning": "This sememe specifies the distinct quality and type of sound produced, which is described as 'low dull rumbling sounds' in the definition, aligning with 'rumble.n.01' (a low continuous sound)."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emission of sounds is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the verb frame implies a non-agentive subject, indicating no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of emitting rumbling sounds is semantically neutral; its emotional or evaluative context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something grumble' clearly indicates a non-volitional subject performing the action, as it is not 'Somebody'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of sound emission."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The description 'rumbling sounds' inherently suggests a continuous or highly repetitive nature of the sound emission, rather than a single, discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "grumble.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_type.n.01",
+        "reasoning": "verb_property 'sound_type.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "blues.n.01",
+            "description": "a type of folksong that originated among Black Americans at the beginning of the 20th century; has a melancholy sound from repeated use of blue notes (gloss match)"
+          },
+          {
+            "synset_id": "rattle.n.01",
+            "description": "a rapid series of short loud sounds (as might be heard with a stethoscope in some types of respiratory disorders) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "grumble.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "sound.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}

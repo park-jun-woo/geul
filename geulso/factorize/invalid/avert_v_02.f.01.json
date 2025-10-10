@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "avert.v.02",
+    "definition": "turn away or aside",
+    "frame_id": 1,
+    "frame_text": "Something turn_away something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "direction.n.02",
+        "reasoning": "The verb 'avert' describes causing a change in the direction or orientation of an object, as implied by 'turn away or aside'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that causes the other 'something' to turn."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change in direction."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "resultant_direction.n.01",
+        "value_type": "away/aside",
+        "reasoning": "The core definition of 'avert' explicitly specifies the outcome direction of the turning action as 'away or aside'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of turning something away is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s something' does not imply an agent with will or intention; the action is presented as a neutral cause-and-effect."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of turning something away or aside is inherently neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent ('Something') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action being performed."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed action of turning something aside, not a repetitive process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "avert.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "resultant_direction.n.01",
+        "reasoning": "verb_property 'resultant_direction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "avert.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "direction.n.01",
+        "corrected_reasoning": "LLM suggestion. `direction.n.01` is a valid synset that captures the concept of direction."
+      }
+    ],
+    "participants": []
+  }
+}

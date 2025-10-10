@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "baptize.v.01",
+    "definition": "administer baptism to",
+    "frame_id": 5,
+    "frame_text": "Somebody baptize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "religious_status.n.01",
+        "reasoning": "The verb 'baptize' describes an action that brings about a change in the religious status or affiliation of an individual, marking an initiation or purification.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the religious ritual of baptism."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (typically a person) who undergoes the ritual and whose religious status changes."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Baptism is a public and directly observable ritual."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to perform the baptism."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of baptism itself is neutral in sentiment, though it holds positive significance within a religious context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody baptize something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of baptizing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Baptism is typically a single, distinct event for an individual."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "baptize.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "religious_status.n.01",
+        "reasoning": "verb_property 'religious_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "fatherhood.n.03",
+            "description": "the status of a religious leader (gloss match)"
+          },
+          {
+            "synset_id": "ethnarch.n.01",
+            "description": "the ruler of a province (as in the Roman Empire and Byzantine Empire) or certain religious rulers with secular authority (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "baptize.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "membership.n.01",
+        "corrected_reasoning": "LLM suggestion: 'membership.n.01' represents the state of belonging to a group or organization, which is a core aspect of the 'religious status' conferred by baptism."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "hiss.v.01",
+  "definition": "make a sharp hissing sound, as if to show disapproval",
+  "frame_id": 5,
+  "frame_text": "Something sibilate",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb describes the action of producing a sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that is the source of the hissing sound, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "hissing_sound.n.01",
+      "reasoning": "The definition specifies the sound as 'hissing', which describes the specific quality or manner of the sound."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "emotion.n.01",
+      "value_type": "disapproval.n.01",
+      "reasoning": "The definition explicitly states the sound is 'as if to show disapproval', indicating an underlying emotional or communicative sentiment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hissing is a directly observable phenomenon (audible)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something sibilate' (equivalent to 'Something hisses') does not explicitly indicate an agent with will, leading to no inherent modality."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition includes 'as if to show disapproval', which inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something sibilate' (equivalent to 'Something hisses') describes an event happening to a non-agentive subject ('Something'), making the action non-volitional, despite the 'disapproval' nuance which can be attributed via personification."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hissing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Hissing is typically a continuous or sustained sound, implying high repetition or duration rather than a single discrete event."
+    }
+  }
+}

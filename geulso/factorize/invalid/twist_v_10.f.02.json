@@ -1,0 +1,146 @@
+{
+  "original": {
+    "synset_id": "twist.v.10",
+    "definition": "twist suddenly so as to sprain",
+    "frame_id": 2,
+    "frame_text": "Somebody turn something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes an action that causes a change in the physical state of a body part, leading to damage.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally or unintentionally performs the twisting action leading to the sprain, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (typically a body part like an ankle or wrist) that undergoes the change of physical state and becomes sprained."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "motion.n.03",
+        "value_type": "rotary_motion.n.01",
+        "reasoning": "The definition explicitly states 'twist', indicating a specific type of rotational movement is central to the action."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "speed.n.01",
+        "value_type": "fast.a.01",
+        "reasoning": "The definition includes 'suddenly', indicating the rapid execution of the twisting motion."
+      },
+      {
+        "verb_type": "result",
+        "verb_property": "injury.n.01",
+        "reasoning": "The phrase 'so as to sprain' explicitly states that injury (a sprain) is the intended or typical outcome of this specific type of twisting action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of twisting and spraining is a directly observable event or its immediate consequence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame, combined with the phrase 'so as to sprain', implies that the twisting action is driven by will or intent, even if the sprain itself might be an unintended side effect of a volitional movement."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The verb describes causing a 'sprain', which is an injury, inherently indicating a negative outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') performing the twisting action. The 'so as to sprain' implies the twisting leads to a specific, perhaps intended or at least direct, negative outcome."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of twisting and spraining."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of twisting that results in a sprain."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "twist.v.10",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "twist.v.10",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "condition.n.05",
+        "corrected_reasoning": "LLM suggestion: 'condition.n.05' is a general term for the physical state or condition of an entity, fitting the context of a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

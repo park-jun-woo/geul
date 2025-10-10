@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "indispose.v.01",
+    "definition": "make unwilling",
+    "frame_id": 3,
+    "frame_text": "Something indispose somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "disposition.n.01",
+        "reasoning": "The verb 'indispose' means to 'make unwilling', which directly describes a transition in a person's disposition or state of willingness.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "value_type": "non_agentive_cause.n.01",
+            "reasoning": "The 'Something' in the verb frame is the non-volitional entity or circumstance that causes the change in the patient's disposition."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "person.n.01",
+            "reasoning": "The 'somebody' in the verb frame is the individual who undergoes the change in their state of willingness."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "unwilling.a.01",
+            "reasoning": "The verb specifies that the outcome of the action is the state of being 'unwilling' for the patient."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effect of indisposing someone can be directly observed through their behavior or their expressed lack of willingness."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or causation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the causal agent implies no will or intention behind the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To be 'unwilling' or 'indisposed' implies a state that is generally negative or undesirable for the affected person."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' indicates a non-volitional cause; the action is not performed with intent or will."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of making someone unwilling."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of causing someone to become unwilling."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "indispose.v.01",
+        "frame_id": 3,
+        "key": "value_type",
+        "value": "non_agentive_cause.n.01",
+        "reasoning": "value_type 'non_agentive_cause.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "indispose.v.01",
+        "frame_id": 3,
+        "key": "value_type",
+        "corrected_value": "cause.n.01",
+        "corrected_reasoning": "LLM suggestion: 'cause.n.01' is the most general and appropriate NLTK WordNet synset for an entity that causes events or changes, encompassing the meaning of a non-agentive cause."
+      }
+    ]
+  }
+}

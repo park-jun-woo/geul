@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "conspire.v.01",
+    "definition": "engage in plotting or enter into a conspiracy, swear together",
+    "frame_id": 0,
+    "frame_text": "Somebody cabal",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "planning.n.01",
+        "reasoning": "The definition 'engage in plotting' directly describes an action of devising a scheme or plan.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the direct agent performing the action of planning.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "co-agent.n.01",
+            "reasoning": "The verb 'conspire' inherently implies involvement of multiple agents ('swear together'), thus requiring at least one co-agent.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "Conspiring is always directed towards forming or carrying out a specific plan or objective.",
+            "value_type": "plan.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "secret.a.01",
+        "reasoning": "The nature of 'plotting' and 'conspiracy' is inherently clandestine or concealed, indicating a secret manner of action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of conspiring can be directly observed or inferred from direct evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with strong will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The terms 'plotting' and 'conspiracy' typically carry negative connotations, further supported by the hypernym specifying 'usually something illegal'."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "Conspiring is a volitional act, as it involves intentional and deliberate planning by an agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of the action when used declaratively."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The phrase 'engage in plotting' suggests an ongoing, sustained, and often repetitive process of planning rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "conspire.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "co-agent.n.01",
+        "reasoning": "semantic_role 'co-agent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "conspire.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "collaborator.n.01",
+        "corrected_reasoning": "LLM suggestion: 'collaborator.n.01' is a perfect semantic and contextual fit for 'co-agent' in the context of 'conspire.v.01'."
+      }
+    ]
+  }
+}

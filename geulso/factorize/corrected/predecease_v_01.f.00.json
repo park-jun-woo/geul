@@ -1,0 +1,61 @@
+{
+  "synset_id": "predecease.v.01",
+  "definition": "die before; die earlier than",
+  "frame_id": 0,
+  "frame_text": "Somebody predecease somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "being.n.01",
+      "reasoning": "The verb describes the cessation of life, a fundamental change in the state of being (from alive to dead). This is the core 'die' component of 'predecease'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who is the subject undergoing the event of dying, consistent with sample mapping of subject to causal_agent even for non-volitional events/states."
+        }
+      ]
+    },
+    {
+      "verb_type": "relation",
+      "verb_property": "temporal_relation.n.01",
+      "value_type": "precedence.n.01",
+      "reasoning": "The 'pre-' prefix and the definition 'die before' explicitly indicate a temporal ordering of deaths, where the subject's death occurs prior to the object's (implied) death.",
+      "participants": [
+        {
+          "semantic_role": "comparison_object.n.01",
+          "reasoning": "The second 'somebody' in the frame, serving as the temporal reference point relative to whom the subject dies earlier."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of death, and its timing relative to another, is typically known through direct experience or established records, implying direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual event or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Dying is generally a non-volitional event, so the verb 'predecease' does not imply the subject's will or intention in the act of dying earlier than someone else."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb itself describes a neutral event of temporal ordering of deaths; its sentiment depends on context rather than the verb's inherent meaning."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Dying is a non-volitional state or event. Even if a death is self-inflicted, the act of 'predeceasing' another is an outcome and not typically considered a volitional act directed at the other person."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When an individual has 'predeceased' another, it refers to a definite and certain historical fact."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of dying is a single, definitive event, and thus the act of predeceasing is also a single event for each instance."
+    }
+  }
+}

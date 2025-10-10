@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "cup.v.03",
+    "definition": "treat by applying evacuated cups to the patient's skin",
+    "frame_id": 0,
+    "frame_text": "Somebody cup somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes an action aimed at altering the patient's physical state or health, aligning with the definition 'treat'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the therapeutic action of cupping."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose physical state is the target of the treatment."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "instrument.n.01",
+        "value_type": "evacuated_cup.n.01",
+        "reasoning": "The defining characteristic of this specific treatment, derived directly from the definition 'applying evacuated cups'. This specifies the instrument used in the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of cupping is a directly observable medical procedure."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to provide treatment."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "Treating someone, even with unconventional methods, is generally perceived as a positive act aimed at improving well-being."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action of treatment."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of treatment being performed."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The frame describes a single instance of applying cups as a treatment, not an inherently repetitive action within that single instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "cup.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "cup.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'physical_condition.n.02' directly defines 'the physical state of a person or thing', aligning perfectly with the intended general concept of 'physical state'. (Original suggestion 'physical_condition.n.02' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

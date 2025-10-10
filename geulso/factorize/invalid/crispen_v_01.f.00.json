@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "crispen.v.01",
+    "definition": "make brown and crisp by heating",
+    "frame_id": 0,
+    "frame_text": "Somebody crisp something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_characteristic.n.01",
+        "reasoning": "The verb describes causing a change in the physical characteristics of an object to a state of being brown and crisp.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the action of crisping, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the change in physical characteristics and becomes crisp and brown."
+          }
+        ]
+      },
+      {
+        "verb_type": "instrument",
+        "verb_property": "heat.v.01",
+        "reasoning": "The action of crisping is specifically achieved 'by heating', indicating the instrument or means used for the change.",
+        "participants": []
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of crisping something is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of crisping is neutral; the context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of crisping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme implies a single event of achieving a crisp and brown state for the object."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "crispen.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "physical_characteristic.n.01",
+        "reasoning": "verb_property 'physical_characteristic.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "crystal_oscillator.n.01",
+            "description": "an oscillator that produces electrical oscillations at a frequency determined by the physical characteristics of a piezoelectric quartz crystal (gloss match)"
+          },
+          {
+            "synset_id": "sex_change.n.01",
+            "description": "a change in a person's physical sexual characteristics (as by surgery and hormone treatments) (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "physical_characteristic.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "characteristic.n.01",
+        "corrected_reasoning": "LLM suggestion: A general term for a distinguishing quality that encompasses the original concept."
+      }
+    ],
+    "participants": []
+  }
+}

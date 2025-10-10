@@ -1,0 +1,118 @@
+{
+  "original": {
+    "synset_id": "decarboxylate.v.02",
+    "definition": "remove a carboxyl group from (a chemical compound)",
+    "frame_id": 1,
+    "frame_text": "Something decarboxylate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The verb 'decarboxylate' describes a process that alters the chemical composition of a compound by removing a specific functional group.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame acts as the initiator or cause of the chemical change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (chemical compound) that undergoes the change in its chemical composition."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "carboxyl_group.n.01",
+            "reasoning": "The 'carboxyl group' is the specific component that is removed, as per the verb's definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes are typically understood through direct observation or experimentation in a scientific context."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a chemical process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame refers to a non-volitional entity (e.g., a reagent, heat), thus lacking will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The chemical process of decarboxylation is inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (a chemical or physical condition) performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "Scientific descriptions of chemical reactions are typically stated with certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single instance of the chemical process applied to a given molecule or compound, even if it occurs in bulk."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "decarboxylate.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "decarboxylate.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Candidate 'chemistry.n.02' explicitly defines 'the chemical composition and properties of a substance or object', making it a perfect semantic and contextual fit for the intended 'chemical_composition'."
+      }
+    ],
+    "participants": []
+  }
+}

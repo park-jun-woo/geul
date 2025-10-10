@@ -1,0 +1,64 @@
+{
+  "synset_id": "argue.v.02",
+  "definition": "have an argument about something",
+  "frame_id": 3,
+  "frame_text": "Somebody contend",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "communication.n.02",
+      "reasoning": "The definition 'have an argument' inherently involves a verbal exchange between participants.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the primary participant initiating or engaging in the verbal exchange."
+        },
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "An argument fundamentally implies at least one other party with whom the agent is communicating and disagreeing, even if not explicit in this minimal frame. It is essential to the nature of an argument as per the definition 'have an argument'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "disagreement.n.01",
+      "reasoning": "The act of arguing is characterized by a conflict of opinions or ideas, distinguishing it from general communication, as stated in the definition 'have an argument'.",
+      "participants": [
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'something' (from the definition 'about something') represents the subject of the disagreement, which is an inherent component of arguing."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of arguing is typically a directly observed or participated event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Arguing, especially when expressed by 'contend', implies an agent's strong will and intention to assert a point or engage in disagreement."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of arguing itself can be neutral (e.g., in a formal debate or discussion), though it often implies conflict. A neutral polarity is appropriate without further context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody contend' explicitly indicates a volitional agent performing the action of arguing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "An 'argument' (as per the definition 'have an argument') is typically a process involving multiple, repeated verbal exchanges or assertions, indicating high iterativity. Even if 'contend' can be a single assertion, as a frame for 'argue', it contributes to an iterative process."
+    }
+  }
+}

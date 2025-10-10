@@ -1,0 +1,117 @@
+{
+  "original": {
+    "synset_id": "action.v.01",
+    "definition": "institute legal proceedings against; file a suit against",
+    "frame_id": 2,
+    "frame_text": "Somebody process somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "legal_proceedings.n.01",
+        "reasoning": "The definition 'institute legal proceedings against' describes a change of state from no legal action to legal action being initiated and underway.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who initiates the legal proceedings."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' against whom the legal proceedings are instituted, thus undergoing a change in legal status or situation."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The institution of legal proceedings is a directly observable and verifiable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a 'Somebody' in the frame implies an agent acting with intent and will in initiating legal proceedings."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of taking legal action is intrinsically neutral; its positive or negative sentiment depends on the specific context and outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody process somebody' (interpreted as 'Somebody takes legal action against somebody') clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of instituting legal proceedings is a definite and established event."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Instituting legal proceedings is typically a single, discrete event rather than a continuously repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "action.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "legal_proceedings.n.01",
+        "reasoning": "verb_property 'legal_proceedings.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "foreclosure.n.01",
+            "description": "the legal proceedings initiated by a creditor to repossess the collateral for loan that is in default (gloss match)"
+          },
+          {
+            "synset_id": "procedure.n.04",
+            "description": "a mode of conducting legal and parliamentary proceedings (gloss match)"
+          },
+          {
+            "synset_id": "confession_of_judgment.n.01",
+            "description": "a judgment entered after a written confession by the debtor without the expense of ordinary legal proceedings (gloss match)"
+          },
+          {
+            "synset_id": "prosecution.n.01",
+            "description": "the institution and conduct of legal proceedings against a defendant for criminal behavior (gloss match)"
+          },
+          {
+            "synset_id": "party_to_the_action.n.01",
+            "description": "a party of people taking a role in legal proceedings (gloss match)"
+          },
+          {
+            "synset_id": "jane_doe.n.01",
+            "description": "an unknown or fictitious woman who is a party to legal proceedings (gloss match)"
+          },
+          {
+            "synset_id": "john_doe.n.02",
+            "description": "an unknown or fictitious man who is a party to legal proceedings (gloss match)"
+          },
+          {
+            "synset_id": "party.n.05",
+            "description": "a person involved in legal proceedings (gloss match)"
+          },
+          {
+            "synset_id": "richard_roe.n.01",
+            "description": "an unknown or fictitious party to legal proceedings (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "action.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "proceedings.n.02",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}

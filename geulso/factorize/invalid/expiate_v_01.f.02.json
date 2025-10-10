@@ -1,0 +1,130 @@
+{
+  "original": {
+    "synset_id": "expiate.v.01",
+    "definition": "make amends for",
+    "frame_id": 2,
+    "frame_text": "Somebody atone PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moral_state.n.01",
+        "reasoning": "The definition 'make amends for' indicates an action that changes a prior state of wrongdoing or moral indebtedness into a state of rectification or atonement.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of making amends, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "wrong.n.01",
+            "reasoning": "The 'PP' in the frame typically refers to the wrong, sin, or fault for which amends are made, serving as the object of atonement."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of expiation is typically a directly observable or experiential action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' implies a strong will and intention to perform the act of expiation."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "Making amends for a wrong is generally considered a positive action, aiming to rectify a negative situation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody atone PP' explicitly indicates a volitional agent performing the act of expiation."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of making amends."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme implies a single act or process of making amends for a specific wrong, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "expiate.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "moral_state.n.01",
+        "reasoning": "verb_property 'moral_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "descriptivism.n.01",
+            "description": "(ethics) a doctrine holding that moral statements have a truth value (gloss match)"
+          },
+          {
+            "synset_id": "prescriptivism.n.01",
+            "description": "(ethics) a doctrine holding that moral statements prescribe appropriate attitudes and behavior (gloss match)"
+          },
+          {
+            "synset_id": "decadent.n.01",
+            "description": "a person who has fallen into a decadent state (morally or artistically) (gloss match)"
+          },
+          {
+            "synset_id": "comstock.n.01",
+            "description": "United States reformer who led moral crusades against art and literature that he considered obscene (1844-1915) (gloss match)"
+          },
+          {
+            "synset_id": "hawthorne.n.01",
+            "description": "United States writer of novels and short stories mostly on moral themes (1804-1864) (gloss match)"
+          },
+          {
+            "synset_id": "hays.n.01",
+            "description": "United States lawyer and politician who formulated a production code that prescribed the moral content of United States films from 1930 to 1966 (1879-1954) (gloss match)"
+          },
+          {
+            "synset_id": "utopia.n.02",
+            "description": "ideally perfect state; especially in its social and political and moral aspects (gloss match)"
+          },
+          {
+            "synset_id": "demoralization.n.02",
+            "description": "a state of disorder and confusion (gloss match)"
+          },
+          {
+            "synset_id": "purity.n.02",
+            "description": "the state of being unsullied by sin or moral wrong; lacking a knowledge of evil (gloss match)"
+          },
+          {
+            "synset_id": "degeneracy.n.01",
+            "description": "the state of being degenerate in mental or moral qualities (gloss match)"
+          },
+          {
+            "synset_id": "depth.n.04",
+            "description": "(usually plural) a low moral state (gloss match)"
+          },
+          {
+            "synset_id": "bankruptcy.n.01",
+            "description": "a state of complete lack of some abstract property (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "moral_state.n.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "depth.n.04",
+        "corrected_reasoning": "Candidate 'depth.n.04' ('a low moral state') is a perfect semantic and contextual fit for the verb 'expiate', which implies addressing a negative moral state."
+      }
+    ],
+    "participants": []
+  }
+}

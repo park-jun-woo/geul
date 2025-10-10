@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "exacerbate.v.02",
+    "definition": "exasperate or irritate",
+    "frame_id": 4,
+    "frame_text": "Something exacerbate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "anger.n.01",
+        "reasoning": "The verb 'exacerbate' in this sense refers to causing a change in someone's emotional state towards exasperation or irritation, which are forms of anger.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame that acts as the external cause or stimulus bringing about the emotional change."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change in emotional state and experiences exasperation or irritation."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effects of exasperating someone, such as their reactions and behavior, can be directly observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' subject in the verb frame does not possess will or intention, thus the action is not driven by an agent's will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'exasperate' or 'irritate' inherently carries a negative sentiment, as it describes causing an undesirable emotional state."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates that the cause ('Something') is non-agentive and therefore the action is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing irritation or exasperation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of causing exasperation, though the resulting state might persist or recur if the cause is continuous."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "exacerbate.v.02",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "Original value 'experiencer.n.01' is the most semantically precise term; no other perfect replacement found."
+      }
+    ]
+  }
+}

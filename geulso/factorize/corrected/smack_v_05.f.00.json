@@ -1,0 +1,60 @@
+{
+  "synset_id": "smack.v.05",
+  "definition": "press (the lips) together and open (the lips) noisily, as in eating",
+  "frame_id": 0,
+  "frame_text": "Somebody smack",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "lip.n.01",
+      "reasoning": "The verb describes a physical action that causes the lips to change their configuration (from open to pressed together and then open again).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the initiator and performer of this action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "lip.n.01",
+          "reasoning": "The 'lips' are the anatomical parts that undergo the described change in configuration, as explicitly mentioned in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "noise.n.02",
+      "value_type": "noisy.a.01",
+      "reasoning": "The definition explicitly states that the action of pressing and opening the lips is done 'noisily', indicating an inherent auditory characteristic of this specific action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of smacking lips is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of smacking lips itself is neutral; any associated sentiment would depend on context (e.g., rude in some cultures, normal in others)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody smack' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of smacking lips is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'as in eating' suggests that this action is often performed repeatedly and continuously within a period, indicating high iterativity."
+    }
+  }
+}

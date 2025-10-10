@@ -1,0 +1,124 @@
+{
+  "original": {
+    "synset_id": "air-slake.v.01",
+    "definition": "alter by exposure to air with conversion at least in part to a carbonate",
+    "frame_id": 0,
+    "frame_text": "Somebody air-slake something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The definition 'alter by exposure... with conversion at least in part to a carbonate' indicates a fundamental chemical transformation of the object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame initiates the process of air-slaking."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the verb frame is the material that undergoes the chemical alteration."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "carbonate.n.01",
+            "reasoning": "The definition specifies 'conversion at least in part to a carbonate' as the outcome of the alteration."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "environment.n.01",
+        "value_type": "air.n.01",
+        "reasoning": "The 'air-' prefix in 'air-slake' and the phrase 'by exposure to air' in the definition explicitly define the specific environmental condition or medium required for this type of slaking to occur, making it a manner or condition of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of air-slaking is a physical and chemical change that is directly observable or verifiable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' implies that the agent ('Somebody') has the will and intention to perform the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of chemically altering a substance is neutral; its sentiment depends on the specific context and desired outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the subject in the verb frame indicates an intentional, volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a definite process of alteration and conversion."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'air-slake' typically describes a singular, completed process of conversion for a given quantity of material, not an inherently repetitive action like 'running'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "air-slake.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "air-slake.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Candidate 'chemistry.n.02' directly defines 'the chemical composition and properties of a substance or object', making it a perfect semantic match for 'chemical composition'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "approach.v.05",
+    "definition": "make advances to someone, usually with a proposal or suggestion",
+    "frame_id": 0,
+    "frame_text": "Somebody approach somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "communication_state.n.01",
+        "reasoning": "The definition 'make advances' describes an action that initiates a change in the state of communication or social interaction from non-engagement to engagement.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of making advances and initiating communication, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' who is the target of the advances and the recipient of the communication, as specified by the verb frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of approaching someone in this context is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The action of 'making advances' implies a strong will and intention from the agent ('Somebody')."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of approaching itself is neutral; its positive or negative sentiment depends on the specific proposal or suggestion and context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody approach somebody' explicitly includes a volitional agent ('Somebody') initiating the action, making it inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, initiated event of making advances, even if further interaction follows."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "approach.v.05",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "communication_state.n.01",
+        "reasoning": "verb_property 'communication_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "national_censorship.n.01",
+            "description": "censorship under civil authority of communications entering or leaving of crossing the borders of the United States or its territories or possessions (gloss match)"
+          },
+          {
+            "synset_id": "contagion.n.03",
+            "description": "the communication of an attitude or emotional state among a number of people (gloss match)"
+          },
+          {
+            "synset_id": "statement.n.01",
+            "description": "a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc (gloss match)"
+          },
+          {
+            "synset_id": "episcopal_church.n.02",
+            "description": "United States church that is in communication with the see of Canterbury (gloss match)"
+          },
+          {
+            "synset_id": "federal_communications_commission.n.01",
+            "description": "an independent government agency that regulates interstate and international communications by radio and television and wire and cable and satellite (gloss match)"
+          },
+          {
+            "synset_id": "united_states_post_office.n.01",
+            "description": "an independent agency of the federal government responsible for mail delivery (and sometimes telecommunications) between individuals and businesses in the United States (gloss match)"
+          },
+          {
+            "synset_id": "shannon.n.01",
+            "description": "United States electrical engineer who pioneered mathematical communication theory (1916-2001) (gloss match)"
+          },
+          {
+            "synset_id": "confidentiality.n.01",
+            "description": "the state of being secret (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "approach.v.05",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "intercommunication.n.01",
+        "corrected_reasoning": "LLM suggestion: 'intercommunication.n.01' semantically aligns with 'communication_state' by describing the state of mutual communication or contact between entities."
+      }
+    ],
+    "participants": []
+  }
+}

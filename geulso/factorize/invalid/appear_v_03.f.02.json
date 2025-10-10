@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "appear.v.03",
+    "definition": "be issued or published",
+    "frame_id": 2,
+    "frame_text": "Something is appearing PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "publication.n.01",
+        "reasoning": "The definition 'be issued or published' implies a transition from a state of not being publicly available to being publicly available, which is a change in its publication status.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the change of state by being issued or published, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "value_type": "publication_medium.n.01",
+            "reasoning": "The 'PP' (Prepositional Phrase) in the frame often indicates the medium or place where the 'Something' appears (e.g., 'in the newspaper', 'on the shelves')."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of something being issued or published is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate and cannot exert will. The action is an event that occurs to it or for which it is the result."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The frame 'is appearing' explicitly indicates a present tense event."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The 'is appearing' construction clearly marks the progressive aspect, indicating an ongoing event."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb 'appear' in this sense is a neutral term for publication."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of being issued or published is neutral in sentiment; context would determine positive or negative connotations."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' is inanimate and therefore cannot act with volition. The action occurs to it."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of being issued or published."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While publications can be iterative, the phrase 'is appearing' usually refers to a specific, single instance of the something being issued/published at a particular time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "appear.v.03",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "publication_medium.n.01",
+        "reasoning": "value_type 'publication_medium.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "appear.v.03",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "medium.n.01",
+        "corrected_reasoning": "LLM suggestion. 'medium.n.01' (a means or instrumentality for storing or communicating information) is a perfect semantic fit for 'publication_medium'."
+      }
+    ]
+  }
+}

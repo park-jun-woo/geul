@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "incite.v.02",
+    "definition": "provoke or stir up",
+    "frame_id": 4,
+    "frame_text": "Somebody instigate somebody to INFINITIVE",
+    "sememes": [
+      {
+        "verb_type": "causation",
+        "verb_property": "activity.n.01",
+        "reasoning": "The verb 'incite' describes the act of causing another agent to initiate an activity or change their state of inaction to action, which is a form of causation leading to a change in activity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame is the instigator who causes the action to happen."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' is the entity whose activity is provoked or stirred up; they are the one undergoing the change in motivational state or beginning the activity."
+          },
+          {
+            "semantic_role": "resultant_action.n.01",
+            "value_type": "action.n.01",
+            "reasoning": "The 'to INFINITIVE' clause specifies the particular action that the patient is provoked to perform, representing the intended outcome or result of the incitement."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of inciting is typically a directly observable event or interaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by strong will and intention to provoke."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While 'incite' often has negative connotations (e.g., incite a riot), it can also be neutral or even positive (e.g., incite enthusiasm). Its inherent sentiment is therefore neutral, with context determining specific polarity."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody instigate...' explicitly includes a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of inciting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete event of provoking someone to action, even if the resultant action itself might be iterative."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "incite.v.02",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "value": "resultant_action.n.01",
+        "reasoning": "semantic_role 'resultant_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "incite.v.02",
+        "frame_id": 4,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion. 'result.n.01' is the closest valid synset representing an outcome or consequence, which is the core meaning of 'resultant_action'."
+      }
+    ]
+  }
+}

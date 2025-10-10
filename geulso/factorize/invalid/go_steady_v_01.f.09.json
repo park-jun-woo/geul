@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "go_steady.v.01",
+    "definition": "date regularly; have a steady relationship with",
+    "frame_id": 9,
+    "frame_text": "Somebody see somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The verb 'go steady' (represented by 'see' in this frame) describes the ongoing, reciprocal action of regularly dating, which is a form of social interaction.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively initiates and participates in the dating relationship."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' with whom the causal agent is dating and engaging in a steady relationship."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of dating and going steady is generally observed directly."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an ongoing action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to engage in a steady relationship."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of dating/going steady is neutral; its sentiment depends on context and the individuals involved."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action of dating regularly."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement about someone going steady implies a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'date regularly' implies frequent and high repetition of dating activities, leading to high iterativity."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The definition 'date regularly' indicates an ongoing, continuous process, which aligns with the progressive aspect."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "go_steady.v.01",
+        "frame_id": 9,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "go_steady.v.01",
+        "frame_id": 9,
+        "key": "verb_property",
+        "corrected_value": "social_relation.n.01",
+        "corrected_reasoning": "LLM suggestion: 'social_relation.n.01' is a precise fit for the verb property, indicating the nature of the relationship established by 'go_steady.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

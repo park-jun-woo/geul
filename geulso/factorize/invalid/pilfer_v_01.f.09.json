@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "pilfer.v.01",
+    "definition": "make off with belongings of others",
+    "frame_id": 9,
+    "frame_text": "Somebody lift something from somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The definition 'make off with belongings of others' describes a change in the state of who possesses an object, from the original owner to the agent.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the illicit taking."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose possession is illicitly transferred."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "reasoning": "The 'somebody' from whom the belongings are taken without consent, as indicated by the 'from somebody' phrase."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "nature_of_action.n.01",
+        "value_type": "theft.n.01",
+        "reasoning": "The verb 'pilfer' explicitly denotes an act of taking that is illicit or illegal, which is a core semantic component distinguishing it from a neutral transfer of possession, as evidenced by its hypernym 'steal'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of pilfering is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of 'pilfering' is inherently an illicit act of stealing, which carries a negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody lift something...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of pilfering is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of illicit taking; repetition is not inherent to the core meaning of the verb itself, though the act can be repeated."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "pilfer.v.01",
+        "frame_id": 9,
+        "key": "verb_property",
+        "value": "nature_of_action.n.01",
+        "reasoning": "verb_property 'nature_of_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "personality.n.01",
+            "description": "the complex of all the attributes--behavioral, temperamental, emotional and mental--that characterize a unique individual (gloss match)"
+          },
+          {
+            "synset_id": "nature.n.04",
+            "description": "the complex of emotional and intellectual attributes that determine a person's characteristic actions and reactions (gloss match)"
+          },
+          {
+            "synset_id": "compton.n.01",
+            "description": "United States physicist noted for research on x-rays and gamma rays and nuclear energy; his observation that X-rays behave like miniature bowling balls in their interactions with electrons provided evidence for the quantal nature of light (1892-1962) (gloss match)"
+          },
+          {
+            "synset_id": "natural_process.n.01",
+            "description": "a process existing in or produced by nature (rather than by the intent of human beings) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "pilfer.v.01",
+        "frame_id": 9,
+        "key": "verb_property",
+        "corrected_value": "activity.n.01",
+        "corrected_reasoning": "LLM suggestion: 'activity.n.01' ('any specific behavior') is a perfect semantic fit for describing the nature or type of action for 'pilfer.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "original": {
+    "synset_id": "suborn.v.03",
+    "definition": "induce to commit perjury or give false testimony",
+    "frame_id": 0,
+    "frame_text": "Somebody suborn somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "behavior.n.01",
+        "reasoning": "The verb describes causing a change in somebody's intended or actual actions from not performing an illegal act to performing one.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the inducement, causing the change in the patient's behavior."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "illegal_act.n.01",
+            "reasoning": "The 'somebody' who is induced, with the specific outcome being an illegal or unethical action (perjury or false testimony)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of suborning is typically a directly observable or verifiable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' performing the suborning acts with clear intention and will to induce the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of suborning specifically involves inducing someone to commit an illegal or unethical act (perjury, false testimony), which is inherently negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the act of suborning."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of inducing someone to commit an act."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event or instance of inducing an action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suborn.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "illegal_act.n.01",
+        "reasoning": "value_type 'illegal_act.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "occupation.n.04",
+            "description": "the act of occupying or taking possession of a building (gloss match)"
+          },
+          {
+            "synset_id": "bootlegging.n.01",
+            "description": "the act of making or transporting alcoholic liquor for sale illegally (gloss match)"
+          },
+          {
+            "synset_id": "bootlegging.n.02",
+            "description": "the act of selling illegally or without permission (gloss match)"
+          },
+          {
+            "synset_id": "multiple_voting.n.01",
+            "description": "the act of voting in more than one place by the same person at the same election (illegal in U.S.) (gloss match)"
+          },
+          {
+            "synset_id": "sedition.n.01",
+            "description": "an illegal action inciting resistance to lawful authority and tending to cause the disruption or overthrow of the government (gloss match)"
+          },
+          {
+            "synset_id": "frisk.n.01",
+            "description": "the act of searching someone for concealed weapons or illegal drugs (gloss match)"
+          },
+          {
+            "synset_id": "cheap_shot.n.02",
+            "description": "an illegal and unsportsmanlike act of unnecessary violence (gloss match)"
+          },
+          {
+            "synset_id": "methylenedioxymethamphetamine.n.01",
+            "description": "a stimulant drug that is chemically related to mescaline and amphetamine and is used illicitly for its euphoric and hallucinogenic effects; it was formerly used in psychotherapy but in 1985 it was declared illegal in the United States (gloss match)"
+          },
+          {
+            "synset_id": "lawlessness.n.02",
+            "description": "illegality as a consequence of unlawful acts; defiance of the law (gloss match)"
+          },
+          {
+            "synset_id": "mens_rea.n.01",
+            "description": "(law) criminal intent; the thoughts and intentions behind a wrongful act (including knowledge that the act is illegal); often at issue in murder trials (gloss match)"
+          },
+          {
+            "synset_id": "conspiracy.n.02",
+            "description": "a plot to carry out some harmful or illegal act (especially a political plot) (gloss match)"
+          },
+          {
+            "synset_id": "fair-trade_agreement.n.01",
+            "description": "an agreement (illegal in the United States) between the manufacturer of a trademarked item of merchandise and its retail distributors to sell the item at a price at or above the price set by the manufacturer (gloss match)"
+          },
+          {
+            "synset_id": "yellow-dog_contract.n.01",
+            "description": "a labor contract (now illegal) whereby the employee agrees not to join a trade union (gloss match)"
+          },
+          {
+            "synset_id": "combination_in_restraint_of_trade.n.01",
+            "description": "(law) any monopoly or contract or combination or conspiracy intended to restrain commerce (which are illegal according to antitrust laws of the United States) (gloss match)"
+          },
+          {
+            "synset_id": "agent_provocateur.n.01",
+            "description": "a secret agent who incites suspected persons to commit illegal acts (gloss match)"
+          },
+          {
+            "synset_id": "watchdog.n.01",
+            "description": "a guardian or defender against theft or illegal practices or waste (gloss match)"
+          },
+          {
+            "synset_id": "bonded_labor.n.01",
+            "description": "a practice in which employers give high-interest loans to workers whose entire families then labor at low wages to pay off the debt; the practice is illegal in the United States (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suborn.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "crime.n.01",
+        "corrected_reasoning": "LLM suggestion. 'crime.n.01' ('an act punishable by law; usually considered an evil act') is a perfect general semantic and contextual replacement for 'illegal_act'."
+      }
+    ]
+  }
+}

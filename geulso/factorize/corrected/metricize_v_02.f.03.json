@@ -1,0 +1,63 @@
+{
+  "synset_id": "metricize.v.02",
+  "definition": "convert from a non-metric to the metric system",
+  "frame_id": 3,
+  "frame_text": "Somebody metrify something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "system_of_weights_and_measures.n.01",
+      "reasoning": "The definition 'convert from a non-metric to the metric system' clearly indicates a change in the system of measurement applied to an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who intentionally performs the conversion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the conversion of its measurement system."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "nonmetric_system.n.01",
+          "reasoning": "The original measurement system from which the patient is converted, as implied by the definition."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "metric_system.n.01",
+          "reasoning": "The target measurement system into which the patient is converted, as explicitly stated in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of converting units is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of converting units is a neutral process; its utility or desirability depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody metrify something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of conversion is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of converting a specific 'something'."
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "hollow.v.02",
+    "definition": "remove the interior of",
+    "frame_id": 4,
+    "frame_text": "Something hollow something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "internal_structure.n.01",
+        "reasoning": "The definition 'remove the interior of' indicates a change in the internal structure or contents of an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity causing the removal of the interior."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the object whose interior is removed, undergoing the change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of hollowing something is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' agent in the frame does not possess 'will' in the human sense, thus the action is not driven by modality."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of hollowing is neutral; its sentiment depends on context or outcome."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something hollow something' implies a non-volitional agent (an inanimate object or force) performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of removal."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed event of removing the interior of an object."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "hollow.v.02",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "internal_structure.n.01",
+        "reasoning": "verb_property 'internal_structure.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "skeleton.n.04",
+            "description": "the internal supporting structure that gives an artifact its shape (gloss match)"
+          },
+          {
+            "synset_id": "ophthalmic_artery.n.01",
+            "description": "a branch of the internal carotid artery that supplies the eye and neighboring structures (gloss match)"
+          },
+          {
+            "synset_id": "perineal_artery.n.01",
+            "description": "a branch of the internal pudendal artery that supplies superficial structures of the perineum (gloss match)"
+          },
+          {
+            "synset_id": "endoskeleton.n.01",
+            "description": "the internal skeleton; bony and cartilaginous structure (especially of vertebrates) (gloss match)"
+          },
+          {
+            "synset_id": "nuclear_physics.n.01",
+            "description": "the branch of physics that studies the internal structure of atomic nuclei (gloss match)"
+          },
+          {
+            "synset_id": "crystal.n.03",
+            "description": "a rock formed by the solidification of a substance; has regularly repeating internal structure; external plane faces (gloss match)"
+          },
+          {
+            "synset_id": "particle.n.02",
+            "description": "a body having finite mass and internal structure but negligible dimensions (gloss match)"
+          },
+          {
+            "synset_id": "decalescence.n.01",
+            "description": "phenomenon that occurs when a metal is being heated and there is a sudden slowing in the rate of temperature increase; slowing is caused by a change in the internal crystal structure of the metal (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "hollow.v.02",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "organization.n.03",
+        "corrected_reasoning": "LLM suggestion: 'organization.n.03' (the structure of something; its internal arrangement of parts and components) is a perfect semantic and contextual fit for 'internal_structure' as a verb property for 'hollow'."
+      }
+    ],
+    "participants": []
+  }
+}

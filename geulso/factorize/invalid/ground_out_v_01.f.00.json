@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "ground_out.v.01",
+    "definition": "make an out by hitting the ball on the ground",
+    "frame_id": 0,
+    "frame_text": "Somebody ground_out",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "striking.n.01",
+        "reasoning": "The verb describes the primary action of hitting a ball, as indicated by the definition 'hitting the ball'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of hitting the ball.",
+            "value_type": "player.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The object that is struck, implicitly a 'ball' in the context of baseball.",
+            "value_type": "ball.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "path.n.01",
+        "value_type": "groundward.adv.01",
+        "reasoning": "The definition specifies the manner of hitting as 'on the ground', indicating the trajectory or path of the ball after being struck."
+      },
+      {
+        "verb_type": "result",
+        "verb_property": "game_state.n.01",
+        "value_type": "out.n.05",
+        "reasoning": "The verb's ultimate goal and outcome is to 'make an out', representing a specific change in the state of the game."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of grounding out in a game is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action performed."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame, a player, acts with intention and will to hit the ball and achieve an outcome."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of grounding out is a neutral event within the game; its positive or negative valence depends on the team's perspective."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ground_out' indicates a volitional agent (the player) intentionally performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single, discrete event of making an out, rather than a continuous or highly repetitive action, despite the micro-actions involved."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "ground_out.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "game_state.n.01",
+        "reasoning": "verb_property 'game_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "monopoly.n.03",
+            "description": "a board game in which players try to gain a monopoly on real estate as pieces advance around the board according to the throw of a die (gloss match)"
+          },
+          {
+            "synset_id": "ruffed_grouse.n.01",
+            "description": "valued as a game bird in eastern United States and Canada (gloss match)"
+          },
+          {
+            "synset_id": "northern_bobwhite.n.01",
+            "description": "a favorite game bird of eastern and central United States (gloss match)"
+          },
+          {
+            "synset_id": "white_perch.n.01",
+            "description": "small silvery food and game fish of eastern United States streams (gloss match)"
+          },
+          {
+            "synset_id": "weakfish.n.01",
+            "description": "lean flesh of food and game fishes of the Atlantic coast of the United States (gloss match)"
+          },
+          {
+            "synset_id": "culbertson.n.01",
+            "description": "United States authority on contract bridge whose books helped to popularize the game (1891-1955) (gloss match)"
+          },
+          {
+            "synset_id": "naismith.n.01",
+            "description": "United States educator (born in Canada) who invented the game of basketball (1861-1939) (gloss match)"
+          },
+          {
+            "synset_id": "owens.n.01",
+            "description": "United States athlete and Black American whose success in the 1936 Olympic Games in Berlin outraged Hitler (1913-1980) (gloss match)"
+          },
+          {
+            "synset_id": "nash_equilibrium.n.01",
+            "description": "(game theory) a stable state of a system that involves several interacting participants in which no participant can gain by a change of strategy as long as all the other participants remain unchanged (gloss match)"
+          },
+          {
+            "synset_id": "development.n.07",
+            "description": "a state in which things are improving; the result of developing (as in the early part of a game of chess) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "ground_out.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion: 'state.n.02' refers to the way something is with respect to its main attributes, which is a perfect semantic fit for the intended 'game state' when the 'game' context is provided by the verb 'ground_out.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

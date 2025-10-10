@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "barge_in.v.01",
+    "definition": "enter uninvited; informal",
+    "frame_id": 4,
+    "frame_text": "Somebody gate-crash",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'barge in' describes a physical movement, specifically the act of entering, which is a change in location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of entering, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "permission.n.01",
+        "value": "lacking",
+        "reasoning": "The definition 'enter uninvited' directly indicates a lack of permission for the entry."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "social_register.n.01",
+        "value": "informal",
+        "reasoning": "The definition explicitly states 'informal' as a characteristic of the manner of entry."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'gate-crashing' is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly states 'informal', which implies a lower level of politeness or adherence to social norms, aligning with an informal register."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'barge in' or 'gate-crash' carries a negative connotation of being intrusive, disruptive, or disrespectful of boundaries/rules, hence negative polarity."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody gate-crash' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of entering."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event of entry, though it could be repeated in context, the base meaning is a single instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "barge_in.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "social_register.n.01",
+        "reasoning": "verb_property 'social_register.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "calendar.n.02",
+            "description": "a list or register of events (appointments or social events or court cases etc) (gloss match)"
+          },
+          {
+            "synset_id": "blue_book.n.02",
+            "description": "a register of persons who are socially prominent (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "barge_in.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "blue_book.n.02",
+        "corrected_reasoning": "Selected 'blue_book.n.02' from candidates due to perfect semantic match with 'social_register.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

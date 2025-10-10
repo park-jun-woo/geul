@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "ebb.v.02",
+    "definition": "hem in fish with stakes and nets so as to prevent them from going back into the sea with the ebb",
+    "frame_id": 0,
+    "frame_text": "Somebody ebb something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "restriction.n.01",
+        "reasoning": "The verb describes causing a change from a state of free movement to a state of being restricted or confined.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of 'hemming in' the fish."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (fish) whose movement is restricted."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "stakes_and_nets.n.01",
+            "reasoning": "The definition explicitly states that the action is performed 'with stakes and nets', indicating the instruments used."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of 'ebbing' fish is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of fishing, even by 'hemming in,' is generally considered a neutral activity in terms of inherent sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action described is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single act of setting up the confinement for the fish."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "ebb.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "stakes_and_nets.n.01",
+        "reasoning": "value_type 'stakes_and_nets.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "ebb.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found from the list, and internal knowledge search did not yield a perfect semantic and contextual fit with >99% confidence for 'stakes_and_nets.n.01' as a value_type for 'ebb.v.02' due to high ambiguity."
+      }
+    ]
+  }
+}

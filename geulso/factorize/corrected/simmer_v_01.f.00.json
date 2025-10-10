@@ -1,0 +1,61 @@
+{
+  "synset_id": "simmer.v.01",
+  "definition": "boil slowly at low temperature",
+  "frame_id": 0,
+  "frame_text": "Somebody simmer something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The verb describes a continuous process of heating a liquid to a specific thermal state, indicating a change in its physical condition (from cooler to simmering).",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the heating and boiling process, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "slow.a.01",
+      "reasoning": "The definition explicitly states that the action occurs 'slowly', characterizing the manner of boiling."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The definition specifies that the boiling occurs at a 'low temperature', indicating the degree of heat involved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Simmering is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a state or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something simmer' lacks an agent capable of will, so the action is not driven by intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of simmering is a neutral physical process; its emotional valence depends on context (e.g., food preparation)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something simmer' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The occurrence of simmering is described as a definite event or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Simmering is a continuous, sustained process involving highly repetitive, small-scale thermal activities (e.g., small bubbles, heat circulation) rather than a single, discrete event."
+    }
+  }
+}

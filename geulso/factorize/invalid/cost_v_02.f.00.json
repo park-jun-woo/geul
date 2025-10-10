@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "cost.v.02",
+    "definition": "require to lose, suffer, or sacrifice",
+    "frame_id": 0,
+    "frame_text": "Somebody cost somebody something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "well-being.n.01",
+        "reasoning": "The verb describes that the subject causes a negative change in the well-being (which can include resources or status) of another person, aligning with the definition 'require to lose, suffer, or sacrifice'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame acts as the entity or situation that brings about or causes the negative consequence (the cost)."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The second 'somebody' in the frame is the individual who experiences or undergoes the loss, suffering, or sacrifice."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "reasoning": "The 'something' in the frame refers to the specific item, state, or value that is lost, suffered, or sacrificed."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'costing' or resulting in a loss is typically a verifiable event, often directly experienced or observed as a consequence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a consequence or requirement."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Even with a 'Somebody' subject, the act of 'costing' usually implies an inevitable consequence or requirement rather than the subject's explicit will or intention to cause the loss."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly includes 'lose, suffer, or sacrifice', all of which are inherently negative outcomes."
+      },
+      "Volitionality": {
+        "value": 0.0,
+        "reasoning": "While the frame contains 'Somebody', the verb 'cost' often describes an outcome or consequence that is not necessarily intended by the subject (e.g., 'His mistake cost him his job'). Therefore, volitionality is neutral, allowing for non-volitional or context-dependent volitional interpretations."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'cost' implies a definite and certain requirement or outcome when used in this sense."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb typically refers to a single instance of a consequence or a requirement, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "cost.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "cost.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect candidate found from list or internal knowledge, as 'experiencer.n.01' is not a valid NLTK WordNet synset and no direct WordNet synset perfectly represents the abstract semantic role of 'experiencer'."
+      }
+    ]
+  }
+}

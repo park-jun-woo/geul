@@ -1,0 +1,96 @@
+{
+  "original": {
+    "synset_id": "catch_on.v.01",
+    "definition": "understand, usually after some initial difficulty",
+    "frame_id": 6,
+    "frame_text": "Somebody get_onto",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb 'catch on' describes the acquisition or gaining of understanding, which is a transition into a state of possessing knowledge.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the entity who comes to understand."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "concept.n.01",
+            "reasoning": "The implied object of understanding, often a concept or piece of information that the agent 'catches on to'."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "process_attribute.n.01",
+        "value_type": "difficulty.n.01",
+        "reasoning": "The definition explicitly states that understanding occurs 'usually after some initial difficulty', making this a key characteristic of the 'catching on' process."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Gaining understanding is a direct cognitive experience for the subject."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual occurrence, not a hypothetical event or command."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "While understanding is a state, the act of 'catching on' implies an active mental engagement or effort, suggesting strong will or intention."
+      },
+      "Aspect": {
+        "value": 4,
+        "reasoning": "The verb 'catch on' is telic; it describes the achievement of a result (understanding) after a process, fitting the result-focused aspect."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of understanding or catching on is semantically neutral; the content being understood can carry sentiment, but the verb itself does not."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody get_onto' implies an agent (Somebody) who volitionally engages in the mental process of trying to understand, even if the final 'catching on' is a cognitive event."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "To 'catch on' inherently implies achieving a definite state of understanding or certainty about a concept."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single event of achieving understanding for a particular concept or situation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "catch_on.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "process_attribute.n.01",
+        "reasoning": "verb_property 'process_attribute.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "catch_on.v.01",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "attribute.n.02",
+        "corrected_reasoning": "LLM suggestion. 'attribute.n.02' (an abstraction belonging to or characteristic of an entity) is a suitable general replacement for 'process_attribute.n.01' as a 'verb_property', capturing the intended meaning of an attribute or characteristic of the verb's action."
+      }
+    ],
+    "participants": []
+  }
+}

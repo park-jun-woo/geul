@@ -1,0 +1,65 @@
+{
+  "synset_id": "abridge.v.01",
+  "definition": "reduce in scope while retaining essential elements",
+  "frame_id": 13,
+  "frame_text": "Something shorten something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "extent.n.01",
+      "reasoning": "The definition 'reduce in scope' directly indicates a change in the extent or size of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of reduction, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose extent or scope is being reduced."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "integrity.n.01",
+      "reasoning": "A core distinguishing aspect of 'abridge' is that it ensures the essential elements of the patient remain intact, thus maintaining their integrity.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "gist.n.01",
+          "reasoning": "Refers to the specific 'essential elements' within the patient that must maintain their integrity during the abridgement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of abridging is typically a direct and observable process or its result is readily apparent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something shorten something' implies a non-agentive subject ('Something'), thus lacking inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of abridging is neutral; its sentiment depends on context or the nature of what is being abridged."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something shorten something' explicitly indicates a non-volitional agent ('Something') performing the action, even if it is a causal agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Abridging typically refers to a single, complete act of reducing something."
+    }
+  }
+}

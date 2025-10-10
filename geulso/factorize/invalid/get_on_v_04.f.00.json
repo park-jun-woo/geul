@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "get_on.v.04",
+    "definition": "grow late or (of time) elapse",
+    "frame_id": 0,
+    "frame_text": "Something get_on",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "temporal_state.n.01",
+        "reasoning": "The definition 'grow late or (of time) elapse' describes a process of progression or change in the temporal state of the subject.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "time.n.01",
+            "reasoning": "The 'Something' in the verb frame refers to 'time' itself, which is the entity undergoing the change of state as it elapses or grows late."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The passing of time is a universally direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact about the progression of time."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' (time) does not possess will or intention, so no agent's will is involved in its progression."
+      },
+      "Tense": {
+        "value": 0.0,
+        "reasoning": "The inherent lexical meaning of 'get on' (of time) does not strongly constrain a specific tense; thus, a neutral (present) temporal context is assigned for general decomposition."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb 'get on' in this sense (grow late, elapse) describes an ongoing, continuous process of time, which aligns with the progressive aspect."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "No specific politeness level is inherently associated with this verb's meaning."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of time passing is inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something get_on' with 'Something' referring to time indicates a non-volitional process, as time cannot act with intention."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The progression of time is a certain and undeniable reality."
+      },
+      "Iterativity": {
+        "value": "MAX",
+        "reasoning": "Time elapsing is a continuous, ceaseless, and effectively infinite process, best represented by 'Infinite repetition'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "get_on.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "temporal_state.n.01",
+        "reasoning": "verb_property 'temporal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "get_on.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "temporality.n.01",
+        "corrected_reasoning": "LLM suggestion. Replaced invalid 'temporal_state.n.01' with valid 'temporality.n.01' which denotes the quality of being temporal."
+      }
+    ],
+    "participants": []
+  }
+}

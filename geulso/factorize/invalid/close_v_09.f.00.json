@@ -1,0 +1,118 @@
+{
+  "original": {
+    "synset_id": "close.v.09",
+    "definition": "cause a window or an application to disappear on a computer desktop",
+    "frame_id": 0,
+    "frame_text": "Somebody close something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.01",
+        "reasoning": "The verb 'close' in this context describes causing a transition in the state of a computer window or application from being active/visible to inactive/disappeared, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally initiates the action, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "computer_application.n.01",
+            "reasoning": "The 'something' that undergoes the change of state, referring to a computer window or application as per the definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of closing a computer window or application is typically a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a factual action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') implies the action is performed with will and intent."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of closing a computer application is inherently neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of closing is described as a definite and certain occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of closing an application or window."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "close.v.09",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "computer_application.n.01",
+        "reasoning": "value_type 'computer_application.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "foreground.n.02",
+            "description": "(computer science) a window for an active application (gloss match)"
+          },
+          {
+            "synset_id": "computational_linguistics.n.01",
+            "description": "the use of computers for linguistic research and applications (gloss match)"
+          },
+          {
+            "synset_id": "extension.n.06",
+            "description": "a string of characters beginning with a period and followed by one or more letters; the optional second part of a PC computer filename (gloss match)"
+          },
+          {
+            "synset_id": "binary_file.n.01",
+            "description": "(computer science) a computer file containing machine-readable information that must be read by an application; characters use all 8 bits of each byte (gloss match)"
+          },
+          {
+            "synset_id": "application.n.04",
+            "description": "a program that gives a computer instructions that provide the user with tools to accomplish a task (gloss match)"
+          },
+          {
+            "synset_id": "disambiguator.n.01",
+            "description": "(computer science) a natural language processing application that tries to determine the intended meaning of a word or phrase by examining the linguistic context in which it is used (gloss match)"
+          },
+          {
+            "synset_id": "job.n.11",
+            "description": "(computer science) a program application that may consist of several steps but is a single logical unit (gloss match)"
+          },
+          {
+            "synset_id": "text_editor.n.02",
+            "description": "(computer science) an application that can be used to create and view and edit text files (gloss match)"
+          },
+          {
+            "synset_id": "partition.n.02",
+            "description": "(computer science) the part of a hard disk that is dedicated to a particular operating system or application and accessed as a single unit (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "computer_application.n.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "application.n.04",
+        "corrected_reasoning": "Candidate 'application.n.04' ('a program that gives a computer instructions that provide the user with tools to accomplish a task') is a perfect semantic and contextual match for the original invalid value 'computer_application.n.01'."
+      }
+    ]
+  }
+}

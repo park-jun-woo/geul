@@ -1,0 +1,118 @@
+{
+  "original": {
+    "synset_id": "hydrolize.v.01",
+    "definition": "make a compound react with water and undergo hydrolysis",
+    "frame_id": 0,
+    "frame_text": "Somebody hydrolise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The definition 'make a compound react with water and undergo hydrolysis' describes a process that fundamentally alters the chemical composition of a substance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who initiates and causes the hydrolysis."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (compound) that undergoes the chemical change of hydrolysis."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "water.n.01",
+            "reasoning": "Hydrolysis specifically involves a reaction 'with water', making water the instrument of the chemical change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of hydrolysis is typically a directly observable or measurable scientific phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with will and intention in a controlled environment (e.g., laboratory)."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The chemical process of hydrolysis is neutral; its effects can be positive or negative depending on the context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody hydrolize something' indicates a volitional agent ('Somebody') intentionally performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that occurs."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete event of causing hydrolysis, not a continuous or repetitive action by its nature (though it can be repeated many times)."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "hydrolize.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "hydrolize.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Candidate 'chemistry.n.02' gloss directly includes 'chemical composition' and is semantically appropriate for a property of 'hydrolize.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

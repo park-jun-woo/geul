@@ -1,0 +1,146 @@
+{
+  "original": {
+    "synset_id": "make.v.02",
+    "definition": "give certain properties to something",
+    "frame_id": 3,
+    "frame_text": "Something make something Adjective/Noun",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "property.n.01",
+        "reasoning": "The definition 'give certain properties to something' describes causing a transition in the characteristics or attributes of an entity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which is the entity or force that brings about the change in properties."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which is the entity that undergoes the change in its properties."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "adjective.n.01/noun.n.01",
+            "reasoning": "The 'Adjective/Noun' describes the resulting property or state of the patient after the change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of giving properties can be a directly observable phenomenon or its results are directly experienced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The causal agent is 'Something', implying no inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of changing properties is neutral; the specific property being imparted determines any sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something make...' indicates a non-volitional agent (the first 'Something') causing the change."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of imparting properties."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of giving specific properties to something."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "make.v.02",
+        "frame_id": 3,
+        "key": "value_type",
+        "value": "adjective.n.01/noun.n.01",
+        "reasoning": "value_type 'adjective.n.01/noun.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "adjective.n.02",
+            "description": "the word class that qualifies nouns (lemma match)"
+          },
+          {
+            "synset_id": "adjective.n.01",
+            "description": "a word that expresses an attribute of something (lemma match)"
+          },
+          {
+            "synset_id": "case.n.11",
+            "description": "nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence (gloss match)"
+          },
+          {
+            "synset_id": "attributive_genitive.n.01",
+            "description": "a word in the genitive case that is used as an attributive adjective (gloss match)"
+          },
+          {
+            "synset_id": "subordinate_clause.n.01",
+            "description": "a clause in a complex sentence that cannot stand alone as a complete sentence and that functions within the sentence as a noun or adjective or adverb (gloss match)"
+          },
+          {
+            "synset_id": "adnoun.n.01",
+            "description": "an adjective used as a noun (gloss match)"
+          },
+          {
+            "synset_id": "descriptive_adjective.n.01",
+            "description": "an adjective that ascribes to its noun the value of an attribute of that noun (e.g., `a nervous person' or `a musical speaking voice') (gloss match)"
+          },
+          {
+            "synset_id": "relational_adjective.n.01",
+            "description": "an adjective that classifies its noun (e.g., `a nervous disease' or `a musical instrument') (gloss match)"
+          },
+          {
+            "synset_id": "positive.n.01",
+            "description": "the primary form of an adjective or adverb; denotes a quality without qualification, comparison, or relation to increase or diminution (gloss match)"
+          },
+          {
+            "synset_id": "comparative.n.01",
+            "description": "the comparative form of an adjective or adverb (gloss match)"
+          },
+          {
+            "synset_id": "superlative.n.03",
+            "description": "the superlative form of an adjective or adverb (gloss match)"
+          },
+          {
+            "synset_id": "gender.n.01",
+            "description": "a grammatical category in inflected languages governing the agreement between nouns and pronouns and adjectives; in some languages it is quite arbitrary but in Indo-European languages it is usually based on sex or animateness (gloss match)"
+          },
+          {
+            "synset_id": "declension.n.04",
+            "description": "a class of nouns or pronouns or adjectives in Indo-European languages having the same (or very similar) inflectional forms (gloss match)"
+          },
+          {
+            "synset_id": "number_agreement.n.01",
+            "description": "agreement in number between words in the same grammatical construction (e.g., between adjectives and the nouns they modify) (gloss match)"
+          },
+          {
+            "synset_id": "declension.n.01",
+            "description": "the inflection of nouns and pronouns and adjectives in Indo-European languages (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "make.v.02",
+        "frame_id": 3,
+        "key": "value_type",
+        "corrected_value": "part_of_speech.n.01",
+        "corrected_reasoning": "LLM suggestion. Represents the general linguistic category encompassing both adjectives and nouns, providing a single valid synset for the intended compound type."
+      }
+    ]
+  }
+}

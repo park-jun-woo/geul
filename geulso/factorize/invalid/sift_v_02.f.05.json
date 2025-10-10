@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "sift.v.02",
+    "definition": "separate by passing through a sieve or other straining device to separate out coarser elements",
+    "frame_id": 5,
+    "frame_text": "Something strain something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "composition.n.02",
+        "reasoning": "The verb 'sift' (as implied by 'strain' in this context) describes a process of altering the composition of a material by separating its elements.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which is the straining device that actively causes the separation."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' that undergoes the change in composition, being separated into finer and coarser elements."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "filtering_process.n.01",
+        "reasoning": "The definition specifies the action is performed 'by passing through a sieve or other straining device', indicating a particular method of separation that involves filtering or straining."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Sifting is a physical process that is directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' refers to a device, which lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sifting is a neutral process; its utility or sentiment depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something strain something' indicates that the subject (a device) is inanimate and performs the action non-volitionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The action of 'passing through a sieve' or 'straining' often involves continuous or highly repetitive small movements or actions to achieve separation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sift.v.02",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "filtering_process.n.01",
+        "reasoning": "verb_property 'filtering_process.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "filtration.n.01",
+            "description": "the process whereby fluids pass through a filter or a filtering medium (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sift.v.02",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "filtration.n.01",
+        "corrected_reasoning": "Candidate 'filtration.n.01' is a perfect semantic and contextual replacement."
+      }
+    ],
+    "participants": []
+  }
+}

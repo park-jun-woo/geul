@@ -1,0 +1,117 @@
+{
+  "original": {
+    "synset_id": "outroar.v.01",
+    "definition": "roar louder than",
+    "frame_id": 1,
+    "frame_text": "Something outroar something",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "sound_production.n.01",
+        "reasoning": "The verb 'outroar' inherently involves the act of producing a roar as its base action.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame which performs the roaring."
+          }
+        ]
+      },
+      {
+        "verb_type": "relation",
+        "verb_property": "superiority.n.01",
+        "value_type": "loudness.n.01",
+        "reasoning": "The 'out-' prefix and the definition 'roar louder than' indicate a comparative relationship where the agent's roar exceeds another's in intensity (loudness).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' whose roar demonstrates superiority in loudness."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' whose roar is surpassed in loudness by the agent."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of outroaring is typically a directly observable or audible event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or relation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ---- something' implies that the subject ('Something') does not inherently possess will, even if it performs an action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of roaring louder is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ---- something' with a non-human/non-animal 'Something' as the agent, means the action is not inherently volitional, as 'roar' can apply to inanimate forces (e.g., a storm, an engine)."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or established fact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event or continuous state of one entity roaring louder than another, not a series of distinct repetitions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "outroar.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "sound_production.n.01",
+        "reasoning": "verb_property 'sound_production.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "sound_reproduction.n.01",
+            "description": "the reproduction of sound (gloss match)"
+          },
+          {
+            "synset_id": "high_fidelity.n.01",
+            "description": "the reproduction of sound with little or no distortion (gloss match)"
+          },
+          {
+            "synset_id": "hi-fi.n.01",
+            "description": "equipment for the reproduction of sound with high fidelity (gloss match)"
+          },
+          {
+            "synset_id": "music.n.04",
+            "description": "(music) the sounds produced by singers or musical instruments (or reproductions of such sounds) (gloss match)"
+          },
+          {
+            "synset_id": "mutter.n.01",
+            "description": "a low continuous indistinct sound; often accompanied by movement of the lips without the production of articulate speech (gloss match)"
+          },
+          {
+            "synset_id": "acoustic_phenomenon.n.01",
+            "description": "a physical phenomenon associated with the production or transmission of sound (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "outroar.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "emission.n.01",
+        "corrected_reasoning": "LLM suggestion. 'emission.n.01' refers to the act of emitting, which perfectly captures the concept of 'sound production' as a verb property for 'outroar.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

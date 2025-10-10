@@ -1,0 +1,155 @@
+{
+  "original": {
+    "synset_id": "syringe.v.01",
+    "definition": "spray or irrigate (a body part) with a syringe",
+    "frame_id": 0,
+    "frame_text": "Somebody syringe something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "medical_treatment.n.01",
+        "reasoning": "The verb describes an action that causes a change in the state of a body part (e.g., by cleansing or applying liquid), often for therapeutic or hygienic purposes, aligning with the concept of medical treatment.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (a body part) that undergoes the change or is the recipient of the treatment."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "syringe.n.01",
+            "reasoning": "The verb 'syringe' inherently specifies the use of a 'syringe' as the instrument by which the action is performed."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "liquid.n.01",
+            "reasoning": "The act of 'spray or irrigate' implies the application of a liquid or substance, which is the theme of the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of syringing is a physical, directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of syringing is neutral; its sentiment depends on the specific context and outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action described is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed instance of the action, unless explicitly stated otherwise."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "syringe.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "medical_treatment.n.01",
+        "reasoning": "verb_property 'medical_treatment.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "care.n.01",
+            "description": "the work of providing treatment for or attending to someone or something (gloss match)"
+          },
+          {
+            "synset_id": "rest-cure.n.01",
+            "description": "rest as a medical treatment for stress or anxiety etc. (gloss match)"
+          },
+          {
+            "synset_id": "triage.n.01",
+            "description": "sorting and allocating aid on the basis of need for or likely benefit from medical treatment or food (gloss match)"
+          },
+          {
+            "synset_id": "adjuvant.n.01",
+            "description": "an additive that enhances the effectiveness of medical treatment (gloss match)"
+          },
+          {
+            "synset_id": "emergency_room.n.01",
+            "description": "a room in a hospital or clinic staffed and equipped to provide emergency care to persons requiring immediate medical treatment (gloss match)"
+          },
+          {
+            "synset_id": "first-aid_station.n.01",
+            "description": "a station providing emergency care or treatment before regular medical aid can be obtained (gloss match)"
+          },
+          {
+            "synset_id": "forceps.n.01",
+            "description": "an extractor consisting of a pair of pincers used in medical treatment (especially for the delivery of babies) (gloss match)"
+          },
+          {
+            "synset_id": "pharmaceutical.n.01",
+            "description": "drug or medicine that is prepared or dispensed in pharmacies and used in medical treatment (gloss match)"
+          },
+          {
+            "synset_id": "sunlamp.n.01",
+            "description": "a mercury-vapor lamp used in medical or cosmetic treatments (gloss match)"
+          },
+          {
+            "synset_id": "allergology.n.01",
+            "description": "the branch of medical science that studies the causes and treatment of allergies (gloss match)"
+          },
+          {
+            "synset_id": "informed_consent.n.01",
+            "description": "consent by a patient to undergo a medical or surgical treatment or to participate in an experiment after the patient understands the risks involved (gloss match)"
+          },
+          {
+            "synset_id": "ophthalmologist.n.01",
+            "description": "a medical doctor specializing in the diagnosis and treatment of diseases of the eye (gloss match)"
+          },
+          {
+            "synset_id": "orderly.n.02",
+            "description": "a male hospital attendant who has general duties that do not involve the medical treatment of patients (gloss match)"
+          },
+          {
+            "synset_id": "paramedic.n.01",
+            "description": "a person trained to assist medical professionals and to give emergency medical treatment (gloss match)"
+          },
+          {
+            "synset_id": "radiologist.n.01",
+            "description": "a medical specialist who uses radioactive substances and X-rays in the treatment of disease (gloss match)"
+          },
+          {
+            "synset_id": "medical_expense.n.01",
+            "description": "amount spent for diagnosis or treatment or prevention of medical problems (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "syringe.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "care.n.01",
+        "corrected_reasoning": "Closest semantic match from candidates; gloss includes 'providing treatment'."
+      }
+    ],
+    "participants": []
+  }
+}

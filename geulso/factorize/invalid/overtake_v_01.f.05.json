@@ -1,0 +1,159 @@
+{
+  "original": {
+    "synset_id": "overtake.v.01",
+    "definition": "catch up with and possibly overtake",
+    "frame_id": 5,
+    "frame_text": "Something overtake something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "relative_position.n.01",
+        "reasoning": "The definition 'catch up with and possibly overtake' describes a change in the spatial relationship between two entities, specifically their relative position in motion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that moves past another, initiating the change in relative position."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that is caught up with and passed."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "motion.n.03",
+        "value_type": "faster.a.01",
+        "reasoning": "Implicit in 'overtake' is that the causal agent is moving faster than the patient to achieve the change in relative position."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of overtaking is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something overtake something' implies an inanimate or non-willful agent ('Something'), thus lacking intentional will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of overtaking is semantically neutral; its positive or negative connotation depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' in the frame indicates a non-volitional agent. Even if it's a vehicle, the verb refers to the vehicle's action, not a human driver's volition."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of changing relative positions."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, completed event of passing another entity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "overtake.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "relative_position.n.01",
+        "reasoning": "verb_property 'relative_position.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "transposition.n.05",
+            "description": "(electricity) a rearrangement of the relative positions of power lines in order to minimize the effects of mutual capacitance and inductance (gloss match)"
+          },
+          {
+            "synset_id": "orrery.n.01",
+            "description": "planetarium consisting of an apparatus that illustrates the relative positions and motions of bodies in the solar system by rotation and revolution of balls moved by wheelwork; sometimes incorporated in a clock (gloss match)"
+          },
+          {
+            "synset_id": "selsyn.n.01",
+            "description": "a system consisting of a generator and a motor so connected that the motor will assume the same relative position as the generator; the generator and the motor are synchronized (gloss match)"
+          },
+          {
+            "synset_id": "sociability.n.01",
+            "description": "the relative tendency or disposition to be sociable or associate with one's fellows (gloss match)"
+          },
+          {
+            "synset_id": "spark_advance.n.01",
+            "description": "the timing of ignition relative to the position of the piston in an internal-combustion engine (gloss match)"
+          },
+          {
+            "synset_id": "presentation.n.07",
+            "description": "(obstetrics) position of the fetus in the uterus relative to the birth canal (gloss match)"
+          },
+          {
+            "synset_id": "coordinate.n.01",
+            "description": "a number that identifies a position relative to an axis (gloss match)"
+          },
+          {
+            "synset_id": "standing.n.02",
+            "description": "an ordered listing of scores or results showing the relative positions of competitors (individuals or teams) in a sporting event (gloss match)"
+          },
+          {
+            "synset_id": "horoscope.n.01",
+            "description": "a prediction of someone's future based on the relative positions of the planets (gloss match)"
+          },
+          {
+            "synset_id": "star_chart.n.01",
+            "description": "a chart showing the relative positions of the stars in a particular part of the sky (gloss match)"
+          },
+          {
+            "synset_id": "tack.n.01",
+            "description": "the heading or position of a vessel relative to the trim of its sails (gloss match)"
+          },
+          {
+            "synset_id": "orientation.n.03",
+            "description": "position or alignment relative to points of the compass or other specific directions (gloss match)"
+          },
+          {
+            "synset_id": "attitude.n.04",
+            "description": "position of aircraft or spacecraft relative to a frame of reference (the horizon or direction of motion) (gloss match)"
+          },
+          {
+            "synset_id": "status.n.01",
+            "description": "the relative position or standing of things or especially persons in a society (gloss match)"
+          },
+          {
+            "synset_id": "shade.n.05",
+            "description": "a position of relative inferiority (gloss match)"
+          },
+          {
+            "synset_id": "grade.n.02",
+            "description": "a relative position or degree of value in a graded group (gloss match)"
+          },
+          {
+            "synset_id": "gradation.n.01",
+            "description": "relative position in a graded series (gloss match)"
+          },
+          {
+            "synset_id": "toehold.n.01",
+            "description": "a relatively insignificant position from which future progress might be made (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "overtake.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "spatial_relation.n.01",
+        "corrected_reasoning": "No candidate met the >99% confidence threshold for a general 'relative position'. 'spatial_relation.n.01' ('a relation between objects in space') is a perfect semantic fit for the general concept of relative position inherent in 'overtake.v.01' as a verb property. (LLM suggestion)"
+      }
+    ],
+    "participants": []
+  }
+}

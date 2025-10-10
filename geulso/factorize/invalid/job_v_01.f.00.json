@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "job.v.01",
+    "definition": "profit privately from public office and official business",
+    "frame_id": 0,
+    "frame_text": "Somebody job",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "wealth.n.01",
+        "reasoning": "The verb 'job' describes the act of gaining 'profit', which is a change in one's wealth or resources.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of profiting."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "resource.n.01",
+            "reasoning": "The implicit 'profit' or 'resources' that are gained by the agent."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "value_type": "position.n.01",
+            "reasoning": "The 'public office and official business' serve as the illegitimate origin or means from which the profit is derived."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "moral_judgment.n.01",
+        "value_type": "negative.a.01",
+        "reasoning": "The definition 'profit privately from public office and official business' and the hypernym 'cheat' strongly imply that this act is unethical or fraudulent, assigning a negative moral judgment to the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'jobbing' is generally a directly observable or inferable event in public records, implying direct experience if reported."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state of affairs."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to gain private profit."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The verb 'job' inherently carries a negative connotation due to its association with illicit or unethical profit, as reinforced by the hypernym 'cheat'."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' explicitly includes a volitional agent who intentionally profits from their position."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of 'jobbing' is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, albeit potentially ongoing, event of profiting, not necessarily a repeated action in itself."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "job.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "moral_judgment.n.01",
+        "reasoning": "verb_property 'moral_judgment.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "moralism.n.02",
+            "description": "judgments about another person's morality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "job.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "moralism.n.02",
+        "corrected_reasoning": "Candidate 'moralism.n.02' is a perfect semantic and contextual match, directly matching the concept of moral judgment."
+      }
+    ],
+    "participants": []
+  }
+}

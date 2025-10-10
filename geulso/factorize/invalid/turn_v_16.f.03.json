@@ -1,0 +1,121 @@
+{
+  "original": {
+    "synset_id": "turn.v.16",
+    "definition": "cause to change or turn into something different;assume new characteristics",
+    "frame_id": 3,
+    "frame_text": "Something turn something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.02",
+        "reasoning": "The definition 'cause to change or turn into something different; assume new characteristics' clearly indicates a transition from one state or set of characteristics to another.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which initiates or causes the transformation."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which undergoes the change of state or characteristics."
+          },
+          {
+            "semantic_role": "final_state.n.01",
+            "reasoning": "The new state or characteristic that the patient assumes, implied by 'turn into something different' or 'assume new characteristics'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of causing something to turn or change is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event of change."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The causal agent in the frame is 'Something' (an inanimate entity), implying an absence of will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of changing or turning is neutral; the specific change or its outcome might be positive or negative, but the verb itself is not inherently so."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something turn something' explicitly identifies the causer as a non-agentive 'Something', making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, albeit possibly complex, event of causing a transformation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "turn.v.16",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "final_state.n.01",
+        "reasoning": "semantic_role 'final_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "last_word.n.01",
+            "description": "the final statement in a verbal argument (gloss match)"
+          },
+          {
+            "synset_id": "supreme_court.n.01",
+            "description": "the highest federal court in the United States; has final appellate jurisdiction and has jurisdiction over all other courts in the nation (gloss match)"
+          },
+          {
+            "synset_id": "colorado.n.03",
+            "description": "an important river in the southwestern United States; rises in the Rocky Mountains of northern Colorado and flows southwest through Utah into Arizona (where it flows through the Grand Canyon) and then southward through the southern tip of Nevada, then forming the border between California and Arizona and finally into Mexico where it empties into the Gulf of California; the main source of water in the southwestern United States (gloss match)"
+          },
+          {
+            "synset_id": "morris.n.04",
+            "description": "United States statesman who led the committee that produced the final draft of the United States Constitution (1752-1816) (gloss match)"
+          },
+          {
+            "synset_id": "ultimacy.n.01",
+            "description": "the state or degree of being ultimate; the final or most extreme in degree or size or time or distance, (gloss match)"
+          },
+          {
+            "synset_id": "oppression.n.02",
+            "description": "the state of being kept down by unjust use of force or authority: (gloss match)"
+          },
+          {
+            "synset_id": "wellbeing.n.01",
+            "description": "a contented state of being happy and healthy and prosperous (gloss match)"
+          },
+          {
+            "synset_id": "end.n.06",
+            "description": "a final state (gloss match)"
+          },
+          {
+            "synset_id": "plurality.n.01",
+            "description": "the state of being plural (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "turn.v.16",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "end.n.06",
+        "corrected_reasoning": "Candidate 'end.n.06' with gloss 'a final state' is a perfect semantic and contextual match."
+      }
+    ]
+  }
+}

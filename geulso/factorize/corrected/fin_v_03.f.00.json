@@ -1,0 +1,65 @@
+{
+  "synset_id": "fin.v.03",
+  "definition": "show the fins above the water while swimming",
+  "frame_id": 0,
+  "frame_text": "Something break_water",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes a change in the spatial position of the fins from being submerged to being above the water surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity (e.g., an animal) causing its fins to change position."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fin.n.01",
+          "reasoning": "The 'fins' are the specific body part undergoing the change of position, becoming visible."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "afloat.a.01",
+          "reasoning": "The fins move to a state or location of being above the water surface."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "swimming.n.01",
+      "reasoning": "The definition explicitly states that the action of showing fins occurs 'while swimming', indicating the manner or accompanying activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'finning' (showing fins above water) is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The action described is typically a descriptive outcome of locomotion for an animal ('Something'), rather than a strong intentional act of displaying the fins."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'finning' itself is neutral; its sentiment depends on context (e.g., a shark fin vs. a dolphin fin)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "While the underlying swimming motion may be volitional for an animal, the specific act of its fins appearing above water is generally a non-volitional consequence of its movement, rather than an intentional display."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Finning is a continuous action that occurs repeatedly as an animal swims, making it highly iterative."
+    }
+  }
+}

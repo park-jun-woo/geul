@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "tattoo.v.01",
+    "definition": "stain (skin) with indelible color",
+    "frame_id": 1,
+    "frame_text": "Somebody tattoo something on somebody",
+    "sememes": [
+      {
+        "verb_type": "causation",
+        "verb_property": "surface_marking.n.01",
+        "reasoning": "The verb 'tattoo' describes the action of causing a mark or design to appear on a surface.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of tattooing (e.g., the tattoo artist)."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (the design or ink) that is being applied as the mark, as per the direct object in the verb frame."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'somebody' whose skin serves as the surface where the mark is applied, indicated by the 'on somebody' phrase."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "permanence.n.01",
+        "value_type": "indelible.a.01",
+        "reasoning": "The definition explicitly includes 'indelible color,' signifying that a core semantic component of 'tattoo' is the permanent nature of the applied mark."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of tattooing is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of tattooing is neutral; the context and the resulting design determine its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something on somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of tattooing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically refers to a single, complete act of applying a specific tattoo design, not repetitive unrelated instances."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "tattoo.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "surface_marking.n.01",
+        "reasoning": "verb_property 'surface_marking.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "awl.n.01",
+            "description": "a pointed tool for marking surfaces or for punching small holes (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "tattoo.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "marking.n.01",
+        "corrected_reasoning": "LLM suggestion: 'marking.n.01' perfectly describes the result of 'tattoo.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

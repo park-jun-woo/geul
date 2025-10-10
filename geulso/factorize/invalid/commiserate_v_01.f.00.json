@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "commiserate.v.01",
+    "definition": "to feel or express sympathy or compassion",
+    "frame_id": 0,
+    "frame_text": "Somebody commiserate",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "social_interaction.n.01",
+        "value_type": "sympathy.n.01",
+        "reasoning": "The verb describes the activity of engaging in a social interaction, specifically by expressing or sharing the emotion of sympathy or compassion, as indicated by the definition 'feel or express sympathy or compassion' and the hypernym 'share the suffering of'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the agent who performs the activity of commiserating."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of commiserating is typically a directly observed or experienced event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning in this frame is declarative, stating an action or state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action of commiserating is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "Commiserating, as an act of expressing sympathy or compassion, is inherently a positive social behavior."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody commiserate' indicates that the action is performed by an intentional agent, making it volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of commiserating is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of the act of commiserating, although it can be sustained or repeated."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "commiserate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "commiserate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "interaction.n.01",
+        "corrected_reasoning": "LLM suggestion: A perfect semantic and contextual fit for the intended 'social interaction'."
+      }
+    ],
+    "participants": []
+  }
+}

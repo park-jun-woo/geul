@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "see.v.12",
+    "definition": "go to see for a social visit",
+    "frame_id": 0,
+    "frame_text": "Somebody see somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The definition 'go to see for a social visit' describes an intentional act of engaging in social interaction by visiting someone.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame is the initiator of the social visit."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The second 'somebody' is the target of the social visit, the one being visited."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of visiting is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The action of visiting is driven by the agent's will and intention, as implied by 'go to see'."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making a social visit is inherently neutral; the specific context determines its positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' for 'go to see for a social visit' explicitly indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of seeing/visiting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of a social visit, though it can be repeated, the verb itself doesn't inherently imply repetition for a single usage."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "see.v.12",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "social_interaction.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "socializing.n.01",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'social interaction'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "original": {
+    "synset_id": "pander.v.02",
+    "definition": "arrange for sexual partners for others",
+    "frame_id": 0,
+    "frame_text": "Somebody pander",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "provision.n.01",
+        "reasoning": "The verb describes the action of providing or making available specific resources (sexual partners) for the benefit of others, aligning with its hypernym 'provide'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the act of pandering, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "sexual_partner.n.01",
+            "reasoning": "The 'sexual partners' are the entities being provided or arranged for, inherent to the verb's specific meaning as stated in the definition, even if not syntactically expressed in this intransitive frame."
+          },
+          {
+            "semantic_role": "beneficiary.n.01",
+            "value_type": "person.n.01",
+            "reasoning": "The 'others' for whom the sexual partners are arranged are the beneficiaries, inherent to the verb's specific meaning as stated in the definition, even if not syntactically expressed in this intransitive frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of pandering is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The definition of the verb itself is neutral, describing an action, even if the social perception of the act is often negative. This decomposition focuses on the inherent semantic value."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody pander' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of pandering is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Pandering typically implies a habitual or repeated action of arranging, rather than a single, discrete event. Thus, it has high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pander.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "sexual_partner.n.01",
+        "reasoning": "value_type 'sexual_partner.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "bondage.n.03",
+            "description": "sexual practice that involves physically restraining (by cords or handcuffs) one of the partners (gloss match)"
+          },
+          {
+            "synset_id": "pederasty.n.01",
+            "description": "sexual relations between a man and a boy (usually anal intercourse with the boy as a passive partner) (gloss match)"
+          },
+          {
+            "synset_id": "collaborator.n.03",
+            "description": "an associate in an activity or endeavor or sphere of common interest (gloss match)"
+          },
+          {
+            "synset_id": "mate.n.03",
+            "description": "the partner of an animal (especially a sexual partner) (gloss match)"
+          },
+          {
+            "synset_id": "player.n.04",
+            "description": "a person who pursues a number of different social and sexual partners simultaneously (gloss match)"
+          },
+          {
+            "synset_id": "open_marriage.n.01",
+            "description": "a marriage in which each partner is free to enter into extraneous sexual relationships without guilt or jealousy from the other (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pander.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "mate.n.03",
+        "corrected_reasoning": "Selected from candidates list based on perfect semantic and contextual match to 'sexual partner' (explicitly mentioned in gloss)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "alliterate.v.01",
+    "definition": "use alliteration as a form of poetry",
+    "frame_id": 0,
+    "frame_text": "Somebody alliterate",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "composition.n.02",
+        "reasoning": "The definition 'use alliteration as a form of poetry' implies the act of composing or creating a literary work.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of composition, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "poetry.n.01",
+            "reasoning": "The literary form (poetry) that is being created or shaped, as implied by 'as a form of poetry' in the definition."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "linguistic_stylistics.n.01",
+        "value_type": "alliteration.n.01",
+        "reasoning": "The verb specifically describes the application of the literary device 'alliteration' as an inherent characteristic or manner of the composition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of alliterating is a directly observable or cognitively experienced action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Composing poetry and using a specific technique like alliteration is an intentional act driven by the agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of using alliteration is a neutral linguistic technique; its sentiment depends on context or the content of the poetry."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody alliterate' clearly indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action or state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb typically describes a single act of composition (e.g., alliterating a phrase or a poem), even if the stylistic effect itself involves repetition of sounds. It is not an inherently continuous, repetitive physical action like 'running'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "alliterate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "linguistic_stylistics.n.01",
+        "reasoning": "verb_property 'linguistic_stylistics.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "linguistic_stylistics.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: perfect semantic and contextual fit for linguistic_stylistics.n.01 (Original suggestion 'stylistics.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

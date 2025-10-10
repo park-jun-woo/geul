@@ -1,0 +1,139 @@
+{
+  "original": {
+    "synset_id": "fish.v.02",
+    "definition": "catch or try to catch fish or shellfish",
+    "frame_id": 1,
+    "frame_text": "Somebody fish PP",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "hunting.n.01",
+        "reasoning": "The verb 'fish' describes the sustained activity of seeking and attempting to capture aquatic animals, encompassing both the act of catching and the effort to do so.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' performing the activity of fishing, as specified by the verb frame.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is the target of the fishing activity, which the definition clarifies as fish or shellfish.",
+            "value_type": "aquatic_animal.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The activity of fishing is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or activity."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the agent's strong will and intention to perform the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of fishing itself is neutral; its sentiment depends on context or outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite activity that is being undertaken."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Fishing is an activity that typically involves continuous or highly repetitive actions (e.g., casting, waiting, reeling, repeated attempts)."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fish.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "aquatic_animal.n.01",
+        "reasoning": "value_type 'aquatic_animal.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "aquaculture.n.01",
+            "description": "rearing aquatic animals or cultivating aquatic plants for food (gloss match)"
+          },
+          {
+            "synset_id": "hen.n.04",
+            "description": "female of certain aquatic animals e.g. octopus or lobster (gloss match)"
+          },
+          {
+            "synset_id": "siphon.n.02",
+            "description": "a tubular organ in an aquatic animal (especially in mollusks) through which water can be taken in or expelled (gloss match)"
+          },
+          {
+            "synset_id": "bryozoan.n.01",
+            "description": "sessile aquatic animal forming mossy colonies of small polyps each having a curved or circular ridge bearing tentacles; attach to stones or seaweed and reproduce by budding (gloss match)"
+          },
+          {
+            "synset_id": "ectoproct.n.01",
+            "description": "sessile mossy aquatic animal having the anus of the polyp outside the crown of tentacles (gloss match)"
+          },
+          {
+            "synset_id": "entoproct.n.01",
+            "description": "any of various moss-like aquatic animals usually forming branching colonies; each polyp having a both mouth and anus within a closed ring of tentacles (gloss match)"
+          },
+          {
+            "synset_id": "river_otter.n.01",
+            "description": "sociable aquatic animal widely distributed along streams and lake borders in North America (gloss match)"
+          },
+          {
+            "synset_id": "flipper.n.02",
+            "description": "the flat broad limb of aquatic animals specialized for swimming (gloss match)"
+          },
+          {
+            "synset_id": "fin.n.06",
+            "description": "organ of locomotion and balance in fishes and some other aquatic animals (gloss match)"
+          },
+          {
+            "synset_id": "gill.n.04",
+            "description": "respiratory organ of aquatic animals that breathe oxygen dissolved in water (gloss match)"
+          },
+          {
+            "synset_id": "loch_ness_monster.n.01",
+            "description": "a large aquatic animal supposed to resemble a serpent or plesiosaur of Loch Ness in Scotland (gloss match)"
+          },
+          {
+            "synset_id": "bladderwort.n.01",
+            "description": "any of numerous aquatic carnivorous plants of the genus Utricularia some of whose leaves are modified as small urn-shaped bladders that trap minute aquatic animals (gloss match)"
+          },
+          {
+            "synset_id": "chytridiales.n.01",
+            "description": "simple aquatic fungi mostly saprophytic but some parasitic on higher plants or animals or fresh water fungi; sometimes placed in class Oomycetes (gloss match)"
+          },
+          {
+            "synset_id": "saprolegnia.n.01",
+            "description": "aquatic fungi growing chiefly on plant debris and animal remains (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fish.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic replacement for 'aquatic_animal.n.01' found in candidates or internal knowledge that meets >99% confidence threshold."
+      }
+    ]
+  }
+}

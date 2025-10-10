@@ -1,0 +1,136 @@
+{
+  "original": {
+    "synset_id": "scend.v.01",
+    "definition": "rise or heave upward under the influence of a natural force such as a wave",
+    "frame_id": 2,
+    "frame_text": "Something scend",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb describes a change in vertical position, specifically an upward movement.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the upward movement, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "cause.n.02",
+            "value_type": "natural_force.n.01",
+            "reasoning": "The definition explicitly states the action occurs 'under the influence of a natural force', making the natural force the direct cause of the movement."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "direction.n.02",
+        "value_type": "upward.r.01",
+        "reasoning": "The definition explicitly states 'rise or heave upward', indicating the direction of motion as a core semantic component."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of rising or heaving is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something scend' and the influence of a 'natural force' mean the action is not driven by the will of an agent."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rising is semantically neutral; context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something scend' and the mention of a 'natural force' indicate the action is non-volitional, happening to the subject without its intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a definite occurrence of rising or heaving."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of rising or heaving. Repetition (as in waves) is a potential contextual application, but not inherent to the verb's core meaning of a single upward movement."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "scend.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "natural_force.n.01",
+        "reasoning": "value_type 'natural_force.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "torture.n.05",
+            "description": "the deliberate, systematic, or wanton infliction of physical or mental suffering by one or more persons in an attempt to force another person to yield information or to make a confession or for any other reason (gloss match)"
+          },
+          {
+            "synset_id": "supernaturalism.n.02",
+            "description": "the quality of being attributed to power that seems to violate or go beyond natural forces (gloss match)"
+          },
+          {
+            "synset_id": "nature_worship.n.01",
+            "description": "a system of religion that deifies and worships natural forces and phenomena (gloss match)"
+          },
+          {
+            "synset_id": "evocation.n.02",
+            "description": "calling up supposed supernatural forces by spells and incantations (gloss match)"
+          },
+          {
+            "synset_id": "sorcery.n.01",
+            "description": "the belief in magical spells that harness occult forces or evil spirits to produce unnatural effects in the world (gloss match)"
+          },
+          {
+            "synset_id": "united_states_border_patrol.n.01",
+            "description": "the mobile law enforcement arm of the Immigration and Naturalization Service that detects and prevents illegal entry of aliens into the United States (gloss match)"
+          },
+          {
+            "synset_id": "supernatural.n.01",
+            "description": "supernatural forces and events and beings collectively (gloss match)"
+          },
+          {
+            "synset_id": "deity.n.01",
+            "description": "any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force (gloss match)"
+          },
+          {
+            "synset_id": "zombi.n.03",
+            "description": "a dead body that has been brought back to life by a supernatural force (gloss match)"
+          },
+          {
+            "synset_id": "zombi.n.01",
+            "description": "(voodooism) a spirit or supernatural force that reanimates a dead body (gloss match)"
+          },
+          {
+            "synset_id": "natural_process.n.01",
+            "description": "a process existing in or produced by nature (rather than by the intent of human beings) (gloss match)"
+          },
+          {
+            "synset_id": "natural_shape.n.01",
+            "description": "a shape created by natural forces; not man-made (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "scend.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found in candidates or LLM internal knowledge for 'natural_force.n.01'."
+      }
+    ]
+  }
+}

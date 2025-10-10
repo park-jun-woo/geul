@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "deflate.v.02",
+    "definition": "release contained air or gas from",
+    "frame_id": 0,
+    "frame_text": "Somebody deflate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "air_content.n.01",
+        "reasoning": "The verb 'deflate' describes a change in the state of an object from containing air/gas to not containing it, or having a reduced amount.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the entity that intentionally causes the release of air/gas."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the verb frame is the object that undergoes the change by having its contained air or gas released."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of deflating is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of deflating is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of deflating is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, completed event of releasing air/gas from an object."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "deflate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "air_content.n.01",
+        "reasoning": "verb_property 'air_content.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "endotracheal_tube.n.01",
+            "description": "a catheter that is inserted into the trachea through the mouth or nose in order to maintain an open air passage or to deliver oxygen or to permit the suctioning of mucus or to prevent aspiration of the stomach contents (gloss match)"
+          },
+          {
+            "synset_id": "assay.n.01",
+            "description": "an appraisal of the state of affairs (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "deflate.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "pressure.n.01",
+        "corrected_reasoning": "LLM suggestion. 'pressure.n.01' is a perfect semantic and contextual replacement, as deflating an object directly affects its internal pressure, which is a property closely tied to its air/gas content."
+      }
+    ],
+    "participants": []
+  }
+}

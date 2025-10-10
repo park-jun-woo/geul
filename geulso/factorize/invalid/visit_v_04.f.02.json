@@ -1,0 +1,106 @@
+{
+  "original": {
+    "synset_id": "visit.v.04",
+    "definition": "come to see in an official or professional capacity",
+    "frame_id": 2,
+    "frame_text": "Something inspect something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "location.n.01",
+        "reasoning": "The definition 'come to see' inherently involves a change of the agent's location to the place or object being visited.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of visiting and inspecting. This entity, even if non-human (e.g., a committee, an agency), is treated as an agent given the volitional nature of the action."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "reasoning": "The 'something' that is visited, which serves as the location or object of the visit."
+          }
+        ]
+      },
+      {
+        "verb_type": "event",
+        "verb_property": "perception.n.01",
+        "reasoning": "Part of the definition 'come to see' involves the act of perceiving by sight.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Something' (agent) that experiences the perception."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being seen or perceived."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "inspection.n.01",
+        "reasoning": "The phrase 'in an official or professional capacity' and the explicit mention of 'inspect' in the verb frame indicate that the core purpose of this visit is to carry out a detailed examination or inspection."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of visiting and inspecting is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The action of visiting in an official capacity for inspection implies a strong will and intention from the agent ('Something')."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of visiting for inspection is neutral in itself; its outcome may be positive or negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The definition 'come to see in an official or professional capacity' describes a deliberate and intentional action, even if the 'Something' is an organization or entity."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of such a visit, unless explicitly modified for repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "visit.v.04",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "visit.v.04",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'experiencer.n.01' is a valid NLTK WordNet synset and is a perfect semantic and contextual fit for the concept of an 'experiencer'. (Original suggestion 'experiencer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "original": {
+    "synset_id": "strum.v.01",
+    "definition": "sound the strings of (a string instrument)",
+    "frame_id": 0,
+    "frame_text": "Somebody strum something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sound.n.01",
+        "reasoning": "The verb 'strum' describes an action that causes the strings of an instrument to produce sound, indicating a change from a silent to an audible state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the volitional action of strumming."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "string_instrument.n.01",
+            "reasoning": "The 'something' whose strings are caused to sound, referring to a string instrument as per the definition."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "sweeping_motion.n.01",
+        "reasoning": "The act of strumming inherently involves a characteristic sweeping or brushing motion across the strings, distinguishing it from other ways of sounding them."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Strumming is a directly observable action, resulting in an audible outcome."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of strumming is generally neutral; its sentiment depends on the context or the resulting music."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of strumming is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The base verb 'strum' in this frame refers to a single instance of performing the action that causes the strings to sound, rather than continuous or repetitive strumming, though it can be part of a larger repetitive activity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "strum.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "string_instrument.n.01",
+        "reasoning": "value_type 'string_instrument.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "bowing.n.02",
+            "description": "managing the bow in playing a stringed instrument (gloss match)"
+          },
+          {
+            "synset_id": "stopping.n.02",
+            "description": "the kind of playing that involves pressing the fingers on the strings of a stringed instrument to control the pitch (gloss match)"
+          },
+          {
+            "synset_id": "bow.n.09",
+            "description": "a stroke with a curved piece of wood with taut horsehair strands that is used in playing stringed instruments (gloss match)"
+          },
+          {
+            "synset_id": "balalaika.n.01",
+            "description": "a stringed instrument that has a triangular body and three strings (gloss match)"
+          },
+          {
+            "synset_id": "banjo.n.01",
+            "description": "a stringed instrument of the guitar family that has long neck and circular body (gloss match)"
+          },
+          {
+            "synset_id": "bow.n.02",
+            "description": "a slightly curved piece of resilient wood with taut horsehair strands; used in playing certain stringed instruments (gloss match)"
+          },
+          {
+            "synset_id": "bowed_stringed_instrument.n.01",
+            "description": "stringed instruments that are played with a bow (gloss match)"
+          },
+          {
+            "synset_id": "cello.n.01",
+            "description": "a large stringed instrument; seated player holds it upright while playing (gloss match)"
+          },
+          {
+            "synset_id": "chordophone.n.01",
+            "description": "a stringed instrument of the group including harps, lutes, lyres, and zithers (gloss match)"
+          },
+          {
+            "synset_id": "cittern.n.01",
+            "description": "a 16th century musical instrument resembling a guitar with a pear-shaped soundbox and wire strings (gloss match)"
+          },
+          {
+            "synset_id": "clavichord.n.01",
+            "description": "an early stringed instrument like a piano but with more delicate sound (gloss match)"
+          },
+          {
+            "synset_id": "clavier.n.02",
+            "description": "a stringed instrument that has a keyboard (gloss match)"
+          },
+          {
+            "synset_id": "dulcimer.n.01",
+            "description": "a stringed instrument used in American folk music; an elliptical body and a fretted fingerboard and three strings (gloss match)"
+          },
+          {
+            "synset_id": "fingerboard.n.03",
+            "description": "a narrow strip of wood on the neck of some stringed instruments (violin or cello or guitar etc) where the strings are held against the wood with the fingers (gloss match)"
+          },
+          {
+            "synset_id": "fret.n.04",
+            "description": "a small bar of metal across the fingerboard of a musical instrument; when the string is stopped by a finger at the metal bar it will produce a note of the desired pitch (gloss match)"
+          },
+          {
+            "synset_id": "guitar.n.01",
+            "description": "a stringed instrument usually having six strings; played by strumming or plucking (gloss match)"
+          },
+          {
+            "synset_id": "koto.n.01",
+            "description": "Japanese stringed instrument that resembles a zither; has a rectangular wooden sounding board and usually 13 silk strings that are plucked with the fingers (gloss match)"
+          },
+          {
+            "synset_id": "mandolin.n.01",
+            "description": "a stringed instrument related to the lute, usually played with a plectrum (gloss match)"
+          },
+          {
+            "synset_id": "peg.n.05",
+            "description": "regulator that can be turned to regulate the pitch of the strings of a stringed instrument (gloss match)"
+          },
+          {
+            "synset_id": "piano.n.01",
+            "description": "a keyboard instrument that is played by depressing keys that cause hammers to strike tuned strings and produce sounds (gloss match)"
+          },
+          {
+            "synset_id": "pick.n.05",
+            "description": "a small thin device (of metal or plastic or ivory) used to pluck a stringed instrument (gloss match)"
+          },
+          {
+            "synset_id": "psaltery.n.01",
+            "description": "an ancient stringed instrument similar to the lyre or zither but having a trapezoidal sounding board under the strings (gloss match)"
+          },
+          {
+            "synset_id": "samisen.n.01",
+            "description": "a Japanese stringed instrument resembling a banjo with a long neck and three strings and a fretted fingerboard and a rectangular soundbox; played with a plectrum (gloss match)"
+          },
+          {
+            "synset_id": "sitar.n.01",
+            "description": "a stringed instrument of India; has a long neck and movable frets; has 6 or 7 metal strings for playing and usually 13 resonating strings (gloss match)"
+          },
+          {
+            "synset_id": "stringed_instrument.n.01",
+            "description": "a musical instrument in which taut strings provide the source of sound (gloss match)"
+          },
+          {
+            "synset_id": "viol.n.01",
+            "description": "any of a family of bowed stringed instruments that preceded the violin family (gloss match)"
+          },
+          {
+            "synset_id": "viola.n.03",
+            "description": "a bowed stringed instrument slightly larger than a violin, tuned a fifth lower (gloss match)"
+          },
+          {
+            "synset_id": "violin.n.01",
+            "description": "bowed stringed instrument that is the highest member of the violin family; this instrument has four strings and a hollow body and an unfretted fingerboard and is played with a bow (gloss match)"
+          },
+          {
+            "synset_id": "zither.n.01",
+            "description": "a musical stringed instrument with strings stretched over a flat sounding board; it is laid flat and played with a plectrum and with fingers (gloss match)"
+          },
+          {
+            "synset_id": "country_music.n.01",
+            "description": "a simple style of folk music heard mostly in the southern United States; usually played on stringed instruments (gloss match)"
+          },
+          {
+            "synset_id": "violin_family.n.01",
+            "description": "(music) the family of bowed stringed instruments (gloss match)"
+          },
+          {
+            "synset_id": "string_section.n.01",
+            "description": "the section of an orchestra that plays stringed instruments (gloss match)"
+          },
+          {
+            "synset_id": "orchestra.n.01",
+            "description": "a musical organization consisting of a group of instrumentalists including string players (gloss match)"
+          },
+          {
+            "synset_id": "string_orchestra.n.01",
+            "description": "an orchestra playing only stringed instruments (gloss match)"
+          },
+          {
+            "synset_id": "band.n.02",
+            "description": "instrumentalists not including string players (gloss match)"
+          },
+          {
+            "synset_id": "luthier.n.01",
+            "description": "a craftsman who makes stringed instruments (as lutes or guitars or violins) (gloss match)"
+          },
+          {
+            "synset_id": "colophony.n.01",
+            "description": "translucent brittle substance produced from pine oleoresin; used especially in varnishes and inks and on the bows of stringed instruments (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "strum.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "stringed_instrument.n.01",
+        "corrected_reasoning": "Corrected invalid 'string_instrument.n.01' to valid 'stringed_instrument.n.01' from candidates list, which is a perfect semantic and contextual match for an instrument that is strummed."
+      }
+    ]
+  }
+}

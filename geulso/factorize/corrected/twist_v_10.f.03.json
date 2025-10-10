@@ -1,0 +1,65 @@
+{
+  "synset_id": "twist.v.10",
+  "definition": "twist suddenly so as to sprain",
+  "frame_id": 3,
+  "frame_text": "Somebody twist something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.02",
+      "reasoning": "The verb describes causing an injury (sprain), which is a change in the physical health state of a body part, moving from a healthy to an injured state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the twisting action that leads to injury, serving as the subject of the verb."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (typically a body part) that undergoes the sprain, being the direct object of the verb."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "twist.n.01",
+      "reasoning": "The verb inherently specifies a 'twisting' motion as the specific manner in which the action (causing the sprain) occurs."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "suddenly.r.01",
+      "reasoning": "The definition explicitly states that the twisting action happens 'suddenly'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of twisting and resulting sprain is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies the agent's will in performing the primary twisting action, even if the resulting sprain is an unintended consequence."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Causing an injury, such as a sprain, is inherently a negative event."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') who performs the action of twisting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence when it happens."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of twisting that results in a sprain."
+    }
+  }
+}

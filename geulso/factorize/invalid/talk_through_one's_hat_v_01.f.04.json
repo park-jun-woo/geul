@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "talk_through_one's_hat.v.01",
+    "definition": "speak insincerely or without regard for facts or truths",
+    "frame_id": 4,
+    "frame_text": "Somebody fake",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "verbal_communication.n.01",
+        "reasoning": "The core of the idiom 'talk through one's hat' involves the act of speaking.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the act of speaking."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "truthfulness.n.01",
+        "value_type": "false.a.01",
+        "reasoning": "The definition 'speak insincerely or without regard for facts or truths' explicitly denotes a lack of truth. The hypernym 'feign' (make believe with intent to deceive) further supports the notion of intentional falsehood. The 'fake' in the frame also reinforces this aspect."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of speaking is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to speak in an insincere manner."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Speaking 'insincerely or without regard for facts or truths' carries an inherently negative connotation due to dishonesty or foolishness."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody fake' explicitly includes a volitional agent ('Somebody') performing the action of speaking insincerely."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of speaking in a certain way."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Speaking insincerely or without facts is often a continuous or repeated behavior, not a single, discrete event, implying high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "talk_through_one's_hat.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "verbal_communication.n.01",
+        "reasoning": "verb_property 'verbal_communication.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "eye_contact.n.01",
+            "description": "a meeting of the eyes between two people that expresses meaningful nonverbal communication (gloss match)"
+          },
+          {
+            "synset_id": "dance.n.01",
+            "description": "an artistic form of nonverbal communication (gloss match)"
+          },
+          {
+            "synset_id": "expression.n.03",
+            "description": "the communication (in speech or writing) of your beliefs or opinions (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "talk_through_one's_hat.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "expression.n.03",
+        "corrected_reasoning": "Selected from candidates list based on semantic and contextual fit."
+      }
+    ],
+    "participants": []
+  }
+}

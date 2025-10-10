@@ -1,0 +1,156 @@
+{
+  "original": {
+    "synset_id": "unplug.v.01",
+    "definition": "pull the plug of (electrical appliances) and render inoperable",
+    "frame_id": 2,
+    "frame_text": "Somebody unplug something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "connection.n.01",
+        "reasoning": "The verb describes the action of severing an electrical connection by pulling a plug, resulting in a change from a connected to a disconnected state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of unplugging."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "electrical_appliance.n.01",
+            "reasoning": "The 'something' (electrical appliance) whose plug is pulled and which becomes inoperable as a result."
+          }
+        ]
+      },
+      {
+        "verb_type": "effect",
+        "verb_property": "operability.n.01",
+        "reasoning": "A direct consequence of unplugging is rendering the appliance inoperable, indicating an effect on its operational state.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "electrical_appliance.n.01",
+            "reasoning": "The 'something' (electrical appliance) that is rendered inoperable by the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Unplugging is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of unplugging is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody unplug something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of unplugging is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of disconnecting an appliance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "unplug.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "operability.n.01",
+        "reasoning": "verb_property 'operability.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "unplug.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "electrical_appliance.n.01",
+        "reasoning": "value_type 'electrical_appliance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "power_cord.n.01",
+            "description": "a cord to conduct power to an electrical appliance (gloss match)"
+          },
+          {
+            "synset_id": "vacuum.n.04",
+            "description": "an electrical home appliance that cleans by suction (gloss match)"
+          },
+          {
+            "synset_id": "white_goods.n.01",
+            "description": "large electrical home appliances (refrigerators or washing machines etc.) that are typically finished in white enamel (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "unplug.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "electrical_appliance.n.01",
+        "reasoning": "value_type 'electrical_appliance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "power_cord.n.01",
+            "description": "a cord to conduct power to an electrical appliance (gloss match)"
+          },
+          {
+            "synset_id": "vacuum.n.04",
+            "description": "an electrical home appliance that cleans by suction (gloss match)"
+          },
+          {
+            "synset_id": "white_goods.n.01",
+            "description": "large electrical home appliances (refrigerators or washing machines etc.) that are typically finished in white enamel (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "unplug.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "functionality.n.01",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for 'operability' (the state of being able to function)."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "unplug.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for 'electrical appliance' (a device powered by electricity). (Original suggestion 'electric_device.n.01' was invalid in NLTK)"
+      },
+      {
+        "synset_id": "unplug.v.01",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for 'electrical appliance' (a device powered by electricity). (Original suggestion 'electric_device.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

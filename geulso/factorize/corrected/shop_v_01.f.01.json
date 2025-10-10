@@ -1,0 +1,58 @@
+{
+  "synset_id": "shop.v.01",
+  "definition": "do one's shopping",
+  "frame_id": 1,
+  "frame_text": "Somebody shop PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'do one's shopping' implies an activity that results in gaining possession of goods, representing a change in possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the shopping activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "merchandise.n.01",
+          "reasoning": "The inherent object of the verb 'shop' is the goods or items that are acquired, even if not explicitly stated in the general 'PP' of the frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the frame 'Somebody shop PP' most commonly specifies the location where the shopping activity takes place (e.g., 'shop at the market')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Shopping is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shopping is neutral; its sentiment depends on the context or the items purchased."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shopping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The activity of 'shopping' (as in 'do one's shopping') typically involves a series of repetitive sub-actions like browsing, selecting, and purchasing multiple items, indicating high iterativity."
+    }
+  }
+}

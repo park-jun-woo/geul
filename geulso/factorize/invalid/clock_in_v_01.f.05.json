@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "clock_in.v.01",
+    "definition": "register one's arrival at work",
+    "frame_id": 5,
+    "frame_text": "Somebody punch_in PP",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "information.n.01",
+        "reasoning": "The verb describes the action of making a formal record or logging information, aligning with the definition 'register one's arrival' and the hypernym 'record'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of registering their arrival.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The information regarding the agent's arrival and presence at work that is being recorded.",
+            "value_type": "presence.n.01"
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'PP' in the frame refers to the location where the registration occurs, typically the workplace as implied by 'at work'.",
+            "value_type": "workplace.n.01"
+          },
+          {
+            "semantic_role": "time.n.01",
+            "reasoning": "The verb 'clock in' inherently refers to registering a specific point in time (arrival).",
+            "value_type": "moment_of_time.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Registering arrival is a direct action performed and typically verified by the agent or system."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of clocking in is neutral; its sentiment depends on context (e.g., whether one wants to be at work)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of clocking in."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of clocking in is described as a definite occurrence or instruction."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of registering one's arrival, although the event itself may happen repeatedly over time (e.g., daily)."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "clock_in.v.01",
+        "frame_id": 5,
+        "key": "value_type",
+        "value": "moment_of_time.n.01",
+        "reasoning": "value_type 'moment_of_time.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "bobble.n.01",
+            "description": "the momentary juggling of a batted or thrown baseball (gloss match)"
+          },
+          {
+            "synset_id": "present.n.01",
+            "description": "the period of time that is happening now; any continuous stretch of time including the moment of speech (gloss match)"
+          },
+          {
+            "synset_id": "here_and_now.n.01",
+            "description": "at this time (gloss match)"
+          },
+          {
+            "synset_id": "time_scale.n.01",
+            "description": "an arrangement of events used as a measure of duration (gloss match)"
+          },
+          {
+            "synset_id": "pinpoint.n.01",
+            "description": "a very brief moment (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "moment_of_time.n.01",
+        "frame_id": 5,
+        "key": "value_type",
+        "corrected_value": "pinpoint.n.01",
+        "corrected_reasoning": "Selected 'pinpoint.n.01' as it perfectly captures the meaning of 'a very brief moment', aligning with the intended concept of 'moment of time'."
+      }
+    ]
+  }
+}

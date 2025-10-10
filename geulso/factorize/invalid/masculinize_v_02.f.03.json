@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "masculinize.v.02",
+    "definition": "produce virilism in or cause to assume masculine characteristics, as through a hormonal imbalance or hormone therapy",
+    "frame_id": 3,
+    "frame_text": "Somebody virilize somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "biological_state.n.01",
+        "reasoning": "The verb describes causing a change in the biological state or characteristics of an individual, as indicated by 'produce virilism in or cause to assume masculine characteristics'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the verb frame is the entity that causes the change in the patient."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "masculine_trait.n.01",
+            "reasoning": "The second 'somebody' in the verb frame is the entity whose biological state changes, specifically acquiring masculine traits or virilism."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process and outcome of masculinizing are generally observable or medically verifiable, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with a strong will or intention to cause the masculinization, especially in the context of therapy."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of causing masculine characteristics is inherently neutral; its positive or negative valence depends on the context and the recipient's desire."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly features a volitional agent performing the action, suggesting intentionality."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that results in a change of state, implying certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, possibly prolonged, event leading to a specific biological change, rather than a continuous, highly repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "masculinize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "biological_state.n.01",
+        "reasoning": "verb_property 'biological_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "ochoa.n.01",
+            "description": "United States biochemist (born in Spain) who studied the biological synthesis of nucleic acids (1905-1993) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "masculinize.v.02",
+        "frame_id": 3,
+        "key": "value_type",
+        "value": "masculine_trait.n.01",
+        "reasoning": "value_type 'masculine_trait.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "masculinize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "state.n.01",
+        "corrected_reasoning": "LLM suggestion, state.n.01 is a general synset for a condition or manner of being, which is a perfect fit for the intended meaning of 'biological state'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "masculinize.v.02",
+        "frame_id": 3,
+        "key": "value_type",
+        "corrected_value": "trait.n.01",
+        "corrected_reasoning": "LLM suggestion, trait.n.01 is a general synset for a distinguishing quality, which is a perfect fit for the intended meaning of 'masculine trait'."
+      }
+    ]
+  }
+}

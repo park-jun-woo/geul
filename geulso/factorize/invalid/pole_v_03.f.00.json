@@ -1,0 +1,164 @@
+{
+  "original": {
+    "synset_id": "pole.v.03",
+    "definition": "deoxidize molten metals by stirring them with a wooden pole",
+    "frame_id": 0,
+    "frame_text": "Somebody pole something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The verb's primary action, 'deoxidize', describes a change in the chemical state (specifically, oxidation level) of the molten metals.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the agent who performs the action of deoxidizing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "molten_metal.n.01",
+            "reasoning": "The 'something' in the frame refers to the 'molten metals' that undergo the change of deoxidization."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "instrument.n.01",
+        "value_type": "wooden_pole.n.01",
+        "reasoning": "The definition specifies the 'means' by which the deoxidization occurs: 'by stirring them with a wooden pole'. The verb 'pole' itself implies the use of a pole as an instrument."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "stirring.n.01",
+        "reasoning": "The definition includes 'stirring' as the specific manner or action performed with the pole to achieve deoxidization."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of deoxidizing molten metals is a physical operation that can be directly observed or measured."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a factual action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of deoxidizing molten metals is a technical process, inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action being performed."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition explicitly states 'stirring them with a wooden pole', which implies a continuous, highly repetitive set of motions to achieve the deoxidization, thus indicating high iterativity for the act of 'poling'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "pole.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "pole.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "molten_metal.n.01",
+        "reasoning": "value_type 'molten_metal.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "magnetohydrodynamics.n.01",
+            "description": "the study of the interaction of magnetic fields and electrically conducting fluids (as plasma or molten metal) (gloss match)"
+          },
+          {
+            "synset_id": "caster.n.01",
+            "description": "a worker who casts molten metal into finished products (gloss match)"
+          },
+          {
+            "synset_id": "alloy.n.01",
+            "description": "a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten (gloss match)"
+          },
+          {
+            "synset_id": "flux.n.03",
+            "description": "a substance added to molten metals to bond with impurities that can then be readily removed (gloss match)"
+          },
+          {
+            "synset_id": "slag.n.01",
+            "description": "the scum formed by oxidation at the surface of molten metals (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "pole.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Candidate 'chemistry.n.02' with gloss 'the chemical composition and properties of a substance or object' is a perfect semantic and contextual replacement for 'chemical_composition.n.01'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "pole.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "metal.n.01",
+        "corrected_reasoning": "LLM suggestion. No candidate provided a direct semantic replacement for 'molten_metal.n.01'. 'metal.n.01' is the base substance and encompasses the concept of metal in a molten state."
+      }
+    ]
+  }
+}

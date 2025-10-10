@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "financier.v.01",
+    "definition": "conduct financial operations, often in an unethical manner",
+    "frame_id": 0,
+    "frame_text": "Somebody financier",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "finance.n.01",
+        "reasoning": "The verb describes the action of conducting operations, specifically within the domain of finance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the financial operations."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "moral_quality.n.01",
+        "value_type": "unethical.a.01",
+        "reasoning": "The definition explicitly includes 'often in an unethical manner,' making this an inherent semantic component of the verb's meaning in this context."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of conducting financial operations is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly states 'often in an unethical manner,' which gives the verb a negative inherent sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' indicates that the action is performed intentionally by a volitional agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action or occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "To 'conduct financial operations' implies a series of actions or a continuous activity rather than a single, discrete event, hence high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "financier.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "moral_quality.n.01",
+        "reasoning": "verb_property 'moral_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "solidity.n.03",
+            "description": "the quality of being solid and reliable financially or factually or morally (gloss match)"
+          },
+          {
+            "synset_id": "immorality.n.01",
+            "description": "the quality of not being in accord with standards of right or good conduct (gloss match)"
+          },
+          {
+            "synset_id": "evil.n.03",
+            "description": "the quality of being morally wrong in principle or practice (gloss match)"
+          },
+          {
+            "synset_id": "amorality.n.01",
+            "description": "the quality of being amoral (gloss match)"
+          },
+          {
+            "synset_id": "decency.n.01",
+            "description": "the quality of conforming to standards of propriety and morality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "financier.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "morality.n.01",
+        "corrected_reasoning": "LLM suggestion: 'morality.n.01' is a perfect semantic fit for the concept of 'moral quality', representing the quality of being moral or relating to moral principles, which was not perfectly captured by any of the provided candidates."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "misgive.v.01",
+    "definition": "suggest fear or doubt",
+    "frame_id": 0,
+    "frame_text": "Something misgive somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "reasoning": "The verb describes a process of causing a change in somebody's mental or emotional state, specifically inducing fear or doubt, which are emotional states.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes or produces the state of fear or doubt in another person, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes or experiences the emotional state of fear or doubt, as specified by the verb frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes a direct causal effect, which can be directly experienced by the subject or inferred by an observer based on direct evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or its effect."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame is typically inanimate or abstract, lacking the capacity for will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly mentions 'fear' and 'doubt', which are inherently negative emotional or cognitive states."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something misgive somebody' indicates a non-volitional agent ('Something') causing the effect, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of suggesting fear or doubt."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of causing fear or doubt."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "misgive.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "misgive.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found in candidates or internal knowledge, given the original value 'experiencer.n.01' is stated as invalid."
+      }
+    ]
+  }
+}

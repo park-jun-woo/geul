@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "starve.v.02",
+    "definition": "die of food deprivation",
+    "frame_id": 0,
+    "frame_text": "Somebody famish",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "life.n.01",
+        "reasoning": "The definition 'die of food deprivation' describes a transition from a state of being alive to being dead, which is a fundamental change of existence.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change of state from living to non-living."
+          },
+          {
+            "semantic_role": "cause.n.01",
+            "value_type": "food_deprivation.n.01",
+            "reasoning": "The explicit cause of the change (dying) is stated as 'food deprivation' in the definition, making it an integral semantic component of this verb sense."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of dying is generally a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something starve' indicates that the 'Something' is not an agent acting with will, thus modality is neutral (no will)."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of dying is inherently associated with a negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something starve' implies an inanimate or non-agentive subject ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a definite outcome ('die'), implying certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Dying is a single, terminal event, not an action that is typically repeated in this sense."
+      },
+      "Aspect": {
+        "value": 4,
+        "reasoning": "The definition 'die of food deprivation' emphasizes the culmination or result of the process (death), indicating a result-focused aspect."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "starve.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "food_deprivation.n.01",
+        "reasoning": "value_type 'food_deprivation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "privation.n.02",
+            "description": "act of depriving someone of food or money or rights (gloss match)"
+          },
+          {
+            "synset_id": "hunger.n.01",
+            "description": "a physiological need for food; the consequence of food deprivation (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "starve.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "privation.n.02",
+        "corrected_reasoning": "Candidate 'privation.n.02' perfectly matches the concept of 'food deprivation' as the act or state of lacking food, based on its gloss 'act of depriving someone of food or money or rights'."
+      }
+    ]
+  }
+}

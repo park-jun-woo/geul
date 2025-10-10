@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "stimulate.v.06",
+    "definition": "stir feelings in",
+    "frame_id": 7,
+    "frame_text": "Something stimulate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The definition 'stir feelings in' indicates a transition or activation of an emotional state within an individual, which is a change in their internal state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that causes the feelings to be stirred."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' in whom the feelings are stirred; this participant experiences the emotional change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effect of stimulating feelings is typically observed or inferred from direct experience, rather than being based on hearsay or pure speculation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' indicates a non-volitional entity, therefore there is no 'will' involved from the subject in causing the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Stirring feelings can be neutral, positive, or negative depending on the specific feelings stirred. The verb itself does not specify a sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something stimulate somebody' explicitly states that the subject ('Something') is non-agentive and non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement describes a definite occurrence or effect."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically refers to a single instance of causing feelings to arise, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "stimulate.v.06",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "stimulate.v.06",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. 'sentient_being.n.01' semantically aligns with the concept of an experiencer, denoting an entity capable of sensory perception and feeling. (Original suggestion 'sentient_being.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

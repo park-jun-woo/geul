@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "stimulate.v.03",
+    "definition": "stir the feelings, emotions, or peace of",
+    "frame_id": 2,
+    "frame_text": "Somebody shake somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "reasoning": "The definition 'stir the feelings, emotions, or peace of' indicates a change in the emotional state of an individual.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that causes the emotional change."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' in the verb frame is the individual whose feelings or emotions are stirred or affected."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The effect of stimulating emotions can be directly observed through reactions or inferred from context, defaulting to direct experience for the verb's core meaning."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of stimulation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the causal agent in this frame does not possess 'will' in the human sense, thus the action is not driven by an agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "To 'stimulate' feelings can have either positive or negative outcomes depending on the specific feeling being stirred, making the verb itself neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something stimulate somebody' indicates that the action is caused by a non-agentive subject ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of stirring emotions."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of stirring feelings or emotions, not a repeated action by default."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "stimulate.v.03",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "stimulate.v.03",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'person.n.01' is a valid hypernym of the concept 'experiencer' and a common general term for animate participants, suitable as a replacement for the invalid 'experiencer.n.01'."
+      }
+    ]
+  }
+}

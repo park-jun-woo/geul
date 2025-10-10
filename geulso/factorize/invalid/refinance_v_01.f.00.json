@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "refinance.v.01",
+    "definition": "renew the financing of",
+    "frame_id": 0,
+    "frame_text": "Somebody refinance something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "financial_arrangement.n.01",
+        "reasoning": "The verb 'refinance' describes the act of altering or renewing the terms of an existing financial arrangement or debt, indicating a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the action of refinancing, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "loan.n.01",
+            "reasoning": "The 'something' that is being refinanced, which is typically a loan or debt, and undergoes the change in its financial state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Refinancing is an observable and factual event, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of refinancing itself is neutral; its sentiment (positive or negative) depends on the specific financial outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody refinance something' explicitly indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of refinancing is described as a definite occurrence or intention."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, distinct event of renewing a financial arrangement."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "refinance.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "financial_arrangement.n.01",
+        "reasoning": "verb_property 'financial_arrangement.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "refinance.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "arrangement.n.02",
+        "corrected_reasoning": "LLM suggestion: 'arrangement.n.02' refers to a financial or industrial enterprise, which perfectly describes the nature of refinancing as a financial arrangement."
+      }
+    ],
+    "participants": []
+  }
+}

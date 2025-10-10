@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "prepossess.v.02",
+    "definition": "cause to be preoccupied",
+    "frame_id": 0,
+    "frame_text": "Something prepossess somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "preoccupation.n.01",
+        "reasoning": "The definition 'cause to be preoccupied' describes a transition into a state of preoccupation, which is a change in mental state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame that brings about the state of preoccupation in another entity. This entity is the cause."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change in mental state and becomes preoccupied."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of causing preoccupation is typically presented as a direct, factual event, even if the internal state is inferred."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' indicates that the cause of the preoccupation does not possess will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of causing preoccupation is inherently neutral; its positive or negative valence depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something ----s somebody' indicates a non-volitional agent ('Something') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing preoccupation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of causing someone to become preoccupied, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prepossess.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prepossess.v.02",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found in candidates or internal knowledge for the semantic role 'experiencer'."
+      }
+    ]
+  }
+}

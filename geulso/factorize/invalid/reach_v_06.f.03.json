@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "reach.v.06",
+    "definition": "to extend as far as",
+    "frame_id": 3,
+    "frame_text": "Something is touching PP",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "spatial_extent.n.01",
+        "reasoning": "The verb, as defined 'to extend as far as', describes the state of an object's spatial dimension or its boundary. The frame 'is touching PP' describes a specific manifestation of this spatial extent resulting in contact.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' whose spatial extent is being described and which is in a state of touching."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'PP' specifies the boundary or the point up to which the 'Something' extends, or with which it is in contact."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of an object extending to or touching a point is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning in this frame is declarative, stating a fact about a spatial relationship."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something is touching PP' describes a state involving an inanimate subject ('Something'), thus lacking an agent capable of will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of reaching or touching is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is touching PP' describes a non-volitional state where an inanimate object ('Something') is the subject."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement describes a definite, factual state of affairs."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state (indicated by 'is touching'), the concept of repetition is not applicable; it is treated as a single, ongoing instance."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The auxiliary 'is' followed by the present participle 'touching' indicates a progressive aspect, signifying a continuous or ongoing state."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "reach.v.06",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "spatial_extent.n.01",
+        "reasoning": "verb_property 'spatial_extent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "longness.n.01",
+            "description": "the property of being of long spatial extent (gloss match)"
+          },
+          {
+            "synset_id": "shortness.n.01",
+            "description": "the property of being of short spatial extent (gloss match)"
+          },
+          {
+            "synset_id": "line.n.11",
+            "description": "a spatial location defined by a real or imaginary unidimensional extent (gloss match)"
+          },
+          {
+            "synset_id": "continuum.n.01",
+            "description": "a continuous nonspatial whole or extent or succession in which no part or portion is distinct or distinguishable from adjacent parts (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "reach.v.06",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "size.n.01",
+        "corrected_reasoning": "LLM suggestion: 'size.n.01' perfectly captures the general physical magnitude or spatial extent implied by the original invalid synset."
+      }
+    ],
+    "participants": []
+  }
+}

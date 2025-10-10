@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "liquidate.v.04",
+    "definition": "settle the affairs of by determining the debts and applying the assets to pay them off",
+    "frame_id": 0,
+    "frame_text": "Somebody liquidate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "financial_settlement.n.01",
+        "reasoning": "The verb describes the process of settling financial affairs, which implies a change from an unsettled to a settled financial state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of liquidating."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., a company, an estate) whose affairs are being settled."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of liquidating involves concrete actions and documentation, making it directly observable or verifiable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentional action and strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of liquidation itself is neutral; its implications can be positive (resolving) or negative (bankruptcy) depending on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody liquidate something' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that occurs."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Liquidating the affairs of a single entity is typically considered a single, complex event, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "liquidate.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "financial_settlement.n.01",
+        "reasoning": "verb_property 'financial_settlement.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pocketbook_issue.n.01",
+            "description": "an issue whose settlement will affect financial resources (gloss match)"
+          },
+          {
+            "synset_id": "futures_contract.n.01",
+            "description": "an agreement to buy or sell a specific amount of a commodity or financial instrument at a particular price on a stipulated future date; the contract can be sold before the settlement date (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "liquidate.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'settlement.n.08' refers to 'a final payment of a bill or debt', which perfectly captures the meaning of 'financial settlement' as a verb property for 'liquidate.v.04'. (Original suggestion 'settlement.n.08' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

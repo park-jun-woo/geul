@@ -1,0 +1,159 @@
+{
+  "original": {
+    "synset_id": "harmonize.v.03",
+    "definition": "sing or play in harmony",
+    "frame_id": 3,
+    "frame_text": "Somebody harmonize PP",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "musical_performance.n.01",
+        "reasoning": "The definition 'sing or play' describes the core act of producing musical sound through performance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the musical action, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "musical_relation.n.01",
+        "value_type": "concord.n.01",
+        "reasoning": "The phrase 'in harmony' specifies a crucial characteristic or quality of the musical performance, indicating a concordant relationship between musical parts.",
+        "participants": [
+          {
+            "semantic_role": "co_participant.n.01",
+            "reasoning": "The prepositional phrase (PP) in this frame typically denotes the entity or other musical part with which the agent creates harmony, acting as a co-participant in the musical relationship."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of performing music is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The concept of 'harmony' in a musical context inherently carries a positive connotation, implying pleasant and aesthetically pleasing sound combinations."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, making the act of harmonizing an intentional one."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of harmonizing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Harmonizing involves continuous and often repetitive musical production over a duration, indicating a high degree of iterativity rather than a single, discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "harmonize.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "musical_relation.n.01",
+        "reasoning": "verb_property 'musical_relation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "intonation.n.04",
+            "description": "the production of musical tones (by voice or instrument); especially the exactitude of the pitch relations (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "harmonize.v.03",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "co_participant.n.01",
+        "reasoning": "semantic_role 'co_participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "guessing_game.n.01",
+            "description": "a game in which participants compete to identify some obscurely indicated thing (gloss match)"
+          },
+          {
+            "synset_id": "sweepstakes.n.01",
+            "description": "a lottery in which the prize consists of the money paid by the participants (gloss match)"
+          },
+          {
+            "synset_id": "honor_system.n.01",
+            "description": "a system of conduct in which participants are trusted not to take unfair advantage of others (gloss match)"
+          },
+          {
+            "synset_id": "pyramid_scheme.n.01",
+            "description": "a fraudulent scheme in which people are recruited to make payments to the person who recruited them while expecting to receive payments from the persons they recruit; when the number of new recruits fails to sustain the hierarchical payment structure the scheme collapses with most of the participants losing the money they put in (gloss match)"
+          },
+          {
+            "synset_id": "deixis.n.01",
+            "description": "the function of pointing or specifying from the perspective of a participant in an act of speech or writing; aspects of a communication whose interpretation depends on knowledge of the context in which the communication occurs (gloss match)"
+          },
+          {
+            "synset_id": "experimenter_bias.n.01",
+            "description": "(psychology) bias introduced by an experimenter whose expectations about the outcome of the experiment can be subtly communicated to the participants in the experiment (gloss match)"
+          },
+          {
+            "synset_id": "gag_order.n.01",
+            "description": "a court order restricting information or comment by the participants involved in a lawsuit (gloss match)"
+          },
+          {
+            "synset_id": "clearing_house.n.01",
+            "description": "a central collection place where banks exchange checks or drafts; participants maintain an account against which credits or debits are posted (gloss match)"
+          },
+          {
+            "synset_id": "symposium.n.01",
+            "description": "a meeting or conference for the public discussion of some topic especially one in which the participants form an audience and make presentations (gloss match)"
+          },
+          {
+            "synset_id": "player.n.05",
+            "description": "an important participant (as in a business deal) (gloss match)"
+          },
+          {
+            "synset_id": "active_birth.n.01",
+            "description": "childbirth during which the mother is encouraged to be an active participant (gloss match)"
+          },
+          {
+            "synset_id": "shakeout.n.01",
+            "description": "an economic condition that results in the elimination of marginally financed participants in an industry (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "harmonize.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "intonation.n.04",
+        "corrected_reasoning": "Candidate 'intonation.n.04' is a perfect semantic and contextual fit for 'musical_relation.n.01' in the context of 'harmonize.v.03'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "harmonize.v.03",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "collaborator.n.01",
+        "corrected_reasoning": "LLM suggestion: 'collaborator.n.01' is a perfect semantic and contextual fit for 'co_participant.n.01' in the context of 'harmonize.v.03', representing someone who works with another."
+      }
+    ]
+  }
+}

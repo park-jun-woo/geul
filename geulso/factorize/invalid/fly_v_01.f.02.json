@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "fly.v.01",
+    "definition": "travel through the air; be airborne",
+    "frame_id": 2,
+    "frame_text": "Somebody wing",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The definition 'travel through the air' describes a change in spatial position, and 'be airborne' implies a state of being in motion.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' is the entity that undergoes the change of motion. Given the non-volitional qualifiers, it is best described as a patient rather than a volitional agent."
+          },
+          {
+            "semantic_role": "spatial_location.n.01",
+            "reasoning": "The 'PP' in the frame denotes the spatial context (location, direction, or path) of the flying action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of flying is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something is flying' implies that the action is not driven by an agent's will, consistent with a non-volitional subject."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb frame 'Something is flying' explicitly uses the progressive aspect, indicating an ongoing action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of flying itself is semantically neutral; its emotional valence depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is flying' with a generic 'Something' implies a non-volitional subject (e.g., an object thrown, or a machine operating without human intervention for the specific 'fly' action), making the action inherently non-volitional in this general context."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement describes a definite, occurring event."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Flying, as a continuous motion through the air, involves highly repetitive or sustained component actions, akin to running."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fly.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "spatial_location.n.01",
+        "reasoning": "semantic_role 'spatial_location.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "deictic.n.01",
+            "description": "a word specifying identity or spatial or temporal location from the perspective of a speaker or hearer in the context in which the communication occurs; - R.Rommetveit (gloss match)"
+          },
+          {
+            "synset_id": "line.n.11",
+            "description": "a spatial location defined by a real or imaginary unidimensional extent (gloss match)"
+          },
+          {
+            "synset_id": "point.n.02",
+            "description": "the precise location of something; a spatially limited location (gloss match)"
+          },
+          {
+            "synset_id": "region.n.01",
+            "description": "the extended spatial location of something (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fly.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "region.n.01",
+        "corrected_reasoning": "Selected candidate 'region.n.01' as its definition 'the extended spatial location of something' is a perfect semantic match for the general concept of 'spatial_location'."
+      }
+    ]
+  }
+}

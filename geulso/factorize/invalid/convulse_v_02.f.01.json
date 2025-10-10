@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "convulse.v.02",
+    "definition": "be overcome with laughter",
+    "frame_id": 1,
+    "frame_text": "Somebody convulse PP",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb describes the dynamic, involuntary vigorous bodily movements that constitute the act of convulsing.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' in the frame who is the subject and undergoes these involuntary physical movements."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "cause.n.01",
+        "value_type": "laughter.n.01",
+        "reasoning": "The definition 'be overcome with laughter' explicitly identifies intense laughter as the inherent and direct cause for this specific type of convulsion."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of convulsing is a directly observable physical phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Being 'overcome' implies a lack of conscious control or will over the physical reaction, thus there is no agent's will involved in the convulsion itself."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The physical act of convulsing itself is neutral. The context (laughter) is typically positive, but the physical reaction isn't inherently so."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The definition 'be overcome' explicitly indicates that the action is involuntary and not performed by choice, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of being convulsed."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Convulsing typically involves a rapid succession of repetitive, involuntary movements."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "convulse.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "convulse.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'experiencer.n.01' is a valid NLTK WordNet synset and a perfect semantic fit for the concept 'experiencer'. (Original suggestion 'experiencer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

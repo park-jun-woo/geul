@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "shock.v.02",
+    "definition": "strike with disgust or revulsion",
+    "frame_id": 3,
+    "frame_text": "Somebody outrage somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The definition 'strike with disgust or revulsion' describes causing a change in the emotional state of an individual.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame is the entity that initiates or causes the emotional change in another."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame is the entity that experiences the change in emotional state."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "value_type": "disgust.n.01",
+            "reasoning": "The specific emotional state that results from the action, as stated in the definition ('disgust or revulsion')."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of striking someone with disgust/revulsion and their reaction is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by their will or intent, even if the precise outcome (disgust) isn't always fully intended but a consequence of a willed action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The emotions 'disgust' and 'revulsion' are inherently negative, thus the action causing them carries a negative polarity."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' indicates an active, volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or causation of a state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of causing disgust or revulsion."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "shock.v.02",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "shock.v.02",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion: 'result.n.01' is a perfect semantic and contextual fit for 'resultant_state.n.01' and is a valid NLTK WordNet synset."
+      }
+    ]
+  }
+}

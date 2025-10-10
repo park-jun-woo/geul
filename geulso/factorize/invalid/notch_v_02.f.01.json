@@ -1,0 +1,96 @@
+{
+  "original": {
+    "synset_id": "notch.v.02",
+    "definition": "notch a surface to record something",
+    "frame_id": 1,
+    "frame_text": "Something notch something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "form.n.01",
+        "reasoning": "The verb describes the action of making an incision or indentation, which alters the physical form of a surface.",
+        "participants": [
+          {
+            "semantic_role": "causal_instrument.n.01",
+            "reasoning": "The 'Something' that performs the notching action, acting as the instrument causing the change in form."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (a surface) that undergoes the change in its form by being notched."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "mark.n.01",
+        "value_type": "indentation.n.01",
+        "reasoning": "The verb 'notch' specifically denotes an indentation or incision as the type of physical mark created on the surface."
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "record.n.01",
+        "reasoning": "The definition explicitly states that the notching is done 'to record something', indicating its purpose."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Notching is a physical action that is directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something notch something' implies a non-volitional subject ('Something') as the immediate agent, even if an implicit human agent might be behind it. Following the rule for 'Something' subjects."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of notching itself is inherently neutral; its context determines any positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something notch something' has a non-agentive subject ('Something'), making the action non-volitional for the stated subject, in line with specified rules and samples."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of making a notch."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete act of creating a notch."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "notch.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "causal_instrument.n.01",
+        "reasoning": "semantic_role 'causal_instrument.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "notch.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "causal_agency.n.01",
+        "corrected_reasoning": "LLM suggestion. 'causal_agency.n.01' describes an entity that brings about a result, fitting 'causal instrument'."
+      }
+    ]
+  }
+}

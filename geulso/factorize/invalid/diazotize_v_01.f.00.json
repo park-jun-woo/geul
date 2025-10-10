@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "diazotize.v.01",
+    "definition": "convert (an amine) into a diazo compound",
+    "frame_id": 0,
+    "frame_text": "Somebody diazotize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "composition.n.02",
+        "reasoning": "The verb 'diazotize' describes the act of converting one chemical substance into another, which is a change in its chemical composition or nature.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame acts as the agent who performs the conversion."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "amine.n.01",
+            "reasoning": "The 'something' being acted upon, which is specifically identified as an amine in the definition, undergoing a chemical transformation."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "diazo_compound.n.01",
+            "reasoning": "The 'diazo compound' is the outcome or new state of the patient after the conversion."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes, when described factually, imply direct observation or experimentally verifiable results."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual process or action, fitting a declarative mood."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentional action in a scientific or industrial context, indicating strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of converting a chemical compound is inherently neutral; its positive or negative implications depend on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent carrying out a deliberate action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a known chemical process, implying certainty in its occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'diazotize' describes a single act of converting a given substance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "diazotize.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "diazo_compound.n.01",
+        "reasoning": "value_type 'diazo_compound.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "diazotize.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "chemical_compound.n.01",
+        "corrected_reasoning": "LLM suggestion: Replaced with its hypernym, 'chemical_compound.n.01', as the original was claimed invalid."
+      }
+    ]
+  }
+}

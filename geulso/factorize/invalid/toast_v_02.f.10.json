@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "toast.v.02",
+    "definition": "propose a toast to",
+    "frame_id": 10,
+    "frame_text": "Somebody wassail something",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_acknowledgment.n.01",
+        "reasoning": "The verb 'toast' in this sense describes a social act of formally acknowledging, celebrating, or expressing tribute to a person, event, or concept. This aligns with its definition 'propose a toast to' and hypernym 'honor'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the intentional act of proposing the toast, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (person, entity, or concept) that is the recipient of the toast and is being honored or acknowledged."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Proposing a toast is a directly observable social event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action of toasting is performed with clear intention and will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "Toasting is typically a positive act, expressing honor, celebration, or good wishes towards the subject."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of proposing a toast is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'toast' refers to a single, distinct act of proposing a toast."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "toast.v.02",
+        "frame_id": 10,
+        "key": "verb_property",
+        "value": "social_acknowledgment.n.01",
+        "reasoning": "verb_property 'social_acknowledgment.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "toast.v.02",
+        "frame_id": 10,
+        "key": "verb_property",
+        "corrected_value": "homage.n.01",
+        "corrected_reasoning": "LLM suggestion: 'homage.n.01' (respect or reverence paid or rendered) is a perfect semantic and contextual fit for 'social_acknowledgment' as a property of toasting."
+      }
+    ],
+    "participants": []
+  }
+}

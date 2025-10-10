@@ -1,0 +1,105 @@
+{
+  "original": {
+    "synset_id": "phosphoresce.v.01",
+    "definition": "to exhibit phosphorescence",
+    "frame_id": 0,
+    "frame_text": "Something phosphoresce something",
+    "sememes": [
+      {
+        "verb_type": "occurrence",
+        "verb_property": "light_emission.n.01",
+        "reasoning": "The definition 'to exhibit phosphorescence' describes the event of manifesting or producing light through the process of phosphorescence, which is an occurrence of light emission.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that exhibits or emits the phosphorescence."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame refers to the light or energy that is emitted as a result of phosphorescence."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Phosphorescence is a physical phenomenon that can be directly observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual occurrence or state of being, not a command or hypothetical situation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate and does not possess will or intention. The process is inherent or physical."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of phosphorescing is a neutral physical process; it carries no inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' indicates an inanimate object or substance, meaning the action is non-volitional and occurs due to physical properties."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite physical phenomenon or occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX",
+        "reasoning": "Phosphorescence is a continuous emission of light that persists over time, implying an infinite or unbroken repetition of the light emission process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "phosphoresce.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "light_emission.n.01",
+        "reasoning": "verb_property 'light_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "laser.n.01",
+            "description": "an acronym for light amplification by stimulated emission of radiation; an optical device that produces an intense monochromatic beam of coherent light (gloss match)"
+          },
+          {
+            "synset_id": "orthicon.n.01",
+            "description": "a now obsolete picture pickup tube in a television camera; electrons emitted from a photoemissive surface in proportion to the intensity of the incident light are focused onto the target causing secondary emission of electrons (gloss match)"
+          },
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          },
+          {
+            "synset_id": "incandescence.n.01",
+            "description": "the phenomenon of light emission by a body as its temperature is raised (gloss match)"
+          },
+          {
+            "synset_id": "elves.n.01",
+            "description": "an acronym for emissions of light and very low frequency perturbations due to electromagnetic pulse sources; extremely bright extremely short (less than a msec) electrical flashes forming a huge ring (up to 400 km diameter) in the ionosphere (gloss match)"
+          },
+          {
+            "synset_id": "lightning.n.01",
+            "description": "abrupt electric discharge from cloud to cloud or from cloud to earth accompanied by the emission of light (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "phosphoresce.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "luminescence.n.01",
+        "corrected_reasoning": "LLM suggestion: 'luminescence.n.01' (the emission of light by a substance that has not been heated) is a perfect semantic and contextual fit for the property of 'phosphoresce.v.01', which describes cold light emission."
+      }
+    ],
+    "participants": []
+  }
+}

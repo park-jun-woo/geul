@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "pass.v.07",
+    "definition": "travel past",
+    "frame_id": 10,
+    "frame_text": "Something pass somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'pass' in this sense fundamentally describes an act of moving from one place to another.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the motion and change in relative location, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "direction.n.01",
+        "value_type": "past.r.01",
+        "reasoning": "The definition 'travel past' explicitly includes a directional component indicating movement beyond a reference point.",
+        "participants": [
+          {
+            "semantic_role": "spatial_referent.n.01",
+            "reasoning": "The 'somebody' acts as the specific reference point or landmark that the 'Something' moves beyond."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of something passing someone is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies that the action is not driven by the will of an agent."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of passing is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something pass somebody' indicates a non-volitional subject ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of passing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'pass' in this context typically refers to a single, completed event of moving beyond a specific entity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pass.v.07",
+        "frame_id": 10,
+        "key": "semantic_role",
+        "value": "spatial_referent.n.01",
+        "reasoning": "semantic_role 'spatial_referent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pass.v.07",
+        "frame_id": 10,
+        "key": "semantic_role",
+        "corrected_value": "location.n.01",
+        "corrected_reasoning": "LLM suggestion: 'location.n.01' is a general term for a spatial point or extent, fitting the concept of a spatial referent for verbs of motion."
+      }
+    ]
+  }
+}

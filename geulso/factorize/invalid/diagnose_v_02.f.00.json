@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "diagnose.v.02",
+    "definition": "subject to a medical analysis",
+    "frame_id": 0,
+    "frame_text": "Somebody diagnose somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "knowledge.n.01",
+        "reasoning": "The verb describes the act of acquiring definitive knowledge about a patient's medical condition, representing a change from an unknown to a known state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the medical analysis and gains the knowledge, acting as the diagnostician."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is subjected to the medical analysis and whose condition is being determined."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "medical_analysis.n.01",
+            "reasoning": "The means or process by which the condition is identified, directly stated in the verb's definition."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "medical_condition.n.01",
+            "reasoning": "The specific medical condition that is identified as the ultimate outcome of the diagnostic process."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of diagnosing involves direct observation and examination by the diagnostician."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to perform the diagnosis."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of diagnosing itself is neutral; the nature of the diagnosis (e.g., discovering a disease) can be positive or negative depending on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody diagnose somebody' indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'diagnose' inherently implies an aim to establish a certain and definite medical condition."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, complete event of performing a diagnosis for a specific condition at a specific time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "diagnose.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "medical_analysis.n.01",
+        "reasoning": "value_type 'medical_analysis.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "urinalysis.n.01",
+            "description": "(medicine) the chemical analysis of urine (for medical diagnosis) (gloss match)"
+          },
+          {
+            "synset_id": "scatology.n.02",
+            "description": "(medicine) the chemical analysis of excrement (for medical diagnosis or for paleontological purposes) (gloss match)"
+          },
+          {
+            "synset_id": "case_study.n.02",
+            "description": "a detailed analysis of a person or group from a social or psychological or medical point of view (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "diagnose.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "medical_condition.n.01",
+        "reasoning": "value_type 'medical_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "intensive_care.n.01",
+            "description": "close monitoring and constant medical care of patients with life-threatening conditions (gloss match)"
+          },
+          {
+            "synset_id": "condition.n.06",
+            "description": "an illness, disease, or other medical problem (gloss match)"
+          },
+          {
+            "synset_id": "fetal_alcohol_syndrome.n.01",
+            "description": "a congenital medical condition in which body deformation occurs or facial development or mental ability is impaired because the mother drinks alcohol during pregnancy (gloss match)"
+          },
+          {
+            "synset_id": "gulf_war_syndrome.n.01",
+            "description": "a medical condition of uncertain origin that affected many veterans of the 1991 Gulf War; characterized by fatigue and headache and dizziness and nausea and rashes and joint pain and respiratory disorders (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "diagnose.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "medical_examination.n.01",
+        "corrected_reasoning": "LLM suggestion: 'medical_examination.n.01' is a general term encompassing various tests and analyses, making it a suitable replacement for 'medical_analysis.n.01'."
+      },
+      {
+        "synset_id": "diagnose.v.02",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "condition.n.06",
+        "corrected_reasoning": "Candidate 'condition.n.06' directly matches the meaning of 'medical_condition.n.01' with its gloss: 'an illness, disease, or other medical problem'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "sprinkle.v.02",
+    "definition": "cause (a liquid) to spatter about, especially with force",
+    "frame_id": 14,
+    "frame_text": "Something sprinkle something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "distribution.n.01",
+        "reasoning": "The verb describes causing a liquid to transition from a contained state to a dispersed state across a surface or area.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity causing the liquid to spatter.",
+            "value_type": "inanimate_entity.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame refers to the liquid that undergoes the change in distribution, as specified by the definition.",
+            "value_type": "liquid.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "spattering",
+        "reasoning": "The definition explicitly states the manner of dispersal as 'spatter about'."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "high",
+        "reasoning": "The definition includes 'especially with force', indicating a high intensity of the spattering action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sprinkling is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent in the frame ('Something') is inanimate, implying no will or intention behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sprinkling is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something sprinkle something' indicates a non-volitional agent (inanimate 'Something') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The term 'spatter about' implies multiple, repetitive, small-scale events of droplets being dispersed, indicating high but not infinite repetition within the overall action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "sprinkle.v.02",
+        "frame_id": 14,
+        "key": "value_type",
+        "value": "inanimate_entity.n.01",
+        "reasoning": "value_type 'inanimate_entity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "instrumental_role.n.01",
+            "description": "the semantic role of the entity (usually inanimate) that the agent uses to perform an action or start a process (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "sprinkle.v.02",
+        "frame_id": 14,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'inanimate_object.n.01' is a direct and valid replacement for 'inanimate_entity.n.01' as a value type, as the candidate 'instrumental_role.n.01' represents a semantic role rather than an entity type. (Original suggestion 'inanimate_object.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

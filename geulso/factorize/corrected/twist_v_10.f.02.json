@@ -1,0 +1,70 @@
+{
+  "synset_id": "twist.v.10",
+  "definition": "twist suddenly so as to sprain",
+  "frame_id": 2,
+  "frame_text": "Somebody turn something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.05",
+      "reasoning": "The verb describes an action that causes a change in the physical state of a body part, leading to damage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally or unintentionally performs the twisting action leading to the sprain, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (typically a body part like an ankle or wrist) that undergoes the change of physical state and becomes sprained."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "motion.n.03",
+      "value_type": "rotary_motion.n.01",
+      "reasoning": "The definition explicitly states 'twist', indicating a specific type of rotational movement is central to the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition includes 'suddenly', indicating the rapid execution of the twisting motion."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "injury.n.01",
+      "reasoning": "The phrase 'so as to sprain' explicitly states that injury (a sprain) is the intended or typical outcome of this specific type of twisting action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of twisting and spraining is a directly observable event or its immediate consequence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame, combined with the phrase 'so as to sprain', implies that the twisting action is driven by will or intent, even if the sprain itself might be an unintended side effect of a volitional movement."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb describes causing a 'sprain', which is an injury, inherently indicating a negative outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') performing the twisting action. The 'so as to sprain' implies the twisting leads to a specific, perhaps intended or at least direct, negative outcome."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of twisting and spraining."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of twisting that results in a sprain."
+    }
+  }
+}

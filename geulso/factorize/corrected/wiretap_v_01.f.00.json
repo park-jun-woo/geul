@@ -1,0 +1,68 @@
+{
+  "synset_id": "wiretap.v.01",
+  "definition": "tap a telephone or telegraph wire to get information",
+  "frame_id": 0,
+  "frame_text": "Somebody bug something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "interception.n.01",
+      "reasoning": "The verb describes the active process of intervening in a communication channel.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the wiretapping action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a telephone wire, a communication) that is being intercepted."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "information_gathering.n.01",
+          "reasoning": "The explicit purpose of the wiretapping is 'to get information', indicating a goal of information acquisition."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "electronic_device.n.01",
+          "reasoning": "The act of 'tapping' implies the use of a device to intercept the communication."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "covertness.n.01",
+      "reasoning": "The hypernym 'listen_in.v.02' ('listen without the speaker's knowledge') implies that wiretapping is inherently done in secret or without consent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wiretapping is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Wiretapping generally carries a negative connotation due to its intrusive and often illegal nature, infringing on privacy."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody wiretap something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wiretapping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the *listening* enabled by a wiretap can be continuous, the act of 'wiretap' itself typically refers to a single event of establishing the tap or a single campaign, not an inherent repetition of the tapping action itself."
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "cry.v.06",
+    "definition": "utter a characteristic sound",
+    "frame_id": 0,
+    "frame_text": "Something cry",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "sound_production.n.01",
+        "reasoning": "The definition 'utter a characteristic sound' describes an action of producing sound, where 'sound_production.n.01' represents the core semantic property of making noise.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that performs the action of uttering the sound, acting as the initiator or source."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of crying (uttering a sound) is typically a directly observable or audible event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning in this frame is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a lack of inherent will or intention driving the action, thus no agent's will is involved."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of uttering a sound is semantically neutral; its positive or negative connotation depends on the specific sound and context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something cry' indicates a non-agentive, non-volitional subject ('Something'), meaning the action is not performed intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a sound being uttered."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The definition 'utter a characteristic sound' typically refers to a single, discrete instance of sound production, rather than a continuous or highly repetitive event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "cry.v.06",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_production.n.01",
+        "reasoning": "verb_property 'sound_production.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "sound_reproduction.n.01",
+            "description": "the reproduction of sound (gloss match)"
+          },
+          {
+            "synset_id": "high_fidelity.n.01",
+            "description": "the reproduction of sound with little or no distortion (gloss match)"
+          },
+          {
+            "synset_id": "hi-fi.n.01",
+            "description": "equipment for the reproduction of sound with high fidelity (gloss match)"
+          },
+          {
+            "synset_id": "music.n.04",
+            "description": "(music) the sounds produced by singers or musical instruments (or reproductions of such sounds) (gloss match)"
+          },
+          {
+            "synset_id": "mutter.n.01",
+            "description": "a low continuous indistinct sound; often accompanied by movement of the lips without the production of articulate speech (gloss match)"
+          },
+          {
+            "synset_id": "acoustic_phenomenon.n.01",
+            "description": "a physical phenomenon associated with the production or transmission of sound (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "cry.v.06",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "vocalization.n.01",
+        "corrected_reasoning": "LLM suggestion. 'vocalization.n.01' is a perfect semantic fit for the act of producing sound, especially in the context of 'cry.v.06', which is a form of vocalization."
+      }
+    ],
+    "participants": []
+  }
+}

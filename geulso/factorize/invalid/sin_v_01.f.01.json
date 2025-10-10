@@ -1,0 +1,140 @@
+{
+  "original": {
+    "synset_id": "sin.v.01",
+    "definition": "commit a sin; violate a law of God or a moral law",
+    "frame_id": 1,
+    "frame_text": "Somebody transgress",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moral_integrity.n.01",
+        "reasoning": "The verb describes an action that results in a degradation of the agent's moral integrity by violating a moral or divine law.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of sinning, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "moral_law.n.01",
+            "reasoning": "The implicit moral or divine law that is violated or disregarded by the action, as indicated by the definition and hypernym."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sinning can be directly observed or directly committed, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody transgress' implies an agent acting with clear intention and will to violate a law."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of 'sinning' inherently carries a negative moral judgment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody transgress' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of sinning is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of transgression, though such an event can be repeated."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sin.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "moral_integrity.n.01",
+        "reasoning": "verb_property 'moral_integrity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "corruption.n.05",
+            "description": "destroying someone's (or some group's) honesty or loyalty; undermining moral integrity (gloss match)"
+          },
+          {
+            "synset_id": "integrity.n.02",
+            "description": "moral soundness (gloss match)"
+          },
+          {
+            "synset_id": "probity.n.01",
+            "description": "complete and confirmed integrity; having strong moral principles (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "sin.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "moral_law.n.01",
+        "reasoning": "value_type 'moral_law.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "wrongdoing.n.02",
+            "description": "activity that transgresses moral or civil law (gloss match)"
+          },
+          {
+            "synset_id": "transgression.n.01",
+            "description": "the act of transgressing; the violation of a law or a duty or moral principle (gloss match)"
+          },
+          {
+            "synset_id": "civil_disobedience.n.01",
+            "description": "a group's refusal to obey a law because they believe the law is immoral (as in protest against discrimination) (gloss match)"
+          },
+          {
+            "synset_id": "antinomianism.n.01",
+            "description": "the theological doctrine that by faith and God's grace a Christian is freed from all laws (including the moral standards of the culture) (gloss match)"
+          },
+          {
+            "synset_id": "rescript.n.01",
+            "description": "a reply by a Pope to an inquiry concerning a point of law or morality (gloss match)"
+          },
+          {
+            "synset_id": "wrongdoer.n.01",
+            "description": "a person who transgresses moral or civil law (gloss match)"
+          },
+          {
+            "synset_id": "hays.n.01",
+            "description": "United States lawyer and politician who formulated a production code that prescribed the moral content of United States films from 1930 to 1966 (1879-1954) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sin.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "integrity.n.02",
+        "corrected_reasoning": "Candidate 'integrity.n.02' is a perfect semantic and contextual replacement for 'moral_integrity.n.01', defined as 'moral soundness'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "sin.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "law.n.07",
+        "corrected_reasoning": "LLM suggestion: 'law.n.07' is a perfect semantic and contextual replacement, defined as 'a rule or body of rules of conduct inherent in human nature and essential to or binding upon human society', fitting the concept of 'moral law'."
+      }
+    ]
+  }
+}

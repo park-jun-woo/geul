@@ -1,0 +1,126 @@
+{
+  "original": {
+    "synset_id": "dig.v.01",
+    "definition": "turn up, loosen, or remove earth",
+    "frame_id": 2,
+    "frame_text": "Somebody cut_into something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "material_state.n.01",
+        "reasoning": "The verb 'dig' describes an action that causes a change in the physical state or arrangement of earth or similar material, encompassing loosening, turning up, or removing it.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' performing the action of digging, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "earth.n.01",
+            "reasoning": "The implicit 'earth' or similar material whose state is changed by the digging action."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'PP' specifies the location where the digging action occurs or the material is affected."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Digging is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of digging is neutral; its sentiment depends on the context or purpose."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ---- PP' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of digging is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Digging is typically a continuous process composed of multiple, repeated physical actions (e.g., shoveling, scraping) rather than a single, instantaneous event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "dig.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "material_state.n.01",
+        "reasoning": "verb_property 'material_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "solid-state_physics.n.01",
+            "description": "the branch of physics that studies the properties of materials in the solid state: electrical conduction in crystals of semiconductors and metals; superconductivity; photoconductivity (gloss match)"
+          },
+          {
+            "synset_id": "heat_of_sublimation.n.01",
+            "description": "heat absorbed by a unit mass of material when it changes from a solid to a gaseous state (gloss match)"
+          },
+          {
+            "synset_id": "transcendence.n.01",
+            "description": "a state of being or existence above and beyond the limits of material experience (gloss match)"
+          },
+          {
+            "synset_id": "lysogeny.n.01",
+            "description": "the condition of a host bacterium that has incorporated a phage into its own genetic material (gloss match)"
+          },
+          {
+            "synset_id": "fatigue.n.02",
+            "description": "used of materials (especially metals) in a weakened state caused by long stress (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plainness.n.01",
+            "description": "the state of being unmixed with other material (gloss match)"
+          },
+          {
+            "synset_id": "wealth.n.01",
+            "description": "the state of being rich and affluent; having a plentiful supply of material goods and money (gloss match)"
+          },
+          {
+            "synset_id": "ease.n.02",
+            "description": "a freedom from financial difficulty that promotes a comfortable state (gloss match)"
+          },
+          {
+            "synset_id": "poverty.n.01",
+            "description": "the state of having little or no money and few or no material possessions (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "dig.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "phase.n.02",
+        "corrected_reasoning": "Candidate 'phase.n.02' perfectly describes a 'distinct state of matter' or 'physical state' which aligns with 'material_state'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "original": {
+    "synset_id": "publish.v.03",
+    "definition": "have (one's written work) issued for publication",
+    "frame_id": 2,
+    "frame_text": "Somebody write",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "publicity.n.01",
+        "reasoning": "The verb describes a process leading to a change of state, specifically making written work publicly available, thereby changing its status from private to public.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' from the frame, whose associated 'write' verb implies they are the author, and who acts as the agent responsible for their written work being issued for publication.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The implicit 'written work' of the agent, which undergoes the change of state from not being publicly available to being issued for publication.",
+            "value_type": "written_work.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of publishing is a directly observable and verifiable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of 'having one's written work issued for publication' implies an agent's strong will or intention to do so."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of publishing itself is neutral; its sentiment depends on the content or context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody write' (interpreted as an author publishing) indicates a volitional act, where the author intentionally seeks to publish their work."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement implies a definite occurrence of the work being issued for publication."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of having a specific piece of written work issued for publication."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "publish.v.03",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "written_work.n.01",
+        "reasoning": "value_type 'written_work.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "writing.n.01",
+            "description": "the act of creating written works (gloss match)"
+          },
+          {
+            "synset_id": "photocopy.n.01",
+            "description": "a photographic copy of written or printed or graphic work (gloss match)"
+          },
+          {
+            "synset_id": "title.n.03",
+            "description": "a general or descriptive heading for a section of a written work (gloss match)"
+          },
+          {
+            "synset_id": "credit.n.08",
+            "description": "an entry on a list of persons who contributed to a film or written work (gloss match)"
+          },
+          {
+            "synset_id": "matter.n.06",
+            "description": "written works (especially in books or magazines) (gloss match)"
+          },
+          {
+            "synset_id": "fictionalization.n.01",
+            "description": "a literary work based partly or wholly on fact but written as if it were fiction (gloss match)"
+          },
+          {
+            "synset_id": "criticism.n.03",
+            "description": "a written evaluation of a work of literature (gloss match)"
+          },
+          {
+            "synset_id": "text.n.04",
+            "description": "the main body of a written work (as distinct from illustrations or footnotes etc.) (gloss match)"
+          },
+          {
+            "synset_id": "draft.n.05",
+            "description": "any of the various versions in the development of a written work (gloss match)"
+          },
+          {
+            "synset_id": "section.n.01",
+            "description": "a self-contained part of a larger composition (written or musical) (gloss match)"
+          },
+          {
+            "synset_id": "chapter.n.01",
+            "description": "a subdivision of a written work; usually numbered and titled (gloss match)"
+          },
+          {
+            "synset_id": "adaptation.n.01",
+            "description": "a written work (as a novel) that has been recast in a new form (gloss match)"
+          },
+          {
+            "synset_id": "book.n.01",
+            "description": "a written work or composition that has been published (printed on pages bound together) (gloss match)"
+          },
+          {
+            "synset_id": "authority.n.07",
+            "description": "an authoritative written work (gloss match)"
+          },
+          {
+            "synset_id": "purana.n.01",
+            "description": "a body of 18 works written between the first and 11th centuries and incorporating legends and speculative histories of the universe and myths and customary observances (gloss match)"
+          },
+          {
+            "synset_id": "condensation.n.05",
+            "description": "a shortened version of a written work (gloss match)"
+          },
+          {
+            "synset_id": "casebook.n.01",
+            "description": "a book in which detailed written records of a case are kept and which are a source of information for subsequent work (gloss match)"
+          },
+          {
+            "synset_id": "communist_manifesto.n.01",
+            "description": "a socialist manifesto written by Marx and Engels (1842) describing the history of the working-class movement according to their views (gloss match)"
+          },
+          {
+            "synset_id": "agreement.n.01",
+            "description": "the statement (oral or written) of an exchange of promises (gloss match)"
+          },
+          {
+            "synset_id": "musical_composition.n.01",
+            "description": "a musical work that has been created (gloss match)"
+          },
+          {
+            "synset_id": "abridger.n.01",
+            "description": "one who shortens or abridges or condenses a written work (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "publish.v.03",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "matter.n.06",
+        "corrected_reasoning": "Candidate `matter.n.06` ('written works (especially in books or magazines)') is the most semantically appropriate general term for 'written_work' among candidates."
+      }
+    ]
+  }
+}

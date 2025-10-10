@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "tin.v.03",
+    "definition": "prepare (a metal) for soldering or brazing by applying a thin layer of solder to the surface",
+    "frame_id": 0,
+    "frame_text": "Somebody tin something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The verb describes the act of altering the surface of a metal from an uncoated state to one covered with solder, which is a change in its physical condition.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of applying solder to the metal, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (metal) whose surface condition is changed by the application of solder."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "material.n.01",
+        "value_type": "solder.n.01",
+        "reasoning": "The defining material involved in this change of surface condition is solder, as explicitly stated in the definition ('applying a thin layer of solder')."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "preparation.n.01",
+        "reasoning": "The action of tinning is carried out with the specific purpose of preparing the metal for a subsequent process, namely soldering or brazing."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of tinning is a directly observable physical action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of tinning itself is neutral; its sentiment depends on context or the outcome of the soldering/brazing."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Tinning a specific piece of metal is typically a single, completed event or process for that item, not inherently repetitive."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "tin.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "tin.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "condition.n.01",
+        "corrected_reasoning": "LLM suggestion. Replaced invalid `surface_condition.n.01` with general concept `condition.n.01`."
+      }
+    ],
+    "participants": []
+  }
+}

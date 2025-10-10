@@ -1,0 +1,60 @@
+{
+  "synset_id": "frown.v.01",
+  "definition": "look angry or sullen, wrinkle one's forehead, as if to signal disapproval",
+  "frame_id": 7,
+  "frame_text": "Somebody lower PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "facial_expression.n.01",
+      "reasoning": "The verb describes a physical action that alters the facial expression, specifically wrinkling the forehead and lowering the brows, thereby displaying an internal state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of frowning, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "feature.n.02",
+          "reasoning": "The facial feature (e.g., forehead or brows) that undergoes the physical change of wrinkling or lowering, consistent with the definition and the 'lower' implication in the frame description."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "signal.n.01",
+      "value_type": "disapproval.n.01",
+      "reasoning": "The act of frowning serves the explicit purpose of signaling disapproval, as stated in the verb's definition ('as if to signal disapproval')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Frowning is a directly observable physical and expressive action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Frowning is an intentional action, implying the agent's strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition includes 'angry or sullen' and 'disapproval', indicating a negative inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the action's nature indicates a volitional act performed by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of frowning, when it occurs, is a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete instance of forming a frown, not an inherently repetitive action."
+    }
+  }
+}

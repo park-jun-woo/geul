@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "match.v.01",
+    "definition": "be compatible, similar or consistent; coincide in their characteristics",
+    "frame_id": 9,
+    "frame_text": "Something is gibeing PP",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "similarity.n.01",
+        "reasoning": "The definition 'be compatible, similar or consistent; coincide in their characteristics' describes a continuous state of relation or inherent characteristic, not an action or a process of change. The frame 'Something is gibeing PP' (interpreted as 'Something is matching PP' given the synset and definition) reinforces this stative interpretation.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that possesses or exhibits the characteristic of being similar or compatible, as specified by the verb frame's subject."
+          },
+          {
+            "semantic_role": "co-patient.n.01",
+            "reasoning": "The entity introduced by the prepositional phrase (PP), with which 'Something' is in a state of similarity or compatibility. This role indicates a symmetrical relationship."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of matching or similarity is generally directly ascertainable through observation or comparison."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an existing relationship or characteristic."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Being compatible or similar is an inherent characteristic or relationship, not an action driven by an agent's will. The frame 'Something is...' indicates a lack of agentive will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of matching is neutral; whether it is positive or negative depends entirely on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is gibeing PP' (interpreted as 'matching') explicitly features a non-agentive subject ('Something'), and the state of being similar or compatible is not a volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement 'Something is matching PP' implies a certain factual assessment of similarity or compatibility."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state, the concept of repetition is not directly applicable. It is treated as a single, ongoing instance of that state, despite the progressive 'is gibeing' (matching) which emphasizes its continuous nature."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "match.v.01",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "value": "co-patient.n.01",
+        "reasoning": "semantic_role 'co-patient.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "match.v.01",
+        "frame_id": 9,
+        "key": "semantic_role",
+        "corrected_value": "patient.n.01",
+        "corrected_reasoning": "LLM suggestion: 'co-patient' refers to an entity undergoing an action, which is best represented by the 'patient' semantic role."
+      }
+    ]
+  }
+}

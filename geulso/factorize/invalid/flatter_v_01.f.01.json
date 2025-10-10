@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "flatter.v.01",
+    "definition": "praise somewhat dishonestly",
+    "frame_id": 1,
+    "frame_text": "Somebody flatter somebody",
+    "sememes": [
+      {
+        "verb_type": "causation",
+        "verb_property": "positive_evaluation.n.01",
+        "reasoning": "The verb describes how 'Something' causes 'somebody' to be favorably perceived or evaluated, aligning with the hypernym 'praise'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that initiates or is the source of the flattering effect, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is the object or recipient of the flattering perception."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sincerity.n.01",
+        "value_type": "low",
+        "reasoning": "The definition explicitly includes 'somewhat dishonestly,' indicating that the positive evaluation lacks full sincerity or truthfulness."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Flattery or its effect is typically a directly observable phenomenon or a direct experience of the recipient."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or effect."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the verb frame is inanimate and therefore incapable of expressing will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While 'praise' is positive, the 'dishonestly' aspect introduces a negative moral component, balancing the overall sentiment to neutral."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') as the source of the action or effect."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of flattery or its effect."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of causing a flattering effect, unless otherwise specified by context."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "flatter.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "positive_evaluation.n.01",
+        "reasoning": "verb_property 'positive_evaluation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "flatter.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "praise.n.01",
+        "corrected_reasoning": "LLM suggestion: 'praise.n.01' is a perfect semantic and contextual fit for 'positive_evaluation.n.01' as a property of 'flatter.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

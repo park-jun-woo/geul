@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "outwit.v.01",
+    "definition": "beat through cleverness and wit",
+    "frame_id": 11,
+    "frame_text": "Somebody overreach something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "relative_standing.n.01",
+        "reasoning": "The verb 'outwit' describes a change in the relative status or position of participants in a contest or interaction, where one gains an advantage over another.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of outwitting, initiating the change in standing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (or someone) that is outwitted, undergoing the change in relative standing."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "cleverness.n.01",
+        "reasoning": "The definition 'through cleverness and wit' explicitly states the manner in which the 'beating' or gaining of advantage occurs."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Outwitting is an action whose performance or results can be directly observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies that the action of outwitting is driven by the agent's will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of outwitting is semantically neutral; its positive or negative connotation depends on context and the outcome for the participants."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' clearly indicates an intentional act performed by a volitional agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'outwit' describes a definite accomplishment of beating another through wit."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of successfully beating someone through cleverness, not a continuous or repetitive action by default."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "outwit.v.01",
+        "frame_id": 11,
+        "key": "verb_property",
+        "value": "relative_standing.n.01",
+        "reasoning": "verb_property 'relative_standing.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "status.n.01",
+            "description": "the relative position or standing of things or especially persons in a society (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "outwit.v.01",
+        "frame_id": 11,
+        "key": "verb_property",
+        "corrected_value": "status.n.01",
+        "corrected_reasoning": "Candidate 'status.n.01' is a perfect semantic and contextual match for 'relative_standing.n.01', as its gloss explicitly defines 'relative position or standing'."
+      }
+    ],
+    "participants": []
+  }
+}

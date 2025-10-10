@@ -1,0 +1,64 @@
+{
+  "synset_id": "paraphrase.v.01",
+  "definition": "express the same message in different words",
+  "frame_id": 4,
+  "frame_text": "Somebody reword somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "linguistic_unit.n.01",
+      "reasoning": "The verb describes the action of altering the words or expression of a message, changing its linguistic form.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' who performs the act of paraphrasing, causing the change in form."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "message.n.01",
+          "reasoning": "The implicit 'message' or 'text' that undergoes the change in linguistic form, as implied by the definition 'express the same message in different words'."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'somebody' is interpreted as the originator or source of the original message that is being reworded."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "content.n.05",
+      "value_type": "preserved.a.01",
+      "reasoning": "A defining characteristic of paraphrasing is that the core semantic content or meaning of the message is maintained as 'the same message'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Paraphrasing is typically a directly observed or performed action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of paraphrasing is inherently neutral; its positive or negative valence depends on context or purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of paraphrasing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete act of rephrasing a particular message."
+    }
+  }
+}

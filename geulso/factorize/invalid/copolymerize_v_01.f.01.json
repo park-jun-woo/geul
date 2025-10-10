@@ -1,0 +1,115 @@
+{
+  "original": {
+    "synset_id": "copolymerize.v.01",
+    "definition": "polymerize together",
+    "frame_id": 1,
+    "frame_text": "Something copolymerize",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "molecular_structure.n.01",
+        "reasoning": "The verb describes a chemical process where smaller molecular units (monomers) undergo a transformation to form a larger molecular structure (copolymer).",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' (reactants/monomers) that undergoes the change in molecular structure, transforming into a copolymer."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "combination_of_heterogeneous_components",
+        "reasoning": "The prefix 'co-' and the definition 'polymerize together' specify that this polymerization involves the interlinking of multiple distinct types of monomers, characterizing the manner of the chemical reaction, differentiating it from simple polymerization of identical units."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Copolymerization is a scientific process that is typically observed or inferred from direct experimental data."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a chemical process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' indicates a non-agentive subject, meaning the process does not involve will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Copolymerization is a neutral chemical process, not inherently positive or negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something copolymerize' indicates that the action is carried out by a non-volitional entity ('Something'), making the process inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite chemical process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Polymerization is a chain reaction involving numerous repetitive steps of monomer addition, leading to high repetition in the formation of a polymer."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "copolymerize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "molecular_structure.n.01",
+        "reasoning": "verb_property 'molecular_structure.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "determination.n.01",
+            "description": "the act of determining the properties of something, usually by research or calculation (gloss match)"
+          },
+          {
+            "synset_id": "reformer.n.02",
+            "description": "an apparatus that reforms the molecular structure of hydrocarbons to produce richer fuel (gloss match)"
+          },
+          {
+            "synset_id": "molecular_genetics.n.01",
+            "description": "the branch of genetics concerned with the structure and activity of genetic material at the molecular level (gloss match)"
+          },
+          {
+            "synset_id": "kendrew.n.01",
+            "description": "English biologist noted for studies of the molecular structure of blood components (born in 1917) (gloss match)"
+          },
+          {
+            "synset_id": "lipscomb.n.01",
+            "description": "United States chemist noted for his theories of molecular structure (born in 1919) (gloss match)"
+          },
+          {
+            "synset_id": "perutz.n.01",
+            "description": "English biochemist (born in Austria); studied the molecular structure of blood (1914-2002) (gloss match)"
+          },
+          {
+            "synset_id": "robinson.n.01",
+            "description": "English chemist noted for his studies of molecular structures in plants (1886-1975) (gloss match)"
+          },
+          {
+            "synset_id": "chemical_process.n.01",
+            "description": "(chemistry) any process determined by the atomic and molecular composition and structure of the substances involved (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "copolymerize.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "structure.n.01",
+        "corrected_reasoning": "LLM suggestion. `structure.n.01` is the most appropriate general synset for 'structure' in the context of molecular properties, encompassing the arrangement of parts, and is a perfect semantic fit for 'molecular structure'."
+      }
+    ],
+    "participants": []
+  }
+}

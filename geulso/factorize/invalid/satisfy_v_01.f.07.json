@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "satisfy.v.01",
+    "definition": "meet the requirements or expectations of",
+    "frame_id": 7,
+    "frame_text": "Something satisfy something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "fulfillment.n.01",
+        "reasoning": "The definition 'meet the requirements or expectations of' describes a state where something aligns with or fulfills a set condition, rather than an active change or action.",
+        "participants": [
+          {
+            "semantic_role": "theme.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that meets the requirements or expectations; it is the content of the fulfillment."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The second 'something' in the frame is the entity whose requirements or expectations are met, thereby experiencing satisfaction."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes a general state of meeting conditions, typically understood through direct observation of the outcome or direct knowledge."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a state of being or relation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate and cannot act with will, thus modality is neutral."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of satisfying or meeting expectations generally carries a positive sentiment, as it implies fulfilling a need or desire."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates that the subject is a non-agentive entity, performing the action non-volitionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'satisfy' describes a definite state of fulfillment or meeting conditions."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance or state of one thing satisfying another."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "satisfy.v.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "satisfy.v.01",
+        "frame_id": 7,
+        "key": "semantic_role",
+        "corrected_value": "feeler.n.01",
+        "corrected_reasoning": "LLM suggestion: 'feeler.n.01' is a valid synset that perfectly represents an experiencer."
+      }
+    ]
+  }
+}

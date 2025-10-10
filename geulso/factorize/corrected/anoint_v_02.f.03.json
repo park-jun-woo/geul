@@ -1,0 +1,64 @@
+{
+  "synset_id": "anoint.v.02",
+  "definition": "administer an oil or ointment to ; often in a religious ceremony of blessing",
+  "frame_id": 3,
+  "frame_text": "Somebody anoint somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes the act of applying a substance (oil or ointment) to a person, which causes a change in their physical state (being covered/marked by the substance).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the actor who performs the anointing, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity undergoing the change of physical state (receiving the oil/ointment)."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "oil.n.01",
+          "reasoning": "The 'oil or ointment' is the specific substance used as a means to perform the anointing, explicitly mentioned in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "blessing.n.01",
+      "reasoning": "The definition states the act is 'often in a religious ceremony of blessing,' indicating a primary spiritual or ritualistic purpose. The hypernym 'bless.v.01' reinforces this purpose.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Anointing is a physical act that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the agent acts with clear intention and will to perform the anointing."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly mentions 'religious ceremony of blessing,' and a hypernym is 'bless.v.01', indicating a positive connotation for the act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody anoint somebody' clearly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of anointing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Anointing, especially in a ceremonial context, typically refers to a single, distinct event rather than a continuous or highly repetitive action."
+    }
+  }
+}

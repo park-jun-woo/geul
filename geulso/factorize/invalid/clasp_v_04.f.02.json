@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "clasp.v.04",
+    "definition": "grasp firmly",
+    "frame_id": 2,
+    "frame_text": "Something clasp something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_connection.n.01",
+        "reasoning": "The verb 'clasp' describes an action that causes a transition from a state of not being physically connected or held, to being in a firm physical connection or hold.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity performing the clasping action, initiating the physical connection."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change of state, becoming physically connected or held."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "firm.a.01",
+        "reasoning": "The definition 'grasp firmly' explicitly includes the manner of the grasp as 'firmly', indicating a strong, secure hold."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of clasping is generally a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame implies no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of clasping is neutral; its sentiment depends on the specific context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of clasping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'clasp' typically describes a single, discrete event of establishing a firm hold, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "clasp.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "physical_connection.n.01",
+        "reasoning": "verb_property 'physical_connection.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "clasp.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "connection.n.01",
+        "corrected_reasoning": "LLM suggestion: A more general term for linking or joining, fitting the context of 'clasp'."
+      }
+    ],
+    "participants": []
+  }
+}

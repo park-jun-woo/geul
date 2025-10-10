@@ -1,0 +1,64 @@
+{
+  "synset_id": "inject.v.03",
+  "definition": "force or drive (a fluid or gas) into by piercing",
+  "frame_id": 2,
+  "frame_text": "Somebody shoot somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the act of moving a substance (fluid or gas) into a new, internal location within another entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who actively performs the injection."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fluid.n.01",
+          "reasoning": "The substance (fluid or gas) that is being forced into the destination, explicitly mentioned in the verb's definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'somebody' in the frame who receives the injection; the endpoint where the fluid/gas is introduced."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "piercing.n.01",
+      "reasoning": "The definition explicitly states the action occurs 'by piercing', indicating a specific manner of execution."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of injecting is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the action of 'forcing or driving' imply a strong will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of injecting itself is neutral; its positive or negative connotation depends on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of injecting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'inject' typically refers to a single, discrete event of introducing a substance."
+    }
+  }
+}

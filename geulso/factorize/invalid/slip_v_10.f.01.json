@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "slip.v.10",
+    "definition": "pass out of one's memory",
+    "frame_id": 1,
+    "frame_text": "Something slip_one's_mind",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The phrasal verb describes a transition where a piece of information or fact moves from being mentally possessed (remembered) to not being possessed (forgotten), which is a change in the state of mental possession.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "information.n.01",
+            "reasoning": "The 'Something' (information, fact, event) that is forgotten or passes out of memory, undergoing the change of state."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The implicit 'one' (person) whose memory is affected and who experiences the loss of information, indicated by 'one's mind' in the phrasal verb."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of something slipping one's mind is typically presented as a direct, internal experience or a directly observable effect."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Neither the 'Something' nor the experiencer acts with will or intention for something to slip their mind; it is an involuntary cognitive event."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Forgetting information or an obligation is generally considered a negative outcome or a deficiency."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something slip_one's_mind' and the nature of forgetting indicate a non-volitional event. The 'Something' is inanimate/abstract, and the 'one' does not intentionally forget."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The phrase implies a definite occurrence that something has passed out of memory."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of a specific piece of information being forgotten."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "slip.v.10",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "slip.v.10",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'sentient_being.n.01' is a precise semantic match for the concept of an experiencer. (Original suggestion 'sentient_being.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

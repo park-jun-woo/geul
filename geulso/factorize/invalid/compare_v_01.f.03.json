@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "compare.v.01",
+    "definition": "examine and note the similarities or differences of",
+    "frame_id": 3,
+    "frame_text": "Something compare something",
+    "sememes": [
+      {
+        "verb_type": "cognition",
+        "verb_property": "analysis.n.01",
+        "reasoning": "The definition 'examine and note the similarities or differences' clearly indicates a cognitive process of analysis.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the act of comparison and examination, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being examined and compared (the first object)."
+          },
+          {
+            "semantic_role": "comparison_standard.n.01",
+            "reasoning": "The object or criterion introduced by the 'PP' (prepositional phrase) that serves as the basis or second item for comparison."
+          }
+        ]
+      },
+      {
+        "verb_type": "result_state",
+        "verb_property": "relation.n.01",
+        "value_type": "similarity.n.01",
+        "reasoning": "The act of comparing results in noting similarities or differences, which are types of relations."
+      },
+      {
+        "verb_type": "result_state",
+        "verb_property": "relation.n.01",
+        "value_type": "difference.n.01",
+        "reasoning": "The act of comparing results in noting similarities or differences, which are types of relations."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of comparing is a direct mental and often observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' implies that the action is driven by the agent's will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of comparing itself is neutral; the findings or context may carry sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite act of examination leading to a conclusion, suggesting certainty in the process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance or comprehensive act of comparison, even if it involves multiple steps."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "compare.v.01",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "value": "comparison_standard.n.01",
+        "reasoning": "semantic_role 'comparison_standard.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "calibration.n.01",
+            "description": "the act of checking or adjusting (by comparison with a standard) the accuracy of a measuring instrument (gloss match)"
+          },
+          {
+            "synset_id": "template.n.01",
+            "description": "a model or standard for making comparisons (gloss match)"
+          },
+          {
+            "synset_id": "standard.n.01",
+            "description": "a basis for comparison; a reference point against which other things can be evaluated (gloss match)"
+          },
+          {
+            "synset_id": "yardstick.n.01",
+            "description": "a measure or standard used for comparison (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "compare.v.01",
+        "frame_id": 3,
+        "key": "semantic_role",
+        "corrected_value": "standard.n.01",
+        "corrected_reasoning": "Candidate `standard.n.01` is a perfect semantic and contextual replacement for 'comparison_standard.n.01' as its gloss directly states 'a basis for comparison; a reference point against which other things can be evaluated'."
+      }
+    ]
+  }
+}

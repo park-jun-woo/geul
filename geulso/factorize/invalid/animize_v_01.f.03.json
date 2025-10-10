@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "animize.v.01",
+    "definition": "give lifelike qualities to",
+    "frame_id": 3,
+    "frame_text": "Something animise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "animacy.n.01",
+        "reasoning": "The definition 'give lifelike qualities to' describes a transformation where an entity transitions from a state of lacking animacy to possessing lifelike characteristics.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame acts as the entity that causes or brings about the change, even if non-volitional."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change, receiving the lifelike qualities."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of giving lifelike qualities to something is typically a directly observable event or its results are observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the verb frame indicates a non-agentive cause, lacking personal will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of animizing is neutral; its sentiment depends on the specific context and the nature of the 'lifelike qualities' given."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something animise something' implies a non-volitional agent (the first 'Something') performing the action, as it cannot possess intention."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of imparting qualities."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, complete act of giving qualities, rather than a repetitive or continuous action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "animize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "animacy.n.01",
+        "reasoning": "verb_property 'animacy.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "animize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "animateness.n.01",
+        "corrected_reasoning": "LLM suggestion: 'animateness.n.01' is a perfect semantic match for the intended 'animacy.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

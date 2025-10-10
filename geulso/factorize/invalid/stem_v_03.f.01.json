@@ -1,0 +1,134 @@
+{
+  "original": {
+    "synset_id": "stem.v.03",
+    "definition": "stop the flow of a liquid",
+    "frame_id": 1,
+    "frame_text": "Somebody stanch something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The definition 'stop the flow of a liquid' indicates a transition from a state of motion/flow to a state of no motion/flow, which is a change in the property of motion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame is the entity that causes the cessation of flow, acting as the agent of change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "liquid_flow.n.01",
+            "reasoning": "The second 'something' refers to the flow of a liquid, which is the entity undergoing the change of state (from flowing to stopped)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of stopping a flow is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject is 'Something', implying an inanimate or non-agentive cause that does not possess will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of stemming or stopping a flow is neutral; its sentiment depends on context (e.g., stemming bleeding is positive, stemming a river's flow can be negative for environment)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The agent is 'Something', indicating a non-volitional cause, as inanimate objects do not perform actions intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of stopping."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed event of stopping a flow, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "stem.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "liquid_flow.n.01",
+        "reasoning": "value_type 'liquid_flow.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "faucet.n.01",
+            "description": "a regulator for controlling the flow of a liquid from a reservoir (gloss match)"
+          },
+          {
+            "synset_id": "reflux_condenser.n.01",
+            "description": "condenser such that vapor over a boiling liquid is condensed and flows back into the vessel to prevent its contents from boiling dry (gloss match)"
+          },
+          {
+            "synset_id": "rheometer.n.01",
+            "description": "an instrument for measuring the flow of liquids (especially arterial blood) (gloss match)"
+          },
+          {
+            "synset_id": "stopcock.n.01",
+            "description": "faucet consisting of a rotating device for regulating flow of a liquid (gloss match)"
+          },
+          {
+            "synset_id": "trap.n.02",
+            "description": "drain consisting of a U-shaped section of drainpipe that holds liquid and so prevents a return flow of sewer gas (gloss match)"
+          },
+          {
+            "synset_id": "venturi_tube.n.01",
+            "description": "a short tube inserted into a pipeline and used to measure the quantity of a liquid that is flowing in the pipeline (gloss match)"
+          },
+          {
+            "synset_id": "viscosity.n.01",
+            "description": "resistance of a liquid to shear forces (and hence to flow) (gloss match)"
+          },
+          {
+            "synset_id": "dripping.n.01",
+            "description": "a liquid (as water) that flows in drops (as from the eaves of house) (gloss match)"
+          },
+          {
+            "synset_id": "drip.n.01",
+            "description": "flowing in drops; the formation and falling of drops of liquid (gloss match)"
+          },
+          {
+            "synset_id": "turbulence.n.01",
+            "description": "unstable flow of a liquid or gas (gloss match)"
+          },
+          {
+            "synset_id": "streamline_flow.n.01",
+            "description": "flow of a gas or liquid in which the velocity at any point is relatively steady (gloss match)"
+          },
+          {
+            "synset_id": "stasis.n.01",
+            "description": "an abnormal state in which the normal flow of a liquid (such as blood) is slowed or stopped (gloss match)"
+          },
+          {
+            "synset_id": "fluid.n.02",
+            "description": "continuous amorphous matter that tends to flow and to conform to the outline of its container: a liquid or a gas (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "stem.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "flow.n.01",
+        "corrected_reasoning": "LLM suggestion: 'flow.n.01' ('the act of flowing or pouring or rushing') is a perfect semantic and contextual replacement for the general concept of 'liquid flow'."
+      }
+    ]
+  }
+}

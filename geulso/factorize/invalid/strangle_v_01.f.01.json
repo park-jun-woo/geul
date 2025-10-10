@@ -1,0 +1,129 @@
+{
+  "original": {
+    "synset_id": "strangle.v.01",
+    "definition": "kill by squeezing the throat of so as to cut off the air",
+    "frame_id": 1,
+    "frame_text": "Somebody strangulate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "life.n.01",
+        "reasoning": "The verb's primary definition is to 'kill', indicating a change from a state of being alive to being dead.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of causing death, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change of state from alive to dead."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "physical_action.n.01",
+        "value": "squeezing_throat",
+        "reasoning": "The definition explicitly states the action is performed 'by squeezing the throat', indicating a specific manner."
+      },
+      {
+        "verb_type": "cause",
+        "verb_property": "respiration.n.01",
+        "value_type": "cessation.n.01",
+        "reasoning": "The squeezing of the throat is done 'so as to cut off the air', directly causing the cessation of respiration, which leads to death."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of strangling is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' indicates a non-agentive subject, implying no will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Killing is inherently a negative act."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' describes an event caused by a non-agentive subject, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of strangling, when described, implies a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, albeit potentially sustained, event leading to death, rather than a repeated action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "strangle.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "physical_action.n.01",
+        "reasoning": "verb_property 'physical_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "objectification.n.01",
+            "description": "the act of representing an abstraction as a physical thing (gloss match)"
+          },
+          {
+            "synset_id": "eviction.n.01",
+            "description": "action by a landlord that compels a tenant to leave the premises (as by rendering the premises unfit for occupancy); no physical expulsion or legal process is involved (gloss match)"
+          },
+          {
+            "synset_id": "animalism.n.02",
+            "description": "preoccupation with satisfaction of physical drives and appetites (gloss match)"
+          },
+          {
+            "synset_id": "refractivity.n.01",
+            "description": "the physical property of a medium as determined by its index of refraction (gloss match)"
+          },
+          {
+            "synset_id": "conservation.n.03",
+            "description": "(physics) the maintenance of a certain quantities unchanged during chemical reactions or physical transformations (gloss match)"
+          },
+          {
+            "synset_id": "ecosystem.n.01",
+            "description": "a system formed by the interaction of a community of organisms with their physical environment (gloss match)"
+          },
+          {
+            "synset_id": "strain.n.01",
+            "description": "(physics) deformation of a physical body under the action of applied forces (gloss match)"
+          },
+          {
+            "synset_id": "comfort.n.05",
+            "description": "satisfaction or physical well-being provided by a person or thing (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "physical_action.n.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'bodily_action.n.01' directly represents a physical action and is a perfect semantic fit. (Original suggestion 'bodily_action.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

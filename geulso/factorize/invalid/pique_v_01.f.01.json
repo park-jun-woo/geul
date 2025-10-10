@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "pique.v.01",
+    "definition": "cause to feel resentment or indignation",
+    "frame_id": 1,
+    "frame_text": "Somebody pique somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The definition 'cause to feel resentment or indignation' describes a transition in an emotional state.",
+        "participants": [
+          {
+            "semantic_role": "stimulus.n.01",
+            "reasoning": "The 'Something' that causes the emotional change in the experiencer, without necessarily acting volitionally."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change in emotional state, feeling resentment or indignation."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes an event of causing an emotional state, which is often directly observed through its effects or experienced by the subject."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame is inanimate or non-agentive, implying no will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'resentment or indignation' explicitly refers to negative emotional states."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' is non-volitional, and the emotion of pique is generally an involuntary response."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of causing a feeling."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of causing an emotional response, not a repeated action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pique.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pique.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'patient.n.08' is the most appropriate semantic role for an entity undergoing an experience, aligning with the definition of 'experiencer'. (Original suggestion 'patient.n.08' was invalid in NLTK)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "detransitivize.v.01",
+    "definition": "intransitivize",
+    "frame_id": 0,
+    "frame_text": "Somebody detransitivise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "syntactic_transitivity.n.01",
+        "reasoning": "The definition 'intransitivize' and hypernym 'change' indicate a process of causing a change in the grammatical property of transitivity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of changing the transitivity of a linguistic element."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "linguistic_unit.n.01",
+            "reasoning": "The 'something' (typically a verb or linguistic structure) that undergoes the change from transitive to intransitive."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "intransitive.a.01",
+            "reasoning": "The resulting state of the patient after the action, as indicated by 'detransitivize' meaning 'to make intransitive'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of detransitivizing a linguistic element is a directly observable linguistic operation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of changing grammatical properties is neutral; it doesn't carry inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action, when described, is presented as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete act of changing the transitivity of a specific linguistic unit."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "detransitivize.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "syntactic_transitivity.n.01",
+        "reasoning": "verb_property 'syntactic_transitivity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "detransitivize.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "transitivity.n.01",
+        "corrected_reasoning": "LLM suggestion: Replaced with valid WordNet synset for the grammatical property of transitivity."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "travel_by.v.01",
+  "definition": "move past",
+  "frame_id": 31,
+  "frame_text": "Something surpass somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'travel by' and its definition 'move past' fundamentally describe a physical change in an entity's location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the action of moving.",
+          "value_type": "physical_object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that is being moved past or surpassed, serving as a reference point for the motion.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "result_state.n.01",
+          "value_type": "ahead.r.01",
+          "reasoning": "The term 'surpass' in the frame and 'move past' in the definition indicate that the result of the motion is the agent being in a position ahead of the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of moving past or surpassing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something surpass somebody' indicates that the agent is 'Something', which typically lacks inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving past or surpassing is inherently neutral in sentiment; context determines if it's positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something surpass somebody' features a non-agentive subject ('Something'), implying that the action is non-volitional (e.g., a car passing another car, the car itself isn't volitional)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of moving past another entity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'surpass' or 'move past' typically refers to a single, discrete event of one entity going beyond another, even if the underlying motion is continuous."
+    }
+  }
+}

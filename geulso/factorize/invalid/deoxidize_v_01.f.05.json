@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "deoxidize.v.01",
+    "definition": "to remove oxygen from a compound, or cause to react with hydrogen or form a hydride, or to undergo an increase in the number of electrons",
+    "frame_id": 5,
+    "frame_text": "Something reduce something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The definition 'to remove oxygen from a compound, or cause to react with hydrogen or form a hydride, or to undergo an increase in the number of electrons' clearly describes a change in the chemical composition or state of a substance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "Interpreting the verb_frame 'Something reduce something' as 'Something ----s something', the first 'Something' is the entity that causes the deoxidization (e.g., a reagent or condition)."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "Interpreting the verb_frame 'Something reduce something' as 'Something ----s something', the second 'something' is the compound or substance that undergoes the process of deoxidization."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes like deoxidization are typically observed directly in experiments or inferred from scientific data."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a factual process, fitting a declarative mood."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the causal agent in a chemical reaction is non-sentient and lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Deoxidization is a neutral chemical process; its sentiment depends entirely on the specific context of its application."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The 'Something' performing the action (e.g., another chemical, a physical condition) is non-agentive, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite chemical reaction or process when it occurs."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb typically refers to a single instance of the deoxidization process for a given compound."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "deoxidize.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "deoxidize.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Selected 'chemistry.n.02' because its gloss 'the chemical composition and properties of a substance or object' explicitly includes 'chemical composition', making it the most semantically fitting replacement among candidates for the intended meaning."
+      }
+    ],
+    "participants": []
+  }
+}

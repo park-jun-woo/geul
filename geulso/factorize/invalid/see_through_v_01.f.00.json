@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "see_through.v.01",
+    "definition": "support financially through a period of time",
+    "frame_id": 0,
+    "frame_text": "Somebody see_through somebody",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "assistance.n.01",
+        "reasoning": "The verb 'see through' in this context describes the ongoing process of providing help, specifically financial assistance, to ensure something or someone can endure a challenging period.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively provides the financial support and initiates the process."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (an entity, person, or project) that receives the financial support and is sustained through the period."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "temporal_extent.n.01",
+        "value_type": "extended_period.n.01",
+        "reasoning": "The definition explicitly includes 'through a period of time', indicating that the financial support is sustained over an extended duration rather than being a single, instantaneous act."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Providing financial support is typically a directly observable action or state of affairs."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the subject of the frame implies an agent acting with clear intention and will to provide support."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "To 'support financially' is generally considered a positive act of aid or provision."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of supporting."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'see through' describes a definite and certain act or process of support."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Supporting 'through a period of time' implies continuous or frequently repeated actions and efforts to maintain the financial assistance over the duration."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "see_through.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "temporal_extent.n.01",
+        "reasoning": "verb_property 'temporal_extent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "shortness.n.04",
+            "description": "the property of being of short temporal extent (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "see_through.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "shortness.n.04",
+        "corrected_reasoning": "Candidate 'shortness.n.04' perfectly matches the intended concept of 'temporal_extent' as described by its gloss 'the property of being of short temporal extent'."
+      }
+    ],
+    "participants": []
+  }
+}

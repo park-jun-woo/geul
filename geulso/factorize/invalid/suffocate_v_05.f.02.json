@@ -1,0 +1,102 @@
+{
+  "original": {
+    "synset_id": "suffocate.v.05",
+    "definition": "be asphyxiated; die from lack of oxygen",
+    "frame_id": 2,
+    "frame_text": "Somebody suffocate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "life.n.01",
+        "reasoning": "The definition 'die from lack of oxygen' explicitly states a terminal change in the state of being alive.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' in the frame is the entity that undergoes the change of state from alive to dead."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "lack_of_oxygen.n.01",
+            "reasoning": "The definition specifies 'lack of oxygen' as the direct cause or instrument of the suffocation, leading to death."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of suffocation (dying) is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The definition 'be asphyxiated; die from lack of oxygen' describes an event happening to the subject, not necessarily an action performed by them with will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of dying is generally considered a negative event."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The definition 'be asphyxiated; die from lack of oxygen' describes an involuntary process of dying due to external circumstances (lack of oxygen), making the action non-volitional for the subject."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of death by suffocation is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Death is a singular, terminal event that cannot be repeated for the same instance of life."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suffocate.v.05",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "lack_of_oxygen.n.01",
+        "reasoning": "value_type 'lack_of_oxygen.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "cardiopulmonary_resuscitation.n.01",
+            "description": "an emergency procedure consisting of external cardiac massage and artificial respiration; the first treatment for a person who has collapsed and has no pulse and has stopped breathing; attempts to restore circulation of the blood and prevent death or brain damage due to lack of oxygen (gloss match)"
+          },
+          {
+            "synset_id": "mycoplasma.n.01",
+            "description": "any of a group of small parasitic bacteria that lack cell walls and can survive without oxygen; can cause pneumonia and urinary tract infection (gloss match)"
+          },
+          {
+            "synset_id": "low-birth-weight_baby.n.01",
+            "description": "an infant born weighing less than 5.5 pounds (2500 grams) regardless of gestational age (gloss match)"
+          },
+          {
+            "synset_id": "asystole.n.01",
+            "description": "absence of systole; failure of the ventricles of the heart to contract (usually caused by ventricular fibrillation) with consequent absence of the heart beat leading to oxygen lack and eventually to death (gloss match)"
+          },
+          {
+            "synset_id": "stroke.n.03",
+            "description": "a sudden loss of consciousness resulting when the rupture or occlusion of a blood vessel leads to oxygen lack in the brain (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suffocate.v.05",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "hypoxia.n.01",
+        "corrected_reasoning": "LLM suggestion: 'hypoxia.n.01' (oxygen deficiency; a decrease (or absence) of oxygen) is a perfect semantic and contextual fit for 'lack_of_oxygen.n.01', which describes the state of lacking oxygen, a direct cause of suffocation."
+      }
+    ]
+  }
+}

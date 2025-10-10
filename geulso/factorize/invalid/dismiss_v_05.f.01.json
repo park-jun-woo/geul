@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "dismiss.v.05",
+    "definition": "end one's encounter with somebody by causing or permitting the person to leave",
+    "frame_id": 1,
+    "frame_text": "Somebody usher_out somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The definition 'end one's encounter with somebody' describes a termination of a social interaction, which is a change of state regarding the relationship or co-presence of individuals.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and causes the encounter to end, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose encounter is terminated, undergoing the change of social state."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "directed.a.01",
+        "reasoning": "The definition 'by causing or permitting the person to leave' and the frame's 'usher_out' component indicate a specific, controlled, or directed manner in which the departure occurs."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of dismissing someone is a directly observable interaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to end the encounter."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of dismissing an encounter is neutral; the context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' and the definition 'causing or permitting' explicitly indicate a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The termination of an encounter is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of ending an encounter."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "dismiss.v.05",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "dismiss.v.05",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "interaction.n.01",
+        "corrected_reasoning": "LLM suggestion: 'interaction.n.01' is a valid and semantically appropriate replacement for the invalid 'social_interaction.n.01', capturing the general concept of mutual action."
+      }
+    ],
+    "participants": []
+  }
+}

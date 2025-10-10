@@ -1,0 +1,72 @@
+{
+  "synset_id": "breakfast.v.01",
+  "definition": "eat an early morning meal",
+  "frame_id": 0,
+  "frame_text": "Somebody breakfast",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The verb 'breakfast' describes the act of consuming food, which is an activity that changes one's internal state (e.g., hunger) and the state of the food (from whole to consumed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of eating breakfast, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "breakfast.n.01",
+          "reasoning": "The 'something' that is consumed, which is the specific meal known as breakfast, as implied by the verb's definition 'eat an early morning meal'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporality.n.01",
+      "value_type": "early_morning.n.01",
+      "reasoning": "The definition explicitly states 'an early morning meal,' making the timing a fundamental property distinguishing 'breakfast' from other meals."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of eating breakfast is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated by the frame, so it's neutral/present."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The simple frame indicates a simple aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'breakfast' is a neutral term regarding politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of eating breakfast is neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody breakfast' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of breakfasting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the action unless otherwise specified."
+    }
+  }
+}

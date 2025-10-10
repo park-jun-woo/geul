@@ -1,0 +1,104 @@
+{
+  "original": {
+    "synset_id": "pyramid.v.01",
+    "definition": "enlarge one's holdings on an exchange on a continued rise by using paper profits as margin to buy additional amounts",
+    "frame_id": 0,
+    "frame_text": "Somebody pyramid",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The definition 'enlarge one's holdings' directly describes an increase in the quantity of what is possessed, indicating a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and executes the financial strategy, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "holdings.n.01",
+            "reasoning": "The 'holdings' of the agent that are being enlarged, as stated in the verb's definition, even if not explicitly in the surface frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value": "using paper profits as margin to buy additional amounts on an exchange on a continued rise",
+        "reasoning": "This detailed description in the definition specifies the unique financial strategy or method that constitutes the 'manner' of the 'enlargement' action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of pyramiding in the stock market is a directly observable financial transaction."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a financial action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the verb frame implies intentionality and will in performing this financial strategy."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of pyramiding is a financial strategy, inherently neutral, although it is typically undertaken with the goal of positive gain."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody pyramid' explicitly indicates a volitional agent performing the action, as it's a deliberate financial strategy."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a definite action or strategy being undertaken."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition mentions 'continued rise' and 'buy additional amounts,' indicating multiple, repeated transactions over time rather than a single event, thus implying high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pyramid.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "holdings.n.01",
+        "reasoning": "value_type 'holdings.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "presidio.n.01",
+            "description": "a fortress established in the southwestern United States by the Spanish in order to protect their missions and other holdings (gloss match)"
+          },
+          {
+            "synset_id": "buyout_bid.n.01",
+            "description": "a bid to buy all of a person's holdings (gloss match)"
+          },
+          {
+            "synset_id": "stockholding.n.01",
+            "description": "a specific number of stocks or shares owned (gloss match)"
+          },
+          {
+            "synset_id": "pyramid.n.02",
+            "description": "(stock market) a series of transactions in which the speculator increases his holdings by using the rising market value of those holdings as margin for further purchases (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pyramid.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "holding.n.01",
+        "corrected_reasoning": "LLM suggestion: 'holding.n.01' perfectly captures the concept of 'holdings' as assets owned; 'holdings' is a lemma for this synset."
+      }
+    ]
+  }
+}

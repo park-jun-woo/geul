@@ -1,0 +1,141 @@
+{
+  "original": {
+    "synset_id": "maul.v.02",
+    "definition": "injure badly by beating",
+    "frame_id": 1,
+    "frame_text": "Somebody maul somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb 'injure' describes a change in the physical state of a participant from intact to damaged.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of injuring, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change in physical state, i.e., who is injured."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "beating.n.01",
+        "reasoning": "The definition explicitly states 'by beating', indicating the manner in which the injury is inflicted."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "degree.n.01",
+        "value_type": "badly.r.01",
+        "reasoning": "The definition includes 'injure badly', specifying a high degree of severity for the injury."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of mauling and its resulting injury are typically directly observable events."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s somebody' implies a non-volitional agent ('Something'), so there is no inherent will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'injure badly' inherently carries a negative sentiment due to the harm caused."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates that the agent is non-volitional ('Something'), making the action non-intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of injury."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While 'beating' can be repetitive, the verb 'maul' refers to the resultant singular event of being injured badly, rather than the repeated actions of beating itself. It denotes a single, completed state change."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "maul.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "maul.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "physical_condition.n.01",
+        "corrected_reasoning": "LLM suggestion: 'physical_condition.n.01' is a perfect semantic and contextual fit for the intended meaning of 'physical state'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "original": {
+    "synset_id": "think_up.v.01",
+    "definition": "devise or invent",
+    "frame_id": 4,
+    "frame_text": "Somebody think_up something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state_of_existence.n.01",
+        "reasoning": "The verb 'think up' describes the process of bringing an idea or plan into conceptual existence, changing its state from non-existent to existing as a concept.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the mental act of devising or inventing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "idea.n.01",
+            "reasoning": "The 'something' that is brought into mental existence, representing a new idea, plan, or invention."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "mental_activity.n.01",
+        "reasoning": "The act of devising or inventing is specifically performed through a cognitive or intellectual process, as indicated by 'think up' and its hypernym 'create by mental act'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'thinking up' is a direct mental experience for the agent, and its results are often directly perceivable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentionality and strong will in performing the mental creation."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of devising or inventing is neutral; the inherent sentiment depends on the nature of what is thought up."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the act of conceiving."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of conceiving an idea or plan."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, distinct event of conceiving a particular idea or item."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "think_up.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "state_of_existence.n.01",
+        "reasoning": "verb_property 'state_of_existence.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "verb.n.02",
+            "description": "a content word that denotes an action, occurrence, or state of existence (gloss match)"
+          },
+          {
+            "synset_id": "avowal.n.01",
+            "description": "a statement asserting the existence or the truth of something (gloss match)"
+          },
+          {
+            "synset_id": "ukraine.n.01",
+            "description": "a republic in southeastern Europe; formerly a European soviet; the center of the original Russian state which came into existence in the ninth century (gloss match)"
+          },
+          {
+            "synset_id": "franck.n.02",
+            "description": "United States physicist (born in Germany) who with Gustav Hertz performed an electron scattering experiment that proved the existence of the stationary energy states postulated by Niels Bohr (1882-1964) (gloss match)"
+          },
+          {
+            "synset_id": "hertz.n.03",
+            "description": "German physicist who with James Franck proved the existence of the stationary energy states postulated by Bohr (1887-1975) (gloss match)"
+          },
+          {
+            "synset_id": "kennelly.n.01",
+            "description": "United States electrical engineer noted for his work on the theory of alternating currents; independently of Oliver Heaviside he discovered the existence of an atmospheric layer that reflects radio waves back to earth (1861-1939) (gloss match)"
+          },
+          {
+            "synset_id": "being.n.01",
+            "description": "the state or fact of existing (gloss match)"
+          },
+          {
+            "synset_id": "eternity.n.02",
+            "description": "a state of eternal existence believed in some religions to characterize the afterlife (gloss match)"
+          },
+          {
+            "synset_id": "presence.n.01",
+            "description": "the state of being present; current existence (gloss match)"
+          },
+          {
+            "synset_id": "transcendence.n.01",
+            "description": "a state of being or existence above and beyond the limits of material experience (gloss match)"
+          },
+          {
+            "synset_id": "nothingness.n.01",
+            "description": "the state of nonexistence (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "think_up.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "being.n.01",
+        "corrected_reasoning": "Selected 'being.n.01' from candidates as it perfectly matches the meaning of 'state of existence'."
+      }
+    ],
+    "participants": []
+  }
+}

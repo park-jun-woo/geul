@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "boil.v.01",
+    "definition": "come to the boiling point and change from a liquid to vapor",
+    "frame_id": 1,
+    "frame_text": "Somebody boil something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "phase_state.n.01",
+        "reasoning": "The definition 'come to the boiling point and change from a liquid to vapor' describes a transformation of physical state, and the act of 'boiling' (when caused by an agent) brings about this change.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is interpreted as the volitional agent who initiates or causes the process of boiling, consistent with the rule that 'Somebody' implies volitionality for the action. While the patient (the liquid) is implicit in this specific frame, the 'Somebody' is the explicit causal agent."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of boiling is a directly observable physical phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or a process being caused."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention to cause something to boil."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of boiling itself is a neutral physical process; context determines any positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody boil' is interpreted as a causative action where 'Somebody' is a volitional agent, causing an implicit liquid to boil, adhering to the rule that 'Somebody' frames imply volitionality."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of boiling is described as a definite occurrence or initiation of a process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, continuous process of causing something to reach boiling point and change state, rather than a repetitive sequence of discrete actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "boil.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "phase_state.n.01",
+        "reasoning": "verb_property 'phase_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "phase.n.04",
+            "description": "(astronomy) the particular appearance of a body's state of illumination (especially one of the recurring shapes of the part of Earth's moon that is illuminated by the sun) (gloss match)"
+          },
+          {
+            "synset_id": "change.n.01",
+            "description": "an event that occurs when something passes from one state or phase to another (gloss match)"
+          },
+          {
+            "synset_id": "mung.n.01",
+            "description": "erect bushy annual widely cultivated in warm regions of India and Indonesia and United States for forage and especially its edible seeds; chief source of bean sprouts used in Chinese cookery; sometimes placed in genus Phaseolus (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "boil.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "phase.n.02",
+        "corrected_reasoning": "Candidate 'phase.n.02' ('a distinct state of matter') is a perfect semantic and contextual replacement for 'phase_state.n.01' as it precisely defines 'phase' as a 'state of matter', directly aligning with the concept of phase changes involved in boiling."
+      }
+    ],
+    "participants": []
+  }
+}

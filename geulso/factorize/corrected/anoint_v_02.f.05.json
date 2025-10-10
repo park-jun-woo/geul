@@ -1,0 +1,63 @@
+{
+  "synset_id": "anoint.v.02",
+  "definition": "administer an oil or ointment to ; often in a religious ceremony of blessing",
+  "frame_id": 5,
+  "frame_text": "Somebody anoint something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "application.n.01",
+      "reasoning": "The verb describes the physical action of applying a substance to a surface, as per 'administer an oil or ointment to'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the anointing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' to which the oil or ointment is applied, undergoing the action."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "pomade.n.01",
+          "reasoning": "The specific substance (oil or ointment) that is administered, as directly mentioned in the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "blessing.n.01",
+      "reasoning": "The definition explicitly states the action is 'often in a religious ceremony of blessing', indicating a purpose of consecration or spiritual benefit, which is a key semantic component distinguishing it from mere application."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of anointing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "While the act of applying oil can be neutral, the explicit mention of 'blessing' in the definition gives this specific sense of 'anoint' a positive connotation related to sanctification."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of anointing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of anointing, not continuous repetition within one instance."
+    }
+  }
+}

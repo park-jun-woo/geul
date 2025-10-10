@@ -1,0 +1,123 @@
+{
+  "original": {
+    "synset_id": "exercise.v.03",
+    "definition": "give a workout to",
+    "frame_id": 5,
+    "frame_text": "Somebody work_out something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_activity.n.01",
+        "reasoning": "The verb describes causing a patient to transition into a state of physical activity, changing its current state of rest or non-exertion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and causes the 'something' to undergo a workout."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (e.g., a horse, a muscle) that is subjected to the workout and performs physical activity."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "activity_type.n.01",
+        "value_type": "workout.n.01",
+        "reasoning": "The definition 'give a workout to' specifies the particular type of physical activity caused, which is a 'workout'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of giving a workout is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of exercising or giving a workout is generally neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody work_out something' explicitly includes a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of giving a workout is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of causing a workout, not an inherently repetitive action itself, although the workout might contain repetitive elements."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "exercise.v.03",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "physical_activity.n.01",
+        "reasoning": "verb_property 'physical_activity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "space_walk.n.01",
+            "description": "any kind of physical activity outside a spacecraft by one of the crew (gloss match)"
+          },
+          {
+            "synset_id": "exercise.n.01",
+            "description": "the activity of exerting your muscles in various ways to keep fit (gloss match)"
+          },
+          {
+            "synset_id": "basic_training.n.01",
+            "description": "the initial period of training for new military personnel; involves intense physical activity and behavioral discipline (gloss match)"
+          },
+          {
+            "synset_id": "regeneration.n.03",
+            "description": "the activity of spiritual or physical renewal (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "exercise.v.03",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "activity_type.n.01",
+        "reasoning": "verb_property 'activity_type.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "tax_benefit.n.01",
+            "description": "a tax deduction that is granted in order to encourage a particular type of commercial activity (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "exercise.v.03",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "exercise.n.01",
+        "corrected_reasoning": "Candidate 'exercise.n.01' is a perfect semantic and contextual fit, representing the noun form of physical activity associated with the verb 'exercise'."
+      },
+      {
+        "synset_id": "exercise.v.03",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate or LLM suggestion met the >99% confidence threshold for 'activity_type.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

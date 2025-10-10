@@ -1,0 +1,106 @@
+{
+  "original": {
+    "synset_id": "negate.v.03",
+    "definition": "prove negative; show to be false",
+    "frame_id": 2,
+    "frame_text": "Somebody negate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "truth_value.n.01",
+        "reasoning": "The definition 'prove negative; show to be false' indicates a change in the perceived truth value of a proposition to falsity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who performs the action of proving or showing something to be false."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "proposition.n.01",
+            "reasoning": "The 'CLAUSE' represents the proposition whose truth value is being negated or shown to be false."
+          }
+        ]
+      },
+      {
+        "verb_type": "resultant_state",
+        "verb_property": "false.a.01",
+        "reasoning": "The verb 'negate' specifically means to prove something to be false or negative, indicating the resulting state of the patient.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "proposition.n.01",
+            "reasoning": "The 'CLAUSE' is what becomes false or negative as a result of the negation."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'proving' or 'showing' implies direct demonstration or a basis in fact, aligning with direct experience or verifiable evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or the establishment of a fact."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies that the action of negating is performed with intent and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of negating itself is neutral. While the outcome (falsity) might be perceived negatively in some contexts, the verb 'negate' describes an objective process of disproving, not an inherently positive or negative action."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ---- that CLAUSE' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "'Prove' implies a high degree of certainty in the established falsity or negativity."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of proving a proposition false, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "negate.v.03",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "truth_value.n.01",
+        "reasoning": "verb_property 'truth_value.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "accuracy.n.01",
+            "description": "the quality of being near to the true value (gloss match)"
+          },
+          {
+            "synset_id": "fuzzy_logic.n.01",
+            "description": "a form of mathematical logic in which truth can assume a continuum of values between 0 and 1 (gloss match)"
+          },
+          {
+            "synset_id": "descriptivism.n.01",
+            "description": "(ethics) a doctrine holding that moral statements have a truth value (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "negate.v.03",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "None of the provided candidates met the >99% confidence threshold for semantic and contextual replacement of 'truth_value.n.01', nor could a perfect alternative be found from internal knowledge."
+      }
+    ],
+    "participants": []
+  }
+}

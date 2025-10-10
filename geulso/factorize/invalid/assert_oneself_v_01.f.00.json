@@ -1,0 +1,96 @@
+{
+  "original": {
+    "synset_id": "assert_oneself.v.01",
+    "definition": "put oneself forward in an assertive and insistent manner",
+    "frame_id": 0,
+    "frame_text": "Somebody assert_oneself",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "influence.n.01",
+        "reasoning": "The verb describes an action that causes a change in one's social standing or influence, as implied by 'put oneself forward'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the act of asserting."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "social_standing.n.01",
+            "reasoning": "The 'oneself' refers to the agent's own social position or presence, which is the entity affected by the assertion. This patient is coreferential with the causal agent."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "assertive.a.01",
+        "reasoning": "The definition explicitly states 'in an assertive and insistent manner', indicating a core property of the action's execution."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of asserting oneself is a directly observable or experienced action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody assert_oneself' implies the agent acts with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of asserting oneself is neutral; its positive or negative sentiment depends on context and degree."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody assert_oneself' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of asserting oneself is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a singular event or instance of putting oneself forward, not an inherently continuous or highly repetitive physical motion."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "assert_oneself.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "social_standing.n.01",
+        "reasoning": "value_type 'social_standing.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "understanding.n.01",
+            "description": "the cognitive condition of someone who understands (gloss match)"
+          },
+          {
+            "synset_id": "standing.n.01",
+            "description": "social or financial or professional status or reputation (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "assert_oneself.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "standing.n.01",
+        "corrected_reasoning": "Candidate 'standing.n.01' perfectly matches the meaning of 'social_standing.n.01' as it refers to social status or reputation."
+      }
+    ]
+  }
+}

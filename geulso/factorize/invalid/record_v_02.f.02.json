@@ -1,0 +1,143 @@
+{
+  "original": {
+    "synset_id": "record.v.02",
+    "definition": "register electronically",
+    "frame_id": 2,
+    "frame_text": "Somebody tape somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "information_state.n.01",
+        "reasoning": "The verb 'record' implies a change in the state of information, from not being registered to being stored or captured.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' (e.g., a device, system) that performs the action of registering, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose information, image, or sound is being captured and stored."
+          }
+        ]
+      },
+      {
+        "verb_type": "manner",
+        "verb_property": "medium.n.01",
+        "value_type": "electronic.a.01",
+        "reasoning": "The definition explicitly states 'electronically', indicating the specific medium or method of registration."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of recording is typically a directly observable event or its result is directly verifiable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame implies a non-volitional entity, lacking conscious will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of recording is inherently neutral; its positive or negative sentiment depends on the context or what is recorded."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject (a device or system) performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'record' implies a definite and successful act of registration or capture."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While recording can be a continuous process, the verb 'record' in this context refers to a single instance or a completed act of capturing information about 'somebody'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "record.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "information_state.n.01",
+        "reasoning": "verb_property 'information_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "posthypnotic_amnesia.n.01",
+            "description": "selective amnesia after being in a hypnotic state of events occurring during hypnosis or of information designated by the hypnotist (gloss match)"
+          },
+          {
+            "synset_id": "fishing_expedition.n.01",
+            "description": "an investigation undertaken in the hope (but not the stated purpose) of discovering information (gloss match)"
+          },
+          {
+            "synset_id": "fact.n.02",
+            "description": "a statement or assertion of verified information about something that is the case or has happened (gloss match)"
+          },
+          {
+            "synset_id": "medical_literature_analysis_and_retrieval_system.n.01",
+            "description": "relational database of the United States National Library of Medicine for the storage and retrieval of bibliographical information concerning the biomedical literature (gloss match)"
+          },
+          {
+            "synset_id": "announcement.n.02",
+            "description": "a public statement containing information about an event that has happened or is going to happen (gloss match)"
+          },
+          {
+            "synset_id": "remark.n.01",
+            "description": "a statement that expresses a personal opinion or belief or adds information (gloss match)"
+          },
+          {
+            "synset_id": "bureau_of_the_census.n.01",
+            "description": "the bureau of the Commerce Department responsible for taking the census; provides demographic information and analyses about the population of the United States (gloss match)"
+          },
+          {
+            "synset_id": "air_force_intelligence_surveillance_and_reconnaissance.n.01",
+            "description": "an agency focused on ensuring that the United States military attains information superiority; operates worldwide ground sites and an array of airborne reconnaissance and surveillance platforms (gloss match)"
+          },
+          {
+            "synset_id": "national_security_agency.n.01",
+            "description": "the United States cryptologic organization that coordinates and directs highly specialized activities to protect United States information systems and to produce foreign intelligence information (gloss match)"
+          },
+          {
+            "synset_id": "problem_solver.n.01",
+            "description": "a thinker who focuses on the problem as stated and tries to synthesize information and knowledge to achieve a solution (gloss match)"
+          },
+          {
+            "synset_id": "spy.n.01",
+            "description": "(military) a secret agent hired by a state to obtain information about its enemies or by a business to obtain industrial secrets from competitors (gloss match)"
+          },
+          {
+            "synset_id": "fuchs.n.01",
+            "description": "British physicist who was born in Germany and fled Nazi persecution; in the 1940s he passed secret information to the USSR about the development of the atom bomb in the United States (1911-1988) (gloss match)"
+          },
+          {
+            "synset_id": "hollerith.n.01",
+            "description": "United States inventor who invented a system for recording alphanumeric information on punched cards (1860-1929) (gloss match)"
+          },
+          {
+            "synset_id": "bit.n.06",
+            "description": "a unit of measurement of information (from binary + digit); the amount of information in a system having two equiprobable states (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "record.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "information.n.04",
+        "corrected_reasoning": "LLM suggestion. 'information.n.04' (data that can be stored and processed) is a perfect semantic and contextual fit for the verb_property of 'record.v.02' (to set down in some permanent form)."
+      }
+    ],
+    "participants": []
+  }
+}

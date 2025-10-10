@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "abstain.v.02",
+    "definition": "choose not to consume",
+    "frame_id": 4,
+    "frame_text": "Somebody desist PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cessation.n.01",
+        "reasoning": "The verb describes an action that causes a change from a state of potential engagement in an activity (consumption) to a state of stopping or refraining from that activity, aligning with 'desist'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively chooses and performs the action of refraining."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "consumable_item.n.01",
+            "reasoning": "The 'PP' specifies the item or activity from which the agent is abstaining, which is a consumable item as implied by the definition 'choose not to consume'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of abstaining involves a direct choice and action by the agent."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state of refraining."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The definition 'choose not to consume' explicitly indicates the agent's strong will and intention to refrain."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of abstaining is neutral; its sentiment depends on context or the item being abstained from."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody desist PP' and the definition 'choose not to consume' clearly indicate an intentional, volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of choosing to abstain implies a definite decision and action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Abstaining often implies a sustained or repeated effort to refrain over time, rather than a single discrete event, thus having high iterativity in the context of maintaining the state of non-consumption."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "abstain.v.02",
+        "frame_id": 4,
+        "key": "value_type",
+        "value": "consumable_item.n.01",
+        "reasoning": "value_type 'consumable_item.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "abstain.v.02",
+        "frame_id": 4,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'ingestible.n.01' is a perfect semantic replacement for 'consumable_item.n.01'. (Original suggestion 'ingestible.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

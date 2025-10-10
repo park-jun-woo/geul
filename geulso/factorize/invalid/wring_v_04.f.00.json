@@ -1,0 +1,102 @@
+{
+  "original": {
+    "synset_id": "wring.v.04",
+    "definition": "twist, squeeze, or compress in order to extract liquid",
+    "frame_id": 0,
+    "frame_text": "Somebody wring something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "liquid_content.n.01",
+        "reasoning": "The verb's primary effect is to alter the liquid content of the 'something', reducing it by extraction.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the wringing action, causing the change in liquid content."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the change in liquid content, becoming less wet."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "physical_manipulation.n.01",
+        "value": "twist_squeeze_compress",
+        "reasoning": "The definition explicitly describes the physical actions ('twist, squeeze, or compress') by which the liquid extraction is achieved."
+      },
+      {
+        "verb_type": "goal",
+        "verb_property": "extraction.n.01",
+        "value_type": "liquid.n.01",
+        "reasoning": "The phrase 'in order to extract liquid' clearly states the purpose or goal of the wringing action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Wringing is a physical action that can be directly observed."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the verb frame implies that the action is carried out with intent and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of wringing is semantically neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody wring something' indicates that the action is performed intentionally by a volitional agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite and certain action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Wringing typically involves a sustained or repeated application of twisting and squeezing to achieve the goal of liquid extraction, implying a high degree of repetition in the action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "wring.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "liquid_content.n.01",
+        "reasoning": "verb_property 'liquid_content.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "reflux_condenser.n.01",
+            "description": "condenser such that vapor over a boiling liquid is condensed and flows back into the vessel to prevent its contents from boiling dry (gloss match)"
+          },
+          {
+            "synset_id": "clot.n.01",
+            "description": "a lump of material formed from the content of a liquid (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "wring.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "liquid.n.01",
+        "corrected_reasoning": "LLM suggestion: 'liquid.n.01' is a direct and precise replacement for 'liquid_content.n.01' as the property being acted upon or extracted by 'wring.v.04'."
+      }
+    ],
+    "participants": []
+  }
+}

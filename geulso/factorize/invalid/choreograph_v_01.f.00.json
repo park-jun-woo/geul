@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "choreograph.v.01",
+    "definition": "compose a sequence of dance steps, often to music",
+    "frame_id": 0,
+    "frame_text": "Somebody choreograph",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "creation.n.01",
+        "reasoning": "The verb 'choreograph' describes the act of bringing into existence a new artistic work, specifically a dance sequence, which aligns with the concept of creation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of composing the dance steps."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "dance_routine.n.01",
+            "reasoning": "The inherent object of 'choreograph' is the 'sequence of dance steps' that is composed, even if not explicitly stated in this specific intransitive frame, it is core to the verb's meaning from the definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of choreographing is a directly observable and experiential process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Composing a dance is an intentional act driven by the agent's will and artistic purpose."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of choreographing itself is neutral; the resulting dance or context may impart sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' combined with 'compose' indicates an intentional and volitional action by the agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of choreographing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process of choreographing involves many individual movements, the act of 'composing a sequence' refers to a single, complete creative event or work."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "choreograph.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "dance_routine.n.01",
+        "reasoning": "value_type 'dance_routine.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "choreograph.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "dance.n.03",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'dance routine'."
+      }
+    ]
+  }
+}

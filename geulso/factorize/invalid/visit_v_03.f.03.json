@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "visit.v.03",
+    "definition": "pay a brief visit",
+    "frame_id": 3,
+    "frame_text": "Somebody visit somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_contact.n.01",
+        "reasoning": "The verb 'visit' describes an action of going to a specific person or place to engage in social interaction or spend time, as supported by the definition 'pay a brief visit' and hypernym 'meet' (get together socially).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of visiting and initiates the social contact, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is the object of the visit and with whom social contact is made, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "duration.n.02",
+        "value_type": "brief.a.01",
+        "reasoning": "The definition explicitly states 'pay a brief visit', indicating that the visit is characterized by a short duration."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of visiting is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of visiting is inherently neutral; its positive or negative sentiment depends on the context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody visit somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of visiting is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'a brief visit' describes a single, discrete instance of the action rather than a repeated or continuous one."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "visit.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "social_contact.n.01",
+        "reasoning": "verb_property 'social_contact.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "introvert.n.01",
+            "description": "(psychology) a person who tends to shrink from social contacts and to become preoccupied with their own thoughts (gloss match)"
+          },
+          {
+            "synset_id": "schizophrenia.n.01",
+            "description": "any of several psychotic disorders characterized by distortions of reality and disturbances of thought and language and withdrawal from social contact (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "visit.v.03",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "intercourse.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}

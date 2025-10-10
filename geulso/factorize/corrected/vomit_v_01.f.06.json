@@ -1,0 +1,70 @@
+{
+  "synset_id": "vomit.v.01",
+  "definition": "eject the contents of the stomach through the mouth",
+  "frame_id": 6,
+  "frame_text": "Somebody honk",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes a physical process of moving contents from inside the body to outside, which is a change in location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' whose body performs the act of ejection, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "regurgitation.n.02",
+          "reasoning": "The 'contents of the stomach' are the material undergoing the change of location, implicit in the verb's definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "stomach.n.01",
+          "reasoning": "The contents originate from the stomach, as per the definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "outside.n.01",
+          "reasoning": "The contents are ejected to the outside of the body."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "path.n.01",
+      "value_type": "mouth.n.01",
+      "reasoning": "The definition explicitly states 'through the mouth', specifying the precise path of expulsion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Vomiting is a directly observable physiological event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While a 'Somebody' is the subject, the act of vomiting is largely an involuntary physiological response, not typically driven by strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of vomiting is generally associated with illness, discomfort, or disgust, hence it carries a negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Despite having a human subject ('Somebody'), vomiting is primarily a non-volitional, reflexive action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence when it happens."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Each instance of vomiting is considered a single, distinct event, even if it might be repeated."
+    }
+  }
+}

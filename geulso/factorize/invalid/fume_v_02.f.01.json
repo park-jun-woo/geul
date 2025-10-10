@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "fume.v.02",
+    "definition": "emit a cloud of fine particles",
+    "frame_id": 1,
+    "frame_text": "Something smoke",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "emission.n.01",
+        "reasoning": "The verb 'fume' specifically means to 'emit', which is an action of giving off a substance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame is the entity that performs the action of emitting, acting as the source.",
+            "value_type": "source.n.03"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'cloud of fine particles' is the substance that is emitted, the direct object of the emission.",
+            "value_type": "cloud_of_particles.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of fuming is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something smoke' indicates a non-agentive subject, implying no will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of fuming is neutral; its positive or negative connotation depends on the context (e.g., pollution vs. steam from food)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something smoke' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of fuming is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Emitting a 'cloud of fine particles' implies a continuous or highly repetitive release of individual particles over a period, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fume.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "cloud_of_particles.n.01",
+        "reasoning": "value_type 'cloud_of_particles.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "coma.n.03",
+            "description": "(astronomy) the luminous cloud of particles surrounding the frozen nucleus of a comet; forms as the comet approaches the sun and is warmed (gloss match)"
+          },
+          {
+            "synset_id": "aerosol.n.01",
+            "description": "a cloud of solid or liquid particles in a gas (gloss match)"
+          },
+          {
+            "synset_id": "cosmic_dust.n.01",
+            "description": "clouds of particles or gases occurring throughout interstellar space (gloss match)"
+          },
+          {
+            "synset_id": "smoke.n.01",
+            "description": "a cloud of fine particles suspended in a gas (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fume.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "smoke.n.01",
+        "corrected_reasoning": "Candidate 'smoke.n.01' ('a cloud of fine particles suspended in a gas') is a perfect semantic and contextual fit for 'cloud_of_particles.n.01' in the context of 'fume.v.02' (to emit smoke or fumes)."
+      }
+    ]
+  }
+}

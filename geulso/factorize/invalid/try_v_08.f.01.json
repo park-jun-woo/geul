@@ -1,0 +1,144 @@
+{
+  "original": {
+    "synset_id": "try.v.08",
+    "definition": "melt (fat or lard) in order to separate out impurities",
+    "frame_id": 1,
+    "frame_text": "Somebody try something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb 'try' in this context means to melt, which involves a change in the physical state of the substance from solid to liquid.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the melting process."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (fat or lard) that undergoes the change in physical state."
+          }
+        ]
+      },
+      {
+        "verb_type": "change",
+        "verb_property": "purity.n.01",
+        "reasoning": "The definition explicitly states the purpose of melting is 'in order to separate out impurities,' indicating a change in the purity or composition of the substance.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (fat or lard) that undergoes the change in purity as impurities are separated."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of melting and purifying a substance is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies that the action is performed with intention and will."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb itself carries no inherent politeness level for this specific meaning."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The process of melting fat to purify it is a neutral, technical action."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody try something' clearly indicates a volitional agent performing the action of melting and purifying."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite, certain action or process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, bounded event of processing a quantity of substance, not an inherently repetitive action within its core meaning."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "try.v.08",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "try.v.08",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion: 'state.n.02' is a general term for 'state' and can encompass physical attributes, serving as a suitable replacement for the invalid 'physical_state.n.01' when no specific 'physical_state' synset exists."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "coincide.v.01",
+    "definition": "go with, fall together",
+    "frame_id": 1,
+    "frame_text": "Something coincide",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "concurrence.n.01",
+        "reasoning": "The definition 'go with, fall together' describes a continuous state of two or more things existing or happening together in time or space.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that is the primary subject in the state of coinciding."
+          },
+          {
+            "semantic_role": "co-patient.n.01",
+            "reasoning": "The entity or circumstance introduced by the prepositional phrase (PP) with which the primary subject coincides."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of things coinciding is typically perceived through direct observation or experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a factual state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something is coincideing' indicates a non-agentive subject, thus no inherent will or intention is involved."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb frame 'Something *is coincideing*' explicitly uses the progressive aspect."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of coinciding is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is coincideing' indicates a non-agentive subject ('Something'), making the state inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "A statement about things coinciding implies certainty about that state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state (indicated by the progressive aspect), it represents a single, ongoing instance rather than a repeated action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "coincide.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "co-patient.n.01",
+        "reasoning": "semantic_role 'co-patient.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "coincide.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "patient.n.01",
+        "corrected_reasoning": "LLM suggestion: 'co-patient.n.01' is not a valid synset in NLTK; 'patient.n.01' is the most appropriate general semantic role for an entity undergoing the state of coinciding."
+      }
+    ]
+  }
+}

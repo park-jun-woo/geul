@@ -1,0 +1,81 @@
+{
+  "original": {
+    "synset_id": "exsiccate.v.01",
+    "definition": "lose water or moisture",
+    "frame_id": 3,
+    "frame_text": "Somebody exsiccate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moisture_content.n.01",
+        "reasoning": "The definition 'lose water or moisture' describes a transition in the amount of moisture present, which is a change of state from having moisture to having less or none.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' in this frame is the entity that undergoes the process of losing moisture, and is therefore the patient of the change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of losing moisture can be directly observed or its effects inferred, aligning with direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Somebody' in this frame is the patient undergoing the change, not an agent exercising will to perform the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of losing moisture is neutral; its positive or negative sentiment is dependent on the context (e.g., beneficial for drying, negative for dehydration)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "With the definition 'lose water or moisture' and a 'Somebody' subject, the action describes a non-volitional process (like dehydration or passive drying) that 'Somebody' undergoes, rather than an intentional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of losing moisture is described as a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, continuous process of moisture loss, rather than a series of distinct, repetitive events."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "exsiccate.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "moisture_content.n.01",
+        "reasoning": "verb_property 'moisture_content.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "tensiometer.n.01",
+            "description": "a measuring instrument for measuring the moisture content of soil (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "exsiccate.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: perfect semantic replacement for original invalid value. (Original suggestion 'water_content.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

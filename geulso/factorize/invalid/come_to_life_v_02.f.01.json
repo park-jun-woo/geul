@@ -1,0 +1,81 @@
+{
+  "original": {
+    "synset_id": "come_to_life.v.02",
+    "definition": "be lifelike, as of a painting",
+    "frame_id": 1,
+    "frame_text": "Something come_to_life",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "lifelikeness.n.01",
+        "reasoning": "The definition 'be lifelike' describes an inherent quality or state of resembling something living, not an action or a change.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' in the frame, which refers to the entity (e.g., a painting) that possesses the quality of being lifelike, as clarified by the definition. This entity is undergoing a descriptive state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The judgment of something being 'lifelike' is typically based on direct sensory perception or observation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a state of being or quality."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "This verb describes a perceived quality or state, not an action driven by the will or intention of the grammatical subject (which is often inanimate in this sense, like a painting)."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Being 'lifelike' is generally a neutral descriptive quality, though context can imbue it with positive or negative connotations (e.g., a lifelike portrait vs. a lifelike robot)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb describes an inherent characteristic or perceived state of an object (e.g., a painting), not an intentional action performed by a volitional agent. The grammatical 'Somebody' refers to the object being described."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The statement 'be lifelike' implies a direct observation and certainty about that state or quality."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state or quality, the concept of repetition is not applicable. It is treated as a single, ongoing instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "come_to_life.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "lifelikeness.n.01",
+        "reasoning": "verb_property 'lifelikeness.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "come_to_life.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "verisimilitude.n.01",
+        "corrected_reasoning": "LLM suggestion: 'verisimilitude.n.01' perfectly captures the meaning of 'lifelikeness' as the appearance of truth or reality."
+      }
+    ],
+    "participants": []
+  }
+}

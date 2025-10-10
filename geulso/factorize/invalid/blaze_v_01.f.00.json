@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "blaze.v.01",
+    "definition": "shine brightly and intensively",
+    "frame_id": 0,
+    "frame_text": "Something blaze",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "light_emission.n.01",
+        "reasoning": "The core meaning of 'blaze' is the ongoing activity of emitting light.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of emitting light, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "degree.n.01",
+        "value_type": "high.a.01",
+        "reasoning": "The definition explicitly states 'brightly and intensively', indicating a high degree of brightness and intensity of the light emission."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of blazing is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an ongoing process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something blaze' lacks an agent capable of will, as blazing is an inherent process of the subject."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of blazing is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something blaze' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of blazing is described as a definite occurrence or ongoing process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a continuous, unbroken process of shining, not a series of discrete repetitions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "blaze.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "light_emission.n.01",
+        "reasoning": "verb_property 'light_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "laser.n.01",
+            "description": "an acronym for light amplification by stimulated emission of radiation; an optical device that produces an intense monochromatic beam of coherent light (gloss match)"
+          },
+          {
+            "synset_id": "orthicon.n.01",
+            "description": "a now obsolete picture pickup tube in a television camera; electrons emitted from a photoemissive surface in proportion to the intensity of the incident light are focused onto the target causing secondary emission of electrons (gloss match)"
+          },
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          },
+          {
+            "synset_id": "incandescence.n.01",
+            "description": "the phenomenon of light emission by a body as its temperature is raised (gloss match)"
+          },
+          {
+            "synset_id": "elves.n.01",
+            "description": "an acronym for emissions of light and very low frequency perturbations due to electromagnetic pulse sources; extremely bright extremely short (less than a msec) electrical flashes forming a huge ring (up to 400 km diameter) in the ionosphere (gloss match)"
+          },
+          {
+            "synset_id": "lightning.n.01",
+            "description": "abrupt electric discharge from cloud to cloud or from cloud to earth accompanied by the emission of light (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "blaze.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "incandescence.n.01",
+        "corrected_reasoning": "Candidate 'incandescence.n.01' perfectly describes the phenomenon of light emission."
+      }
+    ],
+    "participants": []
+  }
+}

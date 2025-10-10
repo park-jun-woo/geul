@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "hang_up.v.03",
+    "definition": "interrupt a telephone conversation",
+    "frame_id": 1,
+    "frame_text": "Somebody hang_up PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "integrity.n.01",
+        "reasoning": "The verb describes causing a change in the state of a telephone conversation from active/connected to terminated/disconnected.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the intentional initiator of the action to interrupt the conversation."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "conversation.n.01",
+            "reasoning": "The implicit 'something' that is being interrupted or terminated is a telephone conversation, as per the definition."
+          },
+          {
+            "semantic_role": "affected_entity.n.01",
+            "reasoning": "The 'PP' in the frame often refers to the other participant in the conversation (e.g., 'on somebody') who is directly affected by the termination."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Interrupting a call is typically a directly observable or experienced action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of hanging up itself is neutral; its sentiment depends on the context and circumstances."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of interrupting the conversation."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of hanging up is described as a definite occurrence or action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of terminating a specific conversation."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hang_up.v.03",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "affected_entity.n.01",
+        "reasoning": "semantic_role 'affected_entity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "affected_role.n.01",
+            "description": "the semantic role of an entity that is not the agent but is directly involved in or affected by the happening denoted by the verb in the clause (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hang_up.v.03",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "affected_role.n.01",
+        "corrected_reasoning": "Selected candidate 'affected_role.n.01' as a perfect semantic and contextual replacement for the invalid 'affected_entity.n.01' as it describes the semantic role of an entity affected by an action."
+      }
+    ]
+  }
+}

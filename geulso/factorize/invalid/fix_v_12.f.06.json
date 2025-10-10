@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "fix.v.12",
+    "definition": "make ready or suitable or equip in advance for a particular purpose or for some use, event, etc",
+    "frame_id": 6,
+    "frame_text": "Somebody gear_up somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "readiness.n.01",
+        "reasoning": "The definition 'make ready or suitable or equip in advance' describes a transition to a state of being ready or prepared.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the act of preparing, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "entity.n.01",
+            "reasoning": "The entity that undergoes the change into a state of readiness. In this reflexive frame 'Somebody fix to INFINITIVE', the causal agent is implicitly also the patient, preparing themselves for the action."
+          },
+          {
+            "semantic_role": "purpose.n.01",
+            "value_type": "infinitive_clause",
+            "reasoning": "The 'to INFINITIVE' clause specifies the particular purpose or future action for which the preparation is made."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of making ready or equipping is typically a directly observable event or an internal state known to the agent."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame, along with the act of 'making ready', indicates a strong will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of preparing is generally neutral; the outcome or purpose may carry sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of preparation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'fix to INFINITIVE' describes a single act of completing preparation for a specific future action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fix.v.12",
+        "frame_id": 6,
+        "key": "value_type",
+        "value": "infinitive_clause",
+        "reasoning": "value_type 'infinitive_clause' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "infinitival.a.01",
+            "description": "relating to or formed with the infinitive (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "fix.v.12",
+        "frame_id": 6,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement for 'infinitive_clause' found in candidates or internal knowledge that meets >99% confidence."
+      }
+    ]
+  }
+}

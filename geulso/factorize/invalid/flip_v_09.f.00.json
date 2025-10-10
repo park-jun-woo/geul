@@ -1,0 +1,109 @@
+{
+  "original": {
+    "synset_id": "flip.v.09",
+    "definition": "react in an excited, delighted, or surprised way",
+    "frame_id": 0,
+    "frame_text": "Somebody flip",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "response.n.01",
+        "reasoning": "The verb describes the act of manifesting an emotional reaction to an internal or external stimulus.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who undergoes and expresses the emotional reaction, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "emotional_expression_manner.n.01",
+        "value": "excited, delighted, or surprised",
+        "reasoning": "A core semantic component of 'flip' in this sense is the specific manner of emotional expression, characterized by excitement, delight, or surprise, as stated in the definition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The emotional reaction, particularly its outward manifestation, is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Emotional reactions described by 'flip' are often spontaneous and overwhelming, not primarily driven by the agent's conscious will or intention, making modality neutral or non-existent for the core reaction."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While 'excited' and 'delighted' are positive, 'surprised' can be neutral or have varying valence depending on context. The verb itself is neutral, describing a type of reaction rather than its inherent positivity or negativity."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb 'flip' in this context describes an emotional reaction that is often sudden, intense, and largely involuntary. One typically reacts 'by flipping' rather than intentionally 'flips' as a deliberate act, similar to other non-volitional mental states or perceptions."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a reaction."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of such a reaction, though it can recur."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "flip.v.09",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "emotional_expression_manner.n.01",
+        "reasoning": "verb_property 'emotional_expression_manner.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "flip.v.09",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "flip.v.09",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "expression.n.01",
+        "corrected_reasoning": "LLM suggestion: 'expression.n.01' is the closest valid synset representing the concept of emotional expression."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "flip.v.09",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'experiencer.n.01' was found to be a valid synset in NLTK WordNet, contrary to the input's reasoning. (Original suggestion 'experiencer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

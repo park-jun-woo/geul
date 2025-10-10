@@ -1,0 +1,106 @@
+{
+  "original": {
+    "synset_id": "decimate.v.01",
+    "definition": "kill one in every ten, as of mutineers in Roman armies",
+    "frame_id": 0,
+    "frame_text": "Somebody decimate somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "life.n.01",
+        "reasoning": "The definition 'kill' indicates a change from a state of being alive to being dead.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of killing, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who is killed, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "quantity.n.01",
+        "value_type": "proportion.n.01",
+        "value": "one in every ten",
+        "reasoning": "The core semantic distinction of 'decimate' is the specific proportion of the group that is killed, as per the definition 'kill one in every ten'."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "target_group.n.01",
+        "value_type": "group.n.01",
+        "reasoning": "The action inherently applies to a group from which a proportion is selected, e.g., 'mutineers in Roman armies'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of decimating is typically a directly observed or definitively reported event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent in the frame implies an intentional action driven by will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The verb 'decimate' involves killing, which carries an inherently negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody decimate somebody' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of decimating is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Although applied to a group, 'decimate' refers to a single, complete act of applying this specific form of punishment to that group, not a continuous or repeated series of such acts."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "decimate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "target_group.n.01",
+        "reasoning": "verb_property 'target_group.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "bowling_pin.n.01",
+            "description": "a club-shaped wooden object used in bowling; set up in triangular groups of ten as the target (gloss match)"
+          },
+          {
+            "synset_id": "national_liberation_army.n.01",
+            "description": "a Marxist terrorist group formed in 1963 by Colombian intellectuals who were inspired by the Cuban Revolution; responsible for a campaign of mass kidnappings and resistance to the government's efforts to stop the drug trade (gloss match)"
+          },
+          {
+            "synset_id": "tupac_katari_guerrilla_army.n.01",
+            "description": "a terrorist group that is the remnants of the original Bolivian insurgents trained by Che Guevara; attacks small unprotected targets such as power pylons or oil pipelines or government buildings (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "target_group.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "target.n.01",
+        "corrected_reasoning": "LLM suggestion: 'target.n.01' is a perfect semantic fit, representing a person or thing that is the object of an attack or action, which aligns with the intended meaning of 'target_group' in the context of 'decimate.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

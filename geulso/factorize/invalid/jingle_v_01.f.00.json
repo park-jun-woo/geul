@@ -1,0 +1,127 @@
+{
+  "original": {
+    "synset_id": "jingle.v.01",
+    "definition": "make a sound typical of metallic objects",
+    "frame_id": 0,
+    "frame_text": "Something jangle",
+    "sememes": [
+      {
+        "verb_type": "event",
+        "verb_property": "sound_emission.n.01",
+        "reasoning": "The definition 'make a sound' describes the event of an object producing or emitting auditory output.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that produces the sound, acting as the causal agent of the emission."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "metallic_ringing.n.01",
+        "reasoning": "The definition specifies the sound as 'typical of metallic objects', indicating a distinct quality of the emitted sound, such as light, ringing, or clinking."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of jingling produces an audibly perceivable sound, implying direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something jingle' implies a non-agentive subject (Something), which typically lacks will or intention in producing the sound."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of jingling is semantically neutral; its positive or negative connotation depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something jingle' indicates that the subject 'Something' is typically inanimate or acts non-volitionally to produce the jingling sound (e.g., keys jingling due to movement)."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of sound production."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Jingling typically refers to a rapid succession of similar light, metallic sounds, implying high repetition rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "jingle.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_emission.n.01",
+        "reasoning": "verb_property 'sound_emission.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "seeker.n.02",
+            "description": "a missile equipped with a device that is attracted toward some kind of emission (heat or light or sound or radio waves) (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "jingle.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "jingle.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'sound_production.n.01' perfectly captures the concept of sound emission as a property of the verb 'jingle'. (Original suggestion 'sound_production.n.01' was invalid in NLTK)"
+      },
+      {
+        "synset_id": "jingle.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "timbre.n.01",
+        "corrected_reasoning": "LLM suggestion: 'timbre.n.01' refers to the distinctive property of a complex sound, which is a perfect semantic fit for 'sound quality'."
+      }
+    ],
+    "participants": []
+  }
+}

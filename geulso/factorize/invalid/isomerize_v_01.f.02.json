@@ -1,0 +1,114 @@
+{
+  "original": {
+    "synset_id": "isomerize.v.01",
+    "definition": "cause to change into an isomer",
+    "frame_id": 2,
+    "frame_text": "Something isomerise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "molecular_structure.n.01",
+        "reasoning": "The definition 'cause to change into an isomer' directly indicates a transformation of the molecular structure of a substance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the entity that causes the change to occur."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "chemical_compound.n.01",
+            "reasoning": "The second 'something' in the frame is the chemical compound that undergoes the change into an isomer."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes like isomerization are typically observed through direct experimentation or analysis."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual process or event, fitting a declarative mood."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a non-human entity (e.g., a catalyst, heat) which does not possess will or intention in the human sense."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Isomerization is a neutral chemical process, without inherent positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates that the action is performed by a non-volitional agent, such as a chemical or physical force."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite chemical reaction or transformation."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single instance of causing a specific change to a substance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "isomerize.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "molecular_structure.n.01",
+        "reasoning": "verb_property 'molecular_structure.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "determination.n.01",
+            "description": "the act of determining the properties of something, usually by research or calculation (gloss match)"
+          },
+          {
+            "synset_id": "reformer.n.02",
+            "description": "an apparatus that reforms the molecular structure of hydrocarbons to produce richer fuel (gloss match)"
+          },
+          {
+            "synset_id": "molecular_genetics.n.01",
+            "description": "the branch of genetics concerned with the structure and activity of genetic material at the molecular level (gloss match)"
+          },
+          {
+            "synset_id": "kendrew.n.01",
+            "description": "English biologist noted for studies of the molecular structure of blood components (born in 1917) (gloss match)"
+          },
+          {
+            "synset_id": "lipscomb.n.01",
+            "description": "United States chemist noted for his theories of molecular structure (born in 1919) (gloss match)"
+          },
+          {
+            "synset_id": "perutz.n.01",
+            "description": "English biochemist (born in Austria); studied the molecular structure of blood (1914-2002) (gloss match)"
+          },
+          {
+            "synset_id": "robinson.n.01",
+            "description": "English chemist noted for his studies of molecular structures in plants (1886-1975) (gloss match)"
+          },
+          {
+            "synset_id": "chemical_process.n.01",
+            "description": "(chemistry) any process determined by the atomic and molecular composition and structure of the substances involved (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "isomerize.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'molecular_shape.n.01' precisely defines the geometry/structure of a molecule, which is the property relevant to 'isomerize'. (Original suggestion 'molecular_shape.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

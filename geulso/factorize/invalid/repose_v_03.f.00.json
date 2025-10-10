@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "repose.v.03",
+    "definition": "lie when dead",
+    "frame_id": 0,
+    "frame_text": "Somebody repose PP",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "posture.n.01",
+        "reasoning": "The verb primarily describes the physical state of being in a specific position, specifically lying, as indicated by the hypernym 'lie.v.02'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' in the frame is the entity whose posture is described."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "reasoning": "The 'PP' (prepositional phrase) specifies the spatial context or location of the posture."
+          }
+        ]
+      },
+      {
+        "verb_type": "state",
+        "verb_property": "life_status.n.01",
+        "value_type": "dead.a.01",
+        "reasoning": "The crucial defining characteristic of this specific sense of 'repose' is the condition that the subject is deceased, as per the definition 'lie when dead'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' is the entity whose life status is described as 'dead'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of someone reposing (lying dead) is typically based on direct observation or established fact."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a state of being."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject is dead, hence there is no agent's will or intention involved in this state."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of lying dead is a factual description and is semantically neutral, despite potential emotional connotations in context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject is explicitly 'dead', indicating an inherently non-volitional state."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite, certain state or fact."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state rather than a discrete event, the concept of repetition is not applicable; it represents a single, ongoing instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "repose.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "life_status.n.01",
+        "reasoning": "verb_property 'life_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "status.n.01",
+            "description": "the relative position or standing of things or especially persons in a society (gloss match)"
+          },
+          {
+            "synset_id": "civil_death.n.01",
+            "description": "the legal status of a person who is alive but who has been deprived of the rights and privileges of a citizen or a member of society; the legal status of one sentenced to life imprisonment (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "repose.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "life.n.01",
+        "corrected_reasoning": "LLM suggestion: `life.n.01` perfectly captures the condition of being alive, which is the most semantically appropriate interpretation for 'life_status' as a verb property, unlike the provided candidates."
+      }
+    ],
+    "participants": []
+  }
+}

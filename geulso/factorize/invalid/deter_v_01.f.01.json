@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "deter.v.01",
+    "definition": "try to prevent; show opposition to",
+    "frame_id": 1,
+    "frame_text": "Somebody discourage somebody",
+    "sememes": [
+      {
+        "verb_type": "causation",
+        "verb_property": "non-occurrence.n.01",
+        "reasoning": "The verb 'deter' signifies an action that attempts to prevent or cause the non-occurrence of an implicit action by the patient, as per the definition 'try to prevent'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame acts as the entity that causes the deterrence or prevention."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the verb frame is the entity whose potential action or intention is being prevented or discouraged."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of deterring is typically a directly observable event or influence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an occurrence of deterrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something deter somebody' indicates that the agent ('Something') is typically inanimate or non-sentient and therefore lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of deterring itself is neutral; its sentiment depends on what is being prevented."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' implies a non-volitional agent, meaning the act of deterring is not intentional on the part of the 'Something'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'deter' describes a definite attempt or act of prevention."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of deterring an action or individual."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "deter.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "non-occurrence.n.01",
+        "reasoning": "verb_property 'non-occurrence.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "deter.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "absence.n.01",
+        "corrected_reasoning": "LLM suggestion"
+      }
+    ],
+    "participants": []
+  }
+}

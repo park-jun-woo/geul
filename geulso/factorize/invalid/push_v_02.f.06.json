@@ -1,0 +1,287 @@
+{
+  "original": {
+    "synset_id": "push.v.02",
+    "definition": "press, drive, or impel (someone) to action or completion of an action",
+    "frame_id": 6,
+    "frame_text": "Somebody push something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "action_state.n.01",
+        "reasoning": "The verb describes causing a change in the patient's state, specifically initiating or completing an action.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the action or causes the change in the patient's activity, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (which the definition clarifies is 'someone') that is pressed, driven, or impelled to action."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "coercive.a.01",
+        "reasoning": "The definition uses terms like 'press, drive, or impel,' indicating a forceful or influential manner of causing the action, rather than a mere request."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of pushing someone to action is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will or intention to influence another."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of pushing someone to action is neutral; its sentiment depends on the specific context and the nature of the action."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of impelling."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event or continuous effort of causing action, typically conceived as a single instance of 'pushing' them to act."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "push.v.02",
+        "frame_id": 6,
+        "key": "verb_property",
+        "value": "action_state.n.01",
+        "reasoning": "verb_property 'action_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "affairs.n.02",
+            "description": "transactions of professional or public interest (gloss match)"
+          },
+          {
+            "synset_id": "seward's_folly.n.01",
+            "description": "the transaction in 1867 in which the United States Secretary of State William Henry Seward purchased Alaska from Russia (gloss match)"
+          },
+          {
+            "synset_id": "trance.n.02",
+            "description": "a state of mind in which consciousness is fragile and voluntary action is poor or missing; a state resembling deep sleep (gloss match)"
+          },
+          {
+            "synset_id": "semitrance.n.01",
+            "description": "a trancelike state in which the person can follow instructions but voluntary action is weak or absent (gloss match)"
+          },
+          {
+            "synset_id": "dream.n.05",
+            "description": "a state of mind characterized by abstraction and release from reality (gloss match)"
+          },
+          {
+            "synset_id": "law_of_mass_action.n.01",
+            "description": "(chemistry) the law that states the following principle: the rate of a chemical reaction is directly proportional to the molecular concentrations of the reacting substances (gloss match)"
+          },
+          {
+            "synset_id": "yoga.n.01",
+            "description": "Hindu discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion (gloss match)"
+          },
+          {
+            "synset_id": "verb.n.02",
+            "description": "a content word that denotes an action, occurrence, or state of existence (gloss match)"
+          },
+          {
+            "synset_id": "present.n.03",
+            "description": "a verb tense that expresses actions or states at the time of speaking (gloss match)"
+          },
+          {
+            "synset_id": "historical_present.n.01",
+            "description": "the use of the present tense to describe past actions or states (gloss match)"
+          },
+          {
+            "synset_id": "past.n.03",
+            "description": "a verb tense that expresses actions or states in the past (gloss match)"
+          },
+          {
+            "synset_id": "future.n.02",
+            "description": "a verb tense that expresses actions or states in the future (gloss match)"
+          },
+          {
+            "synset_id": "locative_role.n.01",
+            "description": "the semantic role of the noun phrase that designates the place of the state or action denoted by the verb (gloss match)"
+          },
+          {
+            "synset_id": "temporal_role.n.01",
+            "description": "the semantic role of the noun phrase that designates the time of the state or action denoted by the verb (gloss match)"
+          },
+          {
+            "synset_id": "libel.n.02",
+            "description": "the written statement of a plaintiff explaining the cause of action (the defamation) and any relief he seeks (gloss match)"
+          },
+          {
+            "synset_id": "silver_star_medal.n.01",
+            "description": "a United States military decoration for gallantry in action (gloss match)"
+          },
+          {
+            "synset_id": "order_of_the_purple_heart.n.01",
+            "description": "a United States military decoration awarded to any member of the armed forces who is wounded in action (gloss match)"
+          },
+          {
+            "synset_id": "declaration.n.02",
+            "description": "(law) unsworn statement that can be admitted in evidence in a legal transaction (gloss match)"
+          },
+          {
+            "synset_id": "justification.n.02",
+            "description": "a statement in explanation of some action or belief (gloss match)"
+          },
+          {
+            "synset_id": "missouri_compromise.n.01",
+            "description": "an agreement in 1820 between pro-slavery and anti-slavery factions in the United States concerning the extension of slavery into new territories (gloss match)"
+          },
+          {
+            "synset_id": "rogue_state.n.01",
+            "description": "a state that does not respect other states in its international actions (gloss match)"
+          },
+          {
+            "synset_id": "league.n.02",
+            "description": "an association of states or organizations or individuals for common action (gloss match)"
+          },
+          {
+            "synset_id": "religious_right.n.01",
+            "description": "United States political faction that advocates social and political conservativism, school prayer, and federal aid for religious groups and schools (gloss match)"
+          },
+          {
+            "synset_id": "roman_republic.n.01",
+            "description": "the ancient Roman state from 509 BC until Augustus assumed power in 27 BC; was governed by an elected Senate but dissatisfaction with the Senate led to civil wars that culminated in a brief dictatorship by Julius Caesar (gloss match)"
+          },
+          {
+            "synset_id": "niagara_falls.n.02",
+            "description": "a city in western New York State at the falls of the Niagara river; tourist attraction and honeymoon resort (gloss match)"
+          },
+          {
+            "synset_id": "bourbon.n.01",
+            "description": "a reactionary politician in the United States (usually from the South) (gloss match)"
+          },
+          {
+            "synset_id": "calvin.n.01",
+            "description": "United States chemist noted for discovering the series of chemical reactions in photosynthesis (1911-) (gloss match)"
+          },
+          {
+            "synset_id": "compton.n.01",
+            "description": "United States physicist noted for research on x-rays and gamma rays and nuclear energy; his observation that X-rays behave like miniature bowling balls in their interactions with electrons provided evidence for the quantal nature of light (1892-1962) (gloss match)"
+          },
+          {
+            "synset_id": "fermi.n.02",
+            "description": "Italian nuclear physicist (in the United States after 1939) who worked on artificial radioactivity caused by neutron bombardment and who headed the group that in 1942 produced the first controlled nuclear reaction (1901-1954) (gloss match)"
+          },
+          {
+            "synset_id": "feynman.n.01",
+            "description": "United States physicist who contributed to the theory of the interaction of photons and electrons (1918-1988) (gloss match)"
+          },
+          {
+            "synset_id": "hoffmann.n.03",
+            "description": "United States chemist (born in Poland) who used quantum mechanics to understand chemical reactions (born in 1937) (gloss match)"
+          },
+          {
+            "synset_id": "soft_money.n.01",
+            "description": "political contributions made in such a way as to avoid the United States regulations for federal election campaigns (as by contributions to a political action committee) (gloss match)"
+          },
+          {
+            "synset_id": "account.n.07",
+            "description": "a statement of recent transactions and the resulting balance (gloss match)"
+          },
+          {
+            "synset_id": "mood.n.03",
+            "description": "verb inflections that express how the action or state is conceived by the speaker (gloss match)"
+          },
+          {
+            "synset_id": "action.n.02",
+            "description": "the state of being active (gloss match)"
+          },
+          {
+            "synset_id": "agency.n.03",
+            "description": "the state of being in action or exerting power (gloss match)"
+          },
+          {
+            "synset_id": "play.n.05",
+            "description": "a state in which action is feasible (gloss match)"
+          },
+          {
+            "synset_id": "swing.n.01",
+            "description": "a state of steady vigorous action that is characteristic of an activity (gloss match)"
+          },
+          {
+            "synset_id": "dormancy.n.01",
+            "description": "a state of quiet (but possibly temporary) inaction (gloss match)"
+          },
+          {
+            "synset_id": "holding_pattern.n.01",
+            "description": "a state of inaction with no progress and no change (gloss match)"
+          },
+          {
+            "synset_id": "rest.n.04",
+            "description": "a state of inaction (gloss match)"
+          },
+          {
+            "synset_id": "readiness.n.01",
+            "description": "the state of having been made ready or prepared for use or action (especially military action) (gloss match)"
+          },
+          {
+            "synset_id": "criticality.n.02",
+            "description": "a critical state; especially the point at which a nuclear reaction is self-sustaining (gloss match)"
+          },
+          {
+            "synset_id": "flux.n.05",
+            "description": "a state of uncertainty about what should be done (usually following some important event) preceding the establishment of a new direction of action (gloss match)"
+          },
+          {
+            "synset_id": "parturiency.n.01",
+            "description": "concluding state of pregnancy; from the onset of contractions to the birth of a child (gloss match)"
+          },
+          {
+            "synset_id": "retarded_depression.n.01",
+            "description": "a state of clinical depression in which the individual is lethargic and slow to initiate action (gloss match)"
+          },
+          {
+            "synset_id": "disrepute.n.01",
+            "description": "the state of being held in low esteem (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "gas.n.01",
+            "description": "the state of matter distinguished from the solid and liquid states by: relatively low density and viscosity; relatively great expansion and contraction with changes in pressure and temperature; the ability to diffuse readily; and the spontaneous tendency to become distributed uniformly throughout any container (gloss match)"
+          },
+          {
+            "synset_id": "putrescence.n.01",
+            "description": "in a state of progressive putrefaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "push.v.02",
+        "frame_id": 6,
+        "key": "verb_property",
+        "corrected_value": "action.n.02",
+        "corrected_reasoning": "The gloss 'the state of being active' for 'action.n.02' perfectly matches the implied meaning of 'action_state'."
+      }
+    ],
+    "participants": []
+  }
+}

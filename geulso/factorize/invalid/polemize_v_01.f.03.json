@@ -1,0 +1,103 @@
+{
+  "original": {
+    "synset_id": "polemize.v.01",
+    "definition": "engage in a controversy",
+    "frame_id": 3,
+    "frame_text": "Somebody polemize",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The verb describes the activity of engaging in an interaction with others, as indicated by 'engage in a controversy'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of polemicizing, initiating the social interaction."
+          },
+          {
+            "semantic_role": "antagonist.n.01",
+            "reasoning": "Although not syntactically present in this intransitive frame, the core meaning of 'controversy' inherently implies an opposing party or viewpoint, functioning as an antagonist in the interaction."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "quality.n.01",
+        "value_type": "dispute.n.01",
+        "reasoning": "The social interaction involved in polemicizing is characterized by disagreement and argument, which is the essence of a 'controversy'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Engaging in a controversy is an observable action, hence direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame, coupled with 'engage in', implies intentional action driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of polemicizing is semantically neutral; its positive or negative sentiment depends on context or outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' and the definition 'engage in' strongly indicate an intentional, volitional act by an agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state of engaging in an activity."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Engaging in a controversy implies a sustained activity involving multiple argumentative exchanges over time, indicating high repetition rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "polemize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "polemize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "social_intercourse.n.01",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for 'social interaction' concept."
+      }
+    ],
+    "participants": []
+  }
+}

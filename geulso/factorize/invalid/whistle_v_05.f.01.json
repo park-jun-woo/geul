@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "whistle.v.05",
+    "definition": "make a whining, ringing, or whistling sound",
+    "frame_id": 1,
+    "frame_text": "Something whistle",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sound.n.02",
+        "reasoning": "The verb describes an event where a sound is produced, altering the auditory environment from a state of no sound (or different sound) to a state of having sound.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that produces or causes the sound."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "whistling.n.01",
+        "reasoning": "The definition explicitly specifies the distinct nature of the sound produced as 'whining, ringing, or whistling', which is a specific quality of sound."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The production of a sound is a directly perceivable event through hearing."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of sound production."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' indicates a non-agentive subject, thus no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making a sound is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' indicates that the subject is inanimate or acting without intent, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a sound being made."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The specific types of sounds ('whining', 'ringing', 'whistling') when made by an inanimate 'Something' often imply a continuous or highly repetitive auditory phenomenon, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "whistle.v.05",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "whistle.v.05",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "sound.n.04",
+        "corrected_reasoning": "LLM suggestion: Replaced invalid synset 'sound_quality.n.01' with 'sound.n.04', which accurately describes the particular auditory effect produced by a source."
+      }
+    ],
+    "participants": []
+  }
+}

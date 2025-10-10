@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "meet_up_with.v.01",
+    "definition": "meet with by appointment",
+    "frame_id": 0,
+    "frame_text": "Somebody meet_up_with somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_contact.n.01",
+        "reasoning": "The verb describes a transition from a state of not being in social contact to being in social contact.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' who initiates or participates in the meeting, as per the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' who is met, and also a participant in the social interaction, as per the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "appointment.n.01",
+        "reasoning": "The definition 'meet with by appointment' indicates a core semantic component of pre-arrangement or formal scheduling for the meeting."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of meeting is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The phrase 'by appointment' and the agentive 'Somebody' in the frame imply a strong will and intention behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of meeting itself is neutral; its sentiment depends on context or participants."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "Both the verb frame 'Somebody ----s somebody' and the definition 'by appointment' clearly indicate a volitional act by an agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite event of meeting."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'meet_up_with' typically refers to a single, discrete instance of meeting."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "meet_up_with.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "social_contact.n.01",
+        "reasoning": "verb_property 'social_contact.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "introvert.n.01",
+            "description": "(psychology) a person who tends to shrink from social contacts and to become preoccupied with their own thoughts (gloss match)"
+          },
+          {
+            "synset_id": "schizophrenia.n.01",
+            "description": "any of several psychotic disorders characterized by distortions of reality and disturbances of thought and language and withdrawal from social contact (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "meet_up_with.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'social_interaction.n.01' is a perfect semantic and contextual fit for the property of 'meet_up_with.v.01'. (Original suggestion 'social_interaction.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

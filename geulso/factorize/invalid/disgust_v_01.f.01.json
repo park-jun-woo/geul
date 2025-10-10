@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "disgust.v.01",
+    "definition": "fill with distaste",
+    "frame_id": 1,
+    "frame_text": "Somebody gross_out somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The definition 'fill with distaste' indicates a causative action that results in a change in an emotional state, transitioning from a neutral or different state to one of distaste.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that acts as the stimulus or cause, bringing about the emotional change in the experiencer."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the change in emotional state and experiences the feeling of distaste."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The feeling of disgust is a direct experience for the 'somebody' and can often be directly observed through reactions by others."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating that an event or state occurs."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame is inanimate and lacks will or intention to cause disgust."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The emotion of 'distaste' is inherently negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The 'Something' acting as the cause is non-volitional, and the 'somebody' experiencing disgust does not typically choose to feel this emotion; it is an involuntary reaction."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite and certain effect of filling someone with distaste."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of initiating a feeling of distaste, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "disgust.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "Original synset 'experiencer.n.01' is invalid, and no perfect semantic and contextual replacement could be found in the candidates or internal NLTK WordNet knowledge."
+      }
+    ]
+  }
+}

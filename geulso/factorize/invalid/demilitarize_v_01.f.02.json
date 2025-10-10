@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "demilitarize.v.01",
+    "definition": "do away with the military organization and potential of",
+    "frame_id": 2,
+    "frame_text": "Something demilitarise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "military_status.n.01",
+        "reasoning": "The definition 'do away with the military organization and potential of' indicates a change in the military status or capacity of an entity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity causing the demilitarization."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change in military status."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process or outcome of demilitarization is typically a directly observable fact or policy."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the frame indicates a non-agentive cause, therefore lacking will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of demilitarizing is functionally neutral; its desirability depends on the context and perspectives involved."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' implies a non-volitional cause for the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action or process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'demilitarize' typically refers to a single, comprehensive act or process of removing military capabilities, not a repeated action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "demilitarize.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "military_status.n.01",
+        "reasoning": "verb_property 'military_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "demilitarize.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No valid candidates provided. No perfect semantic and contextual replacement for 'military_status.n.01' found in NLTK WordNet with >99% confidence."
+      }
+    ],
+    "participants": []
+  }
+}

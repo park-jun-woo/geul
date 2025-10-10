@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "dragoon.v.01",
+    "definition": "compel by coercion, threats, or crude means",
+    "frame_id": 2,
+    "frame_text": "Somebody sandbag somebody into V-ing something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "action.n.01",
+        "reasoning": "The verb 'dragoon' describes the act of forcing someone to change their intended course of action or inaction, compelling them to perform a specific act.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' in the frame, who initiates the act of compulsion.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' in the frame, who is subjected to the compulsion and forced to change their action.",
+            "value_type": "person.n.01"
+          },
+          {
+            "semantic_role": "resultant_action.n.01",
+            "reasoning": "The 'V-ing something' that the patient is compelled to do, which is the desired outcome of the agent's compulsion.",
+            "value_type": "activity.n.01"
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "coercion.n.01",
+        "reasoning": "The definition 'compel by coercion, threats, or crude means' highlights the specific, forceful, and non-negotiating manner in which the compulsion occurs, which is integral to the meaning of 'dragoon'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of compelling someone is typically a directly observable event or action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to compel the other person."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'compel by coercion, threats, or crude means' inherently carries a negative connotation, as it involves forcing someone against their will."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of compelling."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'dragoon' implies a definite act of compulsion that is either certain to occur or has already occurred."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete act of compelling, even if it might involve repeated efforts to achieve it."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "dragoon.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "resultant_action.n.01",
+        "reasoning": "semantic_role 'resultant_action.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "dragoon.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "outcome.n.01",
+        "corrected_reasoning": "LLM suggestion: 'outcome.n.01' perfectly captures the concept of a resultant action or consequence."
+      }
+    ]
+  }
+}

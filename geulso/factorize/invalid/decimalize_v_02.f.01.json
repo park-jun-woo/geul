@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "decimalize.v.02",
+    "definition": "change to the decimal system",
+    "frame_id": 1,
+    "frame_text": "Somebody decimalize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "system.n.01",
+        "reasoning": "The verb's definition 'change to the decimal system' directly implies a transformation of an entity's operating system or structure.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the agent that initiates and causes the conversion."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the entity whose system is undergoing the change."
+          }
+        ]
+      },
+      {
+        "verb_type": "state",
+        "verb_property": "numerical_representation.n.01",
+        "value_type": "decimal.a.01",
+        "reasoning": "The core meaning of 'decimalize' specifies that the target or resulting state of the system is characterized by a decimal numerical representation."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of decimalizing a system is typically a deliberate, observable process, leading to direct knowledge."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Even though the frame uses 'Something', the act of 'decimalize' inherently implies a deliberate decision or policy (e.g., a government, a committee), indicating strong will behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of converting to a decimal system is a neutral process; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The nature of decimalization (changing a system) is inherently a volitional act, usually driven by policy or conscious decision, even if the grammatical subject is 'Something' representing an institution or policy."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite and certain conversion to the decimal system."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Decimalizing a system is typically understood as a single, comprehensive event or process, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "decimalize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "numerical_representation.n.01",
+        "reasoning": "verb_property 'numerical_representation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "nomogram.n.01",
+            "description": "a graphic representation of numerical relations (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "decimalize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "number_system.n.01",
+        "corrected_reasoning": "LLM suggestion. 'number_system.n.01' ('any system of mathematical notation for representing numbers') is a perfect semantic and contextual fit for the property of decimalization."
+      }
+    ],
+    "participants": []
+  }
+}

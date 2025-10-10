@@ -1,0 +1,112 @@
+{
+  "original": {
+    "synset_id": "islamize.v.02",
+    "definition": "convert to Islam",
+    "frame_id": 1,
+    "frame_text": "Somebody Islamize somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "religious_affiliation.n.01",
+        "reasoning": "The definition 'convert to Islam' describes a transition from one religious state to another, specifically to Islam, which is a change of religious affiliation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the act of converting someone else."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change in religious affiliation."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "value_type": "Islam.n.01",
+            "reasoning": "The new state or religion to which the patient is converted."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of converting someone is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame acts with clear intention and will to convert someone."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of converting is semantically neutral, though context may imbue it with positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of converting, when it occurs, is a definite event."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of conversion for an individual."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "islamize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "religious_affiliation.n.01",
+        "reasoning": "verb_property 'religious_affiliation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "islamize.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "islamize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "religion.n.01",
+        "corrected_reasoning": "LLM suggestion: A direct replacement for the concept of religious affiliation, directly related to the verb 'islamize'."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "islamize.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion: A direct replacement for the concept of a resultant state, signifying the outcome of the action."
+      }
+    ]
+  }
+}

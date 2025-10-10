@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "officiate.v.01",
+    "definition": "act in an official capacity in a ceremony or religious ritual, such as a wedding",
+    "frame_id": 1,
+    "frame_text": "Somebody officiate PP",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_role.n.01",
+        "reasoning": "The verb describes the performance of an action that fulfills a designated social or religious role, emphasizing the 'official capacity' aspect of the definition.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action in an official capacity, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "context.n.01",
+            "reasoning": "The 'PP' specifies the setting (ceremony or ritual) within which the official function is carried out, as derived from the definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of officiating is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the verb frame implies that the action is carried out with intent and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of officiating itself is a neutral function; its sentiment depends on the context of the ceremony."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of officiating."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite and certain performance of a role."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of officiating for a given ceremony or ritual, rather than continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "officiate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "social_role.n.01",
+        "reasoning": "verb_property 'social_role.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "role.n.04",
+            "description": "normal or customary activity of a person in a particular social setting (gloss match)"
+          },
+          {
+            "synset_id": "class_struggle.n.01",
+            "description": "conflict between social or economic classes (especially between the capitalist and proletariat classes) (gloss match)"
+          },
+          {
+            "synset_id": "corrections.n.02",
+            "description": "the social control of offenders through a system of imprisonment and rehabilitation and probation and parole (gloss match)"
+          },
+          {
+            "synset_id": "pseudonym.n.01",
+            "description": "a fictitious name used when the person performs a particular social role (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "officiate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "role.n.04",
+        "corrected_reasoning": "Candidate 'role.n.04' ('normal or customary activity of a person in a particular social setting') is a perfect semantic and contextual fit for the intended 'social role'."
+      }
+    ],
+    "participants": []
+  }
+}

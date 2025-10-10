@@ -1,0 +1,127 @@
+{
+  "original": {
+    "synset_id": "steamer.v.01",
+    "definition": "travel by means of steam power",
+    "frame_id": 1,
+    "frame_text": "Something is steaming PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The definition 'travel by means of steam power' indicates a change in location, which is a form of motion.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in location, typically an inanimate vehicle."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "reasoning": "The 'PP' (prepositional phrase) in the frame typically specifies the target location or path of the travel."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "power_source.n.01",
+        "value_type": "steam.n.01",
+        "reasoning": "The core characteristic of 'steamer' is the specific means of propulsion, 'by means of steam power', distinguishing it from general travel."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of traveling by steamer is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is an inanimate object (e.g., a boat, train) and therefore lacks will or intention."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The verb frame 'Something is steamering PP' explicitly uses the progressive aspect, indicating an ongoing action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of traveling by steam power is inherently neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something is steamering' describes an event happening to an inanimate subject ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of steamering is described as a definite occurrence or ongoing process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Traveling by steamer describes a continuous process or a single, extended event, rather than discrete, highly repetitive actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "steamer.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "power_source.n.01",
+        "reasoning": "verb_property 'power_source.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "heavier-than-air_craft.n.01",
+            "description": "a non-buoyant aircraft that requires a source of power to hold it aloft and to propel it (gloss match)"
+          },
+          {
+            "synset_id": "hookup.n.01",
+            "description": "a device providing a connection between a power source and a user (gloss match)"
+          },
+          {
+            "synset_id": "receptacle.n.03",
+            "description": "an electrical (or electronic) fitting that is connected to a source of power and equipped to receive an insert (gloss match)"
+          },
+          {
+            "synset_id": "spark_transmitter.n.01",
+            "description": "an early radio transmitter using a discharge across a spark gap as the source of its power (gloss match)"
+          },
+          {
+            "synset_id": "disposal.n.01",
+            "description": "the power to use something or someone (gloss match)"
+          },
+          {
+            "synset_id": "atomic_power.n.01",
+            "description": "nuclear energy regarded as a source of electricity for the power grid (for civilian use) (gloss match)"
+          },
+          {
+            "synset_id": "energy.n.06",
+            "description": "any source of usable power (gloss match)"
+          },
+          {
+            "synset_id": "labor_resources.n.01",
+            "description": "resources of available manpower (gloss match)"
+          },
+          {
+            "synset_id": "thorium.n.01",
+            "description": "a soft silvery-white tetravalent radioactive metallic element; isotope 232 is used as a power source in nuclear reactors; occurs in thorite and in monazite sands (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "power_source.n.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "energy.n.06",
+        "corrected_reasoning": "Candidate 'energy.n.06' perfectly matches the concept of a 'power source' ('any source of usable power')."
+      }
+    ],
+    "participants": []
+  }
+}

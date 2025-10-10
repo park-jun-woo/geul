@@ -1,0 +1,89 @@
+{
+  "original": {
+    "synset_id": "fatten.v.01",
+    "definition": "make fat or plump",
+    "frame_id": 12,
+    "frame_text": "Somebody plump somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "body_composition.n.01",
+        "reasoning": "The verb 'fatten' describes causing a change in the body composition of a living being, specifically to increase its fat content or make it plump, as indicated by the definition 'make fat or plump'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the entity who intentionally initiates and performs the action of causing the change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' (or entity) in the verb frame is the recipient of the action, undergoing the change to become fat or plump."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of fattening someone or something is typically a directly observable process or event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the subject of the action implies that the agent acts with intention and will to cause the change."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making something fat or plump is semantically neutral. Its positive or negative connotation depends on the specific context (e.g., fattening livestock for market vs. causing unhealthy weight gain)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The verb frame 'Somebody ----s somebody' (interpreted as 'Somebody fattens somebody') clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action that is carried out with the intent to achieve a certain outcome."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process of 'fattening' may involve repeated actions over time to achieve the desired state, the verb 'fatten' itself, when referring to the accomplishment of the change, describes a single event of bringing about the state of being fat or plump rather than a highly repetitive action in its core meaning."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "fatten.v.01",
+        "frame_id": 12,
+        "key": "verb_property",
+        "value": "body_composition.n.01",
+        "reasoning": "verb_property 'body_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "parody.n.01",
+            "description": "a composition that imitates or misrepresents somebody's style, usually in a humorous way (gloss match)"
+          },
+          {
+            "synset_id": "eutrophication.n.01",
+            "description": "excessive nutrients in a lake or other body of water, usually caused by runoff of nutrients (animal waste, fertilizers, sewage) from the land, which causes a dense growth of plant life; the decomposition of the plants depletes the supply of oxygen, leading to the death of animal life (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "fatten.v.01",
+        "frame_id": 12,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. 'body_fat.n.01' represents the fat component of body composition, which is directly relevant to the verb 'fatten'. (Original suggestion 'body_fat.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

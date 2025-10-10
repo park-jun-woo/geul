@@ -1,0 +1,115 @@
+{
+  "original": {
+    "synset_id": "drift.v.08",
+    "definition": "drive slowly and far afield for grazing",
+    "frame_id": 0,
+    "frame_text": "Somebody drift something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'drift' in this context describes causing an entity to change its location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of driving/moving."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that is being driven or moved, undergoing the change in motion."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "slow.a.01",
+        "reasoning": "The definition explicitly states the action is performed 'slowly', indicating a specific manner of motion."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "spatial_extent.n.01",
+        "value_type": "extensive.a.01",
+        "reasoning": "The phrase 'far afield' describes the extensive spatial reach or spread of the movement."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "grazing.n.01",
+        "reasoning": "The definition explicitly states the action's purpose is 'for grazing'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of driving animals for grazing is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the agent's will and intention to perform the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of drifting animals for grazing is semantically neutral; its positive or negative valence depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody drift something' explicitly indicates a volitional agent ('Somebody') initiating the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action being performed."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The act of driving 'slowly and far afield' for grazing implies a continuous, sustained process involving many small, repetitive movements over an extended period, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "drift.v.08",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "spatial_extent.n.01",
+        "reasoning": "verb_property 'spatial_extent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "longness.n.01",
+            "description": "the property of being of long spatial extent (gloss match)"
+          },
+          {
+            "synset_id": "shortness.n.01",
+            "description": "the property of being of short spatial extent (gloss match)"
+          },
+          {
+            "synset_id": "line.n.11",
+            "description": "a spatial location defined by a real or imaginary unidimensional extent (gloss match)"
+          },
+          {
+            "synset_id": "continuum.n.01",
+            "description": "a continuous nonspatial whole or extent or succession in which no part or portion is distinct or distinguishable from adjacent parts (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "drift.v.08",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "extent.n.01",
+        "corrected_reasoning": "LLM suggestion: 'extent.n.01' means 'the amount of space that a thing occupies', which is a direct match for the concept of spatial extent."
+      }
+    ],
+    "participants": []
+  }
+}

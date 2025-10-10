@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "flip_one's_lid.v.01",
+    "definition": "get very angry and fly into a rage",
+    "frame_id": 18,
+    "frame_text": "Somebody have_kittens",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "reasoning": "The definition 'get very angry and fly into a rage' describes a transition from a non-angry state to an angry state, which is a change in emotional condition.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the individual who undergoes and experiences this change in emotional state."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "degree.n.01",
+        "value_type": "extreme.a.01",
+        "reasoning": "The phrases 'very angry' and 'fly into a rage' clearly indicate an extreme level of anger, beyond simple irritation."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "onset.n.01",
+        "value_type": "sudden.a.01",
+        "reasoning": "The idiom 'fly into a rage' implies a rapid and sudden initiation of the angry state."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Describing someone 'flipping their lid' typically refers to a directly observed or reported event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Getting angry is generally an emotional reaction or state, not an action driven by explicit will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Anger, especially 'rage', is inherently a negative emotion."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Emotional states like anger are typically non-volitional; one usually doesn't choose to 'flip their lid'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite event or state change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The idiom refers to a single, distinct instance of getting angry, not a continuous or highly repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "flip_one's_lid.v.01",
+        "frame_id": 18,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "flip_one's_lid.v.01",
+        "frame_id": 18,
+        "key": "semantic_role",
+        "corrected_value": "perceiver.n.01",
+        "corrected_reasoning": "LLM suggestion: 'perceiver.n.01' is the closest semantic equivalent to 'experiencer.n.01' when the latter is considered an invalid synset."
+      }
+    ]
+  }
+}

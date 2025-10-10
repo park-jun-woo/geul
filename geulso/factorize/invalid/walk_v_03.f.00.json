@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "walk.v.03",
+    "definition": "obtain a base on balls",
+    "frame_id": 0,
+    "frame_text": "Somebody walk",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "achievement.n.01",
+        "reasoning": "The verb 'walk' in this context means to 'obtain a base on balls', which signifies a change in the player's status or position on the bases, effectively an achievement in the game.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who is the batter and obtains the base on balls, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "game_advantage.n.01",
+            "reasoning": "The 'base on balls' is the specific advantage or outcome achieved by the agent in the game."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Obtaining a base on balls is a directly observable event in a baseball game."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event that occurs."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' (batter) in the frame intentionally refrains from swinging at pitches outside the strike zone to achieve a walk, implying strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of obtaining a base on balls is a neutral event within the rules of the game; its positive or negative impact depends on the game context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The batter's decision to not swing at balls and thus 'walk' is an intentional and volitional action or inaction."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of walking (obtaining a base on balls) is a definite occurrence in a game."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of obtaining a base on balls."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "walk.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "game_advantage.n.01",
+        "reasoning": "value_type 'game_advantage.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "mind_game.n.02",
+            "description": "deliberate actions of calculated psychological manipulation intended to intimidate or confuse (usually for competitive advantage) (gloss match)"
+          },
+          {
+            "synset_id": "gambit.n.03",
+            "description": "a chess move early in the game in which the player sacrifices minor pieces in order to obtain an advantageous position (gloss match)"
+          },
+          {
+            "synset_id": "man.n.10",
+            "description": "game equipment consisting of an object used in playing certain board games (gloss match)"
+          },
+          {
+            "synset_id": "penalty.n.04",
+            "description": "(games) a handicap or disadvantage that is imposed on a competitor (or a team) for an infraction of the rules of the game (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "walk.v.03",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "advantage.n.02",
+        "corrected_reasoning": "LLM suggestion: 'advantage.n.02' (the quality of having a superior or more favorable position) is a perfect semantic fit for 'game_advantage'."
+      }
+    ]
+  }
+}

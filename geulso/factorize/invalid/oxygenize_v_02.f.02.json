@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "oxygenize.v.02",
+    "definition": "dehydrogenate with oxygen",
+    "frame_id": 2,
+    "frame_text": "Something oxygenise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_composition.n.01",
+        "reasoning": "The verb 'oxygenize' in this context means to 'dehydrogenate with oxygen', which describes a process that alters the chemical composition of a substance by removing hydrogen and involving oxygen.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame initiates and performs the action of oxygenizing/dehydrogenating."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the verb frame is the substance that undergoes the chemical change (dehydrogenation)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical reactions and processes are typically subject to direct observation and scientific verification."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a factual event or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent 'Something' is inanimate or a natural force, indicating no inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The chemical process of oxygenization/dehydrogenation is inherently neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something oxygenise something' indicates that the subject ('Something') is a non-volitional agent, incapable of intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a chemical process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, complete act of causing dehydrogenation, even if the process itself might be continuous over a period."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "oxygenize.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "chemical_composition.n.01",
+        "reasoning": "verb_property 'chemical_composition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "taste.n.01",
+            "description": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus (gloss match)"
+          },
+          {
+            "synset_id": "allomerism.n.01",
+            "description": "(chemistry) variability in chemical composition without variation in crystalline form (gloss match)"
+          },
+          {
+            "synset_id": "electrolysis.n.01",
+            "description": "(chemistry) a chemical decomposition reaction produced by passing an electric current through a solution containing ions (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "chemistry.n.02",
+            "description": "the chemical composition and properties of a substance or object (gloss match)"
+          },
+          {
+            "synset_id": "mineral.n.01",
+            "description": "solid homogeneous inorganic substances occurring in nature having a definite chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "preservative.n.01",
+            "description": "a chemical compound that is added to protect against decay or decomposition (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "oxygenize.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "chemistry.n.02",
+        "corrected_reasoning": "Candidate 'chemistry.n.02' explicitly defines 'the chemical composition and properties of a substance or object', providing a perfect semantic and contextual match for the invalid 'chemical_composition.n.01' as a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

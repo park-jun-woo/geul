@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "broil.v.01",
+    "definition": "cook under a broiler",
+    "frame_id": 2,
+    "frame_text": "Something broil",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "culinary_state.n.01",
+        "reasoning": "The verb 'broil' describes a process of cooking, which is a change in the state of a food item from uncooked to cooked.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the frame refers to the food item that undergoes the cooking process."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "instrument.n.01",
+        "value_type": "broiler.n.01",
+        "reasoning": "The definition explicitly states 'cook under a broiler', indicating the specific instrument or method used for this cooking process."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of broiling is a directly observable cooking process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something broil' indicates the subject is undergoing the action, not performing it with will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of broiling is a neutral cooking process."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something broil' implies the subject 'Something' is inanimate and therefore non-volitional; it is being cooked, not cooking itself intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of broiling is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, continuous process of cooking until completion, not a series of discrete repetitions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "broil.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "culinary_state.n.01",
+        "reasoning": "verb_property 'culinary_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "broil.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. 'cooked.s.01' perfectly describes the state of food after being broiled, aligning with 'culinary_state'. (Original suggestion 'cooked.s.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

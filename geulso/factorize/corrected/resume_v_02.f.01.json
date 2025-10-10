@@ -1,0 +1,59 @@
+{
+  "synset_id": "resume.v.02",
+  "definition": "return to a previous location or condition",
+  "frame_id": 1,
+  "frame_text": "Something take_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The verb describes a transition in the condition or location of an entity, indicating a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The first 'Something' in the frame, which is the entity undergoing the change by returning to a former state."
+        },
+        {
+          "semantic_role": "re-establishment.n.01",
+          "reasoning": "The second 'something' in the frame, which denotes the previous location or condition that the patient returns to, serving as the target state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "reversal.n.01",
+      "reasoning": "The definition 'return to a previous location or condition' explicitly indicates a directional aspect of the change, specifically a reversal to an earlier state."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of returning to a state or condition is typically observable or directly ascertainable through senses or objective criteria."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process as a fact."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something take_up something' implies a non-agentive subject ('Something'), indicating the action is not driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Returning to a previous state is inherently neutral; its positive or negative valence depends entirely on the specific context or the nature of the state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something take_up something' explicitly features an inanimate 'Something' as the subject, which cannot perform a volitional act, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of returning to a state or condition, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of returning to a previous state or condition is generally considered a single, discrete event, even if the state then persists."
+    }
+  }
+}

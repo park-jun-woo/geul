@@ -1,0 +1,110 @@
+{
+  "original": {
+    "synset_id": "render.v.01",
+    "definition": "cause to become",
+    "frame_id": 1,
+    "frame_text": "Something render something Adjective/Noun",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.02",
+        "reasoning": "The definition 'cause to become' indicates that the verb describes a transition of a participant from one state to another.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively causes the change in the patient's state, as per the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose state or condition is altered by the action of the causal agent."
+          },
+          {
+            "semantic_role": "resultant_state.n.01",
+            "value_type": "infinitive_clause.n.01",
+            "reasoning": "The 'INFINITIVE' clause specifies the new state or condition that the patient achieves or becomes as a result of the agent's action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of causing a change in state is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an explicit agent ('Somebody') who 'causes' implies strong intention and will behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rendering a change in state is inherently neutral; its positive or negative sentiment depends on the specific resultant state."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody render somebody...' clearly indicates a volitional agent ('Somebody') initiating and performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb 'render' implies a definite and effective causation of the specified state change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, distinct event of bringing about a change, not a continuous or repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "render.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "resultant_state.n.01",
+        "reasoning": "semantic_role 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "render.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "infinitive_clause.n.01",
+        "reasoning": "value_type 'infinitive_clause.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "render.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion: 'result.n.01' is a valid synset representing an outcome or consequence, which aligns with the concept of a 'resultant state'."
+      },
+      {
+        "synset_id": "render.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found from the list or internal knowledge for the specific grammatical concept 'infinitive_clause'."
+      }
+    ]
+  }
+}

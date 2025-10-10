@@ -1,0 +1,64 @@
+{
+  "synset_id": "spill.v.03",
+  "definition": "cause or allow (a solid substance) to flow or run out or over",
+  "frame_id": 5,
+  "frame_text": "Somebody spill something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes an agent causing a solid substance to change its location, specifically from a contained state to an uncontained or diffused state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or allows the event, as indicated by the verb frame and the definition 'cause or allow'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "solid.n.02",
+          "reasoning": "The 'something' that undergoes the change in location and is explicitly defined as a solid substance in this synset."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the frame indicates the specific location onto which the substance flows or runs, representing the destination of the substance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "flow.v.01",
+      "reasoning": "The definition specifies that the solid substance is caused to 'flow or run out or over', indicating the characteristic manner of its movement during the spill."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Spilling is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame 'Somebody spill something PP' causes or allows the action, implying intention or control."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spilling itself is generally neutral; any positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' and the definition 'cause or allow' explicitly indicate an intentional or consciously permitted action by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of a substance being spilled."
+    }
+  }
+}

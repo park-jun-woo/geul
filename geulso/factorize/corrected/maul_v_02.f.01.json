@@ -1,0 +1,65 @@
+{
+  "synset_id": "maul.v.02",
+  "definition": "injure badly by beating",
+  "frame_id": 1,
+  "frame_text": "Somebody maul somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The verb 'injure' describes a change in the physical state of a participant from intact to damaged.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of injuring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change in physical state, i.e., who is injured."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "beating.n.01",
+      "reasoning": "The definition explicitly states 'by beating', indicating the manner in which the injury is inflicted."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "badly.r.01",
+      "reasoning": "The definition includes 'injure badly', specifying a high degree of severity for the injury."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mauling and its resulting injury are typically directly observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s somebody' implies a non-volitional agent ('Something'), so there is no inherent will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'injure badly' inherently carries a negative sentiment due to the harm caused."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the agent is non-volitional ('Something'), making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of injury."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'beating' can be repetitive, the verb 'maul' refers to the resultant singular event of being injured badly, rather than the repeated actions of beating itself. It denotes a single, completed state change."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "spatter.v.01",
+    "definition": "dash a liquid upon or against",
+    "frame_id": 4,
+    "frame_text": "Somebody spatter somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The verb 'spatter' describes causing a change in the surface condition of a participant by applying a liquid to it, transitioning from not having liquid to having it.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the action of dashing a liquid."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' upon whom the liquid is dashed, experiencing a change in their surface condition."
+          },
+          {
+            "semantic_role": "material.n.02",
+            "reasoning": "The 'something' (liquid) that is applied and causes the change in the patient's surface condition."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The definition 'dash a liquid' indicates a quick, forceful, or violent manner of application, distinguishing it from gentle application."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of spattering is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' implies an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of spattering is inherently neutral; its positive or negative sentiment depends on the context and the nature of the liquid or situation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, indicating an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of spattering is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event of dashing a liquid, even if the result involves multiple droplets. It does not imply continuous repetition of the overall act."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 4,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion: 'state.n.02' is a general synset for the physical condition of something, which accurately captures the intended meaning of 'surface_condition'."
+      }
+    ],
+    "participants": []
+  }
+}

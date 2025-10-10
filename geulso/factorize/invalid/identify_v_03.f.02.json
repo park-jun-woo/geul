@@ -1,0 +1,133 @@
+{
+  "original": {
+    "synset_id": "identify.v.03",
+    "definition": "consider (oneself) as similar to somebody else",
+    "frame_id": 2,
+    "frame_text": "Somebody identify somebody with something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cognitive_state.n.01",
+        "reasoning": "The verb describes a volitional act that results in a change or establishment of the agent's cognitive state regarding their similarity or relation to another entity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of considering or establishing a mental relation, causing a change in their own cognitive state."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The implicit reflexive entity ('oneself') that is being mentally related or considered similar by the agent."
+          },
+          {
+            "semantic_role": "co_participant.n.01",
+            "reasoning": "The entity (often 'somebody else') with which the agent/patient identifies, typically introduced by the prepositional phrase (PP)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of identifying (considering similar) is a direct cognitive experience of the agent."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or a resulting mental state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of considering oneself similar to another is typically volitional and driven by the agent's will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of identifying with someone is neutral; the context determines if its sentiment is positive or negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody identify' indicates a volitional agent intentionally performing the act of consideration, which is an active mental process."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of considering oneself similar, once performed, is a definite mental event or stance."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of establishing or perceiving a similarity, though it can be reinforced over time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "identify.v.03",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "co_participant.n.01",
+        "reasoning": "semantic_role 'co_participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "guessing_game.n.01",
+            "description": "a game in which participants compete to identify some obscurely indicated thing (gloss match)"
+          },
+          {
+            "synset_id": "sweepstakes.n.01",
+            "description": "a lottery in which the prize consists of the money paid by the participants (gloss match)"
+          },
+          {
+            "synset_id": "honor_system.n.01",
+            "description": "a system of conduct in which participants are trusted not to take unfair advantage of others (gloss match)"
+          },
+          {
+            "synset_id": "pyramid_scheme.n.01",
+            "description": "a fraudulent scheme in which people are recruited to make payments to the person who recruited them while expecting to receive payments from the persons they recruit; when the number of new recruits fails to sustain the hierarchical payment structure the scheme collapses with most of the participants losing the money they put in (gloss match)"
+          },
+          {
+            "synset_id": "deixis.n.01",
+            "description": "the function of pointing or specifying from the perspective of a participant in an act of speech or writing; aspects of a communication whose interpretation depends on knowledge of the context in which the communication occurs (gloss match)"
+          },
+          {
+            "synset_id": "experimenter_bias.n.01",
+            "description": "(psychology) bias introduced by an experimenter whose expectations about the outcome of the experiment can be subtly communicated to the participants in the experiment (gloss match)"
+          },
+          {
+            "synset_id": "gag_order.n.01",
+            "description": "a court order restricting information or comment by the participants involved in a lawsuit (gloss match)"
+          },
+          {
+            "synset_id": "clearing_house.n.01",
+            "description": "a central collection place where banks exchange checks or drafts; participants maintain an account against which credits or debits are posted (gloss match)"
+          },
+          {
+            "synset_id": "symposium.n.01",
+            "description": "a meeting or conference for the public discussion of some topic especially one in which the participants form an audience and make presentations (gloss match)"
+          },
+          {
+            "synset_id": "player.n.05",
+            "description": "an important participant (as in a business deal) (gloss match)"
+          },
+          {
+            "synset_id": "active_birth.n.01",
+            "description": "childbirth during which the mother is encouraged to be an active participant (gloss match)"
+          },
+          {
+            "synset_id": "shakeout.n.01",
+            "description": "an economic condition that results in the elimination of marginally financed participants in an industry (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "identify.v.03",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "collaborator.n.02",
+        "corrected_reasoning": "LLM suggestion: 'collaborator.n.02' means someone who works with another, perfectly matching 'co_participant'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "mull.v.02",
+    "definition": "heat with sugar and spices to make a hot drink",
+    "frame_id": 1,
+    "frame_text": "Something mull something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.01",
+        "reasoning": "The verb describes the transformation of a base liquid into a prepared beverage (a hot drink).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the entity causing the change (e.g., a cooking apparatus, a recipe).",
+            "value_type": "non_volitional_entity.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the liquid that undergoes the transformation.",
+            "value_type": "liquid.n.01"
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "spice.n.01",
+            "reasoning": "The 'sugar and spices' mentioned in the definition are the ingredients used to impart flavor, acting as instruments in the preparation process."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "temperature.n.01",
+        "value_type": "hot.a.01",
+        "reasoning": "The definition explicitly states 'heat... to make a hot drink', indicating that the final state involves a high temperature."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of mulling is a directly observable and verifiable cooking action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing a process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent in the frame is 'Something', indicating a lack of will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of mulling itself is a neutral process; its desirability depends on the context of the drink."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something mull something' indicates that the action is performed by a non-volitional entity ('Something')."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description implies a definite process of making a drink."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Mulling is a process that involves continuous heating and flavoring over a period of time, rather than a single instantaneous event, thus having high repetition or continuity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "mull.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "non_volitional_entity.n.01",
+        "reasoning": "value_type 'non_volitional_entity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "mull.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'non_volitional_entity' implies an entity that lacks will or agency, which is well represented by 'inanimate_object.n.01'. (Original suggestion 'inanimate_object.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

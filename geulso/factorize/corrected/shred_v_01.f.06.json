@@ -1,0 +1,65 @@
+{
+  "synset_id": "shred.v.01",
+  "definition": "tear into shreds",
+  "frame_id": 6,
+  "frame_text": "Something shred something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "intactness.n.01",
+      "reasoning": "The verb describes causing a change in the physical integrity of an object by tearing it apart.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, representing the non-volitional entity (e.g., a machine, a force) that causes the tearing action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object undergoing the change in physical integrity."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "state.n.01",
+      "value_type": "fragmentation.n.01",
+      "reasoning": "The definition 'tear into shreds' explicitly denotes the specific resulting state of the patient as being broken into many small pieces or fragments.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The patient is the entity that ends up in the fragmented state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shredding is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shredding is neutral; its positive or negative sentiment is entirely dependent on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- something' explicitly indicates that the subject initiating the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shredding is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of transforming an object into a shredded state, even if the underlying physical process involves multiple small tears."
+    }
+  }
+}

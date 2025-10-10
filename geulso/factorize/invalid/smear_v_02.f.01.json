@@ -1,0 +1,115 @@
+{
+  "original": {
+    "synset_id": "smear.v.02",
+    "definition": "make a smudge on; soil by smudging",
+    "frame_id": 1,
+    "frame_text": "Somebody smear something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_condition.n.01",
+        "reasoning": "The verb describes causing a change in the surface condition of an object from one state (e.g., clean) to another (e.g., soiled or marked).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that actively causes the change to the surface, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose surface condition is altered, receiving the smudge or soil."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "resultant_state.n.01",
+        "value_type": "smudge.n.01",
+        "reasoning": "The core definition 'make a smudge on; soil by smudging' indicates that the action inherently leads to a resultant state characterized by a smudge or soil."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of smearing is a directly observable physical event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' in the frame implies a non-sentient or non-willful agent, thus no associated will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of smearing itself is neutral; its sentiment depends on context (e.g., ruining a document vs. artistic application)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something smear something' indicates that the action is performed by a non-volitional entity ('Something'), making the action non-intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, possibly continuous, act of making a smudge."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "smear.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "surface_condition.n.01",
+        "reasoning": "verb_property 'surface_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypospadias.n.01",
+            "description": "an abnormal condition in males in which the urethra opens on the under surface of the penis (gloss match)"
+          },
+          {
+            "synset_id": "erosion.n.02",
+            "description": "condition in which the earth's surface is worn away by the action of water and wind (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "smear.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "resultant_state.n.01",
+        "reasoning": "verb_property 'resultant_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "smear.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "coating.n.01",
+        "corrected_reasoning": "LLM suggestion. 'coating.n.01' (a thin layer covering something) is a perfect semantic and contextual fit for a 'verb_property' of 'smear.v.02', which involves covering a surface with a substance."
+      },
+      {
+        "synset_id": "smear.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "result.n.01",
+        "corrected_reasoning": "LLM suggestion. 'result.n.01' (a phenomenon that follows and is caused by some previous phenomenon) is a perfect semantic and contextual fit for the general concept of a 'resultant_state'."
+      }
+    ],
+    "participants": []
+  }
+}

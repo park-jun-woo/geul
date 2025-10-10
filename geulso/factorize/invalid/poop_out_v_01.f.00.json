@@ -1,0 +1,144 @@
+{
+  "original": {
+    "synset_id": "poop_out.v.01",
+    "definition": "use up all one's strength and energy and stop working",
+    "frame_id": 0,
+    "frame_text": "Somebody conk_out",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb describes a transition from an active, energetic state to a state of complete exhaustion, directly reflecting a change in physical condition.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is implicitly responsible for expending their own strength and energy, which leads to their exhausted state."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Somebody' is the entity that undergoes this transformation into an exhausted and inactive state, as detailed by the definition 'use up all one's strength and energy and stop working'."
+          }
+        ]
+      },
+      {
+        "verb_type": "state",
+        "verb_property": "activity.n.01",
+        "reasoning": "The verb includes 'and stop working' as a direct consequence of the energy depletion, indicating a resulting state of inactivity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' is the entity that ceases their activity as a result of pooping out."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'pooping out' is typically directly observed or experienced by the subject."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or a resulting state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The action that leads to 'pooping out' (using up strength and energy) is often volitional, driven by the agent's will, even if the ultimate exhaustion is involuntary."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "'Poop out' is an informal expression."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While often used in contexts implying difficulty or failure, the state of exhaustion itself is physiologically neutral. Its sentiment depends on the broader context (e.g., after a challenging but successful endeavor)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' combined with the definition 'use up all one's strength and energy' implies a volitional agent engaging in activities that lead to exhaustion."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of reaching the point of complete exhaustion and ceasing activity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "poop_out.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "poop_out.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "physical_condition.n.01",
+        "corrected_reasoning": "LLM suggestion: perfect semantic and contextual replacement for the original invalid value."
+      }
+    ],
+    "participants": []
+  }
+}

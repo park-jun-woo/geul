@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "reheat.v.01",
+    "definition": "heat again",
+    "frame_id": 1,
+    "frame_text": "Something reheat somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "temperature.n.01",
+        "reasoning": "The verb 'reheat' describes the act of causing the temperature of something to increase, making it hot or hotter.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that performs the action of reheating, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose temperature is increased (made hot or hotter) by the action, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "temporal_aspect.n.01",
+        "value_type": "repetition.n.01",
+        "reasoning": "The prefix 're-' in 'reheat' inherently signifies that this heating action is a repetition of a prior heating event."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of reheating is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something reheat somebody' lacks an agent capable of will, as the subject is 'Something'."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of reheating is neutral; the context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something reheat somebody' describes an event happening with an inanimate subject ('Something'), making the action inherently non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of reheating is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the action is a *re-occurrence* (indicated by the 're-' prefix captured in a sememe), the specific instance of 'reheating' described by this verb frame is a single, complete event, not an action composed of continuous internal repetitions like 'running'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "reheat.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "temporal_aspect.n.01",
+        "reasoning": "verb_property 'temporal_aspect.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "temporal_aspect.n.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "aspect.n.03",
+        "corrected_reasoning": "LLM suggestion: 'aspect.n.03' accurately describes the temporal property of a verb."
+      }
+    ],
+    "participants": []
+  }
+}

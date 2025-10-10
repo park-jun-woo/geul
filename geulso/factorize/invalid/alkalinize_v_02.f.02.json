@@ -1,0 +1,134 @@
+{
+  "original": {
+    "synset_id": "alkalinize.v.02",
+    "definition": "make (a substance) alkaline",
+    "frame_id": 2,
+    "frame_text": "Something alkalinise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_state.n.01",
+        "reasoning": "The definition 'make (a substance) alkaline' describes a process of altering the chemical state of a substance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which causes the change in the substance's chemical state."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "alkaline.a.01",
+            "reasoning": "The second 'something' that undergoes the change and becomes alkaline."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of alkalinizing is typically a directly observable chemical process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a factual action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something alkalinise something' implies an inanimate agent ('Something') which lacks will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of making a substance alkaline is a neutral chemical process, not inherently positive or negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something alkalinise something' indicates that the action is performed by an inanimate agent, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of changing a substance's state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, completed event of making something alkaline."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "alkalinize.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "chemical_state.n.01",
+        "reasoning": "verb_property 'chemical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "methylenedioxymethamphetamine.n.01",
+            "description": "a stimulant drug that is chemically related to mescaline and amphetamine and is used illicitly for its euphoric and hallucinogenic effects; it was formerly used in psychotherapy but in 1985 it was declared illegal in the United States (gloss match)"
+          },
+          {
+            "synset_id": "law_of_mass_action.n.01",
+            "description": "(chemistry) the law that states the following principle: the rate of a chemical reaction is directly proportional to the molecular concentrations of the reacting substances (gloss match)"
+          },
+          {
+            "synset_id": "calvin.n.01",
+            "description": "United States chemist noted for discovering the series of chemical reactions in photosynthesis (1911-) (gloss match)"
+          },
+          {
+            "synset_id": "funk.n.02",
+            "description": "United States biochemist (born in Poland) who showed that several diseases were caused by dietary deficiencies and who coined the term `vitamin' for the chemicals involved (1884-1967) (gloss match)"
+          },
+          {
+            "synset_id": "hoffmann.n.03",
+            "description": "United States chemist (born in Poland) who used quantum mechanics to understand chemical reactions (born in 1937) (gloss match)"
+          },
+          {
+            "synset_id": "pauling.n.01",
+            "description": "United States chemist who studied the nature of chemical bonding (1901-1994) (gloss match)"
+          },
+          {
+            "synset_id": "tatum.n.01",
+            "description": "United States biochemist who discovered how genes act by regulating definite chemical events (1909-1975) (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "corrosion.n.01",
+            "description": "a state of deterioration in metals caused by oxidation or chemical action (gloss match)"
+          },
+          {
+            "synset_id": "stabilizer.n.01",
+            "description": "a chemical that is added to a solution or mixture or suspension to maintain it in a stable or unchanging state (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "alkalinize.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "chemical_property.n.01",
+        "corrected_reasoning": "LLM suggestion: 'chemical_property.n.01' perfectly describes a characteristic observable when matter undergoes chemical change, which aligns with 'alkalinize.v.02' modifying a chemical state (like pH)."
+      }
+    ],
+    "participants": []
+  }
+}

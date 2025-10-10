@@ -1,0 +1,137 @@
+{
+  "original": {
+    "synset_id": "clang.v.01",
+    "definition": "make a loud noise",
+    "frame_id": 2,
+    "frame_text": "Something clang",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "acoustic_state.n.01",
+        "reasoning": "The verb describes the action of producing a sound, which is a change in the acoustic state from silence to sound.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which actively produces or causes the sound."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, which is acted upon to produce the sound and is the source of the acoustic event."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "high.a.01",
+        "reasoning": "The definition explicitly states 'make a loud noise', indicating that the sound produced has high intensity."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value_type": "metallic.a.01",
+        "reasoning": "The lexeme 'clang' inherently specifies a distinct type of sound that is typically hard, resonant, and often associated with metal."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of clanging is a directly observable and audible phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies an inanimate object, which lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of clanging itself is neutral; any positive or negative sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something clang something' indicates that the action is performed by a non-agentive subject, making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite and factual occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb 'clang' typically refers to a single, discrete instance of a loud sound, not continuous repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "clang.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "acoustic_state.n.01",
+        "reasoning": "verb_property 'acoustic_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "clang.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "clang.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate found with >99% confidence, and no perfect semantic fit identified from internal knowledge for 'acoustic_state.n.01'."
+      },
+      {
+        "synset_id": "clang.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "plangency.n.01",
+        "corrected_reasoning": "Candidate 'plangency.n.01' is a perfect semantic and contextual fit, describing the quality of being a loud, resonant sound, which aligns with 'clang'."
+      }
+    ],
+    "participants": []
+  }
+}

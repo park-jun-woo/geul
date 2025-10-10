@@ -1,0 +1,114 @@
+{
+  "original": {
+    "synset_id": "crack.v.13",
+    "definition": "break into simpler molecules by means of heat",
+    "frame_id": 0,
+    "frame_text": "Something crack",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "molecular_structure.n.01",
+        "reasoning": "The definition 'break into simpler molecules' explicitly describes a transformation or alteration of the molecular structure of the substance.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the chemical breakdown and change in molecular structure, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "heat.n.01",
+            "reasoning": "The definition clearly states 'by means of heat', identifying heat as the primary instrument causing the molecular breakdown."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes like cracking are observable phenomena, either directly or through their effects."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a natural or induced process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something crack' indicates no agent with inherent will; the process is either natural or externally caused by heat."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The chemical process of cracking is semantically neutral; its positive or negative value depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' is non-agentive and undergoes the process, implying a non-volitional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description of the event is presented as a definite occurrence or a known process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Cracking into 'simpler molecules' implies a process affecting many constituent parts, likely occurring repeatedly or continuously during the event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "crack.v.13",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "molecular_structure.n.01",
+        "reasoning": "verb_property 'molecular_structure.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "determination.n.01",
+            "description": "the act of determining the properties of something, usually by research or calculation (gloss match)"
+          },
+          {
+            "synset_id": "reformer.n.02",
+            "description": "an apparatus that reforms the molecular structure of hydrocarbons to produce richer fuel (gloss match)"
+          },
+          {
+            "synset_id": "molecular_genetics.n.01",
+            "description": "the branch of genetics concerned with the structure and activity of genetic material at the molecular level (gloss match)"
+          },
+          {
+            "synset_id": "kendrew.n.01",
+            "description": "English biologist noted for studies of the molecular structure of blood components (born in 1917) (gloss match)"
+          },
+          {
+            "synset_id": "lipscomb.n.01",
+            "description": "United States chemist noted for his theories of molecular structure (born in 1919) (gloss match)"
+          },
+          {
+            "synset_id": "perutz.n.01",
+            "description": "English biochemist (born in Austria); studied the molecular structure of blood (1914-2002) (gloss match)"
+          },
+          {
+            "synset_id": "robinson.n.01",
+            "description": "English chemist noted for his studies of molecular structures in plants (1886-1975) (gloss match)"
+          },
+          {
+            "synset_id": "chemical_process.n.01",
+            "description": "(chemistry) any process determined by the atomic and molecular composition and structure of the substances involved (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "crack.v.13",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: perfect semantic fit for 'molecular structure' referring to the arrangement of constituents of a substance. (Original suggestion 'chemical_composition.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

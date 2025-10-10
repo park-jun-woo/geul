@@ -1,0 +1,129 @@
+{
+  "original": {
+    "synset_id": "fatten.v.01",
+    "definition": "make fat or plump",
+    "frame_id": 8,
+    "frame_text": "Somebody fill_out somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "body_condition.n.01",
+        "reasoning": "The verb 'fatten' describes the act of causing a transformation in the physical state of a being, specifically to become fat or plump.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who intentionally initiates and performs the action of making someone fat or plump."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change in body condition to become fat or plump."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The process of fattening someone or something is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a volitional agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of fattening is inherently neutral; its positive or negative sentiment is highly dependent on the specific context and cultural perception."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action, implying intentionality."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence or outcome of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single, albeit potentially prolonged, event of causing a change in body condition, rather than a sequence of discrete identical actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "fatten.v.01",
+        "frame_id": 8,
+        "key": "verb_property",
+        "value": "body_condition.n.01",
+        "reasoning": "verb_property 'body_condition.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "conditioner.n.01",
+            "description": "exercise that conditions the body (gloss match)"
+          },
+          {
+            "synset_id": "chartism.n.01",
+            "description": "the principles of a body of 19th century English reformers who advocated better social and economic conditions for working people (gloss match)"
+          },
+          {
+            "synset_id": "axis.n.01",
+            "description": "a straight line through a body or figure that satisfies certain conditions (gloss match)"
+          },
+          {
+            "synset_id": "health.n.02",
+            "description": "the general condition of body and mind (gloss match)"
+          },
+          {
+            "synset_id": "physical_condition.n.01",
+            "description": "the condition or state of the body or bodily functions (gloss match)"
+          },
+          {
+            "synset_id": "atresia.n.01",
+            "description": "an abnormal condition in which a normal opening or tube in the body (as the urethra) is closed or absent (gloss match)"
+          },
+          {
+            "synset_id": "malignant_hyperthermia.n.01",
+            "description": "hereditary condition in which certain anesthetics (e.g., halothane) cause high body temperatures and muscle rigidity (gloss match)"
+          },
+          {
+            "synset_id": "heat_exhaustion.n.01",
+            "description": "a condition marked by dizziness and nausea and weakness caused by depletion of body fluids and electrolytes (gloss match)"
+          },
+          {
+            "synset_id": "fetal_alcohol_syndrome.n.01",
+            "description": "a congenital medical condition in which body deformation occurs or facial development or mental ability is impaired because the mother drinks alcohol during pregnancy (gloss match)"
+          },
+          {
+            "synset_id": "phocomelia.n.01",
+            "description": "an abnormality of development in which the upper part of an arm or leg is missing so the hands or feet are attached to the body like stumps; rare condition that results from taking thalidomide during pregnancy (gloss match)"
+          },
+          {
+            "synset_id": "tension.n.02",
+            "description": "the physical condition of being stretched or strained (gloss match)"
+          },
+          {
+            "synset_id": "corticosteroid.n.01",
+            "description": "a steroid hormone produced by the adrenal cortex or synthesized; administered as drugs they reduce swelling and decrease the body's immune response (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "fatten.v.01",
+        "frame_id": 8,
+        "key": "verb_property",
+        "corrected_value": "physical_condition.n.01",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates: 'the condition or state of the body or bodily functions'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "strike_a_chord.v.01",
+    "definition": "create an emotional response",
+    "frame_id": 0,
+    "frame_text": "Somebody strike_a_chord",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "reasoning": "The verb 'strike a chord' describes the act of causing a change or creation of an emotional state in an entity, as per its definition 'create an emotional response'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the grammatical subject and acts as the entity that produces or elicits the emotional response."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "experiencer.n.01",
+            "reasoning": "Although not explicitly present in the frame 'Somebody strike_a_chord', the inherent meaning of 'create an emotional response' necessitates an implicit experiencer (e.g., a person or audience) who undergoes the change in emotional state. This experiencer is the patient of the emotional change."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'striking a chord' (creating an emotional response) can be directly observed through its effects or reported by the experiencer."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Following the rule, the presence of 'Somebody' in the frame suggests the action is often performed with a degree of intention or will to create a response, even if the exact outcome is not fully controlled."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of creating an emotional response is neutral; the specific emotion evoked can be positive or negative, but the verb itself doesn't specify sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "As per the instruction, the presence of 'Somebody' in the `verb_frame` indicates that the action is likely volitional, implying an agent actively creating the condition for the emotional response."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of creating an emotional response when it happens."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete event of producing an emotional response in a given context."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "strike_a_chord.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "experiencer.n.01",
+        "reasoning": "value_type 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "strike_a_chord.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic replacement found for 'experiencer.n.01' from candidates or internal knowledge."
+      }
+    ]
+  }
+}

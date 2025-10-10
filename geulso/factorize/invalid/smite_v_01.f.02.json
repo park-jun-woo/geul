@@ -1,0 +1,135 @@
+{
+  "original": {
+    "synset_id": "smite.v.01",
+    "definition": "inflict a heavy blow on, with the hand, a tool, or a weapon",
+    "frame_id": 2,
+    "frame_text": "Something smite somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_state.n.01",
+        "reasoning": "The verb 'smite' describes the act of inflicting a heavy blow, which causes a change in the physical state of the recipient, often leading to damage or impact.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame acts as the inflictor or the source of the heavy blow, causing the physical change to the patient."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the verb frame is the one who receives the heavy blow and undergoes the physical change."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "heavy.a.01",
+        "reasoning": "The definition explicitly states 'inflict a heavy blow', which denotes a significant level of force or intensity as an inherent characteristic of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of smiting is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' in the verb frame implies a non-volitional agent, thus lacking intentional will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'smite' involves inflicting a 'heavy blow,' which is inherently associated with harm or negative consequences, indicating a negative polarity."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something smite somebody' indicates a non-volitional subject ('Something') performing the action, making the action unintentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action or occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete act of inflicting a blow, rather than a continuous or highly repetitive action by default."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "smite.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "physical_state.n.01",
+        "reasoning": "verb_property 'physical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "humor.n.05",
+            "description": "(Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (gloss match)"
+          },
+          {
+            "synset_id": "reading.n.03",
+            "description": "a datum about some physical state that is presented to a user by a meter or similar instrument (gloss match)"
+          },
+          {
+            "synset_id": "degree_of_freedom.n.02",
+            "description": "one of the minimum number of parameters needed to describe the state of a physical system (gloss match)"
+          },
+          {
+            "synset_id": "formalism.n.02",
+            "description": "(philosophy) the philosophical theory that formal (logical or mathematical) statements have no meaning but that its symbols (regarded as physical entities) exhibit a form that has useful applications (gloss match)"
+          },
+          {
+            "synset_id": "militia.n.02",
+            "description": "the entire body of physically fit civilians eligible by law for military service; ; --United States Constitution (gloss match)"
+          },
+          {
+            "synset_id": "lloyd.n.01",
+            "description": "United States comic actor in silent films; he used physical danger as a source of comedy (1893-1971) (gloss match)"
+          },
+          {
+            "synset_id": "energy_level.n.01",
+            "description": "a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "constraint.n.01",
+            "description": "the state of being physically constrained (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "plasma.n.03",
+            "description": "(physical chemistry) a fourth state of matter distinct from solid or liquid or gas and present in stars and fusion reactors; a gas becomes a plasma when it is heated until the atoms lose all their electrons, leaving a highly electrified collection of nuclei and free electrons (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "smite.v.01",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "state.n.02",
+        "corrected_reasoning": "LLM suggestion. The original invalid synset 'physical_state.n.01' represents a general concept of condition. 'state.n.02' ('the physical and mental condition that someone or something is in') is a perfect semantic and contextual match, encompassing physical condition broadly, which was not adequately covered by the provided specific candidates."
+      }
+    ],
+    "participants": []
+  }
+}

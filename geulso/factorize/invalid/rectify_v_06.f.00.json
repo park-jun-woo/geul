@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "rectify.v.06",
+    "definition": "convert into direct current",
+    "frame_id": 0,
+    "frame_text": "Somebody rectify something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "current_type.n.01",
+        "reasoning": "The definition 'convert into direct current' signifies a transformation of the type of electrical current, representing a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the entity that initiates and performs the action of converting the current."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the frame is the electrical current that undergoes the conversion."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "value": "direct_current.n.01",
+            "reasoning": "The definition explicitly states the target state or form: 'into direct current'."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of rectifying (converting current) is a physically observable process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with clear will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of converting electrical current is a technical process and is semantically neutral."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody rectify something' indicates an intentional action performed by a volitional agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite action of conversion."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance or a continuous process of conversion, but not inherent repetition of distinct events in a 'single event' context."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "rectify.v.06",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "current_type.n.01",
+        "reasoning": "verb_property 'current_type.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "genital_herpes.n.01",
+            "description": "an infection caused by herpes simplex virus type 2 (HSV-2) that is usually transmitted by sexual contact; marked by recurrent attacks of painful eruptions on the skin and mucous membranes of the genital area (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "rectify.v.06",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate from the list or internal knowledge met the >99% confidence threshold for a perfect semantic and contextual replacement for the ambiguous and invalid 'current_type.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

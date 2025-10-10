@@ -1,0 +1,102 @@
+{
+  "original": {
+    "synset_id": "kidnap.v.01",
+    "definition": "take away to an undisclosed location against their will and usually in order to extract a ransom",
+    "frame_id": 0,
+    "frame_text": "Somebody abduct somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "location.n.01",
+        "reasoning": "The core action of 'kidnap' involves altering a person's physical location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the act of taking the person away."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose location is changed against their will."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "value_type": "undisclosed_location.n.01",
+            "reasoning": "The target location for the patient is specified as 'undisclosed' in the definition, making it a crucial aspect of the change."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "coercive.a.01",
+        "reasoning": "The definition explicitly states 'against their will', indicating the use of coercion or force in the action."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "ransom.n.01",
+        "reasoning": "The definition highlights 'in order to extract a ransom' as a primary motive, making it a defining purpose of the act."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Kidnapping is an event that is typically directly observed or experienced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a factual event or action, fitting a declarative mood."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates a strong will and intention behind the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Kidnapping is universally considered a negative and criminal act."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody kidnap somebody' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence when it takes place."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Kidnapping refers to a single, discrete event of taking a person."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "kidnap.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "undisclosed_location.n.01",
+        "reasoning": "value_type 'undisclosed_location.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "kidnap.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "hiding_place.n.01",
+        "corrected_reasoning": "LLM suggestion: A place where a kidnapped person is kept to hide them, making its location undisclosed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "original": {
+    "synset_id": "spatter.v.01",
+    "definition": "dash a liquid upon or against",
+    "frame_id": 31,
+    "frame_text": "Something splatter something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "location.n.01",
+        "reasoning": "The verb describes an action that causes a liquid to change its position from an initial state to being distributed across a surface.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame, which acts as the initiator or cause of the spattering.",
+            "value_type": "inanimate.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame, referring to the liquid that undergoes the change of location.",
+            "value_type": "liquid.n.01"
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "reasoning": "The implicit surface or object where the liquid lands, indicated by 'upon or against' in the definition, though not explicitly in the frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The definition 'dash a liquid' implies a forceful application or projection of the liquid."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "distribution.n.01",
+        "value_type": "dispersed.a.01",
+        "reasoning": "The nature of 'spatter' implies that the liquid is spread out in an irregular, scattered pattern, aligning with its hypernym 'scatter'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Spattering is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something splatter something' implies a non-volitional subject, therefore no agent's will is involved."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of spattering is neutral; its sentiment depends on context (e.g., mud spattering vs. paint spattering art)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something splatter something' specifies an inanimate or non-agentive subject, making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of spattering is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Spattering inherently involves multiple, discrete droplets or particles being distributed, suggesting a high degree of repetition in the outcome or process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 31,
+        "key": "value_type",
+        "value": "inanimate.n.01",
+        "reasoning": "value_type 'inanimate.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "still_life.n.01",
+            "description": "a painting of inanimate objects such as fruit or flowers (gloss match)"
+          },
+          {
+            "synset_id": "deadness.n.03",
+            "description": "the inanimate property of something that has died (gloss match)"
+          },
+          {
+            "synset_id": "pathetic_fallacy.n.01",
+            "description": "the fallacy of attributing human feelings to inanimate objects; `the friendly sun' is an example of the pathetic fallacy (gloss match)"
+          },
+          {
+            "synset_id": "neuter.n.01",
+            "description": "a gender that refers chiefly (but not exclusively) to inanimate objects (neither masculine nor feminine) (gloss match)"
+          },
+          {
+            "synset_id": "instrumental_role.n.01",
+            "description": "the semantic role of the entity (usually inanimate) that the agent uses to perform an action or start a process (gloss match)"
+          },
+          {
+            "synset_id": "fomite.n.01",
+            "description": "any inanimate object (as a towel or money or clothing or dishes or books or toys etc.) that can transmit infectious agents from one person to another (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "inanimate.n.01",
+        "frame_id": 31,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate or LLM suggestion met the >99% confidence threshold for a perfect semantic and contextual fit. Candidates were too specific, and no general NLTK WordNet synset for 'inanimate entity/category' could be identified as a perfect fit."
+      }
+    ]
+  }
+}

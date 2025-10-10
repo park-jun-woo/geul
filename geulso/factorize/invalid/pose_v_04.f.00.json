@@ -1,0 +1,295 @@
+{
+  "original": {
+    "synset_id": "pose.v.04",
+    "definition": "behave affectedly or unnaturally in order to impress others",
+    "frame_id": 0,
+    "frame_text": "Somebody pose",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "behavior.n.01",
+        "reasoning": "The verb describes an intentional act of exhibiting a specific kind of behavior.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of behaving, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "affected.a.01",
+        "reasoning": "The definition specifies the manner of behavior as 'affectedly or unnaturally', which is a crucial semantic component."
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "impression.n.01",
+        "reasoning": "The behavior is undertaken with the specific intention 'to impress others', indicating a clear purpose.",
+        "participants": [
+          {
+            "semantic_role": "target.n.01",
+            "value_type": "other_person.n.01",
+            "reasoning": "The 'others' who are the intended recipients of the impression, derived from 'to impress others' in the definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Posing is a directly observable behavior."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of posing is driven by the agent's will and intention to impress."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The terms 'affectedly' and 'unnaturally' imply a negative connotation of insincerity or pretense."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' combined with 'behave affectedly' clearly indicates an intentional, volitional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of behavior."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Posing implies a sustained or repeated pattern of affected behavior, rather than a single, discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pose.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "other_person.n.01",
+        "reasoning": "value_type 'other_person.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "congener.n.03",
+            "description": "a whole (a thing or person) of the same kind or category as another (gloss match)"
+          },
+          {
+            "synset_id": "appropriation.n.03",
+            "description": "a deliberate act of acquisition of something, often without the permission of the owner (gloss match)"
+          },
+          {
+            "synset_id": "addiction.n.03",
+            "description": "(Roman law) a formal award by a magistrate of a thing or person to another person (as the award of a debtor to his creditor); a surrender to a master (gloss match)"
+          },
+          {
+            "synset_id": "forwarding.n.01",
+            "description": "the act of sending on to another destination (gloss match)"
+          },
+          {
+            "synset_id": "substitution.n.02",
+            "description": "the act of putting one thing or person in the place of another: (gloss match)"
+          },
+          {
+            "synset_id": "supersedure.n.01",
+            "description": "act of replacing one person or thing by another especially one held to be superior (gloss match)"
+          },
+          {
+            "synset_id": "replacement.n.01",
+            "description": "the act of furnishing an equivalent person or thing in the place of another (gloss match)"
+          },
+          {
+            "synset_id": "extradition.n.01",
+            "description": "the surrender of an accused or convicted person by one state or country to another (usually under the provisions of a statute or treaty) (gloss match)"
+          },
+          {
+            "synset_id": "washup.n.01",
+            "description": "the act of washing yourself (or another person) (gloss match)"
+          },
+          {
+            "synset_id": "passage.n.10",
+            "description": "the act of passing something to another person (gloss match)"
+          },
+          {
+            "synset_id": "relay.n.01",
+            "description": "the act of passing something along from one person or group to another (gloss match)"
+          },
+          {
+            "synset_id": "chokehold.n.02",
+            "description": "a restraining hold; someone loops the arm around the neck of another person in a tight grip, usually from behind (gloss match)"
+          },
+          {
+            "synset_id": "embrace.n.01",
+            "description": "the act of clasping another person in the arms (as in greeting or affection) (gloss match)"
+          },
+          {
+            "synset_id": "torture.n.05",
+            "description": "the deliberate, systematic, or wanton infliction of physical or mental suffering by one or more persons in an attempt to force another person to yield information or to make a confession or for any other reason (gloss match)"
+          },
+          {
+            "synset_id": "impersonation.n.03",
+            "description": "imitating the mannerisms of another person (gloss match)"
+          },
+          {
+            "synset_id": "service.n.01",
+            "description": "work done by one person or group that benefits another (gloss match)"
+          },
+          {
+            "synset_id": "housecleaning.n.01",
+            "description": "(figurative) the act of reforming by the removal of unwanted personnel or practices or conditions (gloss match)"
+          },
+          {
+            "synset_id": "crisis_intervention.n.01",
+            "description": "psychotherapy that focuses on acute critical situations (depressive episodes or attempted suicides or drug overdoses) with the aim of restoring the person to the level of functioning before the crisis (gloss match)"
+          },
+          {
+            "synset_id": "self-analysis.n.02",
+            "description": "the application of psychotherapeutic principles to the analysis of your own personality (gloss match)"
+          },
+          {
+            "synset_id": "trespass_viet_armis.n.01",
+            "description": "trespass with force and arms resulting in injury to another's person or property (gloss match)"
+          },
+          {
+            "synset_id": "voyeurism.n.01",
+            "description": "a perversion in which a person receives sexual gratification from seeing the genitalia of others or witnessing others' sexual behavior (gloss match)"
+          },
+          {
+            "synset_id": "criminal_negligence.n.01",
+            "description": "(law) recklessly acting without reasonable caution and putting another person at risk of injury or death (or failing to do something with the same consequences) (gloss match)"
+          },
+          {
+            "synset_id": "imposture.n.01",
+            "description": "pretending to be another person (gloss match)"
+          },
+          {
+            "synset_id": "envy.n.02",
+            "description": "spite and resentment at seeing the success of another (personified as one of the deadly sins) (gloss match)"
+          },
+          {
+            "synset_id": "maintenance.n.05",
+            "description": "the unauthorized interference in a legal action by a person having no interest in it (as by helping one party with money or otherwise to continue the action) so as to obstruct justice or promote unnecessary litigation or unsettle the peace of the community (gloss match)"
+          },
+          {
+            "synset_id": "fraud.n.01",
+            "description": "intentional deception resulting in injury to another person (gloss match)"
+          },
+          {
+            "synset_id": "mayhem.n.01",
+            "description": "the willful and unlawful crippling or mutilation of another person (gloss match)"
+          },
+          {
+            "synset_id": "sexual_assault.n.01",
+            "description": "a statutory offense that provides that it is a crime to knowingly cause another person to engage in an unwanted sexual act by force or threat (gloss match)"
+          },
+          {
+            "synset_id": "identity_theft.n.01",
+            "description": "the co-option of another person's personal information (e.g., name, Social Security number, credit card number, passport) without that person's knowledge and the fraudulent use of such knowledge (gloss match)"
+          },
+          {
+            "synset_id": "fornication.n.01",
+            "description": "voluntary sexual intercourse between persons not married to each other (gloss match)"
+          },
+          {
+            "synset_id": "frottage.n.01",
+            "description": "masturbation by rubbing against another person (as in a crowd) (gloss match)"
+          },
+          {
+            "synset_id": "moralism.n.02",
+            "description": "judgments about another person's morality (gloss match)"
+          },
+          {
+            "synset_id": "echolalia.n.02",
+            "description": "(psychiatry) mechanical and meaningless repetition of the words of another person (as in schizophrenia) (gloss match)"
+          },
+          {
+            "synset_id": "alienation.n.03",
+            "description": "(law) the voluntary and absolute transfer of title and possession of real property from one person to another (gloss match)"
+          },
+          {
+            "synset_id": "conveyance.n.04",
+            "description": "act of transferring property title from one person to another (gloss match)"
+          },
+          {
+            "synset_id": "migration.n.01",
+            "description": "the movement of persons from one country or locality to another (gloss match)"
+          },
+          {
+            "synset_id": "misconduct.n.01",
+            "description": "bad or dishonest management by persons supposed to act on another's behalf (gloss match)"
+          },
+          {
+            "synset_id": "gauntlet.n.04",
+            "description": "a form of punishment in which a person is forced to run between two lines of men facing each other and armed with clubs or whips to beat the victim (gloss match)"
+          },
+          {
+            "synset_id": "obedience.n.01",
+            "description": "the act of obeying; dutiful or submissive behavior with respect to another person (gloss match)"
+          },
+          {
+            "synset_id": "judicial_review.n.01",
+            "description": "review by a court of law of actions of a government official or entity or of some other legally appointed person or body or the review by an appellate court of the decision of a trial court (gloss match)"
+          },
+          {
+            "synset_id": "darter.n.02",
+            "description": "a person or other animal that moves abruptly and rapidly (gloss match)"
+          },
+          {
+            "synset_id": "stayer.n.01",
+            "description": "a person or other animal having powers of endurance or perseverance (gloss match)"
+          },
+          {
+            "synset_id": "stablemate.n.01",
+            "description": "a horse stabled with another or one of several horses owned by the same person (gloss match)"
+          },
+          {
+            "synset_id": "hand-me-down.n.01",
+            "description": "outgrown garment passed down from one person to another (gloss match)"
+          },
+          {
+            "synset_id": "house_of_correction.n.01",
+            "description": "(formerly) a jail or other place of detention for persons convicted of minor offences (gloss match)"
+          },
+          {
+            "synset_id": "military_hospital.n.01",
+            "description": "hospital for soldiers and other military personnel (gloss match)"
+          },
+          {
+            "synset_id": "pc_board.n.01",
+            "description": "a removable circuit board for a personal computer; fits into a slot in the mother board (gloss match)"
+          },
+          {
+            "synset_id": "presence_chamber.n.01",
+            "description": "room in which a monarch or other great person receives guests, assemblies, etc. (gloss match)"
+          },
+          {
+            "synset_id": "stage_door.n.01",
+            "description": "an entrance to the backstage area of theater; used by performers and other theater personnel (gloss match)"
+          },
+          {
+            "synset_id": "personality.n.01",
+            "description": "the complex of all the attributes--behavioral, temperamental, emotional and mental--that characterize a unique individual (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "pose.v.04",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'other_person.n.01' is not a valid NLTK synset. 'person.n.01' is the most semantically appropriate general noun for a human being distinct from the primary subject."
+      }
+    ]
+  }
+}

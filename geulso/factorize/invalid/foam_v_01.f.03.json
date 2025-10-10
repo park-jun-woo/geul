@@ -1,0 +1,113 @@
+{
+  "original": {
+    "synset_id": "foam.v.01",
+    "definition": "become bubbly or frothy or foaming",
+    "frame_id": 3,
+    "frame_text": "Something form_bubbles",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "bubbles.n.01",
+        "reasoning": "The definition 'become bubbly or frothy or foaming' clearly describes a change in the state of the subject, specifically involving the formation of bubbles.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change, becoming bubbly."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of foaming is a directly observable physical process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a natural occurrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something form_bubbles' describes a process without an agent capable of will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of foaming is a neutral physical process; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something form_bubbles' indicates a non-volitional subject, implying the action is not intentional but a natural process."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of foaming is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Foaming typically involves a continuous or highly repetitive formation of bubbles over a period, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "foam.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "bubbles.n.01",
+        "reasoning": "verb_property 'bubbles.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "magnetic_bubble_memory.n.01",
+            "description": "a nonvolatile storage device that holds information in the form of bubbles on a thin film of magnetic silicate; no longer used in most computers (gloss match)"
+          },
+          {
+            "synset_id": "shaving_foam.n.01",
+            "description": "toiletry consisting of a liquid preparation containing many small bubbles that soften the beard before shaving (gloss match)"
+          },
+          {
+            "synset_id": "vapor_lock.n.01",
+            "description": "a stoppage in a pipeline caused by gas bubbles (especially a stoppage that develops in hot weather in an internal-combustion engine when fuel in the gas line boils and forms bubbles that block the flow of gasoline to the carburetor) (gloss match)"
+          },
+          {
+            "synset_id": "bubbliness.n.01",
+            "description": "the property of giving off bubbles (gloss match)"
+          },
+          {
+            "synset_id": "buoyancy.n.01",
+            "description": "cheerfulness that bubbles to the surface (gloss match)"
+          },
+          {
+            "synset_id": "bubble_gum.n.01",
+            "description": "a kind of chewing gum that can be blown into bubbles (gloss match)"
+          },
+          {
+            "synset_id": "foam.n.01",
+            "description": "a mass of small bubbles formed in or on a liquid (gloss match)"
+          },
+          {
+            "synset_id": "foam.n.02",
+            "description": "a lightweight material in cellular form; made by introducing gas bubbles during manufacture (gloss match)"
+          },
+          {
+            "synset_id": "foam_rubber.n.01",
+            "description": "spongy rubber; made by introducing air bubbles before vulcanization and used for cushioning or upholstery (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "foam.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "foam.n.01",
+        "corrected_reasoning": "Candidate `foam.n.01` ('a mass of small bubbles formed in or on a liquid') is a perfect semantic and contextual replacement for the invalid 'bubbles.n.01' in the context of 'foam.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

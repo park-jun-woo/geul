@@ -1,0 +1,156 @@
+{
+  "original": {
+    "synset_id": "spill.v.01",
+    "definition": "cause or allow (a liquid substance) to run or flow from a container",
+    "frame_id": 5,
+    "frame_text": "Somebody splatter something PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "containment.n.01",
+        "reasoning": "The verb's definition 'cause or allow (a liquid substance) to run or flow from a container' directly describes a change in the containment state of a liquid.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who initiates or allows the action, leading to the change in containment."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "liquid_substance.n.01",
+            "reasoning": "The 'something' in the frame, identified as a 'liquid substance' by the definition, which undergoes the change of containment and flows."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "reasoning": "The 'PP' in the frame refers to the container 'from' which the liquid flows, indicating the origin of the liquid's movement."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "dispersal.n.01",
+        "reasoning": "The use of 'splatter' in the verb frame, while the synset is 'spill', specifies a particular manner in which the liquid runs or flows from the container—namely, by scattering in drops or patches, often forcefully or irregularly. This adds a specific manner component to the general act of spilling."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of spilling/splattering is a directly observable physical event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning, as stated in the definition, is declarative, describing an event or action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' who 'causes or allows' the action implies a strong will or intention behind the act of spilling."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of spilling or splattering itself is neutral; its consequences might be positive or negative, but the action itself holds no inherent sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' and the definition 'cause or allow' explicitly indicate a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state of affairs when used declaratively."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The term 'splatter' inherently suggests a high degree of repetition or distribution of the liquid in multiple, often distinct, impacts or droplets, rather than a single, continuous flow. This implies high iterativity for the manner of the spill."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spill.v.01",
+        "frame_id": 5,
+        "key": "value_type",
+        "value": "liquid_substance.n.01",
+        "reasoning": "value_type 'liquid_substance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "spatter.n.02",
+            "description": "the act of splashing a (liquid) substance on a surface (gloss match)"
+          },
+          {
+            "synset_id": "cream.n.03",
+            "description": "toiletry consisting of any of various substances in the form of a thick liquid that have a soothing and moisturizing effect when applied to the skin (gloss match)"
+          },
+          {
+            "synset_id": "paint.n.01",
+            "description": "a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating (gloss match)"
+          },
+          {
+            "synset_id": "spray_gun.n.01",
+            "description": "an applicator resembling a gun for applying liquid substances (as paint) in the form of a spray (gloss match)"
+          },
+          {
+            "synset_id": "still.n.03",
+            "description": "an apparatus used for the distillation of liquids; consists of a vessel in which a substance is vaporized by heat and a condenser where the vapor is condensed (gloss match)"
+          },
+          {
+            "synset_id": "food.n.02",
+            "description": "any solid substance (as opposed to liquid) that is used as a source of nourishment (gloss match)"
+          },
+          {
+            "synset_id": "absorption.n.01",
+            "description": "(chemistry) a process in which one substance permeates another; a fluid permeates or is dissolved by a liquid or solid (gloss match)"
+          },
+          {
+            "synset_id": "solution.n.01",
+            "description": "a homogeneous mixture of two or more substances; frequently (but not necessarily) a liquid solution (gloss match)"
+          },
+          {
+            "synset_id": "lute.n.01",
+            "description": "a substance for packing a joint or coating a porous surface to make it impervious to gas or liquid (gloss match)"
+          },
+          {
+            "synset_id": "culture_medium.n.01",
+            "description": "(bacteriology) a nutrient substance (solid or liquid) that is used to cultivate micro-organisms (gloss match)"
+          },
+          {
+            "synset_id": "leaven.n.01",
+            "description": "a substance used to produce fermentation in dough or a liquid (gloss match)"
+          },
+          {
+            "synset_id": "liquid.n.01",
+            "description": "a substance that is liquid at room temperature and pressure (gloss match)"
+          },
+          {
+            "synset_id": "liquor.n.02",
+            "description": "a liquid substance that is a solution (or emulsion or suspension) used or obtained in an industrial process (gloss match)"
+          },
+          {
+            "synset_id": "oil.n.01",
+            "description": "a slippery or viscous liquid or liquefiable substance not miscible with water (gloss match)"
+          },
+          {
+            "synset_id": "solvent.n.01",
+            "description": "a liquid substance capable of dissolving other substances (gloss match)"
+          },
+          {
+            "synset_id": "volatile.n.01",
+            "description": "a volatile substance; a substance that changes readily from solid or liquid to a vapor (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "spill.v.01",
+        "frame_id": 5,
+        "key": "value_type",
+        "corrected_value": "liquid.n.01",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates list."
+      }
+    ]
+  }
+}

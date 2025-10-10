@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "crank.v.05",
+    "definition": "bend into the shape of a crank",
+    "frame_id": 0,
+    "frame_text": "Somebody crank something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "form.n.01",
+        "reasoning": "The definition 'bend into the shape of a crank' indicates a primary action of altering the physical form of an object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally initiates and performs the action of changing the object's form."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the change in its physical form."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "resultant_shape.n.01",
+        "value_type": "crank-like",
+        "reasoning": "A core semantic component of this verb is the specific resulting shape ('the shape of a crank') which is achieved through the bending action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of cranking/bending an object is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a 'Somebody' in the frame implies an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of bending an object into a specific shape is neutral in sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody crank something' clearly indicates a volitional agent performing the action intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of cranking is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, completed act of forming something into a crank shape."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "crank.v.05",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "resultant_shape.n.01",
+        "reasoning": "verb_property 'resultant_shape.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "crank.v.05",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "shape.n.01",
+        "corrected_reasoning": "LLM suggestion. 'shape.n.01' is a precise semantic match for 'resultant_shape' as a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

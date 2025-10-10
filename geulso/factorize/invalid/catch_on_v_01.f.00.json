@@ -1,0 +1,86 @@
+{
+  "original": {
+    "synset_id": "catch_on.v.01",
+    "definition": "understand, usually after some initial difficulty",
+    "frame_id": 0,
+    "frame_text": "Somebody catch_on",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "cognition.n.01",
+        "reasoning": "The verb 'catch on' describes a transition from a state of not understanding to a state of understanding, which is a change in cognitive state.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' from the verb frame is the individual who undergoes the cognitive change and gains understanding."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "concept.n.01",
+            "reasoning": "The verb inherently implies an implicit 'something' (a concept, idea, or information) that is being understood, even if not explicitly stated in this intransitive frame."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'catching on' (understanding) is a direct cognitive experience for the individual."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event of understanding."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Although the 'aha!' moment itself might be sudden, the process of 'catching on' typically involves an agent's mental engagement and will to understand."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of understanding itself is neutral. The content of what is understood could carry sentiment, but not the act of catching on."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' implies a volitional agent who engages in the mental effort to understand."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "When one 'catches on', there is an inherent certainty that understanding has been achieved."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process leading to it may be prolonged, the 'catching on' itself refers to a discrete, single event of realization or comprehension."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "catch_on.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found. Although 'experiencer.n.01' is a valid NLTK WordNet synset, the input states it is invalid, and no other perfect semantic replacement could be identified."
+      }
+    ]
+  }
+}

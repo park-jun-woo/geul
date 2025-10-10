@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "neutralize.v.04",
+    "definition": "get rid of (someone who may be a threat) by killing",
+    "frame_id": 0,
+    "frame_text": "Somebody do_in somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "existence.n.01",
+        "reasoning": "The definition 'get rid of... by killing' describes a change from a state of existence to non-existence for the patient.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of neutralizing/killing, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change of state from existence to non-existence."
+          }
+        ]
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "threat_elimination.n.01",
+        "reasoning": "The phrase '(someone who may be a threat)' in the definition specifies the underlying purpose or motivation for the act of neutralizing."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of neutralizing, especially a person, is typically a direct and observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While the act of killing is inherently negative, 'neutralize' itself often implies a necessary or justified action from the perspective of the agent (e.g., eliminating a threat), making its inherent sentiment neutral."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody neutralize somebody' explicitly includes a volitional agent, making the action intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of neutralizing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, definitive event of eliminating a threat/person."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "neutralize.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "threat_elimination.n.01",
+        "reasoning": "verb_property 'threat_elimination.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "neutralize.v.04",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "neutralization.n.02",
+        "corrected_reasoning": "LLM suggestion: 'neutralization.n.02' ('the act of making ineffective') is a perfect semantic match for 'threat_elimination.n.01', especially considering the original verb 'neutralize.v.04' means to 'make ineffective or harmless'."
+      }
+    ],
+    "participants": []
+  }
+}

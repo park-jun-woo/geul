@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "suit.v.01",
+    "definition": "be agreeable or acceptable to",
+    "frame_id": 2,
+    "frame_text": "Something suit somebody",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "acceptability.n.01",
+        "reasoning": "The definition 'be agreeable or acceptable to' describes a continuous state or relationship, not a dynamic action or a change. The core property is one of acceptability or agreeableness.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' is the entity that possesses the property of being agreeable or acceptable, and is the subject of the state."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' is the individual who finds the 'something' agreeable or acceptable; they are the one experiencing this state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of suitability is typically presented as a direct assessment or observation."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact about a relationship."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate and cannot exert will, and the verb describes a state, not an action driven by will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The terms 'agreeable' and 'acceptable' inherently carry a positive sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The state of 'suiting' is non-volitional as it describes an inherent quality or relationship, not an intentional act performed by 'Something'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "A statement that something 'suits' someone typically implies certainty about that state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state, the concept of repetition is not applicable. It is treated as a single, ongoing instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "suit.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: 'sentient_being.n.01' is a valid synset representing a being capable of experience, fitting the semantic role of an experiencer. (Original suggestion 'sentient_being.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

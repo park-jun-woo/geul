@@ -1,0 +1,139 @@
+{
+  "original": {
+    "synset_id": "spatter.v.01",
+    "definition": "dash a liquid upon or against",
+    "frame_id": 15,
+    "frame_text": "Somebody splatter something with something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_coating.n.01",
+        "reasoning": "The definition 'dash a liquid upon or against' describes an action that changes the state of a surface by applying a coating of liquid.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of spattering, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (direct object) that receives the liquid and undergoes a change in its surface state."
+          },
+          {
+            "semantic_role": "material.n.02",
+            "reasoning": "The 'something' (introduced by 'with') which is the liquid substance that is dashed upon the patient."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "forceful.a.01",
+        "reasoning": "The word 'dash' in the definition implies a quick and forceful application or projection of the liquid."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of spattering is a physical event that is typically directly observable."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a declarative action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent in the frame implies that the action is performed with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of spattering itself is neutral; its sentiment depends on the context and the nature of the liquid or surface involved."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The verb frame 'Somebody ----s something with something' clearly indicates an intentional, volitional act by an agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'spatter' describes a single, discrete event of applying liquid, even if that application results in multiple droplets."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 15,
+        "key": "verb_property",
+        "value": "surface_coating.n.01",
+        "reasoning": "verb_property 'surface_coating.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "application.n.03",
+            "description": "the work of applying something (gloss match)"
+          },
+          {
+            "synset_id": "decoupage.n.02",
+            "description": "the art of decorating a surface with shapes or pictures and then coating it with vanish or lacquer (gloss match)"
+          },
+          {
+            "synset_id": "decoupage.n.01",
+            "description": "art produced by decorating a surface with cutouts and then coating it with several layers of varnish or lacquer (gloss match)"
+          },
+          {
+            "synset_id": "incrustation.n.03",
+            "description": "a decorative coating of contrasting material that is applied to a surface as an inlay or overlay (gloss match)"
+          },
+          {
+            "synset_id": "paint.n.01",
+            "description": "a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating (gloss match)"
+          },
+          {
+            "synset_id": "patina.n.01",
+            "description": "a fine coating of oxide on the surface of a metal (gloss match)"
+          },
+          {
+            "synset_id": "plating.n.01",
+            "description": "a thin coating of metal deposited on a surface (gloss match)"
+          },
+          {
+            "synset_id": "varnish.n.01",
+            "description": "a coating that provides a hard, lustrous, transparent finish to a surface (gloss match)"
+          },
+          {
+            "synset_id": "waterproofing.n.02",
+            "description": "a coating capable of making a surface waterproof (gloss match)"
+          },
+          {
+            "synset_id": "luster.n.03",
+            "description": "a surface coating for ceramics or porcelain (gloss match)"
+          },
+          {
+            "synset_id": "sealant.n.01",
+            "description": "a kind of sealing material that is used to form a hard coating on a porous surface (as a coat of paint or varnish used to size a surface) (gloss match)"
+          },
+          {
+            "synset_id": "lute.n.01",
+            "description": "a substance for packing a joint or coating a porous surface to make it impervious to gas or liquid (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "spatter.v.01",
+        "frame_id": 15,
+        "key": "verb_property",
+        "corrected_value": "coating.n.01",
+        "corrected_reasoning": "LLM suggestion: 'coating.n.01' is a general term for a thin layer covering something, providing a perfect semantic match for 'surface_coating'."
+      }
+    ],
+    "participants": []
+  }
+}

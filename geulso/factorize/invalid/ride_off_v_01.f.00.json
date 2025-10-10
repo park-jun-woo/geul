@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "ride_off.v.01",
+    "definition": "ride away on a horse, for example",
+    "frame_id": 0,
+    "frame_text": "Somebody ride_away",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "location.n.01",
+        "reasoning": "The verb describes a change in location, specifically moving away from a previous position.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that undergoes the change of location, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "destination.n.01",
+            "value_type": "away_from_origin.adv.01",
+            "reasoning": "The 'off' component of the verb indicates movement away from a starting point."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "mounted_locomotion.n.01",
+        "reasoning": "The verb 'ride' specifies the manner of locomotion, implying travel while mounted on an animal or vehicle (e.g., 'on a horse')."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of riding off is a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ----s' typically implies no agentive will, especially for a generic 'Something'."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of riding off is neutral; context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' describes an event happening to a generic subject ('Something'), making the action non-volitional by default, unless specified."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of riding off is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'ride off' describes a single event of departure, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "ride_off.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "away_from_origin.adv.01",
+        "reasoning": "value_type 'away_from_origin.adv.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "ride_off.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "away.r.01",
+        "corrected_reasoning": "LLM suggestion: 'away.r.01' means from a particular thing or place or position, which semantically aligns perfectly with 'away from origin'."
+      }
+    ]
+  }
+}

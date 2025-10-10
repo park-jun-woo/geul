@@ -1,0 +1,104 @@
+{
+  "original": {
+    "synset_id": "ripple.v.01",
+    "definition": "stir up (water) so as to form ripples",
+    "frame_id": 0,
+    "frame_text": "Somebody cockle something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_state.n.01",
+        "reasoning": "The verb describes a process where the surface (of water) changes state to form ripples.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "water.n.01",
+            "reasoning": "The 'Something' that undergoes the change, specifically identified as water in the definition, and whose surface forms ripples."
+          }
+        ]
+      },
+      {
+        "verb_type": "resultant_state",
+        "verb_property": "form.n.01",
+        "value_type": "ripple.n.01",
+        "reasoning": "The definition explicitly states the action leads to 'forming ripples', indicating a specific resulting form on the surface."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Rippling is a directly observable physical phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something ripple' implies a non-agentive subject (water) acting without will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rippling is a neutral physical event."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ripple' indicates that the action is performed by a non-volitional entity (e.g., water) or is a natural process."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Ripples typically involve continuous, repeated small wave formations, suggesting high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "ripple.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "surface_state.n.01",
+        "reasoning": "verb_property 'surface_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "lowland_burrowing_treefrog.n.01",
+            "description": "terrestrial burrowing nocturnal frog of grassy terrain and scrub forests having very hard upper surface of head; of the United States southwest (gloss match)"
+          },
+          {
+            "synset_id": "red-shafted_flicker.n.01",
+            "description": "western United States bird with red undersurface to wings and tail (gloss match)"
+          },
+          {
+            "synset_id": "langmuir.n.01",
+            "description": "United States chemist who studied surface chemistry and developed the gas-filled tungsten lamp and worked on high temperature electrical discharges (1881-1957) (gloss match)"
+          },
+          {
+            "synset_id": "white_poplar.n.01",
+            "description": "a poplar that is widely cultivated in the United States; has white bark and leaves with whitish undersurfaces (gloss match)"
+          },
+          {
+            "synset_id": "desorption.n.01",
+            "description": "changing from an adsorbed state on a surface to a gaseous or liquid state (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "ripple.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "roughness.n.01",
+        "corrected_reasoning": "LLM suggestion. 'roughness.n.01' semantically aligns with the effect of 'ripple.v.01' on a surface, which typically creates an uneven state."
+      }
+    ],
+    "participants": []
+  }
+}

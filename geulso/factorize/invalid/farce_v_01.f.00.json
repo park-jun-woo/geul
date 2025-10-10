@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "farce.v.01",
+    "definition": "fill with a stuffing while cooking",
+    "frame_id": 0,
+    "frame_text": "Somebody farce something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "fullness.n.01",
+        "reasoning": "The verb 'farce' describes the action of making an object full by inserting material, thus changing its state of fullness or internal contents.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of filling, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose internal state is changed by being filled."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "material.n.02",
+        "value_type": "stuffing.n.01",
+        "reasoning": "The definition specifies 'stuffing' as the particular material used in the filling process, which is an inherent characteristic of the verb 'farce'."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "concurrent_state.n.01",
+        "value_type": "cooking.n.01",
+        "reasoning": "The action of farcing is specifically stated to occur 'while cooking', indicating a necessary concurrent condition for this verb's meaning."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of farcing is a physical, directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of farcing is neutral; its sentiment depends on context or the outcome."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of farcing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, completed event of filling an item with stuffing. While cooking may be continuous, the act of farcing an individual item is discrete."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "farce.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "concurrent_state.n.01",
+        "reasoning": "verb_property 'concurrent_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "farce.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found for 'concurrent_state.n.01' in candidates or internal knowledge."
+      }
+    ],
+    "participants": []
+  }
+}

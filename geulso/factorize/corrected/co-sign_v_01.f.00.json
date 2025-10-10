@@ -1,0 +1,63 @@
+{
+  "synset_id": "co-sign.v.01",
+  "definition": "sign jointly",
+  "frame_id": 0,
+  "frame_text": "Somebody co-sign",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "commitment.n.01",
+      "reasoning": "The verb 'co-sign' describes the act of affixing a signature to formally agree or take responsibility for something, thereby establishing a commitment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of signing."
+        },
+        {
+          "semantic_role": "cooperator.n.01",
+          "reasoning": "Implied by the 'co-' prefix, this participant represents the other party with whom the signing is jointly performed."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implicit document or agreement that is the object of the signing and to which the commitment applies."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "joint.a.01",
+      "reasoning": "The 'co-' prefix in 'co-sign' explicitly indicates that the action of signing is performed in a shared or collaborative manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of co-signing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of co-signing is neutral; its sentiment depends on the context and content of what is signed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of co-signing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of joint signing."
+    }
+  }
+}

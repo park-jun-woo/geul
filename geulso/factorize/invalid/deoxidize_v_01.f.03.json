@@ -1,0 +1,133 @@
+{
+  "original": {
+    "synset_id": "deoxidize.v.01",
+    "definition": "to remove oxygen from a compound, or cause to react with hydrogen or form a hydride, or to undergo an increase in the number of electrons",
+    "frame_id": 3,
+    "frame_text": "Something deoxidise something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "chemical_state.n.01",
+        "reasoning": "The definition 'to remove oxygen from a compound, or cause to react... or undergo an increase in electrons' describes a transformation of a substance's chemical state, particularly its oxidation state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame acts as the entity that causes the deoxidization."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the compound or substance that undergoes the process of deoxidization, changing its chemical state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chemical processes like deoxidization are typically understood through direct observation or empirical evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual process, making its core meaning declarative."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the causal agent in this frame is inanimate or a natural force, thus lacking will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "Deoxidization is a neutral chemical process; its desirability depends on the context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate object or natural phenomenon) performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "Scientific descriptions of chemical reactions are typically stated with certainty."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single event or a process leading to a specific change of state for a given substance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "deoxidize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "chemical_state.n.01",
+        "reasoning": "verb_property 'chemical_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "methylenedioxymethamphetamine.n.01",
+            "description": "a stimulant drug that is chemically related to mescaline and amphetamine and is used illicitly for its euphoric and hallucinogenic effects; it was formerly used in psychotherapy but in 1985 it was declared illegal in the United States (gloss match)"
+          },
+          {
+            "synset_id": "law_of_mass_action.n.01",
+            "description": "(chemistry) the law that states the following principle: the rate of a chemical reaction is directly proportional to the molecular concentrations of the reacting substances (gloss match)"
+          },
+          {
+            "synset_id": "calvin.n.01",
+            "description": "United States chemist noted for discovering the series of chemical reactions in photosynthesis (1911-) (gloss match)"
+          },
+          {
+            "synset_id": "funk.n.02",
+            "description": "United States biochemist (born in Poland) who showed that several diseases were caused by dietary deficiencies and who coined the term `vitamin' for the chemicals involved (1884-1967) (gloss match)"
+          },
+          {
+            "synset_id": "hoffmann.n.03",
+            "description": "United States chemist (born in Poland) who used quantum mechanics to understand chemical reactions (born in 1937) (gloss match)"
+          },
+          {
+            "synset_id": "pauling.n.01",
+            "description": "United States chemist who studied the nature of chemical bonding (1901-1994) (gloss match)"
+          },
+          {
+            "synset_id": "tatum.n.01",
+            "description": "United States biochemist who discovered how genes act by regulating definite chemical events (1909-1975) (gloss match)"
+          },
+          {
+            "synset_id": "phase_change.n.01",
+            "description": "a change from one state (solid or liquid or gas) to another without a change in chemical composition (gloss match)"
+          },
+          {
+            "synset_id": "isomerism.n.01",
+            "description": "the state of being an isomer; the complex of chemical and physical phenomena characteristic of isomers (gloss match)"
+          },
+          {
+            "synset_id": "animation.n.01",
+            "description": "the condition of living or the state of being alive (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          },
+          {
+            "synset_id": "corrosion.n.01",
+            "description": "a state of deterioration in metals caused by oxidation or chemical action (gloss match)"
+          },
+          {
+            "synset_id": "stabilizer.n.01",
+            "description": "a chemical that is added to a solution or mixture or suspension to maintain it in a stable or unchanging state (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "deoxidize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "phase.n.02",
+        "corrected_reasoning": "LLM suggestion: 'phase.n.02' refers to a distinct state of matter with identical chemical composition and physical state, perfectly representing a 'chemical state' for a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "sit_up.v.02",
+    "definition": "change to an upright sitting position",
+    "frame_id": 0,
+    "frame_text": "Somebody sit_up",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sitting_position.n.01",
+        "reasoning": "The definition 'change to an upright sitting position' directly describes a transition to a specific bodily posture.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who actively initiates and undergoes the change in their own posture."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of sitting up is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates the action is performed with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sitting up is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody sit_up' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of sitting up is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, completed event of changing position."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sit_up.v.02",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sitting_position.n.01",
+        "reasoning": "verb_property 'sitting_position.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "sitting.n.02",
+            "description": "the act of assuming or maintaining a seated position (gloss match)"
+          },
+          {
+            "synset_id": "sitting.n.01",
+            "description": "(photography) the act of assuming a certain position (as for a photograph or portrait) (gloss match)"
+          },
+          {
+            "synset_id": "sitz_bath.n.01",
+            "description": "a bathtub in which your buttocks and hips are immersed as if you were sitting in a chair and you bathe in a sitting position (gloss match)"
+          },
+          {
+            "synset_id": "lotus_position.n.01",
+            "description": "a sitting position with the legs crossed; used in yoga (gloss match)"
+          },
+          {
+            "synset_id": "sartorius.n.01",
+            "description": "a muscle in the thigh that helps to rotate the leg into the sitting position assumed by a tailor; the longest muscle in the human body (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sitting_position.n.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "sitting.n.02",
+        "corrected_reasoning": "Perfect semantic and contextual match from candidates list."
+      }
+    ],
+    "participants": []
+  }
+}

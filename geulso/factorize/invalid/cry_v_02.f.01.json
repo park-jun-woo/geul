@@ -1,0 +1,128 @@
+{
+  "original": {
+    "synset_id": "cry.v.02",
+    "definition": "shed tears because of sadness, rage, or pain",
+    "frame_id": 1,
+    "frame_text": "Somebody weep",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "physiological_response.n.01",
+        "reasoning": "The verb 'cry' describes the bodily process of shedding tears as a physiological response.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who undergoes the emotional state and whose body exhibits the physiological response of shedding tears, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "cause.n.01",
+            "value_type": "negative_emotion.n.01",
+            "reasoning": "The definition explicitly states that shedding tears occurs 'because of sadness, rage, or pain', which are all forms of negative emotion, serving as the underlying cause for the physiological response."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of crying (shedding tears) is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an occurrence or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Weeping is generally an involuntary bodily response to strong emotion, rather than an action performed with conscious will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition explicitly links crying to 'sadness, rage, or pain', which are all negative emotional states."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Crying (shedding tears) is typically a non-volitional physiological reaction to intense emotions, rather than an intentional act initiated by an agent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Weeping is a continuous process composed of repetitive, smaller actions (e.g., individual tear production, sobbing) over a period, indicating high repetition rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "cry.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "physiological_response.n.01",
+        "reasoning": "verb_property 'physiological_response.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "receptor.n.01",
+            "description": "a cellular structure that is postulated to exist in order to mediate between a chemical agent that acts on nervous tissue and the physiological response (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "cry.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "cry.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "negative_emotion.n.01",
+        "reasoning": "value_type 'negative_emotion.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "cry.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "bodily_process.n.01",
+        "corrected_reasoning": "LLM suggestion: 'bodily_process.n.01' is a precise semantic replacement for 'physiological_response.n.01' as a property of shedding tears."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "cry.v.02",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate or internal WordNet synset found for the abstract semantic role 'experiencer'."
+      },
+      {
+        "synset_id": "cry.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "emotion.n.01",
+        "corrected_reasoning": "LLM suggestion: 'emotion.n.01' is a valid hypernym that semantically encompasses 'negative emotion'."
+      }
+    ]
+  }
+}

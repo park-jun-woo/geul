@@ -1,0 +1,108 @@
+{
+  "original": {
+    "synset_id": "resume.v.01",
+    "definition": "take up or begin anew",
+    "frame_id": 9,
+    "frame_text": "Something re-start",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state.n.02",
+        "value_type": "active.a.01",
+        "reasoning": "The verb 'resume' signifies a transition from an inactive or paused state to an active or ongoing state for an activity or process.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity or process that undergoes the change, becoming active again."
+          }
+        ]
+      },
+      {
+        "verb_type": "temporal_relation",
+        "verb_property": "preceding_event.n.01",
+        "value_type": "cessation.n.01",
+        "reasoning": "The 're-' component in 're-start' and the 'anew' in the definition explicitly indicate that the activation of the 'Something' occurs after a prior period of being stopped or ceased."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of something resuming is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something re-start' implies a non-agentive subject, and thus no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of resuming is neutral; its sentiment depends on the context and the nature of what is being resumed."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something re-start' indicates that the subject ('Something') is non-volitional, meaning the action is not performed with intention by that subject."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of the re-starting event."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'resume' describes a single event of beginning anew, even if it leads to an ongoing process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "resume.v.01",
+        "frame_id": 9,
+        "key": "verb_property",
+        "value": "preceding_event.n.01",
+        "reasoning": "verb_property 'preceding_event.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "retrograde_amnesia.n.01",
+            "description": "loss of memory for events immediately preceding a trauma (gloss match)"
+          },
+          {
+            "synset_id": "antecedent.n.02",
+            "description": "a preceding occurrence or cause or event (gloss match)"
+          },
+          {
+            "synset_id": "preliminary.n.02",
+            "description": "something that serves as a preceding event or introduces what follows (gloss match)"
+          },
+          {
+            "synset_id": "preliminary.n.01",
+            "description": "a minor match preceding the main event (gloss match)"
+          },
+          {
+            "synset_id": "string.n.04",
+            "description": "a sequentially ordered set of things or events or ideas in which each successive member is related to the preceding (gloss match)"
+          },
+          {
+            "synset_id": "flux.n.05",
+            "description": "a state of uncertainty about what should be done (usually following some important event) preceding the establishment of a new direction of action (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "preceding_event.n.01",
+        "frame_id": 9,
+        "key": "verb_property",
+        "corrected_value": "antecedent.n.02",
+        "corrected_reasoning": "Selected 'antecedent.n.02' as it precisely means 'a preceding occurrence or cause or event', matching the original intent of 'preceding_event.n.01' perfectly."
+      }
+    ],
+    "participants": []
+  }
+}

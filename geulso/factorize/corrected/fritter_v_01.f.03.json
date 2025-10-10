@@ -1,0 +1,60 @@
+{
+  "synset_id": "fritter.v.01",
+  "definition": "spend frivolously and unwisely",
+  "frame_id": 3,
+  "frame_text": "Somebody fritter something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "resource.n.03",
+      "reasoning": "The verb 'fritter' describes an action that causes a decrease in a quantity of resources, such as money or time, thus representing a change in their state or amount.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent performing the action of spending/diminishing resources."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "resource.n.03",
+          "reasoning": "The 'something' in the frame refers to the resources (e.g., money, time) that are being spent or diminished."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "wasteful.a.01",
+      "reasoning": "The definition explicitly includes 'frivolously and unwisely', which describes the negative manner or quality of the spending, captured by 'wasteful'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of frittering away resources is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to spend."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'spend frivolously and unwisely' inherently carries a negative connotation, indicating an undesirable way of spending."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of frittering."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of frittering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "'Fritter' often implies a process of wasteful spending, potentially involving multiple small acts or a continuous pattern, indicating high repetition rather than a single discrete event."
+    }
+  }
+}

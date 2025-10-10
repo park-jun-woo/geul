@@ -1,0 +1,155 @@
+{
+  "original": {
+    "synset_id": "curtsy.v.02",
+    "definition": "make a curtsy; usually done only by girls and women; as a sign of respect",
+    "frame_id": 1,
+    "frame_text": "Somebody curtsy",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "body_position.n.01",
+        "reasoning": "The verb 'curtsy' describes a specific physical movement involving a change in body position.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "purpose.n.01",
+        "value_type": "respect.n.01",
+        "reasoning": "The definition explicitly states the action is done 'as a sign of respect', indicating its inherent purpose."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of curtsying is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Politeness": {
+        "value": 1.0,
+        "reasoning": "A curtsy is inherently a formal gesture performed as a sign of respect."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of curtsying itself is neutral, though its purpose (respect) is positive."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody curtsy' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of curtsying is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, discrete event of making a curtsy."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "curtsy.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "body_position.n.01",
+        "reasoning": "verb_property 'body_position.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "ballottement.n.01",
+            "description": "a palpatory technique for feeling a floating object in the body (especially for determining the position of a fetus by feeling the rebound of the fetus after a quick digital tap on the wall of the uterus) (gloss match)"
+          },
+          {
+            "synset_id": "lever_hang.n.01",
+            "description": "a hang performed on the rings with the body stationary in a horizontal position (gloss match)"
+          },
+          {
+            "synset_id": "kip.n.03",
+            "description": "a gymnastic exercise performed starting from a position with the legs over the upper body and moving to an erect position by arching the back and swinging the legs out and down while forcing the chest upright (gloss match)"
+          },
+          {
+            "synset_id": "action.n.09",
+            "description": "an act by a government body or supranational organization (gloss match)"
+          },
+          {
+            "synset_id": "pavis.n.01",
+            "description": "(Middle Ages) a large heavy oblong shield protecting the whole body; originally carried but sometimes set up in permanent position (gloss match)"
+          },
+          {
+            "synset_id": "ballet_position.n.01",
+            "description": "classical position of the body and especially the feet in ballet (gloss match)"
+          },
+          {
+            "synset_id": "proprioceptor.n.01",
+            "description": "special nerve endings in the muscles and tendons and other organs that respond to stimuli regarding the position and movement of the body (gloss match)"
+          },
+          {
+            "synset_id": "sartorius.n.01",
+            "description": "a muscle in the thigh that helps to rotate the leg into the sitting position assumed by a tailor; the longest muscle in the human body (gloss match)"
+          },
+          {
+            "synset_id": "proprioception.n.01",
+            "description": "the ability to sense the position and location and orientation and movement of the body and its parts (gloss match)"
+          },
+          {
+            "synset_id": "kinesthesia.n.01",
+            "description": "the perception of body position and movement and muscular tensions etc (gloss match)"
+          },
+          {
+            "synset_id": "parody.n.01",
+            "description": "a composition that imitates or misrepresents somebody's style, usually in a humorous way (gloss match)"
+          },
+          {
+            "synset_id": "center_of_mass.n.01",
+            "description": "point representing the mean position of the matter in a body (gloss match)"
+          },
+          {
+            "synset_id": "declination.n.03",
+            "description": "(astronomy) the angular distance of a celestial body north or to the south of the celestial equator; expressed in degrees; used with right ascension to specify positions on the celestial sphere (gloss match)"
+          },
+          {
+            "synset_id": "angular_velocity.n.01",
+            "description": "(physics) the rate of change of the angular position of a rotating body; usually expressed in radians per second or radians per minute (gloss match)"
+          },
+          {
+            "synset_id": "potential_energy.n.01",
+            "description": "the mechanical energy that a body has by virtue of its position; stored energy (gloss match)"
+          },
+          {
+            "synset_id": "eutrophication.n.01",
+            "description": "excessive nutrients in a lake or other body of water, usually caused by runoff of nutrients (animal waste, fertilizers, sewage) from the land, which causes a dense growth of plant life; the decomposition of the plants depletes the supply of oxygen, leading to the death of animal life (gloss match)"
+          },
+          {
+            "synset_id": "transposition.n.01",
+            "description": "any abnormal position of the organs of the body (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "curtsy.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "posture.n.01",
+        "corrected_reasoning": "LLM suggestion: 'posture.n.01' semantically matches the general concept of 'body position'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "original": {
+    "synset_id": "google.v.01",
+    "definition": "search the internet (for information) using the Google search engine",
+    "frame_id": 1,
+    "frame_text": "Somebody google somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb 'google' describes the action of searching to gain knowledge or information, which represents a change in the state of possessing information.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the search action, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "information.n.01",
+            "reasoning": "The 'something' that is being sought and gained as information, as per the definition 'search the internet (for information)'."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "Google_search_engine.n.01",
+            "reasoning": "A core aspect of the verb's meaning is the specific tool used for the search, the 'Google search engine', making it a crucial instrument."
+          },
+          {
+            "semantic_role": "location.n.01",
+            "value_type": "internet.n.01",
+            "reasoning": "The definition specifies that the search is conducted on 'the internet', serving as the location for the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of googling is a directly performable and observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by an agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of searching itself is neutral; the content found can be positive or negative."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody google something' explicitly indicates a volitional agent performing the action of searching."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of searching is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance or event of performing a search."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "google.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "Google_search_engine.n.01",
+        "reasoning": "value_type 'Google_search_engine.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "google.v.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "search_engine.n.01",
+        "corrected_reasoning": "LLM suggestion: 'search_engine.n.01' is a general and accurate semantic replacement for 'Google_search_engine.n.01'."
+      }
+    ]
+  }
+}

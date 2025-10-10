@@ -1,0 +1,124 @@
+{
+  "original": {
+    "synset_id": "gloss.v.02",
+    "definition": "provide interlinear explanations for words or phrases",
+    "frame_id": 1,
+    "frame_text": "Somebody comment something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "knowledge.n.01",
+        "reasoning": "The verb 'gloss' describes the act of providing information that changes the state of understanding or knowledge about specific textual elements.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the action of glossing, initiating the change in knowledge, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (the explanation) that is conveyed and directly affects the knowledge state, as per the verb frame."
+          },
+          {
+            "semantic_role": "topic.n.01",
+            "value_type": "words_or_phrases.n.01",
+            "reasoning": "Implied by the definition 'for words or phrases', this is the subject about which the explanation is provided."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "placement.n.01",
+        "value": "interlinear",
+        "reasoning": "The definition explicitly states 'interlinear explanations', indicating the specific physical placement or manner of providing the gloss."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of providing a gloss is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of glossing is neutral; the content of the explanation determines its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody comment something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of glossing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of providing an explanation for the specified 'something'."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "gloss.v.02",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "words_or_phrases.n.01",
+        "reasoning": "value_type 'words_or_phrases.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "punctuation.n.03",
+            "description": "the use of certain marks to clarify meaning of written material by grouping words grammatically into sentences and clauses and phrases (gloss match)"
+          },
+          {
+            "synset_id": "monosemy.n.01",
+            "description": "having a single meaning (absence of ambiguity) usually of individual words or phrases (gloss match)"
+          },
+          {
+            "synset_id": "conjunction.n.03",
+            "description": "an uninflected function word that serves to conjoin words or phrases or clauses or sentences (gloss match)"
+          },
+          {
+            "synset_id": "key.n.11",
+            "description": "a list of words or phrases that explain symbols or abbreviations (gloss match)"
+          },
+          {
+            "synset_id": "punctuation.n.02",
+            "description": "the marks used to clarify meaning by indicating separation of words into sentences and clauses and phrases (gloss match)"
+          },
+          {
+            "synset_id": "string.n.05",
+            "description": "a linear sequence of symbols (characters or words or phrases) (gloss match)"
+          },
+          {
+            "synset_id": "omission.n.03",
+            "description": "any process whereby sounds or words are left out of spoken words or phrases (gloss match)"
+          },
+          {
+            "synset_id": "conjunction.n.04",
+            "description": "the grammatical relation between linguistic units (words or phrases or clauses) that are connected by a conjunction (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "words_or_phrases.n.01",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "string.n.05",
+        "corrected_reasoning": "Candidate 'string.n.05' ('a linear sequence of symbols (characters or words or phrases)') is a perfect semantic and contextual match for 'words or phrases'."
+      }
+    ]
+  }
+}

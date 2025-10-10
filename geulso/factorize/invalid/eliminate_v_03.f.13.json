@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "eliminate.v.03",
+    "definition": "kill in large numbers",
+    "frame_id": 13,
+    "frame_text": "Something wipe_out somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "life_status.n.01",
+        "reasoning": "The definition 'kill' describes a change from a state of being alive to being dead.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the death, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' whose life status changes from alive to dead."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "quantity.n.01",
+        "value_type": "large_number.n.01",
+        "reasoning": "The definition 'kill in large numbers' specifies a characteristic of the extent or scope of the action regarding the patient."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'wiping out' or killing is generally considered a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent is 'Something', indicating a lack of will or intention for the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The act of 'killing' or 'wiping out' is inherently negative."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something wipe_out somebody' indicates that the agent ('Something') is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of the action."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The phrase 'in large numbers' in the definition explicitly implies a high degree of repetition of the act of killing."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "eliminate.v.03",
+        "frame_id": 13,
+        "key": "verb_property",
+        "value": "life_status.n.01",
+        "reasoning": "verb_property 'life_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "status.n.01",
+            "description": "the relative position or standing of things or especially persons in a society (gloss match)"
+          },
+          {
+            "synset_id": "civil_death.n.01",
+            "description": "the legal status of a person who is alive but who has been deprived of the rights and privileges of a citizen or a member of society; the legal status of one sentenced to life imprisonment (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "eliminate.v.03",
+        "frame_id": 13,
+        "key": "verb_property",
+        "corrected_value": "life.n.01",
+        "corrected_reasoning": "LLM suggestion. 'life.n.01' (the condition of living or the state of being alive) is a perfect semantic and contextual replacement for 'life_status.n.01', as the verb 'eliminate' in this context implies affecting one's life state."
+      }
+    ],
+    "participants": []
+  }
+}

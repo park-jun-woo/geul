@@ -1,0 +1,143 @@
+{
+  "original": {
+    "synset_id": "scavenge.v.03",
+    "definition": "feed on carrion or refuse",
+    "frame_id": 0,
+    "frame_text": "Somebody scavenge",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "ingestion.n.01",
+        "reasoning": "The verb 'scavenge' describes an ongoing activity of taking food into the body, consistent with a process of ingestion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the agent performing the act of ingestion."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "food_source.n.01",
+        "value_type": "waste_matter.n.01",
+        "reasoning": "A core semantic component of 'scavenge' is that the food consumed is specifically carrion or refuse (waste matter), distinguishing it from general feeding."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of scavenging is an observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention to find food."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of scavenging is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s' indicates a volitional agent performing the action, even if driven by instinct."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The description of scavenging implies a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Scavenging is typically an ongoing, repetitive activity involving searching and consuming."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "scavenge.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "food_source.n.01",
+        "reasoning": "verb_property 'food_source.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "feeder.n.06",
+            "description": "an animal that feeds on a particular source of food (gloss match)"
+          },
+          {
+            "synset_id": "hawksbill_turtle.n.01",
+            "description": "pugnacious tropical sea turtle with a hawk-like beak; source of food and the best tortoiseshell (gloss match)"
+          },
+          {
+            "synset_id": "krill.n.01",
+            "description": "shrimp-like planktonic crustaceans; major source of food for e.g. baleen whales (gloss match)"
+          },
+          {
+            "synset_id": "food.n.02",
+            "description": "any solid substance (as opposed to liquid) that is used as a source of nourishment (gloss match)"
+          },
+          {
+            "synset_id": "sunflower_seed.n.01",
+            "description": "edible seed of sunflowers; used as food and poultry feed and as a source of oil (gloss match)"
+          },
+          {
+            "synset_id": "seed.n.02",
+            "description": "a mature fertilized plant ovule consisting of an embryo and its food source and having a protective coat or testa (gloss match)"
+          },
+          {
+            "synset_id": "olive.n.01",
+            "description": "small ovoid fruit of the European olive tree; important food and source of oil (gloss match)"
+          },
+          {
+            "synset_id": "souari.n.01",
+            "description": "large South American evergreen tree trifoliate leaves and drupes with nutlike seeds used as food and a source of cooking oil (gloss match)"
+          },
+          {
+            "synset_id": "bladder_senna.n.01",
+            "description": "yellow-flowered European shrub cultivated for its succession of yellow flowers and very inflated bladdery pods and as a source of wildlife food (gloss match)"
+          },
+          {
+            "synset_id": "soy.n.01",
+            "description": "a source of oil; used for forage and soil improvement and as food (gloss match)"
+          },
+          {
+            "synset_id": "cassava.n.02",
+            "description": "cassava root eaten as a staple food after drying and leaching; source of tapioca (gloss match)"
+          },
+          {
+            "synset_id": "iceland_moss.n.01",
+            "description": "lichen with branched flattened partly erect thallus that grows in mountainous and Arctic regions; used as a medicine or food for humans and livestock; a source of glycerol (gloss match)"
+          },
+          {
+            "synset_id": "penicillium.n.01",
+            "description": "genus of fungi commonly growing as green or blue molds on decaying food; used in making cheese and as a source of penicillin (gloss match)"
+          },
+          {
+            "synset_id": "cassava.n.01",
+            "description": "a starch made by leaching and drying the root of the cassava plant; the source of tapioca; a staple food in the tropics (gloss match)"
+          },
+          {
+            "synset_id": "calcium_lactate.n.01",
+            "description": "a white crystalline salt made by the action of lactic acid on calcium carbonate; used in foods (as a baking powder) and given medically as a source of calcium (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "scavenge.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "nourishment.n.01",
+        "corrected_reasoning": "LLM suggestion: 'nourishment.n.01' is defined as 'a source of materials to nourish the body', which is a perfect semantic match for 'food source'."
+      }
+    ],
+    "participants": []
+  }
+}

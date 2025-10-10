@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "film.v.01",
+    "definition": "make a film or photograph of something",
+    "frame_id": 6,
+    "frame_text": "Somebody take something",
+    "sememes": [
+      {
+        "verb_type": "creation",
+        "verb_property": "representation.n.01",
+        "reasoning": "The definition 'make a film or photograph of something' directly describes the act of producing a visual representation.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of making the film/photograph."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the verb frame that is the subject or content being represented in the film or photograph."
+          },
+          {
+            "semantic_role": "product.n.01",
+            "value_type": "visual_recording.n.01",
+            "reasoning": "The implicit outcome of the verb 'film', which is the actual film or photograph created."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of filming is a directly observable and verifiable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of filming itself is neutral; the content or context may imbue it with sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly refers to a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of making a film or photograph, when successful, is a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes the completion of making 'a film or photograph', implying a single, discrete event of production for that item, even if the process involves many smaller steps."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "film.v.01",
+        "frame_id": 6,
+        "key": "value_type",
+        "value": "visual_recording.n.01",
+        "reasoning": "value_type 'visual_recording.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "video_recording.n.01",
+            "description": "a recording of both the visual and audible components (especially one containing a recording of a movie or television program) (gloss match)"
+          },
+          {
+            "synset_id": "videotape.n.02",
+            "description": "a relatively wide magnetic tape for use in recording visual images and associated sound (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "film.v.01",
+        "frame_id": 6,
+        "key": "value_type",
+        "corrected_value": "video_recording.n.01",
+        "corrected_reasoning": "Selected 'video_recording.n.01' from candidates due to perfect semantic and contextual match."
+      }
+    ]
+  }
+}

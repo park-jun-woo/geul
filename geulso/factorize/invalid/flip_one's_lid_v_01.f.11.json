@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "flip_one's_lid.v.01",
+    "definition": "get very angry and fly into a rage",
+    "frame_id": 11,
+    "frame_text": "Somebody flip_one's_wig PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "value_type": "anger.n.01",
+        "reasoning": "The definition 'get very angry' describes a transition from a calm state to a state of intense anger.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Somebody' who undergoes the change in emotional state, as specified by the verb frame."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "intensity.n.01",
+        "value_type": "intense.a.01",
+        "reasoning": "The phrases 'very angry' and 'fly into a rage' denote a high degree of intensity for the emotional state."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "suddenly.r.01",
+        "reasoning": "The idiom 'fly into a rage' suggests a sudden and often uncontrolled onset of anger."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of flying into a rage is typically manifested through observable behavior."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Getting angry, especially 'flying into a rage,' is generally not an action driven by explicit will or intention."
+      },
+      "Politeness": {
+        "value": -1.0,
+        "reasoning": "The phrase 'flip one's lid/wig' is an idiomatic expression considered informal."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The verb describes a state of 'anger' and 'rage,' which are inherently negative emotions."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The onset of intense anger or rage is typically a non-volitional, involuntary emotional reaction."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of losing temper."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, distinct event of getting angry."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "flip_one's_lid.v.01",
+        "frame_id": 11,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 11,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "NO_CANDIDATE: No perfect semantic and contextual replacement for the concept of 'experiencer' found in candidates or LLM knowledge, given 'experiencer.n.01' is declared invalid by the source."
+      }
+    ]
+  }
+}

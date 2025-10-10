@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "echo.v.03",
+    "definition": "call to mind",
+    "frame_id": 0,
+    "frame_text": "Something echo somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "memory.n.01",
+        "reasoning": "The definition 'call to mind' describes initiating a cognitive process where a memory or impression is brought into someone's consciousness, representing a change in their mental state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the memory to be called to mind in the other participant, acting as the stimulus."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the mental experience of having something called to mind."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb describes a direct mental experience, usually stated as a factual observation of an effect."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a causal relationship between the 'Something' and the 'somebody's' memory."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no will or intention in causing the mental recall."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of calling something to mind is inherently neutral; the specific memory or context determines any sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something echo somebody' indicates that the action is caused by a non-agentive subject ('Something'), making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of something being called to mind."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single event or instance of causing a memory to be recalled."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "echo.v.03",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "echo.v.03",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect semantic and contextual replacement found, as the original value 'experiencer.n.01' is stated as invalid and no other WordNet synset is a perfect fit."
+      }
+    ]
+  }
+}

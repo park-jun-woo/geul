@@ -1,0 +1,59 @@
+{
+  "synset_id": "beat.v.02",
+  "definition": "give a beating to; subject to a beating, either as a punishment or as an act of aggression",
+  "frame_id": 0,
+  "frame_text": "Somebody beat somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "impact.n.01",
+      "reasoning": "The verb describes a volitional action that involves delivering physical blows or impact, as indicated by 'give a beating to'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of beating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the physical impact or beating."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "violence.n.01",
+      "reasoning": "The definition explicitly states the act is 'either as a punishment or as an act of aggression', which characterizes the action as inherently violent.",
+      "value_type": "violent.a.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of beating is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition specifies the act as 'punishment' or 'aggression', which carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody beat somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of beating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'beating' (as in 'give a beating') typically implies a series of repeated physical impacts rather than a single strike, thus indicating high repetition within the overall event."
+    }
+  }
+}

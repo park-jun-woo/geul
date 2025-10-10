@@ -1,0 +1,60 @@
+{
+  "synset_id": "smuggle.v.01",
+  "definition": "import or export without paying customs duties",
+  "frame_id": 0,
+  "frame_text": "Somebody smuggle",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'smuggle' describes an action of moving goods across borders, which constitutes a change in their location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of moving the goods."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "merchandise.n.01",
+          "reasoning": "The 'something' (goods) that is being moved across borders, implied by the definition 'import or export'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "A core aspect of 'smuggle' is that the transfer of goods occurs 'without paying customs duties', which denotes the illegal or clandestine nature of the act. This is a distinguishing manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of smuggling is typically a directly observable event, if one is present to witness it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Smuggling is inherently an illegal act as per the definition, carrying a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the act of smuggling, not a continuous or repetitive action by its nature (though it can be repeated by the agent)."
+    }
+  }
+}

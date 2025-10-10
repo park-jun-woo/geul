@@ -47,8 +47,11 @@ pip install -q -U google-genai
 pip install psycopg2-binary tqdm
 python3 geulso/factorize/factorize.py --skip-existing --concurrent 10
 python3 geulso/factorize/update.py
-# 워드넷 동사 의미소분해 유효한 synset id인지 확인
+# 오류 정정
 python3 geulso/factorize/validate.py --skip-existing --concurrent 10
+# 오류 정정 적용하기
+python3 geulso/factorize/corrected.py
+
 # 워드넷 동사 의미소분해 PostgreSQL에 입력
 python3 geulso/factorize/postgres.py --clear
 

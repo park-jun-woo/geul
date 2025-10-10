@@ -1,0 +1,66 @@
+{
+  "synset_id": "spatter.v.01",
+  "definition": "dash a liquid upon or against",
+  "frame_id": 30,
+  "frame_text": "Something splatter somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes an event where liquid is forcefully projected onto a surface, resulting in a change in the condition of that surface (e.g., being marked or soiled).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "entity.n.01",
+          "reasoning": "The 'Something' is the non-volitional entity that acts as the source or initiator of the spattering event, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "somebody.n.01",
+          "reasoning": "The 'somebody' is the entity whose surface condition changes as a result of being spattered, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The definition 'dash a liquid' inherently specifies that a liquid is the substance being projected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The term 'dash' in the definition 'dash a liquid' implies a rapid and forceful projection of the liquid."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Spattering is a physical event that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is neutral; its sentiment depends on the context and the liquid involved."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something splatter somebody' indicates that the subject 'Something' is a non-volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of spattering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'spatter' (with 'dash a liquid') refers to a single, discrete act of projection, even if it results in multiple droplets."
+    }
+  }
+}

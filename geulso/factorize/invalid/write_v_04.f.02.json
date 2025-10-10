@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "write.v.04",
+    "definition": "communicate (with) in writing",
+    "frame_id": 2,
+    "frame_text": "Somebody write somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "information_transfer.n.01",
+        "reasoning": "The verb describes an action of communicating, which fundamentally involves the transfer of information.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the act of writing to communicate."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' who is the intended receiver of the written communication."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "writing.n.01",
+        "reasoning": "The definition specifies that the communication occurs 'in writing', denoting the specific medium or manner of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of writing and communicating is typically a directly observed or experienced event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of writing to communicate is inherently neutral; the content or context may introduce sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action of writing."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of writing to communicate is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb typically refers to a single instance of communication, not an inherently repetitive action like running or blinking."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "write.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "information_transfer.n.01",
+        "reasoning": "verb_property 'information_transfer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "hypertext_transfer_protocol.n.01",
+            "description": "a protocol (utilizing TCP) to transfer hypertext requests and information between servers and browsers (gloss match)"
+          },
+          {
+            "synset_id": "blind_trust.n.01",
+            "description": "a trust that enables a person to avoid possible conflict of interest by transferring assets to a fiduciary; the person establishing the trust gives up the right to information about the assets (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "write.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "communication.n.01",
+        "corrected_reasoning": "LLM suggestion. 'communication.n.01' (the activity of conveying information) is a perfect semantic and contextual fit for the verb property of 'write.v.04'."
+      }
+    ],
+    "participants": []
+  }
+}

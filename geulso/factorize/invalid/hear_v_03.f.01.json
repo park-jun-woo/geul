@@ -1,0 +1,95 @@
+{
+  "original": {
+    "synset_id": "hear.v.03",
+    "definition": "examine or hear (evidence or a case) by judicial process",
+    "frame_id": 1,
+    "frame_text": "Somebody try something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "status.n.01",
+        "reasoning": "The verb 'hear' in this judicial context (equivalent to 'try a case' as per the definition) describes an action that causes a change in the legal status of a matter, transitioning it from unexamined to judicially processed.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' refers to the legal entity (e.g., a court or judge) that performs the action of trying/hearing a case.",
+            "value_type": "court.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' refers to the evidence or case that undergoes the judicial process.",
+            "value_type": "legal_matter.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of a court trying/hearing a case involves direct examination of evidence and testimony, representing direct experience for the court."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a legal action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The legal entity ('Somebody') acts with clear will and intention to conduct the judicial process."
+      },
+      "Politeness": {
+        "value": 0.0,
+        "reasoning": "The verb itself carries no inherent politeness level; it describes a formal legal procedure."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of hearing or trying a case is a neutral procedural action within the legal system."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody try something' (in this judicial sense) explicitly indicates a volitional agent (the court/judge) performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of a legal process."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically refers to a single instance of examining or trying a specific case, even if the process has multiple stages."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hear.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "legal_matter.n.01",
+        "reasoning": "value_type 'legal_matter.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "objection.n.04",
+            "description": "(law) a procedure whereby a party to a suit says that a particular line of questioning or a particular witness or a piece of evidence or other matter is improper and should not be continued and asks the court to rule on its impropriety or illegality (gloss match)"
+          },
+          {
+            "synset_id": "fiduciary_relation.n.01",
+            "description": "the legal relation that exists when one person justifiably places reliance on another whose aid or protection is sought in some matter (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hear.v.03",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "case.n.08",
+        "corrected_reasoning": "LLM suggestion: 'case.n.08' (a proceeding in a court of law to determine the rights of the parties) is a perfect semantic and contextual fit for the general concept of 'legal matter'."
+      }
+    ]
+  }
+}

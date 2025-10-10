@@ -1,0 +1,87 @@
+{
+  "original": {
+    "synset_id": "feel.v.01",
+    "definition": "undergo an emotional sensation or be in a particular state of mind",
+    "frame_id": 2,
+    "frame_text": "Somebody feel something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "mental_state.n.01",
+        "reasoning": "The verb's definition 'undergo an emotional sensation or be in a particular state of mind' describes a continuous state of being rather than a discrete action or change.",
+        "participants": [
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that experiences the emotional sensation or is in the state of mind."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "characteristic.n.01",
+        "value_type": "descriptor",
+        "reasoning": "The 'Adjective/Noun' in the verb frame specifies the particular characteristic, quality, or content of the emotional sensation or mental state being experienced."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The verb 'feel' in this context refers to a direct, internal experience of a sensation or state of mind."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an existing state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Being in an emotional or mental state is not typically an act of will for the experiencer, especially as the subject is 'Something'."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of 'feeling' itself is neutral; the specific 'Adjective/Noun' will determine the sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Undergoing an emotional sensation or being in a state of mind is largely an involuntary, non-volitional experience, similar to 'know' or 'see'."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies certainty regarding the experiencer's internal state."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous or momentary state, the concept of repetition is not applicable. It describes a single instance of being in a state."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "feel.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "feel.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "perceiver.n.01",
+        "corrected_reasoning": "LLM suggestion: 'perceiver.n.01' is a perfect semantic fit for the concept of one who undergoes a physical sensation, replacing the invalid 'experiencer.n.01' in the context of 'feel.v.01'."
+      }
+    ]
+  }
+}

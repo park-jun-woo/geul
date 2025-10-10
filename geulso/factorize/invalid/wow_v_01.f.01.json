@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "wow.v.01",
+    "definition": "impress greatly",
+    "frame_id": 1,
+    "frame_text": "Something wow somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotion.n.01",
+        "reasoning": "The verb 'wow' describes causing a significant change in the emotional state of an experiencer, specifically leading to feelings of admiration or wonder.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the great impression on the experiencer, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who undergoes the emotional change and experiences the great impression."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "degree.n.01",
+        "value_type": "intense.a.01",
+        "reasoning": "The definition 'impress greatly' explicitly indicates a high degree or intensity of the impression."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of 'wowing' is typically observable through the reactions of the impressed individual."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the causal agent in the frame does not possess will or intention."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The definition 'impress greatly' and the hypernym 'impress positively' indicate a positive sentiment associated with the verb."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something wow somebody' indicates that the subject 'Something' is typically non-volitional and causes the impression passively or intrinsically."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of 'wowing' is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single, impactful event of impressing."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "wow.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "wow.v.01",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "person.n.01",
+        "corrected_reasoning": "LLM suggestion: 'experiencer' typically refers to a person."
+      }
+    ]
+  }
+}

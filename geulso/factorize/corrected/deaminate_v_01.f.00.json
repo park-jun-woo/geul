@@ -1,0 +1,58 @@
+{
+  "synset_id": "deaminate.v.01",
+  "definition": "remove the amino radical (usually by hydrolysis) from an amino compound; to perform deamination",
+  "frame_id": 0,
+  "frame_text": "Somebody deaminate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "chemistry.n.02",
+      "reasoning": "The verb describes the action of removing a specific chemical group (amino radical) from a compound, which directly alters its chemical composition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of deamination, typically a scientist or enzyme."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (amino compound) that undergoes the change in chemical composition by losing its amino radical."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "amino_group.n.01",
+          "reasoning": "The specific chemical group (amino radical) that is detached or removed from the patient compound, representing the entity that moves or is separated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Deamination is a chemical process that can be directly observed or measured in a scientific context."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual scientific action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an explicit agent 'Somebody' performing the action implies a strong will and intentionality, typical of controlled chemical procedures."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The chemical process of deamination is inherently neutral; its positive or negative implications depend entirely on the broader context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deaminate something' clearly indicates a volitional agent performing the action, implying intent and control over the process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action; when deamination occurs, it is a certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed instance of removing the amino radical from a given compound."
+    }
+  }
+}

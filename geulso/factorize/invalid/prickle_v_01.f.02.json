@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "prickle.v.01",
+    "definition": "cause a prickling sensation",
+    "frame_id": 2,
+    "frame_text": "Something prick",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "sensation.n.01",
+        "reasoning": "The definition 'cause a prickling sensation' indicates that the verb describes an event causing a change in the state of sensation for an experiencer.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that causes the sensation."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The entity that receives or feels the sensation, implicit in the act of causing a sensation."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "quality.n.01",
+        "value": "prickling",
+        "reasoning": "The specific nature or quality of the sensation is 'prickling,' as explicitly stated in the definition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "A sensation, by its nature, is a direct experience for the experiencer."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something prickles' lacks an agent capable of will, as 'Something' is typically inanimate or non-volitional."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "A 'prickling sensation' is generally associated with discomfort or slight pain, giving it a negative inherent sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s' indicates that the action is caused by a non-agentive subject ('Something'), making it non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing a sensation."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "A 'prickling' sensation often implies a continuous or rapidly repeating series of small, sharp feelings, rather than a single discrete event, thus having high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prickle.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "prickle.v.01",
+        "frame_id": 2,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion: Valid synset and perfect semantic match for 'experiencer'. (Original suggestion 'experiencer.n.01' was invalid in NLTK)"
+      }
+    ]
+  }
+}

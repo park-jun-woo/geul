@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "chafe.v.04",
+    "definition": "tear or wear off the skin or make sore by abrading",
+    "frame_id": 2,
+    "frame_text": "Something chafe something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "physical_integrity.n.01",
+        "reasoning": "The verb describes a process that results in a change of state for the skin, from intact to torn, worn, or sore, impacting its physical integrity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the inanimate entity that causes the chafing and subsequent damage."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity (e.g., skin) that undergoes the change of state (damage/soreness)."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "abrasion.n.01",
+        "reasoning": "The definition explicitly states 'by abrading', indicating the specific manner or mechanism of the damage, involving rubbing or wearing away."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Chafing is a directly observable physical event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something chafe something' indicates inanimate subjects, which lack will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The outcome of chafing is to 'tear or wear off the skin or make sore', which is a negative consequence."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "Both subjects in the frame 'Something chafe something' are inanimate, meaning the action is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite physical process and outcome."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Chafing, as a process of 'wearing off' or 'abrading', typically involves continuous or highly repetitive contact rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "chafe.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "physical_integrity.n.01",
+        "reasoning": "verb_property 'physical_integrity.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "chafe.v.04",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "integrity.n.02",
+        "corrected_reasoning": "LLM suggestion. 'integrity.n.02' (\"an undivided or unbroken completeness or totality with nothing wanting\") is a perfect semantic replacement for the concept of 'physical integrity'."
+      }
+    ],
+    "participants": []
+  }
+}

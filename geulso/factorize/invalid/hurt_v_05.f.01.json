@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "hurt.v.05",
+    "definition": "hurt the feelings of",
+    "frame_id": 1,
+    "frame_text": "Somebody hurt somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "emotional_state.n.01",
+        "reasoning": "The verb describes a change in a person's emotional state, specifically from a non-hurt state to a hurt state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' that causes the feelings to be hurt, acting as the instigator of the change, even if non-sentient."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' who experiences the negative change in their emotional state (their feelings being hurt)."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of hurting feelings is typically directly experienced by the affected individual or observable through their reactions."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies a non-volitional cause, thus lacking an agent's will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'hurt the feelings of' carries an inherently negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something hurt somebody' explicitly indicates a non-volitional subject ('Something') as the cause of the emotional pain."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of feelings being hurt."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, discrete event of causing hurt feelings, though such events can be repeated."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hurt.v.05",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "hurt.v.05",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "The linguistic term 'experiencer' as a semantic role does not have a direct or perfectly fitting equivalent as a single NLTK WordNet synset. No candidate met the >99% confidence threshold."
+      }
+    ]
+  }
+}

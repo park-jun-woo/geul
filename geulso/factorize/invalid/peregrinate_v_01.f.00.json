@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "peregrinate.v.01",
+    "definition": "travel around, through, or over, especially on foot",
+    "frame_id": 0,
+    "frame_text": "Somebody peregrinate",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'peregrinate' explicitly denotes a change in location or state of motion, as implied by 'travel around, through, or over'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is the entity initiating and performing the act of traveling."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "pedestrian",
+        "reasoning": "The definition specifies the manner of travel as 'especially on foot', indicating a pedestrian form of movement."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "spatial_relationship.n.01",
+        "value_type": "extensive_traversal",
+        "reasoning": "The phrase 'travel around, through, or over' in the definition indicates that the movement is not simple point-to-point, but rather extensive, non-linear, or exploratory across an area."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of peregrinating is a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is typically performed with intent and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of traveling or wandering is inherently neutral in sentiment; context would determine positive or negative connotations."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody peregrinate' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of peregrinating is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Peregrinating (traveling around, especially on foot) implies a continuous and highly repetitive series of steps or movements over an extended period or area."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "peregrinate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "spatial_relationship.n.01",
+        "reasoning": "verb_property 'spatial_relationship.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "peregrinate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "spatial_relation.n.01",
+        "corrected_reasoning": "LLM suggestion: Corrected invalid synset 'spatial_relationship.n.01' to the valid and semantically equivalent 'spatial_relation.n.01' as a verb property for 'peregrinate.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

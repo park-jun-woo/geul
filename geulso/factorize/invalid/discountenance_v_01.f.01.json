@@ -1,0 +1,93 @@
+{
+  "original": {
+    "synset_id": "discountenance.v.01",
+    "definition": "look with disfavor on",
+    "frame_id": 1,
+    "frame_text": "Something discountenance somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "social_acceptance.n.01",
+        "reasoning": "The verb describes a change in the social perception or emotional state of the 'somebody' from a neutral state to one of being disfavored or discouraged, as indicated by 'look with disfavor on'.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' acts as the cause or source of the disfavoring action or expression, affecting the 'somebody'."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' is the one upon whom disfavor is cast or directed, experiencing a change in their perceived social standing or emotional state."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of discountenancing is typically directly observed or experienced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'look with disfavor on' explicitly conveys a negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') acting as the cause or stimulus."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of expressing disfavor."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single instance of an action, unless context specifies otherwise."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "discountenance.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "social_acceptance.n.01",
+        "reasoning": "verb_property 'social_acceptance.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "california_personality_inventory.n.01",
+            "description": "a self-report personality inventory originally derived from the MMPI; consists of several hundred yes-no questions and yields scores on a number of scales including dominance and self acceptance and self control and socialization and achievement etc. (gloss match)"
+          },
+          {
+            "synset_id": "offspring.n.02",
+            "description": "something that comes into existence as a result (gloss match)"
+          },
+          {
+            "synset_id": "upstart.n.02",
+            "description": "a person who has suddenly risen to a higher economic status but has not gained social acceptance of others in that class (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "discountenance.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "acceptance.n.02",
+        "corrected_reasoning": "LLM suggestion. `acceptance.n.02` ('the fact or condition of being accepted') is a perfect semantic fit for 'social acceptance' as a verb property related to 'discountenance.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

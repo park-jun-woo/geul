@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "singe.v.01",
+    "definition": "burn superficially or lightly",
+    "frame_id": 1,
+    "frame_text": "Somebody swinge something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "thermal_state.n.01",
+        "reasoning": "The verb describes causing a change in the thermal state or surface condition of an object through the application of heat.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who intentionally performs the action of burning."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' that undergoes the superficial burning."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "degree.n.01",
+        "value_type": "superficial.a.01",
+        "reasoning": "A core semantic component of 'singe' is the 'superficial or light' degree of burning, distinguishing it from a complete or destructive burn."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of singeing is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of singeing is neutral; the context determines its sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of singeing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single event of superficial burning."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "singe.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "thermal_state.n.01",
+        "reasoning": "verb_property 'thermal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "singe.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "hotness.n.01",
+        "corrected_reasoning": "LLM suggestion. 'hotness.n.01' perfectly describes the thermal property associated with the verb 'singe'."
+      }
+    ],
+    "participants": []
+  }
+}

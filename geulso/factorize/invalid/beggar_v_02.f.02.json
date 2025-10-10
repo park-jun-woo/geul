@@ -1,0 +1,101 @@
+{
+  "original": {
+    "synset_id": "beggar.v.02",
+    "definition": "reduce to beggary",
+    "frame_id": 2,
+    "frame_text": "Something pauperize somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "economic_status.n.01",
+        "reasoning": "The definition 'reduce to beggary' clearly indicates a change in someone's economic or financial state from a higher to a lower status.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that causes the reduction to beggary, acting as the causal agent."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' in the verb frame is the individual whose economic status is changed; they are the patient of the action."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of reducing someone to beggary is typically a directly observable event or its effects are directly experienced."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a factual event, implying a declarative mood."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the subject implies no inherent will or intention driving the action."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "To 'reduce to beggary' has an inherently negative connotation, as it describes a detrimental outcome for the patient."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something pauperize somebody' explicitly has a non-agentive subject ('Something'), indicating a non-volitional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb expresses a definite occurrence of reducing someone to beggary."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb typically describes a single, complete event of reduction to beggary, rather than a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "beggar.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "economic_status.n.01",
+        "reasoning": "verb_property 'economic_status.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "class.n.03",
+            "description": "people having the same social, economic, or educational status (gloss match)"
+          },
+          {
+            "synset_id": "commission_on_the_status_of_women.n.01",
+            "description": "the commission of the Economic and Social Council of the United Nations that is concerned with the status of women in different societies (gloss match)"
+          },
+          {
+            "synset_id": "elite.n.01",
+            "description": "a group or class of persons enjoying superior intellectual or social or economic status (gloss match)"
+          },
+          {
+            "synset_id": "immigrant_class.n.01",
+            "description": "recent immigrants who are lumped together as a class by their low socioeconomic status in spite of different cultural backgrounds (gloss match)"
+          },
+          {
+            "synset_id": "upstart.n.02",
+            "description": "a person who has suddenly risen to a higher economic status but has not gained social acceptance of others in that class (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "beggar.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "economic_condition.n.01",
+        "corrected_reasoning": "LLM suggestion: 'economic_condition.n.01' is a perfect semantic and contextual fit for 'economic status'."
+      }
+    ],
+    "participants": []
+  }
+}

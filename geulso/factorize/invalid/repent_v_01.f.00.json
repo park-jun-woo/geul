@@ -1,0 +1,106 @@
+{
+  "original": {
+    "synset_id": "repent.v.01",
+    "definition": "turn away from sin or do penitence",
+    "frame_id": 0,
+    "frame_text": "Somebody atone",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moral_orientation.n.01",
+        "reasoning": "The definition 'turn away from sin' describes a fundamental shift in one's moral or spiritual direction or stance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and undergoes the change in moral orientation, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The agent itself, whose internal moral state is being changed."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "value_type": "sin.n.01",
+            "reasoning": "The state or action (sin) from which the agent turns away."
+          }
+        ]
+      },
+      {
+        "verb_type": "action",
+        "verb_property": "penitence.n.01",
+        "reasoning": "The definition 'do penitence' indicates an action of expressing remorse or atonement that accompanies or constitutes repentance.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of penitence."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "sin.n.01",
+            "reasoning": "The specific wrongdoing for which penitence is performed."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Repentance, whether internal or external, is typically experienced directly by the agent or directly observed in their actions/confessions."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes a declarative act or state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The act of repenting requires strong will and intention from the agent to change their ways or express remorse."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "Repentance is generally considered a morally positive act, indicating a turning towards good and away from wrong."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody repent' clearly indicates a volitional agent making a conscious decision to repent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "When someone repents, it is described as a definite and certain act or internal state."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "While a decision to repent can be a single event, 'turning away from sin' and 'doing penitence' often implies an ongoing process or a series of repetitive actions/commitments rather than a singular, momentary event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "repent.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "moral_orientation.n.01",
+        "reasoning": "verb_property 'moral_orientation.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "repent.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "morality.n.01",
+        "corrected_reasoning": "LLM suggestion: 'morality.n.01' is a valid synset that semantically aligns with the concept of moral orientation in the context of 'repent.v.01'."
+      }
+    ],
+    "participants": []
+  }
+}

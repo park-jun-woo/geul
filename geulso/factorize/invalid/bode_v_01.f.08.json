@@ -1,0 +1,110 @@
+{
+  "original": {
+    "synset_id": "bode.v.01",
+    "definition": "indicate by signs",
+    "frame_id": 8,
+    "frame_text": "Something portend something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "indication.n.01",
+        "reasoning": "The verb describes a state where one entity acts as a sign or indicator for another, aligning with the definition 'indicate by signs'.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The first 'Something' in the frame, which is the entity (sign) that indicates or foretells."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "future_event.n.01",
+            "reasoning": "The second 'something' in the frame, which is the future event or outcome that is indicated by the sign."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": -1.0,
+        "reasoning": "The act of 'boding' involves interpreting signs to infer a future outcome, rather than direct observation of the outcome itself."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a factual relationship or state."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate, indicating no will or intention is involved in the act of boding."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of indicating by signs is neutral; the outcome it indicates can be positive or negative, but the verb itself does not carry inherent sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional subject ('Something') performing the action, as it is a natural phenomenon or state of affairs that serves as a sign."
+      },
+      "Confidence": {
+        "value": 0.0,
+        "reasoning": "While the signs may exist, their interpretation or the certainty of the foretold event is often speculative, making the confidence level neutral. The verb signifies an indication, not a guarantee."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes an ongoing state of indication rather than a series of discrete, repetitive actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "bode.v.01",
+        "frame_id": 8,
+        "key": "value_type",
+        "value": "future_event.n.01",
+        "reasoning": "value_type 'future_event.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "time.n.05",
+            "description": "the continuum of experience in which events pass from the future through the present to the past (gloss match)"
+          },
+          {
+            "synset_id": "crystal_gazing.n.01",
+            "description": "staring into a crystal ball to arouse visions of future or distant events (gloss match)"
+          },
+          {
+            "synset_id": "predictor.n.02",
+            "description": "information that supports a probabilistic estimate of future events (gloss match)"
+          },
+          {
+            "synset_id": "rain_check.n.02",
+            "description": "a ticket stub entitling the holder to admission to a future event if the scheduled event was cancelled due to rain (gloss match)"
+          },
+          {
+            "synset_id": "forewarning.n.01",
+            "description": "an early warning about a future event (gloss match)"
+          },
+          {
+            "synset_id": "destiny.n.01",
+            "description": "an event (or a course of events) that will inevitably happen in the future (gloss match)"
+          },
+          {
+            "synset_id": "history.n.04",
+            "description": "the continuum of events occurring in succession leading from the past to the present and even into the future (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "bode.v.01",
+        "frame_id": 8,
+        "key": "value_type",
+        "corrected_value": "eventuality.n.01",
+        "corrected_reasoning": "LLM suggestion: 'eventuality.n.01' ('a possible event or outcome') is a perfect semantic and contextual fit for the concept of 'future event' without the additional connotations of other candidates or original value."
+      }
+    ]
+  }
+}

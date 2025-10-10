@@ -1,0 +1,60 @@
+{
+  "synset_id": "buy_time.v.01",
+  "definition": "act so as to delay an event or action in order to gain an advantage",
+  "frame_id": 1,
+  "frame_text": "Something buy_time",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temporality.n.01",
+      "reasoning": "The definition 'act so as to delay an event or action' indicates causing a change in the timing or temporal state of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of delaying, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event_or_action.n.01",
+          "reasoning": "The implicit 'event or action' that is delayed, as stated in the definition. This is the entity whose temporal state is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "gain_advantage.n.01",
+      "reasoning": "The phrase 'in order to gain an advantage' describes the intrinsic purpose or motivation behind the action, which is a core semantic component of 'buy time'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of buying time is typically a directly observable action or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or strategy."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to delay an event."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of delaying itself is neutral; the advantage gained can be positive or negative depending on context, but the verb's inherent sentiment is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody buy_time' explicitly includes a volitional agent ('Somebody') performing an intentional act ('act so as to delay')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs, not a speculation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the process of delaying might involve multiple steps, 'buy time' usually refers to a single, strategic act of achieving a delay, not continuous repetition of the *same* delay."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "refer.v.02",
+    "definition": "be relevant to",
+    "frame_id": 15,
+    "frame_text": "Something relate somebody",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "relation.n.01",
+        "reasoning": "The definition 'be relevant to' describes a continuous state of connection or relationship between two entities.",
+        "participants": [
+          {
+            "semantic_role": "theme.n.01",
+            "reasoning": "The 'Something' that possesses the quality of being relevant or is in the state of relevance, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' to whom the 'Something' is relevant; the entity that experiences or is affected by the relation of relevance."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of being relevant is typically based on direct knowledge or observation of the connection."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact or relationship."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' is inanimate, and the state of being relevant does not involve an agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of being relevant is inherently neutral; its positive or negative sentiment depends on the specific context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something relate somebody' and the definition 'be relevant to' describe an inherent, non-intentional state of being, not a volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "Stating that 'Something relate somebody' implies certainty in the existence of that relationship."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state, the concept of repetition is not directly applicable; it represents a single, ongoing instance of relevance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "refer.v.02",
+        "frame_id": 15,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "experiencer.n.01",
+        "frame_id": 15,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No perfect alternative NLTK WordNet synset could be found that is different from the original and meets the >99% confidence threshold for semantic and contextual fit, given the original was reported as invalid."
+      }
+    ]
+  }
+}

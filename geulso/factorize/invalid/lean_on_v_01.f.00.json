@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "lean_on.v.01",
+    "definition": "rest on for support",
+    "frame_id": 0,
+    "frame_text": "Somebody lean_against somebody",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "physical_position.n.01",
+        "reasoning": "The definition 'rest on' describes a continuous state of being in a physical position in relation to another object.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who is in the state of resting; the entity whose position is described."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' upon which the causal agent rests."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "function.n.01",
+        "value_type": "support.n.02",
+        "reasoning": "The 'for support' part of the definition indicates the purpose or function of the physical position being maintained."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of leaning on something is a directly observable event or state."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact or a state."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to rest on something for support."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of leaning on is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action of resting for support."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The state of leaning on is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "As a continuous state or sustained action, 'lean on' is treated as a single, ongoing instance rather than a repetitive sequence of discrete events."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "lean_on.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "physical_position.n.01",
+        "reasoning": "verb_property 'physical_position.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "texture.n.05",
+            "description": "the physical composition of something (especially with respect to the size and shape of the small constituents of a substance) (gloss match)"
+          },
+          {
+            "synset_id": "resilience.n.01",
+            "description": "the physical property of a material that can return to its original shape or position after deformation that does not exceed its elastic limit (gloss match)"
+          },
+          {
+            "synset_id": "site.n.02",
+            "description": "physical position in relation to the surroundings (gloss match)"
+          },
+          {
+            "synset_id": "setting.n.05",
+            "description": "the physical position of something (gloss match)"
+          },
+          {
+            "synset_id": "phase.n.02",
+            "description": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "lean_on.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "setting.n.05",
+        "corrected_reasoning": "Candidate selection."
+      }
+    ],
+    "participants": []
+  }
+}

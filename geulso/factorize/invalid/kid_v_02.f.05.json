@@ -1,0 +1,99 @@
+{
+  "original": {
+    "synset_id": "kid.v.02",
+    "definition": "be silly or tease one another",
+    "frame_id": 5,
+    "frame_text": "Somebody kid",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The verb describes an action that involves engaging in a social behavior, whether acting silly or teasing.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the social action."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "playful.a.01",
+        "reasoning": "The action is characterized by being lighthearted, non-serious, and intended for amusement, encompassing both the 'silly' and 'teasing' aspects of the definition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of kidding is typically a directly observable behavior."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or behavior."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of kidding is neutral; its sentiment depends on context (e.g., friendly vs. malicious teasing)."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody kid' explicitly indicates a volitional agent performing the action intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of kidding is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Kidding or acting silly often involves continuous or highly repetitive actions over a period, rather than a single discrete event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "kid.v.02",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "social_interaction.n.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "LLM suggestion. 'social_relations.n.01' (mutual dealings or connections or communications among persons or groups) best captures the meaning of the invalid synset 'social_interaction.n.01' as a verb property for 'kid.v.02'. (Original suggestion 'social_relations.n.01' was invalid in NLTK)"
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "rub.v.03",
+    "definition": "scrape or rub as if to relieve itching",
+    "frame_id": 8,
+    "frame_text": "Something rub something",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "physical_interaction.n.01",
+        "reasoning": "The verb describes an ongoing physical action involving contact and movement between two entities.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame that performs the physical interaction."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame that is subjected to the rubbing/scraping action."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "friction.n.01",
+        "reasoning": "The action of rubbing or scraping inherently involves continuous contact that generates friction."
+      },
+      {
+        "verb_type": "purpose",
+        "verb_property": "alleviation.n.01",
+        "value_type": "itching.n.01",
+        "reasoning": "The definition explicitly states the hypothetical purpose or motivation of the action: 'as if to relieve itching'."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The action of rubbing/scraping is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something rub something' indicates an inanimate agent, implying no inherent will or intention behind the action."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of rubbing or scraping is neutral; its sentiment depends on context or outcome (e.g., relieving itching is positive, but the act itself is neutral)."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something rub something' indicates that the agent of the action ('Something') is non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or process."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Rubbing and scraping are inherently continuous actions composed of repeated strokes or movements, indicating high repetition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "rub.v.03",
+        "frame_id": 8,
+        "key": "verb_property",
+        "value": "physical_interaction.n.01",
+        "reasoning": "verb_property 'physical_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "ecosystem.n.01",
+            "description": "a system formed by the interaction of a community of organisms with their physical environment (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "rub.v.03",
+        "frame_id": 8,
+        "key": "verb_property",
+        "corrected_value": "physical_contact.n.01",
+        "corrected_reasoning": "LLM suggestion: Replaced invalid synset with a valid one representing direct physical engagement."
+      }
+    ],
+    "participants": []
+  }
+}

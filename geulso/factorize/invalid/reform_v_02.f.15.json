@@ -1,0 +1,129 @@
+{
+  "original": {
+    "synset_id": "reform.v.02",
+    "definition": "bring, lead, or force to abandon a wrong or evil course of life, conduct, and adopt a right one",
+    "frame_id": 15,
+    "frame_text": "Something regenerate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "moral_state.n.01",
+        "reasoning": "The definition 'bring, lead, or force to abandon a wrong or evil course... and adopt a right one' describes a change in the moral state or conduct of an entity. It is a causative change.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame that initiates or causes the change in moral state."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' in the verb frame that undergoes the change in moral state or conduct."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of reforming is typically observable or inferable from direct evidence."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or action."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The agent in the frame is 'Something', indicating a non-human or abstract entity, which lacks will."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The definition explicitly states changing from a 'wrong or evil course' to a 'right one', indicating an inherently positive outcome."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent ('Something') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite occurrence of the change."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process of reform can be ongoing, the verb 'reform' itself describes a single, possibly complex, event of achieving a new state of moral conduct."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "reform.v.02",
+        "frame_id": 15,
+        "key": "verb_property",
+        "value": "moral_state.n.01",
+        "reasoning": "verb_property 'moral_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "descriptivism.n.01",
+            "description": "(ethics) a doctrine holding that moral statements have a truth value (gloss match)"
+          },
+          {
+            "synset_id": "prescriptivism.n.01",
+            "description": "(ethics) a doctrine holding that moral statements prescribe appropriate attitudes and behavior (gloss match)"
+          },
+          {
+            "synset_id": "decadent.n.01",
+            "description": "a person who has fallen into a decadent state (morally or artistically) (gloss match)"
+          },
+          {
+            "synset_id": "comstock.n.01",
+            "description": "United States reformer who led moral crusades against art and literature that he considered obscene (1844-1915) (gloss match)"
+          },
+          {
+            "synset_id": "hawthorne.n.01",
+            "description": "United States writer of novels and short stories mostly on moral themes (1804-1864) (gloss match)"
+          },
+          {
+            "synset_id": "hays.n.01",
+            "description": "United States lawyer and politician who formulated a production code that prescribed the moral content of United States films from 1930 to 1966 (1879-1954) (gloss match)"
+          },
+          {
+            "synset_id": "utopia.n.02",
+            "description": "ideally perfect state; especially in its social and political and moral aspects (gloss match)"
+          },
+          {
+            "synset_id": "demoralization.n.02",
+            "description": "a state of disorder and confusion (gloss match)"
+          },
+          {
+            "synset_id": "purity.n.02",
+            "description": "the state of being unsullied by sin or moral wrong; lacking a knowledge of evil (gloss match)"
+          },
+          {
+            "synset_id": "degeneracy.n.01",
+            "description": "the state of being degenerate in mental or moral qualities (gloss match)"
+          },
+          {
+            "synset_id": "depth.n.04",
+            "description": "(usually plural) a low moral state (gloss match)"
+          },
+          {
+            "synset_id": "bankruptcy.n.01",
+            "description": "a state of complete lack of some abstract property (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "reform.v.02",
+        "frame_id": 15,
+        "key": "verb_property",
+        "corrected_value": "character.n.03",
+        "corrected_reasoning": "LLM suggestion: 'character.n.03' ('moral or ethical quality') is a perfect semantic and contextual replacement for the general concept of 'moral_state'."
+      }
+    ],
+    "participants": []
+  }
+}

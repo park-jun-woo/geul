@@ -1,0 +1,119 @@
+{
+  "original": {
+    "synset_id": "decimalize.v.02",
+    "definition": "change to the decimal system",
+    "frame_id": 3,
+    "frame_text": "Something decimalize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "numerical_system.n.01",
+        "reasoning": "The definition 'change to the decimal system' directly indicates a transition from one state (a non-decimal system) to another (the decimal system).",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame acts as the abstract or inanimate entity causing the change."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' is the entity that undergoes the change to the decimal system."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "target_state.n.01",
+        "value_type": "decimal_system.n.01",
+        "reasoning": "The core meaning includes the specific target state of the change, which is the decimal system."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "A change to a decimal system is a factual and often observable event or outcome."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb describes a declarative statement about a change occurring."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something decimalize something' indicates an inanimate or abstract agent (the first 'Something'), which lacks will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of decimalizing is a neutral process; its positivity or negativity depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' in the verb frame implies a non-volitional or inanimate agent causing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite act of changing or converting."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The verb describes a single, discrete act of conversion to a new system, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "decimalize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "numerical_system.n.01",
+        "reasoning": "verb_property 'numerical_system.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "figure_of_merit.n.01",
+            "description": "a numerical expression representing the efficiency of a given system, material, or procedure (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "decimalize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "target_state.n.01",
+        "reasoning": "verb_property 'target_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "carpet_bombing.n.01",
+            "description": "an extensive and systematic bombing intended to devastate a large target (gloss match)"
+          },
+          {
+            "synset_id": "liberation_tigers_of_tamil_eelam.n.01",
+            "description": "a terrorist organization in Sri Lanka that began in 1970 as a student protest over the limited university access for Tamil students; currently seeks to establish an independent Tamil state called Eelam; relies on guerilla strategy including terrorist tactics that target key government and military personnel (gloss match)"
+          },
+          {
+            "synset_id": "vieques.n.01",
+            "description": "a small island off the coast of Puerto Rico used for target practice by the United States Navy (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "decimalize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "number_system.n.01",
+        "corrected_reasoning": "LLM suggestion: 'number_system.n.01' is a valid WordNet synset that precisely matches the concept of 'numerical system', whereas the original 'numerical_system.n.01' was deemed invalid by the system and no candidate was suitable."
+      },
+      {
+        "synset_id": "decimalize.v.02",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "goal.n.02",
+        "corrected_reasoning": "LLM suggestion: 'goal.n.02' ('the state of affairs that a plan is intended to achieve') is a valid WordNet synset that perfectly captures the meaning of 'target state' in the context of a desired outcome. Candidates refer to physical targets, not a target state/condition."
+      }
+    ],
+    "participants": []
+  }
+}

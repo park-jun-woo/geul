@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "jump.v.08",
+    "definition": "jump down from an elevated point",
+    "frame_id": 1,
+    "frame_text": "Somebody jump_off",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb 'jump down' describes a change in vertical position and location.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of jumping off."
+          },
+          {
+            "semantic_role": "source.n.03",
+            "value_type": "elevated_point.n.01",
+            "reasoning": "The 'elevated point' is the origin from which the motion begins, as implied by 'from an elevated point'."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "abrupt_propulsion.n.01",
+        "reasoning": "The core of 'jump' implies a sudden, forceful propulsion or spring from a surface."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "direction.n.01",
+        "value_type": "downward.a.01",
+        "reasoning": "The 'down' component in 'jump down' and the context 'from an elevated point' specifies the vertical direction of the motion."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of jumping is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of jumping is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody jump_off' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of jumping is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'jump off' typically describes a single, discrete event of jumping."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "jump.v.08",
+        "frame_id": 1,
+        "key": "value_type",
+        "value": "elevated_point.n.01",
+        "reasoning": "value_type 'elevated_point.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "basketball.n.01",
+            "description": "a game played on a court by two opposing teams of 5 players; points are scored by throwing the ball through an elevated horizontal hoop (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "jump.v.08",
+        "frame_id": 1,
+        "key": "value_type",
+        "corrected_value": "height.n.01",
+        "corrected_reasoning": "LLM suggestion: 'height.n.01' is a perfect semantic match for the invalid 'elevated_point.n.01' in the context of a 'jump's value_type."
+      }
+    ]
+  }
+}

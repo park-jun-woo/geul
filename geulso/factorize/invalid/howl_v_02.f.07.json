@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "howl.v.02",
+    "definition": "cry loudly, as of animals",
+    "frame_id": 7,
+    "frame_text": "Something yowl",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "sound_production.n.01",
+        "reasoning": "The definition 'cry loudly' describes an active process of producing an audible sound.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame refers to the entity (typically an animal, as per definition) that actively produces the sound."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "loud.a.01",
+        "reasoning": "The definition explicitly states 'cry loudly', indicating that 'loudness' is an inherent characteristic and manner of this sound production."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of yowling/howling is a directly observable auditory event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Although the subject is 'Something' (referring to an animal), the act of crying loudly is an active and intentional emission of sound, implying the animal's will or desire to express itself, even if driven by instinct or emotion."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of yowling itself is neutral; any positive or negative sentiment is context-dependent."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "As an active production of sound by an animate being (an animal, implied by the definition), the action is considered volitional, as it is an act performed by the subject, not a passive state."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the sound being made."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Yowling or howling typically implies a sustained, continuous, or highly repetitive sound rather than a single, brief utterance. It's often a prolonged vocalization."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "howl.v.02",
+        "frame_id": 7,
+        "key": "verb_property",
+        "value": "sound_production.n.01",
+        "reasoning": "verb_property 'sound_production.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "sound_reproduction.n.01",
+            "description": "the reproduction of sound (gloss match)"
+          },
+          {
+            "synset_id": "high_fidelity.n.01",
+            "description": "the reproduction of sound with little or no distortion (gloss match)"
+          },
+          {
+            "synset_id": "hi-fi.n.01",
+            "description": "equipment for the reproduction of sound with high fidelity (gloss match)"
+          },
+          {
+            "synset_id": "music.n.04",
+            "description": "(music) the sounds produced by singers or musical instruments (or reproductions of such sounds) (gloss match)"
+          },
+          {
+            "synset_id": "mutter.n.01",
+            "description": "a low continuous indistinct sound; often accompanied by movement of the lips without the production of articulate speech (gloss match)"
+          },
+          {
+            "synset_id": "acoustic_phenomenon.n.01",
+            "description": "a physical phenomenon associated with the production or transmission of sound (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "howl.v.02",
+        "frame_id": 7,
+        "key": "verb_property",
+        "corrected_value": "vocalization.n.01",
+        "corrected_reasoning": "LLM suggestion. Perfect semantic match for the act of producing sound, fitting 'howl.v.02'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "original": {
+    "synset_id": "demolish.v.03",
+    "definition": "defeat soundly",
+    "frame_id": 0,
+    "frame_text": "Somebody demolish somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "state_of_defeat.n.01",
+        "reasoning": "The verb 'demolish' in this sense means 'defeat soundly', implying a change in the state of a participant from being undefeated to being defeated.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of defeating, as indicated by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'somebody' who undergoes the change of state, from being undefeated to being defeated."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "thoroughly.r.01",
+        "reasoning": "The definition 'defeat soundly' indicates a high degree or completeness of the defeat, which is a manner property of the action."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of demolishing an opponent is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or outcome."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "While defeat has negative connotations for the defeated, the verb itself describes an outcome of a contest, which is semantically neutral, describing the state rather than inherently carrying sentiment about the state."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb implies a definite and certain outcome of defeat."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'demolish' in this sense refers to a single, decisive act of defeating someone, not a continuous or repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "demolish.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "state_of_defeat.n.01",
+        "reasoning": "verb_property 'state_of_defeat.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "burnside.n.01",
+            "description": "United States general in the American Civil War who was defeated by Robert E. Lee at the Battle of Fredericksburg (1824-1881) (gloss match)"
+          },
+          {
+            "synset_id": "eisenhower.n.01",
+            "description": "United States general who supervised the invasion of Normandy and the defeat of Nazi Germany; 34th President of the United States (1890-1961) (gloss match)"
+          },
+          {
+            "synset_id": "hoover.n.03",
+            "description": "31st President of the United States; in 1929 the stock market crashed and the economy collapsed and Hoover was defeated for reelection by Franklin Roosevelt (1874-1964) (gloss match)"
+          },
+          {
+            "synset_id": "perry.n.03",
+            "description": "United States commodore who led the fleet that defeated the British on Lake Erie during the War of 1812; brother of Matthew Calbraith Perry (1785-1819) (gloss match)"
+          },
+          {
+            "synset_id": "scott.n.03",
+            "description": "United States general who was a hero of the War of 1812 and who defeated Santa Anna in the Mexican War (1786-1866) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "demolish.v.03",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "defeat.n.01",
+        "corrected_reasoning": "LLM suggestion: 'defeat.n.01' is a perfect semantic and contextual fit for 'state of defeat'."
+      }
+    ],
+    "participants": []
+  }
+}

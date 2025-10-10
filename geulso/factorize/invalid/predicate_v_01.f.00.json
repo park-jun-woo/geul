@@ -1,0 +1,102 @@
+{
+  "original": {
+    "synset_id": "predicate.v.01",
+    "definition": "make the (grammatical) predicate in a proposition",
+    "frame_id": 0,
+    "frame_text": "Somebody predicate something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "grammatical_function.n.01",
+        "reasoning": "The definition 'make the predicate' describes an action that alters the grammatical role or function of a linguistic unit, which is a change of state.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively performs the action of assigning a grammatical role."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "linguistic_unit.n.01",
+            "reasoning": "The 'something' that is designated as the grammatical predicate."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of predicating is a directly observable linguistic act."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a 'Somebody' in the frame implies an intentional act of linguistic construction."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of predicating is a neutral grammatical operation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing an intentional action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of predicating is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme refers to a single instance of establishing a predicate for a given linguistic unit or proposition."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "predicate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "grammatical_function.n.01",
+        "reasoning": "verb_property 'grammatical_function.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "lexis.n.01",
+            "description": "all of the words in a language; all word forms having meaning or grammatical function (gloss match)"
+          },
+          {
+            "synset_id": "function_word.n.01",
+            "description": "a word that is uninflected and serves a grammatical function but has little identifiable meaning (gloss match)"
+          },
+          {
+            "synset_id": "coordinate_clause.n.01",
+            "description": "a clause in a complex sentence that is grammatically equivalent to the main clause and that performs the same grammatical function (gloss match)"
+          },
+          {
+            "synset_id": "part_of_speech.n.01",
+            "description": "one of the traditional categories of words intended to reflect their functions in a grammatical context (gloss match)"
+          },
+          {
+            "synset_id": "inflection.n.01",
+            "description": "a change in the form of a word (usually by adding a suffix) to indicate a change in its grammatical function (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "predicate.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "part_of_speech.n.01",
+        "corrected_reasoning": "Selected 'part_of_speech.n.01' from candidates as it represents a core grammatical function or category, which aligns with 'grammatical_function.n.01' in the context of a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

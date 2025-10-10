@@ -1,0 +1,59 @@
+{
+  "synset_id": "exercise.v.03",
+  "definition": "give a workout to",
+  "frame_id": 3,
+  "frame_text": "Somebody work something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "exercise.n.01",
+      "reasoning": "The verb 'exercise' in this context means to 'give a workout to', which describes causing an entity to transition from a state of rest to one of physical exertion or activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or performs the workout on the patient, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a body part, an animal) that undergoes the physical exertion or activity as a result of the agent's action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "conditioning.n.01",
+      "reasoning": "A core semantic component of 'exercise' is the implicit purpose of physical conditioning, training, or health improvement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exercising something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exercising is neutral; its sentiment often depends on the context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody work something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of exercising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'give a workout to' implies engaging in a process composed of multiple, repeated physical actions over a period, similar to 'run'."
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "original": {
+    "synset_id": "patronize.v.02",
+    "definition": "do one's shopping at; do business with; be a customer or client of",
+    "frame_id": 12,
+    "frame_text": "Somebody sponsor somebody",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "commercial_exchange.n.01",
+        "reasoning": "The verb's definition 'do one's shopping at; do business with; be a customer or client of' indicates an act of engaging in commercial transactions or maintaining a client relationship.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who acts as the customer or client, initiating the commercial interaction."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "business.n.01",
+            "reasoning": "The 'somebody' who is the vendor or business entity that is patronized by the customer."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of patronizing a business is a directly observable event or relationship."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or a state of relationship."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "Engaging in commercial activity or choosing to be a customer is typically a deliberate act driven by the agent's will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of patronizing is neutral; its sentiment depends on context or the nature of the business."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent (the customer) performing the action intentionally."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or an established relationship."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The definition 'do one's shopping at; do business with; be a customer or client of' strongly implies repeated or habitual commercial interaction, indicating high iterativity."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "patronize.v.02",
+        "frame_id": 12,
+        "key": "verb_property",
+        "value": "commercial_exchange.n.01",
+        "reasoning": "verb_property 'commercial_exchange.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "reciprocity.n.02",
+            "description": "mutual exchange of commercial or other privileges (gloss match)"
+          },
+          {
+            "synset_id": "trade.n.01",
+            "description": "the commercial exchange (buying and selling on domestic or international markets) of goods and services (gloss match)"
+          },
+          {
+            "synset_id": "usance.n.01",
+            "description": "the period of time permitted by commercial usage for the payment of a bill of exchange (especially a foreign bill of exchange) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "patronize.v.02",
+        "frame_id": 12,
+        "key": "verb_property",
+        "corrected_value": "trade.n.01",
+        "corrected_reasoning": "Selected from candidates list based on perfect semantic match with original invalid value 'commercial_exchange.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

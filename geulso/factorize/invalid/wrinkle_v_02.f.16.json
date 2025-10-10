@@ -1,0 +1,105 @@
+{
+  "original": {
+    "synset_id": "wrinkle.v.02",
+    "definition": "make wrinkles or creases on a smooth surface; make a pressed, folded or wrinkled line in",
+    "frame_id": 16,
+    "frame_text": "Something scrunch something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "surface_texture.n.01",
+        "reasoning": "The definition 'make wrinkles or creases on a smooth surface' describes causing a change in the physical state of a surface, specifically its texture, from smooth to wrinkled.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the verb frame acts as the entity that causes the change in the surface."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the verb frame refers to the smooth surface that undergoes the change, becoming wrinkled."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of wrinkling a surface is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' indicates a non-agentive cause, implying no inherent will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of wrinkling is neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The verb frame 'Something scrunch something' indicates a non-volitional subject ('Something') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of wrinkling is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance or event of causing wrinkles."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "wrinkle.v.02",
+        "frame_id": 16,
+        "key": "verb_property",
+        "value": "surface_texture.n.01",
+        "reasoning": "verb_property 'surface_texture.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "worsted.n.01",
+            "description": "a woolen fabric with a hard textured surface and no nap; woven of worsted yarns (gloss match)"
+          },
+          {
+            "synset_id": "coating.n.02",
+            "description": "a decorative texture or appearance of a surface (or the substance that gives it that appearance) (gloss match)"
+          },
+          {
+            "synset_id": "texture.n.01",
+            "description": "the feel of a surface or a fabric (gloss match)"
+          },
+          {
+            "synset_id": "nap.n.02",
+            "description": "a soft or fuzzy surface texture (gloss match)"
+          },
+          {
+            "synset_id": "roughness.n.01",
+            "description": "a texture of a surface or edge that is not smooth but is irregular and uneven (gloss match)"
+          },
+          {
+            "synset_id": "bumpiness.n.01",
+            "description": "the texture of a surface that has many bumps (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "surface_texture.n.01",
+        "frame_id": 16,
+        "key": "verb_property",
+        "corrected_value": "texture.n.01",
+        "corrected_reasoning": "Selected 'texture.n.01' from candidates as it is a direct semantic and contextual replacement for 'surface_texture'."
+      }
+    ],
+    "participants": []
+  }
+}

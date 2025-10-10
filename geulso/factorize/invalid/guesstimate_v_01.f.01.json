@@ -1,0 +1,128 @@
+{
+  "original": {
+    "synset_id": "guesstimate.v.01",
+    "definition": "estimate based on a calculation",
+    "frame_id": 1,
+    "frame_text": "Somebody guesstimate that CLAUSE",
+    "sememes": [
+      {
+        "verb_type": "action",
+        "verb_property": "estimation.n.01",
+        "reasoning": "The definition 'estimate based on a calculation' describes the action of forming a judgment or assessment of value/quantity.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame is the agent performing the act of guesstimating."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "proposition.n.01",
+            "reasoning": "The 'CLAUSE' represents the information or proposition that is being guesstimated."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "precision.n.02",
+        "value_type": "low.a.01",
+        "reasoning": "The 'guess' component in 'guesstimate' inherently implies that the estimation is informal, approximate, or lacks high precision, even if based on some calculation."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of guesstimating is a direct cognitive experience of the agent."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, describing an action or judgment."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of guesstimating is neutral; the content or outcome of the guesstimate may have a positive or negative polarity, but the verb itself does not."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of guesstimating."
+      },
+      "Confidence": {
+        "value": -1.0,
+        "reasoning": "A 'guesstimate' by its nature implies a tentative or speculative judgment rather than a certain one, reflecting low confidence in the exactness of the outcome."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of forming an estimate."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "guesstimate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "precision.n.02",
+        "reasoning": "verb_property 'precision.n.02' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "preciseness.n.02",
+            "description": "the quality of being reproducible in amount or performance (lemma match)"
+          },
+          {
+            "synset_id": "ground-controlled_approach.n.01",
+            "description": "aircraft landing in bad weather in which the pilot is talked down by ground control using precision approach radar (gloss match)"
+          },
+          {
+            "synset_id": "microsurgery.n.01",
+            "description": "surgery using operating microscopes and miniaturized precision instruments to perform intricate procedures on very small structures (gloss match)"
+          },
+          {
+            "synset_id": "analytical_balance.n.01",
+            "description": "a beam balance of great precision used in quantitative chemical analysis (gloss match)"
+          },
+          {
+            "synset_id": "clean_room.n.01",
+            "description": "a room that is virtually free of dust or bacteria; used in laboratory work and in assembly or repair of precision equipment (gloss match)"
+          },
+          {
+            "synset_id": "minuteness.n.02",
+            "description": "great precision; painstaking attention to details (gloss match)"
+          },
+          {
+            "synset_id": "impreciseness.n.01",
+            "description": "the quality of lacking precision (gloss match)"
+          },
+          {
+            "synset_id": "preciseness.n.01",
+            "description": "clarity as a consequence of precision (gloss match)"
+          },
+          {
+            "synset_id": "computer-aided_design.n.01",
+            "description": "software used in art and architecture and engineering and manufacturing to assist in precision drawing (gloss match)"
+          },
+          {
+            "synset_id": "purist.n.01",
+            "description": "someone who insists on great precision and correctness (especially in the use of words) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "guesstimate.v.01",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "preciseness.n.02",
+        "corrected_reasoning": "Candidate 'preciseness.n.02' (the quality of being reproducible in amount or performance) is a perfect semantic and morphological replacement for the invalid 'precision.n.02' (lemma match)."
+      }
+    ],
+    "participants": []
+  }
+}

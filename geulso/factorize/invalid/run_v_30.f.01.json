@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "run.v.30",
+    "definition": "extend or continue for a certain period of time",
+    "frame_id": 1,
+    "frame_text": "Something run_for something",
+    "sememes": [
+      {
+        "verb_type": "state",
+        "verb_property": "duration.n.01",
+        "reasoning": "The definition 'extend or continue for a certain period of time' describes a state of existing or operating over a specified temporal extent.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' that is in the state of continuing or extending, as specified by the verb frame subject."
+          },
+          {
+            "semantic_role": "temporal_extent.n.01",
+            "reasoning": "The 'something' in 'run_for something' specifies the period of time for which the state endures."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The state of duration is typically understood through direct observation or established fact."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a state of being."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The subject 'Something' implies no agentive will or intention for the state to exist."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The state of extending or continuing is semantically neutral; context determines any positive or negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something run_for something' indicates that the subject ('Something') is non-volitional, as it describes an inherent property or passive endurance."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite state or occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "This verb describes a continuous state over a period, not a repetition of discrete events. Hence, it is treated as a single, ongoing instance."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "run.v.30",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "value": "temporal_extent.n.01",
+        "reasoning": "semantic_role 'temporal_extent.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "shortness.n.04",
+            "description": "the property of being of short temporal extent (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "run.v.30",
+        "frame_id": 1,
+        "key": "semantic_role",
+        "corrected_value": "duration.n.01",
+        "corrected_reasoning": "LLM suggestion: 'duration.n.01' is a more general and accurate semantic fit for the concept of 'temporal_extent' than the specific 'shortness.n.04' candidate."
+      }
+    ]
+  }
+}

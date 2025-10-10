@@ -1,0 +1,98 @@
+{
+  "original": {
+    "synset_id": "starve.v.02",
+    "definition": "die of food deprivation",
+    "frame_id": 2,
+    "frame_text": "Something famish",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "vitality.n.01",
+        "reasoning": "The definition 'die of food deprivation' indicates a transition from a state of being alive to being dead, which is a fundamental change in vitality.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change of state from living to non-living."
+          }
+        ]
+      },
+      {
+        "verb_type": "condition",
+        "verb_property": "lack_of_food.n.01",
+        "reasoning": "A core semantic component of 'starve' is that the change in vitality is specifically caused by the condition of insufficient food or nutrition."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The event of dying from food deprivation is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something famish' describes a process happening to the subject, not an action performed by an agent with will."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "Dying from food deprivation inherently carries a negative sentiment due to the suffering and loss of life involved."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something famish' indicates that the 'Something' is undergoing the process of dying, which is generally not a volitional act."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The definition describes a definite occurrence of death."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "Dying is a single, terminal event, not a repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "starve.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "value": "lack_of_food.n.01",
+        "reasoning": "verb_property 'lack_of_food.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pomfret.n.01",
+            "description": "deep-bodied sooty-black pelagic spiny-finned fish of the northern Atlantic and northern Pacific; valued for food (gloss match)"
+          },
+          {
+            "synset_id": "inanition.n.02",
+            "description": "exhaustion resulting from lack of food (gloss match)"
+          },
+          {
+            "synset_id": "monotony.n.01",
+            "description": "the quality of wearisome constancy, routine, and lack of variety (gloss match)"
+          },
+          {
+            "synset_id": "starvation_acidosis.n.01",
+            "description": "acidosis in which the acidity results from lack of food which leads to fat catabolism which in turn releases acidic ketone bodies (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "starve.v.02",
+        "frame_id": 2,
+        "key": "verb_property",
+        "corrected_value": "inanition.n.02",
+        "corrected_reasoning": "Candidate 'inanition.n.02' ('exhaustion resulting from lack of food') is a perfect semantic and contextual replacement for the invalid 'lack_of_food.n.01' in the context of 'starve.v.02'."
+      }
+    ],
+    "participants": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "go_out.v.02",
+  "definition": "leave the house to go somewhere",
+  "frame_id": 0,
+  "frame_text": "Somebody go_out",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'leave the house to go somewhere' directly indicates a change in location or state of being (from inside to outside).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity initiating and performing the action of leaving."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "house.n.01",
+          "reasoning": "The verb 'go out' and its definition 'leave the house' explicitly name 'the house' as the origin or source of the departure."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "outdoors.n.01",
+          "reasoning": "The definition 'to go somewhere' implies an external, unspecified destination, which is the implicit goal of going out."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of 'going out' is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to leave."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'going out' is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody go_out' explicitly indicates a volitional agent ('Somebody') performing the action, as it requires conscious effort to leave."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or intention of an event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of leaving, though it can be repeated, the verb itself does not imply inherent repetition."
+    }
+  }
+}

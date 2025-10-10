@@ -1,0 +1,91 @@
+{
+  "original": {
+    "synset_id": "politicize.v.01",
+    "definition": "give a political character to",
+    "frame_id": 3,
+    "frame_text": "Something politicize something",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "political_character.n.01",
+        "reasoning": "The verb 'politicize' means to give a political character to something, indicating a transformation in its nature or focus.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Something' in the frame is the inanimate or non-agentive entity that causes the political transformation.",
+            "value_type": "entity.n.01"
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'something' in the frame is the entity that undergoes the change, acquiring a political character.",
+            "value_type": "entity.n.01"
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act or result of politicizing something is typically a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or change."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something politicize something' indicates the subject (the first 'Something') lacks volition, thus no agent's will is involved."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of politicizing can carry positive or negative connotations depending on the context, thus it is inherently neutral."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something politicize something' clearly specifies a non-volitional subject ('Something') performing the action, making it non-intentional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence or a completed action."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme 'politicize' describes a single event of imparting a political character, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "politicize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "value": "political_character.n.01",
+        "reasoning": "verb_property 'political_character.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "british_labour_party.n.01",
+            "description": "a political party formed in Great Britain in 1900; characterized by the promotion of labor's interests and formerly the socialization of key industries (gloss match)"
+          },
+          {
+            "synset_id": "low.n.02",
+            "description": "British political cartoonist (born in New Zealand) who created the character Colonel Blimp (1891-1963) (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "politicize.v.01",
+        "frame_id": 3,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate from the list or internal knowledge met the >99% confidence threshold for a perfect semantic and contextual replacement for 'political_character.n.01' as a verb property."
+      }
+    ],
+    "participants": []
+  }
+}

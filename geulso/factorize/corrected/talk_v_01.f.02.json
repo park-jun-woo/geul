@@ -1,0 +1,71 @@
+{
+  "synset_id": "talk.v.01",
+  "definition": "exchange thoughts; talk with",
+  "frame_id": 2,
+  "frame_text": "Somebody speak to somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The definition 'exchange thoughts' directly indicates that the verb describes an intentional act of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity initiating and performing the communication. Given the definition 'exchange thoughts', this 'Something' must be interpreted as a volitional agent capable of thought and speech."
+        },
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) is often used to introduce the other participant in the exchange (e.g., 'talk with somebody'), consistent with the 'talk with' part of the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "speech.n.01",
+      "reasoning": "The act of talking inherently involves the use of spoken language as the medium for communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of talking is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'exchange thoughts' implies a strong will and intention on the part of the agent, even when using the generic 'Something' in the frame, as it must be capable of thought."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb's inherent meaning does not specify a particular tense; it can occur in past, present, or future. Default to present."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The frame 'Something *is* talking PP' explicitly indicates the progressive aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'talk' itself does not inherently carry a level of politeness; this depends on the context and content of the communication."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of talking is semantically neutral; its sentiment depends on the specific context and subject matter."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'exchange thoughts' explicitly requires intentionality, making the action volitional despite the generic 'Something' in the frame, which must refer to a volitional entity in this context."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of communication."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Talking is typically a continuous activity comprising multiple utterances or turns, indicating a high degree of repetition rather than a single, discrete event."
+    }
+  }
+}

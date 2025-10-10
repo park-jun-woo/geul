@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "oblige.v.02",
+    "definition": "bind by an obligation; cause to be indebted",
+    "frame_id": 2,
+    "frame_text": "Somebody hold somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "obligation.n.01",
+        "reasoning": "The verb describes causing a change in another person's state, specifically placing them under an obligation or making them indebted.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The first 'Somebody' who initiates the action of imposing the obligation, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The second 'somebody' who undergoes the change of state, becoming obligated or indebted."
+          },
+          {
+            "semantic_role": "action.n.01",
+            "value_type": "infinitive_clause.n.01",
+            "reasoning": "The 'to INFINITIVE' clause specifies the action or task that the patient is obligated to perform."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of obliging someone is typically a directly observable event or an action known by direct experience."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning describes an event or state in a declarative manner."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of a volitional agent ('Somebody') in the frame indicates that the action is driven by will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of obliging itself is neutral; its positive or negative sentiment depends on the specific context and nature of the obligation."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody oblige somebody...' explicitly includes a volitional agent ('Somebody') performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of obliging, when stated, is presented as a definite occurrence or imposition."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single act of imposing an obligation, rather than a repetitive process."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "oblige.v.02",
+        "frame_id": 2,
+        "key": "value_type",
+        "value": "infinitive_clause.n.01",
+        "reasoning": "value_type 'infinitive_clause.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "oblige.v.02",
+        "frame_id": 2,
+        "key": "value_type",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found in the provided list. No perfect semantic and contextual replacement found in internal knowledge for 'infinitive_clause.n.01' with >99% confidence, as NLTK WordNet does not contain a specific synset for 'infinitive clause' or 'non-finite clause'."
+      }
+    ]
+  }
+}

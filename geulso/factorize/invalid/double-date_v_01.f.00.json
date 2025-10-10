@@ -1,0 +1,236 @@
+{
+  "original": {
+    "synset_id": "double-date.v.01",
+    "definition": "go out on a date with a partner and another couple",
+    "frame_id": 0,
+    "frame_text": "Somebody double-date",
+    "sememes": [
+      {
+        "verb_type": "activity",
+        "verb_property": "social_interaction.n.01",
+        "reasoning": "The verb 'double-date' describes engaging in a specific social event or interaction.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame is an active participant in the double-date, representing one individual from one of the couples involved."
+          },
+          {
+            "semantic_role": "co-participant.n.01",
+            "value_type": "partner.n.01",
+            "reasoning": "The definition 'go out on a date with a partner' inherently includes the agent's romantic partner as an essential co-participant in the activity."
+          },
+          {
+            "semantic_role": "co-participant.n.01",
+            "value_type": "other_couple.n.01",
+            "reasoning": "The 'double-date' explicitly means 'with another couple', making them essential co-participants in this specific type of social interaction."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "romantic_relationship.n.01",
+        "reasoning": "The core of 'dating' as per the definition 'go out on a date' and its hypernym 'date.v.01' establishes a romantic context for the interaction."
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "number_of_participants.n.01",
+        "value_type": "four_people",
+        "reasoning": "The 'double' in 'double-date' signifies the involvement of two couples, which totals four individuals, a crucial semantic component of this activity."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "A double-date is a directly observable social event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or event."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies intentional engagement in the social activity, indicating strong will."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of double-dating is neutral; its sentiment depends on the specific context and participants involved."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody double-date' (interpreted as 'Somebody double-dates') indicates a volitional agent performing the action, as dating is an intentional choice."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of the social activity."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme typically describes a single instance of engaging in a double-date, not an inherently repetitive action."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "social_interaction.n.01",
+        "reasoning": "verb_property 'social_interaction.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "group_dynamics.n.01",
+            "description": "the branch of social psychology that studies the psychodynamics of interaction in social groups (gloss match)"
+          },
+          {
+            "synset_id": "party.n.04",
+            "description": "an occasion on which people can assemble for social interaction and entertainment (gloss match)"
+          },
+          {
+            "synset_id": "garden_party.n.01",
+            "description": "a party of people assembled for social interaction out of doors (gloss match)"
+          },
+          {
+            "synset_id": "withdrawer.n.02",
+            "description": "an individualist who withdraws from social interaction (gloss match)"
+          }
+        ]
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "romantic_relationship.n.01",
+        "reasoning": "verb_property 'romantic_relationship.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "number_of_participants.n.01",
+        "reasoning": "verb_property 'number_of_participants.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "pyramid_scheme.n.01",
+            "description": "a fraudulent scheme in which people are recruited to make payments to the person who recruited them while expecting to receive payments from the persons they recruit; when the number of new recruits fails to sustain the hierarchical payment structure the scheme collapses with most of the participants losing the money they put in (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "co-participant.n.01",
+        "reasoning": "semantic_role 'co-participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "co-participant.n.01",
+        "reasoning": "semantic_role 'co-participant.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "value": "other_couple.n.01",
+        "reasoning": "value_type 'other_couple.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "country-dance.n.01",
+            "description": "a type of folk dance in which couples are arranged in sets or face one another in a line (gloss match)"
+          },
+          {
+            "synset_id": "longways.n.01",
+            "description": "country dancing performed with couples in two long lines facing each other (gloss match)"
+          },
+          {
+            "synset_id": "virginia_reel.n.01",
+            "description": "an American country dance which starts with the couples facing each other in two lines (gloss match)"
+          },
+          {
+            "synset_id": "couple.n.01",
+            "description": "a pair who associate with one another (gloss match)"
+          },
+          {
+            "synset_id": "marriage.n.02",
+            "description": "two people who are married to each other (gloss match)"
+          },
+          {
+            "synset_id": "surrogate_mother.n.01",
+            "description": "a woman who bears a child for a couple where the wife is unable to do so (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "socializing.n.01",
+        "corrected_reasoning": "LLM suggestion: 'socializing.n.01' is a perfect semantic fit for 'social_interaction.n.01'."
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "love_affair.n.01",
+        "corrected_reasoning": "LLM suggestion: 'love_affair.n.01' is a perfect semantic fit for 'romantic_relationship.n.01'."
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found, and no perfect LLM suggestion for the abstract concept 'number of participants' as a synset."
+      }
+    ],
+    "participants": [
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "associate.n.01",
+        "corrected_reasoning": "LLM suggestion: 'associate.n.01' is a perfect semantic fit for 'co-participant'."
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "associate.n.01",
+        "corrected_reasoning": "LLM suggestion: 'associate.n.01' is a perfect semantic fit for 'co-participant'."
+      },
+      {
+        "synset_id": "double-date.v.01",
+        "frame_id": 0,
+        "key": "value_type",
+        "corrected_value": "couple.n.01",
+        "corrected_reasoning": "Candidate 'couple.n.01' is a perfect semantic fit for 'other_couple.n.01'."
+      }
+    ]
+  }
+}

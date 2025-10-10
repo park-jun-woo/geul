@@ -1,0 +1,90 @@
+{
+  "original": {
+    "synset_id": "unionize.v.02",
+    "definition": "form or join a union",
+    "frame_id": 1,
+    "frame_text": "Somebody organize",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "group_membership.n.01",
+        "reasoning": "The definition 'form or join a union' describes a transition into or establishment of a state of group membership.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the frame who initiates or performs the action of forming or joining."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "union.n.01",
+            "reasoning": "The 'union' is the entity being formed or joined, which is the direct object of the implicit action in the definition."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of unionizing is a directly observable event or process."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will and intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of unionizing is neutral in sentiment; its positive or negative connotations depend on context."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody organize' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The act of unionizing is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "While the process of organizing can be iterative, the specific act of 'forming or joining a union' is generally considered a singular event, achieving a new state."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "unionize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "value": "group_membership.n.01",
+        "reasoning": "verb_property 'group_membership.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "membership.n.01",
+            "description": "the body of members of an organization or group (gloss match)"
+          },
+          {
+            "synset_id": "pledge.n.02",
+            "description": "someone accepted for membership but not yet fully admitted to the group (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "unionize.v.02",
+        "frame_id": 1,
+        "key": "verb_property",
+        "corrected_value": "membership.n.01",
+        "corrected_reasoning": "Candidate 'membership.n.01' perfectly captures the concept of belonging to a group or organization, which is directly relevant to the verb 'unionize.v.02'."
+      }
+    ],
+    "participants": []
+  }
+}

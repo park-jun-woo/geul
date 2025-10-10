@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "eat.v.04",
+    "definition": "worry or cause anxiety in a persistent way",
+    "frame_id": 0,
+    "frame_text": "Something eat somebody",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "mental_state.n.01",
+        "reasoning": "The verb describes causing a change in somebody's mental state from a calm or untroubled state to one of anxiety or worry.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the frame that initiates and causes the change in mental state of another."
+          },
+          {
+            "semantic_role": "experiencer.n.01",
+            "reasoning": "The 'somebody' in the frame who undergoes the change of mental state and experiences anxiety or worry."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of causing worry can be directly observed through its effects or experienced internally."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event or state of affairs."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The 'Something' acting as the agent in the frame is non-volitional, thus lacking will or intention."
+      },
+      "Polarity": {
+        "value": -1.0,
+        "reasoning": "The definition 'worry or cause anxiety' inherently carries a negative sentiment."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something ----s somebody' indicates that the action is performed by a non-volitional entity ('Something'), making the action non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of causing anxiety."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "The phrase 'in a persistent way' from the definition implies that the action occurs with high repetition or continuously over time."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "eat.v.04",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "value": "experiencer.n.01",
+        "reasoning": "semantic_role 'experiencer.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "eat.v.04",
+        "frame_id": 0,
+        "key": "semantic_role",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No candidate provided. WordNet does not contain a synset that is a perfect semantic fit for the semantic role 'experiencer'."
+      }
+    ]
+  }
+}

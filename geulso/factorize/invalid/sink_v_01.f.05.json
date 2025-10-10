@@ -1,0 +1,97 @@
+{
+  "original": {
+    "synset_id": "sink.v.01",
+    "definition": "fall or descend to a lower place or level",
+    "frame_id": 5,
+    "frame_text": "Something sink",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "vertical_position.n.01",
+        "reasoning": "The definition 'fall or descend to a lower place or level' describes a change in the vertical position of an entity.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in vertical position."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "Sinking is typically a directly observable event."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something sink' indicates a non-agentive subject, so there is no implied will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of sinking itself is neutral; any positive or negative sentiment depends on the context or the object sinking."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something sink' indicates a non-volitional subject ('Something') undergoing a process, not intentionally performing an action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite occurrence of descending."
+      },
+      "Iterativity": {
+        "value": 1,
+        "reasoning": "The lexeme describes a single, continuous event of descending, rather than a series of repeated discrete actions."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "sink.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "value": "vertical_position.n.01",
+        "reasoning": "verb_property 'vertical_position.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "leaning.n.04",
+            "description": "the act of deviating from a vertical position (gloss match)"
+          },
+          {
+            "synset_id": "order_arms.n.01",
+            "description": "a position in the manual of arms; the rifle is held vertically on the right side with the butt on the ground; often used as a command (gloss match)"
+          },
+          {
+            "synset_id": "floor.n.02",
+            "description": "a structure consisting of a room or set of rooms at a single position along a vertical scale (gloss match)"
+          },
+          {
+            "synset_id": "kickstand.n.01",
+            "description": "a swiveling metal rod attached to a bicycle or motorcycle or other two-wheeled vehicle; the rod lies horizontally when not in use but can be kicked into a vertical position as a support to hold the vehicle upright when it is not being ridden (gloss match)"
+          },
+          {
+            "synset_id": "tilt-top_table.n.01",
+            "description": "a pedestal table whose top is hinged so that it can be tilted to a vertical position (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "sink.v.01",
+        "frame_id": 5,
+        "key": "verb_property",
+        "corrected_value": "uprightness.n.01",
+        "corrected_reasoning": "LLM suggestion: 'uprightness.n.01' means 'the state of being in a vertical position', which is a perfect semantic and contextual fit for the invalid 'vertical_position.n.01'."
+      }
+    ],
+    "participants": []
+  }
+}

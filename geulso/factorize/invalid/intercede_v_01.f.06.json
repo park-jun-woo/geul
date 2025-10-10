@@ -1,0 +1,85 @@
+{
+  "original": {
+    "synset_id": "intercede.v.01",
+    "definition": "act between parties with a view to reconciling differences",
+    "frame_id": 6,
+    "frame_text": "Somebody liaise",
+    "sememes": [
+      {
+        "verb_type": "process",
+        "verb_property": "reconciliation.n.01",
+        "reasoning": "The verb describes an ongoing action ('act between parties') aimed at achieving a state of reconciliation ('reconciling differences').",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who performs the act of interceding, as specified by the verb frame."
+          },
+          {
+            "semantic_role": "involved_parties.n.01",
+            "reasoning": "Implicit from the definition 'act between parties', these are the entities whose differences are being reconciled through the agent's actions."
+          }
+        ]
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of interceding is typically a directly observable action."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an action or process."
+      },
+      "Modality": {
+        "value": 1.0,
+        "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention."
+      },
+      "Polarity": {
+        "value": 1.0,
+        "reasoning": "The act of reconciling differences is inherently positive in sentiment."
+      },
+      "Volitionality": {
+        "value": 1.0,
+        "reasoning": "The frame 'Somebody liaise' clearly indicates a volitional agent performing the action."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The action of interceding is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Interceding or liaising typically involves a series of interactions or steps over a period, suggesting high repetition rather than a single event."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "intercede.v.01",
+        "frame_id": 6,
+        "key": "semantic_role",
+        "value": "involved_parties.n.01",
+        "reasoning": "semantic_role 'involved_parties.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "direct_trust.n.01",
+            "description": "a trust created by the free and deliberate act of the parties involved (usually on the basis of written documentation) (gloss match)"
+          }
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "sememes": [],
+    "participants": [
+      {
+        "synset_id": "involved_parties.n.01",
+        "frame_id": 6,
+        "key": "semantic_role",
+        "corrected_value": "disputant.n.01",
+        "corrected_reasoning": "LLM suggestion: 'disputant.n.01' semantically matches 'involved parties' in the context of intercession."
+      }
+    ]
+  }
+}

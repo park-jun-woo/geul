@@ -1,0 +1,58 @@
+{
+  "synset_id": "send_around.v.01",
+  "definition": "forward to others",
+  "frame_id": 1,
+  "frame_text": "Somebody send_around something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "transmission.n.02",
+      "reasoning": "The verb 'send around' describes the act of causing something to move or be passed to multiple recipients, which is a change in its location or accessibility, characterized as a form of transmission.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' in the frame acts as the entity that initiates or causes the transmission of the item."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the transmission; it is forwarded or distributed."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "plural.n.01",
+          "reasoning": "The definition 'forward to others' implies multiple unspecified recipients or locations, which function as destinations for the transmitted item."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sending something around is a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies an inanimate or non-sentient agent, therefore lacking an inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sending around is neutral; its positive or negative connotation depends on the context or the item being sent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent 'Something' indicates a non-volitional entity performing the action, as it typically lacks intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'send around' suggests distribution to multiple recipients or locations, implying either a single action with multiple facets (distributing to many) or a repeated action over time. This indicates a high level of implied repetition or widespread effect."
+    }
+  }
+}

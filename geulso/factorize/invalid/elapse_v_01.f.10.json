@@ -1,0 +1,92 @@
+{
+  "original": {
+    "synset_id": "elapse.v.01",
+    "definition": "pass by",
+    "frame_id": 10,
+    "frame_text": "Something is slide_bying PP",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "temporal_state.n.01",
+        "reasoning": "The verb 'elapse' describes the progression or 'passing by' of time, which is a change in its temporal state.",
+        "participants": [
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "time.n.01",
+            "reasoning": "The 'Something' in the frame refers to time or a specific period of time that undergoes the process of passing."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "manner.n.01",
+        "value_type": "gradual.a.01",
+        "reasoning": "The specific frame 'slide_bying' suggests a smooth, gradual, and often imperceptible manner of time's progression."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The passage of time is a directly experienced phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating a fact about time's progression."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "Time is an abstract concept and does not possess will or intention."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of time elapsing is inherently neutral; its sentiment depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The subject 'Something' refers to time, which is non-agentive and non-volitional."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The verb describes a definite and certain aspect of reality."
+      },
+      "Iterativity": {
+        "value": "MAX",
+        "reasoning": "The passage of time is a continuous and unending process, hence infinite repetition."
+      },
+      "Aspect": {
+        "value": 1,
+        "reasoning": "The 'is slide_bying' in the verb frame explicitly indicates a progressive aspect."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "elapse.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "value": "temporal_state.n.01",
+        "reasoning": "verb_property 'temporal_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "elapse.v.01",
+        "frame_id": 10,
+        "key": "verb_property",
+        "corrected_value": "state.n.01",
+        "corrected_reasoning": "LLM suggestion: 'state.n.01' perfectly captures the concept of a condition existing at a particular point in time, aligning with 'temporal state'."
+      }
+    ],
+    "participants": []
+  }
+}

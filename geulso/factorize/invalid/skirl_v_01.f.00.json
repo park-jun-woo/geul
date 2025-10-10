@@ -1,0 +1,127 @@
+{
+  "original": {
+    "synset_id": "skirl.v.01",
+    "definition": "make a shrill, wailing sound",
+    "frame_id": 0,
+    "frame_text": "Something skirl",
+    "sememes": [
+      {
+        "verb_type": "change",
+        "verb_property": "auditory_state.n.01",
+        "reasoning": "The definition 'make a sound' describes an action that causes a change in the auditory environment.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Something' in the verb frame is the entity that causes the sound to be produced."
+          }
+        ]
+      },
+      {
+        "verb_type": "property",
+        "verb_property": "sound_quality.n.01",
+        "value": "shrill and wailing",
+        "reasoning": "The definition explicitly specifies the distinctive qualities of the sound produced ('shrill, wailing')."
+      }
+    ],
+    "qualifiers": {
+      "Evidentiality": {
+        "value": 0.0,
+        "reasoning": "The act of making a sound is a directly observable phenomenon."
+      },
+      "Mood": {
+        "value": 0.0,
+        "reasoning": "The verb's core meaning is declarative, stating an event."
+      },
+      "Modality": {
+        "value": 0.0,
+        "reasoning": "The frame 'Something skirl' lacks an agent capable of will, indicating no volition."
+      },
+      "Polarity": {
+        "value": 0.0,
+        "reasoning": "The act of 'skirling' is neutral; its emotional impact depends on context."
+      },
+      "Volitionality": {
+        "value": -1.0,
+        "reasoning": "The frame 'Something skirl' indicates a non-volitional subject ('Something') making the sound, implying lack of intent."
+      },
+      "Confidence": {
+        "value": 1.0,
+        "reasoning": "The event of a sound being made is described as a definite occurrence."
+      },
+      "Iterativity": {
+        "value": "MAX-1",
+        "reasoning": "Skirling typically refers to a continuous, sustained, or highly repetitive sound, characteristic of instruments like bagpipes."
+      }
+    }
+  },
+  "errors": {
+    "sememes": [
+      {
+        "synset_id": "skirl.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "auditory_state.n.01",
+        "reasoning": "verb_property 'auditory_state.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "synset_id": "skirl.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "value": "sound_quality.n.01",
+        "reasoning": "verb_property 'sound_quality.n.01' is not a valid synset in NLTK.",
+        "candidates": [
+          {
+            "synset_id": "stop.n.08",
+            "description": "(music) a knob on an organ that is pulled to change the sound quality from the organ pipes (gloss match)"
+          },
+          {
+            "synset_id": "voice.n.01",
+            "description": "the distinctive quality or pitch or condition of a person's speech (gloss match)"
+          },
+          {
+            "synset_id": "resonance.n.05",
+            "description": "the quality imparted to voiced speech sounds by the action of the resonating chambers of the throat and mouth and nasal cavities (gloss match)"
+          },
+          {
+            "synset_id": "plangency.n.01",
+            "description": "having the character of a loud deep sound; the quality of being resonant (gloss match)"
+          },
+          {
+            "synset_id": "noise.n.02",
+            "description": "the auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience (gloss match)"
+          },
+          {
+            "synset_id": "projection.n.07",
+            "description": "the acoustic phenomenon that gives sound a penetrating quality (gloss match)"
+          }
+        ]
+      }
+    ],
+    "participants": []
+  },
+  "corrections": {
+    "sememes": [
+      {
+        "synset_id": "skirl.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "NO_CANDIDATE",
+        "corrected_reasoning": "No suitable candidate found and no perfect LLM suggestion could be identified with high confidence."
+      },
+      {
+        "synset_id": "skirl.v.01",
+        "frame_id": 0,
+        "key": "verb_property",
+        "corrected_value": "timbre.n.01",
+        "corrected_reasoning": "LLM suggestion: 'timbre.n.01' perfectly captures the concept of 'sound_quality', referring to the distinctive property of a sound."
+      }
+    ],
+    "participants": []
+  }
+}
