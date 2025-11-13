@@ -133,11 +133,11 @@ SEGLAM 아키텍처는 **GDBMS(GEUL Database Management System)**를 중앙 허�
 ```mermaid
 graph TD
     %% --- 전체 레이아웃 ---
-    subgraph cluster_seglam [SEGLAM 아키텍처 순환도]
+    subgraph cluster_seglam ["SEGLAM 아키텍처 순환도"]
         direction TB
 
         %% --- 5.1. 의식적 흐름 (실시간 추론 경로) ---
-        subgraph cluster_conscious [5.1. 의식적 흐름 (실시간 추론 경로)]
+        subgraph cluster_conscious ["5.1. 의식적 흐름 (실시간 추론 경로)"]
             direction TB
             style cluster_conscious fill:#f0f8ff,stroke:#4169e1,stroke-width:1.5px
 
@@ -163,7 +163,7 @@ graph TD
         end
 
         %% --- 5.2. 무의식적 흐름 (자기 성찰 및 개선) ---
-        subgraph cluster_unconscious [5.2. 무의식적 흐름 (자기 성찰 및 개선)]
+        subgraph cluster_unconscious ["5.2. 무의식적 흐름 (자기 성찰 및 개선)"]
             direction TB
             style cluster_unconscious fill:#f0fff0,stroke:#2e8b57,stroke-width:1.5px
 
