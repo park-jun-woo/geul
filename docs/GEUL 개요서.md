@@ -141,7 +141,8 @@ graph TD
             direction TB
             style cluster_conscious fill:#f0f8ff,stroke:#4169e1,stroke-width:1.5px
 
-            user_in(사용자<br/>(자연어)) -->|1. 자연어 입력| encoder[GEUL-Encoder]
+            %% '()' 대신 '[]'와 '""'를 사용하여 레이블의 특수문자 오류 수정
+            user_in["사용자<br/>(자연어)"] -->|1. 자연어 입력| encoder[GEUL-Encoder]
             encoder -->|2. 요청 GEUL Stream| simsang[심상관리 GPT]
             
             geul_c[GEUL-C (캐시)] -.->|3. 사용자 GEUL Stream| simsang
@@ -149,7 +150,7 @@ graph TD
 
             simsang -->|4. [요청 + 심상] Stream| query[쿼리 생성 GPT]
             inference[추론 GPT] -->|7. 답변 GEUL Stream| decoder[GEUL-Decoder]
-            decoder -->|8. 자연어 응답| user_out(사용자<br/>(자연어))
+            decoder -->|8. 자연어 응답| user_out["사용자<br/>(자연어)"]
 
             %% 노드 스타일
             style user_in fill:#lightgrey,shape:ellipse
@@ -167,7 +168,8 @@ graph TD
             direction TB
             style cluster_unconscious fill:#f0fff0,stroke:#2e8b57,stroke-width:1.5px
 
-            external(외부 자연어 정보) -->|2a. [수집] 외부 정보| agent[GEUL-Agent (글아)]
+            %% '()' 대신 '[]'와 '""'를 사용하여 레이블의 특수문자 오류 수정
+            external["외부 자연어 정보"] -->|2a. [수집] 외부 정보| agent[GEUL-Agent (글아)]
             
             %% 노드 스타일
             style external shape:note,fill:#yellow
