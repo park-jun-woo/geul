@@ -132,68 +132,65 @@ SEGLAM 아키텍처는 **GDBMS(GEUL Database Management System)**를 중앙 허�
 
 ```mermaid
 graph TD
-    %% --- 전체 레이아웃 ---
+    %% 전체 레이아웃
     subgraph cluster_seglam ["SEGLAM 아키텍처 순환도"]
         direction TB
 
-        %% --- 5.1. 의식적 흐름 (실시간 추론 경로) ---
-        subgraph cluster_conscious ["5.1. 의식적 흐름 (실시간 추론 경로)"]
+        %% 5.1. 의식적 흐름 - 실시간 추론 경로
+        subgraph cluster_conscious ["5.1. 의식적 흐름 - 실시간 추론 경로"]
             direction TB
             style cluster_conscious fill:#f0f8ff,stroke:#4169e1,stroke-width:1.5px
 
-            %% '()' 대신 '[]'와 '""'를 사용하여 레이블의 특수문자 오류 수정
-            user_in["사용자<br/>(자연어)"] -->|1. 자연어 입력| encoder[GEUL-Encoder]
-            encoder -->|2. 요청 GEUL Stream| simsang[심상관리 GPT]
+            user_in["사용자 입력<br/>자연어"] -->|"1. 자연어 입력"| encoder["GEUL-Encoder"]
+            encoder -->|"2. 요청 GEUL Stream"| simsang["심상관리 GPT"]
             
-            geul_c[GEUL-C (캐시)] -.->|3. 사용자 GEUL Stream| simsang
-            simsang -.->|캐시 업데이트| geul_c
+            geul_c["GEUL-C<br/>캐시"] -.->|"3. 사용자 GEUL Stream"| simsang
+            simsang -.->|"캐시 업데이트"| geul_c
 
-            simsang -->|4. [요청 + 심상] Stream| query[쿼리 생성 GPT]
-            inference[추론 GPT] -->|7. 답변 GEUL Stream| decoder[GEUL-Decoder]
-            decoder -->|8. 자연어 응답| user_out["사용자<br/>(자연어)"]
+            simsang -->|"4. 요청+심상 Stream"| query["쿼리 생성 GPT"]
+            inference["추론 GPT"] -->|"7. 답변 GEUL Stream"| decoder["GEUL-Decoder"]
+            decoder -->|"8. 자연어 응답"| user_out["사용자 출력<br/>자연어"]
 
             %% 노드 스타일
-            style user_in fill:#lightgrey,shape:ellipse
-            style user_out fill:#lightgrey,shape:ellipse
-            style encoder fill:#lightblue
-            style simsang fill:#lightblue
-            style query fill:#lightblue
-            style inference fill:#lightblue
-            style decoder fill:#lightblue
-            style geul_c shape:cylinder,fill:#mintcream
+            style user_in fill:#e8e8e8,stroke:#666
+            style user_out fill:#e8e8e8,stroke:#666
+            style encoder fill:#add8e6,stroke:#4169e1
+            style simsang fill:#add8e6,stroke:#4169e1
+            style query fill:#add8e6,stroke:#4169e1
+            style inference fill:#add8e6,stroke:#4169e1
+            style decoder fill:#add8e6,stroke:#4169e1
+            style geul_c fill:#f0fff0,stroke:#2e8b57
         end
 
-        %% --- 5.2. 무의식적 흐름 (자기 성찰 및 개선) ---
-        subgraph cluster_unconscious ["5.2. 무의식적 흐름 (자기 성찰 및 개선)"]
+        %% 5.2. 무의식적 흐름 - 자기 성찰 및 개선
+        subgraph cluster_unconscious ["5.2. 무의식적 흐름 - 자기 성찰 및 개선"]
             direction TB
             style cluster_unconscious fill:#f0fff0,stroke:#2e8b57,stroke-width:1.5px
 
-            %% '()' 대신 '[]'와 '""'를 사용하여 레이블의 특수문자 오류 수정
-            external["외부 자연어 정보"] -->|2a. [수집] 외부 정보| agent[GEUL-Agent (글아)]
+            external["외부 자연어 정보<br/>뉴스, 문서 등"] -->|"2a. 외부 정보 수집"| agent["GEUL-Agent<br/>글아"]
             
             %% 노드 스타일
-            style external shape:note,fill:#yellow
-            style agent fill:#lightgreen
+            style external fill:#fffacd,stroke:#daa520
+            style agent fill:#90ee90,stroke:#2e8b57
         end
 
-        %% --- 중앙 GDBMS ---
-        gdbms[GDBMS<br/>(중앙 지식베이스)]
+        %% 중앙 GDBMS
+        gdbms[("GDBMS<br/>중앙 지식베이스")]
 
-        %% --- 클러스터 간 연결 ---
+        %% 클러스터 간 연결
         
-        %% 5.1. 의식적 흐름 <-> GDBMS
-        query -->|5. 쿼리 GEUL Stream| gdbms
-        gdbms -->|6. [정보 + 제어] Stream| inference
+        %% 의식적 흐름과 GDBMS 연결
+        query -->|"5. 쿼리 GEUL Stream"| gdbms
+        gdbms -->|"6. 정보+제어 Stream"| inference
 
-        %% 5.2. 무의식적 흐름 <-> GDBMS 및 추론
-        inference -.->|1. [기록] 답변 Stream ('경험')| gdbms
-        agent -.->|2b. [수집] 정보 Stream| gdbms
-        gdbms -.->|3. [성찰] GDBMS 데이터 분석| agent
-        agent -.->|4. [개선] 지식/절차/프로필 업데이트| gdbms
+        %% 무의식적 흐름과 GDBMS 연결
+        inference -.->|"1. 기록: 답변 Stream"| gdbms
+        agent -.->|"2b. 수집: 정보 Stream"| gdbms
+        gdbms -.->|"3. 성찰: 데이터 분석"| agent
+        agent -.->|"4. 개선: 지식/절차 업데이트"| gdbms
 
-        %% 스타일
-        style gdbms shape:database,fill:#gold,height:80px,fontsize:14px
-        linkStyle 5,6,7,8 color:darkgreen,stroke:darkgreen,stroke-width:2px,stroke-dasharray: 5 5
+        %% GDBMS 스타일
+        style gdbms fill:#ffd700,stroke:#ff8c00,stroke-width:3px
     end
 ```
 
