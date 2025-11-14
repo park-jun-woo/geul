@@ -1,0 +1,57 @@
+{
+  "synset_id": "leave.v.04",
+  "definition": "leave unchanged or undisturbed or refrain from taking",
+  "frame_id": 14,
+  "frame_text": "Something leave_alone somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "preservation.n.01",
+      "value_type": "integrity.n.01",
+      "reasoning": "The verb describes an action (or inaction) that causes a participant to remain in a state of preserved integrity (unchanged or undisturbed), reflecting the definition 'leave unchanged or undisturbed or refrain from taking'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that is responsible for the non-interference or for allowing the state to persist, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose integrity or state is preserved (left unchanged or undisturbed)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of leaving something unchanged or undisturbed is typically a directly observed or understood event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of non-interference."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The verb frame's subject is 'Something', which, according to the rules, implies no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Leaving something unchanged or undisturbed is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame's subject 'Something' indicates a non-volitional or neutral subject, making the action non-volitional as per the rules."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement of leaving something alone implies a definite occurrence of non-interference."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of deciding not to interfere, or allowing a state to persist, not a repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

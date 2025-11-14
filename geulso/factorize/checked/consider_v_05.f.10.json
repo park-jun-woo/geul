@@ -1,0 +1,63 @@
+{
+  "synset_id": "consider.v.05",
+  "definition": "think about carefully; weigh",
+  "frame_id": 10,
+  "frame_text": "Somebody deliberate that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The verb describes an active mental process of thinking and evaluation, as indicated by 'think about carefully; weigh'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cognitive process of deliberation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the subject or content of the deliberation, typically a proposition or an idea."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "careful.a.01",
+      "reasoning": "The definition explicitly includes 'carefully' and 'weigh', indicating a thorough and precise manner of thinking inherent to the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Deliberation is a direct cognitive experience for the subject or can be directly observed in its manifestation (e.g., in discussion)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of deliberating implies the agent's strong will and intention to engage in careful thought."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of deliberation itself is neutral; the outcome or subject of deliberation might carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deliberate' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of deliberation is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of engaging in the process of deliberation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

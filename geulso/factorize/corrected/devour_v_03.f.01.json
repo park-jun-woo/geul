@@ -1,0 +1,59 @@
+{
+  "synset_id": "devour.v.03",
+  "definition": "eat immoderately",
+  "frame_id": 1,
+  "frame_text": "Something devour somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb 'devour' describes the action of consuming something, which results in a change in the patient's state of existence or integrity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' specified in the verb frame is the entity that performs the act of consuming."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity that is consumed or whose integrity is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "immoderate.a.01",
+      "reasoning": "The definition 'eat immoderately' explicitly indicates that the manner of consumption is excessive or unrestrained, which is a core semantic component of 'devour'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of devouring is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary use is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is a generic 'Something'. According to the specification, actions by 'Something' are likely non-volitional or neutral regarding will, thus 0.0 (neutral) is assigned."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'devour' itself is neutral, describing an action. Any negative sentiment arises from the context or the patient's perspective, not the inherent meaning of the verb."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame's agent is 'Something'. The rule states that if the frame contains 'Something', volitionality is likely non-volitional or neutral. As 'devour' is an active process, 'neutral' (0.0) is chosen to allow for potential animal agency without assuming human-like volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of consumption."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Devouring implies a continuous, highly repetitive action of taking in food over a period, rather than a single, discrete event, similar to 'running'."
+    }
+  }
+}

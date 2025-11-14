@@ -1,0 +1,65 @@
+{
+  "synset_id": "report_out.v.01",
+  "definition": "return a bill after consideration and revision to a legislative body",
+  "frame_id": 1,
+  "frame_text": "Something report_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'return a bill...to a legislative body' describes a transfer of control or status of the bill from one entity to another, which is a change in possession or jurisdiction. The hypernym 'submit' reinforces this concept.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame (e.g., a committee) acts as the entity initiating the formal procedure of returning the bill."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "bill.n.01",
+          "reasoning": "The 'something' that is being returned or submitted, which is a legislative bill."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "legislative_body.n.01",
+          "reasoning": "The entity to which the bill is returned, as explicitly stated by 'to a legislative body' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "after consideration and revision",
+      "reasoning": "The phrase 'after consideration and revision' describes a crucial procedural manner or precondition inherent to the act of reporting out a bill in a legislative context."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Legislative actions like 'reporting out' are typically public and directly observable or documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a legislative action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' agent, the act of 'reporting out a bill after consideration and revision' implies a deliberate and intentional decision by a responsible entity (e.g., a committee), indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reporting out a bill is a neutral procedural step; its sentiment depends on the specific bill and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Although the frame uses 'Something', the definition 'after consideration and revision' explicitly implies a volitional and deliberate act by the acting body (e.g., a committee or similar entity)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reporting out is described as a definite event in a formal context."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This refers to a single, specific legislative event for a particular bill, rather than a repetitive action."
+    }
+  }
+}

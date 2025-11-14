@@ -1,0 +1,58 @@
+{
+  "synset_id": "crepitate.v.01",
+  "definition": "make a crackling sound",
+  "frame_id": 0,
+  "frame_text": "Something crackle",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.02",
+      "reasoning": "The verb describes the production of a sound, which is an event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that produces the sound."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "crackling",
+      "reasoning": "The definition specifies a 'crackling' sound, which is a distinctive manner or quality of the sound produced by the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a sound is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something crepitate' indicates an inanimate subject, implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a sound is inherently neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something crepitate' describes an event happening to a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of sound production."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'crackling' sound inherently implies a series of rapid, short, successive sounds, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

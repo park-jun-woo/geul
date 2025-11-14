@@ -1,0 +1,59 @@
+{
+  "synset_id": "buffet.v.01",
+  "definition": "strike against forcefully",
+  "frame_id": 7,
+  "frame_text": "Something batter something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "impact.n.01",
+      "reasoning": "The definition 'strike against forcefully' describes an action that causes a physical change or effect through forceful contact, which is an impact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that initiates or causes the striking action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that receives the forceful impact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The word 'forcefully' in the definition explicitly describes the manner or intensity of the striking action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of striking or buffeting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', indicating a non-volitional entity without will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of buffeting is neutral; its sentiment depends on the context (e.g., wind buffeting a ship vs. a person being buffeted)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something batter something' (interpreted as 'Something buffet something') indicates a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of striking."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'buffet' often implies repeated or continuous forceful striking, suggesting high repetition rather than a single event. The use of 'batter' in the frame also hints at repeated action."
+    }
+  }
+}

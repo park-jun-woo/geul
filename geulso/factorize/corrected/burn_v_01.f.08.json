@@ -1,0 +1,65 @@
+{
+  "synset_id": "burn.v.01",
+  "definition": "destroy by fire",
+  "frame_id": 8,
+  "frame_text": "Something burn_down somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "destruction.n.01",
+      "reasoning": "The definition 'destroy by fire' clearly indicates a change of state for the patient from existing to being destroyed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the destruction, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes complete destruction by fire."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "instrument.n.01",
+      "value_type": "fire.n.01",
+      "reasoning": "The core meaning of 'burn' inherently specifies that fire is the instrument or means of destruction."
+    },
+    {
+      "verb_type": "degree",
+      "verb_property": "completeness.n.01",
+      "value_type": "absolute.a.01",
+      "reasoning": "The particle 'down' in 'burn down' emphasizes the totality or completeness of the destruction, reducing something entirely."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of burning down is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no will or intention behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of destroying 'somebody' by fire is inherently a negative event."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something burn_down somebody' indicates that the action is performed by a non-agentive 'Something', making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of destruction."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'burn down' describes a single, complete event of destruction, not a repetitive action."
+    }
+  }
+}

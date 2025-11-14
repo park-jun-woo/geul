@@ -1,0 +1,58 @@
+{
+  "synset_id": "brick_in.v.01",
+  "definition": "wall up with brick",
+  "frame_id": 11,
+  "frame_text": "Something brick_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "enclosure.n.01",
+      "reasoning": "The verb 'brick in' describes an action that causes a change in the state of the patient from not being enclosed to being enclosed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent causing the enclosure."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change of state to become enclosed."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "value_type": "brick.n.01",
+      "reasoning": "The 'brick' in 'brick_in' specifies the material or instrument used to perform the act of walling up, which is a core part of the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bricking something in is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something brick_up something' implies an inanimate or non-volitional agent, therefore lacking an inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bricking in is generally neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent in the frame is 'Something', indicating a non-volitional or inanimate entity causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed or completed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'brick in' describes a single, completed act of enclosing something, even if the process involves repetitive actions."
+    }
+  }
+}

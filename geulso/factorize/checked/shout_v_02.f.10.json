@@ -1,0 +1,64 @@
+{
+  "synset_id": "shout.v.02",
+  "definition": "utter a sudden loud cry",
+  "frame_id": 10,
+  "frame_text": "Something cry",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "vocalization.n.01",
+      "reasoning": "The verb describes the event of producing an audible vocal sound, specifically a 'cry'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that produces the vocalization."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition specifies 'loud cry', indicating a high intensity of the vocalization."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "onset.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition includes 'sudden', indicating an abrupt beginning of the vocalization event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The uttering of a cry is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something cry' indicates a non-agentive subject, implying the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of uttering a cry is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something cry' refers to an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional or involuntary."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of uttering a cry is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The phrase 'a sudden loud cry' implies a single, discrete instance of vocalization, not continuous repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

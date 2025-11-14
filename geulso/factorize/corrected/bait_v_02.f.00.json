@@ -1,0 +1,64 @@
+{
+  "synset_id": "bait.v.02",
+  "definition": "lure, entice, or entrap with bait",
+  "frame_id": 0,
+  "frame_text": "Somebody bait somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.02",
+      "reasoning": "The verb 'bait' describes an action where an agent causes a patient to be lured or entrapped, thereby changing their state from being autonomous to being influenced or controlled. This represents a change in their state of control.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of baiting, aiming to control or influence another person."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the baiting and undergoes the change in state (from free to influenced/controlled)."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "bait.n.01",
+          "reasoning": "The definition explicitly mentions 'with bait', indicating that 'bait' is the primary instrument used to lure, entice, or entrap the patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "deceptive.a.01",
+      "reasoning": "The terms 'lure', 'entice', and especially 'entrap' in the definition imply that the action of baiting involves a deceptive or manipulative manner to achieve the agent's goal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of baiting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with clear intention and will to achieve their goal."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition includes 'entrap' and 'lure/entice' often carry a connotation of trickery or manipulation for one's own gain, typically leading to a negative outcome for the patient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of baiting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of baiting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of luring or entrapping someone."
+    }
+  }
+}

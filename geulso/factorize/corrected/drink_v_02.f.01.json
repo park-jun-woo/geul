@@ -1,0 +1,54 @@
+{
+  "synset_id": "drink.v.02",
+  "definition": "consume alcohol",
+  "frame_id": 1,
+  "frame_text": "Somebody drink",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The definition 'consume alcohol' describes the process of taking a substance into the body, which is a change in its location and state (from outside to inside the body), thus relating to ingestion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who actively performs the action of consuming."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "alcohol.n.01",
+          "reasoning": "The specific substance 'alcohol' that is consumed, as defined by the verb's meaning for this synset."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of drinking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of consuming alcohol is semantically neutral; any positive or negative sentiment arises from context or specific effects, not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody drink' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of drinking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme in this frame typically describes a single, completed event of consuming alcohol, not necessarily a habitual or continuous action."
+    }
+  }
+}

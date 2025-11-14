@@ -1,0 +1,76 @@
+{
+  "synset_id": "drag.v.05",
+  "definition": "to lag or linger behind",
+  "frame_id": 22,
+  "frame_text": "Something is trailing PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'drag' in this sense, defined as 'to lag or linger behind', describes an ongoing act of physical movement or being carried along.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' specified by the verb frame is the entity undergoing the movement or being in the state of trailing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "relative_position.n.01",
+      "value_type": "lagging.a.01",
+      "reasoning": "A core semantic component of 'trailing' (to lag or linger behind) is the specific spatial characteristic of being positioned to the rear of, or failing to keep up with, a reference point. 'lagging.a.01' precisely captures this meaning.",
+      "participants": [
+        {
+          "semantic_role": "reference_point.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the entity or location that serves as the reference point relative to which 'Something' is trailing behind."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of trailing, when referring to physical movement or position, is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing process or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is trailing PP' suggests that the 'Something' often does not exert conscious will, or the action is a passive consequence, leading to no will."
+    },
+    "Tense": null,
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is trailing PP' explicitly uses the progressive aspect ('is trailing'), indicating an ongoing action or state."
+    },
+    "Period/Point": null,
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'drag' in this sense is a neutral description of motion/position."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of trailing itself is neutral; any positive or negative sentiment would arise from the specific context or the nature of what is trailing."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is trailing PP' describes an event or state happening to a potentially non-agentive subject ('Something'), making the action inherently non-volitional in a general sense."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence or state of trailing."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The progressive aspect ('is trailing') and the definition 'lag or linger behind' imply a continuous, sustained process rather than a single, discrete event, hence high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`qualifiers.Tense`이 객체(dict)가 아닙니다.",
+    "`qualifiers.Period/Point`이 객체(dict)가 아닙니다."
+  ]
+}

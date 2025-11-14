@@ -1,0 +1,67 @@
+{
+  "synset_id": "warm.v.02",
+  "definition": "make warm or warmer",
+  "frame_id": 0,
+  "frame_text": "Somebody warm something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The definition 'make warm or warmer' explicitly states a change in temperature, which is a property of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity that causes the change in temperature."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the entity that undergoes the change in temperature."
+        }
+      ]
+    },
+    {
+      "verb_type": "result_state",
+      "verb_property": "warm.a.01",
+      "reasoning": "The verb implies a resulting state where the patient becomes warm or warmer.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose state is changed to being warm."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of warming something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of warming is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody warm something' indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action and its outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing something to become warm. Repetition would require additional contextual information."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "size_up.v.01",
+  "definition": "to look at critically or searchingly, or in minute detail",
+  "frame_id": 0,
+  "frame_text": "Somebody scrutinise somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "examination.n.01",
+      "reasoning": "The verb 'size up' describes an active process of observing and evaluating, which aligns with the concept of examination, as supported by its hypernym 'examine.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the active agent performing the examination."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the entity being subjected to examination."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "thorough.a.01",
+      "reasoning": "The definition 'critically or searchingly, or in minute detail' clearly indicates a thorough and intensive manner of observation, distinguishing it from casual looking."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'sizing up' involves direct visual perception and cognitive processing by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent ('Somebody') performs the action with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sizing up is semantically neutral; its positive or negative implications depend on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly identifies a volitional agent who intentionally performs the action of sizing up."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed by the agent."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the process might involve multiple glances, 'sizing up' refers to a single, complete act of evaluation or assessment, rather than a continuously repeated simple action like 'running'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

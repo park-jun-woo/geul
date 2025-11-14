@@ -1,0 +1,58 @@
+{
+  "synset_id": "shoot.v.18",
+  "definition": "measure the altitude of by using a sextant",
+  "frame_id": 0,
+  "frame_text": "Somebody shoot something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "measurement.n.01",
+      "reasoning": "The verb describes the action of determining the altitude of something, which results in a change of state from an unknown to a known measurement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of measuring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose altitude is being measured, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "sextant.n.01",
+          "reasoning": "The tool used to perform the measurement, explicitly mentioned in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Measuring with a sextant involves direct observation and calculation to determine the altitude."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of measuring is inherently neutral; the result or context may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shooting an altitude implies a definite attempt to obtain a certain measurement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of measuring an altitude."
+    }
+  }
+}

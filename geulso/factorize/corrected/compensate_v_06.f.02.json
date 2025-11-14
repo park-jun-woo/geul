@@ -1,0 +1,58 @@
+{
+  "synset_id": "compensate.v.06",
+  "definition": "make payment to; compensate",
+  "frame_id": 2,
+  "frame_text": "Somebody remunerate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'make payment to' describes a transfer of a resource, which is a change in possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity initiating the payment, acting as the causal agent."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the one who receives the payment, acting as the recipient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "payment.n.01",
+          "reasoning": "The implicit 'payment' (money or other compensation) is the entity that changes possession."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a payment is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of compensation itself is neutral. The context may imbue it with positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody remunerate somebody' clearly indicates an intentional and volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of making a payment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of making a payment, even if payments occur regularly."
+    }
+  }
+}

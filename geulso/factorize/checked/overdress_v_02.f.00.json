@@ -1,0 +1,68 @@
+{
+  "synset_id": "overdress.v.02",
+  "definition": "put on special clothes to appear particularly appealing and attractive",
+  "frame_id": 0,
+  "frame_text": "Somebody attire somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "clothing.n.01",
+      "reasoning": "The verb describes the action of putting clothes on someone, causing a change in their attire.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of dressing another."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being dressed and whose clothing state changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "special.a.01",
+      "reasoning": "The definition specifies 'special clothes', indicating a particular style or quality of dressing."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "appearance.n.01",
+      "value_type": "appealing_and_attractive.a.01",
+      "reasoning": "The action is performed 'to appear particularly appealing and attractive', indicating the desired outcome of the dressing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dressing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dressing, even with the intention of being appealing, is inherently neutral in sentiment. The 'over-' prefix suggests a potential negative connotation in common usage, but the provided definition focuses solely on the positive intent ('appealing and attractive') without mentioning excess or inappropriateness."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody overdress somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dressing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of dressing someone."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

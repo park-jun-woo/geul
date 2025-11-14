@@ -1,0 +1,59 @@
+{
+  "synset_id": "devour.v.03",
+  "definition": "eat immoderately",
+  "frame_id": 3,
+  "frame_text": "Something go_through somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The verb 'devour' describes the action of consuming something, which results in a change of state for the consumed item.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the act of consuming, as indicated by the verb frame's subject position."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that is consumed by the agent, as indicated by the verb frame's object position."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "immoderate.a.01",
+      "reasoning": "The definition explicitly states 'eat immoderately', indicating the manner or degree of consumption."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of devouring (eating) is generally a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While 'devour' implies intensity, the generic 'Something' as the subject in the frame suggests a neutral stance on the agent's specific will or intention, following the rule for 'Something' subjects."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of eating itself is neutral. The 'immoderately' aspect may imply a negative connotation, but the core action is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s...' with a generic 'Something' as the subject is considered neutral regarding volitionality, even though 'devour' can be volitional if the agent is animate. The rule specifies that 'Something' is 'likely non-volitional or neutral'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'eating immoderately' implies a continuous or highly repetitive series of actions involved in consumption, indicating high iterativity."
+    }
+  }
+}

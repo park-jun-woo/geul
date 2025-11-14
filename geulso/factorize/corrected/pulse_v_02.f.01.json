@@ -1,0 +1,59 @@
+{
+  "synset_id": "pulse.v.02",
+  "definition": "produce or modulate (as electromagnetic waves) in the form of short bursts or pulses or cause an apparatus to produce pulses",
+  "frame_id": 1,
+  "frame_text": "Somebody pulse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emission.n.01",
+      "reasoning": "The verb describes the act of producing or modulating something, which is a change of state involving an emission or output.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity performing the emission or modulation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity being emitted or modulated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pattern.n.01",
+      "value_type": "intermittent.a.01",
+      "reasoning": "The definition specifies that the production or modulation occurs 'in the form of short bursts or pulses', indicating an inherent intermittent pattern to the emission."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pulsing is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-willful agent (e.g., a machine, natural phenomenon), thus lacking inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pulsing itself is neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something pulse something' has a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'short bursts or pulses' inherently implies high repetition of the emission."
+    }
+  }
+}

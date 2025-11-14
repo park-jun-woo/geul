@@ -1,0 +1,61 @@
+{
+  "synset_id": "turn_the_tables.v.01",
+  "definition": "cause a complete reversal of the circumstances",
+  "frame_id": 3,
+  "frame_text": "Something turn_the_tide",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "situation.n.01",
+      "reasoning": "The definition 'cause a complete reversal of the circumstances' indicates that the verb describes a change in the prevailing situation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the reversal, acting as the causal agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'tide' in the idiom, representing the circumstances, is the entity whose state or direction is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "reversal.n.01",
+      "reasoning": "The core meaning of 'turn the tide' is not just any change, but specifically a 'complete reversal' of the circumstances or direction of events, as implied by the definition and the idiom itself."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A reversal of circumstances is typically something that can be observed directly through its effects."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies that the action is not driven by an agent's will or intention, making it non-modal in terms of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "A reversal of circumstances can be perceived as positive or negative depending on the context, thus the inherent polarity is neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something turn_the_tide' indicates a non-volitional subject ('Something') as the agent of the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite event of reversal, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'complete reversal' typically refers to a single, decisive event or shift, not a continuous or repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

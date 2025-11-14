@@ -1,0 +1,72 @@
+{
+  "synset_id": "bribe.v.01",
+  "definition": "make illegal payments to in exchange for favors or influence",
+  "frame_id": 0,
+  "frame_text": "Somebody bribe somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "transfer.n.01",
+      "reasoning": "The definition 'make illegal payments to' implies the transfer of something (money/payments) as a core part of the action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent who initiates the act of bribing.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the one who receives the illegal payments.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "payment.n.01",
+          "reasoning": "Although implicit in the frame 'bribe somebody', the definition specifies 'illegal payments' as the object being transferred."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legal_status.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The definition explicitly states 'illegal payments', making the illegality an intrinsic and distinguishing characteristic of the act of bribing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "influence.n.01",
+      "reasoning": "The definition specifies the action is done 'in exchange for favors or influence', indicating the primary goal or purpose of the bribe."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bribing is a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with clear will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly mentions 'illegal payments', which inherently carries a negative ethical and legal connotation, making the act of bribing negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Bribing refers to a single, discrete act of offering/making payments for a specific purpose, even if payments might occur over time, the 'bribe' itself is typically conceived as a singular event of inducement."
+    }
+  }
+}

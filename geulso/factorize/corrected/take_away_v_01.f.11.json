@@ -1,0 +1,61 @@
+{
+  "synset_id": "take_away.v.01",
+  "definition": "remove from a certain place, environment, or mental or emotional state; transport into a new location or state",
+  "frame_id": 11,
+  "frame_text": "Something bear_away something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'remove from a certain place... transport into a new location or state' describes a change in the physical or abstract location of an entity, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, which is the entity causing the removal or transport, albeit non-volitionally."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame, which is the entity being removed or transported."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implicit from the definition 'remove from a certain place, environment, or mental or emotional state', indicating the origin of the removal."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implicit from the definition 'transport into a new location or state', indicating the endpoint of the transport."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of removing or transporting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject (the first 'Something'), implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taking away/removing is neutral; its positive or negative connotation depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' uses a non-human/non-volitional subject ('Something') as the causer, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of removal or transport."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'take away' (or 'bear away') generally describes a single, completed event of removal or transport, not inherent repetition."
+    }
+  }
+}

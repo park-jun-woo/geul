@@ -1,0 +1,59 @@
+{
+  "synset_id": "loom.v.04",
+  "definition": "weave on a loom",
+  "frame_id": 0,
+  "frame_text": "Something loom",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "textile.n.01",
+      "reasoning": "The verb 'loom' (meaning 'weave on a loom') describes the creation of textile (cloth/fabric), as stated in the definition and supported by the hypernym 'weave.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame, interpreted as the loom (the machine/instrument) that performs the weaving action. This implies an instrumental agent.",
+          "value_type": "machine.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "weaving.n.01",
+      "reasoning": "The specific manner of creating the textile is by weaving, which is the core method of 'loom' in this context and implied by the hypernym."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of weaving on a loom is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "As the agent ('Something') is an inanimate object (the loom), it lacks inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of weaving is a neutral activity; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The 'Something' in the frame refers to an inanimate object (a loom), which cannot act volitionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of weaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Weaving is an inherently continuous and highly repetitive process involving numerous interlacing actions to produce fabric."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

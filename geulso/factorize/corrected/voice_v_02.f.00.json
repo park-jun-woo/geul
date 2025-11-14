@@ -1,0 +1,60 @@
+{
+  "synset_id": "voice.v.02",
+  "definition": "utter with vibrating vocal chords",
+  "frame_id": 0,
+  "frame_text": "Somebody sound something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb 'voice' describes the action of producing sound, specifically an utterance, which represents a change from a state of silence to a state of audibility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of voicing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "utterance.n.01",
+          "reasoning": "The 'something' in the verb frame refers to what is expressed or produced as a vocal sound, which is an utterance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "vocal.a.01",
+      "reasoning": "The definition 'utter with vibrating vocal chords' specifies the particular manner or means by which the sound is produced, indicating a vocal form of articulation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of voicing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is typically performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of voicing is neutral; the sentiment depends on what is voiced."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody voice something' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of voicing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'voice something' typically describes a single, complete act of expressing a particular item (e.g., an opinion, a sound), rather than continuous repetition."
+    }
+  }
+}

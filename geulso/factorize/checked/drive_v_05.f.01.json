@@ -1,0 +1,62 @@
+{
+  "synset_id": "drive.v.05",
+  "definition": "to compel or force or urge relentlessly or exert coercive pressure on, or motivate strongly",
+  "frame_id": 1,
+  "frame_text": "Something drive somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb describes an external 'Something' causing 'somebody' to act or be motivated, thus influencing their behavior.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that compels or motivates, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is compelled, forced, or urged to behave in a certain way."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "strong.a.01",
+      "reasoning": "The definition includes terms like 'compel,' 'force,' 'urge relentlessly,' 'coercive pressure,' and 'motivate strongly,' all indicating a high degree of intensity or force in the causation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of compelling or forcing someone is typically observed directly or inferred from direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', an inanimate entity, which cannot possess will or intention in this context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of driving or compelling can be positive or negative depending on the context and the outcome, making it neutral in inherent sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something drive somebody' indicates that the action is initiated by a non-volitional entity ('Something'), thus the act of driving itself is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of compelling or motivating."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition's use of 'urge relentlessly' and 'exert coercive pressure' suggests a sustained or repetitive application of force over time, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

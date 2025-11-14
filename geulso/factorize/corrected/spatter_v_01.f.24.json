@@ -1,0 +1,67 @@
+{
+  "synset_id": "spatter.v.01",
+  "definition": "dash a liquid upon or against",
+  "frame_id": 24,
+  "frame_text": "Something plash somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes the act of causing a liquid to land on a surface, thereby altering the condition (e.g., wetness, cleanliness) of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "substance.n.01",
+          "reasoning": "The 'Something' in the frame refers to the liquid or substance that spatters, acting as the subject performing the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' in the frame is the recipient of the spattering, whose condition is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "liquid.n.01",
+      "reasoning": "The definition explicitly states 'dash a liquid', indicating the inherent material involved in the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The word 'dash' in the definition 'dash a liquid' implies a sudden and forceful application or movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame (e.g., mud, water) does not possess will or intention, thus the action is not driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is neutral; its sentiment depends on the context (e.g., spattering mud vs. spattering paint for art)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something plash somebody' implies a non-volitional subject ('Something') performing the action, even if the 'Something' was itself moved by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of spattering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'spatter' inherently implies the distribution of multiple, small drops or particles, suggesting a high degree of repetition of small impacts within a single event."
+    }
+  }
+}

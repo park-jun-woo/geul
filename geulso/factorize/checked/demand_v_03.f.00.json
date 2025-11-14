@@ -1,0 +1,66 @@
+{
+  "synset_id": "demand.v.03",
+  "definition": "claim as due or just",
+  "frame_id": 0,
+  "frame_text": "Somebody demand something",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb describes the act of making a strong and authoritative request or claim.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of demanding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object or content of the demand."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "right.n.01",
+      "value_type": "entitlement.n.01",
+      "reasoning": "The definition 'claim as due or just' indicates that the demand is based on an assertion of a right or entitlement, which is an inherent property of the demand itself."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of demanding is a directly observable communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame performs the action with strong will and intention."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "A 'demand' is typically an assertive and direct expression, often bypassing conventional politeness, making it informal in tone."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of demanding itself is neutral; the content or context may determine its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody demand something' explicitly involves a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of demanding is presented as a definite occurrence, reflecting certainty in the assertion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of making a demand, unless explicitly stated otherwise."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

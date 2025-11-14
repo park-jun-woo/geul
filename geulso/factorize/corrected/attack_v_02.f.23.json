@@ -1,0 +1,59 @@
+{
+  "synset_id": "attack.v.02",
+  "definition": "attack in speech or writing",
+  "frame_id": 23,
+  "frame_text": "Something round somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb describes an action intended to negatively affect the reputation or public image of an individual, which constitutes a change in their social standing or well-being.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'Something' (e.g., an article, speech) is the means or medium through which the attack is carried out, acting as the grammatical subject in the verb frame 'Something ----s somebody'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' is the target whose reputation is affected by the attack, acting as the direct object in the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "communication.n.02",
+      "reasoning": "The definition explicitly specifies that the attack occurs 'in speech or writing', indicating the communicative medium of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An attack in speech or writing is typically a directly observable event (e.g., hearing a speech, reading an article)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The grammatical subject 'Something' in the frame implies a non-volitional entity or instrument carrying out the action, rather than an explicit agent with will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'attack' inherently implies a negative action (e.g., criticism, defamation) aimed at causing harm or damage."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the grammatical subject 'Something' (e.g., a statement, an article) is the effector, and it is inherently non-volitional, even if the content originated from a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the attack."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete instance of a communicative attack, although such attacks can be repeated."
+    }
+  }
+}

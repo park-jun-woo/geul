@@ -1,0 +1,65 @@
+{
+  "synset_id": "invite.v.06",
+  "definition": "ask to enter",
+  "frame_id": 0,
+  "frame_text": "Somebody ask_in somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "invitation.n.01",
+      "reasoning": "The verb 'invite' describes an act of communicating, specifically extending an invitation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of inviting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the invitation to enter."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The implicit 'something' being invited to, which is the act of entering based on the definition 'ask to enter'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inviting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of inviting is generally neutral in politeness; context determines its specific level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inviting is neutral; the specific context or implications of entering determine its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody invite somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of inviting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of extending an invitation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

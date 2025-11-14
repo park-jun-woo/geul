@@ -1,0 +1,61 @@
+{
+  "synset_id": "tide_over.v.01",
+  "definition": "suffice for a period between two points",
+  "frame_id": 1,
+  "frame_text": "Something keep_going somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sufficiency.n.01",
+      "reasoning": "The verb describes the ongoing act of providing just enough to 'suffice' someone and 'keep them going' for a period, which is a process of maintaining a state of adequacy over time.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that provides the necessary resources or means to sustain the 'somebody'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is kept going or supported by the 'something', and for whom the 'something' suffices."
+        },
+        {
+          "semantic_role": "temporal_extent.n.01",
+          "value_type": "period.n.01",
+          "reasoning": "The definition explicitly mentions 'for a period between two points', indicating a duration over which the process of sufficiency occurs."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes a directly observable state or process of provision."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no inherent will or intention behind the action of 'tiding over'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'tiding over' (providing sufficiency) is generally neutral in sentiment, although it can be beneficial."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something keep_going somebody' indicates a non-agentive subject ('Something'), making the action non-volitional. The verb 'suffice' is also inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of being sufficient."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a continuous process over a period, which is treated as a single, extended event, not a repetition of discrete actions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

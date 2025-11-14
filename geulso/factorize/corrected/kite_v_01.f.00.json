@@ -1,0 +1,60 @@
+{
+  "synset_id": "kite.v.01",
+  "definition": "increase the amount (of a check) fraudulently",
+  "frame_id": 0,
+  "frame_text": "Somebody kite something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "quantity.n.01",
+      "reasoning": "The verb describes an 'increase' in amount, indicating a change in the quantity of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the fraudulent increase, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "document.n.01",
+          "reasoning": "The 'something' whose amount is increased (e.g., a check), as implied by the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "legality.n.01",
+      "value_type": "fraudulent.a.01",
+      "reasoning": "The definition explicitly states the action is performed 'fraudulently', which is a crucial manner component of the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'kiting' is a direct action, which would be directly observed if detected."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The inclusion of 'fraudulently' in the definition explicitly assigns a negative moral and legal sentiment to the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of kiting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of fraudulently increasing an amount, though it could be repeated, the verb itself refers to one instance."
+    }
+  }
+}

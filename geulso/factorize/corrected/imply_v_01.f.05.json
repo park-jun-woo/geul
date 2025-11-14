@@ -1,0 +1,60 @@
+{
+  "synset_id": "imply.v.01",
+  "definition": "express or state indirectly",
+  "frame_id": 5,
+  "frame_text": "Something imply something",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "meaning.n.01",
+      "reasoning": "The verb describes a state where one entity carries or conveys meaning, specifically indirectly, rather than an active process of expressing it by a volitional agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that holds or conveys the indirect meaning; it acts as the non-volitional source of the implication."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The second 'something' is the information or proposition that is indirectly conveyed or suggested."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "indirect.a.01",
+      "reasoning": "The definition explicitly states 'express or state indirectly', indicating 'indirectly' as a core semantic component of the manner of conveying meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "To 'imply' means to suggest without stating directly, requiring an inference on the part of the interpreter to understand the conveyed meaning."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about what something suggests."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is non-agentive and does not possess will or intention in implying something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of implying is neutral; the sentiment depends on what is being implied."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject, meaning the action or state is not intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'imply' itself describes a definite relationship where one thing suggests another, implying certainty in the existence of that suggestion, even if the implied content's truth is separate."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of an implication existing or being made, rather than a repetitive action."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "churn.v.02",
+  "definition": "be agitated",
+  "frame_id": 2,
+  "frame_text": "Something moil",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'churn' describes an ongoing dynamic action involving physical movement, supported by the hypernym 'move'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes this process of motion and exhibits agitation, making it the patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "turbulent.a.01",
+      "reasoning": "The definition 'be agitated' indicates that the movement (motion) is specifically turbulent or agitated in its manner, which is a core semantic component of 'churn'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The agitation or churning motion is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a state or process of agitation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something moil' lacks an agent capable of will; the action is inherent to the subject or an external force not specified."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical act of churning or being agitated is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something moil' indicates a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of agitation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Churning implies continuous, vigorous, and often highly repetitive internal movements or actions, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "synset_id": "cull_out.v.01",
+  "definition": "select desirable parts from a group or list",
+  "frame_id": 0,
+  "frame_text": "Something cull_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "selection.n.01",
+      "reasoning": "The verb 'cull out' describes the act of selecting desirable items, which is a change in their status from being part of a larger group to being chosen or removed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent performing the culling action.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' refers to the parts or items that are being selected or culled out.",
+          "value_type": "item.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The definition 'from a group or list' inherently specifies the origin from which the items are culled, making 'source' an implicit but crucial participant.",
+          "value_type": "group.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "desirable.a.01",
+      "reasoning": "The definition explicitly mentions 'desirable parts', indicating that a core aspect of the culling process is the evaluation and selection based on this positive quality."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of culling out is typically an observable and verifiable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies that the action is not driven by an agent's will or intention in this specific context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the chosen items are 'desirable', the act of culling out itself is typically a neutral process. The sentiment applies to the qualities of the selected items, not the verb's inherent action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject, meaning the action is not performed with intent by a conscious agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of selection and removal."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'cull out' describes a single event or process of selection from a group, even if multiple items are involved, rather than a continuously repetitive action."
+    }
+  }
+}

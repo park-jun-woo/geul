@@ -1,0 +1,61 @@
+{
+  "synset_id": "crawl.v.01",
+  "definition": "move slowly; in the case of people or animals with the body near the ground",
+  "frame_id": 3,
+  "frame_text": "Something creep",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a change of location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of moving, referring to the entity whose location changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "slow.a.01",
+      "reasoning": "The definition explicitly states 'move slowly', indicating a specific manner of speed for the motion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "body_near_ground.a.01",
+      "reasoning": "The definition specifies 'with the body near the ground' as a characteristic manner of this particular movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Crawling is a directly observable action or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something creep' lacks an explicit agent capable of strong will, allowing for non-volitional interpretation (e.g., a river 'crawls')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of crawling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something creep' suggests the subject is not necessarily a volitional agent. While people/animals can crawl volitionally, the 'Something' frame also covers non-volitional instances, making it neutral to non-volitional by default."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of crawling is described as a definite event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Crawling is an action composed of continuous, highly repetitive small movements, similar to walking or running."
+    }
+  }
+}

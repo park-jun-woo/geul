@@ -1,0 +1,66 @@
+{
+  "synset_id": "trace.v.07",
+  "definition": "copy by following the lines of the original drawing on a transparent sheet placed upon it; make a tracing of",
+  "frame_id": 0,
+  "frame_text": "Somebody trace something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "representation.n.01",
+      "reasoning": "The definition 'make a tracing of' describes the creation of a new representation (the tracing) based on an existing original.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of tracing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implicit new representation (the tracing) that is created by the agent."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'something' which is the original drawing that serves as the basis for the tracing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "by_following_lines_on_transparent_sheet",
+      "reasoning": "The definition specifies the unique manner of this creation process as 'by following the lines of the original drawing on a transparent sheet placed upon it'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Tracing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tracing itself is neutral; its sentiment depends on context or the content being traced."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody trace something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action; there is certainty about the event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of making one tracing."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "truncate.v.03",
+  "definition": "make shorter as if by cutting off",
+  "frame_id": 2,
+  "frame_text": "Something cut_short something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "length.n.01",
+      "reasoning": "The definition 'make shorter' indicates a change in the length of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the shortening."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change in length."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "cutting.n.01",
+      "reasoning": "The definition explicitly states 'as if by cutting off', indicating a specific manner of achieving the shortening, which is inherent to this sense of 'truncate'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of truncating something is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional cause, hence no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of truncating is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' features a non-agentive subject ('Something') as the cause, indicating a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite outcome of shortening."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete act of making something shorter."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

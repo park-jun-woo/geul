@@ -1,0 +1,57 @@
+{
+  "synset_id": "volunteer.v.02",
+  "definition": "agree freely",
+  "frame_id": 0,
+  "frame_text": "Somebody offer to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "perform",
+      "verb_property": "offer.n.01",
+      "reasoning": "The verb 'volunteer' in this frame describes the action of making an offer or giving consent to perform a specified task freely.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who makes the offer or gives consent, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The action implied by the 'to INFINITIVE' that is being offered or agreed to be performed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of volunteering is typically directly expressed or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'agree freely' and the presence of 'Somebody' imply a strong will and intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of volunteering itself is neutral; the nature of the volunteered task determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' and the definition 'agree freely' explicitly indicate a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of volunteering implies certainty in the offer or agreement being made."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of making an offer or agreeing to a specific action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'perform'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

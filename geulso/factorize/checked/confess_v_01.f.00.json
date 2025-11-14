@@ -1,0 +1,57 @@
+{
+  "synset_id": "confess.v.01",
+  "definition": "confess to a punishable or reprehensible deed, usually under pressure",
+  "frame_id": 0,
+  "frame_text": "Somebody confess",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "disclosure.n.01",
+      "reasoning": "The verb describes the act of revealing or making known information, which is a form of communication, specifically a disclosure of a deed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of confessing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "deed.n.01",
+          "reasoning": "The content of the confession is an implicit 'deed' or wrongdoing, as per the definition 'confess to a punishable or reprehensible deed'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Confessing is a direct act of speech and experience of the confessor."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of confessing, even if under pressure, involves the agent's will to speak or reveal."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the content of a confession is typically negative ('punishable or reprehensible deed'), the act of confessing itself is semantically neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody confess' indicates that the 'Somebody' is a volitional agent intentionally performing the action, even if coerced."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A confession inherently implies certainty regarding the information being revealed by the confessor."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of disclosure."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

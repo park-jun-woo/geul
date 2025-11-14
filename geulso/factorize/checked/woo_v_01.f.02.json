@@ -1,0 +1,62 @@
+{
+  "synset_id": "woo.v.01",
+  "definition": "seek someone's favor",
+  "frame_id": 2,
+  "frame_text": "Somebody woo somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "relationship.n.01",
+      "reasoning": "The definition 'seek someone's favor' describes an ongoing effort or process aimed at influencing a relationship or the state of mind of another, rather than an instantaneous change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the initiator or cause of the wooing process, even if non-volitionally."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose favor is being sought, making them the target of the wooing process."
+        }
+      ]
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "favor.n.01",
+      "reasoning": "A core semantic component of 'woo' is the explicit goal of obtaining 'favor' or approval from the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act or effect of wooing is typically observable or directly inferable from actions and reactions."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "In the frame 'Something woo somebody', the 'Something' subject does not possess will or intention, thus the action is not driven by the subject's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wooing itself is neutral; the specific context or outcome might determine a positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something woo somebody' indicates that the grammatical subject ('Something') is non-agentive and therefore the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wooing is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wooing typically involves a series of actions or a continuous effort over a period, implying high repetition rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

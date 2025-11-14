@@ -1,0 +1,60 @@
+{
+  "synset_id": "sing.v.03",
+  "definition": "to make melodious sounds",
+  "frame_id": 1,
+  "frame_text": "Something sing something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "production.n.02",
+      "reasoning": "The verb 'sing' describes the action of bringing forth or creating something, specifically sounds.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of producing sound, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "sound.n.01",
+          "reasoning": "The 'something' that is produced by the action, referring to the sounds themselves."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "melodious.a.01",
+      "reasoning": "The definition explicitly states 'melodious sounds', indicating a core quality of the produced sound."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of singing is an audibly and directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not necessarily imply strong will or intention for the action, especially if referring to an inanimate object or an animal acting by instinct."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'melodious' often carries positive connotations, the act of singing itself is semantically neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with 'Something' as the subject often implies a non-volitional action, as the agent (e.g., a bird, a musical instrument) may not possess human-like intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of singing is described as a definite occurrence or capability."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Singing typically involves the continuous production of a sequence of sounds or notes over time, implying high repetition rather than a single discrete event."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "take_out.v.12",
+  "definition": "buy and consume food from a restaurant or establishment that sells prepared food",
+  "frame_id": 1,
+  "frame_text": "Somebody take_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'buy... food' describes a change in the possession of the food from an establishment to the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of buying the food."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The 'something' being bought, which is specified as 'food' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The definition '...consume food' describes the act of eating the food after it has been acquired.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who consumes the food, typically the same individual who bought it."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The 'something' being consumed, which is specified as 'food' in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking out and consuming food is typically a directly observable and experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taking out and consuming food is generally a neutral activity; its sentiment depends on context or the food itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody take_out something' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of buying and consuming food, rather than a continuous or highly repetitive action within one instance."
+    }
+  }
+}

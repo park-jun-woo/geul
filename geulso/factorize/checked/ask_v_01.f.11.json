@@ -1,0 +1,65 @@
+{
+  "synset_id": "ask.v.01",
+  "definition": "inquire about",
+  "frame_id": 11,
+  "frame_text": "Somebody inquire PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'inquire' describes a communicative act of attempting to gain information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of inquiry, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The subject matter that the inquiry is 'about', represented by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "information_seeking.n.01",
+      "reasoning": "The inherent goal of the act of inquiring is to obtain knowledge or information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inquiring is a directly observable communicative event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action driven by will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "Without further context, 'inquire' is considered a neutral term for asking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inquiring itself is neutral; its sentiment depends on context or the nature of the information sought."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody inquire PP' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of inquiring is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of inquiry."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

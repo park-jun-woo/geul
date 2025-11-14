@@ -1,0 +1,62 @@
+{
+  "synset_id": "crossbreed.v.01",
+  "definition": "breed animals or plants using parents of different races and varieties",
+  "frame_id": 0,
+  "frame_text": "Somebody cross something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "reproduction.n.01",
+      "reasoning": "The verb 'crossbreed' fundamentally describes the act of causing new living organisms to be brought into existence through a biological reproductive process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who intentionally initiates and manages the breeding process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (animals or plants) that are the object of the breeding action, referring to the parent generation or the species being subjected to the crossbreeding."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "genetic_composition.n.01",
+      "value_type": "mixed_origin",
+      "reasoning": "The 'cross-' prefix and the definition 'using parents of different races and varieties' specifically highlight the inherent characteristic of the breeding process: the genetic diversity of the parent organisms, resulting in a mixed lineage."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crossbreeding is typically a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention in carrying out the breeding."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of crossbreeding is a neutral biological process; its positive or negative implications depend on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody crossbreed something' explicitly indicates a volitional agent performing the action, as it requires deliberate selection and management of parents."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action; when crossbreeding occurs, it is a certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'crossbreed' describes a single act of initiating the breeding process, or a general process treated as a singular event without explicit repetition indicated."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

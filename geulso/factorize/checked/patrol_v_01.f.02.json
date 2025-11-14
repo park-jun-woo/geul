@@ -1,0 +1,68 @@
+{
+  "synset_id": "patrol.v.01",
+  "definition": "maintain the security of by carrying out a patrol",
+  "frame_id": 2,
+  "frame_text": "Somebody police somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "security.n.01",
+      "reasoning": "The core objective of the verb 'patrol' (as per its definition 'maintain the security of') is to engage in an ongoing process of ensuring or preserving the security of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the patrolling action, actively working to maintain security, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose security is being maintained through the patrol, as indicated by the object in the verb frame 'Somebody police somebody'."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "locomotion.n.01",
+      "reasoning": "The verb implies a specific manner of conducting the security process, which inherently involves systematic movement through an area ('by carrying out a patrol')."
+    },
+    {
+      "verb_type": "component",
+      "verb_property": "observation.n.01",
+      "reasoning": "An inherent and essential component of patrolling (locomotion for security) is active observation, scrutiny, and watchfulness to detect threats or maintain order."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of patrolling is a directly observable phenomenon, implying direct experience as the source of information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the verb frame implies that the action is driven by their will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of patrolling itself is neutral; its positive or negative valence depends on the context and the specific circumstances of the security being maintained."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody police somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process being carried out, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'carrying out a patrol' and the nature of patrolling imply repeated or continuous circuits, rounds, or systematic movement over a period, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'component'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

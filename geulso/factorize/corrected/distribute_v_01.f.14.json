@@ -1,0 +1,63 @@
+{
+  "synset_id": "distribute.v.01",
+  "definition": "administer or bestow, as in small portions",
+  "frame_id": 14,
+  "frame_text": "Somebody dole_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'administer or bestow' implies a transfer of items from one entity to another, resulting in a change of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of doling out, initiating the transfer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being distributed and whose possession changes hands."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The verb 'dole out' inherently implies one or more recipients to whom the small portions are given, even if not explicitly present in the surface verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "small_amount.n.01",
+      "reasoning": "The phrase 'as in small portions' in the definition explicitly states a characteristic of the distributed items, indicating a limited quantity per share."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of doling out is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of doling out itself is semantically neutral; its positive or negative connotation depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody dole_out something' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of distribution."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The nature of 'dole out' implies a repetitive action of giving individual small portions, often to multiple recipients or over a period, making it highly iterative."
+    }
+  }
+}

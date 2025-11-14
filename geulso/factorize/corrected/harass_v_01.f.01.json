@@ -1,0 +1,59 @@
+{
+  "synset_id": "harass.v.01",
+  "definition": "annoy continually or chronically",
+  "frame_id": 1,
+  "frame_text": "Somebody chevvy somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The verb describes causing a change in the emotional state of the patient, specifically inducing annoyance or distress.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the annoyance, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change in emotional state and experiences annoyance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "continuous.a.01",
+      "reasoning": "The definition explicitly states 'continually or chronically', indicating that the action or its effect is sustained over a period of time."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of harassing and the resulting annoyance are typically directly observable or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s somebody' implies a non-volitional subject ('Something'), thus lacking an agent capable of will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of harassing is inherently negative as it involves causing annoyance or distress."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'continually or chronically' strongly implies a high degree of repetition or sustained activity."
+    }
+  }
+}

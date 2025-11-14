@@ -1,0 +1,71 @@
+{
+  "synset_id": "taxi.v.01",
+  "definition": "travel slowly",
+  "frame_id": 2,
+  "frame_text": "Something is taxiing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'taxi' describes a change in location, which is a form of movement and thus a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., an aircraft) that performs the action of moving itself, as implied by the verb frame and definition of 'travel'."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the direction or endpoint of the movement, specified by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "slow.a.01",
+      "reasoning": "A core semantic component of 'taxi' is the 'slow' manner of movement, as explicitly stated in the definition 'travel slowly'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Taxiing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is taxiing' with a non-volitional subject ('Something') implies no inherent will from the subject itself, even if controlled by an external agent."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The decomposition focuses on the inherent meaning, not a specific tense, thus neutral, though the frame implies present progressive."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is taxiing' explicitly uses the progressive aspect ('is taxiing')."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'taxi' carries no inherent politeness connotation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taxiing is semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' (e.g., an aircraft) is not inherently volitional. Its movement is typically controlled by an external agent (a pilot), but the verb describes the object's action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of taxiing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Taxiing is a continuous action involving repeated small movements (e.g., wheels rotating, engine propelling) over a period, indicating high repetition."
+    }
+  }
+}

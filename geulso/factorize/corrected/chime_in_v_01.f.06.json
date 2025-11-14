@@ -1,0 +1,60 @@
+{
+  "synset_id": "chime_in.v.01",
+  "definition": "break into a conversation",
+  "frame_id": 6,
+  "frame_text": "Somebody put_in",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes initiating a verbal contribution that changes the state of an ongoing discussion by adding a new element.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of chiming in."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "conversation.n.01",
+          "reasoning": "Derived from the definition 'break into a conversation', the conversation is the entity that is directly affected or entered by the act."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "interruption.n.01",
+      "reasoning": "The definition 'break into a conversation' explicitly denotes an intrusive or interrupting manner of participation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chiming in is typically a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chiming in is neutral; its sentiment depends on context and content."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' (interpreted as 'Somebody chimes in') explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chiming in is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of interjecting into a conversation."
+    }
+  }
+}

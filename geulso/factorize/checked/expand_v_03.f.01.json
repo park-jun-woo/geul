@@ -1,0 +1,61 @@
+{
+  "synset_id": "expand.v.03",
+  "definition": "make bigger or wider in size, volume, or quantity",
+  "frame_id": 1,
+  "frame_text": "Something expand something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "magnitude.n.01",
+      "reasoning": "The definition 'make bigger or wider in size, volume, or quantity' directly indicates a change in the magnitude or size of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that causes the expansion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity whose size, volume, or quantity increases."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "verb_property": "increase.n.01",
+      "reasoning": "The definition 'make bigger or wider' implies an increase in the relevant property, rather than a decrease or just any change."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of expanding is generally a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-volitional cause, mechanism, or process rather than an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of expanding is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something expand something' indicates that the causal agent is non-volitional ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of expansion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially continuous, event of causing something to expand."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

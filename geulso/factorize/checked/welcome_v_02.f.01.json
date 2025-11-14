@@ -1,0 +1,56 @@
+{
+  "synset_id": "welcome.v.02",
+  "definition": "bid welcome to; greet upon arrival",
+  "frame_id": 1,
+  "frame_text": "Somebody welcome somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "greeting.n.01",
+      "reasoning": "The definition 'bid welcome to; greet upon arrival' describes a verbal or non-verbal act of communication to express good wishes or acknowledgment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of welcoming, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is greeted or welcomed, the direct object of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of welcoming is a directly observable social interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an intentional and willed action."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To 'welcome' inherently carries a positive sentiment, signifying acceptance or hospitality."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of welcoming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of greeting someone upon their arrival, not a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "sew.v.02",
+  "definition": "create (clothes) with cloth",
+  "frame_id": 2,
+  "frame_text": "Somebody tailor",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "creation.n.02",
+      "reasoning": "The definition 'create (clothes)' explicitly describes bringing something into existence, which is a change from non-existence to existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the act of creation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "clothes.n.01",
+          "reasoning": "The 'clothes' are the primary object being created, as specified by the verb's definition."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "cloth.n.01",
+          "reasoning": "The 'cloth' is the material used in the creation process, as specified by the verb's definition 'with cloth'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tailoring or creating clothes is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' performing the action implies strong will and intention to create."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of creating clothes is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tailor' indicates an intentional action by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of creation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of tailoring involves continuous and repeated actions (e.g., stitching, cutting) over a period to complete a garment, indicating high repetition."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "close_in.v.01",
+  "definition": "advance or converge on",
+  "frame_id": 3,
+  "frame_text": "Somebody draw_in PP",
+  "sememes": {
+    "MotionToTarget": {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'close_in', defined as 'advance or converge on', describes an action involving a change in an entity's physical location or proximity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the volitional entity performing the action of moving."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the target or area towards which the movement is directed."
+        }
+      ]
+    },
+    "ResultingProximity": {
+      "verb_type": "property",
+      "verb_property": "distance.n.01",
+      "value_type": "reduced.a.01",
+      "reasoning": "The phrase 'close_in' inherently implies that the outcome or characteristic effect of the motion is a reduction in the distance to the target.",
+      "participants": []
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of moving and converging is typically directly observable, suggesting direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention to move closer or converge."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of closing in is inherently neutral; the context determines its sentiment (e.g., positive for rescue, negative for attack)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s PP' explicitly indicates a volitional agent performing the action of closing in."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'closing in' or 'advancing' is typically a continuous process composed of multiple, often repetitive, small movements rather than a single instantaneous event, indicating high iterativity."
+    }
+  }
+}

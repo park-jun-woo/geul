@@ -1,0 +1,66 @@
+{
+  "synset_id": "parole.v.01",
+  "definition": "release a criminal from detention and place him on parole",
+  "frame_id": 0,
+  "frame_text": "Somebody parole somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "confinement.n.01",
+      "reasoning": "The verb 'parole' describes the action of moving an individual from a state of detention (confinement) to a state of non-confinement, as implied by 'release a criminal from detention'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who holds the authority and performs the act of releasing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "criminal.n.01",
+          "reasoning": "The 'somebody' who is the subject of the release, explicitly defined as a 'criminal' in the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "legal_status.n.01",
+      "value_type": "parole.n.01",
+      "reasoning": "The verb specifies that the criminal is 'placed on parole', indicating a resultant legal state or condition for the patient after release.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The individual (criminal) whose legal status is affected and who is now in the state of being on parole."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of paroling someone is a formal, observable legal event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as an agent implies a strong will and intention in carrying out the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of paroling is a neutral legal procedure; its sentiment depends on context or perception of the criminal's release."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of parole is described as a definite and executed event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, distinct act of releasing an individual on parole."
+    }
+  }
+}

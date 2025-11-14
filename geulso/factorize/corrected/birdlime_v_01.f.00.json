@@ -1,0 +1,71 @@
+{
+  "synset_id": "birdlime.v.01",
+  "definition": "spread birdlime on branches to catch birds",
+  "frame_id": 0,
+  "frame_text": "Somebody birdlime something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The verb describes the action of applying a sticky substance to a surface, changing its state of coverage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of spreading the birdlime, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "branch.n.01",
+          "reasoning": "The 'something' (branches) that gets covered with the substance."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "birdlime.n.01",
+          "reasoning": "The specific sticky substance ('birdlime') that is spread onto the branches."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "trap.v.01",
+      "reasoning": "The action of spreading birdlime is explicitly carried out with the goal of trapping or catching birds.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "bird.n.01",
+          "reasoning": "The living beings ('birds') that are the target of the trapping action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of birdliming is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the explicit purpose ('to catch birds') imply a strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act itself is neutral; any positive or negative sentiment is context-dependent (e.g., depends on one's view of trapping birds)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of preparing branches with birdlime for trapping, rather than a continuous, highly repetitive action."
+    }
+  }
+}

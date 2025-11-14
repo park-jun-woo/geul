@@ -1,0 +1,68 @@
+{
+  "synset_id": "outmarch.v.01",
+  "definition": "march longer distances and for a longer time than",
+  "frame_id": 0,
+  "frame_text": "Somebody outmarch somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "locomotion.n.01",
+      "reasoning": "The verb's core action is 'marching', which is a continuous physical movement, hence a process of locomotion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of marching."
+        }
+      ]
+    },
+    {
+      "verb_type": "result_state",
+      "verb_property": "superiority.n.01",
+      "reasoning": "The prefix 'out-' and the definition 'march longer distances and for a longer time than' explicitly denote a state of being superior in the performance of marching.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The subject ('Somebody') who achieves superior performance in marching."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose performance is surpassed by the causal agent, serving as the point of comparison."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of outmarching is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary use is declarative, stating a fact or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies a volitional agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of outmarching is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the verb frame performs the action of marching and surpassing intentionally, indicating high volitionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of surpassing another in marching."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The underlying action of 'marching' involves highly repetitive steps, similar to 'running', hence high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "quarrel.v.01",
+  "definition": "have a disagreement over something",
+  "frame_id": 3,
+  "frame_text": "Somebody argufy PP",
+  "sememes": [
+    {
+      "verb_type": "interaction",
+      "verb_property": "disagreement.n.01",
+      "reasoning": "The verb 'quarrel' and its definition 'have a disagreement' describe a reciprocal action or exchange, making it an interaction. The core nature of this interaction is a disagreement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates or actively participates in the quarrel, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "co-agent.n.01",
+          "reasoning": "The verb 'quarrel' inherently requires at least two participants in the disagreement, even if the second participant is not explicitly marked by a specific slot in this generalized frame. The other party is a necessary co-agent in the interaction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "topic.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame typically specifies the subject 'over something' (the topic) about which the disagreement occurs, as indicated in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A quarrel or argument is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or interaction."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention to engage in the quarrel."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of quarreling or disagreeing generally carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody argufy...' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The occurrence of a quarrel is described as a definite event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A quarrel, or 'argufy', typically involves a series of back-and-forth verbal exchanges, implying a high degree of repetition within the event, similar to continuous motion."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

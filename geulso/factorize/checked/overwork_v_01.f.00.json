@@ -1,0 +1,62 @@
+{
+  "synset_id": "overwork.v.01",
+  "definition": "use too much",
+  "frame_id": 0,
+  "frame_text": "Somebody overwork something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "utilization.n.01",
+      "reasoning": "The verb describes an active process of applying or deploying something for a purpose, as indicated by the core meaning of 'use' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of using, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being used, which is the object of the overworking."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "The 'over-' prefix and 'too much' in the definition explicitly denote an excessive degree or intensity of the primary process of utilization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of overworking something is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies the action of using is driven by the agent's will, even if the 'excessive' outcome might be unintended."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'too much' aspect inherently carries a negative connotation, implying harm, exhaustion, or detriment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody overwork something' clearly indicates a volitional agent ('Somebody') initiating the action of working/using."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'use too much' implies a sustained or highly repetitive activity rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

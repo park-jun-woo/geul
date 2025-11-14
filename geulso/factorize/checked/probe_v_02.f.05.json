@@ -1,0 +1,62 @@
+{
+  "synset_id": "probe.v.02",
+  "definition": "examine physically with or as if with a probe",
+  "frame_id": 5,
+  "frame_text": "Something probe something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "investigation.n.01",
+      "reasoning": "The definition 'examine physically' describes a sustained activity or process of investigation rather than an instantaneous change or a static state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that performs or carries out the action of examining."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the object undergoing the examination."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "probe.n.01",
+      "reasoning": "The definition explicitly specifies the use of a 'probe' (either literally or figuratively) as the instrument or means by which the physical examination is conducted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of probing is a directly observable physical action or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-human or inanimate agent, which inherently lacks personal will or intention, leading to a neutral modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of probing itself is neutral; any positive or negative sentiment would depend on the context or outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with a non-human 'Something' as the agent implies a non-volitional action, even if it is a directed or purposeful action (e.g., by an external operator)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of examination or investigation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'examining physically with a probe' typically involves a series of continuous or highly repetitive movements or interactions within a bounded period, rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

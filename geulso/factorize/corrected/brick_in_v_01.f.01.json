@@ -1,0 +1,61 @@
+{
+  "synset_id": "brick_in.v.01",
+  "definition": "wall up with brick",
+  "frame_id": 1,
+  "frame_text": "Somebody brick_in something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "enclosure.n.01",
+      "reasoning": "The verb 'brick in' describes the action of causing something/someone to be in a state of enclosure.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of enclosing.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (a person) who becomes enclosed or walled up.",
+          "value_type": "person.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "brick.n.01",
+      "reasoning": "The definition 'wall up with brick' explicitly states the material used for the enclosing action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bricking someone in is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Bricking in a person (as implied by the frame 'Somebody brick_in somebody') is an inherently negative act, usually implying imprisonment or entombment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bricking in is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'brick in' describes the completion of a single enclosing event, even if the process of laying bricks involves repetition."
+    }
+  }
+}

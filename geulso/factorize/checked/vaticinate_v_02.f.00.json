@@ -1,0 +1,63 @@
+{
+  "synset_id": "vaticinate.v.02",
+  "definition": "foretell through or as if through the power of prophecy",
+  "frame_id": 0,
+  "frame_text": "Somebody vaticinate something",
+  "sememes": [
+    {
+      "verb_type": "declaration",
+      "verb_property": "future.n.01",
+      "reasoning": "The definition 'foretell' explicitly states the verb is about declaring a future event or state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of foretelling, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'something' that is foretold, which is typically a future event or a proposition about the future."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "prophecy.n.01",
+      "reasoning": "The definition explicitly states 'through or as if through the power of prophecy', indicating a specific, often mystical, manner of foretelling."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The act of vaticinating is based on 'prophecy', which implies non-empirical or inferred knowledge rather than direct experience or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action of foretelling."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with intention, even if inspired by external forces."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of foretelling is neutral; the content of the prophecy could be positive or negative, but the verb itself does not carry inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody vaticinate something' clearly denotes a volitional agent performing the action of prophecy."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'vaticinate' implies a strong belief in the certainty of the prediction by the one making it, as it is presented as a prophecy."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of delivering a prophecy."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'declaration'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

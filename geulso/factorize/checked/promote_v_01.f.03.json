@@ -1,0 +1,56 @@
+{
+  "synset_id": "promote.v.01",
+  "definition": "contribute to the progress or growth of",
+  "frame_id": 3,
+  "frame_text": "Somebody boost something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "development.n.01",
+      "reasoning": "The verb 'promote' describes the act of causing or contributing to the progress or growth (development) of something, thus acting as a form of causation leading to a state of increased development.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that initiates or facilitates the development of the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the progress or growth due to the promotion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of promoting or contributing to growth is typically a directly observable or verifiable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a causal relationship or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, therefore lacking conscious will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'contribute to the progress or growth of' inherently carries a positive sentiment, as progress and growth are generally desirable outcomes."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional subject ('Something') that causes the action without conscious intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite contribution or causation leading to the specified outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'promote' can refer to a single act of contribution or an ongoing state of facilitating, but not necessarily a rapid succession of discrete, repetitive events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

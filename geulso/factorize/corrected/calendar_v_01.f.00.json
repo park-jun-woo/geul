@@ -1,0 +1,58 @@
+{
+  "synset_id": "calendar.v.01",
+  "definition": "enter into a calendar",
+  "frame_id": 0,
+  "frame_text": "Somebody calendar somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "record.n.02",
+      "reasoning": "The definition 'enter into a calendar' describes an action that causes a change in the state of an item from not being recorded to being recorded within a calendar system.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of entering the item into the calendar."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., an event, task) that is being entered or recorded in the calendar."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "calendar.n.01",
+          "reasoning": "The calendar serves as the location or instrument where the 'something' is recorded."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Entering something into a calendar is a directly observable or knowable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calendaring is neutral; its sentiment depends on the context of what is being calendared."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of entering something into a calendar."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of calendaring is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of entering a specific item into a calendar. While one might calendar many items, each instance is a distinct event."
+    }
+  }
+}

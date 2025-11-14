@@ -1,0 +1,58 @@
+{
+  "synset_id": "cabin.v.01",
+  "definition": "confine to a small space, such as a cabin",
+  "frame_id": 0,
+  "frame_text": "Somebody cabin somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "confinement.n.01",
+      "reasoning": "The verb 'cabin' describes an action that causes a change in the patient's state, specifically moving them from a state of freedom to a state of being confined.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of confining, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state by being confined, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "space.n.01",
+          "reasoning": "The definition explicitly mentions 'a small space, such as a cabin' as the resulting location of the confinement, making it the destination for the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of confining is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by their will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Confining someone to a small space is generally considered a negative action, as it restricts freedom."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of confining is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'cabin' describes a single, discrete act of initiating confinement, not an inherently repetitive process."
+    }
+  }
+}

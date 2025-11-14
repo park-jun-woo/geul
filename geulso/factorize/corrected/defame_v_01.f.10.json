@@ -1,0 +1,73 @@
+{
+  "synset_id": "defame.v.01",
+  "definition": "charge falsely or with malicious intent; attack the good name and reputation of someone",
+  "frame_id": 10,
+  "frame_text": "Something besmirch somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The definition 'attack the good name and reputation of someone' clearly indicates a negative alteration or damage to a person's reputational state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame serves as the grammatical subject, initiating or causing the defamatory action, even if not volitional in itself.",
+          "value_type": "event.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the individual whose reputation is targeted and negatively affected.",
+          "value_type": "person.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "malicious_and_false.a.01",
+      "reasoning": "The definition explicitly states 'charge falsely or with malicious intent', which describes the intrinsic nature and manner of the defamatory act."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming, or its effects, is typically experienced directly or reported as a factual event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The grammatical subject 'Something' in this specific frame is non-agentive and therefore cannot possess will or intention, despite the verb's inherent meaning of maliciousness, which is captured in the sememes."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb does not inherently specify a tense, thus neutral (present/timeless)."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a discrete act of charging or attacking, implying a simple, non-progressive, and non-perfective event."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'defame' itself carries a neutral politeness level; its politeness depends on context."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition uses phrases like 'charge falsely', 'malicious intent', and 'attack the good name', all of which indicate a negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something ----s somebody' indicates a non-volitional subject ('Something'), making the action non-volitional for the subject in this frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of defaming is described as a definite occurrence or accusation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of an act of defamation, not an inherently repetitive action."
+    }
+  }
+}

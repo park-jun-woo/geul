@@ -1,0 +1,65 @@
+{
+  "synset_id": "slap.v.01",
+  "definition": "hit with something flat, like a paddle or the open hand",
+  "frame_id": 1,
+  "frame_text": "Somebody slap something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes an action that causes a transition from no physical contact to physical contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the action of striking."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who receives the physical contact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "flat.a.01",
+      "reasoning": "The definition specifies the hitting is done 'with something flat, like a paddle or the open hand', characterizing the manner of contact."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "force.n.01",
+      "value_type": "strong.a.01",
+      "reasoning": "The verb 'slap' implies a distinct and strong physical impact rather than a gentle touch."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of slapping is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of slapping is generally neutral in sentiment, though it can be interpreted negatively or playfully depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody slap somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of slapping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of striking, unless specified otherwise (e.g., 'slap repeatedly')."
+    }
+  }
+}

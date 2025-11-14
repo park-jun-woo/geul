@@ -1,0 +1,79 @@
+{
+  "synset_id": "transfer.v.01",
+  "definition": "transfer somebody to a different position or location of work",
+  "frame_id": 1,
+  "frame_text": "Somebody reassign somebody PP",
+  "sememes": {
+    "CoreAction_LocationChange": {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'transfer somebody to a different position or location of work' explicitly states a change in the physical location of the person. This constitutes a change of state regarding their location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame acts as the initiator and cause of the transfer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the person whose location is changed; they are the undergoer of the action."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the verb frame specifies the new or target location of the transfer."
+        }
+      ]
+    },
+    "CoreAction_PositionChange": {
+      "verb_type": "change",
+      "verb_property": "position.n.02",
+      "reasoning": "Beyond just physical location, the definition also includes 'to a different position or location of work', implying a change in their professional role or assignment. This is a change of state regarding their professional standing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame acts as the initiator and cause of the transfer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the person whose position is changed; they are the undergoer of the action."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the verb frame specifies the new or target position of the transfer."
+        }
+      ]
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of transferring someone is a directly observable and verifiable administrative action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event as a fact."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a clear agent ('Somebody') initiating the transfer implies a strong will and intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transferring is inherently neutral; its positive or negative sentiment depends on the context and the individuals involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody transfer somebody PP' clearly indicates that a volitional agent ('Somebody') performs the action deliberately."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or instruction, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of transferring an individual."
+    }
+  },
+  "errors": [
+    "`sememes`가 리스트가 아닙니다."
+  ]
+}

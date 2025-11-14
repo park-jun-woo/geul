@@ -1,0 +1,62 @@
+{
+  "synset_id": "testify.v.02",
+  "definition": "provide evidence for",
+  "frame_id": 9,
+  "frame_text": "Somebody testify PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The definition 'provide evidence for' indicates an act of imparting information, which is a form of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of providing evidence, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "evidence.n.01",
+          "reasoning": "The core semantic object being provided is 'evidence', which is implicit in the verb 'testify'."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' in the frame (e.g., 'for the defense', 'about the incident') refers to the subject or purpose of the testimony."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "Implicit in the act of testifying is an audience or receiver of the evidence (e.g., a court, a jury)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "To 'testify' implies providing information based on direct knowledge or experience, hence direct evidentiality."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state of affairs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to provide testimony."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of testifying is neutral; its sentiment depends on the content and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody testify...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Testifying inherently implies assertion and certainty about the evidence being provided."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'testify' describes a single event of providing evidence, even if it's part of a longer process like a trial."
+    }
+  }
+}

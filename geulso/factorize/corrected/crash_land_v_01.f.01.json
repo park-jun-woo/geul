@@ -1,0 +1,65 @@
+{
+  "synset_id": "crash_land.v.01",
+  "definition": "make an emergency landing",
+  "frame_id": 1,
+  "frame_text": "Somebody crash_land PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.02",
+      "reasoning": "The verb describes the action of bringing an entity to rest on a surface, implying a change from an airborne to a grounded position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who controls or is the entity performing the landing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' that undergoes the change of position, which is the entity coming to rest (reflexive with the agent or the entity controlled by the agent)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The 'crash' component of the verb indicates a forceful, potentially destructive, or uncontrolled manner of landing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value_type": "emergency.n.01",
+      "reasoning": "The definition 'make an emergency landing' specifies a critical and unplanned condition necessitating the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Crash-landing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Although forced by circumstances, making an emergency landing is a deliberate act of will by the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The terms 'crash' and 'emergency' inherently carry a negative connotation, implying danger or misfortune."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies a volitional agent who makes a conscious decision to perform the emergency landing, even if under duress."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of crash-landing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A crash-landing is typically a single, discrete event, not a repetitive action."
+    }
+  }
+}

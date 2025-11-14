@@ -1,0 +1,59 @@
+{
+  "synset_id": "strand.v.02",
+  "definition": "drive (a vessel) ashore",
+  "frame_id": 1,
+  "frame_text": "Something strand something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a change in the location of an object (a vessel) to a specific place (ashore).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity or force that causes the vessel to move ashore."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vessel.n.01",
+          "reasoning": "The second 'something' in the frame is the object (specifically, a vessel as per the definition) that undergoes the change of location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "shore.n.01",
+          "reasoning": "The implicit destination 'ashore' from the definition specifies the endpoint of the vessel's movement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of stranding is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something strand something' implies a non-volitional agent (e.g., wind, current) lacking will, thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stranding is descriptively neutral, though it may have negative consequences for the vessel or its occupants."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something strand something' indicates that the action is caused by a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of stranding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of driving a vessel ashore."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "synset_id": "fetch.v.02",
+  "definition": "be sold for a certain price",
+  "frame_id": 1,
+  "frame_text": "Something bring_in something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "value.n.01",
+      "reasoning": "The definition 'be sold for a certain price' describes a transition where an item acquires or is assigned a specific monetary value as a result of a sale, indicating a change in its realized worth.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The first 'Something' in the frame, which is the item that undergoes the process of being sold and whose value is determined.",
+          "value_type": "item.n.01"
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The second 'something' in the frame, which represents the specific monetary price or value obtained as the outcome of the sale.",
+          "value_type": "price.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The price an item fetches is a factual and directly observable outcome of a transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about an item's monetary outcome."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (the item) is inanimate and incapable of exercising will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fetching a price is semantically neutral; the sentiment associated depends on the specific price (e.g., high or low)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with an inanimate 'Something' as the subject indicates a non-volitional action or state, as the item itself does not intentionally fetch a price."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Once a price has been fetched, it is a definite and established value."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single event where a specific price is realized for an item in a particular transaction."
+    }
+  }
+}

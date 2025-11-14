@@ -1,0 +1,59 @@
+{
+  "synset_id": "cocainize.v.01",
+  "definition": "anesthetize with cocaine",
+  "frame_id": 2,
+  "frame_text": "Something cocainise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sensation.n.01",
+      "reasoning": "The definition 'anesthetize' describes a change from a state of being sensitive to being insensitive to pain, which is a change in sensation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity that causes the change in sensation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity whose sensation is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "cocaine.n.01",
+      "reasoning": "The definition explicitly states 'anesthetize *with cocaine*', indicating that cocaine is the specific instrument or means used to effect the change."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cocainizing is typically a directly observable event or its effects are directly experienced/observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something cocainise somebody' suggests the 'Something' is typically an inanimate agent (e.g., the drug itself or its administration) and thus lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of anesthetizing is a neutral medical process, though the use of cocaine can have negative connotations, the verb itself primarily describes a functional outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The 'Something' in the verb frame 'Something cocainise somebody' is inanimate and cannot perform a volitional act. The effect is caused rather than intentionally performed by the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of causing anesthesia."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of anesthetizing typically refers to a single, albeit potentially sustained, event."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "cup.v.03",
+  "definition": "treat by applying evacuated cups to the patient's skin",
+  "frame_id": 1,
+  "frame_text": "Somebody transfuse somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes an action that aims to alter or improve the patient's physical condition, consistent with 'treating'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who performs the medical treatment (cupping)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the recipient of the treatment and whose condition is intended to change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "application of evacuated cups",
+      "reasoning": "The definition explicitly specifies the unique method of treatment as 'applying evacuated cups to the patient's skin'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cupping is a directly observable physical procedure."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cupping as a medical treatment is inherently neutral; while its intent is positive, the procedure itself does not carry an inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of treatment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of applying cups, though it can be part of a larger, potentially repetitive, treatment plan."
+    }
+  }
+}

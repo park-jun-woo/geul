@@ -1,0 +1,56 @@
+{
+  "synset_id": "overhaul.v.02",
+  "definition": "make repairs, renovations, revisions or adjustments to",
+  "frame_id": 1,
+  "frame_text": "Somebody modernize something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "amelioration.n.01",
+      "reasoning": "The verb 'overhaul' describes the process of making something better or improving its condition through repairs, renovations, or adjustments, as indicated by the definition and the hypernym 'regenerate' (to make new or like new, usually improved).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of overhauling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that undergoes the process of improvement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Overhauling is a physical action that is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of overhauling, defined as making repairs, renovations, or adjustments for improvement, carries an inherently positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody modernize something' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "An overhaul is generally considered a single, comprehensive event, even if it comprises many steps, rather than a repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

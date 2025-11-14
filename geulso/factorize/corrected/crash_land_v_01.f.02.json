@@ -1,0 +1,67 @@
+{
+  "synset_id": "crash_land.v.01",
+  "definition": "make an emergency landing",
+  "frame_id": 2,
+  "frame_text": "Something crash_land",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of moving and coming to rest, which is a change in location/position, aligning with its hypernym 'land.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of moving, such as an aircraft, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' indicates the location where the landing occurs, serving as the destination of the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "emergency.n.01",
+      "reasoning": "The verb 'crash_land' inherently implies that the landing is performed under 'emergency' conditions, as stated in the definition. The 'crash' aspect further specifies this as a forced or uncontrolled manner of landing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A crash landing is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is typically inanimate (e.g., an aircraft) and therefore lacks inherent will. The 'crash' aspect suggests circumstances beyond full control, reducing agentive will."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something *is* crash_landing PP' explicitly indicates a progressive aspect, showing an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "An 'emergency landing' or 'crash landing' is inherently a negative or undesirable event."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' is typically non-volitional. Furthermore, a 'crash landing' implies the action is forced by emergency circumstances, rather than being fully intentional or controlled."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A landing event is typically a single, non-repetitive occurrence."
+    }
+  }
+}

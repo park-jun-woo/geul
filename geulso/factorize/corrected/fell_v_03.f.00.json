@@ -1,0 +1,59 @@
+{
+  "synset_id": "fell.v.03",
+  "definition": "sew a seam by folding the edges",
+  "frame_id": 0,
+  "frame_text": "Somebody fell something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb describes the action of creating a connection or fastening a seam, which is a change of state for the material from unconnected to connected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the sewing action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., fabric, seam) whose state of connection is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "folding.n.01",
+      "reasoning": "The definition explicitly specifies 'by folding the edges' as the distinctive manner in which the seam is sewn."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of felling a seam is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sewing is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of felling a seam is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sewing, by its nature, involves continuous, highly repetitive motions (stitches). Therefore, it has high iterativity."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "travel_by.v.01",
+  "definition": "move past",
+  "frame_id": 29,
+  "frame_text": "Something pass_by something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move past' describes a change in location relative to another object, indicating a change in spatial state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The first 'Something' in the verb frame is the entity that undergoes the motion, thus acting as the patient."
+        },
+        {
+          "semantic_role": "reference_point.n.01",
+          "reasoning": "The second 'something' in the verb frame serves as the stationary or relative point past which the first entity moves."
+        }
+      ]
+    },
+    {
+      "verb_type": "spatial_relation",
+      "verb_property": "proximity.n.01",
+      "value_type": "past.r.01",
+      "reasoning": "The 'past' component of 'pass by' specifies the spatial relationship of the movement relative to the reference point."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of moving past is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something pass_by something' implies a non-agentive subject, thus indicating no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving past is inherently neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something pass_by something' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'pass by' typically refers to a single instance of moving past something, not a repeated action by default."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'spatial_relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "synset_id": "continue.v.06",
+  "definition": "do something repeatedly and showing no intention to stop",
+  "frame_id": 0,
+  "frame_text": "Somebody continue something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "activity.n.01",
+      "reasoning": "The definition 'do something' indicates that the verb's core meaning involves the performance of an action or task.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the activity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the action or activity that is being carried out."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "uninterrupted",
+      "reasoning": "This sememe captures the essence of 'continue' as prolonging or maintaining an activity without cessation, as specified by 'showing no intention to stop' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of continuing an action is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes an action, making it declarative."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' and the phrase 'showing no intention to stop' strongly imply an agent's will and intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of continuing an action is inherently neutral; its positive or negative connotation depends on the specific action and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody continue something' and the phrase 'showing no intention to stop' explicitly indicate an intentional, volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition explicitly includes 'do something repeatedly', indicating a high degree of repetition."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The definition 'do something repeatedly and showing no intention to stop' clearly indicates an ongoing, progressive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "outpoint.v.01",
+  "definition": "sail closer to the wind than",
+  "frame_id": 1,
+  "frame_text": "Somebody outpoint something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "sailing.n.01",
+      "reasoning": "The definition 'sail closer to the wind than' establishes sailing as the fundamental activity performed by the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who is the active participant performing the sailing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "superiority.n.01",
+      "reasoning": "The 'out-' prefix in 'outpoint' and the comparative 'closer to the wind than' in the definition indicate a specific manner of performing the activity that results in achieving superiority over another participant.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the recipient of the outpointing action and is thereby surpassed or placed in an inferior position."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of outpointing is typically a directly observable event in a competition."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or achievement."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with clear intention and will in a competitive context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of outpointing is inherently neutral; its positive or negative sentiment depends on the perspective of the participants."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or achievement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'outpoint' describes a single act of achieving superiority or a sustained state of advantage, rather than discrete, repetitive sub-events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

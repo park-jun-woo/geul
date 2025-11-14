@@ -1,0 +1,61 @@
+{
+  "synset_id": "roast.v.01",
+  "definition": "cook with dry heat, usually in an oven",
+  "frame_id": 2,
+  "frame_text": "Something roast",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cooked.a.01",
+      "reasoning": "The verb describes the action of causing food to change from a raw state to a cooked state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of cooking, initiating the change of state.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (food) that undergoes the change of state from raw to cooked.",
+          "value_type": "food.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value": "dry heat",
+      "reasoning": "The definition explicitly specifies 'with dry heat' as the method, which is a core semantic component distinguishing 'roast' from other cooking verbs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of roasting is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of roasting is neutral in sentiment; the outcome may be judged positively or negatively."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody roast something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is carried out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, continuous act of cooking an item or batch of food."
+    }
+  }
+}

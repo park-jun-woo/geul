@@ -1,0 +1,57 @@
+{
+  "synset_id": "act.v.03",
+  "definition": "play a role or part",
+  "frame_id": 6,
+  "frame_text": "Somebody represent",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "performance.n.01",
+      "reasoning": "The verb 'act' in this sense describes the sustained activity of performing or embodying a role.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally undertakes the activity of acting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "role.n.01",
+          "reasoning": "The 'represent' in the frame is interpreted as the 'role' or 'part' being played or represented, as specified by the definition 'play a role or part'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of performing a role is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of acting or playing a role is inherently neutral. Its sentiment depends on the specific context or content."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of acting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence or ongoing state of performing."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Playing a role is typically a sustained activity composed of continuous, often repetitive, actions within a performance, thus indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

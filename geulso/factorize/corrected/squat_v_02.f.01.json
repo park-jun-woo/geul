@@ -1,0 +1,65 @@
+{
+  "synset_id": "squat.v.02",
+  "definition": "be close to the earth, or be disproportionately wide",
+  "frame_id": 1,
+  "frame_text": "Something squat",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The verb describes an agent causing a change in the physical form or position of an object, leading it to assume a low and/or wide appearance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of making something squat, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose form or position is altered to be low and wide."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "position.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "One core aspect of the resulting state of the patient is being in a low position, which is interpreted from 'close to the earth' in the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "dimension.n.01",
+      "value_type": "wide.a.01",
+      "reasoning": "Another core aspect of the resulting state of the patient is being 'disproportionately wide', which refers to a specific dimension."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making something squat is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making something squat is neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing something to squat is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of causing the change."
+    }
+  }
+}

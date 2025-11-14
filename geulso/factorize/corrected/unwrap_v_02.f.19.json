@@ -1,0 +1,64 @@
+{
+  "synset_id": "unwrap.v.02",
+  "definition": "make known to the public information that was previously known only to a few people or that was meant to be kept a secret",
+  "frame_id": 19,
+  "frame_text": "Somebody give_away something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes making information known to the public, which is a change in the state of who possesses or is aware of that knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the act of disclosure, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' that is disclosed and undergoes a change in its known status."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' (often implicitly the public) to whom the information is made known."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "confidentiality.n.01",
+      "value": "secret.a.01",
+      "reasoning": "A core semantic component of this specific sense of 'give away' is that the information was previously a secret or meant to be kept private."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of giving away information is a directly observable or experienced action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While disclosing a secret can have negative implications, the act of making information known is semantically neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody give_away...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of giving away information is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of disclosing a piece of information."
+    }
+  }
+}

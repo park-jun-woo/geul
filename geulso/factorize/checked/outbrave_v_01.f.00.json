@@ -1,0 +1,77 @@
+{
+  "synset_id": "outbrave.v.01",
+  "definition": "resist bravely",
+  "frame_id": 0,
+  "frame_text": "Somebody outbrave somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "resistance.n.01",
+      "reasoning": "The core meaning of 'outbrave' is to offer resistance, as directly implied by the definition 'resist bravely' and its hypernym 'resist'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the act of resistance."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is the object or target of the resistance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "brave.a.01",
+      "reasoning": "The 'bravely' in the definition 'resist bravely' indicates the manner in which the resistance is performed."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "superiority.n.01",
+      "reasoning": "The 'out-' prefix in 'outbrave' denotes that the agent's bravery in resistance is greater than or surpasses that of the patient, establishing a state of superiority.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The agent who achieves a state of superior bravery relative to another."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity whose bravery is surpassed by the causal agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of outbraving is typically a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies that the action is driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While bravery is generally seen as positive, the act of resisting can be neutral; its sentiment depends on the context of what is being resisted. The verb itself carries no inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody outbrave somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'outbrave' describes a single, complete event of surpassing someone in bravery during resistance, even if the resistance itself might be ongoing."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

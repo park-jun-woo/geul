@@ -1,0 +1,64 @@
+{
+  "synset_id": "decrepitate.v.01",
+  "definition": "undergo decrepitation and crackle",
+  "frame_id": 0,
+  "frame_text": "Something decrepitate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes a process where 'Something' undergoes a change in its physical integrity, often involving breaking apart or cracking.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that experiences the change in integrity due to decrepitation, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.01",
+      "value_type": "crackle.n.01",
+      "reasoning": "The definition explicitly includes 'crackle', indicating the emission of a characteristic sound during the decrepitation process.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' that produces the crackling sound as it decrepitates."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Decrepitation is a physical process that is typically observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence, consistent with a declarative mood."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something decrepitate' indicates a non-agentive subject, meaning no will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical process of decrepitation is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something decrepitate' denotes an inanimate or non-agentive subject undergoing a process, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process or event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Both 'decrepitation' and 'crackle' suggest a process involving multiple, rapid, repetitive smaller events rather than a single discrete action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

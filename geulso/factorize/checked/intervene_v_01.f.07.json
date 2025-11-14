@@ -1,0 +1,69 @@
+{
+  "synset_id": "intervene.v.01",
+  "definition": "get involved, so as to alter or hinder an action, or through force or threat of force",
+  "frame_id": 7,
+  "frame_text": "Somebody step_in PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "participation.n.02",
+      "reasoning": "The verb describes the core act of an agent getting involved or taking part in an existing situation or process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of intervention, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "state_of_affairs.n.01",
+          "reasoning": "The 'action' or 'state of affairs' that the agent intervenes in, often specified by the prepositional phrase (PP) in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "influence.n.01",
+      "reasoning": "The definition explicitly states the purpose of getting involved as 'to alter or hinder an action', which is a form of influence.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "coercion.n.01",
+      "reasoning": "The definition specifies 'through force or threat of force' as a possible method of intervention, indicating a specific manner or means."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Intervening is typically a directly observable action or one experienced firsthand."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary use is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies intentionality and strong will behind the action of intervening."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of intervening itself is neutral; its positive or negative sentiment depends on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody step_in PP' clearly indicates that the action is performed by a volitional agent ('Somebody')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of intervention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The base meaning refers to a single instance of intervention, though it could occur repeatedly in specific contexts."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

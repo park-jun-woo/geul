@@ -1,0 +1,60 @@
+{
+  "synset_id": "featherbed.v.02",
+  "definition": "hire more workers than are necessary",
+  "frame_id": 0,
+  "frame_text": "Somebody featherbed",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "employment.n.01",
+      "reasoning": "The definition 'hire more workers' describes initiating a state of employment, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the agent (e.g., an organization) performing the hiring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "worker.n.01",
+          "reasoning": "The 'workers' are the entities being hired, implicitly present in the verb's definition even if not explicitly a direct object in this intransitive frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "The phrase 'more workers than are necessary' specifies a quantitative property of the hiring action, indicating an excessive or redundant number of employees."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of featherbedding (hiring decisions) is typically a directly observable or documentable action within an organization."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or practice."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Featherbedding, as an act of 'hiring', implies deliberate decision-making and strong will on the part of the agent (e.g., an organization acting through its management)."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'featherbed' inherently carries a negative connotation due to the implication of inefficiency, waste, or redundancy ('more workers than are necessary')."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action of 'hiring' (even excessively) is a volitional act. The 'Something' in the frame, interpreted as an organization, acts intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act or practice."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Without specific temporal markers, the verb describes a single instance of engaging in the practice of featherbedding. If it were referring to a continuous policy, it might be higher, but as a verb instance, a single event is assumed."
+    }
+  }
+}

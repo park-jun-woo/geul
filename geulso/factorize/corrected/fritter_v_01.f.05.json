@@ -1,0 +1,63 @@
+{
+  "synset_id": "fritter.v.01",
+  "definition": "spend frivolously and unwisely",
+  "frame_id": 5,
+  "frame_text": "Somebody frivol_away something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes an action where the agent causes a change in the possession or availability of resources (something), moving it from their possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of spending, initiating the change in possession."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., money, time) that is being spent and whose possession or availability changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "wasteful.a.01",
+      "reasoning": "The definition explicitly states the spending is done 'frivolously and unwisely', indicating a wasteful manner of using resources, captured by the 'wasteful' adjective."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of frittering away resources is a directly observable phenomenon or can be directly reported."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "No specific politeness level is inherent in the verb itself."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'spend frivolously and unwisely' clearly implies a negative sentiment or outcome for the spending."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody frivol_away something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action occurring."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'fritter away' often implies a gradual or repeated wasting of resources over time, suggesting high iterativity rather than a single discrete event."
+    }
+  }
+}

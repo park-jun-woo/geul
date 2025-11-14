@@ -1,0 +1,65 @@
+{
+  "synset_id": "strafe.v.01",
+  "definition": "attack with machine guns or cannon fire from a low-flying plane",
+  "frame_id": 1,
+  "frame_text": "Something strafe somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb 'strafe' describes an action that causes damage or harm, thereby changing the integrity or well-being of the target. 'Attack' is a direct hypernym.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame (e.g., an aircraft or its weapon system) is the entity that performs the strafing action and causes the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the target of the attack and undergoes the harmful change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "using firearms",
+      "reasoning": "The definition explicitly states the attack is carried out 'with machine guns or cannon fire,' which specifies the manner of execution."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "origin.n.01",
+      "value": "from a low-flying plane",
+      "reasoning": "The definition specifies that the attack originates 'from a low-flying plane,' indicating the source and characteristic movement of the attacking entity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Strafing, as a physical act of aggression, is typically directly observable or verifiable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "An 'attack' (as indicated by its hypernym) is inherently a deliberate act, implying strong will from the (often implicit) agent controlling the 'Something' (e.g., a pilot)."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Strafing is a military attack, which is inherently negative due to the intent to cause harm or destruction."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite 'Something' being the grammatical subject, 'strafe' describes a purposeful military operation, indicating a volitional act by an implicit human agent (e.g., a pilot)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'strafe' describes a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Strafing involves the use of 'machine guns or cannon fire,' which implies sustained or highly repetitive discharge of projectiles, indicating high iterativity."
+    }
+  }
+}

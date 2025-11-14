@@ -1,0 +1,67 @@
+{
+  "synset_id": "condescend.v.02",
+  "definition": "do something that one considers to be below one's dignity",
+  "frame_id": 0,
+  "frame_text": "Somebody condescend to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "action.n.01",
+      "reasoning": "The definition 'do something' and the hypernym 'act.v.01' indicate that the primary meaning of the verb is the performance of an action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'to INFINITIVE' phrase represents the specific action that is performed by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "attitude.n.01",
+      "value_type": "superiority.n.01",
+      "reasoning": "The phrase 'one considers to be below one's dignity' reveals the agent's internal state and attitude of perceived superiority or disdain that accompanies the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of condescending is typically a directly observable behavior or interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative statement of an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent performs the action with their own will and intention, even if the action itself is perceived as undesirable by them."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "To condescend is inherently an impolite or demeaning social behavior, stemming from a perceived social superiority."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of condescending carries a strong negative sentiment due to the implied arrogance and disdain."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s to INFINITIVE' explicitly indicates a volitional agent who chooses to perform the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of performing an action with a condescending attitude, without inherent repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

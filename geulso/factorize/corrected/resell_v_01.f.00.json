@@ -1,0 +1,68 @@
+{
+  "synset_id": "resell.v.01",
+  "definition": "sell (something) again after having bought it",
+  "frame_id": 0,
+  "frame_text": "Somebody resell something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the act of selling, which involves a transfer of possession from the agent to a new owner.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of selling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "possession.n.02",
+      "reasoning": "The 're-' prefix and the definition 'after having bought it' imply a prior state where the causal agent had possession of the patient, specifically through acquisition, before the current act of selling.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "Refers to the 'Somebody' who was in possession of the item after having bought it."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "Refers to the 'something' that was previously possessed by the agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reselling is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reselling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reselling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of selling, even though it implies a prior transaction in its semantic structure (captured in a separate sememe)."
+    }
+  }
+}

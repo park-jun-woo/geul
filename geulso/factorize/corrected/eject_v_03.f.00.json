@@ -1,0 +1,66 @@
+{
+  "synset_id": "eject.v.03",
+  "definition": "leave an aircraft rapidly, using an ejection seat or capsule",
+  "frame_id": 0,
+  "frame_text": "Somebody eject",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a rapid change in location, specifically moving out of a confined space.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of leaving the aircraft, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "aircraft.n.01",
+          "reasoning": "The 'aircraft' from which the agent departs, as implied by the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "The definition explicitly states that the action of leaving is done 'rapidly'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "ejection_seat.n.01",
+      "reasoning": "The definition specifies 'using an ejection seat or capsule' as the means for exiting, indicating an instrument."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Ejecting is a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action of ejecting is performed by 'Somebody', implying a strong will or necessity leading to the decision."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ejecting itself is neutral, though the circumstances requiring it are often negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody eject' explicitly indicates a volitional agent performing the action, even if under duress."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of leaving an aircraft."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of ejecting is typically a single, decisive event."
+    }
+  }
+}

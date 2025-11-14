@@ -1,0 +1,66 @@
+{
+  "synset_id": "hand.v.02",
+  "definition": "guide or conduct or usher somewhere",
+  "frame_id": 0,
+  "frame_text": "Somebody hand somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'hand' in this sense means to guide or conduct someone to a location, implying a change in their spatial position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Somebody' in the frame who actively performs the guiding action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is the object of the guiding action, undergoing a change of location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The definition 'guide or conduct or usher somewhere' inherently implies a destination, even if not explicitly stated in this simplified verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "support.n.01",
+      "reasoning": "The act of 'handing' someone implies providing assistance or physical support in their movement, often by hand.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of guiding or conducting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of guiding someone is generally neutral; the context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action of guiding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of guiding someone to a place."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

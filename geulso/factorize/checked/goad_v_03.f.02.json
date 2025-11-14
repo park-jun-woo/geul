@@ -1,0 +1,62 @@
+{
+  "synset_id": "goad.v.03",
+  "definition": "stab or urge on as if with a pointed stick",
+  "frame_id": 2,
+  "frame_text": "Somebody prick somebody",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb 'goad' implies causing someone to undertake an action or to change their state of inaction, as indicated by 'urge on' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of goading, driving another to act."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is urged or incited to take action by the goading."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "pricking.n.01",
+      "reasoning": "The definition 'as if with a pointed stick' and the term 'stab' specify a forceful, sharp, or irritating manner of stimulation. The use of 'prick' in the input verb frame further reinforces this specific manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of goading is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies an agent acting with clear intention and will to goad."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of goading itself is neutral; its sentiment depends on the context and the nature of the action being incited."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of goading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing incitement or urging, though the action could be repeated."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

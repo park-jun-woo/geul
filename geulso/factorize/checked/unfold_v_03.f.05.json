@@ -1,0 +1,57 @@
+{
+  "synset_id": "unfold.v.03",
+  "definition": "extend or stretch out to a greater or the full length",
+  "frame_id": 5,
+  "frame_text": "Something stretch",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "dimension.n.01",
+      "reasoning": "The definition 'extend or stretch out to a greater or the full length' describes a change in the physical dimension (length/extent) of an object.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in dimension."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "extension.n.05",
+      "reasoning": "The core meaning of 'unfold' in this context is to increase in linear extent or span, reaching a greater or full length."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something stretching or unfolding is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something stretch' lacks an agent capable of will, indicating no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stretching or unfolding is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something stretch' describes an event happening to a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of stretching or unfolding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single process of extending to a greater or full length, not inherent repetition."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

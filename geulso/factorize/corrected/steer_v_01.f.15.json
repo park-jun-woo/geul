@@ -1,0 +1,59 @@
+{
+  "synset_id": "steer.v.01",
+  "definition": "direct the course; determine the direction of travelling",
+  "frame_id": 15,
+  "frame_text": "Somebody maneuver",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "direction.n.01",
+      "reasoning": "The verb 'steer' means to direct the course or determine the direction of travelling, indicating a change in the spatial orientation or path of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the active agent who initiates and performs the action of directing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "Although implicit in the frame 'Somebody maneuver', the core meaning of 'steer' requires an entity (e.g., a vehicle, a person's path, or a situation) whose direction is being changed or guided. This is the entity undergoing the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "controlled.a.01",
+      "reasoning": "The definition 'direct the course' and the associated term 'maneuver' imply that the change in direction is carried out in a deliberate and controlled manner, not haphazardly."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of steering or maneuvering is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies intentionality and will in performing the action of steering."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of steering itself is neutral; its sentiment depends on the context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody maneuver' indicates an intentional and volitional act performed by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being carried out."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Steering or maneuvering typically involves a continuous series of adjustments and movements to maintain or change a course, implying high repetition rather than a single discrete event."
+    }
+  }
+}

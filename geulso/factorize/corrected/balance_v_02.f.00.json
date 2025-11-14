@@ -1,0 +1,54 @@
+{
+  "synset_id": "balance.v.02",
+  "definition": "compute credits and debits of an account",
+  "frame_id": 0,
+  "frame_text": "Somebody balance something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "equality.n.01",
+      "reasoning": "The definition 'compute credits and debits' implies an action that brings an account to a state of equality or equilibrium, representing a change from an unbalanced to a balanced state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of computing and adjusting the account."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "account.n.01",
+          "reasoning": "The 'something' (an account or financial records) that undergoes the change to a balanced state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of balancing an account is a direct, typically observable action or a result of such an action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of balancing an account is a neutral, functional activity; its sentiment depends on the financial outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'balance' implies an intent to achieve a correct or certain state for the account."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, complete event of balancing a specific account, even if it involves multiple sub-steps."
+    }
+  }
+}

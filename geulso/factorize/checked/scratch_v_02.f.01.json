@@ -1,0 +1,62 @@
+{
+  "synset_id": "scratch.v.02",
+  "definition": "cut the surface of; wear away the surface of",
+  "frame_id": 1,
+  "frame_text": "Somebody scrape something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The definition 'cut the surface of; wear away the surface of' describes an action that alters the physical state of an object's surface, which is a change in its integrity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of scratching."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose surface is cut or worn away by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "contact.n.01",
+      "value": "abrasive.a.01",
+      "reasoning": "The verb 'scratch' inherently implies a manner of contact that is abrasive, causing surface damage through friction or a sharp implement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scratching is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of scratching, as defined by physical alteration of a surface, is inherently neutral; the context determines its sentiment (e.g., a scratch can be a minor injury or an intentional mark)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of scratching is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially brief, event of surface alteration. Continuous scratching would typically be expressed with additional temporal modifiers."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

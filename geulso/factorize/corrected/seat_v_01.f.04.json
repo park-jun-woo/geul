@@ -1,0 +1,58 @@
+{
+  "synset_id": "seat.v.01",
+  "definition": "show to a seat; assign a seat for",
+  "frame_id": 4,
+  "frame_text": "Somebody sit_down somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.02",
+      "reasoning": "The verb describes causing someone to change their posture or location to a seated position, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the action of seating another person."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame whose position is changed to a seated state."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "seat.n.01",
+          "reasoning": "The implied location (a seat) where the patient is caused to sit."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of seating someone is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by their will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of seating someone is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sit_down somebody' explicitly involves a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of seating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of seating a person."
+    }
+  }
+}

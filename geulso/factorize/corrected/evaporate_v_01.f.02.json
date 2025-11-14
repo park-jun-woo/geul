@@ -1,0 +1,65 @@
+{
+  "synset_id": "evaporate.v.01",
+  "definition": "lose or cause to lose liquid by vaporization leaving a more concentrated residue",
+  "frame_id": 2,
+  "frame_text": "Somebody vaporize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "composition.n.01",
+      "reasoning": "The verb describes causing a substance to lose a liquid component, thereby changing its physical composition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity or force that causes the vaporization (e.g., heat, sun, wind)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the substance (e.g., liquid, solution) that undergoes the change by losing its liquid component."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "vaporization.n.01",
+      "reasoning": "The specific physical process by which the liquid is lost, as described in the definition ('by vaporization')."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "result.n.01",
+      "value_type": "concentrated_residue_state.n.01",
+      "reasoning": "The outcome of the evaporation process, leading to a 'more concentrated residue' as specified in the definition. The 'value_type' represents the resulting state of concentration."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Evaporation is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a physical process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent ('Something') in this frame is typically an inanimate force (e.g., heat, sun) and thus does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The process of evaporation is semantically neutral; its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The action described is typically caused by natural, inanimate forces ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite physical event or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Evaporation is a continuous physical process involving repetitive molecular changes over time, indicating high repetition rather than a single discrete event for the overall process."
+    }
+  }
+}

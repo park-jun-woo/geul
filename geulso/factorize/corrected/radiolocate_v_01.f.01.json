@@ -1,0 +1,59 @@
+{
+  "synset_id": "radiolocate.v.01",
+  "definition": "locate by means of radar",
+  "frame_id": 1,
+  "frame_text": "Somebody radiolocate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'radiolocate' describes the act of finding or determining the location of something, which is a change in the knowledge state regarding that location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of locating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose location is being determined, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "radar.n.01",
+      "reasoning": "The definition explicitly states 'by means of radar', indicating the instrument used for the action, which is a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of radiolocating involves direct perception of signals, leading to direct experience of the target's location."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of radiolocating is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The successful act of radiolocating implies certainty about the determined location."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of locating an entity."
+    }
+  }
+}

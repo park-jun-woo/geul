@@ -1,0 +1,67 @@
+{
+  "synset_id": "get_worse.v.01",
+  "definition": "deteriorate in health",
+  "frame_id": 0,
+  "frame_text": "Somebody get_worse",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The definition 'deteriorate in health' explicitly describes a transition in the subject's health status, indicating a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' is the entity whose health undergoes deterioration, serving as the patient of the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The term 'worse' in 'get worse' inherently signifies a decline or a negative change in the quality or condition of health."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The deterioration of health is typically observed or directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a change of state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Getting worse in health is not an action driven by the agent's will; it is something that happens to them."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated, so the present is assumed as the default."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "No specific aspect is indicated, so the simple aspect is assumed as the default."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "No specific politeness level is indicated, so neutral is assumed as the default."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'get worse' inherently carries a negative sentiment, signifying an undesirable change."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Somebody get_worse' describes a change that happens to the subject, not an intentional act, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A declarative statement about a state change implies certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Deterioration typically describes a continuous process that unfolds over time, rather than a single instantaneous event, thus indicating high repetition or a continuous progression."
+    }
+  }
+}

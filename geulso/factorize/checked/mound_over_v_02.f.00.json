@@ -1,0 +1,56 @@
+{
+  "synset_id": "mound_over.v.02",
+  "definition": "form a mound over",
+  "frame_id": 0,
+  "frame_text": "Somebody mound_over something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "mound.n.01",
+      "reasoning": "The verb 'mound_over' is defined as 'form a mound over', which directly implies the act of bringing a mound into existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action of creating the mound."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the object that has the mound formed over it, thus being affected by the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mounding over something is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mounding over is neutral in sentiment; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of mounding over is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'mound over' refers to a single, completed act of forming a mound."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "synset_id": "wheel.v.02",
+  "definition": "wheel somebody or something",
+  "frame_id": 2,
+  "frame_text": "Somebody wheel_around somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a change of location for a person or object, aligning with the hypernym 'transport'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being moved or transported."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' in the frame indicates the trajectory or area along which the wheeling occurs, reinforced by '_around'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "wheel.n.01",
+      "reasoning": "The verb 'wheel' inherently implies the use of wheels as the means of movement or transport."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "circular.a.01",
+      "reasoning": "The '_around' component of the verb frame specifies that the movement follows a circular or rotational path."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wheeling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wheeling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wheeling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wheeling 'around' typically implies a sustained or continuously repetitive motion along a path, rather than a single discrete action."
+    }
+  }
+}

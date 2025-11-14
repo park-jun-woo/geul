@@ -1,0 +1,56 @@
+{
+  "synset_id": "hark.v.01",
+  "definition": "listen; used mostly in the imperative",
+  "frame_id": 2,
+  "frame_text": "Somebody harken",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "perception.n.01",
+      "reasoning": "The verb 'hark' means to 'listen' or 'hear with intention', which is an active cognitive process related to sensory perception, specifically auditory. It is an activity rather than a static state or a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of harking/listening."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "'Hark' implies direct auditory experience, not inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The frame 'Somebody harken' is a declarative statement about an action, despite the verb's common imperative usage in other contexts."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of 'harking' or 'listening with intention' inherently involves a strong will and intention on the part of the agent."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "'Hark' is an archaic or formal term, indicating a high level of politeness or formality in usage."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of harking or listening is semantically neutral; its emotional valence depends on the context or what is being heard."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody harken' explicitly indicates a volitional agent ('Somebody') performing the intentional act of listening."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of harking, when it occurs, is a definite event or ongoing state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Harking/listening is often a continuous activity over a period, treated as a single, sustained event rather than a series of repetitions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

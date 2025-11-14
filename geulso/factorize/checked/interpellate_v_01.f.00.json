@@ -1,0 +1,72 @@
+{
+  "synset_id": "interpellate.v.01",
+  "definition": "question formally about policy or government business",
+  "frame_id": 0,
+  "frame_text": "Somebody interpellate somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "question.n.01",
+      "reasoning": "The verb describes the action of posing a question or making an inquiry, as supported by the definition 'question formally'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of questioning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the questioning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "formal.a.01",
+      "reasoning": "The definition explicitly states the questioning is done 'formally', indicating a specific manner."
+    },
+    {
+      "verb_type": "context",
+      "verb_property": "topic.n.01",
+      "value_type": "public_affairs.n.01",
+      "reasoning": "The questioning is specifically 'about policy or government business', which falls under the domain of public affairs or politics."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of interpellation is a direct, observable communicative event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The definition includes 'formally', which indicates a high level of politeness or adherence to protocol."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of questioning itself is neutral; its sentiment depends on the context or content."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody interpellate somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of interpellation is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit possibly complex, event of formal questioning, rather than a continuous repetition."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'context'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

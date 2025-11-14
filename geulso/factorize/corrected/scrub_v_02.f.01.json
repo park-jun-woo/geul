@@ -1,0 +1,66 @@
+{
+  "synset_id": "scrub.v.02",
+  "definition": "wash thoroughly",
+  "frame_id": 1,
+  "frame_text": "Somebody scrub_up",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb describes a process of making oneself clean, which is a change in the state of cleanliness from dirty to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of washing themselves."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body.n.01",
+          "reasoning": "The 'Somebody' cleans their own body (typically hands and arms in the context of 'scrub up'), making them both agent and patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "vigorous.a.01",
+      "reasoning": "The verb 'scrub' inherently denotes a vigorous or energetic manner of washing, often involving friction."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "completeness.n.01",
+      "value_type": "complete.a.01",
+      "reasoning": "The definition 'wash thoroughly' explicitly indicates that the action aims for a complete or exhaustive level of cleanliness."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scrubbing up is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of scrubbing is neutral; its sentiment depends on the broader context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody scrub_up' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of scrubbing up is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Scrubbing involves repetitive motions to achieve thoroughness, indicating a high degree of repetition rather than a single instantaneous event."
+    }
+  }
+}

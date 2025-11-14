@@ -1,0 +1,63 @@
+{
+  "synset_id": "stage.v.02",
+  "definition": "plan, organize, and carry out (an event)",
+  "frame_id": 0,
+  "frame_text": "Somebody arrange something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "occurrence.n.02",
+      "reasoning": "The verb describes the act of causing an event to happen or come into being, as indicated by 'carry out (an event)' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and carries out the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The 'something' in the verb frame that is caused to occur, which is specified as 'an event' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "plan_and_organize",
+      "reasoning": "The definition explicitly states that the action involves 'plan, organize' as the method by which the event is carried out."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of staging an event is typically a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the explicit mention of 'plan, organize, and carry out' imply strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of staging itself is neutral; the nature of the event being staged would determine any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' and the definition's components ('plan, organize, carry out') clearly indicate a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of bringing an event to fruition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of bringing a specific event into being."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

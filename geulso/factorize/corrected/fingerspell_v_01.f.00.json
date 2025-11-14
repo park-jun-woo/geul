@@ -1,0 +1,60 @@
+{
+  "synset_id": "fingerspell.v.01",
+  "definition": "communicate by means of specific gestures, as an alternative to sign language",
+  "frame_id": 0,
+  "frame_text": "Somebody finger-spell",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb describes the act of communicating, which involves a change in the state of information or knowledge being shared or transmitted.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of fingerspelling and initiates the communication."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "message.n.02",
+          "reasoning": "The 'something' (message or content) that is implicitly conveyed through fingerspelling, as implied by 'communicate'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "manual_sign.n.01",
+      "reasoning": "The definition specifies 'by means of specific gestures, as an alternative to sign language', indicating a particular manual modality of communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fingerspelling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fingerspelling is neutral; the content being fingerspelled determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody fingerspell' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of fingerspelling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of communication, although the act itself involves a sequence of gestures. The overall act is a single instance."
+    }
+  }
+}

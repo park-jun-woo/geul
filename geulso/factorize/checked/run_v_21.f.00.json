@@ -1,0 +1,56 @@
+{
+  "synset_id": "run.v.21",
+  "definition": "carry out",
+  "frame_id": 0,
+  "frame_text": "Somebody run something",
+  "sememes": [
+    {
+      "verb_type": "causal_process",
+      "verb_property": "operation.n.01",
+      "reasoning": "The verb describes an agent causing something to be carried out or put into operation, initiating and often sustaining a process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of carrying out or managing the 'something'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being carried out, managed, or operated by the agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of carrying out or running something is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of carrying out an action or managing a process is semantically neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody run something' explicitly includes a volitional agent, indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite act of carrying out or operating something."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'carry out' or 'run' often refers to a continuous or sustained process (e.g., 'run a business', 'run an experiment') which involves high repetition of constituent actions over time."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causal_process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

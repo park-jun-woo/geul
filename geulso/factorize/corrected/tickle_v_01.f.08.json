@@ -1,0 +1,60 @@
+{
+  "synset_id": "tickle.v.01",
+  "definition": "touch (a body part) lightly so as to excite the surface nerves and cause uneasiness, laughter, or spasmodic movements",
+  "frame_id": 8,
+  "frame_text": "Something vellicate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sensation.n.01",
+      "reasoning": "The verb describes a physical interaction that causes a change in the sensory state of the patient (exciting surface nerves) and elicits specific physical reactions (uneasiness, laughter, spasmodic movements).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of vellicating/tickling, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body_part.n.01",
+          "reasoning": "The 'something' that undergoes the change in sensation, explicitly defined as a 'body part' that is touched."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "light.a.01",
+      "reasoning": "A core semantic component of 'tickle' is the 'light' manner in which the touching occurs, distinguishing it from other forms of touch."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tickling and its resultant sensations are typically directly observable or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' agent in the verb frame implies a non-volitional cause, hence no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tickling can elicit varied reactions (laughter, uneasiness), making its inherent sentiment neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something vellicate something' describes an action initiated by a non-agentive subject ('Something'), indicating it is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action and its effects are described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Tickling typically involves continuous or highly repetitive light touches to excite nerves and cause the described effects, indicating high iterativity."
+    }
+  }
+}

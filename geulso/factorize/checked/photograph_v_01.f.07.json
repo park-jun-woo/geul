@@ -1,0 +1,56 @@
+{
+  "synset_id": "photograph.v.01",
+  "definition": "record on photographic film",
+  "frame_id": 7,
+  "frame_text": "Somebody snap somebody",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "photograph.n.01",
+      "reasoning": "The verb 'photograph' is defined as 'record on photographic film', which describes the act of bringing a photograph into existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of taking the photograph."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the subject of the photograph being created."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of photographing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of photographing itself is neutral; any sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody snap somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of taking a photograph."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'snap' (as a synonym for photograph) refers to a single instance of taking a picture."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "bail_out.v.02",
+  "definition": "remove (water) from a boat by dipping and throwing over the side",
+  "frame_id": 1,
+  "frame_text": "Somebody bale_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the action of removing water, which constitutes a change in its location from inside a container to outside.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of removing water."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (water) whose location is being changed through the bailing action."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "boat.n.01",
+          "reasoning": "The implicit location (a boat) from which the water is removed, as specified in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "scoop.v.01",
+      "reasoning": "The definition explicitly describes the method of removal as 'by dipping and throwing over the side', which is characteristic of a scooping action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bailing out is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bailing out water is neutral; its positive or negative sentiment is context-dependent (e.g., saving a sinking boat)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bailing out is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Bailing out water typically involves a series of repeated 'dipping and throwing' actions rather than a single event, indicating high repetition."
+    }
+  }
+}

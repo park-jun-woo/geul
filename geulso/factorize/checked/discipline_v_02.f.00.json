@@ -1,0 +1,61 @@
+{
+  "synset_id": "discipline.v.02",
+  "definition": "punish in order to gain control or enforce obedience",
+  "frame_id": 0,
+  "frame_text": "Somebody correct somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb describes an action intended to cause a change in the patient's behavior towards a state of obedience or control.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of disciplining, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the intended change in behavior."
+        }
+      ]
+    },
+    {
+      "verb_type": "method",
+      "verb_property": "punishment.n.01",
+      "reasoning": "The definition explicitly states that the change in behavior is achieved through the method of 'punish'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disciplining is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The core method of 'punishment' inherently carries a negative sentiment for the recipient, despite the potential positive long-term goal."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody discipline somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of disciplining is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance or event of discipline, even if it can be repeated."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'method'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

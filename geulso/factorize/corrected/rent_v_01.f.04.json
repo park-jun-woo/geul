@@ -1,0 +1,63 @@
+{
+  "synset_id": "rent.v.01",
+  "definition": "let for money",
+  "frame_id": 4,
+  "frame_text": "Somebody rent something from somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'let for money' implies a temporary transfer of the right to use or possess something, which is a change in the state of possession/use.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the rental, gaining temporary use of the item. This is the renter."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose temporary use is transferred."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the item is rented; the owner or lessor."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "money.n.01",
+      "reasoning": "The core of 'rent' involves an exchange 'for money', which describes the means or condition of the transaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A rental transaction is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to enter into a rental agreement."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of renting is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of renting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of renting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of establishing a rental agreement or transaction."
+    }
+  }
+}

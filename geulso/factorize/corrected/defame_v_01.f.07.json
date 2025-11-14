@@ -1,0 +1,70 @@
+{
+  "synset_id": "defame.v.01",
+  "definition": "charge falsely or with malicious intent; attack the good name and reputation of someone",
+  "frame_id": 7,
+  "frame_text": "Somebody smirch somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb describes an action that causes a negative change in someone's reputation or social standing, as implied by the definition 'attack the good name and reputation of someone'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (the subject of 'smirch') who performs the act and causes the change in reputation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (the object of 'smirch') whose reputation is negatively affected by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The act of defamation is achieved through a specific communicative action, namely making charges or statements.",
+      "value_type": "falsehood.n.01",
+      "reasoning_value_type": "A critical component of this communication is its inherent falsity, as explicitly stated in the definition 'charge falsely'.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'Somebody' who originates the false communication."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The subject of the false communication is the 'somebody' whose reputation is being attacked."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming, typically through spoken or written communication, is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly mentions 'malicious intent', indicating a strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb inherently describes a negative action, involving 'falsely' charging and 'attacking the good name' of someone."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody smirch somebody' and the 'malicious intent' specified in the definition clearly indicate a volitional, intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'smirch' (used in the frame) typically refers to a single act that tarnishes reputation, rather than an ongoing or repeated process."
+    }
+  }
+}

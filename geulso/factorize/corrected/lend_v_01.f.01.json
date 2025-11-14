@@ -1,0 +1,54 @@
+{
+  "synset_id": "lend.v.01",
+  "definition": "bestow a quality on",
+  "frame_id": 1,
+  "frame_text": "Somebody add something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attribute.n.01",
+      "reasoning": "The verb describes a causal action where an agent bestows a quality, thereby changing the attributes of an (implicit) entity. The change is from not possessing to possessing the attribute.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of bestowing the quality."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quality.n.01",
+          "reasoning": "The 'something' which is the quality or attribute itself that is being bestowed or imparted. The recipient of this quality is implicit in this frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing a quality is typically a directly observable or directly stated event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing a quality is neutral; the specific quality determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The bestowing of a quality is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of bestowing a quality."
+    }
+  }
+}

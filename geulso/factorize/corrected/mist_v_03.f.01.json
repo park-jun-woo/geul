@@ -1,0 +1,65 @@
+{
+  "synset_id": "mist.v.03",
+  "definition": "spray finely or cover with mist",
+  "frame_id": 1,
+  "frame_text": "Something mist something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "covering.n.01",
+      "reasoning": "The verb describes the act of causing a patient to become covered, as per 'cover with mist' in the definition. This signifies a change in the surface state of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent that initiates the misting action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of becoming covered by the mist."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "substance.n.01",
+      "value_type": "mist.n.01",
+      "reasoning": "The verb 'mist' inherently specifies that the substance used for the covering is 'mist'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fine.a.04",
+      "reasoning": "The definition 'spray finely' explicitly describes the manner of application, indicating that the spray consists of fine droplets."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of misting is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something mist something' implies an inanimate or non-sentient agent (the first 'Something'), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of misting itself is neutral; any positive or negative sentiment depends on the specific context of the action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates that the action is performed by a non-volitional entity or force."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Misting or spraying finely typically involves the continuous or highly repetitive application of many small droplets, indicating high iterativity rather than a single discrete event."
+    }
+  }
+}

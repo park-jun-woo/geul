@@ -1,0 +1,59 @@
+{
+  "synset_id": "purple.v.02",
+  "definition": "color purple",
+  "frame_id": 4,
+  "frame_text": "Something purple something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The verb describes causing an object to undergo a transformation in its color, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the initiator or cause of the coloring action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity whose color is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "color.n.01",
+      "value_type": "purple.n.01",
+      "reasoning": "The verb 'purple' inherently specifies that the resulting property of the patient after the change is having a purple color."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of coloring is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' agent in the frame does not possess will or intention, thus indicating 'No will'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of coloring to purple is a neutral action; its sentiment depends entirely on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate object), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of coloring is described as a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb implies a single, completed event of changing an object's color to purple, rather than a continuous or highly repetitive process."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "better.v.02",
+  "definition": "to make better",
+  "frame_id": 14,
+  "frame_text": "Something meliorate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'better' describes an act that causes a modification or alteration in the condition of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates or causes the change in condition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the change of condition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "improved.a.01",
+      "reasoning": "The verb inherently specifies that the change results in an improved or more desirable quality.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The patient is the entity whose quality becomes improved as a result of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making something better is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject, implying no will is involved."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'to make better' inherently carries a positive sentiment, indicating improvement."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' explicitly features a non-volitional subject ('Something') as the causal agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'better' implies a definite occurrence of making something superior."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing improvement, though it could be part of an ongoing process, a single event is the default for a generic frame."
+    }
+  }
+}

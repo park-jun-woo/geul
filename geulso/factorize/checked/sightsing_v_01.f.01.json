@@ -1,0 +1,64 @@
+{
+  "synset_id": "sightsing.v.01",
+  "definition": "sing from a score without having seen it before",
+  "frame_id": 1,
+  "frame_text": "Somebody sight-sing something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "musical_performance.n.01",
+      "reasoning": "The core action of 'sightsing' is to perform music vocally.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the one performing the action of singing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "musical_score.n.01",
+          "reasoning": "The 'something' in the frame refers to the musical piece being sung from the score."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "preparedness.n.01",
+      "value_type": "unprepared",
+      "reasoning": "The 'sight' component of 'sightsing' means performing without prior practice or familiarity with the score, indicating a specific manner of performance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sightsinging is a directly observable performance."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' implies a volitional agent performing the action with clear intent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sightsinging is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action occurring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'sightsing' refers to the single, complete act of performing a piece of music without prior rehearsal, rather than a repetitive series of discrete smaller acts within the defined event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

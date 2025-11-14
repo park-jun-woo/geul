@@ -1,0 +1,64 @@
+{
+  "synset_id": "whine.v.03",
+  "definition": "make a high-pitched, screeching noise",
+  "frame_id": 6,
+  "frame_text": "Something creak",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb describes the occurrence or production of a sound.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that is the source of the noise, as specified by the verb frame 'Something creak' (interpreted as 'Something whines')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pitch.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition specifies that the noise is 'high-pitched'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "screeching.a.01",
+      "reasoning": "The definition specifies that the noise is 'screeching,' which describes its unpleasant quality."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a noise is directly perceivable through hearing."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something creak' implies a non-agentive subject, thus no will or intention is involved."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'screeching noise' inherently carries a negative connotation, indicating an unpleasant sound."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something creak' (implying 'Something whines') indicates a non-volitional subject ('Something') making the noise."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the sound."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'whine' often implies a continuous or highly repetitive sound, distinguishing it from an instantaneous noise."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "seize.v.01",
+  "definition": "take hold of; grab",
+  "frame_id": 8,
+  "frame_text": "Something seize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The definition 'take hold of; grab' implies a transition from a state of not being controlled/held to being controlled/held, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' that performs the action of seizing or taking hold, initiating the change of state for the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' that undergoes the change of state, being taken hold of or grabbed."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "physical_contact.n.01",
+      "value_type": "firm.a.01",
+      "reasoning": "The terms 'take hold of' and 'grab' imply a direct, firm physical contact as part of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of seizing is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, therefore lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of seizing itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something seize something' explicitly denotes a non-volitional subject, such as an inanimate force."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of seizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'seize' describes a single, discrete event of taking hold or grabbing."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

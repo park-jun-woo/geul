@@ -1,0 +1,81 @@
+{
+  "synset_id": "open_fire.v.01",
+  "definition": "start firing a weapon",
+  "frame_id": 2,
+  "frame_text": "Somebody open_fire",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "initiation.n.01",
+      "reasoning": "The definition 'start firing a weapon' explicitly points to the beginning of an action, making 'initiation' a core property of this event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame is the agent who initiates the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "emission.n.01",
+      "reasoning": "The action being initiated ('firing a weapon') inherently involves the emission of projectiles.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "weapon.n.01",
+          "reasoning": "A 'weapon' is the implied instrument used in the act of firing, as per the definition 'firing a weapon'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "projectile.n.01",
+          "reasoning": "A 'projectile' is the object that is emitted or discharged when a weapon is fired."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of opening fire is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated; therefore, a neutral present tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb 'open fire' refers to the punctual act of beginning to fire, rather than a continuous or completed state of firing itself."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The expression 'open fire' is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of firing a weapon is generally associated with violence, conflict, or harm, which carries an inherent negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody open_fire' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'open fire' describes a single, discrete event of initiating firing, not repeated instances of the initiation itself."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

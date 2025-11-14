@@ -1,0 +1,62 @@
+{
+  "synset_id": "rub.v.03",
+  "definition": "scrape or rub as if to relieve itching",
+  "frame_id": 10,
+  "frame_text": "Something scratch somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "friction.n.01",
+      "reasoning": "The verb describes a continuous physical process involving friction or scraping against a surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the rubbing/scraping action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the rubbing/scraping."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "itching_relief.n.01",
+      "reasoning": "The action of rubbing is characterized by being performed with the implied purpose or functional similarity of relieving itching, as indicated by the definition 'as if to relieve itching'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing or scraping is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is 'Something', which generally implies an absence of conscious will or intention, even if the action has a described purpose."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing itself is neutral. While the definition points to 'relief', rubbing can also cause irritation (supported by hypernym 'irritate.v.02'), making its inherent sentiment neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent of the action is 'Something'. As per the rule, actions performed by 'Something' are generally considered non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or characteristic process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rubbing or scraping is typically a continuous action involving high repetition of contact or movement over a surface."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

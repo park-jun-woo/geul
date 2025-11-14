@@ -1,0 +1,69 @@
+{
+  "synset_id": "cruise.v.04",
+  "definition": "sail or travel about for pleasure, relaxation, or sightseeing",
+  "frame_id": 1,
+  "frame_text": "Somebody cruise somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'sail or travel about' describes a change of location, which is a fundamental change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Somebody' in the frame acts as the agent who initiates and performs the act of traveling/sailing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity being transported or accompanied by the agent during the cruise."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) specifies the route or area along which the travel occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value": "for pleasure, relaxation, or sightseeing",
+      "reasoning": "The definition explicitly states the primary motivations behind the act of cruising."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "leisurely.a.01",
+      "reasoning": "The phrase 'travel about' and the stated purpose imply a relaxed, unhurried, and often non-direct manner of movement, characteristic of leisure activities."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cruising is an observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence, indicating a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition highlights 'pleasure, relaxation, or sightseeing' as the purpose, inherently assigning a positive sentiment to the activity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, especially given the pursuit of pleasure."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or state, not a speculation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Cruising typically involves continuous, repeated motion over a period of time, making it highly iterative, similar to verbs like 'run' or 'walk'."
+    }
+  }
+}

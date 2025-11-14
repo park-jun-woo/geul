@@ -1,0 +1,59 @@
+{
+  "synset_id": "solder.v.01",
+  "definition": "join or fuse with solder",
+  "frame_id": 0,
+  "frame_text": "Somebody solder something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb describes the action of forming a permanent connection or fusion between components, indicating a change from a disconnected to a connected state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of soldering, causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., electronic components, metal parts) that undergoes the change of state from being separate to being joined."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "solder.n.01",
+      "reasoning": "The verb 'solder' inherently specifies the use of solder (a metallic alloy) as the material and instrument by which the joining or fusing occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of soldering is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of joining is neutral; its sentiment depends on the context or what is being joined."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of soldering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of joining two or more items (though multiple joints might be made, each 'solder' action results in one completed connection)."
+    }
+  }
+}

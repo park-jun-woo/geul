@@ -1,0 +1,59 @@
+{
+  "synset_id": "brick_in.v.01",
+  "definition": "wall up with brick",
+  "frame_id": 9,
+  "frame_text": "Something brick_over something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "barrier.n.01",
+      "reasoning": "The verb 'brick over' describes an action that results in the creation of a barrier (a wall of brick) or the covering of an opening, thus changing the state of the patient regarding its accessibility or visibility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that causes the action of bricking over, even if inanimate or non-volitional."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the object that is covered or enclosed by bricks, undergoing the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "brick.n.01",
+      "reasoning": "The verb inherently specifies the material used for 'walling up' as 'brick', distinguishing it from other forms of enclosure."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of bricking over is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bricking over is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something') performing the action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of bricking involves multiple, repetitive actions (laying individual bricks) to complete the task, implying high iterativity."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "waste.v.02",
+  "definition": "use inefficiently or inappropriately",
+  "frame_id": 1,
+  "frame_text": "Something waste something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "utilization.n.01",
+      "reasoning": "The verb describes an action of using something, as indicated by the hypernym 'use.v.01' and the definition 'use inefficiently'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that performs the action of using (and wasting)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the resource or item that is being used inefficiently, hence wasted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "inefficiently.r.01",
+      "reasoning": "The core of the definition explicitly states 'inefficiently or inappropriately', indicating a specific negative manner of utilization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wasting resources is generally a directly observable phenomenon or inferable from direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame typically indicates a non-human or non-volitional agent, therefore lacking an inherent 'will' in the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'use inefficiently or inappropriately' explicitly assigns a negative value to the action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something waste something' implies that the subject 'Something' (e.g., a machine, a system) does not act with conscious intent or volition to waste, but rather does so due to its nature or design (inefficiency)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or characteristic of utilization."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wasting often implies a continuous or highly repetitive process of inefficient use (e.g., 'The old engine wastes fuel'), rather than a single discrete event."
+    }
+  }
+}

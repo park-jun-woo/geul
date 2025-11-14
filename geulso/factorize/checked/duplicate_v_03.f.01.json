@@ -1,0 +1,56 @@
+{
+  "synset_id": "duplicate.v.03",
+  "definition": "make a duplicate or duplicates of",
+  "frame_id": 1,
+  "frame_text": "Something duplicate something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "copy.n.01",
+      "reasoning": "The definition 'make a duplicate or duplicates of' directly points to the creation of a copy, which implies bringing a new entity into existence that resembles an original.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent that performs the duplication."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the original entity that is being copied."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of duplicating is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something duplicate something' implies a non-human or non-volitional agent (e.g., a machine or system), thus lacking inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of duplicating is inherently neutral; its positive or negative connotation depends on the context and what is being duplicated."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-volitional agent performing the action, suggesting a process or mechanical act rather than intentional human action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'duplicate' describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event or process of making (a) copy/copies. The 'or duplicates' refers to the potential quantity of output from one act, not necessarily a repeated act of duplication."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

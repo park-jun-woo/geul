@@ -1,0 +1,63 @@
+{
+  "synset_id": "transport.v.01",
+  "definition": "move something or somebody around; usually over long distances",
+  "frame_id": 2,
+  "frame_text": "Somebody transport something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move something or somebody around' clearly indicates a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the verb frame acts as the agent who initiates and controls the transport."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the verb frame is the entity being moved or transported."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame typically specifies the endpoint or target location of the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "distance.n.01",
+      "value_type": "long.a.01",
+      "reasoning": "The definition specifies 'usually over long distances', indicating that a significant distance is a characteristic property of this type of movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of transporting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transport itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of transporting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of moving something or someone."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of moving something from one place to another, even if it covers a long distance. Repetition is not inherent."
+    }
+  }
+}

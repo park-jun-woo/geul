@@ -1,0 +1,62 @@
+{
+  "synset_id": "screen.v.03",
+  "definition": "examine in order to test suitability",
+  "frame_id": 6,
+  "frame_text": "Somebody sort somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The definition 'examine in order to test suitability' describes an ongoing process of assessment or evaluation of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the screening and evaluation, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being examined and evaluated for their suitability, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "criterion.n.01",
+      "value_type": "suitability.n.01",
+      "reasoning": "The primary goal and inherent criterion of the 'screen' verb, as per its definition, is to determine the 'suitability' of the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of screening usually involves direct observation or assessment by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual action, aligning with a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies an action carried out with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of screening itself is neutral; its positive or negative implications depend on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sort somebody' (interpreted as 'Somebody screens somebody') explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame 'Somebody sort somebody' implies a single instance of screening for a particular individual, not continuous or habitual repetition for that single target."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

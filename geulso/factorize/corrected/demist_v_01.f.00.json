@@ -1,0 +1,59 @@
+{
+  "synset_id": "demist.v.01",
+  "definition": "free from mist",
+  "frame_id": 0,
+  "frame_text": "Somebody defog something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "clarity.n.01",
+      "reasoning": "The verb 'demist' describes a process of altering the state of 'something' from being obscured by mist to being clear, which is a change in clarity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of removing the mist, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change from being misty to clear."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "obstruction.n.01",
+      "value_type": "mist.n.01",
+      "reasoning": "The action specifically involves the removal of 'mist', which acts as an obstruction to clarity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of demisting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Removing mist generally results in an improved, more desirable state (e.g., better visibility), thus having a positive inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of demisting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of removing mist from an object."
+    }
+  }
+}

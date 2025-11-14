@@ -1,0 +1,60 @@
+{
+  "synset_id": "enroll.v.01",
+  "definition": "register formally as a participant or member",
+  "frame_id": 12,
+  "frame_text": "Somebody recruit",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'enroll' means to 'register formally as a participant or member,' indicating a transition from a non-member status to a member/participant status, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "recruit.n.01",
+          "reasoning": "The 'Somebody' in the frame refers to the person whose status changes by being enrolled, becoming a participant or member. The term 'recruit' in the frame specifies the type of member or participant being enrolled."
+        },
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The act of 'registering formally' implies an entity (e.g., an institution, an official) that performs the registration, even if not explicitly present in this specific minimal frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "formal.a.01",
+      "reasoning": "The definition explicitly includes 'formally,' specifying the manner in which the registration or act of becoming a member occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of enrolling/registering is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a change of state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of enrolling (whether by the enrollee themselves or an agent enrolling them) is an intentional and willed action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of enrolling is semantically neutral; its positive or negative implications depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action of registering is inherently volitional, performed by an intentional agent (even if implicit, as in this frame where the focus is on the patient, the 'recruit')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'enroll' describes a definite occurrence or change in status."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'enroll' typically describes a single, discrete event of formal registration or becoming a member."
+    }
+  }
+}

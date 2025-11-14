@@ -1,0 +1,57 @@
+{
+  "synset_id": "talk_of.v.01",
+  "definition": "discuss or mention",
+  "frame_id": 0,
+  "frame_text": "Somebody talk_about something",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'talk_of' describes an act of verbal communication, specifically discussing or mentioning information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of discussing or mentioning, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' that is the topic or subject of the discussion or mention; the information being conveyed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of talking or mentioning is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to discuss or mention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discussing or mentioning is neutral; the sentiment depends on the subject being talked about."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of talking or mentioning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'talk_of' typically refers to a single instance of bringing up or discussing a topic, rather than continuous repetition. 'Discuss' could imply more, but 'mention' reinforces a singular event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

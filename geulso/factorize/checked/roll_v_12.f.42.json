@@ -1,0 +1,73 @@
+{
+  "synset_id": "roll.v.12",
+  "definition": "move about aimlessly or without any destination, often in search of food or employment",
+  "frame_id": 42,
+  "frame_text": "Something is roveing PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a continuous act of changing location or position, as per the definition 'move about'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame performs the action of moving, implied to be an animate entity by the context of 'searching for food or employment'."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The optional 'PP' (prepositional phrase) specifies the general area or domain within which the movement occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "aimless.a.01",
+      "reasoning": "A defining characteristic of the movement is its lack of specific direction or goal, as explicitly stated in the definition ('aimlessly or without any destination')."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "search.n.01",
+      "value_type": "resources.n.01",
+      "reasoning": "The definition specifies a common underlying motivation for this movement: 'often in search of food or employment'. Resources.n.01 broadly covers these necessities."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of moving about is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' performing the action is implicitly driven by will or intention to search for resources."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving about aimlessly is neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'in search of food or employment' implies that the 'Something' is an agent acting with intention, thus the action is volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the movement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'move about' suggests continuous, repeated, undirected movements over a duration, characteristic of roaming."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is roveing PP' explicitly indicates the progressive aspect ('is roveing'), meaning the action is ongoing."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

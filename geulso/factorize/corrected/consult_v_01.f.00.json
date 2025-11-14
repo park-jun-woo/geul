@@ -1,0 +1,60 @@
+{
+  "synset_id": "consult.v.01",
+  "definition": "get or ask advice from",
+  "frame_id": 0,
+  "frame_text": "Somebody confer_with somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The definition 'get or ask advice from' describes an action that results in a change of the agent's state from not possessing advice to possessing it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of consulting to gain advice.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "advice.n.01",
+          "reasoning": "The implicit object of the action, representing the advice or information gained by the agent."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'something' (e.g., a person, book, resource) from which the advice is sought, as specified by the verb frame.",
+          "value_type": "entity.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of consulting is a direct action of seeking and often receiving information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will to seek advice."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of consulting is neutral; the advice received can be positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of seeking advice."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of consulting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of seeking advice from a source."
+    }
+  }
+}

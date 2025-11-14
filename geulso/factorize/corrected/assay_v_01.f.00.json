@@ -1,0 +1,54 @@
+{
+  "synset_id": "assay.v.01",
+  "definition": "analyze (chemical substances)",
+  "frame_id": 0,
+  "frame_text": "Somebody assay something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "analysis.n.01",
+      "reasoning": "The verb 'assay' describes the purposeful action of performing an analysis or test on a substance, as indicated by the definition 'analyze (chemical substances)'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame who intentionally performs the analysis."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "chemical_substance.n.01",
+          "reasoning": "The 'something' that is subjected to the analysis, specifically clarified as chemical substances by the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Performing an assay is a direct, observable scientific activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of assaying/analyzing is neutral; its outcome or purpose might carry sentiment, but the action itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of performing an assay is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of conducting an analysis, even if the analysis itself has multiple steps. It is not inherently repetitive in the way 'run' is."
+    }
+  }
+}

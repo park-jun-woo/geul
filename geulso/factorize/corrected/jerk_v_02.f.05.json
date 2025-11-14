@@ -1,0 +1,65 @@
+{
+  "synset_id": "jerk.v.02",
+  "definition": "move with abrupt, seemingly uncontrolled motions",
+  "frame_id": 5,
+  "frame_text": "Somebody twitch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a rapid change in the physical position or state of motion of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the action, causing the movement, as derived from the verb frame 'Somebody ----s something' (interpreting 'twitch' as a typo for 'jerk')."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the abrupt motion, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abrupt.a.01",
+      "reasoning": "The definition explicitly includes 'abrupt' as a characteristic of the motion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "uncontrolled.a.01",
+      "reasoning": "The definition specifies 'seemingly uncontrolled motions', indicating a lack of smooth or precise control over the *execution* of the motion itself, even if the initiation by the agent is volitional."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of jerking something is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent acts with will and intention to cause the motion."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of jerking is neutral; its sentiment depends on the context and intent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent ('Somebody') performing the action. The 'seemingly uncontrolled' aspect refers to the *quality* of the motion, not the agent's intent to initiate it."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of jerking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct, abrupt motion or event."
+    }
+  }
+}

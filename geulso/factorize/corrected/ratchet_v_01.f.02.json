@@ -1,0 +1,69 @@
+{
+  "synset_id": "ratchet.v.01",
+  "definition": "move by degrees in one direction only",
+  "frame_id": 2,
+  "frame_text": "Something is ratcheting PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move by degrees' clearly indicates a change in location or state, falling under the property of motion.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes the movement and is non-agentive."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame often indicates the direction or endpoint of the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "incremental.a.01",
+      "reasoning": "The phrase 'by degrees' specifies that the movement occurs in small, sequential steps, which is a manner of action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "unidirectional.a.01",
+      "reasoning": "The phrase 'in one direction only' describes a specific constraint on the direction of the movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action described is typically observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is ratcheting' construction indicates a progressive aspect, signifying an ongoing action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ratcheting itself is neutral; any positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is ratcheting' explicitly identifies a non-volitional subject ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite, observable action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'move by degrees' implies continuous, high repetition of small movements."
+    }
+  }
+}

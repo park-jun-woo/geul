@@ -1,0 +1,64 @@
+{
+  "synset_id": "publish.v.02",
+  "definition": "prepare and issue for public distribution or sale",
+  "frame_id": 9,
+  "frame_text": "Something release something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "availability.n.01",
+      "reasoning": "The verb describes causing an item to transition from a state of limited or no availability to public availability.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., an organization, a company) that causes the change in availability by preparing and issuing the item."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a document, a book) whose availability changes from restricted to public."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "public.n.01",
+          "reasoning": "The implicit 'public' as the intended recipient or destination of the distributed item ('for public distribution')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "preparation_and_issuance",
+      "reasoning": "The definition specifies that the act of publishing involves the specific processes of 'prepare' and 'issue' for distribution, detailing the manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of publishing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'prepare and issue' implies a strong intention and will behind the action, even if the grammatical subject 'Something' refers to a non-human entity like a corporation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of publishing is neutral; its sentiment depends on the content and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action of 'preparing and issuing' inherently involves deliberate intent and choice, indicating a volitional act by the agent (e.g., a publishing company)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of publishing, when completed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of bringing something to public distribution."
+    }
+  }
+}

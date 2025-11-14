@@ -1,0 +1,62 @@
+{
+  "synset_id": "do_justice.v.02",
+  "definition": "show due and full appreciation",
+  "frame_id": 2,
+  "frame_text": "Something do_justice to somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "recognition.n.01",
+      "reasoning": "The verb describes the act of causing something (the appreciation/value) to be perceived or acknowledged by others.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that brings about the recognition or appreciation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the person whose merits or qualities are being recognized or appreciated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "adequacy.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The 'due and full' aspect of the definition 'show due and full appreciation' refers to the high degree of appropriateness and completeness in the recognition, distinguishing it from partial or insufficient recognition. This is captured by 'adequacy' and a 'high' value."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'doing justice' (showing appreciation) is typically a directly observable manifestation or representation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about the manifestation of appreciation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional agent (e.g., a painting, a description), implying no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The phrase 'due and full appreciation' inherently carries a positive sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something do_justice to somebody' implies a non-volitional subject ('Something') acting as the medium or cause, not a conscious agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb expresses a definite occurrence of adequate appreciation being shown."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of providing adequate appreciation or representation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

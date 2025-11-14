@@ -1,0 +1,59 @@
+{
+  "synset_id": "vote_in.v.01",
+  "definition": "elect in a voting process",
+  "frame_id": 0,
+  "frame_text": "Somebody vote_in somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'vote in' describes an action that changes the status of an entity from not elected to elected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of electing through a voting process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (an individual or entity) that undergoes the change of status by being elected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "vote.n.01",
+      "reasoning": "The definition explicitly states 'in a voting process', indicating the specific means or instrument by which the election occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of voting someone in is typically a publicly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to elect someone."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of voting someone in is inherently neutral; its positive or negative sentiment depends on context or the outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody vote_in something' explicitly includes a volitional agent ('Somebody') performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of election once completed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'vote in' refers to a single, culminating event of electing a specific entity into a position, even if the process involves multiple individual votes."
+    }
+  }
+}

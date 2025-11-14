@@ -1,0 +1,59 @@
+{
+  "synset_id": "sting.v.05",
+  "definition": "cause an emotional pain, as if by stinging",
+  "frame_id": 0,
+  "frame_text": "Somebody sting somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "pain.n.01",
+      "reasoning": "The verb describes causing a change in the emotional state of a person, leading to the experience of pain. The 'emotional' aspect specifies the type of pain.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of causing emotional pain, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who experiences the emotional pain, and whose state changes from not feeling it to feeling it."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sharp_sudden_unpleasant_impact",
+      "reasoning": "The phrase 'as if by stinging' describes the manner or quality of the emotional pain inflicted: it is sharp, sudden, and unpleasant, akin to a physical sting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing emotional pain can be directly observed through actions and reactions, or directly experienced by the patient."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will or intention to cause pain."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb's definition explicitly states 'cause an emotional pain', which is an inherently negative outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody') performing an intentional act of causing pain."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of causing pain is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of causing pain at one instance."
+    }
+  }
+}

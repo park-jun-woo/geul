@@ -1,0 +1,56 @@
+{
+  "synset_id": "total.v.02",
+  "definition": "determine the sum of",
+  "frame_id": 16,
+  "frame_text": "Something summate something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sum.n.01",
+      "reasoning": "The verb 'total' describes the process of calculating or determining the aggregate amount (sum) of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of summing or calculating, as specified by the verb frame. This implies a non-human or automated agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose sum is being determined or calculated, as specified by the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of totaling and its result are typically based on direct calculation or observation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something summate something' indicates a non-volitional subject ('Something'), thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of totaling is neutral; the inherent sentiment depends on the context of what is being totaled."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something summate something' explicitly refers to a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A sum, once determined, is typically considered a certain and definite value."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes the determination of *the* sum, implying a single, complete event for a given set of items."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

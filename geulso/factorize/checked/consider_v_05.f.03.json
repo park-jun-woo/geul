@@ -1,0 +1,57 @@
+{
+  "synset_id": "consider.v.05",
+  "definition": "think about carefully; weigh",
+  "frame_id": 3,
+  "frame_text": "Somebody consider whether INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The definition 'think about carefully; weigh' describes an ongoing mental activity or process related to cognitive effort.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental process of considering."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "option.n.01",
+          "reasoning": "The 'whether INFINITIVE' clause represents an option or a course of action that is being thought about or weighed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Considering is an internal mental process, directly experienced by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody consider...' implies an agent's intentional engagement in the mental process of deliberation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of considering is a neutral mental process. Its outcome or subject may have sentiment, but the act itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody consider...' explicitly indicates a volitional agent performing the act of considering."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of engaging in consideration is a definite occurrence, even if the outcome of the consideration is uncertain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of deliberation over a specific matter. While the deliberation itself can be extended, it's considered one event of 'considering'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

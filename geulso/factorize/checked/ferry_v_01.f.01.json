@@ -1,0 +1,82 @@
+{
+  "synset_id": "ferry.v.01",
+  "definition": "transport from one place to another",
+  "frame_id": 1,
+  "frame_text": "Somebody ferry something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'ferry' means 'transport from one place to another', which directly describes a change in location or state of motion for an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity initiating and performing the transport."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the entity being moved or transported."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implied by 'from one place' in the definition, representing the origin of the transport, often specified by the PP."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implied by 'to another' in the definition, representing the endpoint of the transport, often specified by the PP."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "conveyance.n.01",
+      "value_type": "vehicle.n.01",
+      "reasoning": "The specific meaning of 'ferry' implies transport typically by watercraft or other specific vehicle, distinguishing it from general 'transport'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ferrying is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "Tense is not specified in the input, so a neutral (present) default is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "Aspect is not specified in the input, so a simple (completed or single) event is assumed."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'ferry' itself carries no inherent politeness level; it is context-dependent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ferrying is a neutral action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ferry...' explicitly involves a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of transport, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The bare verb frame 'Somebody ----s something PP' describes a single instance or event of transporting."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

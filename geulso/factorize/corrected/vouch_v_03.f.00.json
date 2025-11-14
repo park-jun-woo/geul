@@ -1,0 +1,63 @@
+{
+  "synset_id": "vouch.v.03",
+  "definition": "summon (a vouchee) into court to warrant or defend a title",
+  "frame_id": 0,
+  "frame_text": "Somebody vouch somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of causing a participant to move to a specific location, indicating a change in their position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates the act of summoning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is summoned and undergoes the change of location (the vouchee)."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "court.n.01",
+          "reasoning": "The definition explicitly specifies 'into court' as the destination of the summoned party."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "defense.n.01",
+          "reasoning": "The definition states the purpose of summoning is 'to warrant or defend a title', which is a legal defense or justification."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of summoning someone to court is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of summoning itself is neutral; its implications can be positive or negative depending on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of summoning."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of summoning."
+    }
+  }
+}

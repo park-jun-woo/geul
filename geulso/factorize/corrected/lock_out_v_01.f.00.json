@@ -1,0 +1,65 @@
+{
+  "synset_id": "lock_out.v.01",
+  "definition": "prevent employees from working during a strike",
+  "frame_id": 0,
+  "frame_text": "Somebody lock_out somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "exclusion.n.01",
+      "reasoning": "The verb 'lock out' describes causing a transition from a state of having access to a state of being excluded.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (employer/management) who actively initiates the exclusion.",
+          "value_type": "employer.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "employee.n.01",
+          "reasoning": "The 'somebody' (employees) who are the target of the exclusion and whose state of access is changed."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "workplace.n.01",
+          "reasoning": "The general location or activity (working) from which the employees are excluded by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "means",
+      "verb_property": "restriction.n.01",
+      "reasoning": "The 'lock' component in 'lock out' specifies that the exclusion is achieved through imposing a physical or formal barrier/restriction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A lockout is an observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies an action driven by strong will and intent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Locking out employees is typically a negative action, involving coercive measures against a group, leading to undesirable consequences for them."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lock_out somebody' explicitly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to the initiation of the act of locking out, considered a single event, even if the state of lockout persists."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "synset_id": "gripe.v.01",
+  "definition": "complain",
+  "frame_id": 19,
+  "frame_text": "Somebody holler PP",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "complaint.n.01",
+      "reasoning": "The verb 'gripe' is defined as 'complain', which is an act of expressing dissatisfaction or discontent. 'Complaint.n.01' accurately describes the nature of this communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the volitional agent performing the act of griping."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the verb frame indicates the subject or reason about which the complaint is expressed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of griping, being an utterance, is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, indicating a strong will to express dissatisfaction."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense information is provided in the input, so a neutral (present) tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The frame describes a simple, single instance of the action rather than an ongoing or completed state with a result."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The word 'gripe' itself often carries an informal and slightly negative connotation, implying a peevish or nagging manner of complaining, thus indicating an informal politeness level."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Complaining, by its very nature, involves the expression of dissatisfaction, which is an inherently negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action occurring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'gripe' in this frame refers to a single event of expressing a complaint, not a continuous or habitual action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

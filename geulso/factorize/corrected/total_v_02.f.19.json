@@ -1,0 +1,66 @@
+{
+  "synset_id": "total.v.02",
+  "definition": "determine the sum of",
+  "frame_id": 19,
+  "frame_text": "Something tot_up something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "quantity.n.01",
+      "reasoning": "The verb describes an action of calculating to find a specific quantity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the agent that performs the totaling operation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "item.n.01",
+          "reasoning": "The second 'something' refers to the items or numbers that are being summed or calculated."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "result.n.03",
+      "value_type": "sum.n.01",
+      "reasoning": "The action of 'totaling up' leads to a resulting state where a sum is determined or known. This is a semantic neighbor of quantity, focusing on the outcome.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The sum itself is the outcome of the action, a property of the items that were totaled."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Determining a sum is typically based on direct calculation or observation of numbers."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in the frame typically refers to a non-volitional entity like a machine or a process, implying no inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of determining a sum is a neutral operation, without inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something tot_up something' implies a non-human or mechanistic agent, making the action non-volitional, similar to how a calculator totals numbers."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'determine the sum' implies reaching a certain and definite result."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of calculating a total for a given set of items."
+    }
+  }
+}

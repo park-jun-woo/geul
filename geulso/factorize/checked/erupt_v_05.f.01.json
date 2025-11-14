@@ -1,0 +1,68 @@
+{
+  "synset_id": "erupt.v.05",
+  "definition": "become active and spew forth lava and rocks",
+  "frame_id": 1,
+  "frame_text": "Something erupt",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The definition 'become active' indicates a transition of the subject from an inactive to an active state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes the change from an inactive to an active state."
+        }
+      ]
+    },
+    {
+      "verb_type": "process",
+      "verb_property": "emission.n.01",
+      "reasoning": "The definition 'spew forth lava and rocks' clearly describes a process of forcefully emitting material.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' in the frame is the origin from which the material is spewed forth (e.g., a volcano)."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "substance.n.01",
+          "reasoning": "The 'lava and rocks' are the specific types of substance being emitted."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An eruption is a directly observable natural phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something erupt' indicates that the action is not driven by an agent's will; it is a natural process."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of erupting is a natural geological event, inherently neutral in sentiment, though its consequences can be negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' implies a non-volitional entity (e.g., a volcano), meaning the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence when an eruption takes place."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "An eruption, though it may have duration, is typically considered a single, complex event rather than a rapid succession of identical discrete actions."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

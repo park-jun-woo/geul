@@ -1,0 +1,65 @@
+{
+  "synset_id": "propel.v.01",
+  "definition": "cause to move forward with force",
+  "frame_id": 1,
+  "frame_text": "Somebody propel something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing an entity to change its state of location or motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity (e.g., an engine, wind, or an inanimate object acting as a force) that initiates or sustains the movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "force.n.01",
+      "reasoning": "The definition explicitly states the action is performed 'with force'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "forward.r.01",
+      "reasoning": "The definition specifies that the movement caused is 'forward'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Propulsion is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the causal agent in the frame is typically non-volitional, implying the action is not driven by will by default."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of propelling is neutral; its sentiment depends on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something propel something' indicates a non-human or inanimate subject as the agent, making the action inherently non-volitional for this frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of propelling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Propulsion often implies a continuous or sustained application of force to maintain forward motion, indicating high repetition or continuous action rather than a single discrete event."
+    }
+  }
+}

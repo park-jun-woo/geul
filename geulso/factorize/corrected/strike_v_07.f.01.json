@@ -1,0 +1,79 @@
+{
+  "synset_id": "strike.v.07",
+  "definition": "stop work in order to press demands",
+  "frame_id": 1,
+  "frame_text": "Somebody walk_out",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "labor_dispute.n.01",
+      "reasoning": "The verb describes a deliberate action of stopping work that is characteristic of a labor dispute.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally stops work, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "work.n.01",
+          "reasoning": "The 'work' (activity) that is ceased by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "persuasion.n.01",
+      "value_type": "demand.n.01",
+      "reasoning": "The action of stopping work is explicitly defined as being 'in order to press demands,' indicating a purpose of persuasion related to specific demands.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who holds this purpose."
+        },
+        {
+          "semantic_role": "goal.n.01",
+          "value_type": "demand.n.01",
+          "reasoning": "The 'demands' that are the objective of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A strike is typically a public and directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'in order to press demands' explicitly indicates strong will and intention from the agent."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The frame 'Somebody walk_out' suggests a simple, completed action of initiating a strike rather than a progressive or perfect aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of striking is neutral; its sentiment depends on context and perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the purpose 'in order to press demands' clearly indicates a volitional act by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or intention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'strike' in this context refers to the single event of initiating the cessation of work, not a repeated action."
+    }
+  }
+}

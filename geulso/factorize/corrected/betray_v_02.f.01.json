@@ -1,0 +1,64 @@
+{
+  "synset_id": "betray.v.02",
+  "definition": "deliver to an enemy by treachery",
+  "frame_id": 1,
+  "frame_text": "Somebody betray something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "safety.n.01",
+      "reasoning": "The verb describes an action that causes a change in the safety status of the patient, specifically by delivering them to an enemy.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of betrayal, initiating the change in the patient's safety."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is betrayed and whose safety is compromised."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "enemy.n.01",
+          "reasoning": "The 'enemy' is the entity to whom the patient is delivered, serving as the endpoint of the transfer."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "treacherous.a.01",
+      "reasoning": "The action is explicitly characterized by 'treachery' as per the definition, indicating a specific manner of performing the act."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of betrayal is typically directly observable or ascertainable through evidence, not solely inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'deliver to an enemy by treachery' inherently carries a strong negative sentiment due to the nature of betrayal and its consequences."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody betray somebody' explicitly indicates a volitional agent ('Somebody') performing the action, making it an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of betrayal is described as a definite occurrence or assertion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of betrayal, not an ongoing or repetitive process."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "vivisect.v.01",
+  "definition": "cut (a body) open while still alive",
+  "frame_id": 0,
+  "frame_text": "Somebody vivisect somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes the act of causing a body to become open, which constitutes a change in its physical integrity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of cutting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (a body) that undergoes the change of physical integrity by being cut open."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "cutting.n.01",
+      "reasoning": "The definition specifies that the change in integrity is achieved through the specific manner of 'cutting' the body open."
+    },
+    {
+      "verb_type": "condition",
+      "verb_property": "life.n.01",
+      "value_type": "active_state",
+      "reasoning": "A crucial distinguishing characteristic of vivisection is that the patient is 'still alive' during the entire procedure, referring to the active state of life.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The patient (the body) is in an active state of life throughout the vivisection."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of vivisection is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of cutting open a living being is generally considered to be ethically negative, involving harm and suffering."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody vivisect something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of vivisection."
+    }
+  }
+}

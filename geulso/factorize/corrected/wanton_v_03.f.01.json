@@ -1,0 +1,59 @@
+{
+  "synset_id": "wanton.v.03",
+  "definition": "spend wastefully",
+  "frame_id": 1,
+  "frame_text": "Somebody wanton something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "availability.n.01",
+      "reasoning": "The verb 'spend' inherently describes an action that causes a change in the availability of a resource (e.g., money, time), reducing its quantity for the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of spending, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (resource, money, etc.) that is subjected to the spending and whose availability changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "wasteful.a.01",
+      "reasoning": "The definition explicitly states 'spend wastefully', indicating a specific, inefficient, or extravagant manner in which the spending occurs, which is a core semantic component of 'wanton'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spending is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'spend wastefully' carries an inherent negative connotation due to the 'wastefully' aspect."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wantoning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of spending wastefully, without explicit indication of repetition in the frame or definition."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "synset_id": "murmur.v.01",
+  "definition": "speak softly or indistinctly",
+  "frame_id": 1,
+  "frame_text": "Somebody murmur something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'murmur' is a specific way of speaking, hence it describes an act of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of murmuring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "utterance.n.01",
+          "reasoning": "The 'something' that is spoken or communicated through murmuring."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "low_volume.n.01",
+      "reasoning": "The definition 'speak softly' indicates an inherent property of the sound produced during murmuring, specifically its low volume."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "unclear_articulation.n.01",
+      "reasoning": "The definition 'speak ... indistinctly' indicates an inherent property of the speech, referring to its lack of clarity or distinctness."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of murmuring is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies an intentional act of speaking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of murmuring itself is neutral; its sentiment depends on context or the content of the speech."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of murmuring is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the action of speaking softly/indistinctly in this frame. While speech itself is continuous, 'murmur something' refers to a singular act of utterance."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "freeze.v.09",
+  "definition": "anesthetize by cold",
+  "frame_id": 0,
+  "frame_text": "Somebody freeze somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sensation.n.01",
+      "reasoning": "The verb describes causing a change in a person's state, specifically from being able to feel to being anesthetized (lacking sensation).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of freezing/anesthetizing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state (anesthetization)."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "instrument.n.01",
+      "value_type": "cold.n.01",
+      "reasoning": "The definition explicitly states 'by cold', indicating the instrument or means by which the anesthetization is achieved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of anesthetizing by cold is a directly observable phenomenon or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of anesthetizing by cold is generally neutral; its context would determine if it's positive (e.g., medical procedure) or negative (e.g., torture)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody freeze somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of freezing/anesthetizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of anesthetizing."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

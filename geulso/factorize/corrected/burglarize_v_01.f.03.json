@@ -1,0 +1,80 @@
+{
+  "synset_id": "burglarize.v.01",
+  "definition": "commit a burglary; enter and rob a dwelling",
+  "frame_id": 3,
+  "frame_text": "Somebody burglarize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'burglarize' implies an initial act of gaining entry, explicitly stated as 'enter a dwelling' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of entering the dwelling."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "dwelling.n.01",
+          "reasoning": "The implied specific type of location (a dwelling) that is entered during a burglary."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'burglarize' involves 'rob(bing)', which means taking something, thus changing its possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who takes the object, thereby changing its possession."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred without consent, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "owner.n.01",
+          "reasoning": "The implicit owner from whom the 'something' is taken, highlighting the non-consensual nature of the act."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legality.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The definition 'commit a burglary' inherently classifies the act as unlawful or criminal, which is a core semantic property of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of burglarizing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes an action, usually in a declarative statement."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the verb frame performs the act of burglary with deliberate will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of burglarizing is a criminal offense, making its inherent sentiment negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the act."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of a burglary."
+    }
+  }
+}

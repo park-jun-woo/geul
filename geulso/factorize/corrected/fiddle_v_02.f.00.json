@@ -1,0 +1,65 @@
+{
+  "synset_id": "fiddle.v.02",
+  "definition": "commit fraud and steal from one's employer",
+  "frame_id": 0,
+  "frame_text": "Somebody fiddle",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes an illicit change in the possession of assets, transferring them from the employer to the agent, as implied by 'steal'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally commits fraud and steals, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "assets.n.01",
+          "reasoning": "The 'something' (e.g., assets or funds) that is illicitly taken, which is implicit in the definition 'steal'."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "employer.n.01",
+          "reasoning": "The 'employer' from whom the assets are stolen, as specified by the definition 'from one's employer'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "deceitful.a.01",
+      "reasoning": "The action is inherently characterized by the manner of fraud or deceit, as per the definition 'commit fraud'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'fiddling' is typically a directly observable or discoverable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody fiddle' implies the agent acts with strong will and intention to commit fraud."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'commit fraud and steal' inherently describes a negative and illicit action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody fiddle' explicitly indicates a volitional agent performing the action of fraud."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act is described as a definite occurrence or practice."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'fiddle' in the context of fraud often implies a series of small, repeated dishonest acts rather than a single discrete event."
+    }
+  }
+}

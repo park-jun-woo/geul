@@ -1,0 +1,67 @@
+{
+  "synset_id": "hydrate.v.01",
+  "definition": "supply water or liquid to in order to maintain a healthy balance",
+  "frame_id": 1,
+  "frame_text": "Somebody hydrate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "hydration.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of hydration of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who performs the act of supplying liquid."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who receives the liquid and undergoes the change in hydration."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "health.n.01",
+      "reasoning": "The definition 'in order to maintain a healthy balance' indicates the intended positive outcome or purpose of the hydration for the patient.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' for whom the healthy balance is maintained or achieved."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hydrating is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The action of hydrating is inherently positive as it aims 'to maintain a healthy balance'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hydrating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of supplying liquid to achieve hydration, though it can be repeated."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

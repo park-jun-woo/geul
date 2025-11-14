@@ -1,0 +1,60 @@
+{
+  "synset_id": "spit.v.01",
+  "definition": "expel or eject (saliva or phlegm or sputum) from the mouth",
+  "frame_id": 7,
+  "frame_text": "Somebody spit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the physical expulsion of a substance, involving a change in its location from inside the mouth to outside.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame who intentionally performs the action of expelling.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' being expelled, as specified by the definition (saliva, phlegm, sputum).",
+          "value_type": "bodily_fluid.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The origin from which the substance is expelled, explicitly mentioned as 'from the mouth' in the definition.",
+          "value_type": "mouth.n.02"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spitting is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Spitting, especially in a public or social context, often carries a negative connotation of disrespect, disgust, or unsanitary behavior."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of expulsion, though it can be repeated."
+    }
+  }
+}

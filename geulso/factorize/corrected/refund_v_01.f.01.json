@@ -1,0 +1,58 @@
+{
+  "synset_id": "refund.v.01",
+  "definition": "pay back",
+  "frame_id": 1,
+  "frame_text": "Somebody give_back something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'refund' describes a transfer of money back to a previous payer, which is a change in financial possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity performing the action of refunding; the one who pays back."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the entity who receives the money back."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' in the frame refers to the money that is being returned, whose possession changes."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of refunding is typically a directly observable or documentable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as an agent implies the action is driven by their will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of refunding itself is neutral; its positive or negative sentiment depends on context or involved parties."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of refunding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of refunding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of a monetary transaction."
+    }
+  }
+}

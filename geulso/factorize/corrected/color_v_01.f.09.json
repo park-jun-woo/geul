@@ -1,0 +1,53 @@
+{
+  "synset_id": "color.v.01",
+  "definition": "add color to",
+  "frame_id": 9,
+  "frame_text": "Something color_in something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The verb 'color in' describes an action that causes the patient to acquire or have color applied, representing a change in its state regarding color.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' which is the inanimate subject of the verb and performs the action of adding color, acting as a non-volitional cause."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that receives the color and undergoes the change in its color state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of coloring is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame is inanimate and lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of adding color is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' is inanimate, making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'coloring in' typically involves continuous and highly repetitive actions (e.g., strokes, fills) to achieve a complete state, similar to 'run' for steps."
+    }
+  }
+}

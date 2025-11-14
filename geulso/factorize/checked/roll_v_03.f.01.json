@@ -1,0 +1,70 @@
+{
+  "synset_id": "roll.v.03",
+  "definition": "occur in soft rounded shapes",
+  "frame_id": 1,
+  "frame_text": "Something is undulateing PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes an ongoing, continuous manifestation or movement, which is a type of process, as indicated by 'is rolling' and 'occur' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes or exhibits the rolling process, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the verb frame typically indicates the spatial context or path where the rolling occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "shape.n.01",
+      "value_type": "soft rounded",
+      "reasoning": "The definition explicitly states 'soft rounded shapes', indicating a specific visual characteristic or manner that is integral to the rolling process or appearance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The phenomenon described by the verb is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not inherently possess will or intention in this frame."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The frame 'Something is rolling' explicitly indicates a progressive aspect, describing an ongoing action or state."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Describing an occurrence or shape is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' implies a non-volitional entity, meaning the action is not intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of the occurrence is presented as a definite fact."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The progressive aspect ('is rolling') and the nature of 'occurring in shapes' suggest a continuous, high repetition or sustained process rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

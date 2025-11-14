@@ -1,0 +1,61 @@
+{
+  "synset_id": "rework.v.01",
+  "definition": "use again in altered form",
+  "frame_id": 0,
+  "frame_text": "Somebody make_over something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The primary meaning of 'rework' involves altering the physical or conceptual form of 'something', as directly stated by 'altered form' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who intentionally initiates and performs the alteration."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame whose form undergoes alteration."
+        }
+      ]
+    },
+    {
+      "verb_type": "process",
+      "verb_property": "repetition.n.01",
+      "reasoning": "The 're-' prefix in 'rework' and the phrase 'use again' in the definition explicitly denote that the underlying 'work' action or process is being performed for a second or subsequent time on the same entity. This is a core semantic component of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reworking is an observable and directly experienced activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reworking itself is neutral; its sentiment depends on the context or the quality of the outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rework something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'rework' implies an action performed 'again', the specific act of 'reworking' itself is typically conceived as a single, complete cycle of modification, not a continuously repeated action within that instance. The 'repetition' aspect is captured as a distinct sememe."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

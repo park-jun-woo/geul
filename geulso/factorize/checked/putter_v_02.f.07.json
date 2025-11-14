@@ -1,0 +1,68 @@
+{
+  "synset_id": "putter.v.02",
+  "definition": "do random, unplanned work or activities or spend time idly",
+  "frame_id": 7,
+  "frame_text": "Somebody muck_about PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb describes the general performance of work or activities, which is an ongoing activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who is performing the activities, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "circumstance.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the domain, context, or objects involved in the aimless activities, encompassing location or what is being idly engaged with."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "aimless.a.01",
+      "reasoning": "The definition 'random, unplanned work or activities' indicates that the action lacks a specific goal or direction, hence aimless."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "idle.a.01",
+      "reasoning": "The definition 'spend time idly' explicitly states a low-effort, leisurely, or unproductive manner of performing the activities."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of puttering is typically a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent capable of will, even if the activity itself is unplanned. The decision to putter is intentional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of puttering is neutral; its sentiment depends on context (e.g., relaxing vs. unproductive)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, even if the activities themselves are random."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing state of activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Puttering involves performing multiple, often continuous or repeated, small or random actions over a period of time, indicating high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

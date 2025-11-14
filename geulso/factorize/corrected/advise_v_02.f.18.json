@@ -1,0 +1,60 @@
+{
+  "synset_id": "advise.v.02",
+  "definition": "inform (somebody) of something",
+  "frame_id": 18,
+  "frame_text": "Something advise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'advise' in the sense of 'inform' describes a change in the state of knowledge or awareness of a participant.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the information to be conveyed, acting as the source of the advice/information.",
+          "value_type": "inanimate_entity.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the information and whose knowledge state changes.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implicit 'something' (content) of which the 'somebody' is advised, representing the information itself.",
+          "value_type": "information.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of advising (informing) implies a direct transfer of information, regardless of the ultimate source of that information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of imparting knowledge."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the verb frame indicates an inanimate or non-agentive subject, suggesting an absence of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of informing itself is semantically neutral; the nature of the information conveyed could carry positive or negative sentiment, but the verb 'advise' (as inform) does not inherently specify this."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something advise somebody' indicates that the action is caused by a non-volitional entity ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'advise' (as inform) implies a definite act of imparting knowledge, thus a high degree of certainty about the event occurring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of imparting a piece of information, not a continuous or repetitive action."
+    }
+  }
+}

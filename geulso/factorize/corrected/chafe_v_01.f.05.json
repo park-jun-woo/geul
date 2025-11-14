@@ -1,0 +1,72 @@
+{
+  "synset_id": "chafe.v.01",
+  "definition": "become or make sore by or as if by rubbing",
+  "frame_id": 5,
+  "frame_text": "Something chafe something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The definition 'make sore' indicates a change in the physical condition of the patient towards a state of soreness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent causing the change in the patient's physical state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "soreness.n.01",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change, becoming sore."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rubbing.n.01",
+      "reasoning": "The core mechanism of causing soreness is 'by or as if by rubbing', which describes the manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chafing, resulting in soreness, is a directly observable or physically experienced phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative statement about an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-agentive entity, hence no will or intention is involved."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb definition does not specify a particular tense, so a neutral present tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple action or event without explicit progressive, perfect, or result-focused aspects."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'chafe' itself carries a neutral politeness level."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'make sore' implies a negative physical outcome or state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something chafe something' indicates a non-volitional agent ('Something') performing the action, meaning the action is unintentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or causation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'rubbing' that causes chafing is typically a continuous, repetitive motion rather than a single discrete event."
+    }
+  }
+}

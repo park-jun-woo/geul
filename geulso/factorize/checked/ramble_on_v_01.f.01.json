@@ -1,0 +1,58 @@
+{
+  "synset_id": "ramble_on.v.01",
+  "definition": "continue talking or writing in a desultory manner",
+  "frame_id": 1,
+  "frame_text": "Somebody ramble",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "communication.n.02",
+      "reasoning": "The definition 'continue talking or writing' clearly indicates an ongoing act of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the one performing the action of communicating."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "desultory.a.01",
+      "reasoning": "The definition explicitly states 'in a desultory manner', which describes a core characteristic of how the communication occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of talking or writing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' implies that the action is driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rambling itself is neutral; its content might be positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates a volitional agent performing the act of talking or writing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'continue talking or writing' implies a sustained and highly repetitive action, consistent with high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

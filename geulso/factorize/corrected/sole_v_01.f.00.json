@@ -1,0 +1,65 @@
+{
+  "synset_id": "sole.v.01",
+  "definition": "put a new sole on",
+  "frame_id": 0,
+  "frame_text": "Somebody resole something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The hypernym 'repair' and the definition 'put a new sole on' imply restoring or improving the physical integrity or usability of an item, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of putting a new sole on."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (typically footwear) whose integrity is being restored or improved by the addition of a new sole."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "addition.n.01",
+      "reasoning": "The definition explicitly states 'put a new sole on,' specifying the core action of adding a distinct component to the patient.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "sole.n.02",
+          "reasoning": "The 'sole' itself is the new part being added, functioning as the specific means or component through which the repair/addition is accomplished."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of soling an item is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent acts with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of soling or repairing is generally neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of soling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of putting a new sole on an item (or pair of items)."
+    }
+  }
+}

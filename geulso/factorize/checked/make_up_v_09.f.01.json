@@ -1,0 +1,68 @@
+{
+  "synset_id": "make_up.v.09",
+  "definition": "apply make-up or cosmetics to one's face to appear prettier",
+  "frame_id": 1,
+  "frame_text": "Somebody make_up somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The verb describes an action that causes a change in somebody's appearance by applying cosmetics.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the action of applying make-up."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, whose face is being made up and whose appearance is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "application.n.01",
+      "value_type": "cosmetics.n.01",
+      "reasoning": "The specific manner of change involves the 'application' of 'cosmetics' or 'make-up', which is a core part of the verb's meaning."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "beauty.n.01",
+      "reasoning": "The definition explicitly states 'to appear prettier', indicating the purpose of the action is to enhance beauty."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of applying make-up is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the agent implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of applying make-up is inherently neutral, though the intention is often positive (to appear prettier)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of making up is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of applying make-up. While it can be repeated daily, the verb itself refers to one instance."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

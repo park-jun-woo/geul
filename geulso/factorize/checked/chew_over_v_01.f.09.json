@@ -1,0 +1,62 @@
+{
+  "synset_id": "chew_over.v.01",
+  "definition": "reflect deeply on a subject",
+  "frame_id": 9,
+  "frame_text": "Somebody reflect PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "thought.n.01",
+      "reasoning": "The definition 'reflect deeply on a subject' describes an active mental process of thinking or considering.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental activity of reflection, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame represents the subject or topic being reflected upon, acting as the theme of the thought."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "deep.a.01",
+      "reasoning": "The adverb 'deeply' in the definition specifies the thoroughness or intensity of the reflection, indicating it's not superficial."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reflection is an internal, cognitive process experienced directly by the subject."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the agent intentionally chooses to reflect, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reflecting or considering is neutral; its sentiment depends on the subject being reflected upon."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody reflect PP' indicates a volitional agent engaging in the mental act of reflection."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the mental activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'reflect deeply' on a subject implies a sustained, often repeated mental engagement with the topic rather than a single, instantaneous thought."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "perfuse.v.01",
+  "definition": "force a fluid through (a body part or tissue)",
+  "frame_id": 1,
+  "frame_text": "Something perfuse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the act of causing a fluid to move through a specific medium, thereby changing its location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, which performs the action of forcing the fluid."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fluid.n.01",
+          "reasoning": "The second 'something' in the verb frame, which is the fluid that undergoes the change of location. Explicitly mentioned as 'fluid' in the definition."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "value_type": "body_part.n.01",
+          "reasoning": "The 'body part or tissue' through which the fluid is forced, defining the trajectory of the change in location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "force.n.01",
+      "reasoning": "The definition explicitly states 'force a fluid through', indicating that the action involves the application of force."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of perfusing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While the action involves 'force', the 'Something' acting as the agent (e.g., a pump, blood vessel) does not possess conscious will or intention in the human sense."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of perfusion is a neutral process; its context might determine positive or negative connotations, but the verb itself is neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically refers to inanimate subjects or biological systems, indicating a non-volitional process rather than an intentional act by a conscious agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Perfusion often describes a continuous or highly repetitive process (e.g., blood continually perfusing tissues), suggesting high iterativity rather than a single event."
+    }
+  }
+}

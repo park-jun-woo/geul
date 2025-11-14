@@ -1,0 +1,53 @@
+{
+  "synset_id": "perennate.v.01",
+  "definition": "survive from season to season, of plants",
+  "frame_id": 0,
+  "frame_text": "Something perennate",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "life.n.01",
+      "reasoning": "The verb describes the ongoing process of a plant maintaining its living state, as indicated by 'survive'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "plant.n.01",
+          "reasoning": "The 'Something' in the verb frame, specified as a 'plant' in the definition, is the entity that undergoes the process of perennating."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of perennating is a directly observable biological phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a biological fact."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Plants do not act with will or intention; their survival is a biological process."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of perennating is biologically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' refers to a plant, which is non-volitional. Perennating is a biological process, not an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite characteristic or occurrence in biology."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'survive from season to season' explicitly indicates a high degree of repetition in seasonal cycles for the plant's survival."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

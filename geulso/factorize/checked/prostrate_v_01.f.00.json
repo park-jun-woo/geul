@@ -1,0 +1,61 @@
+{
+  "synset_id": "prostrate.v.01",
+  "definition": "get into a prostrate position, as in submission",
+  "frame_id": 0,
+  "frame_text": "Somebody bow_down somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_orientation.n.01",
+      "reasoning": "The definition 'get into a prostrate position' describes a transition from one physical orientation to another, specifically becoming prostrate.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates or causes the change in physical orientation of another."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who undergoes the change to a prostrate physical orientation."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "value_type": "submission.n.01",
+      "reasoning": "The phrase 'as in submission' from the definition specifies the underlying purpose or motivation for assuming the prostrate position."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of prostrating is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as an agent causing the action implies strong will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of prostrating itself is neutral; its sentiment depends on the context of submission."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent (the first 'Somebody') performing the action on another, causing them to prostrate."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single event of changing position into a prostrate state."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "automobile.v.01",
+  "definition": "travel in an automobile",
+  "frame_id": 1,
+  "frame_text": "Somebody automobile PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'automobile' means to 'travel in an automobile,' indicating a change of location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of traveling."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' in the frame indicates the endpoint or direction of travel."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "automobile.n.01",
+      "reasoning": "The core of the verb 'automobile' explicitly specifies the instrument used for travel, which is an automobile."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Traveling by automobile is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of traveling is neutral; its sentiment depends on the context of the journey."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of automobiling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Traveling in an automobile involves continuous, highly repetitive motion over a period, rather than a single instantaneous event."
+    }
+  }
+}

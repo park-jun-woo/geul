@@ -1,0 +1,59 @@
+{
+  "synset_id": "feast.v.01",
+  "definition": "partake in a feast or banquet",
+  "frame_id": 4,
+  "frame_text": "Somebody junket",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "eating.n.01",
+      "reasoning": "The verb 'feast' describes the activity of consuming food, as indicated by its definition 'partake in a feast or banquet' and its hypernym 'eat.v.02' (eat a meal).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of feasting."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "elaborate.a.01",
+      "reasoning": "The term 'feast' implies that the eating event is typically large-scale, elaborate, and often associated with a special occasion, distinguishing it from general eating. The 'junket' in the frame, while unusual, can be interpreted as implicitly reinforcing a special, possibly pleasure-related, occasion for such an elaborate meal.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Feasting is an activity that can be directly observed or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent who acts with intention and will to partake in a feast."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of feasting itself is semantically neutral; its positive or negative connotation depends on the specific context or reason for the feast."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of feasting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or activity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or event of engaging in a feast or banquet."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

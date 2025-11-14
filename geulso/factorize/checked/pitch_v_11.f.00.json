@@ -1,0 +1,64 @@
+{
+  "synset_id": "pitch.v.11",
+  "definition": "lead (a card) and establish the trump suit",
+  "frame_id": 0,
+  "frame_text": "Somebody pitch something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "game_play.n.01",
+      "reasoning": "The verb describes the action of leading or playing a card during a card game.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of playing the card, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "card.n.01",
+          "reasoning": "The 'something' that is the card being led or played."
+        }
+      ]
+    },
+    {
+      "verb_type": "effect",
+      "verb_property": "designation.n.01",
+      "value_type": "trump_suit.n.01",
+      "reasoning": "A crucial outcome and inherent part of this 'pitch' action is to establish (designate) the trump suit for the current round of play.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pitching a card in a game is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pitching a card is inherently neutral; its positive or negative connotations depend on the game context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, as it's a strategic move in a game."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence in a game."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of leading a card and establishing trump during a turn."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'effect'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

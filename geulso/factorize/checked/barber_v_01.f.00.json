@@ -1,0 +1,67 @@
+{
+  "synset_id": "barber.v.01",
+  "definition": "perform the services of a barber: cut the hair and/or beard of",
+  "frame_id": 0,
+  "frame_text": "Something barber",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The verb describes the act of altering the appearance, specifically the hair and/or beard, of a person by cutting, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the barbering service; this entity acts as the barber."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The person whose hair or beard is being cut, which is an implicit participant from the definition 'cut the hair and/or beard of'."
+        }
+      ]
+    },
+    {
+      "verb_type": "activity",
+      "verb_property": "profession.n.01",
+      "reasoning": "The definition 'perform the services of a barber' indicates a professional activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the professional service."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Barbering is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Performing a service as a barber implies an agent acting with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of barbering is generally neutral; the outcome may be judged positively or negatively by the client."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'perform the services' indicates an intentional and volitional act, even when the agent is 'Something' acting in that capacity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of barbering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'barber' typically refers to a single, complete service session, rather than an infinitely repetitive or highly repetitive action in itself."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

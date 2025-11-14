@@ -1,0 +1,62 @@
+{
+  "synset_id": "gag.v.05",
+  "definition": "struggle for breath; have insufficient oxygen intake",
+  "frame_id": 7,
+  "frame_text": "Somebody strangle PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "respiration.n.01",
+      "reasoning": "The definition 'struggle for breath; have insufficient oxygen intake' describes a physiological process involving the act of breathing, specifically experiencing difficulty with it.",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'Somebody' in the provided verb frame is the entity that undergoes the process of difficult respiration and struggles for breath. (Assuming 'strangle' in the frame is a placeholder error for 'gag' or describes the context, as the synset_id is 'gag.v.05')."
+        },
+        {
+          "semantic_role": "cause.n.01",
+          "reasoning": "The optional 'PP' (prepositional phrase) in the frame, if present, typically indicates the stimulus or obstruction that causes the gagging or struggle for breath (e.g., 'on a bone', 'from fumes')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "effort.n.01",
+      "value_type": "intense.a.01",
+      "reasoning": "The phrase 'struggle for breath' inherently describes a high degree of effort or difficulty involved in the act of breathing, making the effort intense or strenuous."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Gagging is a direct physiological experience, making the evidentiality direct."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Gagging is typically an involuntary bodily reaction or process, not an act driven by the agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The experience of 'struggle for breath' and 'insufficient oxygen intake' is inherently negative, indicating discomfort and distress."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Gagging is a non-volitional reflex or bodily response to a stimulus, rather than an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite physiological occurrence when it happens."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Gagging often involves repeated, convulsive efforts to clear the airway or regain breath, suggesting high repetition rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

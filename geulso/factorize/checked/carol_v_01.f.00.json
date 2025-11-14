@@ -1,0 +1,62 @@
+{
+  "synset_id": "carol.v.01",
+  "definition": "sing carols",
+  "frame_id": 0,
+  "frame_text": "Somebody carol something",
+  "sememes": [
+    {
+      "verb_type": "production",
+      "verb_property": "music.n.01",
+      "reasoning": "The verb 'carol' primarily describes the act of producing vocal music.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame, who is the agent performing the act of singing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' from the verb frame, which is the carol (the musical piece) being sung."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "type.n.01",
+      "value_type": "carol.n.01",
+      "reasoning": "The verb 'carol' specifically denotes that the music produced is a 'carol', a particular kind of song."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of caroling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of caroling is neutral in inherent sentiment, though often associated with positive contexts."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of caroling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Singing 'something' (a carol) implies a single, continuous performance of that specific piece, rather than repeated discrete sub-events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'production'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

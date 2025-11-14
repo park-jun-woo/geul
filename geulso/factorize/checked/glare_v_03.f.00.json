@@ -1,0 +1,58 @@
+{
+  "synset_id": "glare.v.03",
+  "definition": "shine intensely",
+  "frame_id": 0,
+  "frame_text": "Something glare",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "light_emission.n.01",
+      "reasoning": "The verb 'glare' describes the activity of a light source emitting light, as seen in its hypernym 'shine.v.02' ('emit light').",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity (e.g., the sun, a lamp) that performs the activity of emitting light."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition 'shine intensely' explicitly states that the light emission is of a high degree of intensity, making this a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of glaring (shining intensely) is a directly observable phenomenon through sight."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an activity or continuous state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' (e.g., a celestial body, an inanimate object) in the frame does not possess will or intention in emitting light."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shining intensely is inherently neutral; while its effect might be positive or negative depending on context (e.g., blinding), the action itself carries no intrinsic sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something glare' clearly indicates a non-agentive subject, meaning the action is non-volitional and not performed with intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or a continuous state of intense shining."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'glare' typically implies a continuous or sustained intense emission of light over a period, rather than a single momentary event, thus indicating high repetition or a continuous process."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "synset_id": "rinse.v.01",
+  "definition": "wash off soap or remaining dirt",
+  "frame_id": 3,
+  "frame_text": "Somebody rinse_off",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The verb describes a change from a state of having residue (soap or dirt) to a state of not having it, indicating a change in condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of rinsing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' themselves, from whom the residue is being removed, implying a reflexive action based on the 'rinse_off' frame."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "residue.n.01",
+          "reasoning": "The 'soap or remaining dirt' that is being removed, as explicitly stated in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "means",
+      "verb_property": "medium.n.01",
+      "value_type": "liquid.n.01",
+      "reasoning": "Rinsing inherently involves the use of a liquid, typically water, as the medium through which the removal is achieved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rinsing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rinse_off' implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rinsing is neutral; its typical outcome (cleanliness) might be positive, but the action itself is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rinsing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single complete action of removing residue, rather than inherent repetition."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'means'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

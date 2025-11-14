@@ -1,0 +1,70 @@
+{
+  "synset_id": "raven.v.04",
+  "definition": "feed greedily",
+  "frame_id": 1,
+  "frame_text": "Something raven",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The verb describes the ongoing act of taking in food, which is a process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity (animal) performing the action of feeding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' in the frame implies what is being consumed, which is the entity undergoing the action of being eaten."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "greedy.a.01",
+      "reasoning": "The definition explicitly includes 'greedily' as a core semantic component describing the manner of feeding."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ravening (feeding greedily) is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent, even an animal, exhibits a strong will or instinctual drive to perform the action of feeding."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The provided verb frame 'Something is ravening PP' explicitly uses the progressive aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "No specific politeness level is implied by the verb 'raven'."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'raven' and the qualifier 'greedily' inherently carry a negative connotation, implying excessive or rapacious consumption."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' (an animal) in the frame is an active agent, performing the act of feeding intentionally, driven by instinct or hunger."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Feeding is typically a continuous activity composed of repeated individual acts of consumption, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

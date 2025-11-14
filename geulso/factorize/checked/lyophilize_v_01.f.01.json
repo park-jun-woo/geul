@@ -1,0 +1,62 @@
+{
+  "synset_id": "lyophilize.v.01",
+  "definition": "to dry (blood, serum, or tissue) by freezing in a high vacuum",
+  "frame_id": 1,
+  "frame_text": "Somebody lyophilize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb 'lyophilize' describes the process of causing an object to transition from a wet state to a dry state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of lyophilizing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the object (e.g., blood, serum, tissue) that undergoes the change of state from wet to dry."
+        }
+      ]
+    },
+    {
+      "verb_type": "process",
+      "verb_property": "method.n.01",
+      "value": "freezing in a high vacuum",
+      "reasoning": "The definition explicitly details the specific technical method or process ('by freezing in a high vacuum') by which the drying occurs, which is a core semantic component of 'lyophilize'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of lyophilizing is a direct, observable scientific or technical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention in carrying out the process."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of lyophilizing itself is a neutral technical process, often undertaken for beneficial preservation, but not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action, implying intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, certain action or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete act of processing a specific item or batch, not an inherently repetitive action in its core meaning."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "bat.v.02",
+  "definition": "wink briefly",
+  "frame_id": 1,
+  "frame_text": "Somebody flutter something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'bat' (to wink) describes a physical movement of the eye/eyelashes, resulting in a temporary change of state for the eye (open to briefly closed).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the winking action, as indicated by the verb frame.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the motion, implicitly the eye or eyelashes when winking.",
+          "value_type": "eye.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "brief.a.01",
+      "reasoning": "The adverb 'briefly' in the definition specifies the short temporal extent of the winking action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Winking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of winking is neutral; its sentiment is determined by context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody flutter something' (interpreted as 'Somebody bats something') implies a volitional agent performing an intentional action (to wink briefly)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of winking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'wink briefly' implies a single, quick event of winking, not a continuous or highly repetitive action."
+    }
+  }
+}

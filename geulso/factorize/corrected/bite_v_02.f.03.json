@@ -1,0 +1,65 @@
+{
+  "synset_id": "bite.v.02",
+  "definition": "cause a sharp or stinging pain or discomfort",
+  "frame_id": 3,
+  "frame_text": "Something burn something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "pain.n.01",
+      "reasoning": "The verb's definition 'cause a sharp or stinging pain or discomfort' describes a transition from not experiencing pain to experiencing it, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, which is the entity that causes the pain or discomfort."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame, which is the entity that experiences the pain or discomfort."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "sharp.a.01",
+      "reasoning": "The definition explicitly specifies that the pain caused has a 'sharp' quality."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "stinging.a.01",
+      "reasoning": "The definition explicitly specifies that the pain caused has a 'stinging' quality."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The experience or observation of pain is typically a direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent 'Something' in the frame is inanimate and therefore lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Causing 'pain or discomfort' is inherently a negative event."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- something' indicates a non-volitional subject ('Something') initiating the action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing pain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of causing pain or discomfort."
+    }
+  }
+}

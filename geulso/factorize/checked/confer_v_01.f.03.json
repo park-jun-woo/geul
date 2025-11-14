@@ -1,0 +1,61 @@
+{
+  "synset_id": "confer.v.01",
+  "definition": "have a conference in order to talk something over",
+  "frame_id": 3,
+  "frame_text": "Somebody consult",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "discussion.n.01",
+      "reasoning": "The definition 'have a conference in order to talk something over' describes an ongoing activity of deliberate communication and discussion, characteristic of a process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the animate entity who actively engages in and initiates the conference or discussion."
+        },
+        {
+          "semantic_role": "co_agent.n.01",
+          "reasoning": "A 'conference' (as per the definition) inherently implies multiple participants, meaning there are 'others' with whom the primary agent confers or consults."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "value_type": "information.n.01",
+          "reasoning": "The definition 'to talk something over' implies a subject matter or piece of information that is the focus of the discussion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Participating in a conference or consultation is a direct, observable experience for the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process as a statement of fact."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the agent acts with intention and will when engaging in a conference."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of conferring or consulting is inherently neutral; its positive or negative sentiment depends on the context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody consult' (interpreted as 'Somebody confers/consults') clearly implies a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of conferring is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, bounded event of holding a conference or consultation, even if the discussion within it is continuous."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

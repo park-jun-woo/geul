@@ -1,0 +1,65 @@
+{
+  "synset_id": "burst_in_on.v.01",
+  "definition": "spring suddenly",
+  "frame_id": 0,
+  "frame_text": "Somebody burst_in_on something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb 'burst_in_on' describes an action that causes a sudden, forceful entry, thereby changing the ongoing state, privacy, or activity of the entity being intruded upon, consistent with 'interrupt'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of bursting in, acting as the initiator of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose state (e.g., privacy, activity) is abruptly altered or interrupted by the intrusion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suddenness.n.01",
+      "reasoning": "The definition 'spring suddenly' explicitly indicates that the action is performed in an abrupt and rapid manner, which is a core component of 'burst in'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "force.n.01",
+      "reasoning": "The word 'burst' implies a forceful or violent nature of the entry.",
+      "value_type": "high.a.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bursting in on someone/something is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will on the part of the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'burst in on' something usually implies an unwelcome, disruptive, or intrusive action, giving it a negative connotation. The hypernym 'interrupt' also often carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody burst_in_on something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of intrusion or interruption."
+    }
+  }
+}

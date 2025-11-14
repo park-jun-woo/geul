@@ -1,0 +1,59 @@
+{
+  "synset_id": "floss.v.01",
+  "definition": "use dental floss to clean",
+  "frame_id": 1,
+  "frame_text": "Somebody floss something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb 'floss' describes an action that causes a change in the state of 'something' from not clean to clean, related to hygiene.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of flossing, initiating the cleaning process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., teeth or mouth) that is subjected to the cleaning action and undergoes the change in cleanliness."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "dental_floss.n.01",
+      "reasoning": "The verb 'floss' inherently specifies that the action of cleaning is performed using dental floss as a specific instrument, which is integral to its meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Flossing is a physical action that can be directly observed or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of flossing itself is neutral in sentiment; its health benefits are external to the verb's core semantic polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody floss something' explicitly denotes a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Flossing is an action that involves continuous, repetitive movements (e.g., back-and-forth motions, treating multiple teeth) over a period, implying high iterativity."
+    }
+  }
+}

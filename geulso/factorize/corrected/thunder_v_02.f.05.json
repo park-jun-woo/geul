@@ -1,0 +1,68 @@
+{
+  "synset_id": "thunder.v.02",
+  "definition": "utter words loudly and forcefully",
+  "frame_id": 5,
+  "frame_text": "Somebody thunder that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "utterance.n.01",
+      "reasoning": "The definition 'utter words' indicates the core action is the act of speaking or vocalizing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity performing the act of uttering."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the content or proposition being uttered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "loud.a.01",
+      "reasoning": "The adverb 'loudly' in the definition specifies a distinct manner of utterance.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The adverb 'forcefully' in the definition specifies another distinct manner of utterance, implying intensity and conviction.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of uttering words loudly and forcefully is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of thundering itself is neutral; the sentiment depends on the context and the content uttered."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of uttering words."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, albeit possibly sustained, event of uttering a statement."
+    }
+  }
+}

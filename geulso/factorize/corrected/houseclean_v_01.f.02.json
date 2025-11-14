@@ -1,0 +1,54 @@
+{
+  "synset_id": "houseclean.v.01",
+  "definition": "clean and tidy up the house",
+  "frame_id": 2,
+  "frame_text": "Somebody houseclean",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes an action that changes the state or condition of a place, specifically making it clean and tidy.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of cleaning, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "house.n.01",
+          "reasoning": "The 'house' is the inherent object of the verb 'houseclean', undergoing the change in condition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Housecleaning is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning is generally neutral, though it leads to a positive outcome (tidiness)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody houseclean' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of housecleaning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Housecleaning is an activity that involves many repetitive smaller actions (e.g., sweeping, dusting, wiping) performed over a period, implying high repetition rather than a single event."
+    }
+  }
+}

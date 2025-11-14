@@ -1,0 +1,59 @@
+{
+  "synset_id": "smother.v.05",
+  "definition": "deprive of the oxygen necessary for combustion",
+  "frame_id": 3,
+  "frame_text": "Something smother something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "combustion.n.01",
+      "reasoning": "The verb describes a process of causing a change in the state of combustion by removing a necessary element (oxygen), leading to its termination.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of depriving of oxygen, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is deprived of oxygen and whose combustion is extinguished, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "deprivation.n.01",
+      "value_type": "oxygen.n.01",
+      "reasoning": "A core component of the definition is the deprivation of 'oxygen', which is the means by which the combustion is halted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of smothering combustion is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-agentive subject, thus lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of smothering combustion is contextually neutral; it can be beneficial (e.g., extinguishing a fire) or detrimental, but the act itself is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate 'Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of smothering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of terminating combustion, rather than a repetitive process."
+    }
+  }
+}

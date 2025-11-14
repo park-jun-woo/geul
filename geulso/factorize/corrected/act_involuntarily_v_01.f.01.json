@@ -1,0 +1,55 @@
+{
+  "synset_id": "act_involuntarily.v.01",
+  "definition": "act in an uncontrolled manner",
+  "frame_id": 1,
+  "frame_text": "Somebody act_reflexively",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb describes the performance of an act or behavior, derived from its hypernym 'act.v.02' (behave).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "uncontrolled.a.01",
+      "reasoning": "The core semantic component of the definition 'act in an uncontrolled manner' specifies the lack of control over the action, which is a manner property."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An involuntary act is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The action is involuntary and uncontrolled, indicating no agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of acting involuntarily is inherently neutral in sentiment; its consequences might determine polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition 'act in an uncontrolled manner' and the term 'involuntarily' explicitly state a lack of volition, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of acting."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Acting reflexively or involuntarily often involves rapid, discrete, and potentially repetitive occurrences (e.g., twitching, fidgeting), indicating high but not necessarily infinite repetition, distinguishing it from a single event or a purely continuous state."
+    }
+  }
+}

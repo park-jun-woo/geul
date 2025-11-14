@@ -1,0 +1,56 @@
+{
+  "synset_id": "move_involuntarily.v.01",
+  "definition": "move in an uncontrolled manner",
+  "frame_id": 3,
+  "frame_text": "Somebody's (body part) move_reflexively",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move in an uncontrolled manner' describes a change in the physical location or state of a body part.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body_part.n.01",
+          "reasoning": "The 'body part' is the entity that undergoes the involuntary movement, as specified by the verb frame 'Somebody's (body part)'. The 'Somebody' is the possessor, not the direct agent of motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "uncontrolled.a.01",
+      "reasoning": "The definition explicitly states 'in an uncontrolled manner', which is a core semantic component describing how the movement occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Involuntary movements are typically directly observed or felt experiences."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The action is explicitly 'involuntary' and 'uncontrolled', indicating an absence of the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving involuntarily is neutral; its sentiment depends on context (e.g., a reflex vs. a debilitating tremor)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb 'move involuntarily' and the definition 'uncontrolled manner' explicitly state the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of movement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Involuntary movements often involve high repetition, such as tremors, shivers, or repeated twitches, rather than a single, discrete event. 'Move reflexively' implies an underlying mechanism that can lead to repeated motion."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "exhale.v.01",
+  "definition": "expel air",
+  "frame_id": 2,
+  "frame_text": "Somebody exhale",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of moving a substance (air) from inside the body to outside, which is a change of location/motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of expelling air, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "air.n.01",
+          "reasoning": "The substance, 'air', that undergoes the motion/expulsion, explicitly stated in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "outward.s.01",
+      "reasoning": "A core semantic component of 'exhale' is the expulsion *outward*, specifying the direction of the air's motion and distinguishing it from 'inhale'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Exhaling is a directly observable physiological action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "While breathing can be automatic, 'Somebody exhales' can refer to a deliberate or willed act of expelling air."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exhaling is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the ability to intentionally expel air makes the action volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of exhaling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Exhaling is typically a part of the continuous, highly repetitive process of breathing, similar to the repetitive steps in 'running'."
+    }
+  }
+}

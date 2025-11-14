@@ -1,0 +1,61 @@
+{
+  "synset_id": "twitch.v.01",
+  "definition": "make an uncontrolled, short, jerky motion",
+  "frame_id": 3,
+  "frame_text": "Somebody's (body part) twitch",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes an uncontrolled physical motion, which is a change in the body part's position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The '(body part)' is the subject of the verb in the frame and is the entity performing the motion, even if involuntarily."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "jerky.a.01",
+      "reasoning": "A core semantic component of 'twitch' is the 'jerky' manner of movement, as stated in the definition."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "short.a.01",
+      "reasoning": "The definition explicitly states the motion is 'short'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A twitch is typically a directly observable or felt physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The definition 'uncontrolled' implies no agent's will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of twitching is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition 'uncontrolled' and the hypernym 'move involuntarily' explicitly indicate a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the motion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition describes 'an uncontrolled, short, jerky motion', implying a single, discrete event rather than continuous repetition. If repeated, it would be multiple single events."
+    }
+  }
+}

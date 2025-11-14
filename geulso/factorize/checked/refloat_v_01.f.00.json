@@ -1,0 +1,62 @@
+{
+  "synset_id": "refloat.v.01",
+  "definition": "set afloat again",
+  "frame_id": 0,
+  "frame_text": "Somebody refloat something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "value_type": "afloat.a.01",
+      "reasoning": "The verb 'refloat' describes causing an object to transition into the state of being afloat.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of setting something afloat."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that undergoes the change of state to become afloat."
+        }
+      ]
+    },
+    {
+      "verb_type": "aspect",
+      "verb_property": "restoration.n.01",
+      "reasoning": "The 're-' prefix in 'refloat' denotes that the action is a restoration, returning the object to a state of being afloat that it previously occupied, implying an intermediate period where it was not afloat."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of refloating is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of refloating is semantically neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody refloat something' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the prefix 're-' implies a recurrence of a *state*, the verb form itself in this frame describes a single instance of the action of refloating. The repetition of the state is a semantic component of the verb, not the iterative nature of the action event itself."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'aspect'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

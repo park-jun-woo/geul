@@ -1,0 +1,69 @@
+{
+  "synset_id": "squall.v.01",
+  "definition": "make high-pitched, whiney noises",
+  "frame_id": 3,
+  "frame_text": "Something squall",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb describes the ongoing activity of producing specific types of noise.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that produces or emits the sound, acting as the source of the noise."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "noise.n.01",
+          "reasoning": "The 'noise' itself, which is being produced by the causal agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pitch.n.01",
+      "value": "high",
+      "reasoning": "The definition specifies 'high-pitched' as a characteristic of the noise produced."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value": "whiney",
+      "reasoning": "The definition specifies 'whiney' as a qualitative characteristic of the noise produced."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of squalling is typically a directly observable auditory phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something squall' implies a subject without inherent will to perform the action, or whose will is not the focus."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a squalling noise is neutral in sentiment, though it often implies distress which is negative in context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something squall' describes an action performed by a non-agentive subject ('Something'), making it inherently non-volitional. Even if an animal or baby, it's often an involuntary cry."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making noise."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'squall' implies making continuous, often repeated, loud, and high-pitched noises, suggesting high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "burn.v.15",
+  "definition": "burn with heat, fire, or radiation",
+  "frame_id": 0,
+  "frame_text": "Somebody burn somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes causing a change in the physical state or integrity of the patient, specifically inflicting damage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of burning, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state or damage."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "thermal_energy.n.01",
+      "reasoning": "The definition specifies the means by which the burning occurs: 'with heat, fire, or radiation', indicating the instrument or source of energy for the damage."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of burning is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'burn' someone implies inflicting harm or damage, which carries a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ---- somebody' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of burning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of inflicting a burn, though the effects may be prolonged."
+    }
+  }
+}

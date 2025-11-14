@@ -1,0 +1,63 @@
+{
+  "synset_id": "motivate.v.01",
+  "definition": "give an incentive for action",
+  "frame_id": 5,
+  "frame_text": "Somebody incite something",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb's definition 'give an incentive for action' indicates causing an action to begin or intensify.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who provides the incentive and initiates the cause, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'something' that is incited, referring to the action or behavior that is caused."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stimulation.n.01",
+      "reasoning": "The verb 'motivate' and the frame's use of 'incite' specify that the causation occurs through providing a stimulus or incentive, indicating the particular manner of causing the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inciting an action is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of motivating or inciting is neutral; the sentiment depends on the nature of the action being incited."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody incite something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of inciting an action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of providing an incentive or stimulus at a given time, rather than a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "liquefy.v.03",
+  "definition": "become liquid or fluid when heated",
+  "frame_id": 1,
+  "frame_text": "Something liquefy",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "value_type": "liquid.n.01",
+      "reasoning": "The definition 'become liquid or fluid' describes a transformation of a substance's physical state, specifically to a liquid form.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in physical state."
+        }
+      ]
+    },
+    {
+      "verb_type": "condition",
+      "verb_property": "temperature.n.01",
+      "value_type": "increase.n.01",
+      "reasoning": "The definition explicitly includes 'when heated', indicating that an increase in temperature is the causal condition for this specific liquefaction process.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of liquefaction is typically a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual event or process, indicating a declarative mood."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something liquefy' lacks an agent capable of intention or will; it describes a natural process."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of liquefying is a neutral physical process; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame is non-agentive, indicating that the action is a non-volitional natural process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite physical event or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, complete event of changing state."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'condition'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

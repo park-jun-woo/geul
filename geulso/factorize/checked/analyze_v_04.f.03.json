@@ -1,0 +1,63 @@
+{
+  "synset_id": "analyze.v.04",
+  "definition": "subject to psychoanalytic treatment",
+  "frame_id": 3,
+  "frame_text": "Somebody analyze something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "treatment.n.01",
+      "reasoning": "The definition 'subject to psychoanalytic treatment' describes an ongoing activity or course of action aimed at addressing a condition, which aligns with a 'process' verb type related to 'treatment'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of subjecting to treatment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (referring to a person) in the verb frame that receives the psychoanalytic treatment."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "psychoanalysis.n.01",
+      "reasoning": "The term 'psychoanalytic' in the definition specifies the particular method or nature of the treatment being applied, distinguishing it from other forms of treatment.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of psychoanalytic treatment is typically a direct experience for those involved."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of providing treatment is inherently neutral in sentiment; its positive or negative impact depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody analyze something' implies a conscious, intentional act performed by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of subjecting someone to treatment."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Psychoanalytic treatment typically involves a series of sessions or an ongoing process, indicating high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

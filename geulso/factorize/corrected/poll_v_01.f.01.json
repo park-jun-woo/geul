@@ -1,0 +1,64 @@
+{
+  "synset_id": "poll.v.01",
+  "definition": "get the opinions (of people) by asking specific questions",
+  "frame_id": 1,
+  "frame_text": "Somebody canvas something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb 'poll' describes an action that results in the acquisition or gathering of information (opinions), representing a change in the agent's state of knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of polling, actively seeking opinions."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "opinion.n.01",
+          "reasoning": "The opinions themselves are the subject of the change (being gathered) or the 'something' that is acquired. The 'somebody' in the frame is the source of these opinions."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' in the object position of the frame from whom the opinions are solicited and received."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "questioning.n.01",
+      "reasoning": "The definition explicitly states the method: 'by asking specific questions', which is an inherent part of the 'poll' action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Polling involves direct interaction and observation of responses from the subjects, thus direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates that the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of polling is inherently neutral; the outcome or reason for polling might carry sentiment, but not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of polling is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Polling typically involves asking multiple questions to multiple individuals, making it a highly repetitive process or a collection of repeated events, not a single instantaneous act."
+    }
+  }
+}

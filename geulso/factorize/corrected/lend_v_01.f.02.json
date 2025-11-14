@@ -1,0 +1,53 @@
+{
+  "synset_id": "lend.v.01",
+  "definition": "bestow a quality on",
+  "frame_id": 2,
+  "frame_text": "Somebody bestow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attribute.n.01",
+      "reasoning": "The definition 'bestow a quality on' implies a change in the attributes of the patient, from not having a particular quality to possessing it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (subject) is the entity that causes the quality to be bestowed upon another entity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (object) is the entity that receives or acquires the bestowed quality."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing a quality, and its effect, is typically directly observable or ascertainable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, hence no agent's will or intention is involved in this action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing a quality is neutral; the quality itself could be positive or negative, but the verb is not inherently polarized."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something lend something' specifies a non-human or inanimate subject, implying the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'lend' in this sense describes a definite occurrence of a quality being bestowed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of a quality being imparted."
+    }
+  }
+}

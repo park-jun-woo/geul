@@ -1,0 +1,68 @@
+{
+  "synset_id": "claim.v.02",
+  "definition": "demand as being one's due or property; assert one's right or title to",
+  "frame_id": 0,
+  "frame_text": "Somebody arrogate something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "assertion.n.01",
+      "reasoning": "The verb describes an action of declaring or demanding, which is a type of assertion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of claiming, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "right.n.01",
+          "reasoning": "The 'something' being claimed, which refers to a right, due, or property."
+        }
+      ]
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "possession.n.02",
+      "reasoning": "The underlying goal of the action is to establish or confirm possession or entitlement to the claimed item.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is the ultimate aim of the claim."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of claiming is a directly observable action or communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of demanding or asserting one's right ('claim') is driven by strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of claiming itself is neutral; the specific context or what is being claimed determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody claim something' explicitly indicates a volitional agent performing the action, as 'demand' and 'assert' are intentional acts."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'claim' something implies a high degree of certainty from the claimant regarding their right or title, even if disputed by others."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct act of making a demand or assertion."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

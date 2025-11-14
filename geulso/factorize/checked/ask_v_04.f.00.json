@@ -1,0 +1,70 @@
+{
+  "synset_id": "ask.v.04",
+  "definition": "consider obligatory; request and expect",
+  "frame_id": 0,
+  "frame_text": "Somebody ask somebody to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb describes a communicative act where an agent seeks to obtain something from another party.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who makes the request."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the request."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the 'something' is requested, as indicated by 'from somebody' in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "insistent.a.01",
+      "reasoning": "The definition 'consider obligatory; request and expect' and the hypernym 'demand' imply that the request is made with a strong, insistent, or authoritative expectation of compliance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of asking is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the agent acts with will and intention in making the request."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "While 'ask' can be polite, this specific sense ('consider obligatory; expect') leans towards a neutral politeness level, as the insistence or demand aspect diminishes inherent politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of asking itself is neutral; the content or context of the request determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly denotes a volitional agent performing the action of asking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of asking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of making a request in this context."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

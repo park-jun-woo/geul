@@ -1,0 +1,54 @@
+{
+  "synset_id": "flood.v.02",
+  "definition": "cover with liquid, usually water",
+  "frame_id": 0,
+  "frame_text": "Something flood something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The definition 'cover with liquid' indicates a change of state from not being covered to being covered by liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the liquid (usually water) that causes the covering."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity being covered by the liquid."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Flooding is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent (liquid/water) is an inanimate entity incapable of will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of covering with liquid itself is neutral; its consequences might be negative but are not inherent to the verb's core meaning."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something flood something' implies that the 'Something' causing the flood is non-volitional (e.g., water), making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of flooding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially prolonged, event of covering."
+    }
+  }
+}

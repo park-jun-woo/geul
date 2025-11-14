@@ -1,0 +1,59 @@
+{
+  "synset_id": "suppress.v.01",
+  "definition": "to put down by force or authority",
+  "frame_id": 7,
+  "frame_text": "Somebody stamp_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.02",
+      "reasoning": "The definition 'to put down' implies causing a transition from an uncontrolled or active state to a controlled or inactive state, thus describing a change in the patient's condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of putting down or suppressing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that is subjected to the act of suppression and whose state is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "force.n.01",
+      "reasoning": "The definition explicitly states the action is performed 'by force or authority', indicating the method or means used. 'Force' directly captures this aspect."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of suppressing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' and the nature of 'suppress' (requiring force or authority) imply strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of suppressing can be perceived as positive or negative depending on what is being suppressed (e.g., suppressing a rebellion vs. suppressing dissent), making its inherent polarity neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action, and 'suppress' is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of 'putting down by force or authority' is generally considered a single, decisive event, even if its effects are prolonged or it is part of a series of such events."
+    }
+  }
+}

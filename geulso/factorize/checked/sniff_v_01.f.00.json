@@ -1,0 +1,56 @@
+{
+  "synset_id": "sniff.v.01",
+  "definition": "perceive by inhaling through the nose",
+  "frame_id": 0,
+  "frame_text": "Somebody sniff somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "olfaction.n.01",
+      "reasoning": "The verb 'sniff' describes the active process of perceiving an odor by intentionally inhaling through the nose, engaging the olfactory sense.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of sniffing to perceive, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose odor is perceived through the act of sniffing."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sniffing is a direct sensory experience of perception."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the active nature of 'sniff' imply strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sniffing itself is neutral; the perceived odor or context determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'perceive by inhaling' implies that the perception is achieved with certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of sniffing often involves a series of rapid, short inhalations to achieve perception, suggesting a highly repetitive component to the physical action, similar to 'run'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

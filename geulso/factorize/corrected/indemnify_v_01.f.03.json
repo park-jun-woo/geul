@@ -1,0 +1,53 @@
+{
+  "synset_id": "indemnify.v.01",
+  "definition": "secure against future loss, damage, or liability; give security for",
+  "frame_id": 3,
+  "frame_text": "Something indemnify something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "security.n.01",
+      "reasoning": "The definition 'secure against future loss, damage, or liability' describes an action that causes a transition from a state of vulnerability to a state of being secured or protected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity (e.g., a policy, a fund, an agreement) that provides or effects the security, thereby causing the change of state for the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that receives the security or protection and whose state is changed from vulnerable to secure."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Indemnification, as a formal act or a state of being secured, is typically directly observable or ascertainable through official means."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual event or state, not a hypothetical or imperative one."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in this frame is typically a non-sentient entity (like a contract or fund) and thus does not possess 'will' or intention in the human sense to perform the action."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To 'secure against future loss, damage, or liability' is inherently a positive action or outcome for the party being indemnified."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with a non-sentient subject (the indemnifying entity) indicates that the action is non-volitional; it happens as a function or consequence rather than intentional choice."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of indemnifying implies a definite and certain establishment of security or coverage."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Indemnifying refers to a singular act of establishing security or providing compensation, even if the security or potential for compensation is ongoing."
+    }
+  }
+}

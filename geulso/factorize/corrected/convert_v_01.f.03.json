@@ -1,0 +1,59 @@
+{
+  "synset_id": "convert.v.01",
+  "definition": "change from one system to another or to a new plan or policy",
+  "frame_id": 3,
+  "frame_text": "Something change_over something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The definition 'change from one system to another or to a new plan or policy' clearly indicates a transition or transformation, which is a change of state.",
+      "value_from_state": "an initial system, plan, or policy",
+      "reasoning_value_from_state": "Derived from the definition, this represents the original state or configuration from which the change originates.",
+      "value_to_state": "a new or different system, plan, or policy",
+      "reasoning_value_to_state": "Derived from the definition, this represents the resulting state or configuration after the change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity (e.g., a process, a machine, or a force) that brings about the change.",
+          "value_type": "mechanism.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of state.",
+          "value_type": "entity.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of converting is typically directly observable or ascertainable through its effects and outcomes."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that a conversion event takes place."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the agent in the frame does not inherently possess human-like will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of converting itself is neutral; its positive or negative sentiment depends on the specific context and the nature of what is being converted."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is performed by a non-volitional agent (e.g., a machine, a process, an inanimate force)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'convert' implies a definite and certain occurrence of the transformation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'convert' describes a singular event of transformation. While multiple items can be converted, the verb itself refers to a single act per item or batch, without inherent repetition for a general case."
+    }
+  }
+}

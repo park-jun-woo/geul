@@ -1,0 +1,60 @@
+{
+  "synset_id": "count.v.01",
+  "definition": "determine the number or amount of",
+  "frame_id": 3,
+  "frame_text": "Somebody enumerate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes an action that changes the state of an agent from not knowing the number/amount to knowing it, thereby establishing knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of counting/determining the number."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quantity.n.01",
+          "reasoning": "The 'something' whose number or amount is being determined, which becomes the content of the acquired knowledge."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sequential_processing.n.01",
+      "reasoning": "The frame 'Somebody enumerate something' implies a specific manner of determination, which involves a step-by-step or item-by-item process (enumeration)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Counting is typically a directly performed or observed action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention to determine the number."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counting is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody enumerate something' clearly indicates a volitional agent performing the action with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'count' implies an attempt to arrive at a certain and definite number or amount."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'enumerating' (counting) involves a series of repetitive individual steps or observations to determine the total quantity, implying high iterativity within the action."
+    }
+  }
+}

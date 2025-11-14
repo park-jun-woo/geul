@@ -1,0 +1,59 @@
+{
+  "synset_id": "hit.v.05",
+  "definition": "affect or afflict suddenly, usually adversely",
+  "frame_id": 0,
+  "frame_text": "Somebody strike PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The definition 'affect or afflict' implies a transition from one condition to another for the affected entity, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity that initiates or causes the affecting event."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "An implicit participant is the entity that undergoes the change of state or is affected/afflicted, as required by the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "time.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The adverb 'suddenly' is explicitly part of the definition, specifying the temporal manner of the event's occurrence."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes an event that can be directly observed or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The core meaning of the verb is declarative, stating a fact or occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is typically inanimate or non-agentive (e.g., a storm, an idea), implying an absence of will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'afflict' and 'usually adversely', indicating a strong inherent negative sentiment associated with this sense of 'hit'."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something hit' features a non-volitional subject ('Something'), making the action inherently non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or effect."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition implies a single, discrete event of affecting or afflicting, not a repeated action."
+    }
+  }
+}

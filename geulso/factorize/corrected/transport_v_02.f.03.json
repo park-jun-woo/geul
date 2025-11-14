@@ -1,0 +1,59 @@
+{
+  "synset_id": "transport.v.02",
+  "definition": "move while supporting, either in a vehicle or in one's hands or on one's body",
+  "frame_id": 3,
+  "frame_text": "Somebody carry something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move' and the hypernym 'cause to move' clearly indicate a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that causes the movement and supports the patient; this is the carrier or vehicle."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of location and is supported."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "supporting",
+      "reasoning": "The definition explicitly includes 'while supporting' as an inherent characteristic of the movement, indicating the manner in which the motion occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Transporting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something transport something' implies a non-volitional agent (e.g., a vehicle or natural force), indicating no inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transporting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically refers to an inanimate subject or a subject acting without personal intent, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Transporting is a continuous action often involving a journey or repeated movement over a duration, indicating high iterativity rather than a single event."
+    }
+  }
+}

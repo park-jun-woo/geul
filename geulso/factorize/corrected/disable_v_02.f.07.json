@@ -1,0 +1,59 @@
+{
+  "synset_id": "disable.v.02",
+  "definition": "injure permanently",
+  "frame_id": 7,
+  "frame_text": "Something invalid somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb 'disable' describes a causative change in a person's physical or functional state from healthy/functional to injured/non-functional.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or causes the permanent injury, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change in health and becomes disabled or 'invalid'."
+        }
+      ]
+    },
+    {
+      "verb_type": "state_property",
+      "verb_property": "duration.n.01",
+      "value_type": "permanent.a.01",
+      "reasoning": "The definition explicitly states 'injure permanently', indicating that the resultant state of injury or disability is lasting in duration."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disabling or injuring is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a state change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame implies a non-volitional cause; there is no will involved from the subject causing the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'injure permanently' carries an inherently negative connotation, as it refers to harm."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something invalid somebody' indicates that the subject 'Something' is not a volitional agent, thus the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of permanent injury."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of causing permanent injury, which leads to a lasting state."
+    }
+  }
+}

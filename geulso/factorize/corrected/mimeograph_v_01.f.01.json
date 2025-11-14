@@ -1,0 +1,63 @@
+{
+  "synset_id": "mimeograph.v.01",
+  "definition": "print copies from (a prepared stencil) using a mimeograph",
+  "frame_id": 1,
+  "frame_text": "Somebody mimeograph something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "replica.n.01",
+      "reasoning": "The verb describes the action of producing multiple replicas (copies) of a document.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of operating the mimeograph."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "document.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the original document or stencil from which copies are made, as implied by the definition 'print copies from (a prepared stencil)'."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "mimeograph.n.01",
+          "reasoning": "The definition explicitly mentions 'using a mimeograph' as the tool or device employed for the printing."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mimeographing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'mimeograph' itself carries no inherent politeness marking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mimeographing is a neutral process; its sentiment depends on the content being copied."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody mimeograph something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of mimeographing, when performed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Mimeographing is an action that inherently involves repetitive mechanical steps to produce multiple copies from a single stencil, suggesting high iterativity in the process."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "master.v.01",
+  "definition": "be or become completely proficient or skilled in",
+  "frame_id": 3,
+  "frame_text": "Somebody master something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "skill.n.01",
+      "reasoning": "The verb 'master' describes the process of acquiring and achieving proficiency, which is a change in the agent's skill level.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of mastering."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "skill.n.01",
+          "reasoning": "The 'something' that is being learned or understood to a high degree, representing the acquired skill or subject matter."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "complete",
+      "reasoning": "The definition 'be or become completely proficient or skilled' explicitly states the maximal degree of attainment as a core component of mastering."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Mastering a skill implies direct cognitive and experiential acquisition of knowledge or ability."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or achievement."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to achieve mastery."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mastering is neutral; its sentiment depends on the specific skill and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody master something' clearly indicates an intentional, volitional act by the agent to achieve proficiency."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'master' something implies a high level of certainty and confidence in the acquired skill or knowledge."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the *process* of mastering may be iterative, the verb 'master' itself denotes the singular achievement or culmination of complete proficiency, making it a single event."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "cancel.v.01",
+  "definition": "postpone indefinitely or annul something that was scheduled",
+  "frame_id": 2,
+  "frame_text": "Somebody scratch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The verb describes an action that causes an alteration in the operational status of a scheduled event or plan, moving it from active/scheduled to inactive/cancelled.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the change in status, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (scheduled event or plan) that undergoes the change in its status."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "cancellation.n.01",
+      "reasoning": "The specific outcome of the action is the termination or nullification of the scheduled item, as implied by 'annul' in the definition and the 'scratch' in the frame, which suggests removal from a plan."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cancelling is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cancelling is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody scratch something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cancelling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of termination or indefinite postponement for a given item."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

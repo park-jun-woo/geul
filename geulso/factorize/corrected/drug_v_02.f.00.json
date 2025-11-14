@@ -1,0 +1,53 @@
+{
+  "synset_id": "drug.v.02",
+  "definition": "use recreational drugs",
+  "frame_id": 0,
+  "frame_text": "Somebody do_drugs somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'drug somebody' describes an action performed by an agent that causes a change in the physical or mental state (condition) of the patient, specifically leading them to 'use recreational drugs' or be under their influence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of causing another to use recreational drugs, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose condition is altered by being made to use recreational drugs."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of drugging someone is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by their will and intent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The transitive construction 'Somebody drug somebody' often carries a negative connotation, implying coercion, manipulation, or incapacitation, regardless of the 'recreational' nature of the drug."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional and volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of drugging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing someone to use drugs, though such an act could be repeated."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "bum.v.02",
+  "definition": "be lazy or idle",
+  "frame_id": 24,
+  "frame_text": "Somebody waste_one's_time",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "idleness.n.01",
+      "reasoning": "The definition 'be lazy or idle' describes an ongoing state or activity characterized by inactivity, which is a process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent engaged in the process of idleness."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "wastefulness.n.01",
+      "reasoning": "The phrase 'waste one's time' in the verb frame explicitly describes a core property and outcome of the idleness, indicating unproductive use of a valuable resource.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "time.n.01",
+          "reasoning": "The 'one's time' component of the verb frame identifies the specific resource being subjected to wastefulness by the agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'bumming' or wasting time is generally a directly observable behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will, choosing to be lazy or idle."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'bum' implies laziness and 'waste one's time' carries an inherently negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody waste_one's_time' explicitly includes a volitional agent ('Somebody') who intentionally engages in the lazy activity that results in wasted time."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action is described as a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wasting time by being lazy or idle is typically an ongoing, highly repetitive activity over a period, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

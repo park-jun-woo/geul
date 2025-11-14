@@ -1,0 +1,56 @@
+{
+  "synset_id": "experience.v.03",
+  "definition": "go through (mental or physical states or experiences)",
+  "frame_id": 6,
+  "frame_text": "Something have something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "experience.n.01",
+      "reasoning": "The definition 'go through (mental or physical states or experiences)' describes a durative process of undergoing, rather than an instantaneous event or a static state. The property directly relates to the concept of 'experience'.",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The first 'Something' in the frame refers to the entity that undergoes or is subjected to the experience."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The second 'something' in the frame refers to the mental or physical state, or the specific experience itself, which is undergone."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "To 'experience' something inherently implies direct, first-hand knowledge or sensation of it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an experience occurs."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' typically implies a non-volitional subject ('Something'), meaning the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of experiencing is neutral; the specific experience itself can be positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with the definition 'go through' or 'undergo' suggests that the 'Something' is subjected to the experience rather than intentionally initiating it, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When something is 'experienced', it is understood to be a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'experience' in this general frame refers to a single instance of undergoing an event or state, without inherent repetition implied."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

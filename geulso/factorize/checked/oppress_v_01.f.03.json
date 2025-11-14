@@ -1,0 +1,64 @@
+{
+  "synset_id": "oppress.v.01",
+  "definition": "come down on or keep down by unjust use of one's authority",
+  "frame_id": 3,
+  "frame_text": "Somebody oppress something",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "subjection.n.01",
+      "reasoning": "The verb describes the act of causing or maintaining a state of being 'kept down' or suppressed, leading to subjection.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively exerts power and brings about the state of subjection."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a person, group, or entity) that is subjected to the oppression."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "use.n.01",
+      "value_type": "authority.n.01",
+      "attribute": "unjust.a.01",
+      "reasoning": "A core aspect of 'oppress' is the specific manner of action: the application of 'unjust use of one's authority' as stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Oppression is typically a directly observable phenomenon or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies a strong will and intention to use their authority."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'unjust use of one's authority', which inherently carries a strong negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody oppress something' indicates an intentional act by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of oppressing."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'keep down' in the definition suggests an ongoing, continuous, or highly repetitive action rather than a single event. Oppression is often systemic and sustained."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

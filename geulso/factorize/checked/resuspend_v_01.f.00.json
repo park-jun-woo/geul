@@ -1,0 +1,68 @@
+{
+  "synset_id": "resuspend.v.01",
+  "definition": "put back into suspension",
+  "frame_id": 0,
+  "frame_text": "Somebody resuspend something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb 'resuspend' describes an action that causes a change in the physical state of a patient, moving it from a non-suspended state to a suspended state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame who intentionally performs the action of resuspending."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' from the verb frame whose physical state is changed by being put back into suspension."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "suspension.n.02",
+      "reasoning": "The desired or resulting state of the 'patient' after the action is to be held in suspension, as defined by the verb's meaning and its hypernym 'suspend.v.02'.",
+      "aspect": "result-focused"
+    },
+    {
+      "verb_type": "modifier",
+      "verb_property": "recurrence.n.01",
+      "value": "reinstatement_of_state",
+      "reasoning": "The 're-' prefix in 'resuspend' signifies that the action involves returning something to a state it was previously in, implying a prior state of suspension, followed by a non-suspended state, and then a reinstatement of suspension."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of resuspending is typically a directly observable event or process in scientific/technical contexts."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a human agent ('Somebody') in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of resuspending is a neutral process; its sentiment depends on the specific context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody ----s something' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is carried out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the 're-' prefix implies a return to a previous state (a conceptual recurrence), the act of 'resuspending' itself is typically treated as a single, completed event of causing something to be suspended again, not a continuous or highly repetitive internal action."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'modifier'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

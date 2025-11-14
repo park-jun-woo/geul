@@ -1,0 +1,58 @@
+{
+  "synset_id": "skirmish.v.01",
+  "definition": "engage in a skirmish",
+  "frame_id": 0,
+  "frame_text": "Somebody skirmish",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "fight.n.01",
+      "reasoning": "The verb 'skirmish' describes the ongoing activity or process of engaging in a fight, as indicated by the definition 'engage in a skirmish' and the hypernym 'contend.v.06' (carry on a fight).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the active participant who performs the action of skirmishing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "scale.n.01",
+      "value_type": "minor.a.01",
+      "reasoning": "A 'skirmish' is inherently defined as a minor or brief fight, distinguishing it from a larger conflict. This 'minor' scale is a core semantic component of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Engaging in a skirmish is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A skirmish, being a form of conflict or fight, typically carries a negative connotation due to its adversarial nature."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody skirmish' explicitly indicates a volitional agent ('Somebody') performing the action, meaning it is done intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or engagement in a fight."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A skirmish, while potentially brief, is an engagement composed of multiple, repeated actions or clashes rather than a single instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

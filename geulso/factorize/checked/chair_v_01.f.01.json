@@ -1,0 +1,56 @@
+{
+  "synset_id": "chair.v.01",
+  "definition": "act or preside as chair, as of an academic department in a university",
+  "frame_id": 1,
+  "frame_text": "Somebody chairman something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "leadership.n.01",
+      "reasoning": "The verb 'chair' describes the ongoing activity of performing the duties of a leader or presiding officer, which is a continuous process of exercising leadership.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the individual who performs the action of presiding or acting as chair, making them the causal agent of this process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the entity (e.g., committee, department) over which the agent presides or leads, acting as the entity undergoing the leadership."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chairing or presiding is typically a directly observable public function."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing activity or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Acting as a chair is an intentional role involving the agent's will and deliberate action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chairing is inherently neutral; its positive or negative sentiment depends on the context or the outcome of the actions taken."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody chairman something' (interpreting 'chairman' as 'chairs') explicitly indicates a volitional agent ('Somebody') who intentionally undertakes the role and duties of presiding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement of someone chairing something is typically presented as a factual, certain occurrence or ongoing state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Presiding or acting as a chair involves continuous and often repetitive actions over time (e.g., chairing multiple meetings, making numerous decisions), indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

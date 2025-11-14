@@ -1,0 +1,57 @@
+{
+  "synset_id": "allege.v.01",
+  "definition": "report or maintain",
+  "frame_id": 8,
+  "frame_text": "Something say something",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "assertion.n.01",
+      "reasoning": "The definition 'report or maintain' and hypernym 'assert' indicate the core meaning is the act of making a statement or claim.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the act of stating or reporting, as specified by the verb frame. In this context, 'Something' refers to an inanimate entity that is the source of the assertion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'something' that is reported or maintained; this is the content of the allegation, which takes the form of a proposition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of alleging is a direct communication event, regardless of the veracity of the claim."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative act of making a statement."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something say something' implies an inanimate subject, which lacks the capacity for will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'allege' itself is neutral; the sentiment depends on the content of the allegation, which is not inherent in the verb."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something say something' explicitly features a non-volitional agent ('Something')."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "'Allege' implies a claim made without full proof or confirmed certainty, often suggesting an unproven or dubious nature, leading to speculation rather than certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of making an allegation is typically a discrete, single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

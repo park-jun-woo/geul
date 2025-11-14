@@ -1,0 +1,68 @@
+{
+  "synset_id": "lurk.v.01",
+  "definition": "lie in wait, lie in ambush, behave in a sneaky and secretive manner",
+  "frame_id": 1,
+  "frame_text": "Somebody skulk PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb describes an ongoing, durative action or manner of being present, which constitutes a behavior.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame, who performs the lurking behavior."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' from the verb frame specifies the location where the lurking behavior occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "secretive.a.01",
+      "reasoning": "The definition explicitly states 'behave in a sneaky and secretive manner', indicating a specific manner of action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "ambush.v.01",
+      "reasoning": "The phrases 'lie in wait' and 'lie in ambush' directly specify the intention or purpose behind the lurking behavior."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Lurking, while secretive, is an observable behavior or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame and the descriptive 'behave in a sneaky manner' imply the agent's strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'lurk' can have negative connotations, its inherent sentiment is neutral; the context determines its positive or negative impact."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s PP' and the definition implying deliberate behavior ('behave in a sneaky and secretive manner') indicate a volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Lurking is a continuous, sustained activity rather than a series of discrete repetitions. Thus, it represents a single, ongoing instance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

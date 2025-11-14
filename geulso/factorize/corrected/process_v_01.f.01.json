@@ -1,0 +1,53 @@
+{
+  "synset_id": "process.v.01",
+  "definition": "subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition",
+  "frame_id": 1,
+  "frame_text": "Somebody treat something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes subjecting an entity to a systematic series of actions or treatments, resulting in an alteration of its condition. The inherent aim is often to improve, remedy, or ready the entity for a specific purpose.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, representing the entity or system that performs the processing. Since it is 'Something', it implies a non-volitional agent (e.g., a machine, a system) that causes the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame, which is the entity undergoing the process and whose condition is changed or affected."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of processing is typically a directly observable phenomenon or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', indicating a non-sentient entity, thus implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of processing itself is neutral. Its positive or negative sentiment depends on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is performed by a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of processing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'process' or 'treatment' inherently involves a series of repeated or continuous steps and actions, rather than a single, instantaneous event, indicating high iterativity."
+    }
+  }
+}

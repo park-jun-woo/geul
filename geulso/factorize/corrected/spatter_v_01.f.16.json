@@ -1,0 +1,70 @@
+{
+  "synset_id": "spatter.v.01",
+  "definition": "dash a liquid upon or against",
+  "frame_id": 16,
+  "frame_text": "Somebody splosh somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The definition 'dash a liquid upon or against' describes causing a target to become covered with a liquid, representing a change in the target's surface state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of dashing the liquid, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the action and becomes covered with liquid."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The inherent 'liquid' that is being dashed and covers the target, essential to the verb's meaning even if not explicitly a syntactic argument in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The term 'dash' in the definition implies a quick and forceful movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "distribution.n.01",
+      "value_type": "scattered.a.01",
+      "reasoning": "The verb 'spatter' and its hypernym 'scatter' imply that the liquid is applied in a dispersed or non-uniform manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is neutral; its sentiment depends on context (e.g., playful vs. accidental mess)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of spattering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, conceptualized event of applying liquid, even if it results in multiple droplets."
+    }
+  }
+}

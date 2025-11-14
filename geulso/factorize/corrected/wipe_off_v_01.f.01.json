@@ -1,0 +1,66 @@
+{
+  "synset_id": "wipe_off.v.01",
+  "definition": "remove by wiping",
+  "frame_id": 1,
+  "frame_text": "Somebody wipe_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The verb 'wipe off' explicitly means to 'remove,' which is a change of state from being present to being absent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the instrument or non-volitional cause that performs the wiping.",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' that is removed and undergoes the change from present to absent.",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implicitly, something is wiped 'off' a surface, indicating the origin or source of the removed item.",
+          "value_type": "surface.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "wiping.n.01",
+      "reasoning": "The definition 'remove by wiping' specifies the particular manner or method by which the removal occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wiping something off is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something wipe_off something' implies a non-agentive subject, indicating no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wiping something off is generally neutral; its positive or negative connotation depends on the context and what is being wiped off."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-volitional entity performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'wipe off' refers to a singular, completed event of removal, even if the wiping motion itself is continuous."
+    }
+  }
+}

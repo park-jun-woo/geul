@@ -1,0 +1,64 @@
+{
+  "synset_id": "grass.v.03",
+  "definition": "spread out clothes on the grass to let it dry and bleach",
+  "frame_id": 0,
+  "frame_text": "Somebody grass something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "arrangement.n.02",
+      "reasoning": "The verb describes the action of changing the physical arrangement of the patient from a compact to a spread-out state. This action inherently includes a specific location and purpose.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "clothes.n.01",
+          "reasoning": "The 'something' (implied to be clothes from the definition) that undergoes the change in arrangement."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "grass.n.01",
+          "reasoning": "The specific surface 'on the grass' where the action takes place, which is an integral part of this verb's meaning."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "drying.n.01, bleaching.n.01",
+          "reasoning": "The inherent intention of the action is to achieve the states of drying and bleaching for the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'grassing' clothes is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and specific intent (the purpose)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of spreading out a batch of clothes for a specific purpose."
+    }
+  }
+}

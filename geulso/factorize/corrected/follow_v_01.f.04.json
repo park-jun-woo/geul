@@ -1,0 +1,65 @@
+{
+  "synset_id": "follow.v.01",
+  "definition": "to travel behind, go after, come after",
+  "frame_id": 4,
+  "frame_text": "Something follow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The core meaning of 'follow' involves movement, indicating a change in the location of the subject.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that performs the action of moving."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "spatial_relation.n.01",
+      "value_type": "behind.r.01",
+      "reasoning": "The verb specifically describes the spatial relationship of the moving entity relative to another, specifically moving 'behind' or 'after' it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' maintains this specified spatial relationship."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the direct object that serves as the reference point for the spatial relation, whose path or position is being tracked."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of following is generally a directly observable event or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary meaning is declarative, stating an occurrence or a state of being."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' does not imply the will or intention of the acting entity, as 'Something' is non-agentive in terms of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of following is semantically neutral; its positive or negative connotation depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject (the first 'Something'), meaning the action is not driven by intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'follow' describes a factual or certain occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Following is a continuous or highly repetitive action of maintaining position or direction relative to another entity, rather than a single discrete event."
+    }
+  }
+}

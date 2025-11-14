@@ -1,0 +1,63 @@
+{
+  "synset_id": "bob_under.v.01",
+  "definition": "disappear suddenly, as if under the surface of a body of water",
+  "frame_id": 0,
+  "frame_text": "Somebody bob_under",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "visibility.n.01",
+      "reasoning": "The verb 'disappear' explicitly denotes a transition from a visible state to an invisible one.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' from the verb frame is the entity that undergoes the change in visibility."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The adverb 'suddenly' in the definition describes the rapid pace of the disappearance."
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "submersion.n.01",
+      "reasoning": "The phrase 'as if under the surface of a body of water' specifies the characteristic manner of this disappearance, implying a rapid downward movement into or beneath a liquid medium."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something bobbing under and disappearing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates no volitional agent, therefore no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bobbing under and disappearing is neutral in sentiment; its positivity or negativity depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something ----s' implies that the subject ('Something') is non-agentive and the action occurs to it, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite occurrence of disappearance."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, discrete event of disappearing, rather than a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

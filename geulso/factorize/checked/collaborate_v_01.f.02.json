@@ -1,0 +1,66 @@
+{
+  "synset_id": "collaborate.v.01",
+  "definition": "work together on a common enterprise of project",
+  "frame_id": 2,
+  "frame_text": "Somebody cooperate",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb 'collaborate' describes the ongoing process of engaging in work or an activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of collaborating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "co_agent.n.01",
+          "reasoning": "Implied participant by the definition 'work together', representing the other party or parties with whom the agent collaborates."
+        },
+        {
+          "semantic_role": "goal.n.01",
+          "reasoning": "The 'common enterprise or project' specified in the definition, indicating the purpose or aim of the collaboration."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "joint_effort.n.01",
+      "reasoning": "The definition 'work together' explicitly includes the manner of performing the action as a shared or joint effort, distinguishing it from individual work."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of collaborating is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of collaborating is neutral; its sentiment depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cooperate' implies a volitional agent ('Somebody') performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Collaboration ('work together') is typically a continuous, ongoing, or highly repetitive process rather than a single, atomic event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

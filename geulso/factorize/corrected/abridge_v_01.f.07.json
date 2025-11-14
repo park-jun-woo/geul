@@ -1,0 +1,65 @@
+{
+  "synset_id": "abridge.v.01",
+  "definition": "reduce in scope while retaining essential elements",
+  "frame_id": 7,
+  "frame_text": "Something abbreviate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "scope.n.01",
+      "reasoning": "The verb's definition explicitly states 'reduce in scope', indicating a change in the extent or range of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' that causes the reduction, as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' that undergoes the reduction in scope, as per the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "essence.n.01",
+      "value_type": "preserved.a.01",
+      "reasoning": "This sememe captures the crucial aspect of 'retaining essential elements' from the definition, meaning that the core identity or critical parts of the patient are maintained despite the reduction in scope.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose essential elements are preserved."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of abridging is generally a directly observable phenomenon or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', indicating a non-volitional entity or process as the cause, thus lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of abridging is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is caused by a non-agentive 'Something', making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Abridging typically refers to a single, complete event of reducing a particular text or piece of work."
+    }
+  }
+}

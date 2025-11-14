@@ -1,0 +1,64 @@
+{
+  "synset_id": "squall.v.01",
+  "definition": "make high-pitched, whiney noises",
+  "frame_id": 0,
+  "frame_text": "Somebody squall",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sound.n.02",
+      "reasoning": "The verb describes the continuous or ongoing production of sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that produces or emits the sound, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "high-pitched.a.01",
+      "reasoning": "The definition explicitly describes the characteristic quality of the noise as 'high-pitched'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "whiny.a.01",
+      "reasoning": "The definition explicitly describes the characteristic quality of the noise as 'whiney'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of squalling produces an audible sound, which is directly perceptible."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of sound production."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The generic 'Something' in the frame does not inherently imply an agent with will; it can refer to inanimate objects (like wind) or involuntary vocalizations (like a distressed baby)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of squalling itself is neutral. The emotional context (e.g., a baby squalling in distress) provides the sentiment, not the verb's core meaning."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something squall' implies the action is often non-volitional (e.g., wind squalling) or an involuntary expression of distress (e.g., a baby squalling), rather than an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of sound being made."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Squalling implies a continuous or highly repetitive production of high-pitched, whiney noises, not a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

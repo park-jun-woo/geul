@@ -1,0 +1,63 @@
+{
+  "synset_id": "shower.v.02",
+  "definition": "spray or sprinkle with",
+  "frame_id": 1,
+  "frame_text": "Somebody shower something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "distribution.n.01",
+      "reasoning": "The definition 'spray or sprinkle with' implies causing a change in the spatial arrangement or distribution of a substance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of showering, initiating the distribution."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., water, confetti, praise) that is being distributed or scattered."
+        },
+        {
+          "semantic_role": "target.n.01",
+          "reasoning": "The 'somebody' or surface that receives the distributed substance, indicated by the 'on somebody' phrase."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "spray.v.02",
+      "reasoning": "The verb's definition explicitly states 'spray or sprinkle', which denotes a specific manner of physical dispersion, akin to the hypernym 'spray'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of showering or spraying is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the verb frame implies the action is carried out with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of showering is semantically neutral; its positive or negative connotation depends on the context and the nature of what is being showered."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' clearly indicates a volitional agent initiating and performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'showering' a substance (like spray or sprinkle) inherently involves the distribution of multiple, often numerous, individual particles or items, implying a continuous or highly repetitive action at the micro-level of the distributed material, distinguishing it from a single, indivisible event."
+    }
+  }
+}

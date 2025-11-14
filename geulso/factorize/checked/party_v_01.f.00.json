@@ -1,0 +1,52 @@
+{
+  "synset_id": "party.v.01",
+  "definition": "have or participate in a party",
+  "frame_id": 0,
+  "frame_text": "Somebody party",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "celebration.n.01",
+      "reasoning": "The definition 'have or participate in a party' describes an ongoing activity centered around a social celebration.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs or engages in the activity of partying, as specified by the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Partying is a directly observable social activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to engage in the activity."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of 'partying' inherently carries a positive sentiment, associated with enjoyment and celebration, as evidenced by its hypernym 'celebrate'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody party' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of partying is described as a definite occurrence or engagement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Partying is an activity that unfolds over a continuous period, involving many smaller, often repetitive, actions within that duration (e.g., dancing, talking, eating). It's not a single, instantaneous event but an extended engagement, indicating high repetition of constituent actions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

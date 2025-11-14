@@ -1,0 +1,56 @@
+{
+  "synset_id": "oblige.v.03",
+  "definition": "provide a service or favor for someone",
+  "frame_id": 0,
+  "frame_text": "Somebody accommodate somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "assistance.n.01",
+      "reasoning": "The verb describes an agent performing an action to provide a service or favor, which is a form of assistance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates and performs the act of obliging."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame who is the beneficiary of the service or favor provided."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of obliging is a directly observable action or experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Providing a service or favor is inherently a positive act for the recipient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody oblige somebody' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'oblige' describes a definite act, assuming it has occurred or will occur."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of providing a service or favor, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

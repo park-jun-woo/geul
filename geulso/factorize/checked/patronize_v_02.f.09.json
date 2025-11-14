@@ -1,0 +1,56 @@
+{
+  "synset_id": "patronize.v.02",
+  "definition": "do one's shopping at; do business with; be a customer or client of",
+  "frame_id": 9,
+  "frame_text": "Somebody shop something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "commercial_transaction.n.01",
+      "reasoning": "The definition 'do one's shopping at; do business with; be a customer or client of' describes engaging in an ongoing or repeated commercial activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the commercial activity (the customer or client)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame, which refers to the business, store, or establishment that is being patronized."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of patronizing a business is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to conduct business."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of patronizing a business is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') choosing to engage in commercial activity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of patronizing, when asserted, is described as a definite occurrence or ongoing fact."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'do one's shopping at; do business with; be a customer or client of' strongly implies a habitual or repeated action, characteristic of a regular customer."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

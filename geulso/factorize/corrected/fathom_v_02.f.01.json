@@ -1,0 +1,64 @@
+{
+  "synset_id": "fathom.v.02",
+  "definition": "measure the depth of (a body of water) with a sounding line",
+  "frame_id": 1,
+  "frame_text": "Somebody sound something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "quantification.n.01",
+      "reasoning": "The definition 'measure the depth' implies an action of quantifying a physical property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of measuring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body_of_water.n.01",
+          "reasoning": "The 'something' whose depth is being measured, which is a body of water according to the definition."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "sounding_line.n.01",
+          "reasoning": "The 'sounding line' is explicitly mentioned in the definition as the instrument used for the measurement."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "depth.n.01",
+          "reasoning": "The specific property ('depth') that is being measured, derived from the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of measuring is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of measuring depth is a neutral action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of measuring is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of measurement."
+    }
+  }
+}

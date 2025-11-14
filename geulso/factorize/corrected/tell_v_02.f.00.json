@@ -1,0 +1,54 @@
+{
+  "synset_id": "tell.v.02",
+  "definition": "let something be known",
+  "frame_id": 0,
+  "frame_text": "Somebody tell that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The definition 'let something be known' describes a transition from a state of 'unknown' to 'known', which is a change in the state of knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of conveying information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the information or proposition that is being made known."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'telling' inherently implies direct communication from the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action of telling is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of telling is neutral; the content of what is told determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tell' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'tell' something usually implies the speaker believes the information to be certain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of conveying a piece of information."
+    }
+  }
+}

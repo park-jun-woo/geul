@@ -1,0 +1,56 @@
+{
+  "synset_id": "plan.v.02",
+  "definition": "make plans for something",
+  "frame_id": 0,
+  "frame_text": "Somebody plan VERB-ing",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "plan.n.01",
+      "reasoning": "The verb 'plan' is defined as 'make plans for something', which describes the mental creation or formulation of a plan.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of planning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the object, event, or goal for which the plan is created. It is the theme of the planning."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of planning is a direct cognitive experience for the agent, or directly observable through their actions leading to a plan."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' implies that the action of planning is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of planning itself is neutral; its positive or negative sentiment depends on the context or the plan's outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody plan something' clearly indicates a volitional agent performing the action of planning."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of planning, as described, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Planning is typically a continuous mental process that involves multiple steps, considerations, and possibly revisions, rather than a single instantaneous event. The hypernym 'think' also suggests an ongoing mental activity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

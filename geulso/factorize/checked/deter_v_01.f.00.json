@@ -1,0 +1,56 @@
+{
+  "synset_id": "deter.v.01",
+  "definition": "try to prevent; show opposition to",
+  "frame_id": 0,
+  "frame_text": "Somebody deter somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "prevention.n.01",
+      "reasoning": "The verb 'deter' means to 'try to prevent' or 'show opposition to', indicating an attempt by an agent to cause the non-occurrence of an action or event by another party.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the actor who performs the act of deterring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity whose intended action or progress is being opposed or prevented by the causal agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of deterring is an observable action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'try to prevent' clearly indicates strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of deterring itself is neutral; its positive or negative sentiment depends on what is being deterred (e.g., deterring crime is positive, deterring progress is negative)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deter somebody' explicitly involves a volitional agent performing an intentional act as indicated by 'try to prevent'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of attempting to prevent, not a speculation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of attempting to prevent an action, though the prevention effort itself might be continuous."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

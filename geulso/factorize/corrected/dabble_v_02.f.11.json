@@ -1,0 +1,60 @@
+{
+  "synset_id": "dabble.v.02",
+  "definition": "play in or as if in water, as of small children",
+  "frame_id": 11,
+  "frame_text": "Something splash_around",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "play.n.05",
+      "reasoning": "The definition explicitly states 'play in or as if in water', identifying the core activity as playful engagement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "water.n.01",
+          "reasoning": "The implied medium or setting of the activity, 'in water' from the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "splashing_motion.n.01",
+      "reasoning": "The `verb_frame` explicitly mentions 'splash_around', indicating the characteristic manner of this playful activity in water. This refers to movement causing liquid to scatter."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of dabbling/splashing around is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or activity."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The presence of 'Something' as the subject in the frame implies no inherent will or intention driving the action for this specific usage."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling or splashing is neutral; its sentiment depends on context, despite the 'play' aspect which can be positive."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something splash_around' explicitly features a non-agentive subject ('Something'), making the action non-volitional for this specific frame, overriding the 'small children' implication in the general definition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dabbling and splashing around in water typically involves continuous and highly repetitive actions."
+    }
+  }
+}

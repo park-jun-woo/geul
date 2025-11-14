@@ -1,0 +1,68 @@
+{
+  "synset_id": "shmooze.v.01",
+  "definition": "talk idly or casually and in a friendly way",
+  "frame_id": 3,
+  "frame_text": "Somebody shmoose",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "conversation.n.01",
+      "reasoning": "The verb describes the core activity of engaging in conversation, as indicated by 'talk' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the act of shmoozing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "casual.a.01",
+      "reasoning": "The definition specifies the talking is done 'idly or casually', which indicates a casual manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "friendly.a.01",
+      "reasoning": "The definition explicitly states the talking is 'in a friendly way', describing the social manner or tone of the interaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Shmoozing is a directly observable social interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shmoose' implies the agent's will and intention in initiating the conversation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shmoozing itself is neutral. While 'friendly' has positive connotations, 'idly or casually' is descriptive, making the overall act neutral for inherent sentiment. The hypernym 'chew the fat' is also neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates a volitional agent performing the action of shmoozing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Shmoozing, as a form of casual conversation, typically involves multiple, repetitive conversational turns over a period, indicating high iterativity."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The terms 'idly or casually' in the definition strongly suggest an informal communication style."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

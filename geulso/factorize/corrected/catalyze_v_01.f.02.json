@@ -1,0 +1,59 @@
+{
+  "synset_id": "catalyze.v.01",
+  "definition": "change by catalysis or cause to catalyze",
+  "frame_id": 2,
+  "frame_text": "Something catalyse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "process.n.01",
+      "reasoning": "The verb 'catalyze' means to cause or accelerate a chemical process or reaction, indicating a change in the state or rate of that process. The hypernym 'change_state.v.01' supports this.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the catalyst, which causes the change in the process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the substance or reaction whose process is changed or accelerated by the catalyst."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "catalysis.n.01",
+      "reasoning": "A core part of the verb's meaning is the specific manner in which the change is effected, which is 'by catalysis'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Catalysis is a scientific phenomenon that is typically observed and directly experienced in experimental contexts."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence or process, not a hypothetical or imperative one."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something catalyse something' features non-agentive subjects ('Something'), implying no will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of catalyzing is a neutral scientific process; its outcomes can be positive or negative depending on context, but the act itself is neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Both arguments in the frame 'Something catalyse something' are non-human and non-volitional. Catalysts do not act with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'catalyze' describes a definite and certain scientific action or effect when it occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While catalysis can be an ongoing process, the verb describes the singular act of causing or being involved in that process for a specific reaction. It is not an action composed of many discrete repetitions in the way 'running' is."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "appoint.v.01",
+  "definition": "create and charge with a task or function",
+  "frame_id": 4,
+  "frame_text": "Somebody name somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes an action that changes a person's status or role within an organization or for a specific task.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of appointing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is designated for a task or function and whose status changes."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "task.n.01",
+          "reasoning": "The implicit task or function with which the appointed person is charged, as per the definition 'charge with a task or function'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of appointing is typically a directly observable public act."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of appointing is neutral; its sentiment depends on context or the nature of the appointment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "An appointment is a definitive, established act."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of designation."
+    }
+  }
+}

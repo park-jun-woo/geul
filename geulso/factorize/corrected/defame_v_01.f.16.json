@@ -1,0 +1,65 @@
+{
+  "synset_id": "defame.v.01",
+  "definition": "charge falsely or with malicious intent; attack the good name and reputation of someone",
+  "frame_id": 16,
+  "frame_text": "Something smirch somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb 'defame' describes causing a negative change to someone's reputation or good name, as per the definition 'attack the good name and reputation of someone'.",
+      "participants": [
+        {
+          "semantic_role": "cause.n.01",
+          "reasoning": "The 'Something' in the verb frame is the non-agentive entity or event that brings about the defamation. It acts as the cause rather than a volitional agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose good name and reputation are attacked and who undergoes the negative change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false",
+      "reasoning": "The definition 'charge falsely' indicates that falsehood is an inherent characteristic of the act of defaming, irrespective of the grammatical subject's sentience."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intent.n.01",
+      "value_type": "malicious",
+      "reasoning": "The definition 'with malicious intent' specifies that malevolence is an inherent characteristic of the act of defaming, even if the current frame's subject is non-volitional."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming is a social action that can be directly observed or experienced in its effects."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something smirch somebody' has a non-agentive subject ('Something'), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation' clearly indicates a negative sentiment associated with this verb."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the frame 'Something smirch somebody' indicates that the action is non-volitional on the part of the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite event of defaming, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, albeit potentially ongoing, event of attacking a reputation, not a repetitive action within itself."
+    }
+  }
+}

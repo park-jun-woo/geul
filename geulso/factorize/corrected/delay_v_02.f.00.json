@@ -1,0 +1,60 @@
+{
+  "synset_id": "delay.v.02",
+  "definition": "act later than planned, scheduled, or required",
+  "frame_id": 0,
+  "frame_text": "Somebody delay something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "timing.n.01",
+      "reasoning": "The verb 'delay' describes causing a change in the planned or scheduled occurrence time of an action or event, shifting it to a later point.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the postponement of an action or event, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'something' that is subject to the delay, which is an action or event whose occurrence is shifted in time."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_relation.n.01",
+      "value_type": "later_than_expected",
+      "reasoning": "The core meaning of 'delay' inherently signifies that the action takes place at a time subsequent to what was planned, scheduled, or required."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of delaying is a directly observable action or its outcome."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') in the frame implies intentionality and will in performing the delay."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of delaying is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody delay something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of delaying is described as a definite occurrence or decision."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'delay' in this frame typically describes a single instance of postponing an action or event, rather than continuous repetition."
+    }
+  }
+}

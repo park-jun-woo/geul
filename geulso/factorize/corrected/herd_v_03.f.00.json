@@ -1,0 +1,60 @@
+{
+  "synset_id": "herd.v.03",
+  "definition": "keep, move, or drive animals",
+  "frame_id": 0,
+  "frame_text": "Somebody herd something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'herd' primarily describes causing a change in the location of animals, as indicated by 'move, or drive animals' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the action of moving the animals."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "animal.n.01",
+          "reasoning": "The 'something' in the verb frame, specified as 'animals' in the definition, which undergo the change of location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "collective.a.01",
+      "reasoning": "The term 'herd' inherently implies managing or moving animals as a cohesive group, rather than individually."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Herding is an observable action, hence direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of herding itself is semantically neutral; context determines its positive or negative implications."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody herd something' clearly indicates an intentional, volitional act performed by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Herding typically involves continuous or highly repetitive actions (driving, guiding) over a period to control the movement of animals."
+    }
+  }
+}

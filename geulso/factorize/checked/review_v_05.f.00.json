@@ -1,0 +1,57 @@
+{
+  "synset_id": "review.v.05",
+  "definition": "look back upon (a period of time, sequence of events); remember",
+  "frame_id": 0,
+  "frame_text": "Somebody look_back something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "recollection.n.01",
+      "reasoning": "The verb 'review' in this sense describes an active mental process of recalling or considering past information, as indicated by 'look back upon' and 'remember'. 'Recollection' refers to the process of remembering, often with effort.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the mental process of reviewing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' being reviewed, which refers to past events or periods of time treated as information or content of memory."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reviewing or remembering is a direct cognitive experience for the agent performing it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame and the active nature of 'look back upon' imply the agent's will and intention to perform the review."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reviewing itself is neutral; the content being reviewed might have positive or negative connotations, but the verb does not inherently carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody review something' indicates a volitional agent actively choosing to perform the mental process of reviewing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'review' implies a certain and definite act of engaging with one's memories or past information."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete instance of going over past information. While one might review many times, the verb itself in this frame doesn't imply inherent repetition like 'running' steps."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

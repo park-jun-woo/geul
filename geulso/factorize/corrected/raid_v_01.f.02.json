@@ -1,0 +1,59 @@
+{
+  "synset_id": "raid.v.01",
+  "definition": "search without warning, make a sudden surprise attack on",
+  "frame_id": 2,
+  "frame_text": "Somebody raid somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "conflict.n.01",
+      "reasoning": "The definition explicitly refers to 'attack' and the hypernym is 'attack.v.01', indicating a core semantic component of aggressive confrontation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of raiding, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the raid and experiences the attack."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "surprise.n.01",
+      "reasoning": "The definition includes 'without warning' and 'sudden surprise attack', which are crucial components of the manner in which a raid is conducted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Raids are observable events, implying direct experience as the default evidentiality."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A 'raid' is an aggressive act, an attack, which generally carries a negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A raid is typically viewed as a single, bounded event, even if it has internal complexity."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "erode.v.02",
+  "definition": "remove soil or rock",
+  "frame_id": 1,
+  "frame_text": "Something erode something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "removal.n.01",
+      "reasoning": "The core meaning of 'erode' is the process of removing material, as explicitly stated in the definition 'remove soil or rock'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the agent (e.g., wind, water) that causes the removal of material."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the material (soil or rock) that is being removed or worn away."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The process of erosion (material removal) inherently leads to a degradation or loss of the physical integrity of the affected object, which aligns with its hypernym 'damage'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes a change in its integrity due to the erosive process."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Erosion is a physically observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is 'Something', indicating a natural force or inanimate object, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The natural process of erosion is semantically neutral, though its effects might be perceived negatively in certain contexts."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something erode something' implies a non-volitional agent (e.g., wind, water), making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of erosion is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Erosion is typically a continuous, repetitive process of gradual wearing away, composed of many small, repeated acts of removal."
+    }
+  }
+}

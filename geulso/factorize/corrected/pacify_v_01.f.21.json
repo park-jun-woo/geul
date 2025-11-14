@@ -1,0 +1,59 @@
+{
+  "synset_id": "pacify.v.01",
+  "definition": "cause to be more favorably inclined; gain the good will of",
+  "frame_id": 21,
+  "frame_text": "Something gentle somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sentiment.n.01",
+      "reasoning": "The definition 'cause to be more favorably inclined; gain the good will of' describes a transition from an unfavorable or neutral sentiment to a favorable one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the change in sentiment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity whose sentiment undergoes the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gentle.a.01",
+      "reasoning": "The presence of 'gentle' directly in the verb frame 'Something gentle somebody' suggests a specific manner in which the pacifying action is performed or experienced in this context."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pacifying is generally observable through its effects on the patient."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional cause, lacking an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'cause to be more favorably inclined; gain the good will of' indicates a positive outcome or sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the action is caused by a non-agentive 'Something', making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of pacifying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing someone to become favorably inclined."
+    }
+  }
+}

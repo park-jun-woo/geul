@@ -1,0 +1,72 @@
+{
+  "synset_id": "spatter.v.01",
+  "definition": "dash a liquid upon or against",
+  "frame_id": 25,
+  "frame_text": "Something plash something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes causing a liquid to change its location by moving onto a surface, resulting in its presence there.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame that causes the dashing of the liquid.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the surface that receives the liquid.",
+          "value_type": "surface.n.01"
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The inherent substance that is moved and distributed by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "dispersed.a.01",
+      "reasoning": "The term 'spatter' inherently implies that the liquid is distributed in scattered drops or splashes, not as a continuous stream."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition uses 'dash a liquid upon or against,' which implies a forceful or rapid application of the liquid."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spattering is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' typically implies a non-volitional agent causing the action, lacking intentional will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spattering itself is neutral; its positive or negative sentiment depends on the context and the liquid/surface involved."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the acting 'Something' is typically non-volitional (e.g., mud spattering from a car, rain spattering a window)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Spattering often involves multiple, continuous, and scattered impacts of liquid drops, implying high repetition rather than a single discrete event."
+    }
+  }
+}

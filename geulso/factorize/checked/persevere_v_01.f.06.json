@@ -1,0 +1,58 @@
+{
+  "synset_id": "persevere.v.01",
+  "definition": "be persistent, refuse to stop",
+  "frame_id": 6,
+  "frame_text": "Something hang_in",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "persistence.n.01",
+      "reasoning": "The verb 'persevere' and the definition 'be persistent, refuse to stop' describe an ongoing dynamic process of maintaining a state or course of action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' is the entity that exhibits or maintains the state of persistence, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value_type": "difficulty.n.01",
+      "reasoning": "The core meaning of 'persevere' implies that the persistence occurs despite challenges or difficult circumstances, requiring effort to 'refuse to stop'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of persevering is a directly observable phenomenon or a state that can be directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "For the frame 'Something hang_in', the 'Something' typically does not possess conscious will, even if it exhibits inherent resilience or continues due to external forces. Therefore, modality is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of persevering is inherently neutral; its positive or negative sentiment depends on the context and goal of the persistence."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "While 'persevere' can be volitional for animate subjects, the frame 'Something hang_in' refers to an inanimate object, a situation, or an abstract entity that persists due to its nature or circumstances, not conscious intention. Hence, it is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'persevere' describes a definite occurrence or state of persistence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'persevere' or 'hang in' implies a sustained, continuous process or a high degree of repetition in maintaining a state over time."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

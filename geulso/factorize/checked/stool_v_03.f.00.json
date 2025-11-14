@@ -1,0 +1,59 @@
+{
+  "synset_id": "stool.v.03",
+  "definition": "grow shoots in the form of stools or tillers",
+  "frame_id": 0,
+  "frame_text": "Something stool",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "growth.n.01",
+      "reasoning": "The verb describes the natural biological process of an organism developing and increasing its physical parts, as implied by 'grow shoots'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., a plant) that undergoes this process of growth, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "product.n.01",
+      "value_type": "shoot.n.01",
+      "reasoning": "The specific outcome or product of the growth process is the creation or emergence of 'shoots', which are further described as 'stools or tillers' in the definition. 'Shoot.n.01' serves as a general representative for these vegetative growths.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of growing shoots is a directly observable natural phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a natural process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates a natural, inherent process rather than an action driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Natural growth is generally neutral in sentiment. Its positive or negative value depends on external context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' (e.g., a plant) is non-agentive, performing the action non-volitionally as a natural biological process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite natural occurrence or capability."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of growing 'shoots' implies a continuous or highly repetitive process of producing multiple new growths, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

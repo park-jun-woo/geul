@@ -1,0 +1,61 @@
+{
+  "synset_id": "duck.v.01",
+  "definition": "to move (the head or body) quickly downwards or away",
+  "frame_id": 0,
+  "frame_text": "Somebody duck",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'to move... downwards or away' describes a change in position or location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the action of moving."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "quick.a.01",
+      "reasoning": "A core component of 'duck' is the 'quickly' specified in the definition, describing the manner of movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.03",
+      "value": "downwards or away",
+      "reasoning": "The definition specifies the particular direction of the movement as 'downwards or away'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'ducking' is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "As the `Volitionality` is neutral for this generalized frame, the agent's will/intention is also neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ducking is inherently neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something duck' uses a generalized subject. While 'duck' can be volitional (e.g., a person ducking), it can also describe non-volitional movement (e.g., an object ducking under something). Therefore, a neutral value is most appropriate."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of movement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'duck' describes a single, distinct, quick evasive or lowering movement, not a continuous repetition of movements."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "synset_id": "housebreak.v.01",
+  "definition": "train (a pet) to live cleanly in a house",
+  "frame_id": 0,
+  "frame_text": "Somebody house-train something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb 'housebreak' describes the act of training, which aims to cause a change in the pet's behavior or establish a new habit.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the training action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "pet.n.01",
+          "reasoning": "The 'something' (specifically a 'pet' according to the definition) that undergoes the behavioral change through training."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "clean.a.01",
+      "reasoning": "A core semantic component is that the training aims for the pet to behave in a 'clean' manner, as implied by 'live cleanly'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "house.n.01",
+      "reasoning": "The specific context or environment where the desired clean behavior is expected to be maintained is 'in a house'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of housebreaking a pet is a directly observable process or its resulting state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention to train."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of housebreaking is a neutral process; its outcome is generally perceived as positive but the verb itself does not carry inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent ('Somebody') performing the intentional act of training."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite action of training taking place."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While training involves repeated actions, 'housebreak' refers to the singular, completed event of bringing a pet to the state of being housebroken, similar to 'learn' which is a single event of acquisition."
+    }
+  }
+}

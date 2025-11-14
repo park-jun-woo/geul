@@ -1,0 +1,54 @@
+{
+  "synset_id": "promise.v.01",
+  "definition": "make a promise or commitment",
+  "frame_id": 4,
+  "frame_text": "Somebody promise that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "commitment.n.01",
+      "reasoning": "The verb 'promise' describes the act of creating a new commitment or obligation for the agent, which represents a change in their future state of responsibility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who makes the promise and thus undertakes the commitment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' that represents the content or subject of the promise, which is a proposition about a future action or state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Making a promise is a direct communicative act performed by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action of commitment."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Making a promise is an intentional act driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of promising itself is neutral; the content of the promise determines its positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody promise...' explicitly indicates a volitional agent performing the act of promising."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of promising implies a strong degree of certainty or commitment on the part of the promisor regarding their future action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'promise' describes a single, discrete event of making a commitment."
+    }
+  }
+}

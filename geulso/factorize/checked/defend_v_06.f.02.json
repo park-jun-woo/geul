@@ -1,0 +1,56 @@
+{
+  "synset_id": "defend.v.06",
+  "definition": "be the defense counsel for someone in a trial",
+  "frame_id": 2,
+  "frame_text": "Somebody represent somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "legal_representation.n.01",
+      "reasoning": "The definition 'be the defense counsel for someone in a trial' describes an ongoing activity or function (process) within the domain of legal representation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the role of defense counsel, initiating and sustaining the legal representation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the legal defense; the client being represented."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defending someone in a trial is a directly observable public event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing action or role."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to represent the client."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of defending is neutral in itself; its positive or negative sentiment depends on the outcome or context of the trial."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody represent somebody' explicitly indicates a volitional agent performing the act of legal defense."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The representation is described as a definite and certain ongoing event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Being a defense counsel involves continuous, highly repetitive actions and interactions over the duration of a trial, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

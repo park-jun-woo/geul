@@ -1,0 +1,65 @@
+{
+  "synset_id": "tide.v.02",
+  "definition": "cause to float with the tide",
+  "frame_id": 0,
+  "frame_text": "Something tide something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing an object to transition into a state of motion, specifically by floating.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the initiator or cause of the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change of state to being in motion (floating)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "floating.n.01",
+      "reasoning": "The specific manner of motion imparted to the patient is 'floating'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "tide.n.01",
+      "reasoning": "The means by which the floating is caused or occurs is specified as 'with the tide'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to float is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the causal agent in the frame is typically inanimate and lacks inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to float with the tide is neutral in sentiment; context determines its emotional valence."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the subject 'Something' is typically a non-sentient entity, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing something to float."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single, initiated event of causing an object to float."
+    }
+  }
+}

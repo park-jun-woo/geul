@@ -1,0 +1,57 @@
+{
+  "synset_id": "see.v.18",
+  "definition": "deliberate or decide",
+  "frame_id": 0,
+  "frame_text": "Somebody see whether INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The verb 'see' in this context means 'deliberate or decide,' which describes an ongoing internal cognitive process of evaluating options or facts.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of deliberation or decision-making."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "course_of_action.n.01",
+          "reasoning": "The 'whether INFINITIVE' clause represents the subject of deliberation or decision, which is a potential course of action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Deliberation is an internal, direct cognitive experience of the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental process or act."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of deliberating or deciding is typically driven by the agent's intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of deliberation or decision-making itself is neutral; the outcome might carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies a volitional agent performing the action of deliberating or deciding."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of deliberating or deciding is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This refers to a single instance of engaging in the process of deliberation or reaching a decision."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "subsidize.v.02",
+  "definition": "secure the assistance of by granting a subsidy, as of nations or military forces",
+  "frame_id": 7,
+  "frame_text": "Something subsidize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'subsidize' describes the act of granting a subsidy, which is a transfer of financial resources, thus changing the possession of these resources.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity (e.g., a nation, government) that initiates the act of granting a subsidy, serving as the causal agent.",
+          "value_type": "organization.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "subsidy.n.01",
+          "reasoning": "The 'subsidy' (a grant of money or aid) is the specific thing being transferred or granted, whose possession changes."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'something' in the frame is the entity that receives the subsidy or financial assistance.",
+          "value_type": "organization.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of granting a subsidy is typically a publicly acknowledged and directly observable event or policy."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or policy."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "When an entity like 'Something' (e.g., a nation or organization) subsidizes, it implies a deliberate act driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of subsidizing itself is neutral; its positive or negative connotations depend on the context and impact."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Something ----s something' with 'Something' referring to an institution or nation implies a volitional, intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs or is enacted."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Subsidies often represent ongoing financial support or a policy that involves repeated grants, suggesting high iterativity rather than a single, isolated event."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "slave.v.01",
+  "definition": "work very hard, like a slave",
+  "frame_id": 1,
+  "frame_text": "Somebody buckle_down",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "work.n.01",
+      "reasoning": "The core of the definition 'work very hard' indicates an activity of labor.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the work."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The phrase 'very hard' in the definition specifies a high degree of intensity for the work being performed."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "arduous.a.01",
+      "reasoning": "The phrase 'like a slave' implies a manner of working that is arduous, burdensome, or without respite, characteristic of a slave's labor."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of working hard is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will to work hard, even if the work itself is undesirable."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'slave' and the phrase 'like a slave' inherently carry a negative connotation, implying hardship, drudgery, and potentially exploitation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action, even if the work is coerced or undesirable."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Working 'very hard, like a slave' implies sustained, continuous, and often repetitive effort over a period of time, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "synset_id": "work.v.01",
+  "definition": "exert oneself by doing mental or physical work for a purpose or out of necessity",
+  "frame_id": 0,
+  "frame_text": "Somebody work",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "labor.n.01",
+      "reasoning": "The verb describes the general activity of expending mental or physical effort, aligning with the definition 'exert oneself by doing mental or physical work'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity performing the labor or exertion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of working is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'for a purpose or out of necessity' implies intention or obligation, indicating a strong will or reason behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of working is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody work' indicates a volitional agent performing the action, further supported by 'exert oneself for a purpose or out of necessity'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of working."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Working is typically a continuous, sustained activity composed of repeated efforts or tasks, indicating high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

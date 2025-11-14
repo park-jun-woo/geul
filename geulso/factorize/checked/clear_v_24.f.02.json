@@ -1,0 +1,62 @@
+{
+  "synset_id": "clear.v.24",
+  "definition": "free (the throat) by making a rasping sound",
+  "frame_id": 2,
+  "frame_text": "Something clear something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "obstruction_status.n.01",
+      "reasoning": "The verb describes a change in the state of the patient from being obstructed to being free or clear.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the non-volitional force or instigator that causes the change (e.g., a cough or a sound)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame (e.g., the throat) that undergoes the change of state from obstructed to clear."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "sound_emission.n.01",
+      "value_type": "rasping.a.01",
+      "reasoning": "The definition 'by making a rasping sound' specifies the particular manner or means by which the clearing occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of clearing by sound is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame does not inherently possess will, even if an underlying human agent might be volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Clearing an obstruction is generally a neutral, functional action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something clear something' implies a non-agentive subject ('Something'), making the action non-volitional with respect to that subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of clearing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of clearing the throat, not a continuous or repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

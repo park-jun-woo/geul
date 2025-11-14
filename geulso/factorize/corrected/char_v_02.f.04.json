@@ -1,0 +1,63 @@
+{
+  "synset_id": "char.v.02",
+  "definition": "burn slightly and superficially so as to affect color",
+  "frame_id": 4,
+  "frame_text": "Something blacken something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The definition 'affect color' indicates that the primary result of charring is a change in the patient's color, specifically to a darker shade.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame `Something ----s something` is the non-volitional entity that causes the charring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame `Something ----s something` is the entity undergoing the change in color due to charring."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "value_type": "burning.n.01",
+      "reasoning": "The definition explicitly states 'burn slightly', indicating that the method or means by which the color change occurs is through a process of burning."
+    },
+    {
+      "verb_type": "degree",
+      "value_type": "superficial.a.01",
+      "reasoning": "The definition specifies 'slightly and superficially', which describes the limited extent or intensity of the burning and the resulting effect."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Charring is a physically observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional agent (the first 'Something'), thus lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of charring is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional cause or agent, as 'Something' does not possess volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of charring."
+    }
+  }
+}

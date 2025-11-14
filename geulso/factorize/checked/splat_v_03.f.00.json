@@ -1,0 +1,58 @@
+{
+  "synset_id": "splat.v.03",
+  "definition": "flatten on impact",
+  "frame_id": 0,
+  "frame_text": "Something is splating PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb describes a change in the physical state of an object, specifically becoming flat, which is a deformation of its shape.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of shape, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "event",
+      "verb_property": "impact.n.01",
+      "reasoning": "A core semantic component of 'splat' is the sudden collision or forceful contact that causes the flattening, as indicated by 'on impact' in the definition. This is the causal event.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of splatting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something splat' lacks an agent capable of will, as the action is non-volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of splatting is neutral; its sentiment depends on the context and what is splatted."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something splat' describes an event happening to a non-agentive subject, making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of splatting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'splat' describes a single, instantaneous event of impact and flattening."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

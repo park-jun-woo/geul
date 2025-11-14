@@ -1,0 +1,77 @@
+{
+  "synset_id": "summon.v.01",
+  "definition": "call in an official matter, such as to attend court",
+  "frame_id": 8,
+  "frame_text": "Somebody summons something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.02",
+      "reasoning": "The verb 'summon' denotes an act of communication, specifically a formal call or order for someone to appear.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of communicating the summons, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'something' (e.g., a person or entity) that receives the summons, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "result_state",
+      "verb_property": "presence.n.01",
+      "reasoning": "The primary intended outcome of a summons is to cause the summoned entity to become present at a designated location (e.g., to attend court).",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose state of presence is intended to change from absent to present as a result of the summons."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "formality.n.01",
+      "value_type": "official.a.01",
+      "reasoning": "The definition 'call in an official matter' explicitly indicates that the action is characterized by formality and authority."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of summoning is a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame acts with clear intention and will when summoning."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The phrase 'in an official matter' strongly implies a formal context for the summoning."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of summoning itself is neutral; its sentiment depends on the specific context or reason."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody summons something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of summoning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of calling someone to appear, not a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

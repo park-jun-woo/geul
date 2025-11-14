@@ -1,0 +1,64 @@
+{
+  "synset_id": "jostle.v.02",
+  "definition": "come into rough contact with while moving",
+  "frame_id": 4,
+  "frame_text": "Somebody shove somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes an action where an agent causes another person's spatial location to change through forceful contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the forceful contact and movement, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose position is affected by the jostling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition mentions 'rough contact' and the hypernym 'push' implies applying force in the movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "contact.n.01",
+      "reasoning": "The definition explicitly states 'come into rough contact with'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Jostling is an action that is typically directly observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shove somebody' implies an agent acting with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of jostling itself is neutral; while 'rough' might suggest negative connotations, the action isn't inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shove somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of jostling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Jostling often implies a series of repeated, often small, physical contacts or pushes, suggesting a high degree of repetition rather than a single discrete event."
+    }
+  }
+}

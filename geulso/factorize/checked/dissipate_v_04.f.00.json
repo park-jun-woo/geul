@@ -1,0 +1,66 @@
+{
+  "synset_id": "dissipate.v.04",
+  "definition": "live a life of pleasure, especially with respect to alcoholic consumption",
+  "frame_id": 0,
+  "frame_text": "Somebody dissipate",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "life_style.n.01",
+      "reasoning": "The verb describes an ongoing process of leading a particular way of life or consistent pattern of behavior.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who is the agent engaging in this lifestyle."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "indulgent.a.01",
+      "reasoning": "The definition specifies 'a life of pleasure', indicating an indulgent and pleasure-seeking manner of living.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "focus.n.01",
+      "value_type": "alcoholic_consumption.n.01",
+      "reasoning": "The definition explicitly highlights 'alcoholic consumption' as a specific focus of the indulgent lifestyle.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of living a life is typically observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about a lifestyle."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent who chooses and intends to live this way, demonstrating strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'dissipate' itself carries a negative connotation, implying a wasteful or detrimental way of life, despite focusing on 'pleasure'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody dissipate' explicitly indicates a volitional agent choosing and enacting this lifestyle."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement about someone dissipating is presented as a certain occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Leading a 'life of pleasure' implies a continuous and highly repetitive pattern of behaviors over an extended period, not a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

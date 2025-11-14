@@ -1,0 +1,60 @@
+{
+  "synset_id": "porter.v.01",
+  "definition": "carry luggage or supplies",
+  "frame_id": 0,
+  "frame_text": "Somebody porter",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'carry luggage or supplies' describes an action that causes a change in the location of objects, thus a change of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of carrying, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "cargo.n.01",
+          "reasoning": "The 'luggage or supplies' that are being carried, representing the object undergoing motion, generalized as cargo."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "supporting.a.01",
+      "reasoning": "The act of 'carrying' inherently involves supporting the object, as described in the hypernym 'transport.v.02' ('move while supporting')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of portering/carrying is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of portering is inherently neutral; context determines its positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody porter' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of portering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'porter' describes a single event of transporting luggage or supplies, though it may involve continuous effort."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "second-guess.v.01",
+  "definition": "attempt to anticipate or predict",
+  "frame_id": 0,
+  "frame_text": "Somebody outguess somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "prediction.n.01",
+      "reasoning": "The definition 'attempt to anticipate or predict' indicates that the core meaning is an act of foresight or estimation of future events.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the cognitive act of second-guessing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that is the object of the prediction or anticipation."
+        }
+      ]
+    },
+    {
+      "verb_type": "attribute",
+      "verb_property": "manner.n.01",
+      "value_type": "critical.a.01",
+      "reasoning": "The 'second' in 'second-guess' implies a critical, often re-evaluative, or speculative approach to the prediction, distinguishing it from a simple or initial prediction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of second-guessing is a direct cognitive experience for the agent performing it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' and the 'attempt to' in the definition implies the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of second-guessing itself is semantically neutral; its positive or negative sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action, further supported by 'attempt to' in the definition."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "The verb 'second-guess' and 'attempt to anticipate or predict' inherently suggest that the outcome of the guess is speculative rather than certain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the cognitive act, without implying inherent repetition."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'attribute'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "winnow.v.01",
+  "definition": "separate the chaff from by using air currents",
+  "frame_id": 0,
+  "frame_text": "Somebody fan",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes causing a change in the state of the 'chaff' from being integrated within a mixture to being separated from it, thus altering the integrity of its connection.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the act of winnowing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "chaff.n.01",
+          "reasoning": "The 'chaff' is the material directly undergoing the change of state from mixed to separated, as per the definition 'separate the chaff'."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "mixture.n.01",
+          "reasoning": "The implicit larger body or mixture (e.g., grain) from which the chaff is separated, as implied by 'separate ... from'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "air_current.n.01",
+      "reasoning": "The definition explicitly specifies 'by using air currents' as the method or means by which the separation is achieved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of winnowing is a physically observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of winnowing is generally neutral; its purpose is to refine, which can be seen as positive, but the act itself is functional."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody winnow' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of winnowing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Winnowing is a process that involves repeated actions (e.g., tossing, shaking) to utilize air currents effectively for separation, indicating high repetition."
+    }
+  }
+}

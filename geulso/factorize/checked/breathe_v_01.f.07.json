@@ -1,0 +1,58 @@
+{
+  "synset_id": "breathe.v.01",
+  "definition": "draw air into, and expel out of, the lungs",
+  "frame_id": 7,
+  "frame_text": "Somebody take_a_breath something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "respiration.n.01",
+      "reasoning": "The verb describes the physiological process of respiration, which involves the intake and expulsion of air into and out of the lungs.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of breathing, as indicated by the verb frame.",
+          "value_type": "organism.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' being moved, which is air, as implied by the verb's definition.",
+          "value_type": "air.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of breathing is generally a directly observable physiological process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The phrase 'take a breath' often implies a volitional, deliberate act by an agent, demonstrating strong will (e.g., 'take a deep breath')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of breathing is a neutral physiological function."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "While continuous breathing is involuntary, the frame 'Somebody take_a_breath' suggests a single, often deliberate and thus volitional, act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of taking a breath is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The phrase 'take a breath' specifically refers to a single, discrete instance of breathing, rather than continuous, repetitive respiration."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

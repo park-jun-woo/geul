@@ -1,0 +1,56 @@
+{
+  "synset_id": "predestine.v.02",
+  "definition": "foreordain by divine will or decree",
+  "frame_id": 8,
+  "frame_text": "Something predestine somebody",
+  "sememes": [
+    {
+      "verb_type": "establish",
+      "verb_property": "destiny.n.01",
+      "reasoning": "The verb 'predestine' means to 'foreordain by divine will or decree,' which is an act of establishing a future course of events or destiny.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame, which the definition clarifies as 'divine will or decree,' acts as the causal agent that establishes the destiny."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity for whom the destiny is established; they are the undergoer of the predestining."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The concept of 'divine will or decree' falls outside direct human experience and is typically a matter of belief or inference."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or its result."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of 'divine will or decree' implies an absolute and strong intention or will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of predestining is neutral; the resulting destiny could be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly refers to 'divine will or decree,' indicating a highly intentional and volitional act, albeit by a non-human entity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Predestination inherently implies a high degree of certainty about the determined future outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Predestining an individual's fate is typically conceived as a single, decisive act, not a repetitive one."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'establish'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

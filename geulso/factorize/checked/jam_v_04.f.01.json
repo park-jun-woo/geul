@@ -1,0 +1,56 @@
+{
+  "synset_id": "jam.v.04",
+  "definition": "interfere with or prevent the reception of signals",
+  "frame_id": 1,
+  "frame_text": "Somebody jam something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "interference.n.01",
+      "reasoning": "The verb 'jam' explicitly means to 'interfere with or prevent' something, indicating a causal action leading to a state of disruption or hindrance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the interference, acting as the agent of causation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame refers to the signals or reception that is being interfered with or prevented, thus undergoing the effect of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of jamming and its effects are typically directly observable or ascertainable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'interfere with or prevent' inherently carries a negative connotation, as it disrupts a desired function or process."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the subject is an inanimate or non-agentive entity, performing the action non-volitionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state being brought about."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single act of causing interference, even if the interference itself can be continuous."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "synset_id": "cool.v.01",
+  "definition": "make cool or cooler",
+  "frame_id": 5,
+  "frame_text": "Something cool_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The verb 'cool' and its definition 'make cool or cooler' describe a process that alters the temperature of an object, which is a change of state for the property of temperature. The 'down' in 'cool_down' reinforces the direction of this change (decrease in temperature).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame 'Something cool_down something' is the entity that causes the temperature change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame 'Something cool_down something' is the entity whose temperature is affected and made cooler."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The change in temperature caused by cooling is typically a directly observable or measurable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates a non-agentive cause, lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cooling is inherently neutral; its positive or negative sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something cool_down something' has an inanimate or non-agentive subject ('Something'), meaning the action it performs is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making something cooler."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of causing something to become cooler, rather than an inherently repetitive or continuous action in its basic sense."
+    }
+  }
+}

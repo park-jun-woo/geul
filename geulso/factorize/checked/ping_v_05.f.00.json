@@ -1,0 +1,76 @@
+{
+  "synset_id": "ping.v.05",
+  "definition": "send a message from one computer to another to check whether it is reachable and active",
+  "frame_id": 0,
+  "frame_text": "Somebody ping somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes the action of initiating an electronic communication by sending a signal, which causes a change in the state of information transmission.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the communication by sending the message."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "signal.n.01",
+          "reasoning": "The implicit electronic message or signal that is sent during the ping operation."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'something' which is the target computer receiving the message."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "status.n.02",
+      "reasoning": "The inherent purpose of the ping action is to verify the operational status and reachability of the target computer.",
+      "participants": [
+        {
+          "semantic_role": "cognizer.n.01",
+          "reasoning": "The 'Somebody' who seeks to obtain information about the status of the target."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The status (reachability and activity) of the 'something' (target computer) is the subject of verification."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pinging provides direct feedback, implying direct experience of the outcome."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pinging itself is neutral; its success or failure determines the sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ping something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of pinging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of sending a diagnostic message."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

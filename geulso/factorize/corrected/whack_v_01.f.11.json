@@ -1,0 +1,59 @@
+{
+  "synset_id": "whack.v.01",
+  "definition": "hit hard",
+  "frame_id": 11,
+  "frame_text": "Something whop somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb 'whack' describes an event where two entities come into forceful physical contact, leading to a change in state for the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of hitting, initiating the physical contact, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that receives the impact or physical contact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition 'hit hard' explicitly states a high intensity of the impact, distinguishing it from a mere touch or gentle hit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hitting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', indicating no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical act of whacking itself is neutral; its sentiment depends on context or outcome, which is not inherent to the verb."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something whop somebody' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of whacking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'whack' typically describes a single, discrete act of hitting, not a continuous or highly repetitive action."
+    }
+  }
+}

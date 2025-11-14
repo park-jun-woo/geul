@@ -1,0 +1,61 @@
+{
+  "synset_id": "co-star.v.01",
+  "definition": "feature as the co-star in a performance",
+  "frame_id": 0,
+  "frame_text": "Something co-star somebody",
+  "sememes": {
+    "Featuring": {
+      "verb_type": "state",
+      "verb_property": "feature.n.02",
+      "reasoning": "The verb describes the state of a performance featuring an actor in a specific capacity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "performance.n.01",
+          "reasoning": "The 'Something' (e.g., a film, play) is the entity that features the actor. Although inanimate, it functions as the agent in presenting the role."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "actor.n.01",
+          "reasoning": "The 'somebody' is the actor who is being featured in the performance."
+        }
+      ]
+    },
+    "RoleProminence": {
+      "verb_type": "property",
+      "verb_property": "prominence.n.01",
+      "value_type": "co_star.n.01",
+      "reasoning": "This sememe specifies the particular level of importance or nature of the role, identifying it as a co-star position."
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of co-starring is a directly verifiable fact about a performance."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about roles."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' (performance/production) in the frame is inanimate and therefore lacks the capacity for will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of co-starring is inherently neutral; its positive or negative sentiment depends on context or perception."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' (a production or performance) is inanimate and cannot act volitionally, hence the action it performs is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, factual state of being featured in a role."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a continuous state of being featured in a role, rather than a repeated action. It is a single, ongoing instance."
+    }
+  }
+}

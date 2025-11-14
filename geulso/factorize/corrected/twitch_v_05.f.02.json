@@ -1,0 +1,63 @@
+{
+  "synset_id": "twitch.v.05",
+  "definition": "move or pull with a sudden motion",
+  "frame_id": 2,
+  "frame_text": "Something is twitching PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a sudden, brief change in the position or state of an entity.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the sudden motion, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "direction.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame often indicates the direction or orientation of the sudden motion or pull."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition 'with a sudden motion' explicitly states the manner of the movement, which is central to the meaning of 'twitch'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Twitching is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is twitching' indicates a non-agentive subject, implying the action is not driven by will or intention."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is twitching' in the verb frame explicitly indicates a progressive aspect, describing an ongoing or continuous action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of twitching is neutral; its sentiment depends on context (e.g., a nervous twitch vs. a fish twitching)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is twitching' involves a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the motion."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "While a single 'twitch' can be a discrete event, the verb 'twitch' (especially in the progressive 'is twitching') often implies a series of rapid, small, repetitive motions, similar to trembling or flickering. Therefore, it has high iterativity."
+    }
+  }
+}

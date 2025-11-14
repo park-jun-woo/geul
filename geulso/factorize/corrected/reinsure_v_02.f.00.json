@@ -1,0 +1,60 @@
+{
+  "synset_id": "reinsure.v.02",
+  "definition": "insure again by transferring to another insurance company all or a part of a liability assumed",
+  "frame_id": 0,
+  "frame_text": "Somebody reinsure somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "liability.n.01",
+      "reasoning": "The verb describes the action of altering the allocation or responsibility for an existing liability by transferring it from one entity to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "company.n.01",
+          "reasoning": "The 'Somebody' refers to the primary insurance company that initiates the transfer of liability."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liability.n.01",
+          "reasoning": "The 'something' refers to the assumed liability or a portion of it, which is the object being transferred."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "company.n.01",
+          "reasoning": "The definition 'transferring to another insurance company' implies a recipient, which is the secondary insurance company that receives the liability."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reinsuring is a business transaction that is typically direct and verifiable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a business action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with explicit will and intention in a business context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a neutral business transaction, without inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody reinsure something' explicitly indicates a volitional agent performing an intentional business act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of a financial transaction."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The 're-' prefix in 'reinsure' and the definition 'insure again' implies this is not a single, initial event. Furthermore, 'transferring... all or a part of a liability assumed' suggests this can be a continuous or frequently repeated practice for managing risk, thus exhibiting high repetition."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "hit.v.05",
+  "definition": "affect or afflict suddenly, usually adversely",
+  "frame_id": 4,
+  "frame_text": "Something strike",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes causing a change in the condition or state of an entity, from a neutral state to an affected/afflicted one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the affection or affliction, as implied by the verb frame and definition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implicit entity that is affected or afflicted, undergoing the change in condition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suddenness.n.01",
+      "reasoning": "The definition explicitly states the action occurs 'suddenly'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "outcome.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The definition explicitly states the effect is 'usually adversely', indicating a negative outcome."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes an event that is typically directly observable or experienced by those involved."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something strike' lacks an agent capable of will, and the definition suggests a non-volitional impact."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition includes 'afflict' and 'usually adversely', indicating a strong negative inherent sentiment for the action's effect."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something strike' indicates a non-volitional subject, and the nature of affecting/afflicting in this sense is typically unintentional (e.g., a disease hitting a population)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or effect."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb implies a single, discrete event of affecting or afflicting."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "synset_id": "secure.v.03",
+  "definition": "assure payment of",
+  "frame_id": 1,
+  "frame_text": "Something secure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "certainty.n.01",
+      "reasoning": "The verb 'assure payment of' describes causing a transition from an uncertain state of payment to a certain or guaranteed state, which is a change in the certainty property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the action of assuring or making certain.",
+          "value": "Something"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the payment whose certainty is being established.",
+          "value_type": "payment.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of securing payment is typically a directly verifiable or observable action in a transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is inanimate and therefore lacks will or intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of assuring payment is generally neutral; its sentiment depends on context or the parties involved."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something'), meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition 'assure payment of' inherently implies a high level of certainty or guarantee regarding the payment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, distinct act of establishing assurance for a payment."
+    }
+  }
+}

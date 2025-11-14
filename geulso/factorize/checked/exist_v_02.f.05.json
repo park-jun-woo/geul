@@ -1,0 +1,56 @@
+{
+  "synset_id": "exist.v.02",
+  "definition": "support oneself",
+  "frame_id": 5,
+  "frame_text": "Somebody live on something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sustenance.n.01",
+      "reasoning": "The verb 'live on' in this frame means 'support oneself', which describes an ongoing process of obtaining and consuming resources necessary for survival.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of supporting themselves, thus initiating and maintaining the process of sustenance."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'something' upon which the agent 'lives', serving as the means or resource for their sustenance, as indicated by the preposition 'on'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of supporting oneself is typically a directly observable or ascertainable fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a state or process of existence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Supporting oneself, especially in the context of 'Somebody live on something', implies intentional effort and will from the agent to maintain their livelihood."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of supporting oneself is inherently neutral; the quality or adequacy of the support might carry sentiment, but the act itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody live on something' indicates that 'Somebody' is an agent who volitionally takes actions to support themselves."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite, factual process or state of being."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'living on' something for sustenance is continuous and requires repeated actions over time to maintain, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

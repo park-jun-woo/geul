@@ -1,0 +1,57 @@
+{
+  "synset_id": "boo.v.01",
+  "definition": "show displeasure, as after a performance or speech",
+  "frame_id": 0,
+  "frame_text": "Somebody boo",
+  "sememes": [
+    {
+      "verb_type": "action.n.01",
+      "reasoning": "The verb 'boo' describes a deliberate act performed by an agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of booing, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "expression.n.01",
+      "reasoning": "The specific sentiment or state being expressed by the action of 'booing' is displeasure, as indicated by the definition 'show displeasure'.",
+      "value_type": "displeasure.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of booing is a public and directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'show displeasure' explicitly indicates a negative sentiment associated with the act of booing."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody boo' clearly indicates that the action is performed intentionally by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or act."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Booing, especially in response to a performance or speech, typically involves repeated or sustained vocalizations, indicating high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'action.n.01'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

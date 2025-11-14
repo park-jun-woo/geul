@@ -1,0 +1,68 @@
+{
+  "synset_id": "beat_around_the_bush.v.01",
+  "definition": "be deliberately ambiguous or unclear in order to mislead or withhold information",
+  "frame_id": 0,
+  "frame_text": "Somebody beat_around_the_bush",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes a communicative action, specifically a manner of speaking or discussing rather than direct engagement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of communication, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The implicit 'information' or 'topic' that is being avoided or withheld, which is the object of the communication."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "clarity.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The definition explicitly states 'ambiguous or unclear', indicating that the communication's clarity is intentionally reduced."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "deception.n.01",
+      "reasoning": "The action is performed 'in order to mislead or withhold information', directly indicating a purpose of deception or concealment."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'beating around the bush' is an observable communicative behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state of behavior."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition includes 'deliberately', indicating a strong will or intention behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The purpose 'to mislead or withhold information' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action is explicitly described as 'deliberately' performed by a 'Somebody', making it inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, certain occurrence of the behavior."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'beat around the bush' implies a sustained or repeated effort to avoid a direct topic, suggesting high repetition over a period rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

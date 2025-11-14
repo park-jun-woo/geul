@@ -1,0 +1,53 @@
+{
+  "synset_id": "injure.v.01",
+  "definition": "cause injuries or bodily harm to",
+  "frame_id": 6,
+  "frame_text": "Something wound somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb 'injure' describes a process that causes a change in the physical health or well-being of a living being.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity or event that causes the injury or bodily harm."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the recipient of the injury or bodily harm; their health state is changed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Injuries are typically directly observable events or their effects are evident."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional cause, not an agent acting with will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'injure' inherently carries a negative sentiment as it causes harm."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something wound somebody' indicates that the action is caused by a non-agentive entity ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of injuring is typically described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing injury, though injuries can be multiple in an event."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "synset_id": "rehearse.v.01",
+  "definition": "engage in a rehearsal (of)",
+  "frame_id": 0,
+  "frame_text": "Somebody practice",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "preparedness.n.01",
+      "reasoning": "The verb 'rehearse' describes a sustained activity that aims to improve readiness or skill for an event, indicating a process leading to an enhanced state of preparedness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively engages in the rehearsal, performing the actions to achieve a state of readiness."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Rehearsing is an action that can be directly observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rehearsing itself is neutral in sentiment; its outcome might be perceived differently."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rehearse' explicitly indicates a volitional agent performing the action, as rehearsal is a deliberate act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description refers to a definite, occurring process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A rehearsal typically involves a series of repeated actions, practices, or run-throughs of parts, indicating high but not infinite repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "purify.v.01",
+  "definition": "remove impurities from, increase the concentration of, and separate through the process of distillation",
+  "frame_id": 1,
+  "frame_text": "Somebody make_pure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "purity.n.01",
+      "reasoning": "The definition 'remove impurities from, increase the concentration of' describes a transition from a less pure state to a more pure state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity causing the purification."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "substance.n.01",
+          "reasoning": "The second 'something' in the verb frame is the substance that undergoes the change in purity."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "distillation.n.01",
+      "reasoning": "The definition explicitly specifies 'through the process of distillation' as a particular method or manner of purification."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of purification is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' typically does not possess will or intention, thus the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To 'purify' implies an improvement or enhancement of the substance, removing undesirable elements, which is generally considered a positive outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something purify something' indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process of making something pure."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, conceptual event of purification, even if the underlying process might take time."
+    }
+  }
+}

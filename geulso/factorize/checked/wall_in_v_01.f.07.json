@@ -1,0 +1,61 @@
+{
+  "synset_id": "wall_in.v.01",
+  "definition": "enclose with a wall",
+  "frame_id": 7,
+  "frame_text": "Something wall_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "enclosure.n.01",
+      "reasoning": "The verb 'wall up' describes a causative action that changes the spatial state of an object from unenclosed to enclosed, specifically by surrounding it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity or force that causes the enclosure, effectively functioning as an instrumental agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of state, becoming enclosed."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "wall.n.01",
+      "reasoning": "The verb 'wall up' inherently specifies that the means of enclosure is a 'wall', making the instrument a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'walling up' something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional subject; hence, there is no inherent will or intention driving the action from the subject's perspective."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of enclosing with a wall is neutral; its sentiment depends on context (e.g., safety vs. imprisonment)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something') performing the action, even if the construction of the wall itself was volitional by a human, the frame abstracts this to the wall's action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'wall up' describes a definite and certain action or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of enclosing with a wall, not an ongoing or repetitive process of wall construction."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'instrument'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

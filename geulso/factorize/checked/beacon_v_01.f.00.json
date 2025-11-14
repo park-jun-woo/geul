@@ -1,0 +1,59 @@
+{
+  "synset_id": "beacon.v.01",
+  "definition": "shine like a beacon",
+  "frame_id": 0,
+  "frame_text": "Something beacon",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "emission.n.01",
+      "value_type": "light.n.01",
+      "reasoning": "The verb's definition 'shine like a beacon' implies a process of emitting light, which is consistent with its hypernym 'shine.v.02' ('emit light').",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that actively emits the light."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "function.n.01",
+      "value_type": "guidance.n.01",
+      "reasoning": "The phrase 'like a beacon' specifically denotes that the emitted light serves a purpose, commonly for guidance or signaling."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of a 'beacon' shining is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates an inanimate subject, implying the action is not driven by an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shining itself is neutral; any positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' clearly refers to a non-volitional entity performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or an ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Beacons typically emit light continuously or with a high frequency of repetition (e.g., flashing), indicating high iterativity for the action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

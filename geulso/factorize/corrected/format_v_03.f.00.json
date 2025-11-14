@@ -1,0 +1,56 @@
+{
+  "synset_id": "format.v.03",
+  "definition": "divide (a disk) into marked sectors so that it may store data",
+  "frame_id": 0,
+  "frame_text": "Something format",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "structure.n.01",
+      "reasoning": "The definition 'divide (a disk) into marked sectors' explicitly describes a modification of the internal physical arrangement of the object.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "In the frame 'Something ----s', the 'Something' (the disk) is the entity whose structure undergoes change, being divided into sectors."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "data_storage.n.01",
+      "reasoning": "The definition includes 'so that it may store data', indicating the specific purpose or intended outcome of the formatting action, which is to enable data storage functionality.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Formatting is a technical process that is directly observable or verifiable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a process or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' presents 'Something' (the disk) as the subject, which lacks will. Although the process implies an external agent, the subject itself does not act with will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of formatting a disk is a neutral technical process; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' with 'Something' as the disk, implies the action happens *to* the disk, making the disk a non-volitional participant in the event."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of formatting is typically a definite, ascertainable event or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Formatting a single disk is generally considered a single, complete event."
+    }
+  }
+}

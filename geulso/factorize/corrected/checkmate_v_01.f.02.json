@@ -1,0 +1,59 @@
+{
+  "synset_id": "checkmate.v.01",
+  "definition": "place an opponent's king under an attack from which it cannot escape and thus ending the game",
+  "frame_id": 2,
+  "frame_text": "Somebody mate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "competition.n.01",
+      "reasoning": "The verb describes an action that causes a decisive end to a competition (chess game), leading to a change in its state from ongoing to concluded.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of checkmating, bringing about the change in the game's state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is defeated in the competition as a result of the checkmate."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "attack.n.01",
+      "reasoning": "The definition specifies that the game is ended by 'placing an opponent's king under an attack from which it cannot escape'. The 'inescapable' nature is inherent to the checkmate, and 'attack' describes the core action type involved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A checkmate is a directly observable event in a game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to achieve checkmate."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'checkmate' describes a definitive game outcome, which is neutral in its inherent sentiment, though it has positive implications for the agent and negative for the patient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of checkmating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Checkmate is a definitive and certain event in a game."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A checkmate represents a single, conclusive event that ends a game."
+    }
+  }
+}

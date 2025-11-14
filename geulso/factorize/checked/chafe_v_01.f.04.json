@@ -1,0 +1,62 @@
+{
+  "synset_id": "chafe.v.01",
+  "definition": "become or make sore by or as if by rubbing",
+  "frame_id": 4,
+  "frame_text": "Something chafe somebody",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "soreness.n.01",
+      "reasoning": "The verb's definition 'make sore' indicates that the primary action is to cause the physical condition of soreness in a patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that instigates or causes the soreness."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity that experiences the effect and becomes sore."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rubbing.n.02",
+      "reasoning": "The definition explicitly states that the soreness is caused 'by or as if by rubbing', identifying the characteristic manner or mechanism of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The effect of chafing (soreness) is typically a direct physical sensation or an observable condition."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a lack of will or intention for the causal agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Becoming sore is generally an undesirable and negative experience."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something chafe somebody' indicates that the action is caused by a non-volitional entity ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chafing is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chafing typically involves a continuous or highly repetitive action of rubbing that leads to soreness, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

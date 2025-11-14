@@ -1,0 +1,64 @@
+{
+  "synset_id": "discourse.v.01",
+  "definition": "to consider or examine in speech or writing",
+  "frame_id": 10,
+  "frame_text": "Something talk_about somebody",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes the activity of conveying or exchanging ideas, specifically by considering or examining a topic, as indicated by the definition 'to consider or examine in speech or writing'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "source.n.03",
+          "reasoning": "The 'Something' (e.g., a text, a theory, an argument) that serves as the origin or vehicle for the discourse, as implied by the verb frame and its inanimate nature."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "topic.n.01",
+          "reasoning": "The 'somebody' who is the subject or topic being discussed and examined within the discourse."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "in speech or writing",
+      "reasoning": "The definition explicitly states that the consideration or examination occurs 'in speech or writing', indicating the mode or medium of the communication, which functions as a manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of discoursing is a directly observable or verifiable activity (e.g., reading a text that discourses on a topic)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an activity or characteristic of a text/entity."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something talk_about somebody' indicates a non-agentive subject (e.g., a book, an idea), which lacks personal will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discoursing itself is neutral; the content or outcome of the discourse determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame is inherently non-volitional (e.g., a document or a theory cannot 'intend' to discourse)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of discoursing is described as a definite occurrence or characteristic."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "When applied to 'Something' like a text or theory, it typically refers to a singular, enduring instance of examination rather than repetitive actions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

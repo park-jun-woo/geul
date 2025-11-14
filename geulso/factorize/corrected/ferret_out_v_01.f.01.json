@@ -1,0 +1,60 @@
+{
+  "synset_id": "ferret_out.v.01",
+  "definition": "search and discover through persistent investigation",
+  "frame_id": 1,
+  "frame_text": "Somebody ferret that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'ferret out' describes a transition from not possessing knowledge to possessing it, which is a change in the state of knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the investigation and achieves the discovery, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the specific fact or piece of information that is discovered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "persistent_investigation",
+      "reasoning": "The definition 'search and discover through persistent investigation' indicates that the manner of discovery is a core semantic component of 'ferret out', distinguishing it from a simple 'discover'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ferreting out information implies direct experience by the agent performing the investigation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of discovery."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by the agent's will and intention to discover."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discovering something through investigation is neutral; the discovered information itself might carry sentiment, but the verb does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of persistent investigation leading to discovery."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'ferret out' implies a successful discovery, thus indicating high certainty about the outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the *investigation* part of 'ferret out' might involve repetitive actions, the act of *ferreting out* a specific piece of information (the 'that clause') generally refers to a single, culminating event of discovery."
+    }
+  }
+}

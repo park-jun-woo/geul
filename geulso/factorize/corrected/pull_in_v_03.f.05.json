@@ -1,0 +1,55 @@
+{
+  "synset_id": "pull_in.v.03",
+  "definition": "of trains; move into (a station)",
+  "frame_id": 5,
+  "frame_text": "Something get_in",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of moving into a location, representing a change in the entity's position.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "train.n.01",
+          "reasoning": "The 'Something' in the verb frame, which is specified as 'of trains' in the definition and undergoes the change of location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "station.n.01",
+          "reasoning": "The definition explicitly states 'move into (a station)', indicating a specific endpoint for the motion that is inherent to this sense of the verb, even if 'station' isn't explicitly in the surface frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of a train pulling into a station is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (a train) does not possess will or intention in this context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pulling in is neutral; its sentiment depends on external context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something get_in' implies a non-volitional subject ('Something' referring to a train) for the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of arriving at a destination."
+    }
+  }
+}

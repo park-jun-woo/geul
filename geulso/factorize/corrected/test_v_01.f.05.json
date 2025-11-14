@@ -1,0 +1,58 @@
+{
+  "synset_id": "test.v.01",
+  "definition": "put to the test, as for its quality, or give experimental use to",
+  "frame_id": 5,
+  "frame_text": "Somebody try_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes an action (experimental use/testing) performed by an agent to gain knowledge or information about the qualities or suitability of an object, thereby changing the agent's state of possessing that knowledge. This aligns with 'learn.v.01' which also involves gaining knowledge and uses 'possession.n.02' as the property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of trying out and subsequently gains knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the test or experimental use, and about which knowledge is gained."
+        }
+      ]
+    },
+    {
+      "sememe_name": "purpose",
+      "value": "evaluation.n.01",
+      "reasoning": "The inherent goal or reason for 'trying out' something is explicitly stated in the definition as 'put to the test, as for its quality', which directly indicates an aim to evaluate its quality, suitability, or performance. This is supported by the hypernym 'evaluate.v.02'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'trying out' something implies direct engagement and experience with the object being tested."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that is being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates an agent ('Somebody') acting with clear intention and will to perform the test."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of trying out or testing is itself neutral; the results of the test may be positive or negative, but the action itself carries no inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of trying out is described as a definite occurrence, implying certainty in its execution."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'try out' generally refers to a single, complete instance or period of testing an item, rather than a continuous or infinitely repetitive action. While testing might involve multiple steps, the act of 'trying out' a specific 'something' is typically considered a discrete event."
+    }
+  }
+}

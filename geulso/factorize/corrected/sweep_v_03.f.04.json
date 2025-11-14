@@ -1,0 +1,60 @@
+{
+  "synset_id": "sweep.v.03",
+  "definition": "sweep with a broom or as if with a broom",
+  "frame_id": 4,
+  "frame_text": "Something broom something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The definition 'sweep with a broom' describes an action that causes a change in the state of cleanliness or arrangement by clearing away debris.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' that performs the sweeping action. Given it's 'Something', it implies a non-volitional entity like a machine or natural force.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state, either being cleared or having its surface cleaned.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "broom.n.01",
+          "reasoning": "The definition explicitly states 'with a broom or as if with a broom', indicating the essential instrument used for this specific action, which is further reinforced by 'broom' in the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of sweeping is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame implies a non-volitional agent, therefore there is no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sweeping is a neutral, functional action; its sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Sweeping inherently involves repetitive motions (e.g., back-and-forth strokes) to clear an area, indicating high repetition."
+    }
+  }
+}

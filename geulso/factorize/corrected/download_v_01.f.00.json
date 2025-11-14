@@ -1,0 +1,62 @@
+{
+  "synset_id": "download.v.01",
+  "definition": "transfer a file or program from a central computer to a smaller computer or to a computer at a remote location",
+  "frame_id": 0,
+  "frame_text": "Somebody download something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "transfer.n.05",
+      "reasoning": "The verb 'download' describes the act of moving digital data, which constitutes a change in its location or possession within a network.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the transfer of the digital content."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "data.n.01",
+          "reasoning": "The 'something' being transferred, referring to digital information such as a file or program."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The implied central or remote computer from which the data originates, a defining characteristic of 'download'."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implied local or smaller computer to which the data is transferred, a defining characteristic of 'download'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Downloading is a process that is typically directly experienced or observed by the user initiating it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates an agent acting with explicit will and intention to perform the download."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of downloading is inherently neutral; its positive or negative sentiment depends on the content being downloaded or the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody download something' explicitly includes a volitional agent ('Somebody'), making the action intentional and volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of downloading, when stated, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A download refers to a single, complete instance of transferring a file or program, not a continuous or highly repetitive action."
+    }
+  }
+}

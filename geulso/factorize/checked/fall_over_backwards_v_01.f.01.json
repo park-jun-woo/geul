@@ -1,0 +1,68 @@
+{
+  "synset_id": "fall_over_backwards.v.01",
+  "definition": "try very hard to please someone",
+  "frame_id": 1,
+  "frame_text": "Somebody fall_over_backwards",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "effort.n.01",
+      "reasoning": "The definition 'try very hard' describes an ongoing act of making an effort, which is a process of sustained activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of making an effort, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "beneficiary.n.01",
+          "reasoning": "The 'someone' in 'to please someone' is the entity for whom the effort is exerted and who receives the benefit (pleasure) of the action, as implied by the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "extreme.a.01",
+      "reasoning": "The phrase 'very hard' in the definition explicitly indicates an extreme level of effort, which is a key semantic component distinguishing this verb from simpler 'trying'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "pleasure.n.01",
+      "reasoning": "The definition 'to please someone' specifies the explicit purpose or goal of the effort, which is to achieve pleasure for another person."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making an extreme effort is typically a directly observable behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The phrase 'try very hard' inherently implies strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act itself of making an effort to please is semantically neutral. Its positive or negative connotations (e.g., admirable devotion vs. excessive servility) depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the meaning 'try very hard' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'try very hard' suggests sustained or repeated actions and efforts over a period, rather than a single instantaneous event, thus indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

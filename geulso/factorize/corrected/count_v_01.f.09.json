@@ -1,0 +1,60 @@
+{
+  "synset_id": "count.v.01",
+  "definition": "determine the number or amount of",
+  "frame_id": 9,
+  "frame_text": "Something enumerate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'count' describes an action that results in acquiring specific knowledge about a quantity, thus changing the state from not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity (e.g., a machine or system) that performs the action of determining the number, acting as the agent of this change in knowledge.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the items or amount whose quantity is being determined through the counting process.",
+          "value_type": "collection.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "reasoning": "A fundamental characteristic of 'count' is its inherent focus on determining a numerical quantity or amount, as stated in the definition 'determine the number or amount of'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of counting leads to direct knowledge of a quantity, or the process is directly observed or performed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject (e.g., a machine or natural process), implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counting is a neutral process; the value of the count itself can be interpreted positively or negatively in context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something ----s something' explicitly specifies a non-volitional subject ('Something'), meaning the action is not performed intentionally by a sentient agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The goal of counting is to arrive at a definite and certain number or amount."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'count' (in the sense of determining a number) typically refers to a single, completed act of determination for a given collection, even if the process itself involves multiple steps."
+    }
+  }
+}

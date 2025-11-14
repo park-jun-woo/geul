@@ -1,0 +1,60 @@
+{
+  "synset_id": "spill_the_beans.v.01",
+  "definition": "divulge confidential information or secrets",
+  "frame_id": 2,
+  "frame_text": "Somebody babble_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'divulge confidential information' describes a change in the state of information from being unknown/secret to becoming known by others.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of divulging the information, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' that is the confidential information or secret being divulged."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "indiscreet.a.01",
+      "reasoning": "The specific verb 'babble_out' implies an indiscreet, careless, or possibly uncontrolled manner of communication when revealing confidential information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of divulging information (babbling it out) is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While the agent performs the action of speaking, the 'babble_out' component suggests a lack of strong, deliberate will or intention specifically towards *revealing the secret*, implying carelessness or inadvertence rather than strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of divulging a secret is neutral; its sentiment depends on the specific context and consequences."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The agent ('Somebody') is active in speaking, but 'babble_out' implies that the revelation of the confidential information is often unintentional or careless, rather than a fully deliberate, volitional act. This makes the intentionality of the *revelation* neutral."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of information being divulged."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of making a specific secret known."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "curtain_off.v.01",
+  "definition": "separate by means of a curtain",
+  "frame_id": 1,
+  "frame_text": "Something curtain_off somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "separation.n.01",
+      "reasoning": "The definition 'separate' indicates a change of state where entities become separated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the separation, acting as the agent or instrument of the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that undergoes the separation."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "value_type": "curtain.n.01",
+      "reasoning": "The verb 'curtain_off' explicitly states the instrument used for separation as a curtain."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of curtaining off is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame is typically inanimate or acts without conscious will, thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of separating with a curtain is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' implies a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of separating."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed act of separation by means of a curtain."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'instrument'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "kite.v.02",
+  "definition": "get credit or money by using a bad check",
+  "frame_id": 1,
+  "frame_text": "Somebody kite something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'get credit or money' indicates a transition from not possessing credit/money to possessing it, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of getting credit or money, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' that is obtained, which is credit or money."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "deceptive_transaction.n.01",
+      "reasoning": "The core of the verb 'kite' is the specific manner of obtaining money, which involves 'using a bad check', implying deception or fraud."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of kiting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of kiting involves using a bad check to gain something, which is inherently illegal and thus negative in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody kite something' explicitly includes a volitional agent ('Somebody'), indicating an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of kiting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of a fraudulent transaction, though it can be repeated, the individual act is single."
+    }
+  }
+}

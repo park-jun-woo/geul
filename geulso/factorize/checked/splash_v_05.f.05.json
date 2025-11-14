@@ -1,0 +1,58 @@
+{
+  "synset_id": "splash.v.05",
+  "definition": "make a splashing sound",
+  "frame_id": 5,
+  "frame_text": "Something slush",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb describes the event of creating or emitting a sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that is the source or emitter of the sound, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sound_quality.n.01",
+      "value_type": "splashing.a.01",
+      "reasoning": "The definition explicitly states 'make a splashing sound', indicating the specific quality of the noise produced by the verb 'slush'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The making of a sound is a directly audible event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something slush' indicates an inanimate subject, implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a slushing sound is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something slush' explicitly indicates an inanimate subject, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of a sound being made is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The sound 'slush' typically implies repetitive or continuous motion through a liquid, thus involving high repetition in its generation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

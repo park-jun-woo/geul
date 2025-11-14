@@ -1,0 +1,68 @@
+{
+  "synset_id": "derail.v.02",
+  "definition": "run off or leave the rails",
+  "frame_id": 1,
+  "frame_text": "Something jump",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes a change in the physical location of the subject, specifically from being on rails to being off them.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of location, as specified by the verb frame 'Something ----s'."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "separation.n.01",
+      "reasoning": "The change in location described by 'derail' specifically results in the subject being separated from its designated path or guide (the rails).",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that becomes separated from its path."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "rail.n.01",
+          "reasoning": "The 'rails' are the specific physical path from which the separation occurs, as per the definition 'run off or leave the rails'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Derailment is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates a non-agentive subject, implying no conscious will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of derailing itself is neutral; its sentiment depends on the context (e.g., a train derailing is negative, a plan derailing might be neutral)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' implies that the action happens to a non-volitional subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Derailment is generally understood as a single, distinct event of leaving the rails, not a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

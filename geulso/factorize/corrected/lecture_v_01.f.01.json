@@ -1,0 +1,66 @@
+{
+  "synset_id": "lecture.v.01",
+  "definition": "deliver a lecture or talk",
+  "frame_id": 1,
+  "frame_text": "Somebody lecture on something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'lecture' describes an action whose aim is to cause a change in the knowledge or understanding state of the recipient, similar to 'teach'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity that performs the lecturing and initiates the communication process.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the frame is the intended audience who receives the information and whose knowledge state is affected.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The implicit content (information or subject matter) that is being delivered during the lecture."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "formal.a.01",
+      "reasoning": "A 'lecture' typically implies a formal, structured, and often extended manner of communication, as opposed to an informal 'talk'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of delivering or attending a lecture is a directly observable and experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the 'Something' agent in the frame, the action is not necessarily driven by conscious will or intention, thus 'no will'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of lecturing is semantically neutral; its positive or negative sentiment depends on the content or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "As the subject of the frame is 'Something', the action is considered non-volitional according to the specified rule, assuming an inanimate or non-agentive entity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of lecturing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A lecture is typically an extended, continuous event composed of many individual speech acts, suggesting high iterativity within a single instance."
+    }
+  }
+}

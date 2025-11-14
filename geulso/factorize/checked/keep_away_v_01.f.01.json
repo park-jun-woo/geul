@@ -1,0 +1,60 @@
+{
+  "synset_id": "keep_away.v.01",
+  "definition": "prevent from coming close",
+  "frame_id": 1,
+  "frame_text": "Somebody keep_away something from somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "separation.n.01",
+      "reasoning": "The verb 'keep away' means to prevent closeness, which is to cause or maintain a state of separation between entities.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who actively initiates and maintains the separation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is the entity being kept away, thus undergoing the state of separation."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' indicates the entity or location from which the patient is separated, serving as the point of reference for being 'away'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of keeping someone away is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies intentionality and will in performing the action of keeping away."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of keeping away is neutral; its positive or negative sentiment depends on the context and what is being kept away from."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of keeping away is described as a definite occurrence or ongoing state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'keep away' implies a continuous or highly repetitive effort to maintain a state of separation, rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

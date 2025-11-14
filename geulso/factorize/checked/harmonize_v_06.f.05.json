@@ -1,0 +1,62 @@
+{
+  "synset_id": "harmonize.v.06",
+  "definition": "bring into consonance, harmony, or accord while making music or singing",
+  "frame_id": 5,
+  "frame_text": "Something harmonize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "harmony.n.01",
+      "reasoning": "The definition 'bring into consonance, harmony, or accord' explicitly describes a transition to a state of harmony, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes or initiates the change into harmony."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change and is brought into harmony."
+        }
+      ]
+    },
+    {
+      "verb_type": "context",
+      "verb_property": "domain.n.01",
+      "value_type": "music.n.01",
+      "reasoning": "The phrase 'while making music or singing' specifies the domain or context in which this particular type of harmonization occurs, making 'music' a key semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of harmonizing, especially in music, is typically a directly observable or audible event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes an action or state declaratively."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is non-agentive and cannot possess human-like will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "In a musical context, 'harmony' is generally considered a positive and desirable state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something harmonize something' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of bringing something into harmony."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The 'bring into' aspect of the definition suggests a single event of achieving harmony, rather than a continuous or repetitive action of harmonizing."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'context'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

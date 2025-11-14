@@ -1,0 +1,62 @@
+{
+  "synset_id": "underestimate.v.03",
+  "definition": "make too low an estimate of",
+  "frame_id": 0,
+  "frame_text": "Somebody underestimate somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "estimation.n.01",
+      "reasoning": "The verb describes the cognitive action of forming an assessment or judgment about something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of estimating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the estimation."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "accuracy.n.01",
+      "value_type": "insufficient.a.01",
+      "reasoning": "The 'under-' prefix and the definition 'make too low an estimate' indicate that the outcome of the estimation is that the assigned value is below the actual or appropriate value, thus being insufficient or inaccurate."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of underestimating is either directly observed (in terms of its outcome) or stated as a fact by the speaker, implying direct knowledge or certainty."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence of an action and its outcome."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent 'Somebody' implies that the act of making an estimate is typically driven by their will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'underestimate' implies making an error or a judgment that is 'too low', which typically carries a negative connotation, often leading to adverse consequences."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody underestimate something' explicitly includes a volitional agent ('Somebody') performing the action of estimating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'underestimate' describes a definite event or outcome; the speaker is certain that the estimate was too low."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of making an assessment, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

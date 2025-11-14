@@ -1,0 +1,62 @@
+{
+  "synset_id": "face-lift.v.01",
+  "definition": "perform cosmetic surgery on someone's face",
+  "frame_id": 0,
+  "frame_text": "Somebody face-lift something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The verb describes an action that aims to alter or improve the physical appearance of the face.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cosmetic surgery."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (face) that undergoes the change in appearance."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "surgical_operation.n.01",
+      "value_type": "cosmetic.a.01",
+      "reasoning": "The specific method for achieving the change in appearance is by performing a surgical operation, which is explicitly described as 'cosmetic surgery' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A face-lift is a directly observable medical procedure."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Performing surgery is a highly intentional act, driven by strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of face-lifting itself is neutral; its sentiment depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A face-lift is typically understood as a single, discrete medical procedure, not a repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

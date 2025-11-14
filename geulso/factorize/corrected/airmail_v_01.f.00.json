@@ -1,0 +1,63 @@
+{
+  "synset_id": "airmail.v.01",
+  "definition": "send or transport by airmail",
+  "frame_id": 0,
+  "frame_text": "Somebody airmail somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'airmail' implies sending or transporting an item, which inherently describes a change in its location from a source to a destination.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of sending/transporting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose location is changed through the act of airmailing."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "While not explicitly present in this minimal frame, sending or transporting logically implies a destination for the item."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "air_transport.n.01",
+      "reasoning": "The 'air' in 'airmail' is a core semantic component specifying the manner or medium of transportation (by air) that distinguishes it from other forms of mail."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of airmailing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of airmailing itself is neutral; the content being sent might have sentiment, but the act does not inherently carry one."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody airmail something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of airmailing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of sending an item or set of items by airmail, unless context suggests otherwise."
+    }
+  }
+}

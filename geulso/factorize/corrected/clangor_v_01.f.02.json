@@ -1,0 +1,65 @@
+{
+  "synset_id": "clangor.v.01",
+  "definition": "make a loud resonant noise",
+  "frame_id": 2,
+  "frame_text": "Something clangor",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "noise.n.01",
+      "reasoning": "The verb describes a transitive action where an agent ('Something') causes another object ('something') to produce a noise, as per the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates the action causing the sound."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object that actually produces the noise."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "loudness.n.01",
+      "value_type": "loud.a.01",
+      "reasoning": "The definition explicitly specifies the quality of the produced noise as 'loud'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "resonance.n.01",
+      "value_type": "resonant.a.01",
+      "reasoning": "The definition explicitly specifies the quality of the produced noise as 'resonant'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Making a sound is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional agent (the first 'Something'), thus no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a loud resonant noise is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent ('Something') performing the action of causing the noise."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of making a noise is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'clangor' typically suggests a sustained or repeated series of loud, resonant sounds, rather than a single isolated event."
+    }
+  }
+}

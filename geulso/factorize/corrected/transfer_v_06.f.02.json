@@ -1,0 +1,61 @@
+{
+  "synset_id": "transfer.v.06",
+  "definition": "change from one vehicle or transportation line to another",
+  "frame_id": 2,
+  "frame_text": "Somebody transfer",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'change from one vehicle or transportation line to another' explicitly describes a change in location or means of transport.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame that undergoes the change of transportation means or location."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implied by 'from one vehicle/transportation line' in the definition, typically specified by the 'PP' in the frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implied by 'to another' in the definition, typically specified by the 'PP' in the frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of transferring transportation is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes an event, which is declarative."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies the action is not necessarily driven by an inherent will of the 'Something' itself but rather describes the process it undergoes."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something *is transfering*' explicitly indicates the progressive aspect."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transferring is semantically neutral; its positive or negative valence depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is transfering' with 'Something' as the subject often refers to an entity undergoing a process (e.g., cargo, a passenger as part of a system), making the action non-volitional for the 'Something' itself in this context, even if initiated by an external agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite, ongoing occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, continuous process of changing transportation, not distinct repeated events."
+    }
+  }
+}

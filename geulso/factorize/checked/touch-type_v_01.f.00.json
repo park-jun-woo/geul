@@ -1,0 +1,58 @@
+{
+  "synset_id": "touch-type.v.01",
+  "definition": "type without looking at the keyboard",
+  "frame_id": 0,
+  "frame_text": "Somebody touch-type",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "writing.n.01",
+      "reasoning": "The verb 'touch-type' fundamentally describes the process of creating written text using a keyboard, as indicated by its hypernym 'type.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the volitional agent performing the typing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "blind.a.01",
+      "reasoning": "The core distinguishing feature of 'touch-type' is the specific manner of typing 'without looking at the keyboard', which can be described as typing 'blindly' or without visual input to the keyboard itself."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Touch-typing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of touch-typing itself is neutral; its sentiment depends on the context or the content typed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody touch-type' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of touch-typing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Touch-typing is an action composed of continuous, highly repetitive keystrokes, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

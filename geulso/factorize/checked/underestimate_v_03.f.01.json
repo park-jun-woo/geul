@@ -1,0 +1,62 @@
+{
+  "synset_id": "underestimate.v.03",
+  "definition": "make too low an estimate of",
+  "frame_id": 1,
+  "frame_text": "Somebody underestimate something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "estimation.n.01",
+      "reasoning": "The verb describes the cognitive process of forming an estimate or judgment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the estimation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the estimation, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "magnitude.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "This sememe captures the 'under-' aspect, indicating that the formed estimate is 'too low' compared to the actual value or potential, as per the definition 'make too low an estimate of'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making an estimate is a direct cognitive experience of the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action of estimating is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'underestimate' inherently carries a negative connotation as it describes an incorrect or insufficient judgment, consistent with its hypernym 'misjudge'."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of making an estimate."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement of underestimation itself is presented as a definite occurrence or assessment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single, complete act of forming an estimate, even if subsequent estimates could also be underestimations."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

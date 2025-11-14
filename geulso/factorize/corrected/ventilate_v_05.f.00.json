@@ -1,0 +1,68 @@
+{
+  "synset_id": "ventilate.v.05",
+  "definition": "furnish with an opening to allow air to circulate or gas to escape",
+  "frame_id": 0,
+  "frame_text": "Somebody ventilate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "airflow.n.01",
+      "reasoning": "The verb describes causing a change in the patient's state regarding air movement, specifically enabling or enhancing the circulation of air or the escape of gas.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of ventilating.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change, being made capable of air circulation or gas escape.",
+          "value_type": "structure.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "creation.n.01",
+      "reasoning": "A core aspect of 'ventilate' in this sense is the manner by which the airflow is changed: specifically, by furnishing or creating an opening.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "opening.n.01",
+          "reasoning": "The 'opening' is the physical means or instrument through which the ventilation is achieved."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ventilating is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to ventilate something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ventilating is neutral; its sentiment depends on the specific context and the purpose of ventilation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ventilate something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of ventilating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of furnishing an object or space with a means for ventilation."
+    }
+  }
+}

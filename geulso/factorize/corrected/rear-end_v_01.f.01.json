@@ -1,0 +1,59 @@
+{
+  "synset_id": "rear-end.v.01",
+  "definition": "collide with the rear end of",
+  "frame_id": 1,
+  "frame_text": "Somebody rear-end something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The definition 'collide with' directly indicates a change of state involving physical contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent causing the collision."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity that is collided with."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "rear_end.n.01",
+      "reasoning": "The verb 'rear-end' specifically denotes that the collision occurs with the 'rear end' of the patient, which is a crucial locative property of the impact."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A rear-end collision is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence, consistent with a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame implies agency and the potential for will, even if the collision itself is accidental, the actions leading to it are willed."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A collision, particularly a 'rear-end' one, is generally considered a negative event due to potential damage or injury."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates an active agent. While the collision might be unintentional, the driving leading to it is volitional, therefore the action is considered volitional in its broader context."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the collision."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'rear-end' event is typically a single, discrete occurrence, not repetitive."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "synset_id": "stream.v.02",
+  "definition": "exude profusely",
+  "frame_id": 2,
+  "frame_text": "Something stream something",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the process of liquid moving from a source, which is an observable occurrence.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Somebody' in the verb frame is the entity from which the liquid issues, consistent with the definition 'exude'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "An implied liquid substance is the entity undergoing the motion, as suggested by 'exude profusely'."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame indicates the specific path or location of the liquid's movement (e.g., 'down his face', 'from her eyes')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "large.a.01",
+      "reasoning": "The definition 'exude profusely' explicitly denotes a large amount of liquid being released, indicating a high quantity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of streaming or exuding is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Streaming (as exuding profusely) is often an involuntary physiological or physical process and does not typically involve the agent's active will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of streaming itself is neutral; the context and the nature of the liquid determine its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The action of 'streaming' in the sense of exuding profusely (e.g., tears, sweat, blood) is generally a non-volitional event, even when 'Somebody' is the grammatical subject (e.g., 'She streamed with tears')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of streaming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Streaming describes a continuous and ongoing flow, which is composed of many repetitive small movements of liquid, indicating high iterativity rather than a single event."
+    }
+  }
+}

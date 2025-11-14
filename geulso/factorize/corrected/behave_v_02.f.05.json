@@ -1,0 +1,59 @@
+{
+  "synset_id": "behave.v.02",
+  "definition": "behave in a certain manner",
+  "frame_id": 5,
+  "frame_text": "Somebody conduct somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "behavior.n.01",
+      "reasoning": "The verb 'behave' describes the performance or exhibition of actions, aligning with its hypernym 'act.v.01' and the general concept of behavior.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who is the initiator and performer of the action (the one behaving)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "coreference": "causal_agent.n.01",
+          "reasoning": "In the idiomatic frame 'Somebody conduct somebody' (meaning 'conduct oneself'), the agent is also the entity upon whom the action of 'conducting' is directed (a reflexive relationship)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "reasoning": "The definition 'behave in a certain manner' explicitly highlights 'manner' as a core semantic component of the verb's meaning, describing how the action is performed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Behavior is typically directly observed or experienced, leading to direct evidentiality."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core usage is declarative, stating a fact about someone's actions."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Behavior, especially when expressed with an agent ('Somebody'), implies an intentional act driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of behaving itself is neutral; any positive or negative sentiment comes from the specific 'manner' (e.g., 'behave well' or 'behave badly')."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody conduct somebody' (implying 'oneself') clearly indicates a volitional agent performing the action, as behavior is typically intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Statements about behavior are usually made with certainty, describing observed or known actions."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'behave in a certain manner' often implies a continuous or highly repetitive pattern of actions rather than a single, isolated event."
+    }
+  }
+}

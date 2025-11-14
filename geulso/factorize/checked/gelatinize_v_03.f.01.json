@@ -1,0 +1,61 @@
+{
+  "synset_id": "gelatinize.v.03",
+  "definition": "convert into gelatinous form or jelly",
+  "frame_id": 1,
+  "frame_text": "Somebody gelatinize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb 'gelatinize' describes the process of converting something into a gelatinous form, which is a change in its physical state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent that causes the conversion to a gelatinous state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change into a gelatinous form."
+        }
+      ]
+    },
+    {
+      "verb_type": "state_result",
+      "verb_property": "gelatinous.a.01",
+      "reasoning": "The inherent meaning of 'gelatinize' is to reach or bring about a gelatinous state as the result of the change process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of gelatinizing is typically a directly observable phenomenon in cooking or chemistry."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies an inanimate or non-volitional causal agent (e.g., heat, an enzyme), indicating an absence of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of gelatinizing is a neutral process; its desirability depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with an inanimate subject implies a natural or induced process rather than an intentional act of a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of conversion into a gelatinous state."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'state_result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

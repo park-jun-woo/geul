@@ -1,0 +1,66 @@
+{
+  "synset_id": "proclaim.v.01",
+  "definition": "declare formally; declare someone to be something; of titles",
+  "frame_id": 0,
+  "frame_text": "Somebody proclaim somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb's core meaning is to cause a transition in the official designation or status of an entity, as per 'declare someone to be something'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the formal declaration and brings about the change in status. This 'Something' represents an authoritative source (e.g., an institution, law, or official body).",
+          "value_type": "authority.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose status is being officially designated or changed.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The 'Adjective/Noun' that specifies the new or declared status, title, or designation of the patient.",
+          "value_type": "designation.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "official.a.01",
+      "reasoning": "The definition 'declare formally' explicitly states that the declaration is carried out in an official or formal manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A formal proclamation is typically a public act or recorded fact, making it directly ascertainable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Despite 'Something' as the subject, 'proclaim' implies a deliberate, intentional act by an authoritative entity, reflecting a strong will or purpose behind the declaration."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of proclaiming itself is neutral; the content of the proclamation determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Proclaiming involves a formal declaration which, by its nature, is an intentional and purposeful act, even when the grammatical subject ('Something') represents an institution or abstract authority rather than a human agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A formal proclamation inherently conveys certainty or established fact concerning the declared status."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, specific act of formal declaration."
+    }
+  }
+}

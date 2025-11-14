@@ -1,0 +1,65 @@
+{
+  "synset_id": "crop.v.05",
+  "definition": "feed as in a meadow or pasture",
+  "frame_id": 4,
+  "frame_text": "Something range",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The verb 'crop' describes the process of an animal taking in food, which results in a change in the state of the food (from available to consumed) and the animal's internal state (from hungry to sated).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame refers to the animal that performs the feeding action, consistent with the definition 'feed [...] used of animals only'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The implied object of consumption, which is the grass or forage in the meadow/pasture, broadly categorized as food."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "range.n.01",
+          "reasoning": "The 'range' mentioned in the verb frame and implied by 'meadow or pasture' in the definition specifies the physical area where the feeding occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "grazing.n.01",
+      "reasoning": "The definition 'feed as in a meadow or pasture' implies a specific manner of feeding characteristic of herbivorous animals, commonly known as grazing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cropping/feeding by animals is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Animals feed out of an inherent biological drive or will to survive, even if instinctual, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of feeding itself is a neutral biological process."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' (animal) performs the act of feeding with a biological intentionality (e.g., to satisfy hunger), making it volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Feeding in a meadow or pasture typically involves continuous, repeated acts of consuming food over a period, implying high iterativity (many repetitions)."
+    }
+  }
+}

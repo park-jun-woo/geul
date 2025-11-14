@@ -1,0 +1,65 @@
+{
+  "synset_id": "overwhelm.v.02",
+  "definition": "charge someone with too many tasks",
+  "frame_id": 3,
+  "frame_text": "Somebody flood_out somebody with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb describes an action that causes a change in the recipient's internal state, specifically from a manageable state to one of excessive burden.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of charging and causing the overwhelming state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state, becoming excessively burdened or overwhelmed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "A core aspect of 'overwhelm' in this sense is that the quantity of tasks or information imposed is 'too many' or beyond capacity.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'something' (tasks, information) that is the content or means of the imposition, directly leading to the excessive burden on the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of overwhelming or being overwhelmed can be directly observed or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in the action of charging/flooding out."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being 'overwhelmed with too many tasks' is inherently a negative and undesirable state or experience."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite event or state being caused."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'flood_out' strongly suggests a continuous or highly repetitive delivery of numerous tasks or information, leading to the state of being overwhelmed. Thus, high repetition in the action."
+    }
+  }
+}

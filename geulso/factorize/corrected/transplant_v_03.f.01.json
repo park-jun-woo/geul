@@ -1,0 +1,64 @@
+{
+  "synset_id": "transplant.v.03",
+  "definition": "place the organ of a donor into the body of a recipient",
+  "frame_id": 1,
+  "frame_text": "Somebody graft something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'place the organ...into the body' explicitly describes a change in the physical location of the organ.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent performing the transplant, typically a surgeon or medical team."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "organ.n.01",
+          "reasoning": "The 'something' being transplanted is specified as an 'organ' in the definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the recipient's body, which is the final location of the organ."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "therapeutic.a.01",
+      "reasoning": "Implicit in the act of transplanting an organ is a medical or therapeutic purpose (e.g., to save a life, restore function)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A transplant is a medical procedure that is directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' performing the transplant acts with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transplanting itself is a neutral medical procedure; its outcome is usually positive, but the action isn't inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody transplant...' indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of transplanting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, complete surgical procedure of placing an organ."
+    }
+  }
+}

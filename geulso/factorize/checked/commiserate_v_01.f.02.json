@@ -1,0 +1,53 @@
+{
+  "synset_id": "commiserate.v.01",
+  "definition": "to feel or express sympathy or compassion",
+  "frame_id": 2,
+  "frame_text": "Somebody sympathise",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "emotion.n.01",
+      "value_type": "sympathy.n.01",
+      "reasoning": "The verb's definition 'express sympathy or compassion' describes an act of conveying an emotional state to others, which is a form of communication. The frame 'Somebody sympathise' (interpreted as 'Somebody commiserates') describes this communicative action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of expressing sympathy, as specified by the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of commiserating (expressing sympathy) is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to express sympathy."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of commiserating is generally benevolent and supportive, therefore neutral in sentiment, though it often occurs in response to negative circumstances."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sympathise' (implying 'Somebody commiserates') explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of commiserating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of feeling or expressing sympathy, though it can be repeated."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

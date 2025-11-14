@@ -1,0 +1,60 @@
+{
+  "synset_id": "relearn.v.01",
+  "definition": "learn something again, as after having forgotten or neglected it",
+  "frame_id": 0,
+  "frame_text": "Somebody relearn something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'learn something again' describes a transition from not possessing knowledge to possessing it, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of relearning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "knowledge.n.01",
+          "reasoning": "The 'something' (knowledge or skill) that is being re-acquired."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "repetition.n.01",
+      "value": "recurrent_event",
+      "reasoning": "The 're-' prefix and 'again' in the definition signify that this learning event is a recurrence of a prior learning event, distinguishing it from an initial learning event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Relearning is a direct cognitive experience of acquiring knowledge."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Relearning is an action typically driven by the agent's will and intention, similar to 'learn'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of relearning is neutral; what is relearned can be positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody relearn...' clearly indicates a volitional agent performing the act of relearning."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of relearning, when completed, is a definite event of re-acquiring knowledge."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'relearn' implies a repeated *type* of event, the specific act of relearning a particular piece of knowledge or skill is generally treated as a single, distinct event (e.g., 'I relearned algebra'). The 'repetition' aspect is handled by a dedicated sememe."
+    }
+  }
+}

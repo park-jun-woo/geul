@@ -1,0 +1,63 @@
+{
+  "synset_id": "raise.v.02",
+  "definition": "raise from a lower to a higher position",
+  "frame_id": 4,
+  "frame_text": "Somebody elevate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'raise' describes causing a transition in the physical location of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of changing the object's location, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in location."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' in the frame often specifies the target location or the resulting higher position of the object, which is an implicit part of 'raise'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "upwards.r.01",
+      "reasoning": "A core semantic component of 'raise' is the inherent vertical upward direction of the position change, as stated in the definition 'from a lower to a higher position'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of raising is typically a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of raising is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody raise something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of raising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of moving something to a higher position."
+    }
+  }
+}

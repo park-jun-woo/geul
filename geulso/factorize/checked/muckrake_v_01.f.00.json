@@ -1,0 +1,75 @@
+{
+  "synset_id": "muckrake.v.01",
+  "definition": "explore and expose misconduct and scandals concerning public figures",
+  "frame_id": 0,
+  "frame_text": "Something muckrake",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information_status.n.01",
+      "reasoning": "The definition 'expose misconduct and scandals' describes a transition in the state of information from being hidden or private to being publicly known.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame (e.g., a journalist, an organization) is the entity that performs the action of exploring and exposing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "misconduct.n.01",
+          "reasoning": "The 'misconduct and scandals' that are made public are the inherent direct object or patient of the exposure, central to the verb's meaning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "investigation.n.01",
+      "reasoning": "The verb 'muckrake' inherently includes the 'explore' component of its definition, indicating a necessary investigative process preceding or accompanying the exposure."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes the direct act of revealing information, which is a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action of 'explore and expose' implies deliberate and intentional acts by the agent, indicating strong will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated by the verb's core meaning or frame, so a neutral (present) tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "No specific aspect is indicated, so a simple aspect is assumed."
+    },
+    "Period/Point": null,
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'muckrake' does not inherently carry a specific politeness level; it is context-dependent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'muckrake' is intrinsically associated with exposing 'misconduct and scandals', giving it a negative semantic polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Something muckrake' implies an agent (even if referred to as 'Something' like an institution or group) performing an intentional, volitional act of investigating and exposing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies certainty in the act of exposure and the validity of the information being revealed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'explore and expose' suggests an ongoing process or a series of investigative actions and revelations, rather than a singular, instantaneous event."
+    }
+  },
+  "errors": [
+    "`qualifiers.Period/Point`이 객체(dict)가 아닙니다."
+  ]
+}

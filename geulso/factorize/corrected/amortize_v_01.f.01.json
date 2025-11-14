@@ -1,0 +1,59 @@
+{
+  "synset_id": "amortize.v.01",
+  "definition": "liquidate gradually",
+  "frame_id": 1,
+  "frame_text": "Somebody amortize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "debt.n.01",
+      "reasoning": "The verb describes the process of gradually reducing or eliminating a financial obligation or debt, which is a change in its state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of liquidating the debt or asset."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (debt, loan, asset value) that is gradually reduced or eliminated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gradual.a.01",
+      "reasoning": "The definition explicitly includes 'gradually', indicating the manner in which the liquidation occurs, typically through installments or over time."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Amortization is a process that can be directly observed through financial records and transactions."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a financial process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will in managing finances."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Amortization is a neutral financial process; its sentiment depends on context, but the act itself is technical."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody amortize something' explicitly indicates a volitional agent performing the action of amortization."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of amortization, when undertaken, is a definite and structured financial process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'gradually' implies that the action occurs through a series of repeated steps or payments over time, indicating high repetition."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "calculate.v.02",
+  "definition": "judge to be probable",
+  "frame_id": 1,
+  "frame_text": "Somebody calculate that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The verb 'calculate' in this sense describes a cognitive process of forming a judgment or assessment, specifically regarding the likelihood of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the mental act of judging or calculating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the proposition or event whose probability is being judged."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of judging or calculating is an internal cognitive process, directly experienced by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a cognitive process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of judging probability is a neutral cognitive process; its outcome might have context-dependent sentiment, but the act itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of calculating/judging."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'calculate' implies that the act of judgment itself is definite, even if the judgment is about a probability."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of forming a judgment or assessment for a specific proposition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

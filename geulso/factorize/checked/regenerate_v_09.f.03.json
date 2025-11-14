@@ -1,0 +1,67 @@
+{
+  "synset_id": "regenerate.v.09",
+  "definition": "restore strength",
+  "frame_id": 3,
+  "frame_text": "Something revitalize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "strength.n.01",
+      "reasoning": "The definition 'restore strength' describes a transition from a weaker state to a state of increased strength or vitality.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity that causes the restoration of strength."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity that undergoes the restoration of strength."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "better.a.01",
+      "reasoning": "The act of restoring strength inherently implies an improvement or betterment of the patient's condition, as supported by the hypernym 'better.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity whose condition is made better."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of restoring strength is typically observable or has observable effects, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something revitalize something' indicates a non-volitional agent ('Something'), thus lacking intentional will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Restoring strength is inherently a positive outcome, aiming for improvement."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something revitalize something' features a non-agentive subject ('Something'), indicating the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence or process of restoration."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single, complete act or process of restoring strength, rather than continuous repetition."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

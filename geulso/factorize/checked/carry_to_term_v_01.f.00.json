@@ -1,0 +1,66 @@
+{
+  "synset_id": "carry_to_term.v.01",
+  "definition": "carry out a pregnancy",
+  "frame_id": 0,
+  "frame_text": "Somebody carry_to_term",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "gestation.n.01",
+      "reasoning": "The verb 'carry to term' describes the process of maintaining and bringing a pregnancy to its full, natural endpoint, which represents a change in the state of gestation to completion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who is the pregnant individual and actively oversees the pregnancy.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implicit 'pregnancy' or 'fetus' that undergoes the full period of development until birth, serving as the entity being carried out.",
+          "value_type": "pregnancy.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of carrying a pregnancy to term is a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The phrase 'carry out' and the presence of 'Somebody' as the subject imply active will and intention in sustaining the pregnancy to term."
+    },
+    "Aspect": {
+      "value": 5,
+      "reasoning": "The action of carrying out a pregnancy is continuous over a period (Progressive: 1) and is oriented towards achieving a specific outcome or endpoint ('to term', Result-focused: 4). Thus, 1 + 4 = 5."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The expression is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of carrying a pregnancy to term is biologically neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody carry_to_term' explicitly points to an intentional action by a volitional agent ('Somebody')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process leading to a definite outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A pregnancy is a single, prolonged biological event, not a repetitive action."
+    }
+  },
+  "errors": [
+    "`qualifiers.Aspect`의 'value'(5, 타입: int)가 허용된 값 목록에 없습니다."
+  ]
+}

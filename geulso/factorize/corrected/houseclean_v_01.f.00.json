@@ -1,0 +1,54 @@
+{
+  "synset_id": "houseclean.v.01",
+  "definition": "clean and tidy up the house",
+  "frame_id": 0,
+  "frame_text": "Somebody clean",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb describes an action that causes a change in the state of a house, specifically making it clean and tidy.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cleaning and tidying of the house, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "house.n.01",
+          "reasoning": "The house or living space that undergoes the change to a clean and tidy state, which is the direct object implied by the verb 'houseclean'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Housecleaning is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of housecleaning is neutral; its outcome is generally positive but the action itself carries no inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody houseclean' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of housecleaning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Housecleaning is an activity composed of numerous smaller, often repetitive tasks (e.g., dusting, sweeping, arranging), indicating a high degree of internal repetition within the single event."
+    }
+  }
+}

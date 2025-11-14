@@ -1,0 +1,54 @@
+{
+  "synset_id": "emit.v.01",
+  "definition": "expel (gases or odors)",
+  "frame_id": 1,
+  "frame_text": "Somebody emit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'emit' describes the action of expelling something, which results in a change of the emitted substance's location from internal to external.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of emitting or expelling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "gas.n.01",
+          "reasoning": "The 'something' that is expelled, specifically referring to gases or odors as per the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of emitting is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the emission."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of emitting itself is neutral; any sentiment is derived from what is emitted or the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something emit something' refers to a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process of emission."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of emitting gases or odors is often a continuous or highly repetitive process rather than a single, instantaneous event."
+    }
+  }
+}

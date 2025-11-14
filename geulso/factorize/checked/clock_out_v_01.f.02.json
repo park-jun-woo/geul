@@ -1,0 +1,57 @@
+{
+  "synset_id": "clock_out.v.01",
+  "definition": "register one's departure from work",
+  "frame_id": 2,
+  "frame_text": "Somebody clock_out",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb 'clock out' is defined as 'register one's departure from work', which is an act of communicating or recording specific information (one's departure) to a system or record. The hypernym 'report' further supports this semantic type.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of registering their departure, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "departure.n.01",
+          "reasoning": "The 'departure from work' is the specific information or event being communicated/registered by the agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of clocking out is a directly performed and observable action by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an intentional act driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of clocking out is a neutral procedural action, devoid of inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody clock_out' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, established action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Clocking out is typically a single, discrete event that marks the end of a work period, rather than a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

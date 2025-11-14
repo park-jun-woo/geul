@@ -1,0 +1,59 @@
+{
+  "synset_id": "scatter.v.03",
+  "definition": "distribute loosely",
+  "frame_id": 14,
+  "frame_text": "Something sprinkle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "arrangement.n.01",
+      "reasoning": "The verb 'scatter' means to cause a change in the physical arrangement of items, moving them from a concentrated state to a dispersed, unorganized state, as indicated by 'distribute loosely'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of distributing. Interpreting the `verb_frame` 'Something sprinkle something' as 'Something scatters something', this 'Something' is the non-volitional entity causing the dispersal."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in arrangement, being distributed loosely."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "dispersed.a.01",
+      "reasoning": "The definition 'distribute loosely' explicitly states the manner of distribution, characterized by a lack of compactness, order, or density."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scattering is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Interpreting the `verb_frame` 'Something sprinkle something' as 'Something scatters something', the 'Something' subject lacks the capacity for will or intention, thus Modality is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of scattering itself is neutral; its positive or negative connotation depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The `verb_frame` 'Something sprinkle something' (interpreted as 'Something scatters something') features a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'distributing loosely' or 'sprinkling' (as suggested by the frame) often involves multiple individual elements being dispersed in rapid succession, implying high repetition within the overall event."
+    }
+  }
+}

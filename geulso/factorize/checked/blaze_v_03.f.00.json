@@ -1,0 +1,64 @@
+{
+  "synset_id": "blaze.v.03",
+  "definition": "burn brightly and intensely",
+  "frame_id": 0,
+  "frame_text": "Something blaze",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "combustion.n.01",
+      "reasoning": "The verb 'blaze' describes the process of undergoing combustion, as indicated by the definition 'burn brightly and intensely' and the hypernym 'burn'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the process of blazing, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "bright.a.01",
+      "reasoning": "The definition explicitly states that the burning is 'brightly', indicating a luminous manner of combustion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "intense.a.01",
+      "reasoning": "The definition explicitly states that the burning is 'intensely', indicating a high degree of fervor or strength in the combustion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of blazing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something blaze' lacks an agent capable of will; blazing is a natural process."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of blazing is neutral; its sentiment depends on context (e.g., destructive fire vs. warming fire)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something blaze' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of blazing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Blazing is a continuous, ongoing process composed of many repetitive acts of combustion, implying high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

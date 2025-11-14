@@ -1,0 +1,59 @@
+{
+  "synset_id": "saponify.v.02",
+  "definition": "convert into soap by hydrolizing an ester into an acid and alcohol as a result of treating it with an alkali",
+  "frame_id": 1,
+  "frame_text": "Something saponify something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "composition.n.01",
+      "reasoning": "The verb 'saponify' describes a chemical transformation where the chemical composition of a substance (an ester) is altered into soap, acid, and alcohol.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that initiates or causes the saponification process (e.g., an alkali)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "ester.n.01",
+          "reasoning": "The second 'something' is the substance (an ester) that undergoes the chemical change and is converted."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "soap.n.01",
+          "reasoning": "The definition explicitly states 'convert into soap', indicating that 'soap' is the primary resulting product of this transformation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A chemical process like saponification is typically verifiable through direct observation or scientific experimentation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual chemical process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something' (non-human), implying a natural or chemical process without conscious will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The chemical process of saponification is inherently neutral; any associated sentiment depends on the context or desirability of the outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the agent is a non-volitional entity or substance, performing a chemical reaction rather than an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite chemical reaction or conversion, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance or completion of the conversion process."
+    }
+  }
+}

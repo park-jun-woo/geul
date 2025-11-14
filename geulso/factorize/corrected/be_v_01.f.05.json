@@ -1,0 +1,54 @@
+{
+  "synset_id": "be.v.01",
+  "definition": "have the quality of being; (copula, used with an adjective or a predicate noun)",
+  "frame_id": 5,
+  "frame_text": "Something is being PP",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'be' in its copular sense describes a continuous state of existing, rather than an action or a change.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' whose state of being, quality, or location is described by the verb and its complement."
+        },
+        {
+          "semantic_role": "attribute.n.01",
+          "value_type": "state.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the particular attribute, condition, or location that 'Somebody' is in, functioning as a predicate description of the patient's existence. 'State.n.01' is chosen as a general category to encompass both conditions and locations expressed by PPs."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Statements using 'be' as a copula are typically presented as direct, factual observations or known truths."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The core meaning of the verb 'be' in this frame is declarative, stating a fact or condition."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Being in a state is not an action driven by the agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'be' itself is neutral; the sentiment is determined by the specific attribute or state described by the PP."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Being in a particular state or location is a non-volitional condition, not an intentional act performed by the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Statements of being or identification inherently convey a high degree of certainty about the asserted state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "As a continuous state, the concept of repetition is not applicable. It is treated as a single, ongoing instance."
+    }
+  }
+}

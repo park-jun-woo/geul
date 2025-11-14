@@ -1,0 +1,64 @@
+{
+  "synset_id": "misinform.v.01",
+  "definition": "give false or misleading information to",
+  "frame_id": 1,
+  "frame_text": "Somebody mislead somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes causing a change in the recipient's state of knowledge, specifically by imparting information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity that causes the misinformation, often a non-agentive source like a document, rumor, or event."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the information and whose knowledge state is affected."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "information.n.01",
+          "reasoning": "The content that is imparted, which is inherently false or misleading."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The 'mis-' prefix and the definition 'give false or misleading information' inherently indicate that the information being communicated is incorrect or lacking in truth."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of misinforming is typically a directly observable event or involves direct communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something misinform somebody' lacks an agent capable of will, as 'Something' is the cause."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To misinform is inherently negative, as it involves providing false or misleading information, which typically leads to an undesirable outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event caused by a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of misinforming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of imparting false information, though it could occur repeatedly over time."
+    }
+  }
+}

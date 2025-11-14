@@ -1,0 +1,65 @@
+{
+  "synset_id": "seep.v.01",
+  "definition": "pass gradually or leak through or as if through small openings",
+  "frame_id": 1,
+  "frame_text": "Something is seeping PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the fundamental process of a substance gradually changing its physical location.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame (typically a liquid or gas) that undergoes the movement."
+        },
+        {
+          "semantic_role": "path.n.02",
+          "reasoning": "The 'PP' indicates the medium or barrier through which the substance passes, representing the path of motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gradual.a.01",
+      "reasoning": "The definition explicitly states the movement occurs 'gradually', specifying a slow and progressive manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "permeation.n.01",
+      "reasoning": "The definition specifies movement 'through or as if through small openings', which describes the particular manner or mechanism of this gradual passage, akin to permeation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Seeping is a physically observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no will or intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of seeping is neutral; its sentiment depends on context (e.g., water seeping into soil vs. oil seeping from a tank)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is seeping...' describes an event involving a non-agentive subject (liquid or gas), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the movement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'pass gradually' and 'leak through' implies a continuous, high repetition of small movements of liquid/gas particles, rather than a single discrete event."
+    }
+  }
+}

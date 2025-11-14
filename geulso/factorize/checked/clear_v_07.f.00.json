@@ -1,0 +1,57 @@
+{
+  "synset_id": "clear.v.07",
+  "definition": "be debited and credited to the proper bank accounts",
+  "frame_id": 0,
+  "frame_text": "Something clear",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "financial_status.n.01",
+      "reasoning": "The verb describes a change in the financial state of an item (e.g., a check or transaction) from being outstanding to being settled or processed.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., a transaction, a check) that undergoes the change in financial status, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "completion.n.01",
+      "reasoning": "The definition 'be debited and credited to the proper bank accounts' implies the full processing and resolution of a financial transaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The clearing of a financial transaction is a factual event, typically verifiable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a financial process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something clear' indicates a process happening to an inanimate object, without an agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of clearing a financial item is a neutral process; its sentiment depends on the overall context of the transaction."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' is inanimate, and the action is an automatic process within a financial system, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the financial process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of a financial item being cleared."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

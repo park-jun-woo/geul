@@ -1,0 +1,59 @@
+{
+  "synset_id": "hit.v.02",
+  "definition": "hit against; come into sudden contact with",
+  "frame_id": 1,
+  "frame_text": "Somebody collide_with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The definition 'come into sudden contact with' indicates a transition to a state of physical contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the initiator of the contact."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' is the entity that comes into contact with the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition explicitly includes 'sudden contact', making 'sudden' a core semantic component of the action's manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hitting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hitting is neutral; its sentiment depends on context or consequence."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hit somebody' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hitting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of contact."
+    }
+  }
+}

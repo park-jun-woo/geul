@@ -1,0 +1,63 @@
+{
+  "synset_id": "distribute.v.01",
+  "definition": "administer or bestow, as in small portions",
+  "frame_id": 2,
+  "frame_text": "Somebody allot something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'distribute' (and its synonym 'allot' in this context) describes an action that causes a change in who possesses or is assigned an item or items, as supported by the hypernym 'give.v.03' (transfer possession).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of distribution/allotment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being distributed or allotted."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "Although not explicitly present in the minimal frame 'Somebody allot something', the core meaning of 'distribute' and 'allot' inherently implies one or more entities to whom the items are given or assigned."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "portion.n.01",
+      "reasoning": "The definition 'as in small portions' specifies a characteristic manner of the distribution, implying that the 'something' is divided or given out in parts."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of distributing or allotting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is neutral; its sentiment depends on context or the items being distributed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody allot something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of distributing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'as in small portions' suggests that the distribution involves either multiple discrete acts of bestowal or a single act that inherently involves the division and assignment of multiple parts, leading to high conceptual iterativity."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "bay.v.02",
+  "definition": "bark with prolonged noises, of dogs",
+  "frame_id": 0,
+  "frame_text": "Something bay",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "vocalization.n.01",
+      "reasoning": "The verb describes the event of an animal producing a vocal sound, specifically a type of bark as indicated by its hypernym.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (specifically a dog, as per the definition) that performs the vocalization, as implied by the verb's meaning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "long.a.01",
+      "reasoning": "The definition specifies 'prolonged noises', indicating a long duration for the vocalization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Baying is a directly observable auditory event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Although the frame is 'Something ----s', the definition specifies 'of dogs', which are animate agents capable of acting with will and intention in vocalizing."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of baying is inherently neutral; its emotional context determines sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' in the frame, the definition 'of dogs' indicates an animate subject performing an intentional act of vocalization, making it volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of vocalization."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'bark with prolonged noises' implies continuous or highly repetitive sounds, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

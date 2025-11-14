@@ -1,0 +1,60 @@
+{
+  "synset_id": "free-base.v.01",
+  "definition": "use (purified cocaine) by burning it and inhaling the fumes",
+  "frame_id": 2,
+  "frame_text": "Somebody free-base",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "use.n.01",
+      "reasoning": "The verb describes the ongoing activity of using a substance, as indicated by the definition 'use (purified cocaine)'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of using, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "cocaine.n.01",
+          "reasoning": "The 'purified cocaine' which is the object being used, as specified in the definition. 'cocaine.n.01' is a specific instance of a substance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "by burning and inhaling fumes",
+      "reasoning": "The definition explicitly specifies the manner of use as 'by burning it and inhaling the fumes', which is a core distinguishing feature of free-basing. This is a descriptive string for the specific manner as no direct synset exists."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of free-basing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody free-base' implies the agent's will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the societal view of cocaine use is negative, the verb 'free-base' itself neutrally describes the action. The negativity stems from the substance and context, not the verb's inherent semantic polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb, in its simple form, describes a singular instance of the act, though it can be habitual. The default for a single event is 1."
+    }
+  }
+}

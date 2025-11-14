@@ -1,0 +1,67 @@
+{
+  "synset_id": "tree.v.03",
+  "definition": "chase an animal up a tree",
+  "frame_id": 1,
+  "frame_text": "Something tree something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing an animal to change its location by moving it upwards into a tree.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of chasing and causing the target to ascend, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "animal.n.01",
+          "reasoning": "The 'something' (an animal) that is moved upwards into the tree."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value": "tree.n.01",
+          "reasoning": "The specific vertical destination of the chased animal."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "pursuit.n.01",
+      "reasoning": "The definition 'chase an animal' indicates that the action is performed through active pursuit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'treeing' an animal is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action of chasing implies a strong will or intent from the agent, whether human or animal."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'treeing' is neutral; its sentiment depends on context or the animal's welfare."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Something ----s something' implies an intentional act by the agent, particularly given the verb 'chase'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing an animal to go up a tree."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single event of causing an animal to be in a tree, even if the chase itself involves repetition."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

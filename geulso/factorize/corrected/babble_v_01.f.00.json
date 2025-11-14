@@ -1,0 +1,55 @@
+{
+  "synset_id": "babble.v.01",
+  "definition": "utter meaningless sounds, like a baby, or utter in an incoherent way",
+  "frame_id": 0,
+  "frame_text": "Somebody babble",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "utterance.n.01",
+      "reasoning": "The verb describes the action of producing vocal sounds.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of uttering, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "coherence.n.01",
+      "value_type": "incoherent.a.01",
+      "reasoning": "The definition explicitly states 'meaningless sounds' or 'incoherent way', indicating a lack of coherence in the utterance. 'incoherent.a.01' is an adjective describing this property."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Babbling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action of producing sounds is driven by some level of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of babbling is neutral in sentiment; its specific context might impart a positive or negative nuance but the verb itself is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly includes a volitional agent ('Somebody') performing the action of uttering sounds, even if the sounds are meaningless."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of babbling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'utter meaningless sounds, like a baby' implies a continuous or highly repetitive action rather than a single event."
+    }
+  }
+}

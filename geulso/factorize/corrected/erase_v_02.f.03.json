@@ -1,0 +1,59 @@
+{
+  "synset_id": "erase.v.02",
+  "definition": "remove by or as if by rubbing or erasing",
+  "frame_id": 3,
+  "frame_text": "Somebody score_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'erase' implies a transition from a state of presence to absence for the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of removing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose existence or perceptibility is altered by the erasing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "scoring_out.n.01",
+      "reasoning": "The verb frame 'score_out' explicitly indicates the specific manner or method by which the removal is achieved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of erasing or scoring out is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of erasing is neutral; its sentiment depends on the context of what is being erased."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of erasing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of removing a particular item or mark."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "patrol.v.01",
+  "definition": "maintain the security of by carrying out a patrol",
+  "frame_id": 1,
+  "frame_text": "Somebody patrol something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "security.n.01",
+      "reasoning": "The verb 'patrol' describes an active process of maintaining security, implying an ongoing effort to ensure or achieve a state of security for the patient, or prevent a change to a less secure state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of patrolling to maintain security."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (person or area) whose security is being maintained or observed, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "systematic_movement_and_observation.n.01",
+      "reasoning": "The definition 'by carrying out a patrol' specifies a particular manner of performing the security maintenance, involving systematic, often repetitive, movement and observation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Patrolling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of patrolling is generally neutral; its sentiment depends on context or the entity being patrolled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Patrolling is an activity that inherently involves continuous and repetitive movement and observation, suggesting high iterativity."
+    }
+  }
+}

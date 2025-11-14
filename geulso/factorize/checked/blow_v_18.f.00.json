@@ -1,0 +1,70 @@
+{
+  "synset_id": "blow.v.18",
+  "definition": "cause to be revealed and jeopardized",
+  "frame_id": 0,
+  "frame_text": "Somebody blow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "secrecy.n.01",
+      "reasoning": "The verb describes causing a change in the state of information from being hidden or secret to being revealed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the revelation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' (e.g., a secret, a plan) that undergoes the change in its state of secrecy/revelation."
+        }
+      ]
+    },
+    {
+      "verb_type": "effect",
+      "verb_property": "security.n.02",
+      "value_type": "negative.a.01",
+      "reasoning": "The definition includes 'jeopardized,' indicating an inherent negative effect on the safety or security of the revealed 'something'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' whose security or viability is negatively affected/jeopardized by the revelation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of causing something to be revealed and jeopardized is typically a direct, observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly includes 'jeopardized,' indicating an inherent negative consequence for the affected entity, thus making the action negative in nature."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of revealing and jeopardizing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, decisive event of causing something to be revealed and jeopardized, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'effect'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

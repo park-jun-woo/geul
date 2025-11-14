@@ -1,0 +1,58 @@
+{
+  "synset_id": "redistribute.v.01",
+  "definition": "distribute anew",
+  "frame_id": 1,
+  "frame_text": "Somebody redistribute something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "allocation.n.01",
+      "reasoning": "The verb describes altering the arrangement or assignment of individuals from a previous state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of redistributing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being re-allocated or re-assigned, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "recurrence.n.01",
+      "reasoning": "The 're-' prefix in 'redistribute' indicates that this is a subsequent or renewed act of distribution, implying a prior instance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of redistributing is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of redistributing is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of redistribution is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'redistribute' describes a single act of re-allocation, even if it follows a prior distribution. The 're-' aspect is handled by a separate sememe."
+    }
+  }
+}

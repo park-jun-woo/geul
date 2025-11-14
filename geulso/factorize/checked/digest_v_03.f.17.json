@@ -1,0 +1,56 @@
+{
+  "synset_id": "digest.v.03",
+  "definition": "put up with something or somebody unpleasant",
+  "frame_id": 17,
+  "frame_text": "Somebody stomach somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "tolerance.n.01",
+      "reasoning": "The verb 'digest' in this sense (to stomach) describes an ongoing act of enduring or tolerating something unpleasant, which is a continuous process rather than a static state or instantaneous change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who actively performs the act of enduring or tolerating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is the object of the toleration or endurance."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tolerating or enduring (stomaching) is typically a direct personal experience for the subject."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb expresses a declarative statement about an ongoing mental/emotional process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "To 'stomach' someone implies an active choice and effort (will) to endure something unpleasant, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of enduring or tolerating itself is neutral, even though the object being tolerated is unpleasant."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody stomach somebody' indicates an intentional and volitional act of enduring on the part of the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement implies a definite and certain fact about the subject's ability or act of toleration."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'put up with' or 'stomach' implies a continuous, ongoing, and often repeated experience of endurance rather than a single, instantaneous event. Therefore, it has high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

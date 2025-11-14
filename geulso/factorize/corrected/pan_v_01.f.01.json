@@ -1,0 +1,63 @@
+{
+  "synset_id": "pan.v.01",
+  "definition": "make a sweeping movement",
+  "frame_id": 1,
+  "frame_text": "Something pan",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'make a sweeping movement' describes a change in location or orientation, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity undergoing the non-volitional sweeping motion."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the verb frame indicates the trajectory or extent of the sweeping movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sweep.n.04",
+      "reasoning": "The term 'sweeping' explicitly defines the characteristic manner of the movement, describing it as an arc or broad trajectory (WordNet 'sweep.n.04': 'a movement in an arc')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of panning is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is paning PP' uses the progressive aspect, indicating an ongoing action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a sweeping movement is semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is paning' implies a non-volitional subject ('Something'), making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of movement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'sweeping movement' implies a continuous or sustained action, suggesting high repetition or ongoing motion rather than a single instantaneous event."
+    }
+  }
+}

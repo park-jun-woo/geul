@@ -1,0 +1,59 @@
+{
+  "synset_id": "bilge.v.02",
+  "definition": "take in water at the bilge",
+  "frame_id": 1,
+  "frame_text": "Something take_in_water",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contents.n.01",
+      "reasoning": "The verb describes a process where a vessel (represented by 'Something') undergoes a change in its internal state by taking in water.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., a ship) that experiences the intake of water and whose internal contents are affected."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "water.n.01",
+          "reasoning": "The substance (water) that enters the 'Something'."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "bilge.n.01",
+          "reasoning": "The specific lower internal part of the vessel where the water is taken in, as explicitly stated in the definition of 'bilge.v.02'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of a vessel taking in water is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is not an agent capable of will; the process occurs to it without intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical process of taking in water is semantically neutral, although its consequences for a vessel are typically negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something take_in_water' explicitly indicates a non-volitional subject ('Something'), meaning the action is not performed intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of water ingress."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'taking in water' typically implies a continuous or ongoing process rather than a single, discrete event, similar to leaking."
+    }
+  }
+}

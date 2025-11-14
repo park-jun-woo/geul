@@ -1,0 +1,60 @@
+{
+  "synset_id": "watch.v.02",
+  "definition": "follow with the eyes or the mind",
+  "frame_id": 3,
+  "frame_text": "Somebody keep_an_eye_on something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "attention.n.01",
+      "reasoning": "The definition 'follow with the eyes or the mind' and the idiom 'keep an eye on' describe a sustained, active engagement of mental or visual focus, which is an activity involving attention.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of observing and focusing attention."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being observed or on which attention is focused."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of watching/keeping an eye on is typically a directly experienced or observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame, performing an active monitoring role, implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of watching or monitoring is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody keep_an_eye_on something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The idiom 'keep an eye on' implies sustained, continuous monitoring over a period, which involves high repetition of observational acts or an ongoing, highly repetitive process."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The phrase 'keep an eye on' inherently describes an ongoing, continuous action of observation, aligning with the progressive aspect."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

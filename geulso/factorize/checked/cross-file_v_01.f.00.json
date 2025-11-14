@@ -1,0 +1,77 @@
+{
+  "synset_id": "cross-file.v.01",
+  "definition": "have one's name listed as a candidate for several parties",
+  "frame_id": 0,
+  "frame_text": "Somebody cross-file",
+  "sememes": {
+    "CoreAction": {
+      "value": {
+        "verb_type": "change",
+        "verb_property": "status.n.01"
+      },
+      "reasoning": "The verb 'cross-file' describes an action that results in a change of an individual's political standing or designation, moving from not being a multi-party candidate to being one."
+    },
+    "Agent": {
+      "value": {
+        "semantic_role": "causal_agent.n.01",
+        "value_type": "person.n.01"
+      },
+      "reasoning": "The 'Somebody' in the verb frame is the individual who performs the action of cross-filing."
+    },
+    "Patient": {
+      "value": {
+        "semantic_role": "patient.n.02",
+        "value_type": "candidacy.n.01"
+      },
+      "reasoning": "The object that undergoes the change is the individual's candidacy or designation, which is established or modified by the filing."
+    },
+    "NewStatus": {
+      "value": {
+        "semantic_role": "attribute.n.01",
+        "value_type": "candidate.n.01"
+      },
+      "reasoning": "The definition explicitly states the individual is 'listed as a candidate', indicating the acquired status or role."
+    },
+    "ScopeOfAction": {
+      "value": {
+        "semantic_role": "domain.n.01",
+        "value_type": "political_party.n.01",
+        "quantity": "multiple"
+      },
+      "reasoning": "The prefix 'cross-' and the phrase 'for several parties' imply that the action applies across multiple political entities or domains."
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cross-filing is typically a public and verifiable event, implying direct experience or documented fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cross-filing is a procedural action and is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cross-file' explicitly indicates a volitional agent ('Somebody') performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Cross-filing refers to a singular, discrete event that establishes a particular status, even if it applies to multiple entities. It's not a continuous or highly repetitive physical action."
+    }
+  },
+  "errors": [
+    "`sememes`가 리스트가 아닙니다."
+  ]
+}

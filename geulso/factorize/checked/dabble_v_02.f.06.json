@@ -1,0 +1,64 @@
+{
+  "synset_id": "dabble.v.02",
+  "definition": "play in or as if in water, as of small children",
+  "frame_id": 6,
+  "frame_text": "Something dabble",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "play.n.01",
+      "reasoning": "The core meaning of 'dabble' is to engage in a playful activity, as per the definition 'play in or as if in water' and the hypernym 'play'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity performing the action of dabbling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The definition explicitly specifies the activity occurs 'in or as if in water', indicating the primary medium of interaction."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "playful.a.01",
+      "reasoning": "The phrase 'as of small children' in the definition implies a light, playful, or somewhat aimless manner of engaging with the water."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling is typically a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of 'play' as described in the definition and hypernym implies an agent acting with intent and will, even if the frame uses the generic 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling is inherently neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Engaging in 'play' is typically a volitional act, as indicated by the definition 'as of small children' and the hypernym 'play'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of dabbling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dabbling involves continuous, repetitive, light movements in water, indicating a high degree of iterativity rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

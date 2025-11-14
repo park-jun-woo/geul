@@ -1,0 +1,58 @@
+{
+  "synset_id": "yelp.v.01",
+  "definition": "bark in a high-pitched tone",
+  "frame_id": 1,
+  "frame_text": "Something yelp",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sound_production.n.01",
+      "reasoning": "The verb 'yelp' describes the process of making a specific type of sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that produces the sound, acting as the subject or source of the vocalization."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pitch.n.01",
+      "value_type": "high-pitched.a.01",
+      "reasoning": "The definition explicitly states 'in a high-pitched tone', which is a core distinguishing characteristic of the sound produced by yelping."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Yelping is an audible event that is directly perceived."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given that yelping is often an involuntary reaction, the agent's will is not primarily involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of yelping itself is neutral, even if it often signals negative states like pain or fear."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Yelping is typically an involuntary vocalization, often a reaction to pain, fear, or sudden surprise, rather than a deliberate action. The 'Something' frame further supports this non-volitional interpretation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the sound."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While an animal might yelp repeatedly, the verb 'yelp' itself describes a single, sharp sound event, rather than an inherently continuous or frequently repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "wall_in.v.01",
+  "definition": "enclose with a wall",
+  "frame_id": 2,
+  "frame_text": "Somebody wall_up somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The verb 'wall in' describes a transformation from a state of not being contained to being contained, specifically within a barrier.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the enclosure."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity that is enclosed."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "wall.n.01",
+      "reasoning": "The verb 'wall in' explicitly indicates that a 'wall' is the means or instrument by which the enclosure is effected, as per the definition 'enclose with a wall'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'walling in' is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of enclosing with a wall is neutral; its sentiment depends on context (e.g., protection vs. imprisonment)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of 'walling in' is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single, completed act of enclosure."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'instrument'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "snip.v.02",
+  "definition": "cultivate, tend, and cut back the growth of",
+  "frame_id": 13,
+  "frame_text": "Something prune something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "size.n.01",
+      "reasoning": "The definition 'cut back the growth of' describes a deliberate reduction in the size or mass of the patient, which aligns with the hypernym 'thin_out.v.01' (make sparse).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, acting as the entity that causes the change to the patient. Given the nature of 'Something', this causal agent is non-volitional."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the process of having its growth cut back."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "cultivation.n.01",
+      "reasoning": "The definition explicitly includes 'cultivate, tend' as the overall purpose or goal behind the act of cutting back growth, indicating an intention to improve or maintain the patient.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of snipping or pruning is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something prune something' indicates that the agent is an inanimate 'Something', therefore lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pruning is generally neutral; its positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something prune something' explicitly assigns the action to an inanimate 'Something', making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is presented as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Pruning often involves a series of repeated cuts over time, especially in the context of 'cultivate, tend', suggesting a highly repetitive activity rather than a single, instant event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

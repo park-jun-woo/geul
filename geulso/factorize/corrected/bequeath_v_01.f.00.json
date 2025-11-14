@@ -1,0 +1,63 @@
+{
+  "synset_id": "bequeath.v.01",
+  "definition": "leave or give by will after one's death",
+  "frame_id": 0,
+  "frame_text": "Somebody bequeath somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'leave or give by will after one's death' describes a transfer of ownership, which is a change in the state of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the legal transfer of property."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame, who receives the property."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is transferred in terms of possession."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value": "posthumous_legal_transfer",
+      "reasoning": "The verb specifically describes a transfer that occurs 'by will' (legal mechanism) and 'after one's death' (temporal condition), distinguishing it from general 'giving'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bequeathing is a directly observable legal and factual event, typically documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will in creating a will to bequeath."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bequeathing is neutral; the specific property or beneficiaries might evoke positive or negative sentiment, but the act itself is a formal transfer."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bequeath...' explicitly indicates a volitional agent who intentionally makes a will to transfer assets."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The transfer of property through a will is described as a definite and certain event upon the specified condition (death)."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, albeit potentially complex, act of transferring assets via a will, rather than a repetitive action."
+    }
+  }
+}

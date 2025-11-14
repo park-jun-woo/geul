@@ -1,0 +1,57 @@
+{
+  "synset_id": "wane.v.02",
+  "definition": "become smaller",
+  "frame_id": 0,
+  "frame_text": "Something wane",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "size.n.01",
+      "reasoning": "The definition 'become smaller' explicitly indicates a change in the physical dimension of the subject.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in size."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "value_type": "decrease.n.01",
+      "reasoning": "The core meaning of 'wane' is to decrease or diminish, specifically in size, extent, or power as per its hypernym 'decrease.v.01'. This indicates a negative change in magnitude."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something waning is typically a directly observable phenomenon (e.g., the moon, light)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something wane' implies no agent with a will or intention causing the change; it occurs autonomously."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'waning' often has negative connotations (e.g., power waning), the act of becoming smaller itself is semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something wane' indicates that the subject 'Something' is non-agentive, and the action is not performed intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Waning is a gradual, continuous process of diminishing, implying high repetition or ongoing iteration of the 'becoming smaller' state rather than a single instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

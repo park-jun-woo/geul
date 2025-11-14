@@ -1,0 +1,62 @@
+{
+  "synset_id": "hover.v.03",
+  "definition": "hang in the air; fly or be suspended above",
+  "frame_id": 0,
+  "frame_text": "Something is hovering PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'hover' describes a continuous process of staying aloft, often involving subtle movements to maintain position, which is a form of motion.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that is engaged in the act of hovering, undergoing the process of remaining airborne."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the spatial context or reference point relative to which the hovering occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suspended.a.01",
+      "reasoning": "A key semantic component of 'hover' is the manner of motion, specifically that the object remains suspended or relatively stationary in the air, as implied by 'hang in the air' and 'be suspended above'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hovering is an observable phenomenon, thus direct experience is the typical evidential basis."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb frame 'Something is hovering PP' is a declarative statement about an ongoing process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame typically refers to an inanimate object (e.g., helicopter, drone), which does not possess will or intention in the human sense."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hovering is semantically neutral; its positive or negative implications depend on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is hovering PP' refers to a non-agentive subject ('Something'), indicating that the action is non-volitional or machine-driven rather than intentionally performed by a sentient being."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of being."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Hovering is a continuous action involving subtle, repetitive adjustments to maintain a stable position, indicating high iterativity rather than a single event or infinite repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

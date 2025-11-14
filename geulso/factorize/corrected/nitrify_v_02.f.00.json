@@ -1,0 +1,59 @@
+{
+  "synset_id": "nitrify.v.02",
+  "definition": "treat with nitrogen or a nitrogen compound",
+  "frame_id": 0,
+  "frame_text": "Somebody nitrify something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "composition.n.01",
+      "reasoning": "The verb 'nitrify' describes causing a change in the chemical composition or state of the patient by adding nitrogen.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the treatment, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose composition is altered through the process of nitrifying."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "substance.n.01",
+      "value_type": "nitrogen.n.01",
+      "reasoning": "The core of the definition specifies that the treatment is performed 'with nitrogen or a nitrogen compound', indicating the essential substance involved in the change."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of treating something is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent acts with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of nitrifying is a chemical process, which is inherently neutral; its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of treating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'nitrify' typically refers to a single, complete instance of treatment, although it could be repeated, the base meaning is a single event."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "propose.v.05",
+  "definition": "ask (someone) to marry you",
+  "frame_id": 7,
+  "frame_text": "Somebody propose to somebody",
+  "sememes": [
+    {
+      "verb_type": "social_action",
+      "verb_property": "request.n.01",
+      "reasoning": "The definition 'ask (someone) to marry you' identifies this as a type of social interaction involving a request.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the request or proposal, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the marriage proposal is directed, indicated by 'to somebody' in the frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "marriage.n.01",
+          "reasoning": "The subject of the proposal is implicitly 'marriage' or the act of marrying."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A marriage proposal is typically a directly experienced and observed event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative event, a statement of an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to propose marriage."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of proposing is inherently neutral; its emotional valence depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody propose...' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of proposing is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A marriage proposal is typically a singular, non-repetitive event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'social_action'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

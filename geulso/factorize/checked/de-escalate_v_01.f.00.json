@@ -1,0 +1,57 @@
+{
+  "synset_id": "de-escalate.v.01",
+  "definition": "diminish in size, scope, or intensity",
+  "frame_id": 0,
+  "frame_text": "Something de-escalate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "magnitude.n.01",
+      "reasoning": "The definition 'diminish in size, scope, or intensity' indicates a change in the degree or extent of something, which can be generalized as magnitude.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in magnitude, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "verb_property": "decrease.n.01",
+      "reasoning": "The core meaning of 'de-escalate' is to diminish or lessen, indicating a downward direction of change in magnitude."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of de-escalating is generally a directly observable phenomenon or a state that is directly assessed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or a change in state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something de-escalate' implies an action occurring without an agent's explicit will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of de-escalating is neutral; its sentiment depends on the context (e.g., de-escalating conflict is positive, de-escalating production is negative)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something de-escalate' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of diminution."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While de-escalation can be a gradual process, the verb describes the overall event of diminution as a single, continuous change rather than a series of discrete repetitions."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

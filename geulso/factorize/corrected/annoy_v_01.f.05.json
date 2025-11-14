@@ -1,0 +1,59 @@
+{
+  "synset_id": "annoy.v.01",
+  "definition": "cause annoyance in; disturb, especially by minor irritations",
+  "frame_id": 5,
+  "frame_text": "Somebody get_to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emotional_state.n.01",
+      "reasoning": "The verb 'annoy' describes causing a change in someone's emotional state, specifically to a state of annoyance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity initiating or causing the annoyance."
+        },
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The second 'somebody' in the frame is the one who experiences the state of annoyance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "irritation.n.01",
+      "reasoning": "The definition mentions 'minor irritations' as a common manner of causing annoyance, which is a key distinguishing feature of this verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of annoying and the resulting state can be directly observed or inferred from behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causing annoyance."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody get_to somebody' implies an intentional act by the agent to cause annoyance, thus indicating strong will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'annoy' inherently carries a negative sentiment, as it describes causing displeasure or disturbance."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody get_to somebody' explicitly denotes a volitional agent ('Somebody') performing the action, suggesting intentional causing of annoyance."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing annoyance."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'disturb, especially by minor irritations' suggests that annoyance is often caused by a series of repetitive, small actions rather than a single event, indicating high iterativity."
+    }
+  }
+}

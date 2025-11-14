@@ -1,0 +1,62 @@
+{
+  "synset_id": "confront.v.01",
+  "definition": "oppose, as in hostility or a competition",
+  "frame_id": 4,
+  "frame_text": "Something confront somebody",
+  "sememes": [
+    {
+      "verb_type": "interaction",
+      "verb_property": "opposition.n.01",
+      "reasoning": "The definition 'oppose' indicates a core semantic component of interaction involving antagonism or resistance.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' in the frame acts as the source or origin of the opposition, putting itself in front of or against the other participant."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the confrontation and experiences the opposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "nature.n.01",
+      "value_type": "antagonistic.a.01",
+      "reasoning": "The definition specifies 'as in hostility or a competition,' indicating the inherent antagonistic nature of the interaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of confronting is typically a directly observable or experientially known event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or interaction."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, therefore lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While often associated with negative contexts, the act of confronting (e.g., a challenge, a problem) can be neutral or even positive in terms of resolving issues. The definition also includes 'competition'."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something confront somebody' clearly indicates a non-volitional subject ('Something') initiating the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of interaction."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or episode of confrontation, even if it can extend over time, it's viewed as one event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

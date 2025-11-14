@@ -1,0 +1,56 @@
+{
+  "synset_id": "argue.v.03",
+  "definition": "give evidence of",
+  "frame_id": 1,
+  "frame_text": "Somebody indicate something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "revelation.n.01",
+      "reasoning": "The definition 'give evidence of' describes the process of making something apparent or revealing a fact through supporting information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that provides or serves as the evidence, causing the revelation of the patient. Although inanimate, it is the grammatical subject causing the effect."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a fact, a need, a state) that is being evidenced or revealed by the causal agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb 'argue' in this sense implies that the evidence is directly presented or observed, leading to a direct understanding."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or indicating a state of affairs."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is typically inanimate or a concept, lacking the capacity for will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of giving evidence itself is neutral; the content or implications of the evidence can be positive or negative, but the verb's inherent sentiment is neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something') performing the action of providing evidence."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'give evidence of' implies a strong degree of certainty or conviction regarding the truth of what is being evidenced."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of something serving as evidence for something else."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

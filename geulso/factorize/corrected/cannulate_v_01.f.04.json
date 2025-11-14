@@ -1,0 +1,58 @@
+{
+  "synset_id": "cannulate.v.01",
+  "definition": "introduce a cannula or tube into",
+  "frame_id": 4,
+  "frame_text": "Somebody intubate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "inclusion.n.01",
+      "reasoning": "The verb 'cannulate' describes the act of introducing an object into another, resulting in a change in the state of inclusion for the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of introducing the cannula or tube."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a body part or vessel) into which the cannula or tube is introduced, which undergoes the change of state."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "tube.n.01",
+          "reasoning": "The definition explicitly states that 'a cannula or tube' is the object being introduced, which serves as the instrument of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cannulating is a directly observable medical procedure."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame performing a medical procedure implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cannulating is a neutral procedure; its polarity depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cannulating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of introducing a cannula or tube."
+    }
+  }
+}

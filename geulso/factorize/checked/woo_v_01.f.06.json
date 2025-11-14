@@ -1,0 +1,61 @@
+{
+  "synset_id": "woo.v.01",
+  "definition": "seek someone's favor",
+  "frame_id": 6,
+  "frame_text": "Something woo somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "pursuit.n.01",
+      "reasoning": "The definition 'seek someone's favor' indicates an active process of endeavoring or pursuing something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity initiating or performing the action of wooing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the direct object of the wooing, whose favor is sought."
+        }
+      ]
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "favor.n.02",
+      "reasoning": "The core objective of the action 'woo' is to obtain or gain the 'favor' of the patient, as specified in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wooing is an observable social interaction or effort."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of 'seeking someone's favor' implies a strong intention and goal-directedness, even if the agent 'Something' is abstract or inanimate (e.g., a campaign)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wooing itself is neutral; its sentiment depends on the context and intent."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "While 'seeking favor' implies intentionality, the subject 'Something' may not possess human-like volition. Neutral is chosen to reflect directedness without full human consciousness, aligning with the rule for 'Something' as an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite attempt, even if the success of gaining favor is not guaranteed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wooing typically involves sustained and often repeated efforts to achieve its goal, rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

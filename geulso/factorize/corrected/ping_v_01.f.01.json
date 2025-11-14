@@ -1,0 +1,59 @@
+{
+  "synset_id": "ping.v.01",
+  "definition": "hit with a pinging noise",
+  "frame_id": 1,
+  "frame_text": "Something ping something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The verb 'ping' implies a physical impact or hit, which is a change in the state of contact between two objects.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the hit."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that receives the impact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sound.n.01",
+      "value_type": "ping.n.01",
+      "reasoning": "The definition explicitly states 'with a pinging noise', indicating a specific type of sound as an inherent characteristic or result of the hit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of hitting and the resulting sound are typically directly observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' does not imply an agent with will or intention for the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'pinging' (hitting with a specific sound) is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' uses inanimate subjects ('Something'), indicating a non-volitional event."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'ping' in this context typically refers to a single, distinct impact and resultant sound, rather than continuous or highly repetitive actions."
+    }
+  }
+}

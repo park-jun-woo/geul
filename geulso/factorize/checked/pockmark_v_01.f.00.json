@@ -1,0 +1,57 @@
+{
+  "synset_id": "pockmark.v.01",
+  "definition": "mark with or as if with pockmarks",
+  "frame_id": 0,
+  "frame_text": "Somebody pockmark something",
+  "sememes": [
+    {
+      "verb_type": "create",
+      "verb_property": "mark.n.01",
+      "value_type": "pockmark.n.01",
+      "reasoning": "The verb describes the action of creating marks on a surface, specifically marks characterized as 'pockmarks' (small pits or depressions), causing a change in the object's appearance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of creating the pockmarks, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose surface is marked with pockmarks, as specified by the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pockmarking is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent ('Somebody') performs the action with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pockmarking is generally neutral; its sentiment depends on context (e.g., damaging vs. natural geological process)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of marking."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The concept of 'pockmarks' inherently implies multiple small, pit-like depressions, suggesting a highly repetitive or distributed marking process rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'create'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

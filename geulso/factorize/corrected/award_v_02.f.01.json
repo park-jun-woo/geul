@@ -1,0 +1,63 @@
+{
+  "synset_id": "award.v.02",
+  "definition": "give as judged due or on the basis of merit",
+  "frame_id": 1,
+  "frame_text": "Somebody award something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'give' indicates a transfer, which is a change in the state of who possesses an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the transfer of the award, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being given as an award, which undergoes the change of possession."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the award, typically introduced by the preposition 'to'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "basis.n.01",
+      "value_type": "merit.n.01",
+      "reasoning": "The definition 'as judged due or on the basis of merit' indicates a specific condition or reason for the giving, which is a core semantic component distinguishing 'award' from a general 'give'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of awarding is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will in making an award."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of awarding is neutral in sentiment; its positive or negative connotation depends on the context and the nature of the award."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody award...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of awarding is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of conferring an award."
+    }
+  }
+}

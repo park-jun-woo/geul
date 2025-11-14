@@ -1,0 +1,57 @@
+{
+  "synset_id": "call.v.02",
+  "definition": "ascribe a quality to or give a name of a common noun that reflects a quality",
+  "frame_id": 0,
+  "frame_text": "Somebody call somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "designation.n.01",
+      "reasoning": "The verb describes the act of assigning a name or quality, which results in a change or establishment of an entity's designation or status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that performs the act of designating or naming."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that receives the assigned name or quality."
+        },
+        {
+          "semantic_role": "result.n.02",
+          "reasoning": "The 'Adjective/Noun' in the frame represents the specific name or quality that is assigned to the patient as a direct outcome or consequence of the calling action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of calling or designating is typically a directly observed or explicitly stated action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The generic agent 'Something' in the frame suggests that the action is not necessarily driven by conscious will or intention, as it can refer to abstract entities like 'history' or 'law' (e.g., 'History calls him a hero')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of assigning a name or quality is inherently neutral; the sentiment depends entirely on the specific adjective or noun used."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Given the agent is a generic 'Something', and following the precedent set by similar frames in samples (e.g., 'Something ----s'), the action is typically non-volitional, implying it happens without deliberate intent by a conscious agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of calling implies a certainty in the designation being made or the quality being ascribed; it states a fact of designation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct act of assigning a designation, rather than a continuous or repetitive action."
+    }
+  }
+}

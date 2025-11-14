@@ -1,0 +1,58 @@
+{
+  "synset_id": "redouble.v.03",
+  "definition": "make twice as great or intense",
+  "frame_id": 0,
+  "frame_text": "Something redouble",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "intensity.n.01",
+      "reasoning": "The definition 'make twice as great or intense' describes a process where the subject's intensity or magnitude increases, representing a change in state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in intensity or magnitude, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "degree",
+      "verb_property": "quantity.n.01",
+      "value": "twofold",
+      "reasoning": "The 'redouble' aspect explicitly quantifies the change as becoming twice as great or intense, indicating a specific factor of increase."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of redoubling is generally a directly observable or ascertainable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something redouble' indicates that the subject 'Something' is not an agent capable of will, so the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of redoubling itself is neutral; its sentiment depends on what is being redoubled."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something redouble' implies an intransitive action where the non-agentive 'Something' is the subject, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or change in state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, specific event of increasing something by a factor of two, not a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'degree'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

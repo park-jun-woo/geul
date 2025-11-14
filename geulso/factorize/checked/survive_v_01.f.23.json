@@ -1,0 +1,57 @@
+{
+  "synset_id": "survive.v.01",
+  "definition": "continue to live through hardship or adversity",
+  "frame_id": 23,
+  "frame_text": "Something survive",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "life.n.01",
+      "reasoning": "The core of the definition 'continue to live' describes a sustained state of being alive.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that is in the state of continued life, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "condition",
+      "value_type": "adversity.n.01",
+      "reasoning": "The definition explicitly states that this continued life occurs 'through hardship or adversity', which is an essential condition for qualifying as 'surviving' rather than merely 'living'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The state of surviving is generally directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or state of being."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something survive' does not imply the will or intention of an agent, as 'Something' is typically non-agentive."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Surviving implies overcoming negative circumstances (hardship, adversity), making the outcome inherently positive."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something survive' indicates a non-volitional subject ('Something') and often describes an act of enduring or persisting, rather than an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite state of continued existence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "As a continuous state of 'continuing to live', the concept of repetition as discrete events is not applicable; it is a single, ongoing instance."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'condition'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

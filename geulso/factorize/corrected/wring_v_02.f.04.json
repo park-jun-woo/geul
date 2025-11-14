@@ -1,0 +1,74 @@
+{
+  "synset_id": "wring.v.02",
+  "definition": "twist and compress, as if in pain or anguish",
+  "frame_id": 4,
+  "frame_text": "Something wrench something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.02",
+      "reasoning": "The verb's definition explicitly includes 'twist', indicating a change in the physical form of the object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, indicating the entity that causes the twisting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the twisting."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "size.n.01",
+      "reasoning": "The verb's definition explicitly includes 'compress', indicating a reduction in the volume or increase in density of the object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, indicating the entity that causes the compression."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the compression."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "force.n.01",
+      "value_type": "high",
+      "reasoning": "The act of 'wringing' implies a forceful application. This is reinforced by the presence of 'wrench' in the frame, which suggests a sudden, violent twist, and the phrase 'as if in pain or anguish' which implies strenuous effort."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Wringing, as a physical action, is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something wrench something' indicates a non-volitional agent (the first 'Something'), thus implying no will behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical act of wringing is neutral; its sentiment depends on context or consequence."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something wrench something' explicitly features a non-agentive subject ('Something') as the causal agent, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wringing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of twisting and compressing, even if it involves continuous motion during its performance."
+    }
+  }
+}

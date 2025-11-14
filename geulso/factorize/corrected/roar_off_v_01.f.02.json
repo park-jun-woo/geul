@@ -1,0 +1,71 @@
+{
+  "synset_id": "roar_off.v.01",
+  "definition": "leave",
+  "frame_id": 2,
+  "frame_text": "Somebody roar_off something PP",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "departure.n.01",
+      "reasoning": "The definition 'leave' combined with the transitive frame 'Somebody ----s somebody PP' implies that the first 'Somebody' causes the second 'somebody' to depart.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates and causes the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who undergoes the action of leaving/being caused to leave."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame specifies the origin from which the patient departs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "loud.a.01",
+      "reasoning": "The 'roar' component of 'roar_off' describes the manner of the action, specifically that it involves a loud sound.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The 'roar_off' typically implies a rapid or quick departure, adding speed as a manner component.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing someone to leave is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as a causal agent in the frame implies volition and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing someone to leave, even with a roar, is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody PP' explicitly includes a volitional agent ('Somebody') performing the action of causing departure."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, decisive event of causing departure."
+    }
+  }
+}

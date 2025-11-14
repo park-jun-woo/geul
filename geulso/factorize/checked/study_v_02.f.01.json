@@ -1,0 +1,57 @@
+{
+  "synset_id": "study.v.02",
+  "definition": "be a student; follow a course of study; be enrolled at an institute of learning",
+  "frame_id": 1,
+  "frame_text": "Somebody study something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognitive_process.n.01",
+      "reasoning": "The definition 'follow a course of study' describes an ongoing intellectual activity over a period, which is a process leading to knowledge acquisition. 'Cognitive process' encompasses the mental effort involved.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the intellectual work of studying, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "subject_matter.n.01",
+          "reasoning": "The 'something' that is the object of the study, referring to a course or field of knowledge."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of studying is typically a directly experienced and observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of studying itself is neutral; the content or outcome of the study may have positive or negative implications."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody study something' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite engagement in the act of studying."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Studying is inherently a continuous activity composed of repeated actions (reading, thinking, writing, etc.) over time, indicating a high level of repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "visualize.v.01",
+  "definition": "imagine; conceive of; see in one's mind",
+  "frame_id": 11,
+  "frame_text": "Somebody project that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "mental_image.n.01",
+      "reasoning": "The definition 'imagine; conceive of; see in one's mind' describes an active mental process of forming a mental image or concept.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the experiencer who performs the mental activity of visualizing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the content or proposition that is being mentally conceived or imagined."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of visualizing is a direct internal experience for the individual performing it."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Visualizing is an intentional mental act, implying the agent's will and conscious effort."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of visualizing itself is semantically neutral; the content being visualized may carry a sentiment, but the verb does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody project that CLAUSE' explicitly indicates a volitional agent who intentionally performs the mental act of visualizing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'visualize' implies that the mental act is certain to occur or be present when asserted."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme, as presented in this frame, describes a single instance of forming or conceiving a mental image or proposition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

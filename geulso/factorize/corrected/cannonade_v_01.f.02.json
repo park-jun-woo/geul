@@ -1,0 +1,59 @@
+{
+  "synset_id": "cannonade.v.01",
+  "definition": "attack with cannons or artillery",
+  "frame_id": 2,
+  "frame_text": "Somebody cannonade something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "safety.n.01",
+      "reasoning": "The definition 'attack' implies a transition from a state of safety to a state of being threatened or damaged.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the attack."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame who is the target and recipient of the attack."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "cannon.n.01",
+      "reasoning": "The verb 'cannonade' inherently specifies the use of 'cannons or artillery' as the instrument of attack, making it a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cannonading is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'attack' and the nature of artillery bombardment are inherently negative, causing harm or destruction."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cannonade somebody' explicitly indicates a volitional agent performing the action of attacking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cannonading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'cannonade' typically implies a sustained or repeated firing of cannons, indicating high repetition rather than a single event."
+    }
+  }
+}

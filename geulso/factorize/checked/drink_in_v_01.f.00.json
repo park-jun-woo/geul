@@ -1,0 +1,62 @@
+{
+  "synset_id": "drink_in.v.01",
+  "definition": "be fascinated or spell-bound by; pay close attention to",
+  "frame_id": 0,
+  "frame_text": "Somebody drink something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The definition 'be fascinated by; pay close attention to' describes an active and sustained mental process of engaging with and internalizing information or experience.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the mental process of absorbing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the mental absorption or fascination."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The phrasal verb 'drink in' inherently implies a high degree of intensity, complete absorption, or deep fascination, distinguishing it from casual attention."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'drinking in' implies direct mental experience or observation by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' coupled with 'pay close attention to' implies the agent's strong will and intentional engagement."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of absorbing or being fascinated is neutral; its sentiment depends on the object of attention."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' combined with 'pay close attention to' indicates a volitional act of engaging deeply, even if initial fascination can be involuntary, the sustained 'drinking in' is volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or sustained state of engagement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'drinking in' implies a continuous, sustained mental process of repeated engagements or absorptions, rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

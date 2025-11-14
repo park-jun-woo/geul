@@ -1,0 +1,58 @@
+{
+  "synset_id": "loiter.v.01",
+  "definition": "be about",
+  "frame_id": 0,
+  "frame_text": "Somebody footle",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'loiter' describes an ongoing activity or process of being present in a location, often involving some form of undirected movement, which falls under generalized motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame is the agent performing the process of being about."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "idle.a.01",
+      "reasoning": "A key semantic component of 'loiter' is the idle, aimless, or unhurried manner in which the agent occupies space or moves."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Loitering is an observable action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent's will or intention drives the action of loitering."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'loiter' can carry negative connotations in certain contexts (e.g., loitering with intent), its core semantic definition 'be about' is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody loiter' explicitly includes a volitional agent, indicating the action is intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing state of being."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Loitering inherently describes a continuous or highly repetitive act of occupying space and often making small, repeated movements."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

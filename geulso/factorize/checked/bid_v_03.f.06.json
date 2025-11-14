@@ -1,0 +1,62 @@
+{
+  "synset_id": "bid.v.03",
+  "definition": "ask for or request earnestly",
+  "frame_id": 6,
+  "frame_text": "Somebody conjure somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "appeal.n.01",
+      "reasoning": "The definition 'ask for or request earnestly' indicates a core semantic component of making an appeal or a request through communication, reinforced by the hypernym 'plead.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the one performing the act of asking or requesting."
+        },
+        {
+          "semantic_role": "addressee.n.01",
+          "reasoning": "The 'somebody' in the verb frame is the person to whom the earnest request is directed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "earnest.a.01",
+      "reasoning": "The definition explicitly includes the adverb 'earnestly', which describes the intense manner in which the request is made."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'bidding' or 'conjuring' (requesting earnestly) is a direct communicative action, typically experienced or observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb frame describes a declarative statement about an action taken."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention to perform the act of requesting."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of requesting itself is semantically neutral; the content or context of the request would determine any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody ----s somebody' clearly indicates a volitional agent ('Somebody') initiating the act of earnest requesting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of asking or requesting."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bid' (in this sense) refers to a single, distinct act of making a request, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

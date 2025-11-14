@@ -1,0 +1,55 @@
+{
+  "synset_id": "foul.v.01",
+  "definition": "hit a foul ball",
+  "frame_id": 0,
+  "frame_text": "Somebody foul",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of causing an implicit object (a ball) to change its motion by striking it, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of striking the ball, initiating the change in its motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "foul.a.01",
+      "reasoning": "A core semantic component of 'foul' (in this context) is that the hit ball is 'foul', referring to its trajectory or landing outside the bounds of fair play, which is a specific manner/outcome of the hit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hitting a foul ball is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to hit the ball."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hitting a foul ball is a neutral description of a specific sports event; its sentiment (e.g., negative for the batter) is contextual, not inherent to the verb's meaning."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody foul' explicitly indicates a volitional agent ('Somebody') performing the action of hitting the ball."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of fouling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of hitting a foul ball."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "double_tongue.v.01",
+  "definition": "play fast notes on a wind instrument",
+  "frame_id": 0,
+  "frame_text": "Somebody double_tongue",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "music.n.01",
+      "reasoning": "The verb describes the action of creating musical sound, implying a change from silence to sound through performance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of double tonguing."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "wind_instrument.n.01",
+          "reasoning": "A 'wind instrument' is explicitly mentioned in the definition as the means by which the action is performed and is inherent to the verb's meaning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "musical_note.n.01",
+          "reasoning": "The 'notes' are the direct product or object of the playing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition explicitly states 'play fast notes', indicating a specific rapid manner of execution."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of playing a musical instrument is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of playing music is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Double tonguing is a technique characterized by rapid, continuous, and highly repetitive articulation of notes."
+    }
+  }
+}

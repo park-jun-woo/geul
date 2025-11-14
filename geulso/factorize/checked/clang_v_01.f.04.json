@@ -1,0 +1,58 @@
+{
+  "synset_id": "clang.v.01",
+  "definition": "make a loud noise",
+  "frame_id": 4,
+  "frame_text": "Something clangor",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sound.n.01",
+      "reasoning": "The definition 'make a loud noise' describes a process of producing auditory vibrations.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes the process of producing the sound. It is the source of the clang."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "loudness.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition explicitly states 'loud noise', indicating a high degree of auditory intensity as a core semantic component of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of clanging is a directly observable auditory event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of sound production."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something clangor' indicates the subject 'Something' is typically non-agentive and lacks will, thus the action is not driven by intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a loud noise is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something clangor' implies a non-volitional subject ('Something') as the source of the noise, meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of sound production."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition for `clang.v.01` as 'make a loud noise' describes a single event of sound production. While 'clangor' can imply repetition, the primary verb being decomposed, `clang.v.01`, does not inherently include this in its core definition as a mandatory component, unlike verbs such as 'run'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

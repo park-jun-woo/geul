@@ -1,0 +1,59 @@
+{
+  "synset_id": "flinch.v.01",
+  "definition": "draw back, as with fear or pain",
+  "frame_id": 9,
+  "frame_text": "Somebody recoil PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb 'flinch' describes a physical movement of 'drawing back', which is a change in the physical position of the subject.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that performs the drawing back and experiences the associated internal state."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The optional 'PP' (prepositional phrase) in the frame typically indicates the external stimulus or origin from which the agent draws back (e.g., 'flinch *from* a blow')."
+        }
+      ]
+    },
+    {
+      "verb_type": "attribute",
+      "verb_property": "cause.n.01",
+      "reasoning": "The definition explicitly states that the drawing back occurs 'as with fear or pain', indicating that an internal state of fear or pain is an inherent cause or condition for this specific type of recoil. This distinguishes 'flinch' from other forms of drawing back.",
+      "value": "fear.n.01 or pain.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Flinching is a directly observable physical reaction, indicating direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Flinching is typically an involuntary, reflexive action driven by a stimulus rather than conscious will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of flinching itself is neutral; its sentiment is derived from the accompanying fear or pain, which is external to the act itself."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Flinching is an involuntary physical response to a sudden, often negative, stimulus (fear, pain), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A flinch typically describes a single, momentary reaction, even if it might be repeated by continuous stimuli."
+    }
+  }
+}

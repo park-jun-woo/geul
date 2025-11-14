@@ -1,0 +1,55 @@
+{
+  "synset_id": "crop.v.03",
+  "definition": "yield crops",
+  "frame_id": 0,
+  "frame_text": "Something crop",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "production.n.01",
+      "reasoning": "The verb 'crop' in this sense describes the process of transitioning from a state of not having produced crops to having produced them, signifying a change in the productive state of the entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., land, plant) that brings forth the crops, acting as the non-volitional initiator of the production process, as specified by the verb frame.",
+          "value_type": "land.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'crops' themselves, which are the result or product of the yielding process, implied by the definition 'yield crops'.",
+          "value_type": "crop.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of yielding crops is a directly observable agricultural phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates a natural process not driven by the will of an agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of yielding crops is a neutral process; its sentiment depends on external factors like abundance or quality."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' refers to a non-agentive subject (e.g., land or a plant) and a natural, biological, or agricultural process, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of production."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'crop' often describes the general capacity or repeated seasonal production of crops, indicating high repetition rather than a single, isolated event."
+    }
+  }
+}

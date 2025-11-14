@@ -1,0 +1,65 @@
+{
+  "synset_id": "blow.v.02",
+  "definition": "be blowing or storming",
+  "frame_id": 0,
+  "frame_text": "It is blowing",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "air_movement.n.01",
+      "reasoning": "The verb describes an ongoing natural atmospheric process, specifically the movement of air, consistent with the definition 'be blowing or storming'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "natural_phenomenon.n.01",
+          "reasoning": "The 'Something' in the frame refers to an inanimate natural force, such as wind or a storm, which is the agent causing the blowing."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Weather phenomena like blowing or storming are typically experienced and observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about the weather."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' (e.g., wind, storm) is a natural, inanimate force and therefore lacks will or intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The inherent meaning of the verb is generally considered in the present tense unless specified otherwise."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb 'blow' describes a continuous, durative process. While often expressed progressively, its inherent aspect as a verb is simple, indicating the event as a whole without grammatical temporal markers like progressive or perfect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'blow' itself carries a neutral politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of blowing or storming is a natural phenomenon and is inherently neutral in sentiment. Its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something blow' indicates that the subject 'Something' is an inanimate natural entity, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state when it is observed to be blowing or storming."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Blowing, as a natural phenomenon, is a continuous, sustained process, implying a high degree of ongoing activity rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

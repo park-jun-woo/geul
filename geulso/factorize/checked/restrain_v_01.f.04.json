@@ -1,0 +1,56 @@
+{
+  "synset_id": "restrain.v.01",
+  "definition": "keep under control; keep in check",
+  "frame_id": 4,
+  "frame_text": "Somebody keep_back somebody",
+  "sememes": [
+    {
+      "verb_type": "prevention",
+      "verb_property": "action.n.01",
+      "reasoning": "The definition 'keep under control; keep in check' indicates an action that prevents or limits the target's freedom of action or movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of keeping someone back or under control."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being kept back, controlled, or whose actions are being prevented/limited."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of restraining or keeping back is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of restraining is neutral; its sentiment depends on the context and the reason for the restraint."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody keep_back somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of restraining is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'keep back' or 'keep under control' implies a sustained or continuous effort to prevent or limit, rather than a single, punctual event. This indicates high repetition or continuity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'prevention'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

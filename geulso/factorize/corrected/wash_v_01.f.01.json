@@ -1,0 +1,59 @@
+{
+  "synset_id": "wash.v.01",
+  "definition": "clean with some chemical process",
+  "frame_id": 1,
+  "frame_text": "Somebody wash something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb describes a process that results in a change of state from unclean to clean, as indicated by 'clean' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of washing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that undergoes the cleaning process and changes its state of cleanliness."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "chemical_process.n.01",
+      "reasoning": "The definition explicitly states 'with some chemical process', indicating a specific manner or method by which the cleaning is achieved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of washing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of washing itself is neutral; its sentiment depends on context or the outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody wash something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This frame describes a single instance of washing a particular item. The internal process might involve repetition, but the event itself is a discrete act of cleaning."
+    }
+  }
+}

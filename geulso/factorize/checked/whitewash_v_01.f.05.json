@@ -1,0 +1,62 @@
+{
+  "synset_id": "whitewash.v.01",
+  "definition": "cover up a misdemeanor, fault, or error",
+  "frame_id": 5,
+  "frame_text": "Somebody sleek_over something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'whitewash' describes an action that causes a change in the state of knowledge or exposure regarding a wrongdoing, moving it from a potentially known state to a concealed one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of covering up, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "wrongdoing.n.01",
+          "reasoning": "The 'something' (misdemeanor, fault, or error) whose state of knowledge is being altered by being covered up."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "deception.n.01",
+      "reasoning": "The verb 'whitewash' inherently implies that the covering up is done deceptively or superficially, with the intent to present the wrongdoing as acceptable or non-existent, rather than merely hiding it. The 'sleek_over' in the verb frame reinforces this deceptive manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of covering up or whitewashing is generally a directly observable phenomenon or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'cover up a misdemeanor, fault, or error' explicitly deals with negative entities and implies a morally negative act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of covering up."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, cohesive event of covering up a specific wrongdoing, even if the process itself might involve multiple steps."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

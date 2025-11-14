@@ -1,0 +1,57 @@
+{
+  "synset_id": "legislate.v.01",
+  "definition": "make laws, bills, etc. or bring into effect by legislation",
+  "frame_id": 2,
+  "frame_text": "Somebody pass",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "law.n.01",
+      "reasoning": "The verb 'legislate' (or 'pass' in this context) describes the act of bringing a law or bill into existence or effect, which is a form of creation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame refers to the agent (e.g., a legislature, a person in authority) who performs the act of legislating/passing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "law.n.01",
+          "reasoning": "The implicit 'something' being passed, derived from the definition 'make laws, bills, etc.', which is the entity created."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of legislating or passing a law is a public and directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent ('Somebody') in the frame acts with clear intention and will to create legislation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of legislating itself is neutral; the content or impact of the law determines its positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, as legislation is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of passing a law is a definite occurrence when it happens."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This frame typically refers to a single act of passing a specific law or bill. While legislatures pass many laws, each act of 'passing' a single piece of legislation is a discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

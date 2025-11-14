@@ -1,0 +1,61 @@
+{
+  "synset_id": "rain.v.01",
+  "definition": "precipitate as rain",
+  "frame_id": 2,
+  "frame_text": "Something rain something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of causing a substance to fall from above, which is a change in its location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity (e.g., the sky, clouds) from which the precipitation originates or is caused.",
+          "value_type": "atmospheric_phenomenon.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the motion of falling, which could be water (rain) or other materials.",
+          "value_type": "material.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "in droplets",
+      "reasoning": "The definition 'precipitate as rain' specifies the characteristic manner or form in which the material falls, i.e., in small liquid drops."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of raining is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Raining is a natural phenomenon not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of raining is neutral; its sentiment depends on context or perception (e.g., beneficial rain vs. destructive flood)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "As a natural process, raining is inherently non-volitional. The 'Something' causing it (e.g., weather) lacks volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Raining involves the continuous or highly repetitive falling of numerous drops or particles, indicating high iterativity."
+    }
+  }
+}

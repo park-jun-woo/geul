@@ -1,0 +1,59 @@
+{
+  "synset_id": "irradiate.v.03",
+  "definition": "expose to radiation",
+  "frame_id": 1,
+  "frame_text": "Somebody irradiate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "exposure.n.02",
+      "reasoning": "The verb describes causing a change in the state of the patient from not exposed to exposed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the exposure, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the change of state by being exposed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "radiation.n.01",
+      "reasoning": "The verb 'irradiate' inherently specifies that the exposure is accomplished by means of radiation, which is a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of irradiating is generally considered a directly observable phenomenon or its effects are."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of irradiating is neutral; its sentiment (positive for treatment, negative for harm) depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of irradiating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, initiated act of exposure, even if the exposure itself is continuous over a period."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "pump.v.03",
+  "definition": "draw or pour with a pump",
+  "frame_id": 0,
+  "frame_text": "Somebody pump something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'draw or pour' describes an action that causes a change in the location of a liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of drawing or pouring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (liquid) that is being moved by the pumping action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "pump.n.01",
+      "reasoning": "The definition explicitly states 'with a pump', indicating the specific instrument used for the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pumping is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pumping itself is neutral; its sentiment depends on the context and the substance being pumped."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of pumping."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described by the verb is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Pumping typically involves a series of repeated motions or strokes to transfer a substance, indicating high repetition."
+    }
+  }
+}

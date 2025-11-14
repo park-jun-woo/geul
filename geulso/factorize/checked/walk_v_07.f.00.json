@@ -1,0 +1,56 @@
+{
+  "synset_id": "walk.v.07",
+  "definition": "be or act in association with",
+  "frame_id": 0,
+  "frame_text": "Somebody walk PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "association.n.01",
+      "reasoning": "The definition 'act in association with' describes an ongoing activity or process of forming or maintaining a connection.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of associating, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' (prepositional phrase) denotes the entity, concept, or situation with which the agent is associated or acts in conjunction."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of associating can be directly observed or inferred from direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an activity or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody walk PP' implies an agent taking intentional action, driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of associating is neutral; its sentiment depends on the specific context or what is being associated with."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody walk PP' clearly indicates a volitional agent ('Somebody') performing the action of acting in association."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement of being or acting in association is presented as a certain occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'act in association with' typically implies a continuous or repeated pattern of behavior or adherence, suggesting high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

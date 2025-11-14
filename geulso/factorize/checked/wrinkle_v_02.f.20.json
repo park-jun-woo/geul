@@ -1,0 +1,62 @@
+{
+  "synset_id": "wrinkle.v.02",
+  "definition": "make wrinkles or creases on a smooth surface; make a pressed, folded or wrinkled line in",
+  "frame_id": 20,
+  "frame_text": "Something wrinkle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "surface_condition.n.01",
+      "reasoning": "The verb's definition 'make wrinkles or creases on a smooth surface' describes a process of altering the physical condition of a surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts to cause the change in the patient's surface condition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, whose surface condition is altered to become wrinkled."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "form.n.01",
+      "value_type": "wrinkle.n.01",
+      "reasoning": "The specific outcome of this change is the creation of 'wrinkles or creases', which are particular forms or patterns on the surface."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wrinkling and its result are directly observable phenomena."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is denoted by 'Something', implying no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wrinkling is generally neutral; its sentiment can vary depending on context (e.g., clothes vs. skin)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional agent (the first 'Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of wrinkling is described as a definite occurrence or causation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event or process of causing wrinkles, not inherently a highly repetitive sequence of the entire action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

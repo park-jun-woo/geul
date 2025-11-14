@@ -1,0 +1,58 @@
+{
+  "synset_id": "weekend.v.01",
+  "definition": "spend the weekend",
+  "frame_id": 0,
+  "frame_text": "Somebody weekend",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb 'weekend' describes the ongoing process of engaging in activities, similar to 'spend time'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of spending the weekend, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_extent.n.01",
+      "value_type": "weekend.n.01",
+      "reasoning": "The verb 'weekend' inherently specifies the particular temporal period (the weekend) during which the activity or process occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Spending the weekend is typically a directly experienced event or activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spending a weekend is neutral; its sentiment depends on the specific activities or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody weekend' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence or activity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of spending a weekend, not a repetitive action within that period."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

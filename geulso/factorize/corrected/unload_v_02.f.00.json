@@ -1,0 +1,54 @@
+{
+  "synset_id": "unload.v.02",
+  "definition": "take the load off (a container or vehicle)",
+  "frame_id": 0,
+  "frame_text": "Somebody offload something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contents.n.01",
+      "reasoning": "The definition 'take the load off (a container or vehicle)' describes a change in the state of a container concerning its contents, from loaded to unloaded.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the volitional action of unloading."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "container.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the container or vehicle that undergoes the change of state from being loaded to being unloaded."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of unloading is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a human agent ('Somebody') in the frame implies the action is driven by their will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of unloading is neutral; its sentiment depends entirely on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent, indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'unload' refers to the completion of the action for a given container or vehicle, treated as a single telic event, even if it involves multiple sub-steps."
+    }
+  }
+}

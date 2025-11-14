@@ -1,0 +1,60 @@
+{
+  "synset_id": "overshadow.v.03",
+  "definition": "cast a shadow upon",
+  "frame_id": 0,
+  "frame_text": "Something overshadow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "light.n.01",
+      "reasoning": "The verb 'overshadow' means 'cast a shadow upon', which directly implies a change in the state of light (reduction of light) for the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the shadow to be cast. It is the agent of the change.",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change of light/visibility, receiving the shadow."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "state.n.01",
+      "value_type": "obscured.a.01",
+      "reasoning": "A direct consequence of casting a shadow is that the affected entity becomes less visible or obscured, aligning with its hypernym 'obscure.v.01'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of casting a shadow is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies an inanimate entity, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of casting a shadow is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something overshadow something' indicates that the action is performed by a non-agentive subject ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event or a continuous state of casting a shadow, but not necessarily repeated discrete actions. Treated as a single instance."
+    }
+  }
+}

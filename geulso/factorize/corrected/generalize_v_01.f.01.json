@@ -1,0 +1,60 @@
+{
+  "synset_id": "generalize.v.01",
+  "definition": "draw from specific cases for more general cases",
+  "frame_id": 1,
+  "frame_text": "Somebody extrapolate that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The definition 'draw from specific cases for more general cases' describes a cognitive process that results in a change or formation of new knowledge for the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the intellectual act of generalizing, thereby changing their knowledge state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the general conclusion or statement that is formed as a result of the generalization."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "induction.n.01",
+      "reasoning": "The core of 'generalize' involves inferring a general principle or rule from specific instances, which is characteristic of inductive reasoning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "Generalizing involves drawing conclusions or inferring broader principles from specific data, which is an indirect form of acquiring knowledge (inference)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that generalizing is an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of generalizing is neutral; the content of the generalization or its correctness determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody generalize...' explicitly indicates a volitional agent performing an intentional cognitive act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When an agent generalizes, they typically present the resulting 'CLAUSE' as a conclusion they are certain about, at least from their perspective."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of forming a generalization, rather than a continuous or repeated process, unless explicitly specified by context."
+    }
+  }
+}

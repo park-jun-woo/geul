@@ -1,0 +1,56 @@
+{
+  "synset_id": "continue.v.03",
+  "definition": "keep or maintain in unaltered condition; cause to remain or last",
+  "frame_id": 6,
+  "frame_text": "Something carry_on something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "persistence.n.01",
+      "reasoning": "The definition 'cause to remain or last' explicitly describes the act of bringing about or maintaining a state of persistence or continuity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that performs the action of causing the other entity to persist."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that is caused to remain or last."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to continue or persist is typically a directly observable event or a factual statement."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', suggesting no inherent will or intention for this frame."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of continuing is neutral; its sentiment depends on what is being continued."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something carry_on something' indicates that the causal agent is an inanimate or abstract entity ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of causing something to persist or last."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a sustained or continuous action of maintaining a state, which is treated as a single, ongoing instance rather than discrete repetitions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

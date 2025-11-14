@@ -1,0 +1,61 @@
+{
+  "synset_id": "wall_in.v.01",
+  "definition": "enclose with a wall",
+  "frame_id": 0,
+  "frame_text": "Somebody wall_in somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The definition 'enclose with a wall' describes the act of causing something to be in a state of containment or being surrounded, which is a change of spatial relation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of enclosing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is enclosed."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "value": "wall.n.01",
+      "reasoning": "The definition explicitly states that the enclosure is achieved 'with a wall', specifying the instrument used for the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of 'walling in' is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of enclosing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of 'walling in' is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of enclosing."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'instrument'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

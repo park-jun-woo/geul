@@ -1,0 +1,71 @@
+{
+  "synset_id": "pant.v.01",
+  "definition": "breathe noisily, as when one is exhausted",
+  "frame_id": 3,
+  "frame_text": "Somebody puff",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "respiration.n.01",
+      "reasoning": "The verb 'pant' fundamentally describes the physiological process of breathing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing the breathing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "noisy.a.01",
+      "reasoning": "The definition explicitly includes 'noisily' as a characteristic of the breathing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "Panting implies quick, short breaths, indicating a rapid manner of breathing, and the hypernym 'blow' (exhale hard) also suggests vigorousness."
+    },
+    {
+      "verb_type": "circumstance",
+      "verb_property": "cause.n.01",
+      "value_type": "exhaustion.n.01",
+      "reasoning": "The definition specifies 'as when one is exhausted' as the typical cause or condition for this type of breathing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Panting is a directly observable physiological phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a physiological process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Panting, especially when due to exhaustion, is largely an involuntary physiological response and does not typically involve the agent's conscious will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of panting itself is neutral; its context (e.g., exhaustion) might carry sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Panting is primarily an involuntary physical reaction to conditions like exhaustion, rather than an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of panting implies a definite occurrence of this breathing pattern."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Panting is characterized by repeated, rapid breaths, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[3].verb_type`의 값 'circumstance'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

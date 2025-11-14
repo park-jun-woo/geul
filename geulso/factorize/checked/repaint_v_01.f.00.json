@@ -1,0 +1,62 @@
+{
+  "synset_id": "repaint.v.01",
+  "definition": "paint again",
+  "frame_id": 0,
+  "frame_text": "Somebody repaint somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The verb 'paint' describes altering the surface appearance of an object. 'Repaint' means to do this again.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of painting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that undergoes the change in appearance."
+        }
+      ]
+    },
+    {
+      "verb_type": "aspect",
+      "verb_property": "recurrence.n.01",
+      "value_type": "again.r.01",
+      "reasoning": "The 're-' prefix in 'repaint' explicitly indicates that the action is a repetition of a prior painting event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Repainting is an action that is typically directly observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of repainting itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly implies a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'repaint' implies a prior action, the verb itself describes a single instance of painting. The 're-' aspect is captured as a separate sememe."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'aspect'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

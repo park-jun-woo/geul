@@ -1,0 +1,60 @@
+{
+  "synset_id": "pillow.v.01",
+  "definition": "rest on or as if on a pillow",
+  "frame_id": 1,
+  "frame_text": "Somebody rest something PP",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "rest.n.01",
+      "reasoning": "The verb 'pillow' describes the act of causing something to be in a state of rest, specifically by providing support.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of causing something to rest, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is placed in a resting position."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' indicates the surface or object upon which the 'something' is rested, serving the function of a pillow."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'pillowing' is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the agent's will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'pillowing' is inherently neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed act of placing something to rest."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

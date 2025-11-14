@@ -1,0 +1,60 @@
+{
+  "synset_id": "paragraph.v.01",
+  "definition": "divide into paragraphs, as of text",
+  "frame_id": 0,
+  "frame_text": "Somebody paragraph something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "division.n.01",
+      "reasoning": "The definition 'divide into paragraphs' explicitly describes a process of change where a continuous text is separated into discrete parts.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of dividing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "text.n.01",
+          "reasoning": "The 'something' in the verb frame that undergoes the division, specifically a piece of text."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "result.n.01",
+      "value_type": "paragraph.n.01",
+      "reasoning": "The action results in the creation of 'paragraphs', which is a specific structural unit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Paragraphing text is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dividing text into paragraphs is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action of dividing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of paragraphing, when performed, is a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, complete action of structuring a given text into paragraphs, not a repetitive smaller action."
+    }
+  }
+}

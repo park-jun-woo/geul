@@ -1,0 +1,57 @@
+{
+  "synset_id": "introspect.v.01",
+  "definition": "reflect on one's own thoughts and feelings",
+  "frame_id": 0,
+  "frame_text": "Somebody introspect",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The verb describes an ongoing mental process of reflection, involving conscious thought and feeling, thus pertaining to cognition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively engages in the mental process of reflecting, acting as the experiencer of their own thoughts."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "mental_state.n.01",
+          "reasoning": "The object of the reflection, which consists of the agent's own internal thoughts and feelings (mental states), as specified by the definition 'reflect on one's own thoughts and feelings'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Introspection is a direct, internal cognitive experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of introspecting is typically undertaken with a strong will and intention by the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of introspection itself is neutral; the content or outcome of the reflection may carry sentiment, but not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody introspects' explicitly indicates a volitional agent performing the action, as it is an intentional mental activity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the mental process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Introspection, or reflection, is typically an ongoing or repeated mental activity, not a single punctual event, suggesting high iterativity. The hypernym 'chew over' also supports this."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

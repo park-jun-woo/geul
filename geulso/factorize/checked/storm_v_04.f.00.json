@@ -1,0 +1,65 @@
+{
+  "synset_id": "storm.v.04",
+  "definition": "blow hard",
+  "frame_id": 0,
+  "frame_text": "It is storming",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "weather.n.01",
+      "reasoning": "The verb describes an ongoing natural meteorological phenomenon ('blow hard'), which is a dynamic process rather than a static state or a discrete change event. The definition focuses on the activity of the wind.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The 'hard' in the definition 'blow hard' explicitly denotes a high degree of intensity for the wind, which is a core semantic component of 'storming'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Storming is a directly observable natural phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb frame 'It is storming' is a declarative statement about an ongoing event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Natural phenomena like storms do not possess will or intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The 'is storming' construction indicates a present time reference."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is storming' construction clearly indicates a progressive aspect, signifying an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "Describing weather is generally a neutral act without specific politeness implications."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A storm, by definition ('blow hard'), implies harsh, often destructive, and generally undesirable conditions, leading to a negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'It' in weather frames is an impersonal dummy subject, and natural phenomena are non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Stating 'It is storming' implies certainty about the ongoing weather condition."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Storming describes a continuous, vigorous, and sustained activity (blowing hard) composed of innumerable smaller gusts and movements, rather than a single, discrete event. This fits the description of high repetition for continuous phenomena."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "quote.v.03",
+  "definition": "refer to for illustration or proof",
+  "frame_id": 7,
+  "frame_text": "Something quote something",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'quote' describes an act of communicating or presenting information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the initiator or source of the quote/reference."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being referred to or communicated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "illustration_or_proof",
+      "reasoning": "The definition explicitly states the purpose of the referral as 'for illustration or proof'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of quoting or referring is a direct communicative act, observable or inferable by its output."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state of affairs."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is typically inanimate or abstract, lacking inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of referring or quoting is inherently neutral; its positive or negative sentiment depends on the content and context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically implies a non-agentive subject (e.g., a text, a source) performing the action, making it non-volitional, as per the rule for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite act of referring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of referring."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

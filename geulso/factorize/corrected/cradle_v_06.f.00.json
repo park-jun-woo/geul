@@ -1,0 +1,77 @@
+{
+  "synset_id": "cradle.v.06",
+  "definition": "run with the stick",
+  "frame_id": 0,
+  "frame_text": "Somebody cradle",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition explicitly states 'run' as a core component, which signifies a change in location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the action of running."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The 'run' component of the definition implies moving at a fast speed, which is a manner of motion.",
+      "participants": []
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "manipulation.n.01",
+      "reasoning": "The act of 'cradling' involves skillful handling and control, particularly of an object with an instrument.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' is also the agent performing the manipulation."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "stick.n.01",
+          "reasoning": "The definition 'with the stick' identifies the stick as the instrument used in the manipulation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "ball.n.01",
+          "reasoning": "In the context of 'cradle' in sports (as implied by hypernym 'play.v.01'), the object being manipulated and controlled by the stick is implicitly a ball."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cradling and running is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cradling itself is neutral; its positive or negative sentiment depends on the context of the game."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cradle' explicitly indicates a volitional agent performing the action, as it requires conscious effort and intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'running' is composed of continuous, highly repetitive steps, and 'cradling' itself involves repetitive motions to maintain control of the ball. Thus, it has high iterativity."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "lift.v.10",
+  "definition": "raise in rank or condition",
+  "frame_id": 8,
+  "frame_text": "Something raise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'raise in rank or condition' signifies a transformation in an individual's state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that acts as the cause of the change in status, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose rank or condition is affected by the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "status.n.01",
+      "value_type": "higher.a.01",
+      "reasoning": "The verb 'lift' specifically denotes that the change in status or condition is an improvement or an increase to a higher level."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Changes in rank or condition are typically directly observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies an inanimate or non-intentional cause, thus lacking will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Raising someone's rank or condition is generally perceived as a positive outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something raise somebody' indicates that the action is caused by a non-volitional agent ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of being raised in status, unless otherwise specified."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

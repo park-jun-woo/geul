@@ -1,0 +1,60 @@
+{
+  "synset_id": "sic.v.01",
+  "definition": "urge to attack someone",
+  "frame_id": 0,
+  "frame_text": "Somebody set something on somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "attack.n.01",
+      "reasoning": "The verb 'sic' describes the act of causing another entity to initiate an attack.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who urges or incites the attack."
+        },
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'something' (e.g., an animal) that performs the attack, being incited by the causal agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is the target of the attack."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of urging someone to attack is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as a causal agent implies strong will and intention to cause the attack."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'siccing' is inherently associated with causing harm or aggression, thus carrying a negative polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something on somebody' explicitly indicates a volitional agent ('Somebody') performing the action of inciting an attack."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of siccing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'sic' typically refers to a single instance of urging to attack, rather than a repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "engineer.v.01",
+  "definition": "design as an engineer",
+  "frame_id": 0,
+  "frame_text": "Somebody engineer something",
+  "sememes": [
+    {
+      "verb_type": "create",
+      "verb_property": "plan.n.01",
+      "reasoning": "The verb describes the intellectual act of conceiving and formulating a design or plan, bringing it into existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of engineering/designing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "design.n.01",
+          "reasoning": "The 'something' that is the result or output of the engineering process, typically a design or system."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "engineering.n.01",
+      "reasoning": "The definition 'design as an engineer' explicitly qualifies the method or approach used as being systematic and technical, characteristic of engineering principles and practices."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of engineering, though intellectual, is a directly observable and verifiable process and outcome."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and strong will in carrying out the engineering task."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of engineering itself is neutral; its outcomes or context may determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody engineer something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'engineer' something implies a definite and certain process or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a singular, complex act of bringing a specific design or system into being, rather than a repetition of simple, identical events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'create'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

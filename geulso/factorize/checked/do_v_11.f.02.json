@@ -1,0 +1,64 @@
+{
+  "synset_id": "do.v.11",
+  "definition": "carry on or function",
+  "frame_id": 2,
+  "frame_text": "Something is doing PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "operation.n.01",
+      "reasoning": "The definition 'carry on or function' describes a continuous, dynamic activity or an ongoing state of operation, best classified as a process.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that is undergoing or performing the process of functioning, consistent with a non-volitional subject in a process verb."
+        },
+        {
+          "semantic_role": "circumstance.n.01",
+          "reasoning": "The 'PP' in the frame represents a generic prepositional phrase that provides additional information about the conditions, manner, or location of the ongoing function, hence a circumstance."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes a directly observable or experienced ongoing function or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing fact or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-agentive entity lacking will or intention in its functioning."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is doing PP' explicitly uses the progressive aspect, indicating an ongoing action or process."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'do' in this sense is neutral in politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of carrying on or functioning is inherently neutral; its positive or negative valence depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is doing PP' with a non-agentive subject ('Something') indicates that the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement implies a certain and definite ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The meaning 'carry on or function' describes a sustained, continuous activity over time, which implies high repetition or an ongoing nature composed of many continuous internal events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

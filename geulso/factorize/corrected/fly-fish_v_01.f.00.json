@@ -1,0 +1,59 @@
+{
+  "synset_id": "fly-fish.v.01",
+  "definition": "fish with flies as lures",
+  "frame_id": 0,
+  "frame_text": "Somebody fly-fish",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "fishing.n.01",
+      "reasoning": "The verb 'fly-fish' describes a specific type of recreational or professional activity of catching fish.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of fly-fishing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "fly_fishing_lure.n.01",
+          "reasoning": "The definition 'fish with flies as lures' explicitly identifies 'flies as lures' as the specific instrument used in this activity. Using a specific WordNet ID for 'fly_fishing_lure' for precision."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fish.n.01",
+          "reasoning": "The implied object of the fishing activity is 'fish'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fly-fishing is typically a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fly-fishing is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Fly-fishing involves continuous, repeated actions like casting, reeling, and waiting, making it a highly iterative activity."
+    }
+  }
+}

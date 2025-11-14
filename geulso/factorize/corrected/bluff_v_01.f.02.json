@@ -1,0 +1,77 @@
+{
+  "synset_id": "bluff.v.01",
+  "definition": "deceive an opponent by a bold bet on an inferior hand with the result that the opponent withdraws a winning hand",
+  "frame_id": 2,
+  "frame_text": "Somebody bluff_out",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "deception.n.01",
+      "reasoning": "The core of bluffing is the intentional act of misleading an opponent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the deceptive action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "opponent.n.01",
+          "reasoning": "The implicit opponent who is the target of the deception, central to the verb's meaning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "strategic_misrepresentation.n.01",
+      "reasoning": "The deception is specifically carried out 'by a bold bet on an inferior hand', which is a strategic way of misrepresenting one's position."
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "behavior.n.01",
+      "value_type": "opponent_withdrawal.n.01",
+      "reasoning": "The particle 'out' in 'bluff_out' indicates a successful outcome where the opponent changes their behavior by 'withdraws a winning hand', leading to a favorable change in the game state for the bluffer.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "opponent.n.01",
+          "reasoning": "The opponent whose behavior (decision to withdraw) changes as a result of the successful bluff."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Bluffing and its immediate outcome are typically directly observable actions and reactions within a game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action and its result."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Bluffing is a deliberate and intentional act, driven by the agent's will to deceive."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Within the context of a game, bluffing is a neutral tactic, not inherently positive or negative in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bluff_out' clearly indicates a volitional agent ('Somebody') performing a strategic, intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The phrasal verb 'bluff out' implies the successful completion of the bluff, leading to a certain outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'bluff out' describes a single, completed instance of successfully bluffing an opponent, rather than a repetitive action."
+    },
+    "Aspect": {
+      "value": 4,
+      "reasoning": "The particle 'out' signifies a completed action with a specific result (the opponent's withdrawal), indicating a result-focused aspect."
+    }
+  }
+}

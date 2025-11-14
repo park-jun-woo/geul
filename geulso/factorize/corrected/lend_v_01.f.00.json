@@ -1,0 +1,58 @@
+{
+  "synset_id": "lend.v.01",
+  "definition": "bestow a quality on",
+  "frame_id": 0,
+  "frame_text": "Somebody add something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "property.n.01",
+      "reasoning": "The definition 'bestow a quality on' signifies causing a change in the attributes or properties of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the quality to be bestowed, acting as a non-volitional agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quality.n.01",
+          "reasoning": "The core semantic object being bestowed is an abstract 'quality', which is the patient of the change."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The implied object of the prepositional phrase ('PP') refers to the entity that receives the bestowed quality, thus undergoing a change in its properties."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The bestowing of a quality, and its effect, are generally matters of direct observation or experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates that the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bestowing a quality is neutral; the nature of the quality itself determines positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is lending PP' explicitly features a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of bestowing a quality."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'lend' in this sense typically refers to a single act of bestowing a particular quality, rather than a repetitive action."
+    }
+  }
+}

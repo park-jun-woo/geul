@@ -1,0 +1,80 @@
+{
+  "synset_id": "bruise.v.03",
+  "definition": "break up into small pieces for food preparation",
+  "frame_id": 0,
+  "frame_text": "Somebody bruise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes the action of breaking something, which changes its structural integrity from whole to broken.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of bruising, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in integrity and is broken into pieces."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "form.n.02",
+      "value_type": "pieces.n.01",
+      "reasoning": "The action results in the patient being transformed into a state of multiple pieces, changing its form.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' which is now in the form of pieces."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "size.n.01",
+      "value_type": "small.a.01",
+      "reasoning": "The pieces resulting from the action are explicitly described as 'small' in the definition, indicating a specific size property of the fragmented material."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "activity.n.01",
+      "value_type": "food_preparation.n.01",
+      "reasoning": "The action of bruising is performed with the specific goal of preparing food, as stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bruising/breaking for food preparation is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bruising for food preparation is neutral; its sentiment depends on the specific context of the food being prepared."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bruise something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bruising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of transforming an object by breaking it into pieces, rather than a continuous, indefinitely repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[3].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

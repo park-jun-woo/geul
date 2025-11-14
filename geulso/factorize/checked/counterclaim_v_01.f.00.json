@@ -1,0 +1,63 @@
+{
+  "synset_id": "counterclaim.v.01",
+  "definition": "set up a claim in opposition to a previous claim",
+  "frame_id": 0,
+  "frame_text": "Somebody counterclaim",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "assertion.n.01",
+      "reasoning": "The verb describes the action of 'setting up' or making a new claim, which is a change in the state of legal or discursive assertions.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of counterclaiming, initiating the assertion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "claim.n.03",
+          "reasoning": "The claim itself, which is the object being asserted or set up in opposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "relation",
+      "verb_property": "opposition.n.01",
+      "value_type": "claim.n.03",
+      "reasoning": "A core aspect of 'counterclaim' is that the new claim stands 'in opposition to a previous claim', establishing a relational context."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Making a counterclaim is a directly observable communicative and legal action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counterclaiming is neutral; its sentiment depends on the specific context and content of the claims."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of counterclaiming."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of making a counterclaim is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of making a counter claim."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

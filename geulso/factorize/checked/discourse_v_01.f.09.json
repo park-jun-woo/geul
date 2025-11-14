@@ -1,0 +1,62 @@
+{
+  "synset_id": "discourse.v.01",
+  "definition": "to consider or examine in speech or writing",
+  "frame_id": 9,
+  "frame_text": "Something discuss something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "communication.n.02",
+      "reasoning": "The definition 'to consider or examine in speech or writing' indicates an ongoing communicative process. The hypernym 'cover.v.05' ('act on verbally or in some form of artistic expression') also reinforces the communicative aspect.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity performing the discussion or communication (e.g., a document, a study, a system)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame represents the topic or subject matter that is being communicated about."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "examination.n.01",
+      "reasoning": "The core meaning of 'discourse' (or 'discuss' in this frame) inherently involves the purpose of considering or examining the subject matter."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of discoursing or discussing is typically a directly observable event (either by hearing or reading the discourse)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something discuss something' implies a non-human or abstract agent ('Something') which lacks inherent will or intention. While an author's will is involved in creating a discussing document, the subject of the verb itself does not possess will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discoursing or discussing is neutral; its sentiment depends on the content or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something discuss something' explicitly uses a non-agentive subject ('Something'), which means the action is not performed with conscious intent by the grammatical subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the discussion or examination."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially extended, instance of communication or examination."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

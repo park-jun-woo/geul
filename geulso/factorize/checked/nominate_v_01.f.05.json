@@ -1,0 +1,61 @@
+{
+  "synset_id": "nominate.v.01",
+  "definition": "propose as a candidate for some honor",
+  "frame_id": 5,
+  "frame_text": "Somebody put_up somebody",
+  "sememes": [
+    {
+      "verb_type": "perform",
+      "verb_property": "nomination.n.01",
+      "reasoning": "The verb 'nominate' or 'put up' describes a performative act of proposing someone for a position or honor, which creates the status of a candidate.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of proposing or nominating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being proposed or nominated, whose status is affected by the action."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "honor.n.01",
+          "reasoning": "Implicit in the definition 'for some honor' is the purpose or goal for which the individual is nominated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of nominating is a directly observable action or statement."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to propose."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of nominating itself is neutral; the implications of the nomination can be positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody put_up somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of nominating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of proposing a candidate."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'perform'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "proofread.v.01",
+  "definition": "read for errors",
+  "frame_id": 3,
+  "frame_text": "Somebody proofread something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "read.v.01",
+      "reasoning": "The core activity of proofreading involves the act of reading text.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of reading, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a document, text) that is being read."
+        }
+      ]
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "detection.n.01",
+      "value_type": "error.n.01",
+      "reasoning": "The reading is performed with the explicit purpose or goal of detecting errors, as indicated by the definition 'read for errors'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Proofreading is a directly observable action performed by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of proofreading itself is neutral; its outcome (finding errors) can be positive or negative depending on context, but the verb's inherent sentiment is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of proofreading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Proofreading is a meticulous process that often involves continuous and repetitive actions of scanning, rereading, and checking to ensure accuracy, indicating high repetition within the overall task."
+    }
+  }
+}

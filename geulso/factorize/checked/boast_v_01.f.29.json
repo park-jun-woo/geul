@@ -1,0 +1,62 @@
+{
+  "synset_id": "boast.v.01",
+  "definition": "show off",
+  "frame_id": 29,
+  "frame_text": "Somebody swash PP",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "self-aggrandizement.n.01",
+      "reasoning": "The definition 'show off' indicates a communicative act driven by a desire for self-importance or exaggerated pride. `Self-aggrandizement` captures the essence of boasting.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of boasting."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the subject or content about which the agent is boasting."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "ostentatious.a.01",
+      "reasoning": "The inclusion of 'swash' in the verb frame implies a flamboyant, noisy, or ostentatious manner of showing off or communicating."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Boasting is typically a directly observable or audible act of communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of boasting itself is neutral, though context often gives it a negative connotation; intrinsically, it is not positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody swash PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Boasting inherently conveys a strong degree of confidence or certainty about the subject being boasted about."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While boasting can be habitual, the lexeme in isolation describes a single instance of the act of showing off, even with a specific manner indicated by 'swash'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "accuse.v.01",
+  "definition": "bring an accusation against; level a charge against",
+  "frame_id": 6,
+  "frame_text": "Somebody incriminate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes the act of initiating a change in the social or legal standing of an individual by formally attributing wrongdoing to them.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of accusing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose status is changed by being accused or incriminated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "communication.n.01",
+      "value_type": "accusation.n.01",
+      "reasoning": "The act of accusing is inherently a communicative one, where the content delivered is a formal charge of wrongdoing or a statement that incriminates."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of accusing is a directly observable event or speech act."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of accusing itself is neutral; its sentiment depends on context (e.g., whether the accusation is true or false, or its purpose)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody incriminate somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of accusing is presented as a definite occurrence. The accuser, when making a charge, typically acts with certainty in their statement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of bringing an accusation."
+    }
+  }
+}

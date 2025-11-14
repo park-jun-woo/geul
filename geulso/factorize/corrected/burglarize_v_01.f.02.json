@@ -1,0 +1,63 @@
+{
+  "synset_id": "burglarize.v.01",
+  "definition": "commit a burglary; enter and rob a dwelling",
+  "frame_id": 2,
+  "frame_text": "Somebody burglarize somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the primary act of illegally taking property, which results in a change of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of burglary."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' who is the victim of the burglary, whose property is taken."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The implied property that is taken from the source during the burglary."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "illegal entry into a dwelling",
+      "reasoning": "The act of burglarizing specifically involves entering a dwelling without permission to commit a crime, defining the manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of burglarizing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to commit the crime."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Committing a burglary is an inherently illegal and harmful act, thus having a negative polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the act."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of burglary."
+    }
+  }
+}

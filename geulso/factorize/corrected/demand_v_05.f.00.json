@@ -1,0 +1,65 @@
+{
+  "synset_id": "demand.v.05",
+  "definition": "summon to court",
+  "frame_id": 0,
+  "frame_text": "Somebody demand somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'demand' in this context (summon to court) describes an action that causes a change in the legal status or obligation of the targeted individual.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who issues the formal demand or summons, typically an official or legal entity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the demand and whose legal status or obligation is altered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "modality.n.01",
+      "value_type": "formal.a.01",
+      "reasoning": "The definition 'summon to court' and the hypernym 'summon.v.01' imply an action taken in an official and formal capacity."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "appear_in_court.v.01",
+      "reasoning": "The explicit purpose of the demand is for the patient to appear in court, as stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A formal summons to court is a directly verifiable and often documented event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an action has occurred or is occurring."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame, acting as an official, performs the action with clear will and authority."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of summoning itself is neutral, though the reason for the summons might carry positive or negative implications for the involved parties."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody demand somebody' explicitly includes a volitional agent ('Somebody') initiating the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A formal demand or summons is a definite and certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, specific instance of summoning an individual to court."
+    }
+  }
+}

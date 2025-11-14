@@ -1,0 +1,55 @@
+{
+  "synset_id": "cough.v.01",
+  "definition": "exhale abruptly, as when one has a chest cold or congestion",
+  "frame_id": 0,
+  "frame_text": "Somebody cough",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "respiration.n.01",
+      "reasoning": "The verb describes a specific, abrupt exhalation, which constitutes a change in the state of respiration.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of exhaling, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abrupt.a.01",
+      "reasoning": "The definition explicitly states 'exhale abruptly', indicating the manner is a core semantic component of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of coughing is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While coughing can be voluntary, the definition's context ('as when one has a chest cold') implies it is often a reflexive action not primarily driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of coughing itself is neutral; its sentiment depends on context (e.g., associated with illness)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Based on the definition's context ('as when one has a chest cold or congestion'), coughing is primarily a non-volitional, reflexive action, even if it can sometimes be performed intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Coughing, especially when associated with illness, is often a continuous or highly repetitive action, consisting of multiple abrupt exhalations. Similar to 'run' which has MAX-1."
+    }
+  }
+}

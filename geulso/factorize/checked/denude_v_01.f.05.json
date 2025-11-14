@@ -1,0 +1,72 @@
+{
+  "synset_id": "denude.v.01",
+  "definition": "lay bare",
+  "frame_id": 5,
+  "frame_text": "Something denudate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "value_type": "bare.a.01",
+      "reasoning": "The definition 'lay bare' describes a transition of the patient to a state of being bare, which is a change in its condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the change to a bare condition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that undergoes the change and becomes bare."
+        }
+      ]
+    },
+    {
+      "verb_type": "removal",
+      "verb_property": "covering.n.01",
+      "reasoning": "The action of 'laying bare' inherently involves the removal of some covering from the patient, supported by the hypernym 'remove'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' performs the act of removing the covering."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity from which the covering is removed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of denuding is typically an observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a lack of inherent will, suggesting the action is not driven by volition."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of denuding is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something denudate something' refers to a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of laying bare."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'removal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

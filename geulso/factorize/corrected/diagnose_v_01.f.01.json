@@ -1,0 +1,61 @@
+{
+  "synset_id": "diagnose.v.01",
+  "definition": "determine or distinguish the nature of a problem or an illness through a diagnostic analysis",
+  "frame_id": 1,
+  "frame_text": "Somebody name something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "identification.n.01",
+      "reasoning": "The verb describes the active process of determining or distinguishing the nature of a problem or illness, which is a change from an unknown to an identified state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the diagnostic process, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "condition.n.01",
+          "reasoning": "The 'something' (a problem or an illness) whose nature is identified during diagnosis."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "analysis.n.01",
+      "reasoning": "The definition explicitly states the action is performed 'through a diagnostic analysis', indicating a specific method or process involved in the identification.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of diagnosing involves direct observation, testing, and interpretation of information by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with intentionality and will to perform the diagnosis."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of diagnosing is inherently neutral; the outcome (the diagnosis) can be positive or negative, but the process itself carries no inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' (interpreting 'name' as the placeholder for the verb 'diagnose') explicitly includes a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'determine' in the definition implies that a definite conclusion or identification is reached through the diagnostic process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A diagnosis is typically a singular event of identifying a condition, even if it involves a process of analysis."
+    }
+  }
+}

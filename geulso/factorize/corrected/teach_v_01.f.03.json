@@ -1,0 +1,54 @@
+{
+  "synset_id": "teach.v.01",
+  "definition": "impart skills or knowledge to",
+  "frame_id": 3,
+  "frame_text": "Somebody learn somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'impart skills or knowledge' describes causing a change in someone's state from not possessing certain knowledge to possessing it, which is a change of state regarding possession of information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of imparting knowledge, thus acting as the agent causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific knowledge or information being imparted, functioning as the theme or patient of the teaching act."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of teaching is a directly observable process of knowledge transfer."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to impart knowledge."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of teaching is neutral; the content or outcome of what is taught can determine positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody teach...' explicitly indicates a volitional agent performing the action of teaching."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of teaching, when described, implies a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This frame refers to imparting a specific 'that CLAUSE', implying a single instance of knowledge transfer, although the teaching process itself might be iterative over time for a larger subject."
+    }
+  }
+}

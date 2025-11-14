@@ -1,0 +1,59 @@
+{
+  "synset_id": "model.v.02",
+  "definition": "form in clay, wax, etc",
+  "frame_id": 1,
+  "frame_text": "Somebody mold something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb describes the act of causing a material to take a specific form or shape, indicating a change in its physical structure.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of forming, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (material) that undergoes the change in shape."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "malleable.a.01",
+      "reasoning": "The definition 'form in clay, wax, etc.' specifies that the patient must be a malleable material, which is a core property implied by the verb 'model' in this sense."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of modeling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of modeling is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody mold something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of modeling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of forming an object, even if the process involves continuous shaping actions."
+    }
+  }
+}

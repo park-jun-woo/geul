@@ -1,0 +1,59 @@
+{
+  "synset_id": "reassemble.v.01",
+  "definition": "assemble once again, after taking something apart",
+  "frame_id": 0,
+  "frame_text": "Somebody reassemble something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes the action of putting components back together to form a whole, implying a change in the structural integrity of the object from a disassembled state to an assembled state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of reassembling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose components are put back together, undergoing the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "repetition.n.01",
+      "value_type": "again.adv.01",
+      "reasoning": "The prefix 're-' in 'reassemble' and the definition 'assemble once again' denote that this action is a repetition of a previous assembly (or follows a disassembly)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reassembling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to reassemble."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reassembling is generally neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reassembling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the verb's meaning includes 'again', it refers to a *single instance* of reassembly. The 're-' component is captured as a semantic property (sememe), not a qualifier about *how many times* this specific reassembly event itself occurs."
+    }
+  }
+}

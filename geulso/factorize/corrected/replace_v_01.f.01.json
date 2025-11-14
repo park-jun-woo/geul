@@ -1,0 +1,59 @@
+{
+  "synset_id": "replace.v.01",
+  "definition": "substitute a person or thing for (another that is broken or inefficient or lost or no longer working or yielding what is expected)",
+  "frame_id": 1,
+  "frame_text": "Somebody replace somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The verb 'replace' describes a transition where an entity's presence in a specific role, position, or context is terminated, thereby changing the state of who or what is present.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the act of replacement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame, which refers to the entity that is being removed or substituted out from its position or role (the old entity)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "substitution.n.01",
+      "reasoning": "The change in presence (the core action) is achieved specifically through the act of substitution, where one entity is taken out and another is implicitly or explicitly put in its place, which is a fundamental aspect of 'replace'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of replacing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates an agent acting with intentionality and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of replacing is neutral; its sentiment depends on the context and the entities involved (e.g., replacing something broken is positive, replacing a competent person might be negative)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of replacing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of substitution, not an inherently repetitive process."
+    }
+  }
+}

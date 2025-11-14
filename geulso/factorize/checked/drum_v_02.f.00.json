@@ -1,0 +1,57 @@
+{
+  "synset_id": "drum.v.02",
+  "definition": "play a percussion instrument",
+  "frame_id": 0,
+  "frame_text": "Somebody drum",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "musical_performance.n.01",
+      "reasoning": "The definition 'play a percussion instrument' describes an ongoing activity of performing music.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the musical action, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "percussion_instrument.n.01",
+          "reasoning": "The specific type of instrument used (a percussion instrument) is inherent to the meaning of the verb 'drum', as stated in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Drumming is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drumming is neutral; its sentiment depends on the context or quality of the performance."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody drum' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of drumming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Drumming typically involves continuous, highly repetitive striking movements to produce sound, suggesting high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

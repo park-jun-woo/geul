@@ -1,0 +1,62 @@
+{
+  "synset_id": "watch.v.02",
+  "definition": "follow with the eyes or the mind",
+  "frame_id": 1,
+  "frame_text": "Somebody follow something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "perception.n.01",
+      "reasoning": "The definition 'follow with the eyes or the mind' indicates a continuous, active process of sensing or perceiving, not a static state or a singular event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of watching, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that is the object of the sustained visual or mental attention."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "attention.n.01",
+      "value_type": "focused.a.01",
+      "reasoning": "A key distinction of 'watch' from 'see' is the inherent quality of deliberate, focused, and often sustained attention given to the object of perception."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "'Watch' implies direct observation through sight or mental focus."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame, performing an action like watching, strongly implies intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of watching itself is neutral; the context or content of what is watched determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing an intentional act of observation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of watching, when it occurs, is a definite and certain event or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Watching is a continuous, sustained activity over a period, which is best captured as high repetition or ongoing process rather than a single event or infinite repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

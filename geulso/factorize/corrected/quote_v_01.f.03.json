@@ -1,0 +1,64 @@
+{
+  "synset_id": "quote.v.01",
+  "definition": "repeat a passage from",
+  "frame_id": 3,
+  "frame_text": "Somebody cite something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'quote' describes an intentional act of conveying information that originates from someone else.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Somebody' in the frame who performs the act of quoting."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'somebody' in the frame represents the original author or speaker of the passage being quoted."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "passage.n.01",
+          "reasoning": "The 'something' in the frame refers to the specific passage or text that is being repeated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "repetition.n.01",
+      "reasoning": "The definition 'repeat a passage from' explicitly highlights repetition as a core characteristic of the quoting action, serving as its manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of quoting is a direct communicative action performed or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of quoting is semantically neutral; its positive or negative connotation depends on the content and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of quoting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'quote' implies a high degree of certainty that the quoted material was indeed stated by the source."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete instance of repeating a passage, even if one can quote multiple times over a period."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "drone.v.01",
+  "definition": "make a monotonous low dull sound",
+  "frame_id": 0,
+  "frame_text": "Something drone",
+  "sememes": [
+    {
+      "verb_type": "emission",
+      "verb_property": "sound.n.01",
+      "reasoning": "The definition 'make a monotonous low dull sound' clearly indicates the emission or production of a sound.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' in the verb frame is the entity that produces or emits the sound."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "monotonous.a.01",
+      "reasoning": "The adjective 'monotonous' is a core descriptive property of the sound produced, indicating a lack of variation."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pitch.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The adjective 'low' describes the pitch of the sound produced, a fundamental acoustic characteristic."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "dull.a.01",
+      "reasoning": "The adjective 'dull' describes the quality or timbre of the sound, suggesting it lacks brightness or sharpness."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of droning is a sensory experience, directly observable/audible."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something drone' indicates a non-agentive subject, thus no will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the sound itself is described as 'dull' and 'monotonous' (which might have negative connotations), the act of making such a sound is semantically neutral, describing a characteristic rather than an inherent positive or negative action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something drone' explicitly specifies a non-volitional subject ('Something'), meaning the action is not intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of droning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'monotonous low dull sound' implies a sustained or highly repetitive nature, indicating high iterativity for a continuous sound."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'emission'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

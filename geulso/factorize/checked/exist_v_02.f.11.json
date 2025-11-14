@@ -1,0 +1,56 @@
+{
+  "synset_id": "exist.v.02",
+  "definition": "support oneself",
+  "frame_id": 11,
+  "frame_text": "Somebody survive on something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "sustenance.n.01",
+      "reasoning": "The verb 'survive on something' as defined by 'support oneself' describes an ongoing process or activity of maintaining one's life or existence through a means of support.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the actions necessary to support their own existence."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'something' upon which the agent relies or uses to sustain themselves, as indicated by the preposition 'on' in the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of surviving or supporting oneself is typically a directly observed or experienced phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or an ongoing activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Supporting oneself implies an active effort and intention (will) from the agent to maintain their existence."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of survival or self-support is inherently neutral; its emotional valence depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody survive on something' implies the 'Somebody' is an active, volitional agent engaged in the process of supporting themselves."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite state or ongoing process of existence and self-support."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Supporting oneself or surviving on something is an ongoing process composed of continuous and highly repetitive actions and efforts to maintain life."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

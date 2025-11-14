@@ -1,0 +1,59 @@
+{
+  "synset_id": "extract.v.01",
+  "definition": "remove, usually with some force or effort; also used in an abstract sense",
+  "frame_id": 17,
+  "frame_text": "Something take_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'remove' directly indicates a change in the location or spatial relationship of an object, moving it from one place (often inside or embedded) to another (outside or separate).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity causing the removal, though it is non-volitional."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that undergoes the change of location, being removed or taken out."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "effort.n.01",
+      "reasoning": "The definition explicitly states 'usually with some force or effort', indicating a specific manner in which the removal occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of extracting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal entity is 'Something', indicating no inherent will or intention for the action itself."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of extracting is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something take_out something' specifies a non-volitional agent (the first 'Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence, not a speculation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'extract' typically describes a single, completed event of removal, unless specified otherwise by context."
+    }
+  }
+}

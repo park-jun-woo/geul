@@ -1,0 +1,59 @@
+{
+  "synset_id": "douche.v.01",
+  "definition": "direct a spray of water into a bodily cavity, for cleaning",
+  "frame_id": 0,
+  "frame_text": "Somebody douche",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb's definition 'for cleaning' explicitly describes a process that results in a change from a less clean to a more clean state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame is the volitional entity that initiates and performs the douching action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "bodily_cavity.n.01",
+          "reasoning": "The 'bodily cavity' is the inherent target that undergoes the change of state (from dirty to clean), as directly specified in the verb's definition. In the intransitive frame 'Somebody douche', this patient is implicitly a part of the causal agent."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "spray.n.01",
+          "reasoning": "A 'spray of water' is an inherent and essential instrument for performing the action of douching, as specified in the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of douching is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning is neutral; its positive or negative sentiment depends on the specific context or cultural perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody douche' explicitly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the action, although the action itself can be repeated over time."
+    }
+  }
+}

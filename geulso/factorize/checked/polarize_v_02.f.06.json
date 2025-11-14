@@ -1,0 +1,62 @@
+{
+  "synset_id": "polarize.v.02",
+  "definition": "cause to concentrate about two conflicting or contrasting positions",
+  "frame_id": 6,
+  "frame_text": "Something polarize somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "division.n.01",
+      "reasoning": "The verb describes causing a shift from a unified or undifferentiated state to one characterized by 'two conflicting or contrasting positions,' which is a change in the state of unity or consensus.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that brings about the division or concentration into opposing positions, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' or group that undergoes the change, becoming concentrated about two conflicting positions."
+        }
+      ]
+    },
+    {
+      "verb_type": "result_state",
+      "verb_property": "opposition.n.02",
+      "reasoning": "The definition 'concentrate about two conflicting or contrasting positions' implies a resulting state of strong disagreement or diametric opposition.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The effect of polarizing is typically directly observable through actions or declarations of the affected parties."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of polarizing is inherently neutral; whether it is positive or negative depends on the context and the outcome of the division."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something polarize somebody' indicates that the action is caused by a non-volitional entity ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing division."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single process or event that brings about the state of polarization, rather than a repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "contemplate.v.02",
+  "definition": "consider as a possibility",
+  "frame_id": 1,
+  "frame_text": "Somebody contemplate something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "thought.n.01",
+      "reasoning": "The definition 'consider as a possibility' describes an ongoing mental activity of deliberation, indicating a process of thought.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity performing the mental act of contemplating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'VERB-ing' phrase represents the action or possibility that is being considered, acting as the patient of the contemplation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Contemplation is an internal, cognitive process directly experienced by the subject."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of contemplating is a deliberate mental action, driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of contemplating itself is neutral; the nature of what is contemplated determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of considering."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes the definite occurrence of the act of considering, even if the object of consideration is a possibility."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Contemplation is often an extended mental activity involving continuous or highly repetitive thought processes over a period, rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

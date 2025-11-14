@@ -1,0 +1,57 @@
+{
+  "synset_id": "calculate.v.01",
+  "definition": "make a mathematical calculation or computation",
+  "frame_id": 7,
+  "frame_text": "Somebody cypher that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "computation.n.01",
+      "reasoning": "The verb describes the activity of performing a mathematical calculation or computation, which is a cognitive process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the calculation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the factual outcome or determination derived from the calculation, serving as the object of computation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of calculating is a direct mental process of the agent, implying direct cognitive experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame performs the action of calculating with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calculating itself is neutral; the result or context may determine its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of calculation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'calculate' implies an effort to achieve a definite and reliable result, inherently suggesting a high degree of certainty in the process and its outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, complete instance of performing a calculation or computation that leads to a specific conclusion."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "reinsure.v.03",
+  "definition": "insure again by assuming all or a part of the liability of an insurance company already covering a risk",
+  "frame_id": 0,
+  "frame_text": "Somebody reinsure somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "liability.n.01",
+      "reasoning": "The verb describes the act of one entity (the reinsurer) assuming financial liability from another entity (the original insurer), which is a change in who holds that liability.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame, representing the reinsurer who actively performs the action of assuming liability."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liability.n.01",
+          "reasoning": "The 'something' in the frame, referring to the financial liability or risk that is being assumed."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "insurance_company.n.01",
+          "reasoning": "The definition states that the liability is assumed 'of an insurance company already covering a risk', making this company the source from whom the liability is taken."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Financial transactions and legal agreements like reinsuring are typically directly documented and observable events."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reinsuring is a neutral financial transaction; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reinsuring, when stated, is typically presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The 're-' prefix implies the risk was previously insured, but the act of 'reinsuring' itself, for a specific liability, is a single, distinct event rather than a continuous or repeated action by the reinsurer towards that specific liability."
+    }
+  }
+}

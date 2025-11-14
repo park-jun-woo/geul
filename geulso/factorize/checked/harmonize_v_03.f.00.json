@@ -1,0 +1,58 @@
+{
+  "synset_id": "harmonize.v.03",
+  "definition": "sing or play in harmony",
+  "frame_id": 0,
+  "frame_text": "Somebody harmonise",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "sound_production.n.01",
+      "reasoning": "The verb describes the ongoing action of creating musical sounds, as indicated by 'sing or play'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of producing sounds."
+        }
+      ]
+    },
+    {
+      "verb_type": "characteristic",
+      "verb_property": "harmony.n.02",
+      "reasoning": "The defining quality of the sounds produced by the activity is that they are 'in harmony', which is a core semantic component of the verb 'harmonize'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Musical performance, including harmonizing, is a directly observable and audibly experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative statement of an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of harmonizing is an intentional and willed action performed by an agent, as implied by 'Somebody ----'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of harmonizing itself is neutral; the aesthetic quality of the harmony produced would determine sentiment, not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody harmonize' clearly indicates that the action is performed by a volitional agent ('Somebody')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of singing or playing in harmony typically involves a continuous and highly repetitive production of musical notes or sounds over time."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'characteristic'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

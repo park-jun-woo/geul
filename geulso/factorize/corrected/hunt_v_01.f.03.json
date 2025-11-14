@@ -1,0 +1,71 @@
+{
+  "synset_id": "hunt.v.01",
+  "definition": "pursue for food or sport (as of wild animals)",
+  "frame_id": 3,
+  "frame_text": "Somebody hunt_down",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The act of hunting describes a process of changing the state of the hunted animal from free to captured or killed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of hunting, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "animal.n.01",
+          "reasoning": "The implied target (e.g., wild animals) that is hunted down, as specified by the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "attainment.n.01",
+      "reasoning": "The particle 'down' in 'hunt down' signifies the successful conclusion of the pursuit, achieving the goal of capture or subjugation of the target."
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "purpose.n.01",
+      "value_type": "food.n.01",
+      "reasoning": "The definition explicitly states 'for food' as one of the purposes of hunting."
+    },
+    {
+      "verb_type": "goal",
+      "verb_property": "purpose.n.01",
+      "value_type": "sport.n.01",
+      "reasoning": "The definition explicitly states 'for sport' as one of the purposes of hunting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hunting is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to achieve the goal of hunting down."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hunting itself is neutral; its sentiment depends on context and perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hunt_down' explicitly indicates a volitional agent performing the action with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hunting down, when accomplished, is described as a definite event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Hunting down typically involves a sustained process comprising a series of repetitive actions (e.g., tracking, stalking, pursuing) until the goal is achieved, indicating high iterativity for the overall event."
+    }
+  }
+}

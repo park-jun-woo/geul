@@ -1,0 +1,68 @@
+{
+  "synset_id": "light_up.v.05",
+  "definition": "begin to smoke",
+  "frame_id": 2,
+  "frame_text": "Somebody light something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The definition 'begin to smoke' indicates a transition from a non-smoking state to a smoking state, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who intentionally initiates the action of causing something to smoke."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "object.n.01",
+          "reasoning": "The 'something' that undergoes the change, beginning to smoke."
+        }
+      ]
+    },
+    {
+      "verb_type": "resultant_state",
+      "verb_property": "smoking.n.01",
+      "reasoning": "The core outcome of the action is the initiation of smoking.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is now in a state of smoking."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of lighting something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of lighting something is neutral; its sentiment depends on context (e.g., lighting a cigarette vs. lighting a fire for warmth)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody light something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of lighting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, punctual event of initiating smoking."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'resultant_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

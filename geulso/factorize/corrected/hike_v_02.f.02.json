@@ -1,0 +1,65 @@
+{
+  "synset_id": "hike.v.02",
+  "definition": "walk a long way, as for pleasure or physical exercise",
+  "frame_id": 2,
+  "frame_text": "Somebody hike something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a change of location through walking, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' indicates the route or general area of movement for the hike."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "distance.n.01",
+      "value_type": "long.a.01",
+      "reasoning": "The definition specifies 'a long way', indicating a significant distance of travel."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "recreation.n.01",
+      "reasoning": "The definition states the activity is 'for pleasure or physical exercise', which falls under the broader purpose of recreation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hiking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hike' implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hiking is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hiking is described as a definite event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Hiking, like walking or running, is an action composed of continuous, highly repetitive steps. Therefore, it has high iterativity."
+    }
+  }
+}

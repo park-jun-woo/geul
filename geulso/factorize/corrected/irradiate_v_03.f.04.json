@@ -1,0 +1,59 @@
+{
+  "synset_id": "irradiate.v.03",
+  "definition": "expose to radiation",
+  "frame_id": 4,
+  "frame_text": "Something irradiate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "exposure.n.01",
+      "reasoning": "The verb 'irradiate' means to 'expose to radiation', indicating a transition of the patient from a non-exposed state to an exposed state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the source or cause of the radiation (e.g., a device or a natural phenomenon)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity subjected to the radiation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "radiation.n.01",
+      "reasoning": "The definition explicitly specifies 'radiation' as the particular agent or means by which the exposure occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of irradiating is typically a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-volitional source or cause, not an agent with will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of irradiating is neutral; its positive or negative impact depends on context (e.g., medical treatment vs. harmful exposure)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something irradiate something' describes an action where the subject ('Something') is a non-volitional source or device, not an intentional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of exposure."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single act of initiating or performing exposure, though the exposure itself might be continuous. Defaulting to a single event for the action of 'irradiating'."
+    }
+  }
+}

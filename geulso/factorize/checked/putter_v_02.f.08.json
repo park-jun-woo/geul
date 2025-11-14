@@ -1,0 +1,58 @@
+{
+  "synset_id": "putter.v.02",
+  "definition": "do random, unplanned work or activities or spend time idly",
+  "frame_id": 8,
+  "frame_text": "Somebody muck_around",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb describes engaging in some form of work or activities, which is a general activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the activities, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "aimless.a.01",
+      "reasoning": "The definition 'random, unplanned work or activities' and 'spend time idly' indicates an aimless or undirected manner of performing the activities."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'puttering' is typically directly observed or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the agent's will in engaging in the activity."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'puttering' is neutral; its sentiment depends on context or individual perception."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody muck_around' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'do random, unplanned work or activities' or 'spend time idly' implies a continuous or highly repetitive, fragmented activity rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

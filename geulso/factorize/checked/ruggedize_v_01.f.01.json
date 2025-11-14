@@ -1,0 +1,62 @@
+{
+  "synset_id": "ruggedize.v.01",
+  "definition": "produce in a version designed to withstand rough usage",
+  "frame_id": 1,
+  "frame_text": "Something ruggedize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "durability.n.01",
+      "reasoning": "The verb 'ruggedize' describes a process of making something more resistant to rough usage, which is a change in its durability or resilience.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame refers to the entity or process that performs the action of ruggedizing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the object undergoing the change, becoming more durable."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "resistance.n.02",
+      "value_type": "high.a.01",
+      "reasoning": "The core meaning of 'ruggedize' implies increasing the resistance to wear, damage, or rough usage."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of ruggedizing is typically a directly observable manufacturing or engineering activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'produce in a version designed to withstand' implies a deliberate act of creation and design, indicating strong will behind the action, even if the grammatical subject is 'Something' (e.g., a company or a system)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making something more rugged is generally neutral in sentiment, though it often has positive implications for the product's function."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the 'Something' agent in the frame, the definition 'produce in a version designed' strongly suggests a deliberate, intentional act of engineering or manufacturing, implying an underlying volitional agent (e.g., humans or an organization)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of making something rugged."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of converting an item into a ruggedized version, not a continuous or repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

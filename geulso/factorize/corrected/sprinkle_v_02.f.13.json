@@ -1,0 +1,66 @@
+{
+  "synset_id": "sprinkle.v.02",
+  "definition": "cause (a liquid) to spatter about, especially with force",
+  "frame_id": 13,
+  "frame_text": "Something splosh something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a liquid to move and spread, resulting in a change in its location and distribution.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or causes the action, as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'something' (explicitly described as 'a liquid' in the definition) that undergoes the spattering motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "spattered.s.01",
+      "reasoning": "The core of the action is the specific manner of liquid dispersal, described as 'spatter about', implying an irregular, scattered pattern."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition explicitly states 'especially with force', indicating a high intensity or vigor of the spattering action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing a liquid to spatter is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame and the definition 'cause (a liquid)' do not imply an agent with will or intention, as it could be an inanimate object or natural force."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing liquid to spatter is inherently neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' and the general nature of 'causing to spatter' often refers to non-volitional agents (e.g., wind, water, inanimate objects). The 'Something' subject makes it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the spattering itself involves multiple small particles, the act of 'causing' it is typically considered a single event of causation, or a continuous action treated as one instance."
+    }
+  }
+}

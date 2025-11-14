@@ -1,0 +1,62 @@
+{
+  "synset_id": "cheque.v.01",
+  "definition": "withdraw money by writing a check",
+  "frame_id": 1,
+  "frame_text": "Somebody cheque something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'cheque' describes the act of withdrawing money, which is a process that changes the financial possession of funds.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of writing the check and initiating the withdrawal."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the money being withdrawn from an account."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The implicit bank account or fund from which the money is removed during the withdrawal."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "check.n.01",
+      "reasoning": "The definition explicitly specifies 'by writing a check' as the means or instrument through which the money withdrawal is carried out."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of writing a check and withdrawing money is a directly observable and performed action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of withdrawing money is inherently neutral; its positive or negative implications depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of withdrawal."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of withdrawing money via a check."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "walk.v.01",
+  "definition": "use one's feet to advance; advance by steps",
+  "frame_id": 2,
+  "frame_text": "Something walk",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'walk' describes a change in location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of moving."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint or path of the movement, specified by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gait.n.01",
+      "reasoning": "A core semantic component of 'walk' is the specific manner of movement, characterized by advancing steps and typically maintaining continuous ground contact, differentiating it from running."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Walking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody walk' implies an agent acting with clear intention and will to move."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of walking is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody walk PP' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of walking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Walking is an action composed of continuous, highly repetitive steps. Therefore, it has high iterativity."
+    }
+  }
+}

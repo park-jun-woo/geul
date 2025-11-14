@@ -1,0 +1,69 @@
+{
+  "synset_id": "dump.v.01",
+  "definition": "throw away as refuse",
+  "frame_id": 1,
+  "frame_text": "Something dump something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'throw away' inherently describes a physical displacement or movement of an object from one location to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs or initiates the physical act of moving the object."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the physical movement and is discarded."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implied location (e.g., a waste site, landfill) where the discarded item is placed."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "value_type": "refuse.n.01",
+      "reasoning": "The definition 'as refuse' indicates that the action results in the object's status changing to that of discarded waste.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose state changes to being refuse or waste."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dumping is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of 'throwing away as refuse' is inherently purposeful and goal-directed, implying an intention or will behind the action, even if the 'Something' is an inanimate entity acting on a program or command."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dumping itself is neutral; its sentiment depends on context (e.g., dumping waste vs. dumping information)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action of disposing of something as refuse is an intentional act, even if the grammatical subject 'Something' refers to a machine or a system carrying out a programmed or commanded task, implying volition on the part of the ultimate agent or designer."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dumping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of discarding, though such an event can be repeated."
+    }
+  }
+}

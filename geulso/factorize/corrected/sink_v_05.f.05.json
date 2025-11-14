@@ -1,0 +1,63 @@
+{
+  "synset_id": "sink.v.05",
+  "definition": "descend into or as if into some soft substance or place",
+  "frame_id": 5,
+  "frame_text": "Somebody subside something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb 'sink' describes an agent causing an object to undergo a change in vertical position (a descent), as per the definition 'descend into...'. The verb 'subside' in the input frame is interpreted as a typo for 'sinks' to align with the provided `synset_id` and its transitive usage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the object to move downwards, based on the transitive interpretation of the frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in vertical position, as caused by the agent in this transitive frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' in the frame specifies the 'soft substance or place' into which the object descends, as indicated by the definition 'descend into'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value": "downward",
+      "reasoning": "The core meaning of 'sink' inherently involves movement in a downward direction, as evidenced by 'descend' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to sink is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sinking something is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing something to sink is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing something to descend."
+    }
+  }
+}

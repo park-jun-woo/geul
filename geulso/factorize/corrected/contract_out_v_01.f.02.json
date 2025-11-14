@@ -1,0 +1,64 @@
+{
+  "synset_id": "contract_out.v.01",
+  "definition": "assign a job to someone outside one's own business",
+  "frame_id": 2,
+  "frame_text": "Somebody contract_out something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "delegation.n.01",
+      "reasoning": "The verb describes the act of transferring a task, thereby changing its state of responsibility/delegation from an internal entity to an external one.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of contracting out the job."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "job.n.01",
+          "reasoning": "The 'something' which is the job or task being assigned."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The entity (inherently external in 'contract out') to whom the job is assigned, typically specified by the PP."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "formal_agreement.n.01",
+      "reasoning": "The term 'contract out' inherently implies that the delegation is made through a formal agreement or contract, as opposed to informal assignment, supported by hypernym 'sign.v.04'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Contracting out a job is a directly observable action or known business decision."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to contract out a job."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of contracting out a job is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of contracting out is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of delegating a specific job or task."
+    }
+  }
+}

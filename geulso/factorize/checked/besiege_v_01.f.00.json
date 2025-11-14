@@ -1,0 +1,67 @@
+{
+  "synset_id": "besiege.v.01",
+  "definition": "surround so as to force to give up",
+  "frame_id": 0,
+  "frame_text": "Somebody beleaguer something",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "conflict.n.01",
+      "reasoning": "The verb describes an adversarial event initiated by an agent, characterized by an attempt to overcome resistance or force submission.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and conducts the siege."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a place, group) that is the target of the siege."
+        },
+        {
+          "semantic_role": "goal.n.01",
+          "value_type": "submission.n.01",
+          "reasoning": "The ultimate aim of besieging is to force the patient to give up or submit."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "enclosure.n.01",
+      "reasoning": "A defining characteristic of besieging is the specific method used: physically surrounding the target, cutting off access or escape."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Besieging is a directly observable military or strategic action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to conduct the siege."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Besieging involves aggression and coercion, aiming to force submission, which carries an inherently negative connotation for the besieged and is an act of conflict."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody besiege something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of besieging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Besieging is a sustained, ongoing process involving continuous, often repetitive actions over a period, rather than a single instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

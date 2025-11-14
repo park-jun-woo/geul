@@ -1,0 +1,57 @@
+{
+  "synset_id": "go.v.02",
+  "definition": "follow a procedure or take a course",
+  "frame_id": 10,
+  "frame_text": "Something move Adjective/Noun",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "procedure.n.01",
+      "reasoning": "The verb describes the act of undertaking or adhering to a specific procedure or course of action, which is an ongoing process.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes or follows this procedure/course."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "reasoning": "The 'Adjective/Noun' in the verb frame specifies the manner or characteristic of how the procedure is followed or the resulting state of the process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The progression of a procedure or course can be directly observed or assessed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something move Adjective/Noun' implies a non-agentive subject, indicating no explicit will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'go' in this context is neutral; any positive or negative sentiment would be determined by the specific 'Adjective/Noun'."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame's subject 'Something' indicates a non-volitional entity undergoing a process, rather than intentionally performing an act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence or characteristic of the process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, possibly continuous, instance of a process, rather than inherent repetition of discrete events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "synset_id": "plane.v.02",
+  "definition": "travel on the surface of water",
+  "frame_id": 1,
+  "frame_text": "Something is skiming PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'travel' inherently describes a change in the location of the subject.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes the change in location."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' in the frame and the definition 'on the surface of water' indicate the specific path or medium of travel."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "surface.n.01",
+      "reasoning": "The verb 'plane' and the frame 'skiming' specify that the travel occurs on a surface, particularly the surface of water, as opposed to through the air or submerged."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of traveling on water is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is skiming PP' does not imply active will or intention from the 'Something'."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The inherent meaning of the verb itself is tenseless; 'is skiming' specifies a progressive aspect but not a base tense qualifier."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is skiming PP' explicitly uses the progressive aspect ('is skimming')."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of planing is neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is skiming PP' with a non-specific subject 'Something' often implies a non-volitional action or a natural process (e.g., a boat planing due to speed, a stone skimming)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'skiming' suggests a continuous, highly repetitive action composed of many small interactions with the surface, rather than a single discrete event."
+    }
+  }
+}

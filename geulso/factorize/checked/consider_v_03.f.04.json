@@ -1,0 +1,68 @@
+{
+  "synset_id": "consider.v.03",
+  "definition": "take into consideration for exemplifying purposes",
+  "frame_id": 4,
+  "frame_text": "Somebody take something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The definition 'take into consideration' describes an active mental process of deliberation or examination.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental action of considering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the mental process or examination."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "exemplification.n.01",
+      "reasoning": "The definition explicitly states 'for exemplifying purposes', indicating the intended goal or function of the consideration.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is intended to serve as an example after being considered."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of considering is a direct internal mental experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the mental process is initiated with the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of considering is neutral; its sentiment depends on the context or what is being considered."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody take something' (interpreted as 'Somebody considers something') indicates a volitional agent performing a deliberate mental act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of considering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of taking something into consideration for a specific purpose."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

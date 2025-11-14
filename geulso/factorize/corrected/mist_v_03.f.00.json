@@ -1,0 +1,65 @@
+{
+  "synset_id": "mist.v.03",
+  "definition": "spray finely or cover with mist",
+  "frame_id": 0,
+  "frame_text": "Somebody mist something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb describes causing a change in the state of 'something' from being uncovered to being covered.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of misting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "covered.a.01",
+          "reasoning": "The 'something' that undergoes the change of state to being covered with mist."
+        },
+        {
+          "semantic_role": "material.n.01",
+          "value_type": "mist.n.01",
+          "reasoning": "The substance (mist) that is applied to cover the 'something'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fine.a.01",
+      "reasoning": "The definition 'spray finely' specifies the manner in which the mist is applied, indicating a delicate or small-particle application."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of misting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of misting is neutral; its sentiment depends on context or purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of misting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'mist' (especially in the sense of 'spray finely') implies a continuous or highly repetitive application of small particles, thus indicating high iterativity."
+    }
+  }
+}

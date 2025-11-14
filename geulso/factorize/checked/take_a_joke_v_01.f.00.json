@@ -1,0 +1,61 @@
+{
+  "synset_id": "take_a_joke.v.01",
+  "definition": "listen to a joke at one's own expense",
+  "frame_id": 0,
+  "frame_text": "Somebody take_a_joke",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "acceptance.n.01",
+      "reasoning": "The verb 'take a joke' describes an internal cognitive and emotional process of receiving and accepting a humorous remark without taking offense, especially when it is directed at oneself, as implied by 'at one's own expense' and supported by the hypernym 'digest' (put up with something unpleasant).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who is the subject performing the mental act of accepting the joke."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "joke.n.01",
+          "reasoning": "The 'joke' that is the object of the acceptance, implicitly one made at the agent's expense."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking a joke, or the ability to do so, is typically demonstrated and perceived directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or a mental state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Taking a joke implies a conscious choice and mental effort to accept it without offense, indicating the agent's strong will or intention to react in a specific way."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries a neutral politeness level; politeness depends on the context of the joke and the interaction."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The ability and act of 'taking a joke' is generally considered a positive trait, signifying good humor, resilience, and lack of excessive sensitivity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of 'taking a joke' is a volitional mental and emotional response, involving the agent's conscious decision to not be offended by a remark made at their expense."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The outcome of successfully taking a joke is presented as a definite occurrence or a stable characteristic."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes the response to a single instance of a joke. Each occurrence of taking a joke is considered a distinct event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

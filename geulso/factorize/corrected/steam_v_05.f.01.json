@@ -1,0 +1,59 @@
+{
+  "synset_id": "steam.v.05",
+  "definition": "clean by means of steaming",
+  "frame_id": 1,
+  "frame_text": "Somebody steam_clean something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb's definition 'clean' describes an action that causes a change of state from dirty to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the agent that performs the cleaning action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change of state (from dirty to clean)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "steam.n.01",
+      "reasoning": "The definition explicitly states 'by means of steaming', indicating the specific instrument or method used for cleaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning by steaming is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in this frame (e.g., a machine) does not possess human-like will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning is generally considered neutral; the positive sentiment comes from the result, not the action itself."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional agent (e.g., a machine or natural process) performs the action, making the action non-volitional for that agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of cleaning."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single complete instance of cleaning; while the process of steaming is continuous, the act of 'cleaning by steaming' is treated as a discrete event in this context."
+    }
+  }
+}

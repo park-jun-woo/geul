@@ -1,0 +1,56 @@
+{
+  "synset_id": "press.v.01",
+  "definition": "exert pressure or force to or upon",
+  "frame_id": 0,
+  "frame_text": "Somebody press PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "pressure.n.01",
+      "reasoning": "The verb 'press' describes an ongoing act of exerting a continuous force, which is a 'process'. Its core property is 'pressure', as defined by the synset.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs or initiates the action of exerting pressure."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' (prepositional phrase) denotes the entity that undergoes the action of being pressed or receives the force."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pressing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional agent (e.g., an inanimate object or a natural force), indicating an absence of will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of pressing is semantically neutral; its emotional valence depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is pressing PP' implies a non-agentive subject, making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Something is pressing' asserts a definite, ongoing occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The progressive aspect 'is pressing' signifies a single, continuous, sustained action rather than a series of discrete, repeated events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

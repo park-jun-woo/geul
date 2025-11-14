@@ -1,0 +1,59 @@
+{
+  "synset_id": "whiff.v.03",
+  "definition": "strike out by swinging and missing the pitch charged as the third",
+  "frame_id": 1,
+  "frame_text": "Somebody whiff something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes the act of causing a change in a participant's game status from 'at bat' to 'out'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (e.g., pitcher) who causes the other player to strike out, as implied by the transitive verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (e.g., batter) who is struck out and whose status changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "swinging and missing the pitch",
+      "reasoning": "The definition explicitly states the specific manner by which the strikeout occurs for the patient: 'swinging and missing the pitch charged as the third'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of whiffing in a game is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The causal agent (e.g., pitcher) intentionally tries to make the batter miss."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of whiffing is a neutral game event, the sentiment depends on the team perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' (causal agent) in the transitive frame performs a volitional act to make the other 'somebody' (patient) strike out."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing a whiff is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, decisive event of causing a strikeout by missing the third pitch."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "drag_down.v.01",
+  "definition": "exert a force with a heavy weight",
+  "frame_id": 1,
+  "frame_text": "Something bear_down_on something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "force.n.01",
+      "reasoning": "The definition 'exert a force' describes an ongoing activity involving the application of physical force.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that exerts the force."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity upon which the force is exerted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "magnitude.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The phrase 'with a heavy weight' specifies that the exerted force is of considerable magnitude or intensity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Exerting force is a physical action that can be directly observed or felt."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or activity."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-agentive subject, thus no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exerting force itself is semantically neutral; its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' explicitly features a non-volitional subject ('Something'), meaning the action is not intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of force exertion."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Exerting a force 'with a heavy weight' often implies a continuous or sustained application, similar to high repetition over a period."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

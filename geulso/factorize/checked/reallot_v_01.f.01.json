@@ -1,0 +1,66 @@
+{
+  "synset_id": "reallot.v.01",
+  "definition": "allot again",
+  "frame_id": 1,
+  "frame_text": "Somebody reallot something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'reallot' describes a change in the assignment or possession of something, implying a redistribution.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of reallotting."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the item is reallotted, indicating a new possessor."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being reallotted, which is the object whose possession changes."
+        }
+      ]
+    },
+    {
+      "verb_type": "event_modifier",
+      "verb_property": "repetition.n.01",
+      "value": "again",
+      "reasoning": "The prefix 're-' in 'reallot' and the definition 'allot again' explicitly denote that this action is a recurrence of a previous allotment event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reallotting is typically a directly observable event or a documented decision."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reallotting is neutral; its positive or negative sentiment depends on context or the nature of the allotment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies that the act of reallotting is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'reallot' describes a single, discrete event of re-allocation, even if it's a repetition of a prior event. The 're-' aspect is captured as a separate sememe, not by this qualifier."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'event_modifier'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

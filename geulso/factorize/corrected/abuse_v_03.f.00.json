@@ -1,0 +1,59 @@
+{
+  "synset_id": "abuse.v.03",
+  "definition": "use foul or abusive language towards",
+  "frame_id": 0,
+  "frame_text": "Somebody abuse somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes the act of initiating and delivering a message, specifically using language.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who originates and delivers the abusive language."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the abusive language and experiences its negative impact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The definition specifies 'foul or abusive language', indicating an inherent negative quality of the communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of using abusive language is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to use abusive language."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'foul or abusive language' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of abusing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of using language, though the act can be repeated, the verb itself does not mandate repetition for a single instance."
+    }
+  }
+}

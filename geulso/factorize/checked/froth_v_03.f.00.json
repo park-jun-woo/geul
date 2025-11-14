@@ -1,0 +1,57 @@
+{
+  "synset_id": "froth.v.03",
+  "definition": "exude or expel foam",
+  "frame_id": 0,
+  "frame_text": "Somebody froth",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "emission.n.01",
+      "reasoning": "The verb describes the continuous process of the subject emitting foam, as per the definition 'exude or expel foam'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the process of frothing, where foam is emitted from it."
+        },
+        {
+          "semantic_role": "material.n.02",
+          "value_type": "foam.n.01",
+          "reasoning": "The inherent substance being emitted by the subject, specified as 'foam' in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of frothing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something froth' indicates a non-agentive subject, meaning the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The physical process of frothing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something froth' describes a natural, involuntary process of the subject, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Frothing typically involves a continuous, high repetition of small events of foam formation or expulsion."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

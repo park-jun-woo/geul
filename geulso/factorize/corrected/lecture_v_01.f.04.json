@@ -1,0 +1,62 @@
+{
+  "synset_id": "lecture.v.01",
+  "definition": "deliver a lecture or talk",
+  "frame_id": 4,
+  "frame_text": "Something lecture to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The definition 'deliver a lecture or talk' implies a transfer of information, which causes a change in the recipient's state of knowledge or awareness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that acts as the subject, initiating the delivery of the lecture, even if non-volitionally."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "discourse.n.01",
+          "reasoning": "The core content being delivered, which is the 'lecture or talk' itself, a form of discourse."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the lecture is delivered, receiving the information."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of delivering a lecture is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something lecture to somebody' with 'Something' as the subject indicates no inherent will or intention."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'lecture' itself is neutral regarding politeness; context determines it."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of delivering a lecture is neutral; the content or context could make it positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something lecture to somebody' explicitly features a non-agentive 'Something' as the subject, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The delivery of a lecture is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of delivering a lecture, even if the lecture itself contains internal repetition."
+    }
+  }
+}

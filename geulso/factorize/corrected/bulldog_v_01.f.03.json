@@ -1,0 +1,59 @@
+{
+  "synset_id": "bulldog.v.01",
+  "definition": "attack viciously and ferociously",
+  "frame_id": 3,
+  "frame_text": "Something bulldog something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "aggression.n.01",
+      "reasoning": "The verb 'bulldog' in this frame refers to initiating an aggressive physical interaction, causing a change in the state of the patient from unattacked to attacked.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that initiates the aggressive action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that is attacked and undergoes the change in state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "vicious.a.01",
+      "reasoning": "The definition 'attack viciously and ferociously' explicitly describes the intense and hostile manner of the attack, which is a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'bulldogging' or attacking is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ---- something' implies that the agent ('Something') may or may not possess conscious will. Default to neutral given the general nature of 'Something'."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack viciously and ferociously' clearly carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "While 'attack' implies directed action, the subject 'Something' is ambiguous. It could refer to an animal (volitional) or an inanimate force (non-volitional). Therefore, volitionality is neutral for this general frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, intense event of attack, even if composed of multiple forceful actions within that single event. It does not inherently imply distinct, repeated attacks."
+    }
+  }
+}

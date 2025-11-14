@@ -1,0 +1,57 @@
+{
+  "synset_id": "scrounge.v.01",
+  "definition": "collect or look around for (food)",
+  "frame_id": 4,
+  "frame_text": "Something forage",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "foraging.n.01",
+      "reasoning": "The definition 'collect or look around for (food)' and the frame 'Something forage' directly align with the concept of foraging, which is an activity involving both searching and gathering.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the foraging activity, typically an animal or non-human entity seeking sustenance."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The definition explicitly states that the object of the activity is 'food'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of foraging is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame implies an entity acting primarily on instinct or necessity, not with human-like conscious will or intention, making its modality neutral or absent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of foraging is inherently neutral; its outcome or context can determine its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something forage' refers to an action typically driven by instinct or survival need (as in animals), rather than a consciously volitional act by a human agent. This aligns with the rule for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Foraging is typically a continuous, repetitive activity involving multiple acts of searching and collecting over a period."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

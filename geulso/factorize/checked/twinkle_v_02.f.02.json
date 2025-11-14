@@ -1,0 +1,58 @@
+{
+  "synset_id": "twinkle.v.02",
+  "definition": "emit or reflect light in a flickering manner",
+  "frame_id": 2,
+  "frame_text": "Something winkle",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "light.n.01",
+      "reasoning": "The definition 'emit or reflect light' describes an ongoing dynamic process involving light emission or reflection.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' is the entity that undergoes or manifests the process of light emission/reflection, consistent with a non-volitional subject in the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "flickering.a.01",
+      "reasoning": "The definition explicitly states 'in a flickering manner', indicating a specific characteristic of how the light is emitted or reflected. This describes the manner of the process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of twinkling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' lacks an agent capable of will, and the action is not driven by intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of twinkling is inherently neutral; its sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of twinkling is described as a definite occurrence or characteristic."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'flickering' implies continuous, high repetition of changes in light, indicating a highly iterative process."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "cauterize.v.01",
+  "definition": "burn, sear, or freeze (tissue) using a hot iron or electric current or a caustic agent",
+  "frame_id": 0,
+  "frame_text": "Somebody burn something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes a medical procedure that alters the physical integrity or state of tissue by burning, searing, or freezing it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the cauterization, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "tissue.n.01",
+          "reasoning": "The 'something' that undergoes the change of state, explicitly defined as 'tissue' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value": "by applying extreme temperature or caustic chemical",
+      "reasoning": "The definition specifies the precise methods of physical alteration: 'burn, sear, or freeze'."
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "tool.n.01",
+      "value": "hot iron, electric current, or caustic agent",
+      "reasoning": "The definition explicitly lists the types of instruments or agents used to perform the cauterization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cauterization is a directly observable physical procedure."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cauterizing is a medical procedure. While it involves 'burning' or 'freezing', its inherent sentiment is neutral, as its purpose is typically therapeutic."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cauterization is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, focused event of treating tissue, even if it involves multiple applications during one procedure."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'instrument'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

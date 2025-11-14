@@ -1,0 +1,67 @@
+{
+  "synset_id": "vilify.v.01",
+  "definition": "spread negative information about",
+  "frame_id": 5,
+  "frame_text": "Somebody vilify somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb 'vilify' describes an action that intentionally aims to cause a negative change in someone's public standing or reputation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of spreading information."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (a person) whose reputation is targeted and affected by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "communication.n.01",
+      "reasoning": "The action of vilifying is carried out specifically through the act of spreading information, which is a communicative process."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "evaluation.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The definition explicitly states 'spread negative information', indicating an inherent negative quality or intent behind the communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of vilifying is typically a directly observable event or a consequence that can be directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates an agent acting with strong will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'spread negative information' directly indicates a negative sentiment associated with the action of vilifying."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody vilify somebody' clearly implies an intentional, volitional act performed by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act, assuming a factual statement about an event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or a completed event of casting aspersion, rather than continuous, inherent repetition in its base form."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

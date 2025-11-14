@@ -1,0 +1,65 @@
+{
+  "synset_id": "peck.v.01",
+  "definition": "hit lightly with a picking motion",
+  "frame_id": 1,
+  "frame_text": "Somebody beak something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.01",
+      "reasoning": "The verb 'peck' describes an action that causes a brief physical contact or impact, resulting in a change in the state of physical proximity/contact between two entities.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which actively performs the pecking action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object of the pecking action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The definition explicitly states the hit is performed 'lightly', indicating a low intensity of impact."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "picking_motion.n.01",
+      "reasoning": "The definition specifies the precise nature of the action as a 'picking motion', characteristic of a bird's beak or similar quick, sharp movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Pecking is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Despite the generic 'Something' in the frame, 'peck' inherently implies an animate agent (e.g., a bird, a person giving a quick kiss) acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pecking is neutral; its sentiment depends on the context or the object being pecked."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "While the frame uses 'Something', the verb 'peck' strongly implies an animate agent (typically a bird or person) making a deliberate, volitional movement."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of pecking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition describes a single instance of a hitting motion, implying a discrete event rather than continuous repetition, although pecking can be repeated."
+    }
+  }
+}

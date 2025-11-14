@@ -1,0 +1,67 @@
+{
+  "synset_id": "embezzle.v.01",
+  "definition": "appropriate (as property entrusted to one's care) fraudulently to one's own use",
+  "frame_id": 2,
+  "frame_text": "Somebody embezzle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes a fraudulent transfer of property from legitimate custody to personal use, fundamentally a change in possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of appropriating the property, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (property) whose possession is fraudulently changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "fraudulence.n.01",
+      "reasoning": "The definition explicitly states the appropriation is done 'fraudulently', indicating the deceitful manner of the act."
+    },
+    {
+      "verb_type": "condition",
+      "verb_property": "trust.n.01",
+      "reasoning": "The definition specifies the property was 'entrusted to one's care', implying that a breach of trust is a necessary condition for this specific act of appropriation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Embezzlement is typically an event that can be directly observed or proven through documentary evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of embezzling is inherently negative due to the fraudulence and theft involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody embezzle something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of embezzling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially complex, act of fraudulent appropriation."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'condition'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

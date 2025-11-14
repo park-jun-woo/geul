@@ -1,0 +1,54 @@
+{
+  "synset_id": "grade.v.03",
+  "definition": "assign a grade or rank to, according to one's evaluation",
+  "frame_id": 4,
+  "frame_text": "Somebody score",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The verb describes the action of assigning a grade or rank, which results in a change of state for the item from being unevaluated to evaluated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the volitional action of assigning a grade."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "score.n.01",
+          "reasoning": "The 'score' in the verb frame is interpreted as the specific item (a result of performance or assessment) that receives the grade or rank."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of grading is a direct, observable experience, not an inference or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of assigning a grade is semantically neutral; the sentiment associated with the grade itself (e.g., good or bad) is external to the verb."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates an intentional agent performing the act of grading, making it volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'grade' describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of assigning a grade to a particular item."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "synset_id": "redispose.v.01",
+  "definition": "dispose anew",
+  "frame_id": 1,
+  "frame_text": "Something redispose something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'dispose anew' implies a change in possession, similar to its hypernym 'dispose', but occurring again.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity or force that causes the redisposition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose possession or arrangement is being changed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of redisposing is generally a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (the first 'Something'), therefore no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of redisposing is neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with a non-human 'Something' as the agent implies the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of redisposing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The prefix 're-' and the definition 'dispose anew' explicitly indicate that the action is a repetition of a previous disposal, suggesting high iterativity rather than a single event."
+    }
+  }
+}

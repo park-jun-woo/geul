@@ -1,0 +1,69 @@
+{
+  "synset_id": "clone.v.01",
+  "definition": "make multiple identical copies of",
+  "frame_id": 1,
+  "frame_text": "Somebody clone something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'clone' means to bring new entities into existence, as indicated by 'make multiple identical copies'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of cloning, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "product.n.01",
+          "reasoning": "The 'multiple identical copies' that are brought into existence as a result of the cloning process, a key semantic component of the verb."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "likeness.n.01",
+      "value_type": "identical.a.01",
+      "reasoning": "A central aspect of 'clone' is that the created entities are 'identical' to a source, defining their specific 'likeness'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "This refers to the 'product.n.01' (the new copies) whose property of likeness is being described."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' (direct object of the verb frame) that serves as the original template from which the identical copies are made."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cloning is a scientific or biological process that, when described, is typically based on direct observation or empirical evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody clone somebody' implies an intentional agent ('Somebody') carrying out the action, thus involving will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cloning itself is neutral; its ethical or practical implications determine its sentiment in context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject in the verb frame indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'clone' describes a definite action or outcome."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'make multiple identical copies' implies that the action inherently produces a multitude of items, which often entails a sustained or internally repetitive process to achieve this outcome."
+    }
+  }
+}

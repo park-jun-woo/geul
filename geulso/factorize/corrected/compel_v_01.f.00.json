@@ -1,0 +1,64 @@
+{
+  "synset_id": "compel.v.01",
+  "definition": "force somebody to do something",
+  "frame_id": 0,
+  "frame_text": "Somebody compel somebody to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb describes the act of an agent causing another person to perform a specific action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the compulsion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is subjected to the compulsion and performs the action."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "action.n.01",
+          "reasoning": "The 'to INFINITIVE' specifies the action that the patient is compelled to perform, which is the direct result of the compulsion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forced.a.01",
+      "reasoning": "The definition 'force somebody to do something' explicitly indicates that the causation occurs in a 'forced' or coercive manner, implying resistance or lack of free choice on the part of the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of compelling is typically a directly observable interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame, combined with the verb 'compel', implies a strong will and intention to make the other person act."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of compelling itself is neutral. Its positive or negative sentiment depends on the specific context and the nature of the action being compelled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody compel...' indicates that the primary agent ('Somebody') performs the act of compelling volitionally and intentionally. The non-volition of the *compelled* party is captured in the 'forced' manner sememe."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of compelling is described as a definite occurrence or intention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'compel' typically refers to a single, discrete event of initiating force or obligation, even if the compelled action might be ongoing or repeated."
+    }
+  }
+}

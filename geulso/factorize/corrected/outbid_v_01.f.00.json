@@ -1,0 +1,58 @@
+{
+  "synset_id": "outbid.v.01",
+  "definition": "bid over an opponent's bid when one's partner has not bid or doubled",
+  "frame_id": 0,
+  "frame_text": "Somebody outbid",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "bid.n.01",
+      "reasoning": "The core action described is the act of making a bid, as indicated by the hypernym 'bid.v.04' and the verb's root.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of making a bid."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "bid.n.01",
+          "reasoning": "The 'opponent's bid' which is surpassed by the agent's action, implied by the definition 'bid over an opponent's bid'."
+        }
+      ],
+      "result_state": {
+        "value": "superiority.n.01",
+        "reasoning": "The 'out-' prefix and the definition 'bid over' indicate that the result of the action is the agent's bid being superior or higher than the opponent's bid."
+      }
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of outbidding is a directly observable event within a competitive context."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with deliberate will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of outbidding itself is neutral; its sentiment depends on the context and the participants involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action, as bidding is a conscious choice."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of outbidding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of making a bid that surpasses another, rather than a continuous or highly repetitive action."
+    }
+  }
+}

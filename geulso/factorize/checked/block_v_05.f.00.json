@@ -1,0 +1,68 @@
+{
+  "synset_id": "block.v.05",
+  "definition": "run on a block system",
+  "frame_id": 0,
+  "frame_text": "Somebody block something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "operation.n.04",
+      "reasoning": "The definition 'run on a block system' describes an ongoing activity of managing or making a system function.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of running/operating the system."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being operated or managed as part of the block system."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The operation of a system is generally a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to operate the system."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The base verb form does not specify past or future tense, implying a present or general truth."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The frame describes a simple or habitual action of running a system, not explicitly progressive, perfect, or result-focused."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness marking; it's a neutral description."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of running or operating a system is semantically neutral; its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody block something' explicitly indicates a volitional agent ('Somebody') performing the action of operating a system."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb states a definite fact about how a system is operated."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Running on a 'block system' implies a continuous or highly repetitive process of operation, not a single, isolated event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

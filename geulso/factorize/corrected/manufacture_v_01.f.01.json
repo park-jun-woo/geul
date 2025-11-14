@@ -1,0 +1,65 @@
+{
+  "synset_id": "manufacture.v.01",
+  "definition": "put together out of artificial or natural components or parts; ; ; He manufactured a popular cereal\"",
+  "frame_id": 1,
+  "frame_text": "Somebody fabricate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'manufacture' primarily describes the act of bringing something new into existence, representing a change from non-existence to existence for the product.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates and performs the manufacturing process (e.g., a factory, a machine, or a company)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the item that is created and comes into existence as a result of the manufacturing process."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "assembly.n.01",
+      "reasoning": "The definition 'put together out of artificial or natural components or parts' specifies the inherent manner of manufacturing, which involves assembling constituents.",
+      "participants": [
+        {
+          "semantic_role": "material.n.01",
+          "reasoning": "The 'artificial or natural components or parts' from which the manufactured item is assembled, as stated in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Manufacturing processes and their outcomes are typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (e.g., a machine or factory) does not possess inherent will or intention in the human sense, even if it performs a function."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of manufacturing itself is semantically neutral; any positive or negative connotation depends on the specific product or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent 'Something' (e.g., a machine or factory) performs the action as a programmed or functional operation, rather than making a conscious, volitional choice to act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite and certain act of creation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Manufacturing typically involves continuous or highly repetitive operations to produce multiple units, indicating high iterativity."
+    }
+  }
+}

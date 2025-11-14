@@ -1,0 +1,54 @@
+{
+  "synset_id": "land.v.06",
+  "definition": "arrive on shore",
+  "frame_id": 1,
+  "frame_text": "Something set_ashore",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'land' (arrive on shore) describes a transition from one location to another, signifying a change in the state of position.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that undergoes the change of location. Given the implied non-volitionality by 'set_ashore', it is the patient of the action."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "shore.n.01",
+          "reasoning": "The definition 'arrive on shore' clearly indicates 'shore' as the specific endpoint or goal of the movement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of landing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of arrival."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something set_ashore' implies that the 'Something' is not acting with its own strong will, but is rather being caused to be on shore, or arrives passively."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of landing is semantically neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something set_ashore' suggests a non-volitional action for the subject 'Something', implying it is brought to shore or arrives due to external factors rather than its own intention, consistent with samples for non-agentive subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of landing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of arrival at a destination."
+    }
+  }
+}

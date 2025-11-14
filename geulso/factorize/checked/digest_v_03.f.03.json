@@ -1,0 +1,56 @@
+{
+  "synset_id": "digest.v.03",
+  "definition": "put up with something or somebody unpleasant",
+  "frame_id": 3,
+  "frame_text": "Somebody bear something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "tolerance.n.01",
+      "reasoning": "The definition 'put up with something or somebody unpleasant' describes an ongoing mental effort or activity of enduring or accepting something difficult, which constitutes a process of tolerance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the implicit verb frame 'Somebody ----s something' who performs the mental process of tolerating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (or 'somebody unpleasant') that is the object of the toleration or endurance, as indicated in the definition and implicit frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of digesting (tolerating) is an internal, direct experience for the agent, not inferred or heard."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing process or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "To 'put up with' something unpleasant implies a conscious decision or a sustained effort of will on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tolerating or enduring is semantically neutral, though the object of tolerance is inherently negative ('unpleasant')."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of 'putting up with' something is a volitional decision or sustained effort by the 'Somebody' agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite process of toleration or endurance."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'put up with' something unpleasant implies an ongoing or continuously repetitive mental process and effort over a period of time, rather than a single discrete event. This suggests high repetition of internal acts of endurance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

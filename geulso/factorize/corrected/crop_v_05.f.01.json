@@ -1,0 +1,60 @@
+{
+  "synset_id": "crop.v.05",
+  "definition": "feed as in a meadow or pasture",
+  "frame_id": 1,
+  "frame_text": "Something crop",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The verb 'crop' in this sense describes the act of consuming food, specifically vegetation, which is a change of state related to the animal's internal state (hunger) and the physical state of the vegetation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame refers to an animal, which is the agent performing the action of feeding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vegetation.n.01",
+          "reasoning": "The implicit 'food' that is consumed, derived from 'as in a meadow or pasture', which is a type of vegetation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "grazing.n.01",
+      "reasoning": "The phrase 'as in a meadow or pasture' specifies the manner of feeding, which is grazing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cropping/grazing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Although the frame uses 'Something', it explicitly refers to an animal as the agent, which actively and intentionally chooses to feed, implying strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of feeding is a neutral biological process."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' refers to an animal that performs the action of feeding intentionally, making it a volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Grazing typically involves continuous, repetitive actions of taking small bites over a period, indicating high repetition."
+    }
+  }
+}

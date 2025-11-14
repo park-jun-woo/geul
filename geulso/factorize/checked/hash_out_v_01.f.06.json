@@ -1,0 +1,60 @@
+{
+  "synset_id": "hash_out.v.01",
+  "definition": "speak with others about (something); talk (something) over in detail; have a discussion",
+  "frame_id": 6,
+  "frame_text": "Somebody talk_over",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "discussion.n.01",
+      "reasoning": "The verb 'hash out' describes an active and ongoing process of discussing something in detail, aiming for resolution or understanding, as indicated by the definition 'talk (something) over in detail; have a discussion'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and actively participates in the discussion, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The 'something' (an issue, idea, or topic) that is being discussed or talked over, which is central to the verb's definition."
+        },
+        {
+          "semantic_role": "co_agent.n.01",
+          "reasoning": "The 'others' explicitly mentioned in the definition ('speak with others') who participate alongside the primary agent in the discussion."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'hashing out' (a discussion) is a directly observable and experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame, engaged in a discussion to 'hash out' something, implies a strong will and intention to achieve a goal."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of discussing or hashing out is inherently neutral; the topic or outcome may carry sentiment, but the action itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of discussion, which requires conscious intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The occurrence of the discussion is described as a definite event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'talk over in detail' and 'have a discussion' imply a continuous process composed of multiple, repeated communicative acts or exchanges to achieve a resolution, indicating high iterativity within the overall event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

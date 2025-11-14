@@ -1,0 +1,59 @@
+{
+  "synset_id": "approbate.v.02",
+  "definition": "accept (documents) as valid",
+  "frame_id": 0,
+  "frame_text": "Somebody approbate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The verb describes a change in the formal status of documents from not-yet-accepted to accepted as valid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of accepting or validating the documents, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "document.n.01",
+          "reasoning": "The 'something' that is accepted as valid, which the definition explicitly states are 'documents'."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "validity.n.01",
+          "reasoning": "The outcome of the act is the designation of the document as valid."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of approbating is a direct action or judgment made by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or judgment."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of approbating by 'Somebody' implies intentionality and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of accepting something as valid is neutral in sentiment, though the object itself might have implications."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody approbate something' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'approbate' something as valid implies a high level of certainty or authoritative judgment by the agent."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of acceptance/validation."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "synset_id": "steer.v.01",
+  "definition": "direct the course; determine the direction of travelling",
+  "frame_id": 0,
+  "frame_text": "Somebody channelise",
+  "sememes": [
+    {
+      "verb_type": "control",
+      "verb_property": "direction.n.01",
+      "reasoning": "The definition 'direct the course; determine the direction of travelling' indicates that the core meaning of 'steer' is to exercise control over the direction. The hypernym 'control.v.01' also supports this interpretation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the act of directing or controlling the course."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "Although not explicitly present in the 'Somebody steer' frame, the verb's definition inherently implies an implicit entity (e.g., a vehicle, a path, a situation) whose direction or course is being controlled."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of steering is typically a directly observable or experienced action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates an agent acting with clear intention and will to direct something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of steering itself is neutral; the outcome of the steering might have a positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action, as steering is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'steer' describes a definite action of directing."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Steering is typically a continuous action involving repeated adjustments to maintain or change a course, indicating high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'control'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

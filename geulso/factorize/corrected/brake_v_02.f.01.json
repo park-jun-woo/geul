@@ -1,0 +1,59 @@
+{
+  "synset_id": "brake.v.02",
+  "definition": "cause to stop by applying the brakes",
+  "frame_id": 1,
+  "frame_text": "Something brake something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'cause to stop' describes a transition from a state of motion to a state of rest.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the mechanical or non-volitional cause of the stopping. This could be a system or a mechanism."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame that undergoes the change from motion to rest."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "brake.n.01",
+      "reasoning": "The verb's definition 'by applying the brakes' explicitly includes the specific instrument (the braking mechanism) used to achieve the stopping action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of braking is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the causal agent in the frame is inanimate and therefore has no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of braking is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something brake something' indicates that the action is performed by a non-agentive subject ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of braking, when described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of causing something to stop."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "contract_out.v.01",
+  "definition": "assign a job to someone outside one's own business",
+  "frame_id": 1,
+  "frame_text": "Somebody contract_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "responsibility.n.01",
+      "reasoning": "The verb describes a change in who holds the responsibility for a job, transferring it from the contracting party to an external one, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the act of contracting out, thereby transferring responsibility."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "job.n.01",
+          "reasoning": "The 'something' in the verb frame that is being assigned, specifically a job or task according to the definition."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'someone outside one's own business' (the external party) who receives the assigned job or responsibility, as explicitly mentioned in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Contracting out is a formal action, typically documented and directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with strong will and intention to assign the job."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of contracting out is typically a neutral business decision; its sentiment depends on context or outcomes, not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly identifies a volitional agent performing the action, implying intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of contracting out is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of assigning a specific job. If multiple jobs are contracted out, it would be multiple instances of this single event."
+    }
+  }
+}

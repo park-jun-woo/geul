@@ -1,0 +1,64 @@
+{
+  "synset_id": "advance.v.10",
+  "definition": "pay in advance",
+  "frame_id": 1,
+  "frame_text": "Somebody advance something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'pay in advance' describes a transfer of funds, which is a change in financial possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the payment."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame, who receives the funds."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' in the frame, representing the money or funds that are transferred."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_relation.n.01",
+      "value_type": "prior_to_fulfillment",
+      "reasoning": "The phrase 'in advance' in the definition signifies that the payment occurs before a future obligation (e.g., service, delivery) is fulfilled, establishing a specific temporal condition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of paying is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of advancing money is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of advancing money is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of making an advance payment."
+    }
+  }
+}

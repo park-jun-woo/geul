@@ -1,0 +1,65 @@
+{
+  "synset_id": "beat.v.07",
+  "definition": "glare or strike with great intensity",
+  "frame_id": 0,
+  "frame_text": "Something is beating PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "emission.n.01",
+      "reasoning": "The definition 'glare or strike with great intensity' implies a continuous process of radiating or directing light/heat, aligning with the concept of emission.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the source and initiator of the emission process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The object of the prepositional phrase (PP) is that which is affected by the intense emission/impact."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "reasoning": "The definition explicitly states 'with great intensity', indicating that intensity is a crucial characteristic of this process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of something beating with intensity (e.g., sun, rain) is typically directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, therefore lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of beating with intensity is neutral; its sentiment depends on context (e.g., 'sun beating down' can be negative, 'rain beating on the roof' can be neutral)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is beating PP' explicitly indicates a non-volitional subject, making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, observable process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'beating' with intensity (e.g., sun beating down, rain beating on a surface) implies a continuous, highly repetitive or sustained process rather than a single event."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is beating PP' uses the present progressive tense, directly indicating a progressive aspect."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

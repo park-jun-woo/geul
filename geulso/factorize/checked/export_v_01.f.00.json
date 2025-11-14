@@ -1,0 +1,76 @@
+{
+  "synset_id": "export.v.01",
+  "definition": "sell or transfer abroad",
+  "frame_id": 0,
+  "frame_text": "Somebody export something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'transfer abroad' explicitly indicates a change in the geographical location of goods from an originating country to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the action of moving goods."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that undergoes the change of location (the goods)."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "country.n.01",
+          "reasoning": "Implied by 'abroad' in the definition, representing the foreign country to which goods are sent."
+        }
+      ]
+    },
+    {
+      "verb_type": "activity",
+      "verb_property": "economic_activity.n.01",
+      "reasoning": "The definition 'sell or transfer abroad' and the hypernym 'trade' indicate that exporting is often an economic transaction or activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who engages in this economic activity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (goods) that is the subject of the economic transaction."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Exporting is a directly observable commercial and logistical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the verb frame implies an agent acting with explicit will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exporting itself is neutral; its sentiment depends on context or outcomes."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody export something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of exporting is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the action, even if the activity itself can be repetitive."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

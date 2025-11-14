@@ -1,0 +1,68 @@
+{
+  "synset_id": "push.v.05",
+  "definition": "press against forcefully without moving",
+  "frame_id": 3,
+  "frame_text": "Something push something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "force.n.01",
+      "reasoning": "The verb describes the continuous exertion of physical force or pressure by one object onto another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity applying the force."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity receiving the applied force."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition explicitly states the action is performed 'forcefully'."
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "motion.n.03",
+      "value_type": "absence.n.01",
+      "reasoning": "The definition 'without moving' specifies that the action does not result in a change of location for the patient, indicating a state of immobility."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pressing against something is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-agentive subject for the action, lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Exerting force is a neutral act; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of force exertion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a continuous, sustained application of force rather than discrete, repeated events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

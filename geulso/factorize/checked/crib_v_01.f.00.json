@@ -1,0 +1,62 @@
+{
+  "synset_id": "crib.v.01",
+  "definition": "use a crib, as in an exam",
+  "frame_id": 0,
+  "frame_text": "Somebody crib",
+  "sememes": {
+    "CoreAction": {
+      "verb_type": "action",
+      "verb_property": "deception.n.01",
+      "reasoning": "The verb describes an intentional act of deception to gain an unfair advantage, as indicated by the definition 'use a crib' and its hypernym 'cheat'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the act of cribbing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "crib.n.01",
+          "reasoning": "The 'crib' (hidden notes or illicit aid) is the inherent instrument used in the act, as per the verb's definition 'use a crib'."
+        },
+        {
+          "semantic_role": "setting.n.01",
+          "value_type": "assessment.n.01",
+          "reasoning": "The context 'as in an exam' specifies that this deception occurs within an academic or formal assessment setting."
+        }
+      ]
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cribbing is typically directly observed or inferred from direct evidence, not solely hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'cribbing' or cheating is generally considered negative due to its dishonest nature."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody crib' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cribbing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of engaging in cheating behavior during an assessment, even if it involves multiple small actions."
+    }
+  },
+  "errors": [
+    "`sememes`가 리스트가 아닙니다."
+  ]
+}

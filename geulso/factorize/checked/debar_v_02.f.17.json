@@ -1,0 +1,56 @@
+{
+  "synset_id": "debar.v.02",
+  "definition": "prevent the occurrence of; prevent from happening",
+  "frame_id": 17,
+  "frame_text": "Something forfend something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "occurrence.n.01",
+      "reasoning": "The verb 'debar' in this sense means to prevent the occurrence of something, which is a causative action aimed at maintaining a state of non-occurrence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity that causes the prevention."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the event or entity whose occurrence is prevented."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of preventing an occurrence is typically a directly observable phenomenon or its results are."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of prevention."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something forfend something' implies a non-volitional subject ('Something'), thus lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of preventing is neutral; its sentiment depends on what is being prevented (e.g., preventing harm is positive, preventing progress is negative)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something forfend something' clearly indicates a non-volitional subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'debar' implies a definite and successful act of prevention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of preventing an occurrence."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "report.v.01",
+  "definition": "to give an account or representation of in words",
+  "frame_id": 6,
+  "frame_text": "Somebody describe PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'report' denotes an action that causes a change in the knowledge state of an implicit audience by conveying information, as indicated by the hypernym 'inform'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of reporting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'PP' in the verb frame specifies the content (information, account, or representation) that is being reported and becomes known."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "verbal.a.01",
+      "reasoning": "The definition 'to give an account or representation of *in words*' explicitly specifies the linguistic manner of conveying the information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reporting typically involves conveying information that the reporter has acquired through direct experience or reliable channels, presenting it as factual."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action of conveying information."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action of reporting is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reporting itself is neutral; the sentiment is determined by the content being reported."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s PP' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When one reports something, there is an inherent implication of certainty or belief in the information being conveyed by the reporter."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct act of giving an account."
+    }
+  }
+}

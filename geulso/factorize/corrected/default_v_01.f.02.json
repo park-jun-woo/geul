@@ -1,0 +1,54 @@
+{
+  "synset_id": "default.v.01",
+  "definition": "fail to pay up",
+  "frame_id": 2,
+  "frame_text": "Somebody default_on",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "compliance.n.01",
+      "reasoning": "The definition 'fail to pay up' describes a transition from a state of compliance with a financial obligation to a state of non-compliance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who fails to fulfill the obligation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "agreement.n.01",
+          "reasoning": "The 'on' preposition in the frame `Somebody default_on` typically refers to the underlying agreement or obligation (e.g., a loan) that is not fulfilled."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaulting is an observable financial event or status."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies agency and often a deliberate decision or failure to act on a financial commitment."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'fail to pay up' inherently carries a negative connotation, indicating an undesirable outcome or non-fulfillment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody default_on' attributes the action to a volitional agent ('Somebody'), who is responsible for the failure to meet an obligation, whether by choice or by a failure stemming from prior choices."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'default' describes a definite occurrence of failure to pay."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of failing to meet a specific obligation."
+    }
+  }
+}

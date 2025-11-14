@@ -1,0 +1,62 @@
+{
+  "synset_id": "overact.v.01",
+  "definition": "exaggerate one's acting",
+  "frame_id": 7,
+  "frame_text": "Somebody overplay something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "acting.n.01",
+      "reasoning": "The core of 'overact' is the activity of performing or acting, as indicated by the definition 'exaggerate one's acting' and the hypernym 'act.v.10'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the acting, as indicated by the verb frame 'Somebody overplay something'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a role, an emotion, a scene) that is the object of the exaggerated performance, corresponding to 'something' in the provided verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "The 'over-' prefix and the definition 'exaggerate' indicate that the acting is performed to an excessive or inappropriate degree, which is a property of the activity's intensity or manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Overacting is an observable behavior, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with intention and will to perform (and exaggerate) the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'overact' implies performing poorly or excessively, generally carrying a negative connotation in performance evaluation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of overacting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single instance or characterization of an action as exaggerated, rather than a repeating sequence of discrete events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

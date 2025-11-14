@@ -1,0 +1,61 @@
+{
+  "synset_id": "reappear.v.01",
+  "definition": "appear again",
+  "frame_id": 4,
+  "frame_text": "Something is re-emergeing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The verb describes a transition from a state of not being present/visible to being present/visible.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of state, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the verb frame indicates the location or context where the reappearance occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "temporal_relation",
+      "verb_property": "recurrence.n.01",
+      "reasoning": "The 're-' prefix in 'reappear' and 're-emergeing', along with 'again' in the definition, explicitly indicates that the appearance is a repetition or recurrence of a previous event. This is a core semantic component distinguishing it from a simple 'appear' event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of reappearing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is re-emergeing' lacks an agent capable of will, indicating no modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reappearing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is re-emergeing' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of reappearing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the verb implies a previous occurrence ('re-'), the act of 'reappearing' itself is treated as a single, discrete event in the current instance. The repetitive nature is captured in a separate sememe."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'temporal_relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

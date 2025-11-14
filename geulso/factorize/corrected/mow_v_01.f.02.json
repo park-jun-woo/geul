@@ -1,0 +1,59 @@
+{
+  "synset_id": "mow.v.01",
+  "definition": "cut with a blade or mower",
+  "frame_id": 2,
+  "frame_text": "Something cut_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb 'mow' (to cut down) describes causing a change in the physical integrity or state of the patient, typically by reducing its height or separating parts.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of cutting down, typically an inanimate instrument like a mower in this frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., grass, crops) that is subject to the cutting/mowing action, undergoing a change in integrity."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "mower.n.01",
+      "reasoning": "The definition 'cut with a blade or mower' explicitly specifies the instrument used for the cutting action, which is integral to the meaning of 'mow'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mowing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in this frame refers to an instrument (e.g., a mower) which does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mowing is inherently neutral; its positive or negative sentiment is determined by context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something cut_down something' implies an inanimate agent (e.g., a machine) performing the action, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of mowing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Mowing typically involves a continuous and highly repetitive action of cutting multiple items (e.g., blades of grass) over an area."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "synset_id": "consider.v.03",
+  "definition": "take into consideration for exemplifying purposes",
+  "frame_id": 1,
+  "frame_text": "Somebody deal PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The definition 'take into consideration for exemplifying purposes' describes an active mental process of thinking about or examining something. The 'exemplifying purposes' clarifies the specific context or goal of this cognitive process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the mental process of considering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity or topic (represented by 'PP') that is being taken into consideration."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of considering is a direct internal cognitive experience for the agent, though its external manifestation might be inferred."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a cognitive process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies an intentional and willed mental action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of considering is inherently neutral; the object of consideration or its outcome may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deal PP' explicitly includes a volitional agent ('Somebody') performing the act of consideration."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'consider' implies a definite occurrence of the mental process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or duration of taking something into consideration."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

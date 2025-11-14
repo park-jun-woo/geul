@@ -1,0 +1,66 @@
+{
+  "synset_id": "redeposit.v.02",
+  "definition": "deposit anew",
+  "frame_id": 1,
+  "frame_text": "Somebody redeposit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes causing something to be placed in a specific location, representing a change in its spatial state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of redepositing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (or object) that is being moved and placed in a new position."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the location where the patient is redeposited."
+        }
+      ]
+    },
+    {
+      "verb_type": "repetition",
+      "verb_property": "action.n.01",
+      "reasoning": "The prefix 're-' in 'redeposit' and the definition 'deposit anew' explicitly indicate that this action is a repetition of a prior deposit.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of redepositing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' agent in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of redepositing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of redepositing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the verb's meaning includes repetition (captured in a sememe), the action itself, as an individual event, is a single discrete act rather than a continuous or highly repetitive internal process like 'running'."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'repetition'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "synset_id": "etiolate.v.02",
+  "definition": "bleach and alter the natural development of (a green plant) by excluding sunlight",
+  "frame_id": 1,
+  "frame_text": "Something etiolate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The verb 'etiolate' explicitly means to 'bleach' (remove natural color), indicating a transformation in the plant's pigmentation from green to pale or yellowed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the agent initiating the change in color by excluding sunlight."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something', specifically a green plant, that undergoes the change in color."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "development.n.01",
+      "reasoning": "The verb also means to 'alter the natural development' of a plant, signifying a transformation in its growth pattern, structure, and overall health, typically resulting in elongation and weakness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the agent initiating the alteration in the plant's development."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something', specifically a green plant, whose natural development is modified."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "cause.n.01",
+      "value_type": "exclusion_of_sunlight.n.01",
+      "reasoning": "The definition explicitly states 'by excluding sunlight' as the specific mechanism or direct cause through which the bleaching and developmental alteration occur."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Etiolation is a directly observable phenomenon in plants."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', implying a non-volitional or environmental cause rather than an agent with will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Etiolation describes an unhealthy or unnatural development of a plant, which is generally considered a negative outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something etiolate something' indicates that the action is carried out by a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of change when the conditions are met."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Etiolation is a continuous process leading to a state, rather than a series of discrete, repeatable events. It represents a single, ongoing instance of change."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

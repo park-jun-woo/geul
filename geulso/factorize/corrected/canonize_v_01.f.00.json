@@ -1,0 +1,60 @@
+{
+  "synset_id": "canonize.v.01",
+  "definition": "declare (a dead person) to be a saint",
+  "frame_id": 0,
+  "frame_text": "Somebody canonise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The verb describes an official declaration that causes a change in the religious status of a deceased person.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (e.g., a religious authority) who initiates and performs the official declaration.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (a dead person) whose status is changed by the declaration.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The resulting identity or status for the patient after the canonization, explicitly stated in the definition as 'a saint'.",
+          "value_type": "saint.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Canonization is an official public act or declaration, thus it is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of canonizing is a deliberate and intentional action performed by an authorized agent ('Somebody')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb itself is neutral, describing a formal process. While the outcome (being a saint) is generally positive, the act of canonizing itself is a procedural step."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody canonize somebody' explicitly includes a volitional agent ('Somebody') performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "An official declaration of sainthood implies a definitive and certain establishment of status."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Canonization is typically a singular, distinct event for each individual being declared a saint."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "accredit.v.03",
+  "definition": "ascribe an achievement to",
+  "frame_id": 1,
+  "frame_text": "Somebody credit PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "credit.n.01",
+      "reasoning": "The verb 'accredit' describes an action that causes a change in the state of credit or recognition for a person, by formally associating them with an achievement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the act of attributing or granting credit, as specified by the verb frame. This can be an institution, a fact, or a circumstance.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' to whom the achievement is ascribed, whose state of credit or recognition is affected.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "achievement.n.01",
+          "reasoning": "The specific 'achievement' that is being ascribed or attributed, which is central to the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of accrediting or ascribing an achievement is typically a direct declaration or formal recognition."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or outcome."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame, often an inanimate entity, situation, or institution, does not typically possess 'will' in the same way a conscious agent does, even if it performs an action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Ascribing an achievement is generally perceived as positive, but the verb itself is neutral; its sentiment depends on the achievement and context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something') initiating the action, even if the action leads to a formal outcome."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'accredit' implies a formal, definite, and certain act of attribution or recognition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of ascribing an achievement."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "cast.v.03",
+  "definition": "select to play,sing, or dance a part in a play, movie, musical, opera, or ballet",
+  "frame_id": 0,
+  "frame_text": "Somebody cast somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "assignment.n.01",
+      "reasoning": "The verb 'cast' describes the action of assigning a performance role to an individual, thereby changing their professional status or task, which aligns with the hypernym 'delegate'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of selecting and assigning the role."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame who is selected and assigned the performance role."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "role.n.02",
+          "reasoning": "The implicit performance 'part' (e.g., in a play, movie) that is assigned to the patient, as explicitly stated in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of casting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will to assign a role."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of casting itself is neutral; the specific role or context might carry sentiment, but the verb's core meaning does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing the action of casting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of casting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of assigning a specific role to an individual."
+    }
+  }
+}

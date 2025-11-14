@@ -1,0 +1,63 @@
+{
+  "synset_id": "clatter.v.01",
+  "definition": "make a rattling sound",
+  "frame_id": 1,
+  "frame_text": "Somebody clack",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "sound.n.01",
+      "reasoning": "The definition 'make a rattling sound' indicates an action that causes the generation of an auditory event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action, causing the sound."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "sound.n.01",
+          "reasoning": "The sound itself is the direct result or 'patient' of the causative action, being brought into existence."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rattling.a.01",
+      "reasoning": "The term 'rattling' specifies the distinct manner or quality of the sound being produced, a core semantic component of 'clatter'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of clattering is a directly observable auditory event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject suggests the action is often performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Making a rattling sound is generally neutral; the sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody clatter' implies a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making a sound."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'rattling sound' inherently implies a series of rapid, repetitive, short sounds, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

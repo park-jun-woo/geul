@@ -1,0 +1,60 @@
+{
+  "synset_id": "model.v.05",
+  "definition": "create a representation or model of",
+  "frame_id": 3,
+  "frame_text": "Something simulate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "representation.n.01",
+      "reasoning": "The definition 'create a representation or model of' indicates the core meaning involves bringing a representation into existence, which is a change of state regarding that representation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity that performs the modeling/creation.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that is being represented or modeled.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The verb inherently implies the creation of a 'representation' or 'model' as the output of the action.",
+          "value_type": "representation.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of creating a model is generally a directly observable or experienced process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something simulate something' implies the subject 'Something' (e.g., a system, program) carries out the action, but does not inherently possess will or intention itself."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of modeling is neutral; its positive or negative sentiment depends on the context or what is being modeled."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something simulate something' implies a non-volitional subject (e.g., a machine or system) performing the action, as per the rule for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of creation or representation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, conceptual act of creating a representation. While the process itself can be iterative, the verb's core meaning denotes a singular achievement."
+    }
+  }
+}

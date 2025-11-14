@@ -1,0 +1,73 @@
+{
+  "synset_id": "pull.v.01",
+  "definition": "cause to move by pulling",
+  "frame_id": 8,
+  "frame_text": "Something force somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'cause to move by pulling' describes a change in the location or state of motion of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the pulling action, causing movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose motion is affected by the pulling action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "pulling.n.01",
+      "reasoning": "The phrase 'by pulling' in the definition explicitly describes the manner in which the movement is caused."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "compulsion.n.01",
+      "reasoning": "The verb frame 'Something force somebody' indicates that the pulling action by 'Something' is strong enough to result in a compelled movement for 'somebody', often overcoming resistance.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the compulsion or forced movement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pulling is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies that the action is not driven by an agent's inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pulling itself is neutral; its sentiment depends on context or the outcome for the patient."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something force somebody' indicates a non-volitional subject ('Something') performing the action, even if the action leads to forced movement."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or causation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'cause to move' implies a single event of achieving movement, rather than continuous repetition."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

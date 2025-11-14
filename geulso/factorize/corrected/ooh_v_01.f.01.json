@@ -1,0 +1,60 @@
+{
+  "synset_id": "ooh.v.01",
+  "definition": "express admiration and pleasure by uttering `ooh' or `aah'",
+  "frame_id": 1,
+  "frame_text": "Somebody ooh",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "expression.n.01",
+      "reasoning": "The verb describes the act of conveying an internal state or emotion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of expressing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "emotion.n.01",
+          "reasoning": "The 'admiration and pleasure' that is the content being expressed by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "vocalization.n.01",
+      "reasoning": "The definition explicitly specifies the particular sounds ('ooh' or 'aah') used to express the emotion, indicating the manner of expression."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of uttering a sound is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Expressing an emotion, especially through vocalization, is typically a deliberate and willed act by the agent."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The verb specifically expresses 'admiration and pleasure', which are positive emotions, thus imparting a positive polarity to the act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates an intentional agent performing the act of expression."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of expression, once performed, is a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'ooh' typically refers to a single, distinct utterance of the sound. While it can be repeated, the base meaning implies a single event."
+    }
+  }
+}

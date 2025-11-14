@@ -1,0 +1,59 @@
+{
+  "synset_id": "microwave.v.01",
+  "definition": "cook or heat in a microwave oven",
+  "frame_id": 2,
+  "frame_text": "Somebody nuke something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The verb 'microwave' means to cook or heat, which fundamentally involves changing the thermal state (temperature) of the object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of cooking/heating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose temperature is altered by the action, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "microwave_oven.n.01",
+      "reasoning": "The definition 'cook or heat in a microwave oven' specifies the instrument used to perform the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of microwaving is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by their will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of microwaving is neutral; the outcome determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody nuke something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of microwaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of cooking or heating."
+    }
+  }
+}

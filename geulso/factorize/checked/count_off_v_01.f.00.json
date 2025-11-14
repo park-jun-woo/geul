@@ -1,0 +1,70 @@
+{
+  "synset_id": "count_off.v.01",
+  "definition": "call in turn from right to left or from back to front numbers that determine some position or function",
+  "frame_id": 0,
+  "frame_text": "Somebody count_off something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "vocalization.n.01",
+      "reasoning": "The definition explicitly states 'call in turn ... numbers', indicating a primary action of vocal utterance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of calling out numbers, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "number.n.01",
+          "reasoning": "The 'something' being called out, which the definition identifies as 'numbers'."
+        }
+      ]
+    },
+    {
+      "verb_type": "attribute",
+      "verb_property": "sequentiality.n.01",
+      "reasoning": "The definition specifies 'in turn from right to left or from back to front', describing the ordered and spatial manner of the vocalization.",
+      "value_type": "spatial_order.n.01"
+    },
+    {
+      "verb_type": "outcome",
+      "verb_property": "designation.n.01",
+      "reasoning": "The numbers called 'determine some position or function', indicating the intended result or purpose of the counting off.",
+      "value_type": "role.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of counting off is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counting off is a neutral action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While numbers are called sequentially, the overall 'counting off' for a specific purpose (determining positions) is typically considered a single, completed event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'attribute'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'outcome'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

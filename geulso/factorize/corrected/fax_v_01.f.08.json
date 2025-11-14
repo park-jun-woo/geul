@@ -1,0 +1,58 @@
+{
+  "synset_id": "fax.v.01",
+  "definition": "send something via a facsimile machine",
+  "frame_id": 8,
+  "frame_text": "Somebody fax something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "transmission.n.01",
+      "reasoning": "The definition 'send something via a facsimile machine' describes an act of transmitting information, which is a change in the state of its location and accessibility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of sending the fax."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (document or information) that is being sent."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "facsimile_machine.n.01",
+          "reasoning": "The verb 'fax' inherently specifies the instrument used for transmission."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of faxing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of faxing is neutral; its sentiment depends on the content or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody fax something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of faxing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of sending a document."
+    }
+  }
+}

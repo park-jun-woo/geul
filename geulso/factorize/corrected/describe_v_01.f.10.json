@@ -1,0 +1,55 @@
+{
+  "synset_id": "describe.v.01",
+  "definition": "give a description of",
+  "frame_id": 10,
+  "frame_text": "Something draw somebody",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "information.n.01",
+      "reasoning": "The definition 'give a description of' implies the communication or representation of information. When the subject is 'Something' (e.g., 'The book describes...'), the verb functions more as describing a state of containing or embodying information rather than an active, volitional action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity (e.g., a text, an image) that provides or embodies the description.",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity that is being described.",
+          "value_type": "person.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A description, once produced or perceived, is typically considered direct information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about what is described or contained."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention behind the act of describing."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of describing itself is neutral; the content of the description may carry positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something [describes] somebody' implies a non-volitional subject ('Something') and thus a non-volitional action/state."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When something 'describes' another, it typically conveys information with certainty, assuming the description is factual."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "As a state of containing information, the concept of repetition is not directly applicable; it represents a continuous or singular instance of description."
+    }
+  }
+}

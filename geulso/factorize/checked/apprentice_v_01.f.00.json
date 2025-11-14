@@ -1,0 +1,52 @@
+{
+  "synset_id": "apprentice.v.01",
+  "definition": "be or work as an apprentice",
+  "frame_id": 0,
+  "frame_text": "Somebody apprentice",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "training.n.01",
+      "reasoning": "The verb 'apprentice' in this frame refers to the activity of working and learning in a specific trade or skill, which is a form of training or education, as supported by the definition 'be or work as an apprentice' and the hypernym 'train.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the individual who undertakes the activity of apprenticing, acting as the causal agent of their own training."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of apprenticing is typically a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an activity or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to undertake the role of an apprentice."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of apprenticing is semantically neutral; its positive or negative connotations depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody apprentice' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the activity or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Working or being as an apprentice is an ongoing, continuous role involving repeated tasks and learning experiences over a period, implying high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

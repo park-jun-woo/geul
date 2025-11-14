@@ -1,0 +1,63 @@
+{
+  "synset_id": "turn_in.v.01",
+  "definition": "make an entrance by turning from a road",
+  "frame_id": 0,
+  "frame_text": "Somebody turn_in",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a movement that results in a change of location, specifically entering a place.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the verb frame that performs the action of moving and entering."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'entrance' implied by the definition, which is the goal of the motion."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'road' from which the turning originates, as specified in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "turning",
+      "reasoning": "The definition explicitly states 'by turning' as the specific manner of making the entrance, which is a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of turning in (making an entrance) is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something turn_in' indicates that the grammatical subject 'Something' does not possess will or intention, aligning with the rule for non-volitional subjects."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of turning in is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something turn_in' describes an event where the non-agentive subject 'Something' is performing the action, making it inherently non-volitional by the rules for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of turning in is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'make an entrance' describes a single, discrete event of entering."
+    }
+  }
+}

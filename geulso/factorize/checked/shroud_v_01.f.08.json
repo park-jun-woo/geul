@@ -1,0 +1,68 @@
+{
+  "synset_id": "shroud.v.01",
+  "definition": "cover as if with a shroud",
+  "frame_id": 8,
+  "frame_text": "Something cover something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "visibility.n.01",
+      "reasoning": "The verb 'shroud' describes an action that changes the visibility of an object from being exposed to being covered and hence less visible or hidden.",
+      "participants": [
+        {
+          "semantic_role": "effector.n.01",
+          "reasoning": "The 'Something' that performs the action of covering, acting as the non-volitional cause as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose visibility is changed by being covered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "extent.n.01",
+      "value_type": "complete.a.01",
+      "reasoning": "The term 'shroud' implies a thorough and comprehensive covering, suggesting a complete enclosure rather than partial."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "state.n.01",
+      "value_type": "obscured.a.01",
+      "reasoning": "The act of shrouding typically results in the object becoming hidden, unclear, or mysterious, as indicated by 'as if with a shroud'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shrouding is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something cover something' indicates that the subject is not a volitional agent, therefore lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'shroud' can have somber connotations due to its association with death, the act of covering itself is semantically neutral; context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something cover something' explicitly has a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of covering."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'shroud' describes a single, completed act of covering, not an inherent repetition."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

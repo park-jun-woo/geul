@@ -1,0 +1,62 @@
+{
+  "synset_id": "warn.v.02",
+  "definition": "admonish or counsel in terms of someone's behavior",
+  "frame_id": 3,
+  "frame_text": "Somebody discourage somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "deterrence.n.01",
+      "reasoning": "The verb 'warn' in this sense, when used to 'discourage' someone, describes an action intended to prevent or deter the recipient from a specific behavior or outcome.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of discouraging/warning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose behavior or actions are being deterred by the warning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "speech_act.n.01",
+      "reasoning": "The definition 'admonish or counsel' specifies that the act of deterrence is achieved through a communicative action, making 'speech act' the manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of admonishing or counseling is a direct communicative experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of warning or discouraging is generally neutral; its positive or negative sentiment depends on the context and the behavior being discouraged."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of warning/discouraging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of warning or discouraging."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

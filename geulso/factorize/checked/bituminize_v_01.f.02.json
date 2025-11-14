@@ -1,0 +1,62 @@
+{
+  "synset_id": "bituminize.v.01",
+  "definition": "treat with bitumen",
+  "frame_id": 2,
+  "frame_text": "Something bituminise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'treat with bitumen' describes a process that alters the condition or state of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that performs the action of bituminizing, acting as the cause of the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the treatment and whose condition is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "application.n.02",
+      "value_type": "bitumen.n.01",
+      "reasoning": "The specific substance 'bitumen' is central to the manner or means by which the treatment/change occurs, as derived from the verb's etymology and definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of treating something with bitumen is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional agent (e.g., a machine or natural process), indicating no inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bituminizing itself is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bituminise something' indicates that the action is performed by a non-agentive subject ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of treatment, though the process itself might be continuous, the verb denotes the singular instance of applying the treatment."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "meter.v.02",
+  "definition": "stamp with a meter indicating the postage",
+  "frame_id": 1,
+  "frame_text": "Something meter something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "surface_condition.n.01",
+      "reasoning": "The verb describes an action that alters the surface of an object by applying a mark (a stamp).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which performs the action of stamping. This is typically an inanimate machine."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which receives the meter stamp on its surface."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value": "meter.n.01",
+      "reasoning": "The definition explicitly states the action is performed 'with a meter', indicating the specific instrument used."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value": "postage_indication.n.01",
+      "reasoning": "The definition specifies that the purpose of the stamping is 'indicating the postage'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Metering is a physical, directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' (a machine) inherently lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of metering is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (a machine) performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single instance of applying a meter stamp to an item."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "boondoggle.v.01",
+  "definition": "do useless, wasteful, or trivial work",
+  "frame_id": 0,
+  "frame_text": "Somebody boondoggle",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "work.n.01",
+      "reasoning": "The verb's definition 'do useless... work' indicates a core activity of working, aligning with its hypernym 'work.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the work."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "usefulness.n.01",
+      "value_type": "low_degree",
+      "reasoning": "The definition explicitly states the work is 'useless, wasteful, or trivial', which describes a property of low usefulness or significance inherent to the activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of boondoggling is typically a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The terms 'useless', 'wasteful', and 'trivial' inherently assign a negative sentiment to the activity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates that the action is performed intentionally by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of engaging in the specified activity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the activity itself can be prolonged, the verb 'boondoggle' describes an instance of engaging in this type of work, not inherently multiple discrete repetitions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

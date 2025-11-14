@@ -1,0 +1,72 @@
+{
+  "synset_id": "chatter.v.04",
+  "definition": "speak (about unimportant matters) rapidly and incessantly",
+  "frame_id": 5,
+  "frame_text": "Somebody gibber",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "speech.n.01",
+      "reasoning": "The verb describes the act of engaging in speech, representing a change from a state of non-speech to speech.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of speaking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The definition specifies the speech is 'about unimportant matters', implying information as the patient or topic."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "The definition explicitly states the speaking is done 'rapidly'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "continuous.a.01",
+      "reasoning": "The definition explicitly states the speaking is done 'incessantly', indicating a continuous and uninterrupted nature."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "importance.n.01",
+      "value_type": "unimportance.n.01",
+      "reasoning": "The definition specifies that the matters spoken about are 'unimportant'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chattering is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chattering itself is neutral. While the content ('unimportant matters') might sometimes imply a slightly negative judgment from an observer, it's not inherent to the sentiment of the act of speaking."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of speaking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chattering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition includes 'incessantly', which implies a high degree of repetition of speech acts (words, phrases) within the continuous action."
+    }
+  }
+}

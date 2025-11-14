@@ -1,0 +1,65 @@
+{
+  "synset_id": "grab.v.03",
+  "definition": "make a grasping or snatching motion with the hand",
+  "frame_id": 0,
+  "frame_text": "Somebody grab PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'make a grasping or snatching motion' directly describes an action involving physical movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity that is the object or target of the grasping/snatching motion, typically indicated by the Prepositional Phrase (PP) in the frame (e.g., grab *at* something, grab *for* something)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "The term 'snatching motion' inherently implies a quick, abrupt, and often forceful manner of execution."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "hand.n.01",
+      "reasoning": "The definition explicitly states that the motion is made 'with the hand'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a motion is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a grasping motion is neutral; its sentiment depends on context or intent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody grab PP' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the motion."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct motion, not a continuous or highly repetitive action by default."
+    }
+  }
+}

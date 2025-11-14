@@ -1,0 +1,64 @@
+{
+  "synset_id": "leaf.v.02",
+  "definition": "turn over pages",
+  "frame_id": 1,
+  "frame_text": "Somebody leaf something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "orientation.n.01",
+      "reasoning": "The core action of 'leaf' is to 'turn over pages', implying a change in the physical orientation or visible side of the pages.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of turning pages."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "page.n.01",
+          "reasoning": "The 'pages' (implicit in the definition 'turn over pages') are the entities whose orientation is changed."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the frame 'Somebody leaf PP' commonly specifies the book, magazine, or document that contains the pages being turned (e.g., 'leaf *through the book*')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "quickly.r.01",
+      "reasoning": "The verb 'leaf' implies turning pages rapidly or cursorily, distinguishing it from simply 'turning a page'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of turning pages is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of leafing through pages is inherently neutral; any sentiment would come from context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody leaf PP' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of leafing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'leaf' implies turning multiple pages, often quickly and repeatedly, suggesting a high degree of repetition rather than a single event."
+    }
+  }
+}

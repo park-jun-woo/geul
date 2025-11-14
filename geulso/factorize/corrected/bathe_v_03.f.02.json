@@ -1,0 +1,60 @@
+{
+  "synset_id": "bathe.v.03",
+  "definition": "clean one's body by immersion into water",
+  "frame_id": 2,
+  "frame_text": "Somebody bathe",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb 'bathe' describes the act of making one's body clean, indicating a transition from a state of being less clean to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the action of bathing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body.n.01",
+          "reasoning": "The definition 'clean one's body' implies the agent's own body as the patient, undergoing the change in cleanliness."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "immersion_in_water.n.01",
+      "reasoning": "The definition explicitly states the method of cleaning as 'by immersion into water'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Bathing is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bathing itself is a neutral process; its outcomes (cleanliness, relaxation) can be positive, but the verb is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bathe' indicates a volitional agent performing the action, as bathing is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bathing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single instance or event of bathing, not a repetitive or continuous process inherent to the verb itself."
+    }
+  }
+}

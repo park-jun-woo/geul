@@ -1,0 +1,59 @@
+{
+  "synset_id": "parrot.v.01",
+  "definition": "repeat mindlessly",
+  "frame_id": 1,
+  "frame_text": "Somebody parrot that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "utterance.n.01",
+      "reasoning": "The verb 'parrot' fundamentally means to repeat what has been said, which is a form of vocal action or utterance. The hypernym 'repeat.v.04' supports this.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity performing the act of repeating, initiating the utterance."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the content that is being repeated or uttered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mindless.a.01",
+      "reasoning": "The definition 'repeat mindlessly' explicitly states the manner of the repetition as being without thought or understanding, which is a key semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of parroting (repeating sounds) is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'mindlessly' aspect of the definition implies a lack of conscious will or intention behind the meaningful content of the utterance, even if the physical act is performed."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of parroting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The definition 'repeat mindlessly' strongly indicates a lack of conscious intent or understanding behind the repetition, making the action non-volitional in a cognitive sense. The 'Something' subject also allows for non-agentive entities, reinforcing non-volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of repetition."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The core meaning of 'repeat' inherently suggests a high degree of iterativity or continuous action."
+    }
+  }
+}

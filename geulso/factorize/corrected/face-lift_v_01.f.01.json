@@ -1,0 +1,60 @@
+{
+  "synset_id": "face-lift.v.01",
+  "definition": "perform cosmetic surgery on someone's face",
+  "frame_id": 1,
+  "frame_text": "Somebody lift something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The definition 'perform cosmetic surgery on someone's face' implies an action that alters or improves the physical condition/appearance of the face.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cosmetic surgery, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "face.n.01",
+          "reasoning": "The 'something' that undergoes the change, specifically 'someone's face' according to the verb's definition and inherent meaning."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "action.n.01",
+      "value_type": "surgical_procedure.n.01",
+      "reasoning": "The verb inherently includes the manner of change, which is 'cosmetic surgery', a specific type of surgical procedure."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Performing surgery is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Performing surgery is a deliberate act driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of performing a face-lift is neutral; the outcome or intention could be positive or negative depending on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, and surgery is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of performing surgery is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'face-lift' refers to a single, complete surgical procedure, not a continuous or highly repetitive action in the sense of 'running' or 'blinking'."
+    }
+  }
+}

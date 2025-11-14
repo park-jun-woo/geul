@@ -1,0 +1,62 @@
+{
+  "synset_id": "front.v.02",
+  "definition": "confront bodily",
+  "frame_id": 2,
+  "frame_text": "Somebody front somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "opposition.n.01",
+      "reasoning": "The verb 'front' in this context means to confront, which describes an action establishing a state of opposition or direct encounter.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' is the entity that performs the action of confronting, acting as the initiator of the opposition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' is the entity that is confronted and experiences the direct encounter."
+        }
+      ]
+    },
+    {
+      "verb_type": "attribute",
+      "verb_property": "manner.n.01",
+      "value_type": "physical.a.01",
+      "reasoning": "The definition 'confront bodily' explicitly denotes a physical or corporeal aspect of the confrontation, which is a manner attribute of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A bodily confrontation is typically a directly observable event, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates that the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'confront' often implies an adversarial or hostile interaction, suggesting a negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- somebody' indicates that the subject ('Something') is non-volitional, performing the action without conscious intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the confrontation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete instance of confrontation."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'attribute'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

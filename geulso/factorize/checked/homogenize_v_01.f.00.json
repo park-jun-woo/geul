@@ -1,0 +1,62 @@
+{
+  "synset_id": "homogenize.v.01",
+  "definition": "cause to become equal or homogeneous as by mixing",
+  "frame_id": 0,
+  "frame_text": "Somebody homogenise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "uniformity.n.01",
+      "reasoning": "The definition 'cause to become equal or homogeneous' indicates a change in the state of uniformity of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the action of making something homogeneous."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change to become homogeneous."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value": "mixing.n.01",
+      "reasoning": "The definition includes 'as by mixing', indicating a common method or manner by which homogenization occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of homogenizing is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the agent's will and intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of homogenizing itself is neutral; its sentiment depends on context or the nature of the result."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly involves a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the process of homogenization may involve repetitive steps (like mixing), the verb 'homogenize' typically refers to the singular, completed event of making something uniform."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

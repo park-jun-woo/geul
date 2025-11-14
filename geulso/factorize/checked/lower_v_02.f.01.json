@@ -1,0 +1,61 @@
+{
+  "synset_id": "lower.v.02",
+  "definition": "set lower",
+  "frame_id": 1,
+  "frame_text": "Somebody lower something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "level.n.01",
+      "reasoning": "The definition 'set lower' implies a change in the level, height, value, or intensity of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally causes the change, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose level is being changed or set lower."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "verb_property": "decrease.n.01",
+      "reasoning": "The verb 'lower' inherently denotes a reduction or downward movement in level, value, or intensity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of lowering something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of lowering is neutral; its sentiment depends on the context (e.g., lower prices vs. lower standards)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lower something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of lowering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing something to be lower, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

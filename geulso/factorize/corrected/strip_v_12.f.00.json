@@ -1,0 +1,65 @@
+{
+  "synset_id": "strip.v.12",
+  "definition": "draw the last milk (of cows)",
+  "frame_id": 0,
+  "frame_text": "Somebody strip something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "removal.n.01",
+      "reasoning": "The verb 'strip' in this context means to extract or draw something (milk) from a source, which constitutes a change by removal.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of drawing milk, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "milk.n.01",
+          "reasoning": "The 'something' being removed, which is explicitly 'milk' according to the definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "cow.n.01",
+          "reasoning": "The definition specifies '(of cows)', indicating the animal from which the milk is drawn."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "completeness.n.01",
+      "value_type": "total.a.01",
+      "reasoning": "The phrase 'draw the last milk' indicates that the removal is exhaustive or complete, signifying a total extent of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of milking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stripping milk is a routine agricultural task, which is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody strip something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of stripping milk is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The phrase 'draw the last milk' refers to a single, complete instance of the action, not repetitive or continuous milking."
+    }
+  }
+}

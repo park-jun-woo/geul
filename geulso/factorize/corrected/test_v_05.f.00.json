@@ -1,0 +1,59 @@
+{
+  "synset_id": "test.v.05",
+  "definition": "achieve a certain score or rating on a test",
+  "frame_id": 0,
+  "frame_text": "Somebody test Adjective",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'achieve a certain score or rating' describes a transition to a new state of having a specific status or outcome, which is a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of taking the test and thereby acquires a certain status or rating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "status.n.01",
+          "reasoning": "The implied 'score or rating' that is achieved, which represents a particular status or condition of the causal agent."
+        },
+        {
+          "semantic_role": "modifier.n.01",
+          "value_type": "adjective.n.01",
+          "reasoning": "The 'Adjective' in the frame specifies the characteristic or value of the achieved status (e.g., 'positive', 'good', 'poor')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Achieving a test result is typically based on direct observation or documented evidence, making it a direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an accomplished fact or outcome."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame, in the context of 'achieving' a score or rating, implies a volitional act of undertaking the test, which is driven by their will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of achieving a score itself is neutral. The sentiment (positive or negative) is conveyed by the specific adjective (e.g., 'positive' for a skill vs. 'positive' for a disease)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s Adjective' combined with the verb's definition 'achieve' implies the subject intentionally took the test or performed actions leading to the result, even if the outcome itself might be unexpected."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'achieve' implies a definite and confirmed result or score, indicating high confidence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of achieving a specific score or rating on a test."
+    }
+  }
+}

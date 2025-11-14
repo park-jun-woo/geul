@@ -1,0 +1,55 @@
+{
+  "synset_id": "mourn.v.01",
+  "definition": "feel sadness",
+  "frame_id": 0,
+  "frame_text": "Somebody mourn",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "emotion.n.01",
+      "reasoning": "The verb 'mourn' describes an internal emotional state, specifically the state of feeling an emotion, rather than an action or a physical change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the experiencer of the emotional state.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The core semantic content of the emotion being experienced is sadness, which is the 'object' of the feeling.",
+          "value_type": "sadness.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Feeling sadness is a direct, internal experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an emotional state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Feeling an emotion like sadness is generally not an act of will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Sadness is inherently a negative emotion."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Mourning, as defined by 'feel sadness', is an emotional state that happens to a person, not an intentional act they perform. Similar to 'know' or 'see', it is largely non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite and certain experience of sadness."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Mourning represents a continuous, possibly prolonged state rather than a distinct, repetitive action. For states, it is treated as a single, ongoing instance."
+    }
+  }
+}

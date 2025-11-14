@@ -1,0 +1,59 @@
+{
+  "synset_id": "supply.v.01",
+  "definition": "give something useful or necessary to",
+  "frame_id": 16,
+  "frame_text": "Something furnish somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'give something useful or necessary to' clearly indicates a transfer of possession, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity that performs the action of furnishing or supplying.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "commodity.n.01",
+          "reasoning": "The 'something useful or necessary' from the definition represents the object whose possession is transferred, even if not explicitly present in the surface verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the verb frame is the entity that receives the supplied item."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of supplying or furnishing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Given the 'Something' subject in the frame, the action is not inherently driven by conscious will, even if an organization (represented as 'Something') has underlying human will. We adhere to the literal subject type."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of supplying itself is semantically neutral; its positive or negative connotation depends on context or the nature of what is supplied."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something furnish somebody' indicates a non-volitional or non-agentive subject ('Something'), following the provided rule for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action of providing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'supply' in this frame refers to a single, complete act of providing."
+    }
+  }
+}

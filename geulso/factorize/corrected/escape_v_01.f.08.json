@@ -1,0 +1,60 @@
+{
+  "synset_id": "escape.v.01",
+  "definition": "run away from confinement",
+  "frame_id": 8,
+  "frame_text": "Something get_away",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'escape' describes a transition from a state of confinement to a state of being free, involving a change of location.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame that undergoes the change of location and state of confinement."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "confinement.n.01",
+          "reasoning": "The definition 'run away from confinement' explicitly identifies the origin or initial state from which the subject moves."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition 'run away from confinement' includes 'run away', indicating a rapid manner of movement as a core characteristic of escaping."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something getting away is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something get_away' implies that the subject ('Something') may not possess will or intention (e.g., gas escaping), thus Modality is neutral or non-volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of escaping itself is neutral; its positive or negative sentiment depends on the context and the nature of what is escaping."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Given the frame 'Something get_away', the subject 'Something' can be inanimate (e.g., water, gas), making the action non-volitional. Even for animate subjects, the frame doesn't explicitly denote intentionality, defaulting to neutral or non-volitional in the absence of 'Somebody'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome of getting away."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'run away' implies a continuous and highly repetitive action (running steps) that constitutes the escape. This is consistent with the iterativity of 'run'."
+    }
+  }
+}

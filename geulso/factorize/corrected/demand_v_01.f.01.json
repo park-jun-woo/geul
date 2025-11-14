@@ -1,0 +1,66 @@
+{
+  "synset_id": "demand.v.01",
+  "definition": "request urgently and forcefully",
+  "frame_id": 1,
+  "frame_text": "Somebody demand that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb fundamentally describes the act of making a request, as indicated by its hypernym 'request.v.01' and definition 'request urgently'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of making the demand, initiating the communication."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' specifies the content of the demand, representing a desired state or action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forcefulness.n.01",
+      "reasoning": "The definition explicitly states that the request is made 'forcefully', indicating a specific manner of communication."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "urgency.n.01",
+      "reasoning": "The definition explicitly states that the request is made 'urgently', indicating a specific temporal pressure or manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of demanding is typically a directly observable or experienced communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action performed by an agent."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by the agent's strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of demanding itself is neutral; the content or context of the demand may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When someone demands, they typically do so with certainty about their request."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a demand."
+    }
+  }
+}

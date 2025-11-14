@@ -1,0 +1,66 @@
+{
+  "synset_id": "nuzzle.v.02",
+  "definition": "rub noses",
+  "frame_id": 2,
+  "frame_text": "Something nose",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.02",
+      "reasoning": "The verb describes an action that brings about or maintains physical contact, specifically through rubbing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates and performs the action of nuzzling, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "entity.n.01",
+          "reasoning": "The implicit entity (another creature or surface) against which the 'Something' rubs its nose, which is necessary for the definition 'rub noses'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "affectionate.a.01",
+      "reasoning": "The hypernym 'caress' suggests that the rubbing action is performed in a gentle or affectionate manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "nose.n.01",
+      "reasoning": "The definition 'rub noses' explicitly identifies the nose as the body part used to perform the rubbing action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Nuzzling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Something nose' implies an agent (the 'Something') performing an action with intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'rub noses' and the hypernym 'caress' suggest an affectionate and thus positive action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Something' in the frame is an agent that intentionally performs the action of nuzzling, even if it's an animal."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of nuzzling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'rubbing' often implies continuous or highly repetitive small movements, suggesting high iterativity rather than a single discrete event."
+    }
+  }
+}

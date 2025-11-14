@@ -1,0 +1,67 @@
+{
+  "synset_id": "distribute.v.01",
+  "definition": "administer or bestow, as in small portions",
+  "frame_id": 13,
+  "frame_text": "Somebody distribute something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'administer or bestow' implies a transfer of items, resulting in a change of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of distributing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being distributed, undergoing a change of possession."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the distributed items, introduced by the preposition 'to'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "divided_into_portions.n.01",
+      "reasoning": "The definition explicitly includes 'as in small portions', which describes the manner in which the items are bestowed or administered."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple action of distribution without specifying ongoing nature or completion status."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of distributing is neutral; its positive or negative sentiment depends on context or what is distributed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody distribute...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of distribution is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'distribute' inherently implies a process of giving out items, often in multiple instances or to multiple recipients, and the phrase 'as in small portions' reinforces a repetitive or iterative nature of allocation, suggesting high repetition."
+    }
+  }
+}

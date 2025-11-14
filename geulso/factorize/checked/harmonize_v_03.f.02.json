@@ -1,0 +1,58 @@
+{
+  "synset_id": "harmonize.v.03",
+  "definition": "sing or play in harmony",
+  "frame_id": 2,
+  "frame_text": "Somebody harmonize",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "musical_performance.n.01",
+      "reasoning": "The verb describes the act of singing or playing, which is a form of musical performance or production of sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of harmonizing."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "harmony.n.02",
+      "reasoning": "The 'in harmony' part of the definition specifies a core characteristic or manner of the musical performance, distinguishing it from other forms of singing or playing.",
+      "value_type": "harmonious.a.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of harmonizing is directly observable (audible)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody harmonize' implies that the agent performs the action with intent and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of harmonizing itself is neutral; the resulting music might evoke sentiment, but the verb's core meaning does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Harmonizing involves a continuous, unfolding series of musical sounds or actions over a period, rather than a single discrete event, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "synset_id": "shadow.v.01",
+  "definition": "follow, usually without the person's knowledge",
+  "frame_id": 1,
+  "frame_text": "Somebody shadow something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'shadow' describes a continuous act of moving behind another, implying a change in relative location or trajectory.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one performing the action of shadowing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity being followed/shadowed, undergoing the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stealthy.a.01",
+      "reasoning": "The definition 'usually without the person's knowledge' implies a discreet or hidden manner of following, which is central to the meaning of 'shadow'."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "observation.n.01",
+      "reasoning": "Shadowing is typically performed with the intention of observing or surveilling the target, even if not explicitly stated in the definition, it is strongly implied by the 'without knowledge' aspect."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shadowing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies an intentional, willed action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of shadowing, especially 'without the person's knowledge', often carries negative connotations like spying, surveillance, or harassment, making its inherent sentiment negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of shadowing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Shadowing is a continuous, sustained activity involving repeated acts of following over a period, implying high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

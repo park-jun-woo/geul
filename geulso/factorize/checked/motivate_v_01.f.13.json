@@ -1,0 +1,61 @@
+{
+  "synset_id": "motivate.v.01",
+  "definition": "give an incentive for action",
+  "frame_id": 13,
+  "frame_text": "Somebody prompt somebody to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb 'motivate' describes the act of causing someone to undertake an action by providing an incentive, thus initiating a change in their behavior.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame acts as the agent who provides the incentive, thereby initiating the causation of action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' is the individual who is affected by the incentive and is prompted to act, making them the direct recipient of the motivational effort."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'to INFINITIVE' clause specifies the particular activity or action that is the direct outcome or result of the motivation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of motivating is typically a directly observable interaction or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the subject of 'prompt' implies that the action is carried out with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of motivating itself is neutral; the purpose or outcome of the motivation determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody prompt somebody to INFINITIVE' explicitly indicates a volitional agent ('Somebody') performing the act of prompting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of giving an incentive, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'motivate' in this frame typically describes a single instance or a concentrated effort of providing an incentive, rather than continuous repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "turtle.v.02",
+  "definition": "hunt for turtles, especially as an occupation",
+  "frame_id": 0,
+  "frame_text": "Somebody turtle",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "hunt.n.01",
+      "reasoning": "The definition 'hunt for turtles' directly specifies hunting as the core activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of hunting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "turtle.n.01",
+          "reasoning": "The verb 'turtle' intrinsically refers to hunting for turtles, making 'turtles' the specific patient of the hunting action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hunting is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hunting is neutral; its sentiment depends on context and perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody turtle' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'especially as an occupation' strongly suggests that this type of hunting is a recurring, highly repetitive activity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

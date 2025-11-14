@@ -1,0 +1,71 @@
+{
+  "synset_id": "chop.v.01",
+  "definition": "cut into pieces",
+  "frame_id": 3,
+  "frame_text": "Something chop_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb 'chop' describes an action that causes a physical alteration to an object, specifically reducing its structural integrity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the non-volitional cause or instrument of the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' that undergoes the change of state by being cut."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "form.n.01",
+      "value_type": "pieces.n.01",
+      "reasoning": "The definition 'cut into pieces' explicitly denotes the resulting state of the patient after the action, where its form is altered into multiple parts.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose final form is in pieces due to the chopping action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "striking.a.01",
+      "reasoning": "The verb 'chop' inherently implies a forceful, typically downward, striking motion, distinguishing it from a general 'cut'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chopping is a physical action that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (instrument or natural force), thus no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chopping is neutral; its sentiment depends on context or the object being chopped."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-agentive 'Something' as the actor, indicating a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chopping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'chop up' something typically involves multiple, repetitive cutting actions rather than a single event, indicating high iterativity."
+    }
+  }
+}

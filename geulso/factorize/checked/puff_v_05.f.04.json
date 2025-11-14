@@ -1,0 +1,62 @@
+{
+  "synset_id": "puff.v.05",
+  "definition": "praise extravagantly",
+  "frame_id": 4,
+  "frame_text": "Something puff somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "approval.n.01",
+      "reasoning": "The definition 'praise extravagantly' indicates an act of expressing positive judgment or commendation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity that performs or generates the communication of praise."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' is the recipient or target of the praise."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "The adverb 'extravagantly' in the definition specifies an excessive or exaggerated degree of praise."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'puffing' (praising extravagantly) is typically a directly observable or reported event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-human or abstract agent, which does not possess will in the human sense."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The verb 'praise' inherently carries a positive sentiment, further emphasized by 'extravagantly'."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' implies that a non-volitional entity ('Something') is performing the action, meaning it lacks intentionality in the human sense."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of 'puffing' is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single instance of extravagant praise, though it could occur repeatedly in broader context, the verb itself implies one act."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "synset_id": "murmur.v.02",
+  "definition": "make complaining remarks or noises under one's breath",
+  "frame_id": 10,
+  "frame_text": "Somebody murmur PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "vocal_production.n.01",
+      "reasoning": "The definition 'make complaining remarks or noises' describes the act of producing vocal sounds.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of vocalizing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' in the frame often refers to the subject of the complaining remarks (e.g., murmur about something), acting as the topic."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "low_volume.a.01",
+      "reasoning": "The phrase 'under one's breath' in the definition specifies a low-volume, indistinct manner of vocalization."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "expression.n.01",
+      "value_type": "discontent.n.01",
+      "reasoning": "The definition 'complaining remarks' indicates that the vocalization expresses a feeling of dissatisfaction or protest."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of murmuring is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'complaining remarks' aspect inherently carries a negative sentiment, reflecting dissatisfaction."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' indicates a volitional agent intentionally making remarks or noises."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of murmuring is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Murmuring typically involves a continuous or repeated act of vocalization, not a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

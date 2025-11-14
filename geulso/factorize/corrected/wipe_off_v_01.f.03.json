@@ -1,0 +1,59 @@
+{
+  "synset_id": "wipe_off.v.01",
+  "definition": "remove by wiping",
+  "frame_id": 3,
+  "frame_text": "Something wipe_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'remove by wiping' describes a change in the location of an object, from being on a surface to being off it.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'Something' that performs the wiping action, acting as an inanimate instrument as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (object) that undergoes the change in location by being removed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "reasoning": "The manner involves the act of wiping, characterized by a rubbing motion.",
+      "value_type": "wipe.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wiping something off is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is inanimate, thus incapable of having will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of removing something by wiping is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something wipe_off something' indicates that the subject 'Something' is inanimate and therefore cannot perform the action volitionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of removal."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wiping often involves continuous or highly repetitive motions to achieve the act of removal."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "synset_id": "give_the_axe.v.02",
+  "definition": "terminate a relationship abruptly",
+  "frame_id": 2,
+  "frame_text": "Somebody give_the_gate somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "relationship.n.01",
+      "reasoning": "The definition 'terminate a relationship abruptly' describes a change of state for a relationship, from existing to non-existing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the verb frame is the entity initiating the action of termination."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the verb frame is the person directly affected by the termination of the relationship (e.g., the one being dismissed)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "relationship.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the abstract relationship or association itself that is being brought to an end, affecting the 'somebody'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abruptly.r.01",
+      "reasoning": "The definition explicitly states 'abruptly', indicating a sudden and unexpected manner of termination."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of terminating a relationship is typically a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies the action is performed with intention and will."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The idiom 'give the gate' (like 'give the axe') is generally considered informal slang for dismissal, indicating an informal politeness level."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of terminating a relationship abruptly, especially through an idiom like 'give the axe/gate', typically carries a negative connotation for the person being terminated."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The termination of a relationship is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Terminating a specific relationship is typically a single, distinct event."
+    }
+  }
+}

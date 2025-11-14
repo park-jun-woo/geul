@@ -1,0 +1,65 @@
+{
+  "synset_id": "project.v.12",
+  "definition": "regard as objective",
+  "frame_id": 5,
+  "frame_text": "Somebody project something PP",
+  "sememes": [
+    {
+      "verb_type": "mental_action",
+      "verb_property": "attribution.n.01",
+      "reasoning": "The definition 'regard as objective' and the hypernym 'impute' (attribute or credit to) clearly point to a mental action of assigning a quality or characteristic.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent who performs the mental act of projecting or attributing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame refers to the idea, quality, feeling, or content that is being projected or attributed by the agent."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the target or entity onto which the 'something' is projected or to which it is attributed, aligning with the sense of 'impute X to Y'."
+        },
+        {
+          "semantic_role": "result_state.n.01",
+          "value": "objective.a.01",
+          "reasoning": "The 'as objective' part of the definition describes the quality or state that the projected 'something' is regarded as possessing during the act of projection."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of projecting in this sense is a cognitive process, experienced directly by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies that the mental act of projecting, even if subconscious, is driven by the agent's will or internal processes."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of projecting or attributing is neutral; its sentiment depends on the specific 'something' being projected and the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' indicates a volitional agent. Even subconscious psychological projection is an active, agent-driven process, implying volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'regard as objective' implies a high degree of certainty in that interpretation or attribution by the projector."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular mental event of attribution. Repetition would require explicit modifiers."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'mental_action'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

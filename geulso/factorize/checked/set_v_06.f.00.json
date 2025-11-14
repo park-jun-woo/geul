@@ -1,0 +1,73 @@
+{
+  "synset_id": "set.v.06",
+  "definition": "fix in a border",
+  "frame_id": 0,
+  "frame_text": "Somebody set something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the fundamental action of causing an object to be placed or moved, thus changing its location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally carries out the action of placing the object."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose location is changed by the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "resultant_state",
+      "verb_property": "condition.n.01",
+      "reasoning": "The placement described by the verb results in the object achieving a specific condition of being fixed and situated within a border.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fixed.a.01",
+          "reasoning": "The 'something' is caused to be in a 'fixed' condition, implying stability and immobility."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "border.n.01",
+          "reasoning": "The action positions the 'something' with a spatial constraint, specifically 'in a border'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of setting something is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of setting is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of setting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of placing and fixing something."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'resultant_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

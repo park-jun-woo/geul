@@ -1,0 +1,59 @@
+{
+  "synset_id": "shoot.v.01",
+  "definition": "hit with a missile from a weapon",
+  "frame_id": 4,
+  "frame_text": "Somebody shoot somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "injury.n.01",
+      "reasoning": "The definition 'hit with a missile from a weapon' directly implies causing bodily harm or injury, which is a change in the physical state of the target.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the action of shooting and causing injury, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the shooting and suffers the injury."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "weapon.n.01",
+      "reasoning": "The action of 'shooting' inherently involves the use of a weapon that propels a missile, as described in the definition 'with a missile from a weapon'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of shooting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies a deliberate action driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of shooting someone with a weapon, implying injury or harm, is inherently a negative event."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shooting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct event of shooting, even if part of a larger sequence of actions."
+    }
+  }
+}

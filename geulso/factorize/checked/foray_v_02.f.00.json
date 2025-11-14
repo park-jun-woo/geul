@@ -1,0 +1,79 @@
+{
+  "synset_id": "foray.v.02",
+  "definition": "briefly enter enemy territory",
+  "frame_id": 0,
+  "frame_text": "Somebody foray PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'foray' describes a physical movement of entering a location, which constitutes a change in spatial state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., a military unit or group) that initiates the movement into a specific territory, acting as the agent of change."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The territory or location that is entered, indicated by the Prepositional Phrase (PP) in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "short.a.01",
+      "reasoning": "The definition explicitly states that the entry is to be 'briefly', indicating a short duration for the action."
+    },
+    {
+      "verb_type": "circumstance",
+      "verb_property": "hostility.n.01",
+      "reasoning": "The definition specifies 'enemy territory', indicating that the action occurs within a hostile context or environment, which is a significant circumstance of the foray."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of foraying is typically a directly observable event, especially in a military context."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "A 'foray' is a deliberate and intentional action, implying strong will on the part of the agent, even if that agent is collectively 'Something' (e.g., an army)."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb frame 'Something is foraying' uses the present continuous tense."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is foraying' indicates a progressive aspect, focusing on the ongoing nature of the action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "No specific politeness level is inherent in the verb 'foray'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While occurring in a hostile context, the act of foraying itself is a neutral strategic action, not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of foraying is an intentional and deliberate action undertaken by an agent (represented by 'Something' in this context, e.g., a military unit)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'foray' describes a definite action occurring, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A 'foray' typically refers to a single, distinct instance of entering, even if it has a brief duration. It is not inherently repetitive in its nature like, for instance, 'walking' or 'breathing'."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'circumstance'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

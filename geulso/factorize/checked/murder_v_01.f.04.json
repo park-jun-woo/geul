@@ -1,0 +1,61 @@
+{
+  "synset_id": "murder.v.01",
+  "definition": "kill intentionally and with premeditation",
+  "frame_id": 4,
+  "frame_text": "Somebody off somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "death.n.01",
+      "reasoning": "The definition 'kill intentionally' and the hypernym 'cause to die' indicate the verb's core meaning is causing the state of death.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame represents the agent who causes the death."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame represents the individual who is killed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "premeditation.n.01",
+      "reasoning": "The definition explicitly includes 'with premeditation,' which is a defining characteristic of murder distinguishing it from other forms of killing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of murder is generally a directly observable event, or its outcome is directly evident."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'intentionally and with premeditation' implies a strong will and conscious decision by the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of murder is inherently and universally considered a negative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'kill intentionally' explicitly marks the action as volitional, driven by the agent's will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of the act."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single, completed act of killing, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

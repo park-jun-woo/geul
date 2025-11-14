@@ -1,0 +1,53 @@
+{
+  "synset_id": "buzz.v.01",
+  "definition": "make a buzzing sound",
+  "frame_id": 0,
+  "frame_text": "Something bombilate",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "sound.n.02",
+      "value_type": "buzz.n.01",
+      "reasoning": "The verb 'buzz' describes the act of causing or producing a specific type of auditory phenomenon, as indicated by the definition 'make a buzzing sound'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that produces the buzzing sound, as specified by the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of buzzing produces a sound that is directly experienced or heard."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no will or intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of buzzing is generally neutral; its sentiment depends on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something buzz' indicates a non-volitional subject performing the action, as 'Something' lacks intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of buzzing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Buzzing typically describes a continuous or highly repetitive sound rather than a single, discrete event, like the sound of a bee."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

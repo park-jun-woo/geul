@@ -1,0 +1,66 @@
+{
+  "synset_id": "reconsider.v.01",
+  "definition": "consider again; give new consideration to; usually with a view to changing",
+  "frame_id": 1,
+  "frame_text": "Somebody reconsider something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognitive_process.n.01",
+      "reasoning": "The definition 'consider again; give new consideration to' explicitly points to a mental process of thinking and evaluation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental action of reconsidering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'VERB-ing' phrase refers to the action or proposition that is the object of reconsideration."
+        }
+      ]
+    },
+    {
+      "verb_type": "temporal_modifier",
+      "verb_property": "repetition.n.01",
+      "value": "previous_occurrence",
+      "reasoning": "The prefix 're-' and the word 'again' in the definition 'consider again' indicate that the cognitive process has occurred before relative to the current instance."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "change.n.01",
+      "value": "potential_modification",
+      "reasoning": "The phrase 'with a view to changing' explicitly states the intended purpose or potential outcome of the reconsideration."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reconsidering is a direct cognitive experience for the agent performing the action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Reconsidering is an intentional mental action, implying strong will on the part of the agent ('Somebody')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reconsidering itself is neutral. The outcome or the subject of reconsideration might carry sentiment, but not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody reconsider...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reconsidering is described as a definite occurrence or initiation of a process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'reconsider' describes a single event of initiating a renewed cognitive process. The 'again' aspect, indicating prior occurrence, is captured in a dedicated sememe rather than making this event itself highly iterative."
+    }
+  }
+}

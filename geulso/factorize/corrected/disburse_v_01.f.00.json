@@ -1,0 +1,58 @@
+{
+  "synset_id": "disburse.v.01",
+  "definition": "expend, as from a fund",
+  "frame_id": 0,
+  "frame_text": "Somebody disburse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'expend' and the hypernym 'pay' describe a change in the state of who possesses money or funds, from the agent to a recipient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the expenditure of funds, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' that is expended, which is typically money or funds."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The verb 'disburse' (to expend or pay) inherently implies a recipient, even if not explicitly stated as a direct argument in this syntactic frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disbursing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to expend funds."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disbursing is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of disbursing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of expending funds. Repetition would be described by modifiers rather than being inherent to the verb itself."
+    }
+  }
+}

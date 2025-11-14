@@ -1,0 +1,53 @@
+{
+  "synset_id": "menace.v.02",
+  "definition": "express a threat either by an utterance or a gesture",
+  "frame_id": 1,
+  "frame_text": "Something menace somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "threat.n.01",
+      "reasoning": "The definition 'express a threat' indicates that the verb involves conveying information, specifically a threat, thus belonging to the communication verb type with 'threat' as its core property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that expresses or emits the threat."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the target or recipient of the threat."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of menacing (expressing a threat) is typically directly perceivable or inferable from direct observation of actions/gestures."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something menace somebody' implies a non-volitional subject, therefore lacking an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A 'threat' is inherently negative in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something menace somebody' indicates a non-volitional subject ('Something') as the source of the menace, meaning the action is not intentionally performed."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of expressing a threat."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of expressing a threat, though such an act can be repeated, the verb itself does not encode repetition."
+    }
+  }
+}

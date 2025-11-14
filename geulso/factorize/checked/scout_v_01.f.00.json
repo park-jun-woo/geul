@@ -1,0 +1,62 @@
+{
+  "synset_id": "scout.v.01",
+  "definition": "explore, often with the goal of finding something or somebody",
+  "frame_id": 0,
+  "frame_text": "Somebody reconnoiter",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "search.n.01",
+      "reasoning": "The verb describes an ongoing activity or process of exploration with the aim of discovery.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of scouting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "entity.n.01",
+          "reasoning": "The implicit 'something' or 'somebody' that is the object of the search or the area being explored, as indicated by the definition ('finding something or somebody')."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "discovery.n.01",
+          "reasoning": "The definition explicitly states the goal of scouting is 'finding something or somebody', which corresponds to discovery."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scouting is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of scouting is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody scout' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Scouting or exploring is typically a continuous activity involving repeated actions (e.g., observing, moving, checking) over a period, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

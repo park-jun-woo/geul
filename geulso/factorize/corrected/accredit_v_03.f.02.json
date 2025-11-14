@@ -1,0 +1,58 @@
+{
+  "synset_id": "accredit.v.03",
+  "definition": "ascribe an achievement to",
+  "frame_id": 2,
+  "frame_text": "Somebody credit somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attribution.n.01",
+      "reasoning": "The verb describes an action that changes the conceptual state of who an achievement is attributed to, moving from a state of non-attribution to attribution.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of ascribing credit, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "achievement.n.01",
+          "reasoning": "The 'achievement' which is the subject of attribution, explicitly mentioned in the verb's definition, even if not syntactically realized as a direct object in this specific frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The entity (person or group) to whom the achievement is ascribed, indicated by the 'PP' (prepositional phrase) in the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of accrediting is a direct speech act or judgment made by an agent, implying direct knowledge of the attribution."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an act of attribution."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ascribing credit is neutral; the sentiment depends on the nature of the achievement or the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody credit PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'accredit' implies a definite act of assigning responsibility or praise, suggesting high certainty in the attribution."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of attributing an achievement."
+    }
+  }
+}

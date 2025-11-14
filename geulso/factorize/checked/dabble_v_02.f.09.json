@@ -1,0 +1,75 @@
+{
+  "synset_id": "dabble.v.02",
+  "definition": "play in or as if in water, as of small children",
+  "frame_id": 9,
+  "frame_text": "Something is splash_arounding PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "play.n.01",
+      "reasoning": "The definition 'play in or as if in water' establishes the core meaning as a playful activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity performing the activity, capable of 'play' as suggested by the definition."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "water.n.01",
+          "reasoning": "The activity explicitly takes place 'in or as if in water' according to the definition, specifying the medium/location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "splashing_around",
+      "reasoning": "The frame 'splash_arounding' directly indicates the specific manner of performing the activity, involving agitation of water."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling/playing in water is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The verb 'play' and the phrase 'as of small children' in the definition strongly imply an agent acting with will and intention, even if the subject is 'Something'."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The 'is' in 'Something is splash_arounding' indicates a present tense action."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is splash_arounding' uses the progressive form, indicating an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling or playing in water is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition's focus on 'play' and 'small children' indicates a volitional action, despite the generic 'Something' in the frame, as 'play' inherently requires an agent capable of intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'splashing around' implies continuous, highly repetitive smaller actions, indicative of high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

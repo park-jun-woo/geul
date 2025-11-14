@@ -1,0 +1,60 @@
+{
+  "synset_id": "model.v.04",
+  "definition": "display (clothes) as a mannequin",
+  "frame_id": 0,
+  "frame_text": "Somebody model",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presentation.n.01",
+      "reasoning": "The verb describes the act of causing clothes to be displayed, which is a change in their state of presentation (from not presented to presented).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of displaying/presenting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "clothing.n.01",
+          "reasoning": "The 'clothes' (explicitly mentioned in the definition) that are being displayed and undergo the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mannequin-like.a.01",
+      "reasoning": "The definition 'as a mannequin' specifies the particular manner or style in which the display/presentation is carried out."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of modeling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of modeling is neutral; any positive or negative sentiment depends on the context of the display or the clothes themselves."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody model' explicitly indicates a volitional agent ('Somebody') performing the action of modeling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of modeling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of displaying a set of clothes, rather than a continuous or highly repetitive action inherent in the verb itself (though a person may model many times)."
+    }
+  }
+}

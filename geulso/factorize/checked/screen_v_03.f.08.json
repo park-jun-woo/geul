@@ -1,0 +1,56 @@
+{
+  "synset_id": "screen.v.03",
+  "definition": "examine in order to test suitability",
+  "frame_id": 8,
+  "frame_text": "Something screen somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "suitability.n.01",
+      "reasoning": "The verb describes a process of systematic examination and judgment aimed at determining if an entity meets specific criteria of fitness or appropriateness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates or performs the screening process, as specified by the verb frame. It acts as a non-volitional agent or an instrument."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being examined and evaluated for their suitability."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of screening involves direct observation or application of criteria to the entity being screened."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ---- somebody' implies a non-volitional subject ('Something'), thus lacking intentional will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The process of screening is neutral; its outcome (suitable/unsuitable) determines the sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- somebody' indicates that the subject ('Something') is not a volitional agent, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of examination."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of examining one entity for suitability. While the examination process itself may have multiple steps, 'to screen somebody' refers to the singular event of that assessment."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

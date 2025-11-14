@@ -1,0 +1,58 @@
+{
+  "synset_id": "underachieve.v.01",
+  "definition": "perform less well or with less success than expected",
+  "frame_id": 3,
+  "frame_text": "Something underperform",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "performance.n.01",
+      "reasoning": "The verb describes the act or continuous process of an entity carrying out tasks or functions, as indicated by 'perform' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that executes the performance, whether volitionally or not."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "below_expectation.a.01",
+      "reasoning": "The definition 'perform less well or with less success than expected' specifies the distinguishing characteristic or manner of the performance as being lower than anticipated. This is a core part of the verb's meaning, not a general qualifier."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Statements about an entity's performance are typically based on direct observation or measurable results."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact about performance."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something underperform' implies a subject that may not possess will (e.g., a system, a stock), thus reflecting no inherent will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'underachieve' inherently carries a negative connotation, indicating a shortfall or lack of success."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something underperform' indicates that the subject ('Something') can be non-volitional (e.g., a machine, an economy), making the action non-volitional in this general frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When one states that something 'underachieves', it is typically presented as a factual assessment with certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb can describe a single instance of falling short or an ongoing state of underperformance. For a descriptive state or a single evaluation, it is treated as a single instance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

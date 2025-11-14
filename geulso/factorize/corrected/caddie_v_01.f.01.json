@@ -1,0 +1,70 @@
+{
+  "synset_id": "caddie.v.01",
+  "definition": "act as a caddie and carry clubs for a player",
+  "frame_id": 1,
+  "frame_text": "Somebody caddy",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "service.n.01",
+      "reasoning": "The verb describes the activity of performing a service in a specific role, as indicated by 'act as a caddie'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the service, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "beneficiary.n.01",
+          "value_type": "player.n.01",
+          "reasoning": "The definition explicitly states 'for a player', identifying the recipient of the caddie's service."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "carry.v.01",
+      "reasoning": "A primary component of acting as a caddie is the physical action of 'carrying clubs'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of carrying, consistent with the service provider."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "golf_club.n.01",
+          "reasoning": "The 'clubs' are the objects being carried, as stated in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Acting as a caddie and carrying clubs are directly observable actions."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an agent acting with will and intention to perform the duties of a caddie."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of caddying is inherently neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody caddy' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Caddying involves a continuous and repetitive set of tasks (carrying, advising, retrieving) throughout a round of golf, indicating high repetition rather than a single event."
+    }
+  }
+}

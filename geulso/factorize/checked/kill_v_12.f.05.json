@@ -1,0 +1,61 @@
+{
+  "synset_id": "kill.v.12",
+  "definition": "mark for deletion, rub off, or erase",
+  "frame_id": 5,
+  "frame_text": "Something wipe_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The definition 'mark for deletion, rub off, or erase' describes a change from a state of presence to absence, or a state of being legible to being illegible.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the deletion or erasure."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change, being marked for deletion, rubbed off, or erased."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "value": "removing_mark.n.01",
+      "reasoning": "The phrases 'rub off' and 'erase' denote a specific manner of removing or eliminating something, typically a mark or information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wiping out or erasing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is inanimate and therefore lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of erasing or deleting is generally neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate 'Something') causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wiping out is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of removal or deletion for a specific item, even if the method ('rub off') implies a process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

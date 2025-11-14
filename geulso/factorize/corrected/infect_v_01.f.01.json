@@ -1,0 +1,58 @@
+{
+  "synset_id": "infect.v.01",
+  "definition": "communicate a disease to",
+  "frame_id": 1,
+  "frame_text": "Somebody infect somebody with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'infect' describes the act of causing someone to acquire or 'possess' a disease, representing a change in their state of health, similar to 'give' which is a hypernym involving transfer of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who communicates the disease, thus initiating the change."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the one to whom the disease is communicated, becoming the recipient of the infection."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "disease.n.01",
+          "reasoning": "The 'something' in the frame refers to the specific disease or infectious agent that is transferred or communicated, acting as the object of possession/transfer."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of infecting can be a directly observed event or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies a volitional act driven by will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Communicating a disease is inherently a negative outcome for the recipient."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of infecting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of communicating a disease."
+    }
+  }
+}

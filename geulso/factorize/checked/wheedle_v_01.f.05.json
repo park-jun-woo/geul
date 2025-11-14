@@ -1,0 +1,66 @@
+{
+  "synset_id": "wheedle.v.01",
+  "definition": "influence or urge by gentle urging, caressing, or flattering",
+  "frame_id": 5,
+  "frame_text": "Somebody sweet-talk somebody into V-ing something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb 'wheedle' means to 'influence or urge' someone 'into V-ing something', indicating that the agent causes the patient to perform an action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who applies the gentle urging or flattering to influence the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is influenced or urged to act by the agent."
+        },
+        {
+          "semantic_role": "resultant_action.n.01",
+          "reasoning": "The 'V-ing something' which is the action that the patient is persuaded to do as a result of the wheedling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "coaxing_and_flattery",
+      "reasoning": "The definition explicitly states the manner of influence: 'by gentle urging, caressing, or flattering', which describes a coaxing and often flattering approach to persuasion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wheedling is a directly observable interaction between individuals."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action of persuasion."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to influence another."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "While 'gentle,' 'wheedle' often carries a connotation of subtle manipulation or insincere flattery to achieve a desired outcome, giving it a slightly negative polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sweet-talks...' explicitly indicates a volitional agent performing the act of persuasion."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed, even if the outcome of the persuasion is not guaranteed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially drawn-out, act of attempting to influence."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

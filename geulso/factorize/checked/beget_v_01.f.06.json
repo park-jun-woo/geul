@@ -1,0 +1,56 @@
+{
+  "synset_id": "beget.v.01",
+  "definition": "make children",
+  "frame_id": 6,
+  "frame_text": "Somebody mother somebody",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'mother' in the context of 'make children' describes the act of bringing a new being into existence, which is a form of creation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' is the mother who actively performs the act of bringing a child into existence."
+        },
+        {
+          "semantic_role": "product.n.01",
+          "reasoning": "The second 'somebody' is the child, which is the result or product of the mothering action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of mothering or giving birth is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent with will, reflecting either conscious intent or the powerful biological drive to procreate."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making children is a natural process and is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent 'Somebody' in the frame, combined with the definition 'make children', indicates a volitional act, either by conscious decision or by a strong biological imperative."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of mothering/giving birth, once it occurs, is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Each instance of 'mothering' (i.e., bringing a child into the world) is considered a single, distinct event, even if an individual mothers multiple children."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

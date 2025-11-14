@@ -1,0 +1,62 @@
+{
+  "synset_id": "remilitarize.v.01",
+  "definition": "militarize anew",
+  "frame_id": 0,
+  "frame_text": "Somebody remilitarise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "military_status.n.01",
+      "reasoning": "The definition 'militarize anew' implies a process of changing an entity to have a military character, thus altering its military status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the process of remilitarization, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., a country or region) that undergoes the change in military status."
+        }
+      ]
+    },
+    {
+      "verb_type": "temporal",
+      "verb_property": "repetition.n.02",
+      "value": "again",
+      "reasoning": "The 're-' prefix and 'anew' in the definition explicitly indicate that the action of militarizing is a re-occurrence or repetition of a previous event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of remilitarizing is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a human agent ('Somebody') in the frame implies that the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of remilitarization is neutral; its sentiment (positive or negative) depends entirely on the specific context and perspective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of remilitarization is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The 're-' prefix signifies that the *entire event* of militarization is happening again, rather than describing internal, continuous repetition within a single ongoing action. Thus, it's treated as a single, re-initiated event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'temporal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

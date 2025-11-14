@@ -1,0 +1,58 @@
+{
+  "synset_id": "flare.v.01",
+  "definition": "burn brightly",
+  "frame_id": 3,
+  "frame_text": "Something flare",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "combustion.n.01",
+      "reasoning": "The definition 'burn brightly' indicates a process of combustion, a physical change in the state of matter.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the combustion process, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "bright.a.01",
+      "reasoning": "The adverb 'brightly' in the definition specifies the intensity of the light produced during combustion. This is a core distinguishing feature of 'flare' compared to a generic 'burn'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of flaring is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something flare' lacks an agent capable of will, as 'Something' is an inanimate subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of flaring is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something flare' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of flaring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'flare' can denote a single, often sudden, event of burning brightly, or a continuous state of bright burning, which is treated as a single instance for the purpose of this qualifier."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

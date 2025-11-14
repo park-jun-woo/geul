@@ -1,0 +1,65 @@
+{
+  "synset_id": "climb.v.01",
+  "definition": "go upward with gradual or continuous progress",
+  "frame_id": 3,
+  "frame_text": "Somebody climb_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb describes a change in vertical position from a lower to a higher point.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of changing position."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'something' which serves as the surface or object being ascended, as implied by 'climb up something'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "upward.a.01",
+      "reasoning": "The definition 'go upward' explicitly states the direction of movement as a core component of the verb's meaning."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gradual_or_continuous.a.01",
+      "reasoning": "The definition 'with gradual or continuous progress' describes a specific manner of movement, distinguishing it from sudden or instantaneous ascent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Climbing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of climbing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of climbing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'gradual or continuous progress' implies the action is composed of many successive, repetitive steps, indicating high iterativity."
+    }
+  }
+}

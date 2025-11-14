@@ -1,0 +1,61 @@
+{
+  "synset_id": "clock_out.v.01",
+  "definition": "register one's departure from work",
+  "frame_id": 5,
+  "frame_text": "Somebody punch_out PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "documentation.n.01",
+      "reasoning": "The verb's core meaning 'register one's departure' refers to the act of creating or updating a formal record of an event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of documenting their departure from work.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The information or event being documented, which is the agent's departure from work.",
+          "value_type": "event.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "physical interaction with a time-keeping device",
+      "reasoning": "The phrase 'punch_out' (or 'clock_out') specifically denotes the physical method and often the instrument (e.g., a time clock or system) used for registering departure."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of clocking out is typically a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is carried out with the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of registering departure is inherently neutral; any sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody punch_out PP' explicitly indicates a volitional agent ('Somebody') performing the action of registering their departure."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of clocking out is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of registering one's departure, even if it is performed repeatedly on different occasions."
+    }
+  }
+}

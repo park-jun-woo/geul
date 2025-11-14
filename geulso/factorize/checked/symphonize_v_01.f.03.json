@@ -1,0 +1,58 @@
+{
+  "synset_id": "symphonize.v.01",
+  "definition": "play or sound together, in harmony",
+  "frame_id": 3,
+  "frame_text": "Something symphonize",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "musical_performance.n.01",
+      "reasoning": "The verb describes the activity of producing musical sounds, as implied by 'symphonize' and 'play or sound together'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of playing or sounding, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "harmony.n.01",
+      "reasoning": "The definition explicitly states that the sounding is done 'in harmony', which is a core semantic characteristic of symphonizing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sounding together can be directly perceived (heard)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or activity."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' implies that the action is either an inherent property of 'Something' or happens without explicit will from the subject itself (e.g., instruments symphonizing due to design)."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The term 'harmony' generally carries a positive connotation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' without 'Somebody' usually indicates a non-volitional action, meaning the 'Something' itself does not act with intent (e.g., instruments, or a natural phenomenon)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of symphonizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Musical performance and sounding 'together' typically imply a sustained or continuously repetitive activity over a period, rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

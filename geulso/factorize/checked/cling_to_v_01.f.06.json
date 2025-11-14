@@ -1,0 +1,62 @@
+{
+  "synset_id": "cling_to.v.01",
+  "definition": "hold firmly, usually with one's hands",
+  "frame_id": 6,
+  "frame_text": "Somebody hold_tight somebody",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb 'cling to' describes an ongoing action of maintaining physical contact or proximity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of holding firmly."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' refers to the entity that is being held or clung to."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "firmly.r.01",
+      "reasoning": "The definition explicitly states 'hold firmly', indicating a specific manner of holding."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of holding firmly is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of clinging or holding firmly is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'cling to' implies a continuous, sustained action, it is considered a single, ongoing event rather than a series of discrete repetitions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "synset_id": "reorientate.v.01",
+  "definition": "orient once again, after a disorientation",
+  "frame_id": 2,
+  "frame_text": "Something reorient somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "orientation.n.01",
+      "reasoning": "The verb describes a process where the patient's state of orientation changes from disoriented to oriented.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the reorientation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose orientation is being changed, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "aspectual",
+      "value": "restoration",
+      "reasoning": "The prefix 're-' and the definition 'orient once again, after a disorientation' indicate that the action is a re-establishment or restoration to a previous or correct state, specifically correcting a prior disorientation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reorienting is generally a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something reorient somebody' indicates that the cause ('Something') does not inherently possess will or intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The tense is not specified in the input, so a neutral (present) default is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple, completed change of state, not a progressive, perfect, or result-focused action by default."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'reorientate' itself is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reorienting is generally neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something reorient somebody' indicates that the causal agent ('Something') is non-volitional, and the patient ('somebody') is undergoing the action, not initiating it volitionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the 're-' prefix implies a previous event, the specific act of 'reorienting' in this instance is treated as a single, discrete event of restoration, not an ongoing or repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'aspectual'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

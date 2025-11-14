@@ -1,0 +1,58 @@
+{
+  "synset_id": "slack.v.01",
+  "definition": "avoid responsibilities and work, be idle",
+  "frame_id": 0,
+  "frame_text": "Somebody slack",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "engagement.n.01",
+      "reasoning": "The verb describes an ongoing process of non-engagement or refraining from responsibilities and work, as indicated by 'avoid responsibilities and work'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who is actively avoiding responsibilities or engaging in idleness, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "diligence.n.01",
+      "value_type": "lack.n.01",
+      "reasoning": "The verb inherently describes a lack of diligence, manifested as idleness or neglect of duties, which is a core property of the action/state."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of slacking or being idle is generally directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "To 'avoid responsibilities' implies an agent's deliberate will and intention not to perform duties."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Avoiding responsibilities and work or being idle typically carries a negative connotation in most contexts of productivity and duty."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody slack' indicates an intentional act by a volitional agent, supported by the definition 'avoid responsibilities'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite behavior or state of an individual."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Slacking or being idle is typically an ongoing, continuous, or habitual behavior, rather than a single, discrete event, hence high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

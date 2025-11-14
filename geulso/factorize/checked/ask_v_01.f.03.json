@@ -1,0 +1,62 @@
+{
+  "synset_id": "ask.v.01",
+  "definition": "inquire about",
+  "frame_id": 3,
+  "frame_text": "Somebody ask somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "information.n.01",
+      "reasoning": "The definition 'inquire about' signifies an action aimed at gaining or clarifying information, implying a change in the state of information held or sought.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the act of inquiring."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "topic.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the topic or subject of the inquiry, which is the entity about which information is sought."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "communication.n.01",
+      "reasoning": "Asking is inherently a form of verbal communication to solicit information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of asking is typically a direct communicative event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame implies intentionality and will in performing the action of asking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of asking is neutral; the content or outcome of the inquiry determines sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of asking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of making an inquiry."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

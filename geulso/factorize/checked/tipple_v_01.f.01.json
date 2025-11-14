@@ -1,0 +1,63 @@
+{
+  "synset_id": "tipple.v.01",
+  "definition": "drink moderately but regularly",
+  "frame_id": 1,
+  "frame_text": "Somebody tipple",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The verb describes the activity of consuming liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of drinking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "alcoholic_beverage.n.01",
+          "reasoning": "Implied object of consumption from the definition of 'tipple' and its hypernym 'drink (alcohol)'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "moderate.a.01",
+      "reasoning": "The definition explicitly states that the drinking is done 'moderately', indicating a specific degree of consumption."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tippling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tippling, as defined 'moderately', is neutral in sentiment, though it refers to alcohol consumption."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tipple' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of tippling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition includes 'regularly', indicating high repetition of the action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

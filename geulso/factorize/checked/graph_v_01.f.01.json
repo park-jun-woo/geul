@@ -1,0 +1,60 @@
+{
+  "synset_id": "graph.v.01",
+  "definition": "represent by means of a graph",
+  "frame_id": 1,
+  "frame_text": "Somebody graph something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "reasoning": "The verb 'graph' describes the action of producing a visual representation (a graph), which is an act of creation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity who intentionally creates the graph."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' is the data or information that is represented by the graph, serving as its content."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "graph.n.01",
+          "reasoning": "The direct outcome or product of the verb 'graph' is a graph."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of graphing is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of graphing is a neutral action; its sentiment depends on the context or the information being graphed."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody graph something' clearly indicates a volitional agent performing the action of graphing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of creating a graph."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed instance of creating a graph."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "synset_id": "hobble.v.02",
+  "definition": "hamper the action or progress of",
+  "frame_id": 2,
+  "frame_text": "Something hobble somebody",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "hindrance.n.01",
+      "reasoning": "The verb 'hobble' in this sense means to cause an impediment or restriction to someone's action or progress, directly aligning with causing a state of hindrance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that brings about the hindrance or obstacle."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity whose action or progress is hampered."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hobbling or hampering is typically a directly observable event or its effects are directly perceivable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or a causal relationship."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive cause, implying no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'hamper' inherently carries a negative connotation, indicating an undesirable effect on progress or action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something hobble somebody' implies that the subject ('Something') is a non-volitional entity causing the action, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state being caused."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single instance of causing a hindrance, though the state of being hampered might persist."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

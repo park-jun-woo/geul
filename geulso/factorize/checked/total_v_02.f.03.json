@@ -1,0 +1,56 @@
+{
+  "synset_id": "total.v.02",
+  "definition": "determine the sum of",
+  "frame_id": 3,
+  "frame_text": "Somebody sum something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "quantity.n.01",
+      "reasoning": "The definition 'determine the sum of' describes a cognitive or mathematical process aimed at finding a numerical quantity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of determining the sum, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., numbers, items) for which the sum is being determined."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of determining a sum is a direct cognitive or physical experience of the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of totaling or summing is inherently neutral; the result may carry sentiment but the action itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sum something' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'determine' implies an action leading to a certain and definite result."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of determining a sum."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

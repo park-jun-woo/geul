@@ -1,0 +1,58 @@
+{
+  "synset_id": "count_down.v.01",
+  "definition": "count backwards; before detonating a bomb, for example",
+  "frame_id": 0,
+  "frame_text": "Somebody count_down",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "enumeration.n.01",
+      "reasoning": "The verb 'count down' describes an active process of reciting or naming numbers.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of counting."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.02",
+      "value_type": "descending.a.01",
+      "reasoning": "The 'down' in 'count down' and 'backwards' in the definition explicitly specify the direction of the enumeration."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of counting down is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of counting down itself is neutral; any sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody count_down' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Counting down involves a sequence of discrete, repetitive steps (each number counted) that together form a complete process, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

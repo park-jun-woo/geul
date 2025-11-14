@@ -1,0 +1,65 @@
+{
+  "synset_id": "flog.v.01",
+  "definition": "beat severely with a whip or rod",
+  "frame_id": 7,
+  "frame_text": "Somebody slash something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes causing a physical impact (beating) that negatively affects the physical state or integrity of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of beating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that receives the beating and undergoes a change in physical state or condition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "severe.a.01",
+      "reasoning": "The definition explicitly states 'beat severely', indicating a core component of the manner of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "whip_or_rod.n.01",
+      "reasoning": "The definition specifies 'with a whip or rod' as the instrument, which is a defining characteristic of 'flogging'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Flogging is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to perform the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Flogging is an inherently negative act, involving harsh physical punishment and causing pain."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of flogging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Flogging typically involves multiple, repetitive strikes (beating severely), indicating high iterativity over a period."
+    }
+  }
+}

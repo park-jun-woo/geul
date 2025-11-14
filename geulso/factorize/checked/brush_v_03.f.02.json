@@ -1,0 +1,61 @@
+{
+  "synset_id": "brush.v.03",
+  "definition": "clean with a brush",
+  "frame_id": 2,
+  "frame_text": "Something brush something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb 'brush' in this context means 'to clean', implying a change from a state of being dirty to being clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the agent (often an inanimate object or a force) that causes the cleaning action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the object that undergoes the change of state, becoming clean."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "value": "brush.n.01",
+      "reasoning": "The definition 'clean with a brush' explicitly includes the instrument as a core part of the verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of brushing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies an inanimate entity, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of brushing or cleaning is generally neutral; its sentiment depends on context or the object being cleaned."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something brush something' indicates that the action is performed by a non-volitional agent (inanimate 'Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of brushing is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Brushing typically involves a series of repeated strokes, suggesting high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'instrument'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

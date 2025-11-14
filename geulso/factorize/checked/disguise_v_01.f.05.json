@@ -1,0 +1,67 @@
+{
+  "synset_id": "disguise.v.01",
+  "definition": "make unrecognizable",
+  "frame_id": 5,
+  "frame_text": "Something disguise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The verb 'disguise' describes causing an alteration to the outward form or features of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the non-volitional entity causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, whose appearance undergoes alteration."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "concealment.n.01",
+      "reasoning": "The definition 'make unrecognizable' and the hypernym 'hide' indicate that the purpose of altering appearance is to conceal the true nature or identity of the patient.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The patient is the entity whose identity is intended to be concealed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disguising is a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-volitional agent ('Something') that lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disguising itself is neutral; its positive or negative connotation depends on the specific context and motivations."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame explicitly indicates a non-volitional agent, meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action leading to a state of being disguised."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of making something unrecognizable."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

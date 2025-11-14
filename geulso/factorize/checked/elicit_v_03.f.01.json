@@ -1,0 +1,63 @@
+{
+  "synset_id": "elicit.v.03",
+  "definition": "derive by reason",
+  "frame_id": 1,
+  "frame_text": "Somebody elicit that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "proposition.n.01",
+      "reasoning": "The definition 'derive by reason' and the 'that CLAUSE' frame indicate the mental creation or establishment of a factual statement or piece of knowledge.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cognitive action of deriving the proposition."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the specific proposition or piece of knowledge that is derived."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "reasoning.n.01",
+      "reasoning": "The definition explicitly states that the derivation occurs 'by reason', indicating the intellectual method or process involved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "Deriving something 'by reason' relies on internal logical processes and inference rather than direct observation or external report."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' and the act of 'reasoning' imply a deliberate and intentional action on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of deriving a proposition by reason is a neutral cognitive process."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' and the act of 'reasoning' clearly indicate a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'elicit' or 'derive by reason' implies that the agent is confident in the conclusion reached through their reasoning process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Eliciting a specific clause by reason typically refers to a single, completed act of reaching a conclusion."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

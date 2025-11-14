@@ -1,0 +1,56 @@
+{
+  "synset_id": "outsell.v.01",
+  "definition": "be sold more often than other, similar products",
+  "frame_id": 0,
+  "frame_text": "Something outsell something",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "quantity.n.01",
+      "value_type": "superior.a.01",
+      "reasoning": "The verb 'outsell' describes a continuous state where the subject entity maintains a superior quantity of sales compared to the object entity, as indicated by the definition 'be sold more often'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "product.n.01",
+          "reasoning": "The 'Something' (subject) which is in the state of having a superior sales quantity."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "product.n.01",
+          "reasoning": "The 'something' (object) which serves as the comparison point, having an inferior sales quantity."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The state of outselling is typically determined through direct observation of sales data."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb frame describes a declarative statement about a factual state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The entities ('Something') in the frame are inanimate products and thus cannot exert will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of outselling itself is neutral; its positive or negative sentiment depends on context (e.g., product desirability)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' is inanimate, indicating a non-volitional action or state."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a factual and certain statement about sales performance."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'be sold more often' explicitly refers to a high frequency of sales events that contribute to and maintain the state of outselling, implying high repetition of underlying actions."
+    }
+  }
+}

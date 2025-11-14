@@ -1,0 +1,61 @@
+{
+  "synset_id": "compare.v.03",
+  "definition": "consider or describe as similar, equal, or analogous",
+  "frame_id": 5,
+  "frame_text": "Somebody liken something PP",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "assertion.n.01",
+      "value_type": "similarity.n.01",
+      "reasoning": "The verb 'liken' describes the act of communicating or asserting that two entities share a relationship of similarity, consistent with the definition 'describe as similar'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the intentional act of likening/describing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (direct object) that is the primary entity whose similarity is being asserted."
+        },
+        {
+          "semantic_role": "comparison_target.n.01",
+          "reasoning": "The entity identified by the prepositional phrase (PP, typically 'to X') to which the patient is being compared or likened, serving as the reference point for the asserted similarity."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of likening or describing is a direct action or a directly perceivable assertion."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or assertion."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something PP' implies the agent's strong will and intention to make the comparison."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of likening itself is neutral; any positive or negative sentiment arises from the nature of the comparison or the entities involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of likening."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When one 'likens' something, they are asserting that similarity with a degree of certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of establishing a comparison."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

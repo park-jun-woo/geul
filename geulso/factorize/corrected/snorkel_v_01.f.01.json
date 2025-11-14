@@ -1,0 +1,59 @@
+{
+  "synset_id": "snorkel.v.01",
+  "definition": "dive with a snorkel",
+  "frame_id": 1,
+  "frame_text": "Somebody snorkel PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of moving through water by diving, which is a change of location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of snorkeling."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' indicates the location or area where the snorkeling takes place."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "snorkel.n.01",
+      "reasoning": "The definition explicitly states 'with a snorkel', indicating a specific instrument is integral to the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Snorkeling is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of snorkeling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Snorkeling is a volitional act, as indicated by the 'Somebody' agent in the frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of snorkeling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Snorkeling is a continuous activity involving repeated actions (e.g., breathing, moving in water) over a period, rather than a single instantaneous event."
+    }
+  }
+}

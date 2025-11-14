@@ -1,0 +1,58 @@
+{
+  "synset_id": "premier.v.01",
+  "definition": "be performed for the first time",
+  "frame_id": 1,
+  "frame_text": "Something premiere",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "performance.n.01",
+      "reasoning": "The verb describes an occurrence related to the public presentation or execution of something, derived from the definition 'be performed'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that is performed or presented for the first time."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "occurrence.n.01",
+      "value_type": "initial.a.01",
+      "reasoning": "The definition 'for the first time' explicitly marks this event as the inaugural instance, which is a crucial semantic component distinguishing 'premier' from mere 'performance'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A premiere is a publicly observable event, implying direct experience as the source of information."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something premiere' indicates that the subject 'Something' is not an agent capable of will; it is the entity being premiered."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of premiering is semantically neutral; any positive or negative sentiment would come from context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something premiere' signifies that the 'Something' is the subject undergoing the action, not performing it volitionally. The action is non-volitional for the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite occurrence, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'for the first time' explicitly indicates a single, inaugural event, precluding repetition for this specific instance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

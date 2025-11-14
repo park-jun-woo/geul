@@ -1,0 +1,64 @@
+{
+  "synset_id": "hook.v.05",
+  "definition": "take by theft",
+  "frame_id": 4,
+  "frame_text": "Somebody snitch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes an act of 'taking' which results in a change of possession from one entity to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of taking, initiating the change of possession."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of possession; the object being taken."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "owner.n.01",
+          "reasoning": "Implied participant whose possession is terminated, as the action is 'by theft' (without the owner's consent)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legality.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The definition 'take by theft' inherently includes the property of the action being illegal or unlawful, differentiating it from a simple transfer of possession."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking/snitching is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention to steal."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of theft is inherently considered negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody snitch something' indicates a volitional agent performing an intentional act of theft."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of snitching/theft is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of taking something by theft."
+    }
+  }
+}

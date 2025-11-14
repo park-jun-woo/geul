@@ -1,0 +1,67 @@
+{
+  "synset_id": "jot_down.v.01",
+  "definition": "write briefly or hurriedly; write a short note of",
+  "frame_id": 1,
+  "frame_text": "Somebody jot something PP",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "written_record.n.01",
+      "reasoning": "The verb 'jot down' describes the action of producing a written record.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of writing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'something' that is written down, typically information in the form of a note."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The optional 'PP' indicates the location or surface upon which the writing occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "hasty.a.01",
+      "reasoning": "The definition specifies the action is done 'briefly or hurriedly', indicating a hasty or quick manner of writing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of jotting something down is typically a directly observed or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of jotting down is neutral in sentiment; its polarity depends on the context or content."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, implying intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of jotting something down is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially rapid, event of making a note or record."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "debar.v.02",
+  "definition": "prevent the occurrence of; prevent from happening",
+  "frame_id": 16,
+  "frame_text": "Something forefend something",
+  "sememes": [
+    {
+      "verb_type": "causative",
+      "verb_property": "occurrence.n.01",
+      "reasoning": "The definition 'prevent the occurrence of; prevent from happening' indicates that the verb describes an action causing a state of non-occurrence for an event or action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the prevention."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The 'something' in the verb frame is the event or action whose occurrence is prevented."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of preventing an occurrence is typically a directly observable event or an established fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something forefend something' suggests a non-agentive subject ('Something'), which does not possess will or intention in this context."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of preventing is neutral; its positive or negative sentiment depends on what is being prevented."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with a non-agentive 'Something' as the subject indicates a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'forefend' (prevent) implies a successful action, leading to certainty that the occurrence will not happen."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of prevention, or an ongoing state of prevention without explicit repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causative'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

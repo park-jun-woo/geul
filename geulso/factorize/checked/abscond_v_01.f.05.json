@@ -1,0 +1,84 @@
+{
+  "synset_id": "abscond.v.01",
+  "definition": "run away; usually includes taking something or somebody along",
+  "frame_id": 5,
+  "frame_text": "Somebody bolt PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'abscond' implies a change in the agent's location, specifically moving away from a place or situation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of running away, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The implied place or situation from which the agent departs or runs away, often specified by the Prepositional Phrase (PP) in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition 'run away' and the hypernym 'flee quickly' indicate that 'abscond' inherently involves swiftness in movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "escape.n.01",
+      "reasoning": "The act of absconding inherently serves the purpose of evading capture, legal consequences, or detection."
+    },
+    {
+      "verb_type": "accompanying_action",
+      "verb_property": "conveyance.n.01",
+      "reasoning": "The synset definition 'usually includes taking something or somebody along' indicates a common co-occurring action of conveying an entity with the agent during the flight.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who also conveys the entity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "entity.n.01",
+          "reasoning": "The 'something or somebody' that is conveyed by the agent (implied from the synset definition, even if not explicitly in this specific syntactic frame)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of absconding is typically an observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with strong will and intention to escape."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Absconding generally carries negative connotations, implying wrongdoing, evasion of responsibility, or flight from justice."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bolt PP' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of absconding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the physical 'running' may involve repetition, the overall act of 'absconding' refers to a single, decisive event of disappearing or fleeing."
+    }
+  },
+  "errors": [
+    "`sememes[3].verb_type`의 값 'accompanying_action'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

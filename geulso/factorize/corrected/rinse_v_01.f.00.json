@@ -1,0 +1,59 @@
+{
+  "synset_id": "rinse.v.01",
+  "definition": "wash off soap or remaining dirt",
+  "frame_id": 0,
+  "frame_text": "Somebody rinse",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The definition 'wash off soap or remaining dirt' describes a change of state from dirty/soapy to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of rinsing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The object that undergoes the change in cleanliness. Although not explicitly stated in the intransitive frame 'Somebody rinse', the verb 'rinse' inherently requires an entity to be rinsed."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "means.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "Rinsing inherently involves the use of water to remove residues, as implied by 'wash off'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Rinsing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rinsing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rinse' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rinsing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'rinse' describes a single act of cleaning, even if it might be part of a larger repetitive process, the act itself is singular per item/event."
+    }
+  }
+}

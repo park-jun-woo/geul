@@ -1,0 +1,58 @@
+{
+  "synset_id": "labor.v.02",
+  "definition": "work hard",
+  "frame_id": 0,
+  "frame_text": "Somebody dig",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "work.n.01",
+      "reasoning": "The verb 'labor' describes an activity of expending effort, which is a form of work.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent performing the action of laboring."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "intense.a.01",
+      "reasoning": "The definition 'work hard' specifies that the work is performed with high intensity or great effort, which is a manner property of the activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of laboring is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of laboring is neutral in sentiment; its positive or negative connotations depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody labor' clearly indicates an intentional and volitional act performed by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of laboring is described as a definite occurrence or ongoing state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "'Labor' often implies sustained and continuous effort, or repeated actions, thus indicating high repetition rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

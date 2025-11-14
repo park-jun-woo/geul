@@ -1,0 +1,67 @@
+{
+  "synset_id": "brush.v.01",
+  "definition": "rub with a brush, or as if with a brush",
+  "frame_id": 0,
+  "frame_text": "Somebody brush something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "contact.n.01",
+      "reasoning": "The verb 'brush' describes an ongoing physical action involving contact between an agent and a patient, facilitated by an instrument.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of brushing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being brushed or rubbed against."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "brush.n.01",
+          "reasoning": "The definition explicitly states the action is performed 'with a brush' or 'as if with a brush', identifying the instrument."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rub.v.01",
+      "reasoning": "The definition 'rub with a brush' indicates that rubbing is the specific manner or method of the contact, derived from its hypernym."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Brushing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an agent with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of brushing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of brushing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Brushing typically involves continuous, repeated strokes, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

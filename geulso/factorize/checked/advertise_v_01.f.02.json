@@ -1,0 +1,66 @@
+{
+  "synset_id": "advertise.v.01",
+  "definition": "call attention to",
+  "frame_id": 2,
+  "frame_text": "Somebody advertize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "awareness.n.01",
+      "reasoning": "The definition 'call attention to' describes an action that causes a change in the awareness or knowledge state of others.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the act of advertising."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the information or fact that is being brought to attention, thus a proposition."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "Implied audience whose attention is being called to the proposition, essential to the meaning of 'advertise'."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "publicity.n.01",
+      "reasoning": "The verb 'advertise' inherently implies a public or widespread dissemination of information, aiming for broad attention."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of advertising is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies that the action is carried out with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of advertising itself is neutral; the content advertised could be positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody advertise...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of advertising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of calling attention to something. While an 'advertising campaign' might be iterative, the verb itself, in this frame, refers to a single instance of the action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

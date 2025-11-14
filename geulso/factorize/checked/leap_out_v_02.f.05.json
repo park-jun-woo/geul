@@ -1,0 +1,78 @@
+{
+  "synset_id": "leap_out.v.02",
+  "definition": "jump out from a hiding place and surprise (someone)",
+  "frame_id": 5,
+  "frame_text": "Somebody rush_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a physical movement of the agent from one location to another, specifically moving 'out', which is a change of state/location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity performing the movement."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "hiding_place.n.01",
+          "reasoning": "The definition 'from a hiding place' indicates the origin of the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The component 'jump' in the definition implies a sudden, quick, and possibly forceful manner of movement."
+    },
+    {
+      "verb_type": "cause",
+      "verb_property": "surprise.n.01",
+      "reasoning": "The definition explicitly includes 'and surprise (someone)', indicating that causing surprise is an inherent outcome or purpose of this action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the leaping out is the one who causes the surprise."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the entity that experiences the surprise, acting as the patient of this causative action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of leaping out is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame, performing an action to 'surprise (someone)', implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of leaping out to surprise is not inherently positive or negative; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, especially one intended to surprise."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'leap out' describes a single, discrete event of jumping out, not a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

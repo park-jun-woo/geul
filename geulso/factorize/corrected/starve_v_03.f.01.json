@@ -1,0 +1,58 @@
+{
+  "synset_id": "starve.v.03",
+  "definition": "deprive of food",
+  "frame_id": 1,
+  "frame_text": "Somebody starve somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'deprive of food' indicates causing a transition from having access to food to lacking it, which is a change in possession or availability of a resource.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' is the agent who intentionally causes the deprivation of food."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' is the entity (person) who undergoes the state change of being deprived of food."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "food.n.01",
+          "reasoning": "The 'food' is the specific resource that is withheld or removed from the patient, as directly implied by the definition 'deprive of food'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of depriving someone of food is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a volitional agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of depriving someone of food, leading to starvation, is inherently a negative action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody starve somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of starving someone is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular act of initiating or maintaining the deprivation of food, rather than a repetitive process within this transitive frame. The verb implies the *act* of causing starvation."
+    }
+  }
+}

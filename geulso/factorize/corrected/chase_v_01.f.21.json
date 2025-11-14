@@ -1,0 +1,59 @@
+{
+  "synset_id": "chase.v.01",
+  "definition": "go after with the intent to catch",
+  "frame_id": 21,
+  "frame_text": "Something give_chase somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'chase' inherently involves a change in location, describing the act of moving after a target.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of pursuing, as indicated by the verb frame. This can be an animal or an entity with directed movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being pursued or followed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "capture.n.01",
+      "reasoning": "The definition 'go after with the intent to catch' explicitly states that the purpose of the action is to capture the target."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chasing is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition includes 'with the intent to catch', which implies a strong will or intention driving the action, even if the agent is 'Something' (e.g., an animal or a controlled object)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chasing itself is neutral; its sentiment depends on the context and participants."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'with the intent to catch' explicitly indicates intentionality, making the action volitional despite the 'Something' subject in the frame, as 'Something' can be a volitional agent like an animal or a person in a vehicle."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of pursuit."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chasing typically involves continuous and repetitive motion over a period of time, indicating a high degree of iterativity."
+    }
+  }
+}

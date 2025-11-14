@@ -1,0 +1,60 @@
+{
+  "synset_id": "liquidate.v.02",
+  "definition": "eliminate by paying off (debts)",
+  "frame_id": 0,
+  "frame_text": "Somebody liquidate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'eliminate by paying off (debts)' describes a transition in the status of a financial obligation, from outstanding to paid-off or eliminated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of liquidating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "debt.n.01",
+          "reasoning": "The 'something' that undergoes the change of status, specifically a debt as indicated by the parenthetical in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value_type": "payment.n.01",
+      "reasoning": "The definition explicitly states that the elimination is achieved 'by paying off', detailing the method used."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of liquidating debts is typically a directly observable or verifiable financial transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Eliminating a debt is generally perceived as a positive outcome for the debtor/agent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody liquidate something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of liquidating a debt, once completed, is a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of eliminating a specific debt or set of debts within this frame."
+    }
+  }
+}

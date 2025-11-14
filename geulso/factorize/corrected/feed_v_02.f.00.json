@@ -1,0 +1,58 @@
+{
+  "synset_id": "feed.v.02",
+  "definition": "give food to",
+  "frame_id": 0,
+  "frame_text": "Somebody feed somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'give food to' describes a transfer of a specific type of possession (food), indicating a change in the state of who possesses the food.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates the act of giving food; the feeder."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame who receives the food; the one being fed."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The 'food' which is the object being transferred, as implied by the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of feeding is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of feeding is neutral; its sentiment depends on context (e.g., caring vs. force-feeding)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of feeding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of providing food, though it can be repeated."
+    }
+  }
+}

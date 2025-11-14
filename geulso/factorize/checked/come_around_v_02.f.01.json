@@ -1,0 +1,60 @@
+{
+  "synset_id": "come_around.v.02",
+  "definition": "happen regularly",
+  "frame_id": 1,
+  "frame_text": "Something roll_around",
+  "sememes": [
+    {
+      "verb_type": "occurrence",
+      "verb_property": "event.n.01",
+      "reasoning": "The definition 'happen regularly' describes a general event taking place, aligning with the concept of an occurrence.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that is the subject of the event, as indicated by the verb frame 'Something ----s'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes an event that can be directly observed or is generally known to happen."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an event occurs."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' lacks an agent capable of will, thus implying no agentive modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'happening regularly' is neutral; the sentiment depends on the specific event."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition implies a definite occurrence, not speculation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The key adverb 'regularly' in the definition explicitly denotes a high degree of repetition or habitual occurrence for the event."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated by the verb's core meaning or definition; therefore, it is neutral."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The definition does not specify an inherent progressive, perfect, or result-focused aspect; the 'regularly' is captured by iterativity. Therefore, it is simple aspect."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'occurrence'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

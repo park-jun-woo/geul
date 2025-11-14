@@ -1,0 +1,56 @@
+{
+  "synset_id": "defend.v.01",
+  "definition": "argue or speak in defense of",
+  "frame_id": 10,
+  "frame_text": "Something support somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "justification.n.01",
+      "reasoning": "The definition 'argue or speak in defense of' describes an act of communication aimed at providing justification or support.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the act of communication or provides the justification."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity for whom the defense or justification is provided."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of arguing or speaking in defense is typically a directly observable or verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or function."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in this frame typically refers to inanimate objects, abstract concepts, or systems, which do not possess human-like will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To defend or support someone is generally considered a positive action, implying protection or advocacy against harm/criticism."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-volitional agent (e.g., 'The law defends...', 'The evidence defends...')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Something defends somebody' implies certainty about the act of defense."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The frame 'Something support somebody' often implies an ongoing or sustained state of defense or support rather than a single discrete event, thus suggesting high repetition or continuous action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

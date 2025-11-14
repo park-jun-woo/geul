@@ -1,0 +1,66 @@
+{
+  "synset_id": "roll_up.v.01",
+  "definition": "form into a cylinder by rolling",
+  "frame_id": 2,
+  "frame_text": "Something furl",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb 'roll up' and its definition 'form into a cylinder by rolling' describe a transformation in the physical shape of an object.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame 'Something furl' is the entity that undergoes the change in shape."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "action.n.01",
+      "value_type": "rolling.n.01",
+      "reasoning": "The definition explicitly states 'by rolling', indicating the specific manner in which the change of shape occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rolling up or furling is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something furl' lacks an explicit agent, indicating no inherent will or intention driving the action from the subject."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a complete, simple event of forming a cylinder, without explicit markers for progressive, perfect, or strong result focus beyond the inherent change."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness marking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rolling up is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something furl' implies a non-agentive subject ('Something') undergoing the action, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'form into a cylinder' describes a single, completed instance of transformation, even if the act of rolling itself might involve continuous motion."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

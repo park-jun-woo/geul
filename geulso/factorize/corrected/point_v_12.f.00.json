@@ -1,0 +1,70 @@
+{
+  "synset_id": "point.v.12",
+  "definition": "indicate the presence of (game) by standing and pointing with the muzzle",
+  "frame_id": 0,
+  "frame_text": "Something is pointing PP",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "direction.n.01",
+      "reasoning": "The verb describes a continuous state of an entity being oriented towards a particular direction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that assumes and maintains the directed state, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The specific direction or target of the orientation, as indicated by the prepositional phrase (PP) in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "indication.n.01",
+      "reasoning": "The inherent purpose of this directional state is to indicate the presence of something, as highlighted in the definition.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "presence.n.01",
+          "reasoning": "The object of the indication, which is the 'presence' of 'game' as specified in the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pointing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a state or ongoing action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is pointing' and the context of a dog pointing game suggest an instinctive, non-volitional action, thus no agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pointing is neutral; its sentiment depends on what is being pointed at."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is pointing' implies a non-volitional subject (like a dog acting on instinct) or a neutral one, making the action non-volitional in this specific context."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite state of pointing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The 'is pointing' progressive aspect indicates a sustained, single event of being in the pointing state, rather than a repetitive series of discrete actions."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is pointing' construction explicitly indicates a progressive (continuous) aspect of the action."
+    }
+  }
+}

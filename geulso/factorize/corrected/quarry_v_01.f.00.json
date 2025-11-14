@@ -1,0 +1,58 @@
+{
+  "synset_id": "quarry.v.01",
+  "definition": "extract (something such as stones) from or as if from a quarry",
+  "frame_id": 0,
+  "frame_text": "Somebody quarry something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'extract (something) from a quarry' describes a change in the physical location of the patient from its original source.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of extracting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., stones) that is being extracted and whose location changes."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "quarry.n.01",
+          "reasoning": "The definition explicitly states 'from a quarry', indicating a specific type of source from which the material is extracted. This is an inherent part of the verb's meaning."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of quarrying is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of quarrying is semantically neutral; its positive or negative implications depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of quarrying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame 'Somebody ----s something' typically refers to a single instance of extracting 'something'. While quarrying can be an ongoing process, this specific frame with 'something' implies a discrete event."
+    }
+  }
+}

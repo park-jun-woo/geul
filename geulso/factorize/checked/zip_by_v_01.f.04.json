@@ -1,0 +1,64 @@
+{
+  "synset_id": "zip_by.v.01",
+  "definition": "move by very quickly",
+  "frame_id": 4,
+  "frame_text": "Something whisk_by",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'zip by' describes a process of an entity changing its physical location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the action of moving."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition 'move by very quickly' and the verb 'zip' inherently convey a rapid manner of movement."
+    },
+    {
+      "verb_type": "spatial_relation",
+      "verb_property": "trajectory.n.01",
+      "value_type": "past.a.02",
+      "reasoning": "The particle 'by' in 'zip by' indicates movement that passes a reference point or object."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something zipping by is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' implies no inherent will or intention on the part of the subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving quickly past something is semantically neutral; context determines sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' implies a non-volitional subject ('Something') carrying out the action, consistent with inanimate objects or non-agentive forces."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of movement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'zip by' describes a single, completed event of passing, rather than a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'spatial_relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

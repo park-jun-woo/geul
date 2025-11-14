@@ -1,0 +1,69 @@
+{
+  "synset_id": "thrash.v.05",
+  "definition": "move data into and out of core rather than performing useful computation",
+  "frame_id": 0,
+  "frame_text": "Something is thrashing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a continuous and repetitive movement of data, representing a change in its transient location within a computing system.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame (e.g., a computer system or process) is the entity that performs the data movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "data.n.01",
+          "reasoning": "The definition 'move data' explicitly identifies data as the entity undergoing movement."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "memory.n.01",
+          "reasoning": "The phrase 'into and out of core' specifies the location of this movement, which is central memory. The 'PP' in the frame also indicates a spatial or relational complement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "efficiency.n.01",
+      "value_type": "low.a.01",
+      "reasoning": "The core of the definition 'rather than performing useful computation' highlights the unproductive and inefficient nature of the described data movement. This is a crucial distinguishing characteristic of 'thrashing'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The state of a system thrashing is typically inferred from direct observation of system performance or behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a state or process within a system."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "A computer system, as the agent, does not possess will or intention for its actions."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The phrase 'rather than performing useful computation' explicitly denotes a negative outcome or undesirable state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' refers to a non-volitional agent (a computer system or process), making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite characteristic or process occurring within a system."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'move data into and out of core' implies a continuous, highly repetitive, and excessive cycle of data movement."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is thrashing PP' uses the progressive aspect, indicating an ongoing process."
+    }
+  }
+}

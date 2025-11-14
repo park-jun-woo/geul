@@ -1,0 +1,56 @@
+{
+  "synset_id": "guard.v.02",
+  "definition": "watch over or shield from danger or harm; protect",
+  "frame_id": 5,
+  "frame_text": "Something guard something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "protection.n.01",
+      "reasoning": "The definition 'watch over or shield from danger or harm; protect' describes an ongoing action or continuous effort to maintain a state of safety or prevent harm, which fits the 'process' verb type related to the property of 'protection'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame 'Something ----s something' is the entity that performs the action of guarding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame 'Something ----s something' is the entity that is being protected or watched over."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of guarding is typically a directly observable action or state of being."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' typically does not possess 'will' or intention in the human sense, thus modality is neutral or zero."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of guarding or protecting from harm is inherently positive."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-human or inanimate agent, making the action non-volitional (e.g., a fence guards a property)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement that something guards something is presented as a certain fact."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Guarding is an ongoing, continuous activity or a sustained state of vigilance, implying high repetition or sustained effort rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

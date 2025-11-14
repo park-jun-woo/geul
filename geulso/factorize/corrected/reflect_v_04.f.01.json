@@ -1,0 +1,60 @@
+{
+  "synset_id": "reflect.v.04",
+  "definition": "be bright by reflecting or casting light",
+  "frame_id": 1,
+  "frame_text": "Something shine",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "emission.n.01",
+      "reasoning": "The verb describes an ongoing activity of giving off or casting light, which is a continuous process of emission. The hypernym 'emit.v.02' supports this.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the verb frame is the entity that performs the action of emitting or directing light."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "light.n.01",
+          "reasoning": "The 'light' is the entity being emitted or cast as a result of the process."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "reflection.n.01",
+      "reasoning": "The definition explicitly states 'by reflecting or casting light,' indicating a specific manner in which the light is given off or directed, with 'reflection' being a core aspect of this verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reflecting or shining light is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or describing a physical process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something shine' indicates that the action is a natural phenomenon of an inanimate subject, not driven by will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reflecting or casting light is a neutral physical process, without inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' is inanimate and cannot act with volition, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or characteristic of the subject."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "When something 'shines' or 'reflects' light, it typically does so continuously or with high repetition rather than as a single discrete event."
+    }
+  }
+}

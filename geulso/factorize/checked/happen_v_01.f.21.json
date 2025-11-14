@@ -1,0 +1,68 @@
+{
+  "synset_id": "happen.v.01",
+  "definition": "come to pass",
+  "frame_id": 21,
+  "frame_text": "Something is passing PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "occurrence.n.01",
+      "reasoning": "The definition 'come to pass' and the continuous form 'is passing' describe an event unfolding or a state coming into existence over time, which is characterized as a process. The property is the state of being an occurrence.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' is the entity that undergoes or constitutes the happening event, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in 'is passing PP' typically specifies the spatial, temporal, or abstract context/domain in which the event is unfolding or coming to pass."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An event that 'is passing' is generally subject to direct observation or experience if one is present."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event's unfolding."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The verb 'happen' typically describes events that occur without an agent's direct will or intention, especially with a non-volitional subject ('Something')."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "While 'is passing' implies present time, the base verb 'happen' is semantically neutral regarding inherent tense. The present aspect is captured by 'Aspect'."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is passing' construction explicitly indicates a progressive aspect, meaning the event is currently ongoing and unfolding."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'happen' carries a neutral level of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of happening itself is semantically neutral; the nature of what happens can carry sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' and the verb 'happen' indicate a non-volitional event, an occurrence rather than an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Something is passing' describes an event that is definitively occurring or in the process of occurring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The phrase 'is passing' describes the continuous unfolding of a single, extended event or stage, not multiple distinct repetitions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "respect.v.02",
+  "definition": "show respect towards",
+  "frame_id": 6,
+  "frame_text": "Somebody observe somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "attitude.n.01",
+      "reasoning": "The verb 'respect' in this sense describes an action of overtly displaying a specific positive attitude (deference, honor) towards another entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of showing respect, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' towards whom the respect is shown, who is the recipient of the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of showing respect is generally an observable behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to show respect."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The act of showing respect inherently conveys a high level of politeness or deference."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of showing respect is intrinsically a positive action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody observe somebody' clearly indicates a volitional agent performing the action of showing respect."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of showing respect is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Showing respect often refers to an ongoing behavior or a series of repeated actions over time (e.g., 'honor one's parents'), rather than a single punctual event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

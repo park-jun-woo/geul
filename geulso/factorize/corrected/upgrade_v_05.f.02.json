@@ -1,0 +1,59 @@
+{
+  "synset_id": "upgrade.v.05",
+  "definition": "give better travel conditions to",
+  "frame_id": 2,
+  "frame_text": "Something upgrade somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'upgrade' describes a transition from one state of travel conditions to another, which is a change of state. The hypernym 'better.v.02' ('to make better') supports this as a change in condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the change in conditions."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the person whose travel conditions undergo the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "better.a.01",
+      "reasoning": "The definition 'give better travel conditions' explicitly states that the change is an improvement, indicating an increase in the quality of the conditions."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An upgrade is typically a directly observable or reported event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention in performing the action."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'give better travel conditions' inherently indicates a positive change or outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something upgrade somebody' indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of upgrading is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'upgrade' typically describes a single, discrete event of improving conditions, not a repetitive action."
+    }
+  }
+}

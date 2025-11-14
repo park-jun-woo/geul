@@ -1,0 +1,63 @@
+{
+  "synset_id": "parade.v.01",
+  "definition": "walk ostentatiously",
+  "frame_id": 0,
+  "frame_text": "Somebody exhibit somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'parade' describes causing an entity to move, which is a change of location, aligning with its hypernym 'walk.v.09' (make walk).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame acts as the agent who causes the parading."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' is the entity being paraded or moved."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' indicates the location or path along which the parading occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "ostentatious.a.01",
+      "reasoning": "The definition explicitly states 'walk ostentatiously', indicating that 'ostentatious' is a core manner component of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Parading is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the causal agent implies an intentional and willed action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of parading itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody parade somebody' clearly indicates a volitional causal agent initiating the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Parading, like walking, is an action composed of continuous, highly repetitive steps or movements, indicating high iterativity."
+    }
+  }
+}

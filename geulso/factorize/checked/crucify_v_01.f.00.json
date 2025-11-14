@@ -1,0 +1,63 @@
+{
+  "synset_id": "crucify.v.01",
+  "definition": "kill by nailing onto a cross",
+  "frame_id": 0,
+  "frame_text": "Somebody crucify somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "change_direction": "negation.n.01",
+      "reasoning": "The verb 'crucify' fundamentally means to kill, which is to bring about the negation of a living state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of crucifying, thus causing death, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the act of crucifying and consequently dies, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner.n.01",
+      "value_type": "specific_method.n.01",
+      "value": "by nailing onto a cross",
+      "reasoning": "The definition explicitly details the specific manner or method by which the killing is accomplished, distinguishing it from other forms of killing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of crucifying is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies an agent acting with strong will and intention to perform the act."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of killing, especially as a punishment, is inherently negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody crucify somebody' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, definitive event of execution."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner.n.01'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

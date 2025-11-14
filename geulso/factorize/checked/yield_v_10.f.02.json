@@ -1,0 +1,56 @@
+{
+  "synset_id": "yield.v.10",
+  "definition": "bring in",
+  "frame_id": 2,
+  "frame_text": "Something yield something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "production.n.01",
+      "reasoning": "The definition 'bring in' and hypernym 'gain' indicate a process where the subject generates or produces the object.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The first 'Something' in the frame acts as the entity or system from which the output is generated."
+        },
+        {
+          "semantic_role": "product.n.01",
+          "reasoning": "The second 'something' in the frame is the result or output that is brought into existence or generated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of yielding (e.g., crops, results) is typically observed directly."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is inanimate, indicating no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of yielding is neutral; the nature of what is yielded determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something yield something' indicates a non-agentive, non-volitional subject causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb typically describes a definite outcome or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Yielding often describes an ongoing or recurring process of generating results (e.g., a field yielding crops year after year, an investment yielding returns)."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

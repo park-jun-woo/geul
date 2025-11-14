@@ -1,0 +1,66 @@
+{
+  "synset_id": "spray.v.03",
+  "definition": "cover by spraying with a liquid",
+  "frame_id": 1,
+  "frame_text": "Something spray something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The verb describes an action that causes an object to transition into a state of being covered.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the entity that performs the spraying."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object that becomes covered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "spraying.n.01",
+      "reasoning": "The definition explicitly states 'by spraying with a liquid', specifying the particular manner in which the covering occurs. 'Spraying' here refers to the act of dispersing liquid in fine drops.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'liquid' is an implicit instrument used in the act of spraying, as mentioned in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spraying and covering is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something spray something' implies the subject ('Something') is an inanimate entity or force, lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spraying is neutral; its sentiment depends on context (e.g., spraying paint vs. spraying pesticides)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something spray something' indicates a non-volitional agent (the first 'Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Spraying typically involves the continuous or highly repetitive release of small drops, indicating high iterativity for the action itself."
+    }
+  }
+}

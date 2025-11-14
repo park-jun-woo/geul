@@ -1,0 +1,53 @@
+{
+  "synset_id": "act.v.01",
+  "definition": "perform an action, or work out or perform (an action)",
+  "frame_id": 3,
+  "frame_text": "Somebody move PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "While the definition of 'act.v.01' is general ('perform an action'), the specific `verb_frame` 'Somebody move PP' indicates that in this context, the 'action' being performed is fundamentally one of physical 'motion', implying a change of location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent who initiates and undergoes the motion."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame specifies the spatial context, direction, or trajectory of the motion, acting as a locative or directional attribute."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A physical act of moving is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in a declarative statement is assumed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving or performing an action is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody move PP' explicitly includes a volitional agent ('Somebody'), indicating intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Physical movement, particularly when described with a prepositional phrase indicating trajectory or continuous action (e.g., 'move along', 'move through'), often involves a continuous series of smaller, repeated actions rather than a single instantaneous event."
+    }
+  }
+}

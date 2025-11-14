@@ -1,0 +1,73 @@
+{
+  "synset_id": "judge.v.05",
+  "definition": "put on trial or hear a case and sit as the judge at the trial of",
+  "frame_id": 2,
+  "frame_text": "Somebody try somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The definition 'put on trial or hear a case' describes a formal process of assessing evidence and arguments.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively conducts the trial or hears the case, acting as the judge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "defendant.n.01",
+          "reasoning": "The 'somebody' who is subjected to the trial or evaluation process."
+        }
+      ]
+    },
+    {
+      "verb_type": "outcome",
+      "verb_property": "decision.n.01",
+      "reasoning": "Implicit in the act of 'judging' or 'trying a case' is the intention to reach a formal decision or verdict.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (judge/court) who ultimately makes the decision."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The judgment or verdict that results from the trial process."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of judging in a legal context is a directly observable public event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence of a legal proceeding."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent (judge/court) acts with explicit will and intention to preside over a trial."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The legal act of judging itself is neutral, although the outcome for the defendant may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody try somebody' implies an intentional act performed by a volitional agent (the judge/court)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of putting someone on trial is a definite, established event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While a trial involves many steps, it is considered a single, distinct event in the context of 'judging a case'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'outcome'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

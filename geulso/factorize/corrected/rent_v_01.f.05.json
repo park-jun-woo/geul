@@ -1,0 +1,63 @@
+{
+  "synset_id": "rent.v.01",
+  "definition": "let for money",
+  "frame_id": 5,
+  "frame_text": "Somebody rent something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'rent' describes a temporary transfer of the right to use or occupy an item, which is a change in the state of possession/use.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who lets the item for money; the lessor/owner."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose use or temporary possession is transferred."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the item is rented; the lessee/tenant."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "payment.n.01",
+      "reasoning": "The definition 'let for money' explicitly states that monetary payment is the means or condition for this transaction, making it a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Renting is a commercial transaction, typically a directly observable event or arrangement."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of renting is a neutral transaction; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of letting."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'rent' in this sense describes a single, discrete transaction of establishing a rental agreement, not a continuous or repetitive action."
+    }
+  }
+}

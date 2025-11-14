@@ -1,0 +1,63 @@
+{
+  "synset_id": "imagine.v.01",
+  "definition": "form a mental image of something that is not present or that is not the case",
+  "frame_id": 3,
+  "frame_text": "Somebody envisage that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "mental_representation.n.01",
+      "reasoning": "The definition 'form a mental image' describes a cognitive process of creating or developing a mental representation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing the mental act of imagining/envisaging."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' represents the content or scenario that is mentally formed or envisaged, which is a type of proposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "reality.n.01",
+      "value_type": "non-existent.a.01",
+      "reasoning": "The definition specifies 'something that is not present or that is not the case', indicating that the content of the imagination is inherently non-real or hypothetical."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of imagining is a direct internal cognitive experience for the subject."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a mental process or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody envisage' implies a deliberate and intentional mental act on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of imagining itself is neutral; the content imagined may carry positive or negative sentiment, but not the verb."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that forming a mental image is a volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The agent performing the act of imagining is certain that they are engaging in this mental process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'imagine' or 'envisage' in this context typically describes a single instance of forming a mental image or scenario. Repeated imagination would be explicitly stated."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

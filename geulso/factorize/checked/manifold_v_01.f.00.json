@@ -1,0 +1,63 @@
+{
+  "synset_id": "manifold.v.01",
+  "definition": "make multiple copies of",
+  "frame_id": 0,
+  "frame_text": "Somebody manifold something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "replica.n.01",
+      "reasoning": "The verb 'manifold' means to 'make multiple copies of', directly indicating the creation of replicas.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity that initiates and performs the action of manifolding.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' is the original item from which the copies are made, serving as the source or object of replication.",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "result.n.01",
+          "reasoning": "The inherent meaning of 'manifold' implies that the outcome of the action is the production of 'multiple copies'.",
+          "value_type": "copy.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making copies is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making copies is inherently neutral; its positive or negative sentiment depends on context or the nature of the copies."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is carried out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the result is 'multiple copies', the verb 'manifold' itself describes a single, complete act of producing these copies, not a series of repeated individual copying actions. The multiplicity is an attribute of the outcome, not the iterativity of the process."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

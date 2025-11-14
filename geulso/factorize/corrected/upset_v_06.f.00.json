@@ -1,0 +1,65 @@
+{
+  "synset_id": "upset.v.06",
+  "definition": "defeat suddenly and unexpectedly",
+  "frame_id": 0,
+  "frame_text": "Somebody upset somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "outcome.n.01",
+      "reasoning": "The verb describes an action where the agent causes a change in the patient's competitive status, resulting in defeat.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' who performs the act of defeating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' who is defeated, undergoing the change of outcome."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition 'defeat suddenly' explicitly states that the event occurs in a sudden manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "unexpected.a.01",
+      "reasoning": "The definition 'defeat unexpectedly' explicitly states that the event occurs in an unexpected manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defeating someone is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will to achieve the defeat."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While defeat is negative for the patient, the verb 'upset' itself, especially in the context of an underdog winning, can be neutral or even positive from a spectator's perspective. Thus, it's inherently neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody upset somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of defeating is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of defeat."
+    }
+  }
+}

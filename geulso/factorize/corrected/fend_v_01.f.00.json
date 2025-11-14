@@ -1,0 +1,60 @@
+{
+  "synset_id": "fend.v.01",
+  "definition": "try to manage without help",
+  "frame_id": 0,
+  "frame_text": "Somebody fend PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "management.n.01",
+      "reasoning": "The verb describes an activity of an agent striving to manage a situation or cope with circumstances, as per the definition 'try to manage'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the activity of managing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "situation.n.01",
+          "reasoning": "The general 'situation' or circumstances that the agent is attempting to manage or deal with, often specified by the 'PP' in the frame (e.g., 'fend for oneself', 'fend off attackers')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "assistance.n.01",
+      "value_type": "absence.n.01",
+      "reasoning": "This sememe captures the explicit condition of performing the management 'without help', indicating the absence of external assistance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fending is typically a directly observed or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame and the 'try to manage' in the definition imply strong will and intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fending is neutral; its sentiment depends on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s PP' and the definition 'try to manage' explicitly indicate a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'fend' describes a definite action being undertaken, even if the outcome of 'trying to manage' is uncertain, the act of trying is certain."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'managing without help' often implies sustained or repeated efforts over time, suggesting high iterativity rather than a single event."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "synset_id": "back_up.v.02",
+  "definition": "move backwards from a certain position",
+  "frame_id": 3,
+  "frame_text": "Something back_down",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'move backwards from a certain position' clearly indicates a change in the entity's spatial location.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change of location. Since the action is non-volitional, 'Something' functions as a patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "backward.r.01",
+      "reasoning": "The core meaning of the verb specifies movement in a 'backwards' direction, which is a fundamental directional property of the motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of moving backwards is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' implies that the action is not driven by an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving backwards is neutral; its sentiment is determined by context, not inherent to the verb."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event happening to a non-agentive subject, making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of moving is described as a definite occurrence, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Moving backwards is typically a sustained action involving continuous or highly repetitive underlying motions (e.g., wheels rotating, legs moving), characteristic of many locomotion verbs."
+    }
+  }
+}

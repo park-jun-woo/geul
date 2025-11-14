@@ -1,0 +1,65 @@
+{
+  "synset_id": "putt.v.01",
+  "definition": "strike (a golf ball) lightly, with a putter",
+  "frame_id": 0,
+  "frame_text": "Somebody putt something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'putt' describes an action that causes a golf ball to change its state of motion, as supported by the hypernym 'hit.v.01' ('cause to move by striking').",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of striking the ball."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (specifically a golf ball) that undergoes the change in motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "light.a.01",
+      "reasoning": "The definition explicitly specifies 'lightly' as the manner in which the golf ball is struck, distinguishing it from other types of hits."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "putter.n.01",
+      "reasoning": "The verb 'putt' inherently refers to the use of a 'putter' as the specific instrument for the action, making it a core semantic component rather than an optional participant."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Putting is a physically observable action, indicating direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of putting a golf ball is neutral; the outcome determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody putt something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of putting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'putt' describes a single, discrete event of striking the ball for a specific putt."
+    }
+  }
+}

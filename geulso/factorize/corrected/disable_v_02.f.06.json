@@ -1,0 +1,59 @@
+{
+  "synset_id": "disable.v.02",
+  "definition": "injure permanently",
+  "frame_id": 6,
+  "frame_text": "Something incapacitate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "ability.n.01",
+      "reasoning": "The definition 'injure permanently' describes a change in the functional ability of a person from capable to incapable.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the permanent injury or incapacitation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change in ability or is permanently injured."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "permanent.a.01",
+      "reasoning": "The definition explicitly includes 'permanently', indicating that the resulting state of reduced ability is long-lasting or irreversible."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disabling is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-volitional cause, thus lacking will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'disable' and its definition 'injure permanently' inherently carry a negative sentiment due to the harm inflicted."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something incapacitate somebody' explicitly has a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of injury or incapacitation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Disabling someone is typically conceived as a single event that leads to a permanent state, not a repetitive action."
+    }
+  }
+}

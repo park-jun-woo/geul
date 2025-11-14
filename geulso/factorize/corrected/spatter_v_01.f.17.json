@@ -1,0 +1,65 @@
+{
+  "synset_id": "spatter.v.01",
+  "definition": "dash a liquid upon or against",
+  "frame_id": 17,
+  "frame_text": "Somebody splosh somebody with something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb 'spatter' describes an agent causing a change in the physical state of a person (e.g., becoming wet or covered) by applying a liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of dashing the liquid."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' who is the target of the action and undergoes a change of state (e.g., gets wet or dirty)."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'something' (liquid) that is used by the agent to perform the spattering, as indicated by the 'with something' phrase in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "force.n.02",
+      "reasoning": "The definition 'dash a liquid' implies that the liquid is projected with considerable force and rapidity, which is a key manner component of 'spatter'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Spattering is an event that is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or occurrence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spattering itself is neutral; its positive or negative connotation depends on the specific context or the liquid involved."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Based on the definition 'dash a liquid', the lexeme describes a single, albeit potentially dispersed, event of projection rather than a continuous or highly repetitive action."
+    }
+  }
+}

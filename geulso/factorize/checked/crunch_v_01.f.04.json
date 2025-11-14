@@ -1,0 +1,58 @@
+{
+  "synset_id": "crunch.v.01",
+  "definition": "make a crushing noise",
+  "frame_id": 4,
+  "frame_text": "Something crackle",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "noise.n.01",
+      "reasoning": "The verb describes the process of an entity producing a noise, as per the definition 'make a crushing noise'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that is the source or generator of the noise."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "crushing.a.01",
+      "reasoning": "The definition explicitly specifies 'crushing noise', indicating a particular characteristic or quality of the sound being produced."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a crunching noise is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' implies a non-agentive subject, and thus no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of crunching (making a noise) is neutral; its sentiment depends on context (e.g., crunching leaves vs. crunching bones)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' indicates a non-volitional subject ('Something'), meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making a noise."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Crunching often implies a series of rapid, repetitive sounds or a continuous process of crushing, rather than a single, instantaneous event. For instance, 'crunching gravel' or 'crunching cereal' suggests high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

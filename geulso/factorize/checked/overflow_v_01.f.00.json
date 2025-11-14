@@ -1,0 +1,68 @@
+{
+  "synset_id": "overflow.v.01",
+  "definition": "flow or run over (a limit or brim)",
+  "frame_id": 0,
+  "frame_text": "Something brim_over",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'flow or run over' indicates a continuous movement of a substance.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' from the verb frame that undergoes the movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The core meaning of 'overflow' is to exceed a limit or boundary, which is a change in the state of containment.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' whose containment state is altered."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "boundary.n.01",
+          "reasoning": "The implicit 'limit or brim' mentioned in the definition, which serves as the boundary that is exceeded."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Overflowing is a physical phenomenon that is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something overflow' indicates a non-agentive subject, so there is no implied will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of overflowing itself is neutral; its sentiment depends on context (e.g., joy overflowing vs. a river overflowing)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something overflow' features a non-agentive subject ('Something'), meaning the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'overflow' describes a continuous 'flow or run' over a limit, implying a sustained, repetitive-like action of fluid motion rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

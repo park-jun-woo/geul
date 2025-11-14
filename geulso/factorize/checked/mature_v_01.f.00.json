@@ -1,0 +1,56 @@
+{
+  "synset_id": "mature.v.01",
+  "definition": "develop and reach maturity; undergo maturation",
+  "frame_id": 0,
+  "frame_text": "Somebody grow",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "maturity.n.01",
+      "reasoning": "The definition 'develop and reach maturity; undergo maturation' describes a transition from an immature state to a mature state, which is a fundamental change.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the process of maturation, hence the patient of the change."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Maturation is a process that can be directly observed or inferred from direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a factual state or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something mature' indicates a natural process not driven by the will of an external agent or the subject itself."
+    },
+    "Aspect": {
+      "value": 5,
+      "reasoning": "The verb describes a process that unfolds over time (Progressive, 1) and culminates in a state of completion (Result-focused, 4), hence a bitmask value of 1+4=5."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of maturing is inherently neutral; the context may make it positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something mature' indicates that the process of maturing is typically a natural, biological, or intrinsic development, not a volitional act by the subject ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite process of development."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Maturation is generally understood as a single, extended process for an individual entity, rather than a series of repeated discrete events."
+    }
+  },
+  "errors": [
+    "`qualifiers.Aspect`의 'value'(5, 타입: int)가 허용된 값 목록에 없습니다."
+  ]
+}

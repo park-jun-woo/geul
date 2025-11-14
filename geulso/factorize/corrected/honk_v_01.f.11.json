@@ -1,0 +1,61 @@
+{
+  "synset_id": "honk.v.01",
+  "definition": "make a loud noise",
+  "frame_id": 11,
+  "frame_text": "Something blare",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "sound.v.02",
+      "reasoning": "The verb describes the action of producing a sound, as indicated by its hypernym 'sound.v.02' ('make a certain noise or sound').",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that actively performs the action of producing the sound, as specified by the verb frame (interpreted as 'Something honks')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "loud.a.01",
+      "reasoning": "The definition explicitly states 'make a loud noise', indicating that 'loud' is an inherent characteristic or manner of the sound produced by honking."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "honk.n.01",
+      "reasoning": "The verb 'honk' inherently specifies a distinct, characteristic type of sound (e.g., of a vehicle horn or a goose), which is a specific manner or quality of the noise made."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of honking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' suggests a non-agentive subject (e.g., a horn), implying no inherent will from the 'Something' itself, even if triggered by an external agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of honking is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event where the subject ('Something') is typically inanimate or non-agentive (e.g., a horn), making the action non-volitional for the subject itself, in line with the rule for 'Something' as subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of honking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of making a noise. Repetition would be indicated by adverbs or context."
+    }
+  }
+}

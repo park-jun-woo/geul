@@ -1,0 +1,69 @@
+{
+  "synset_id": "nark.v.02",
+  "definition": "inform or spy (for the police)",
+  "frame_id": 0,
+  "frame_text": "Somebody nark",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb's primary meaning is to communicate information, as stated in the definition 'inform'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of communication, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "police.n.01",
+          "reasoning": "The definition specifies the implicit recipient of the information as 'for the police'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The 'information' (typically about illicit activities or individuals) that is communicated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "secretly.r.01",
+      "reasoning": "The 'spy' aspect in the definition implies that the act of informing is often done covertly or secretly."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'narking' (informing or spying) is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with clear intention and will."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The term 'nark' is generally considered informal or slang."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'narking' carries a strong negative connotation, implying betrayal or malicious informing, especially from the perspective of the person being informed against."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of 'narking' is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "In the simple 'Somebody narks' frame, it implies a singular act of informing rather than continuous repetition, although the 'spy' aspect can imply continuous observation."
+    }
+  }
+}

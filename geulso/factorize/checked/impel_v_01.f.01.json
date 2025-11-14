@@ -1,0 +1,66 @@
+{
+  "synset_id": "impel.v.01",
+  "definition": "urge or force (a person) to an action; constrain or motivate",
+  "frame_id": 1,
+  "frame_text": "Somebody impel somebody to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "motivation.n.01",
+      "reasoning": "The verb describes causing a person to become motivated or constrained to perform an action, reflecting a change in their internal state leading to an external act.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates the urging or forcing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' who is subjected to the impelling and whose action is caused."
+        },
+        {
+          "semantic_role": "result_action.n.01",
+          "reasoning": "The 'to INFINITIVE' clause, which represents the specific action the patient is caused to perform."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "strong.a.01",
+      "reasoning": "The definition 'urge or force' indicates a high degree of influence or compulsion, rather than a gentle suggestion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of impelling is typically a directly observable event or interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' who impels acts with clear intention and will to influence another."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of impelling itself is neutral; the nature of the action being impelled can determine its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody impel...' explicitly includes a volitional agent ('Somebody') performing the action of impelling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of impelling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct act of influencing someone to act."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

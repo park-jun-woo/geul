@@ -1,0 +1,67 @@
+{
+  "synset_id": "snip.v.02",
+  "definition": "cultivate, tend, and cut back the growth of",
+  "frame_id": 3,
+  "frame_text": "Somebody dress something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "size.n.01",
+      "reasoning": "The definition 'cut back the growth of' directly implies a reduction in the size or amount of the subject's growth, which is a change in its state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame who performs the action of cutting back."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' from the verb frame, referring to the growth that is being reduced in size."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "cutting.n.01",
+      "reasoning": "The definition explicitly states 'cut back', indicating that the method of achieving the change in size is by cutting. The verb 'snip' implies these cuts are typically small and precise."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "cultivation.n.01",
+      "reasoning": "The definition includes 'cultivate, tend', which indicates the overarching goal or purpose of the action of cutting back the growth."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of snipping or cutting back growth is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame, performing an action like 'cultivate' and 'tend', implies clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of snipping for cultivation is generally neutral; its sentiment depends on context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody dress something' (interpreted as 'Somebody snips something') explicitly indicates a volitional agent performing an intentional action of cultivating and cutting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The activity of 'cultivating, tending, and cutting back growth' often involves many repeated small actions (snips) over a period, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "compile.v.03",
+  "definition": "use a computer program to translate source code written in a particular programming language into computer-readable machine code that can be executed",
+  "frame_id": 0,
+  "frame_text": "Somebody compile something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "representation.n.01",
+      "reasoning": "The definition states 'translate source code ... into ... machine code', indicating a transformation or change in the form/representation of the code.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of compilation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (source code) that undergoes the change of representation."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "computer_program.n.01",
+          "reasoning": "The definition explicitly mentions 'use a computer program' as the tool for translation."
+        },
+        {
+          "semantic_role": "result.n.01",
+          "value_type": "machine_code.n.01",
+          "reasoning": "The 'computer-readable machine code' is the direct outcome or product of the compilation process."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of compiling is a directly observable process in a computational environment."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of compiling is a technical process and is semantically neutral; its positive or negative impact depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody compile something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of translating a given piece of source code, even if the process itself involves many internal steps."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "question.v.03",
+  "definition": "pose a question",
+  "frame_id": 1,
+  "frame_text": "Somebody query something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'question' describes a deliberate act of communicating an inquiry, aligning with the concept of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the act of questioning."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the frame who is the target of the question and from whom an answer is expected."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "question.n.01",
+          "reasoning": "The implicit semantic object of the verb is the 'question' itself, as indicated by the definition 'pose a question'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of posing a question is typically a directly observable event or an act of direct communication."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an explicit agent ('Somebody') in the frame indicates the action is performed with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of questioning is inherently neutral; any positive or negative sentiment is dependent on the context or the content of the question."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing an intentional act of questioning."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'question' describes a definite and certain occurrence of posing a question."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'question' in this frame typically denotes a single instance of posing an inquiry, unless modified to indicate repetition."
+    }
+  }
+}

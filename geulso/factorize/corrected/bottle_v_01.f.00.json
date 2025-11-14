@@ -1,0 +1,58 @@
+{
+  "synset_id": "bottle.v.01",
+  "definition": "store (liquids or gases) in bottles",
+  "frame_id": 0,
+  "frame_text": "Somebody bottle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "containment.n.01",
+      "reasoning": "The verb 'bottle' denotes an action that changes the state of a substance from being uncontained or contained elsewhere to being contained within a bottle.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of placing the substance into the bottle, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (liquids or gases) that undergoes the change of containment and is placed into the bottle."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "bottle.n.01",
+          "reasoning": "The bottle itself serves as the specific container and ultimate destination for the substance, being integral to the verb's meaning, even if not an explicit argument in this frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bottling is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is carried out with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bottling is a neutral process; its sentiment depends on context or the substance being bottled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bottle something' typically refers to a single act of processing a specific quantity or item into bottles. If repetitive action was implied, it would require a different phrasing or context."
+    }
+  }
+}

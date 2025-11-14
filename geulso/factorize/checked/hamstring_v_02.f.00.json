@@ -1,0 +1,62 @@
+{
+  "synset_id": "hamstring.v.02",
+  "definition": "cripple by cutting the hamstring",
+  "frame_id": 0,
+  "frame_text": "Somebody hamstring somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The verb describes causing a change in the physical condition of a person, specifically from able-bodied to crippled.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the action that results in crippling, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose physical condition undergoes the change and becomes crippled."
+        }
+      ]
+    },
+    {
+      "verb_type": "means",
+      "verb_property": "cutting.n.01",
+      "value_type": "hamstring.n.01",
+      "reasoning": "The verb explicitly specifies the precise method by which the crippling is achieved: through the act of cutting the hamstring tendon or muscle."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hamstringing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'cripple' someone (which is the result of hamstringing) is an inherently negative act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hamstringing is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, decisive event of crippling a person by cutting their hamstring."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'means'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

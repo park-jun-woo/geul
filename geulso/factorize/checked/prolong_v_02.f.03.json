@@ -1,0 +1,61 @@
+{
+  "synset_id": "prolong.v.02",
+  "definition": "lengthen or extend in duration or space",
+  "frame_id": 3,
+  "frame_text": "Something keep_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "duration.n.01",
+      "reasoning": "The definition 'lengthen or extend in duration' directly indicates a change in the temporal property of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity causing the prolongation or maintaining the extension."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose duration or extent is being lengthened or extended."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "verb_property": "increase.n.01",
+      "reasoning": "The terms 'lengthen' and 'extend' explicitly denote an increase in duration or space."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of prolonging something, especially implied by 'keep up', is generally a directly observable phenomenon or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something keep_up something' indicates a non-volitional agent ('Something') performing the action, thus lacking an inherent will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of prolonging is semantically neutral; its positive or negative sentiment depends on the context and what is being prolonged."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something keep_up something' implies a non-agentive 'Something' as the subject, indicating a non-volitional action or process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act or process of extending something."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'keep up' might imply continuous effort, 'prolong' describes a single, sustained act of extension rather than discrete repetitions. It's a continuous event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

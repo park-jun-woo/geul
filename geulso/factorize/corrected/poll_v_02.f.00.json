@@ -1,0 +1,61 @@
+{
+  "synset_id": "poll.v.02",
+  "definition": "vote in an election at a polling station",
+  "frame_id": 0,
+  "frame_text": "Somebody poll",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "expression.n.02",
+      "reasoning": "The verb 'poll' describes the action of expressing a choice or preference through casting a vote, which can be seen as a change in the state of information (a vote is recorded).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of voting."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value": "polling_station.n.01",
+      "reasoning": "The definition explicitly specifies 'at a polling station' as the designated location for this act of voting."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value": "election.n.01",
+      "reasoning": "The definition specifies that the act of voting takes place 'in an election', indicating its specific purpose within a formal process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of polling (voting) is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody poll' implies that the agent acts with clear intention and will to cast a vote."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of polling or voting itself is neutral; the outcome or context might carry sentiment, but not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of voting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of polling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of a person casting a vote."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "cobble.v.01",
+  "definition": "pave with cobblestones",
+  "frame_id": 1,
+  "frame_text": "Somebody cobblestone something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "covering.n.01",
+      "reasoning": "The verb 'cobble' means to 'pave with cobblestones', indicating a change in the state of the patient from being uncovered or covered by something else to being covered specifically by cobblestones.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame actively performs the action of paving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state by being covered with cobblestones."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "cobblestone.n.01",
+      "reasoning": "The verb 'cobble' inherently specifies the particular material (cobblestones) and method used for paving, distinguishing it from other forms of paving. This specific material defines the manner of covering."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of cobblestoning is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cobblestoning itself is a neutral action; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of cobblestoning is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of cobblestoning involves laying multiple individual stones repeatedly to cover a surface, implying a continuous, highly repetitive process rather than a single instantaneous event. Similar to 'run' which involves repetitive steps."
+    }
+  }
+}

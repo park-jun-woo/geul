@@ -1,0 +1,62 @@
+{
+  "synset_id": "silhouette.v.02",
+  "definition": "represent by a silhouette",
+  "frame_id": 3,
+  "frame_text": "Something silhouette something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "representation.n.01",
+      "reasoning": "The verb's definition 'represent by a silhouette' indicates the creation of a visual likeness or depiction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity causing the representation to occur."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the object being represented or depicted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "style.n.01",
+      "value_type": "silhouette.n.01",
+      "reasoning": "The unique characteristic of the representation is that it is a silhouette, meaning a dark outline against a lighter background. This defines the specific visual style or manner of depiction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of silhouetting something is typically directly observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something silhouette something' implies an inanimate subject (e.g., light, a background) causing the effect, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of silhouetting is semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "With 'Something' as the agent, the action is generally non-volitional, describing an effect rather than an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of silhouetting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular event of creating a silhouette, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

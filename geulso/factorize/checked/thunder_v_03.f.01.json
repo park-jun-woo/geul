@@ -1,0 +1,65 @@
+{
+  "synset_id": "thunder.v.03",
+  "definition": "be the case that thunder is being heard",
+  "frame_id": 1,
+  "frame_text": "It is thundering",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "sound.n.02",
+      "reasoning": "The verb describes the ongoing process of generating the characteristic sound of thunder as a natural atmospheric event. The frame 'It is thundering' indicates a continuous phenomenon.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "weather.n.01",
+          "reasoning": "The 'It' in the impersonal frame 'It is thundering' refers to the atmospheric conditions or weather as the non-agentive source of the thunderous sound."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb implies direct sensory experience (hearing) of the thunder."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "As a natural phenomenon, thunder does not involve an agent's will or intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The frame 'It is thundering' refers to the present time."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The progressive form 'is thundering' indicates an ongoing, continuous action or state."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness marking."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The natural phenomenon of thundering is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'It is thundering' describes an impersonal natural event, inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'It is thundering' conveys certainty about the occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Thundering is typically an ongoing process involving a series of sounds or continuous rumbling, implying high repetition rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

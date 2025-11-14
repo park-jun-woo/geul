@@ -1,0 +1,60 @@
+{
+  "synset_id": "recommence.v.02",
+  "definition": "begin again",
+  "frame_id": 4,
+  "frame_text": "Something recommence",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "activity.n.01",
+      "reasoning": "The verb 'recommence' describes a transition from a state of non-activity to a state of activity, initiating an action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of recommencing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'VERB-ing' represents the activity or process that is being recommenced."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "repetition.n.02",
+      "value_type": "resumption.n.01",
+      "reasoning": "The prefix 're-' and the word 'again' in the definition 'begin again' explicitly indicate that this initiation is a resumption of a prior, previously stopped, activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of recommencing an activity is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with intention and will to recommence the activity."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of recommencing is semantically neutral; its sentiment depends on the specific activity being recommenced."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, making the action of recommencing intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'recommence' describes a definite action, implying certainty of its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the recommenced activity itself might be iterative, the act of 'recommencing' is a single, punctual event of initiation."
+    }
+  }
+}

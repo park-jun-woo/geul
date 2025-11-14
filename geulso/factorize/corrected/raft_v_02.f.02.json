@@ -1,0 +1,65 @@
+{
+  "synset_id": "raft.v.02",
+  "definition": "travel by raft in water",
+  "frame_id": 2,
+  "frame_text": "Somebody raft something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'travel' describes a change of location through movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' in the frame often specifies the direction, path, or general area of travel."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "raft.n.01",
+      "reasoning": "The verb explicitly means to travel 'by raft', indicating the instrument used."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The travel explicitly occurs 'in water', indicating the medium of transit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Traveling by raft is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rafting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody raft PP' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of rafting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rafting is an activity that typically involves continuous and highly repetitive actions (e.g., paddling, drifting) over a duration, similar to running."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "synset_id": "tip.v.03",
+  "definition": "give a tip or gratuity to in return for a service, beyond the compensation agreed on",
+  "frame_id": 1,
+  "frame_text": "Somebody bung somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the action of transferring possession of a gratuity (a tip) from one person to another, which is a change in ownership.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the transfer of the tip, as specified by the verb frame.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the tip, often a service provider.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred, which is a tip or gratuity.",
+          "value_type": "gratuity.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "service.n.01",
+      "reasoning": "The definition specifies the action is 'in return for a service', indicating the purpose of the transfer.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tipping is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tipping is inherently neutral; its positive or negative sentiment depends on context or the amount."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of tipping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of giving a tip."
+    }
+  }
+}

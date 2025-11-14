@@ -1,0 +1,64 @@
+{
+  "synset_id": "switch-hit.v.01",
+  "definition": "bat right-handed against a left-handed and left-handed against a right-handed pitcher",
+  "frame_id": 1,
+  "frame_text": "Somebody switch-hit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "impact.n.01",
+      "reasoning": "The verb 'switch-hit' is a specific form of 'batting' (as indicated by its hypernym), which involves striking an object, causing a change in its state or motion (e.g., hitting a ball).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of batting."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "bat.n.01",
+          "reasoning": "The act of 'batting' inherently implies the use of a bat as an instrument."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is struck by the bat, typically a baseball."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "alternating_handedness_stance.n.01",
+      "reasoning": "The definition explicitly details the specific manner of batting: 'bat right-handed against a left-handed and left-handed against a right-handed pitcher'. This alternating stance based on the pitcher is the defining characteristic of 'switch-hit'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of switch-hitting is a physically observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual action, implying a declarative mood."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of switch-hitting is a neutral sporting action, without inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame 'Somebody ----s something' typically refers to a single instance of the action, a specific act of hitting the ball."
+    }
+  }
+}

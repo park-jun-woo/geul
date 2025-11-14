@@ -1,0 +1,58 @@
+{
+  "synset_id": "resublime.v.01",
+  "definition": "sublime (a compound) once again",
+  "frame_id": 0,
+  "frame_text": "Something resublime",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb describes a physical process of phase transition, which is a change in the state of matter.",
+      "value_type": "sublimation.n.01",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the process of resublimation, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "aspect",
+      "verb_property": "repetition.n.01",
+      "reasoning": "The 're-' prefix in 'resublime' and the phrase 'once again' in the definition explicitly indicate that the sublimation process is a repetition of a previous occurrence."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Resublimation is a physical process that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a physical event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates a non-agentive subject, meaning the action is not driven by will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The process of resublimation is a neutral scientific phenomenon."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a non-volitional entity undergoing a process, not performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite physical process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the action itself is a repetition of a previous event (indicated by the 're-' prefix captured in sememes), the act of 'resubliming' itself, as a discrete event, is treated as a single occurrence for the purpose of this qualifier."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'aspect'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

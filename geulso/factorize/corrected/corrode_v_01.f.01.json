@@ -1,0 +1,59 @@
+{
+  "synset_id": "corrode.v.01",
+  "definition": "cause to deteriorate due to the action of water, air, or an acid",
+  "frame_id": 1,
+  "frame_text": "Something eat something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'corrode' describes a process of deterioration, which is a change in the state or condition of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, which represents the entity (e.g., water, air, acid) initiating the corrosive action and causing the deterioration."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame, which is the object undergoing the deterioration due to the corrosive action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "mechanism.n.01",
+      "value_type": "chemical_reaction.n.01",
+      "reasoning": "The definition explicitly states the deterioration occurs 'due to the action of water, air, or an acid', indicating a chemical or elemental reaction as the primary mechanism."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Corrosion is a physical process that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent (e.g., water, air, acid) is an inanimate force, lacking will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'cause to deteriorate' inherently implies a negative outcome or change in state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent of corrosion ('Something' like water, air, or acid) is non-volitional; it does not perform the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite physical process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Corrosion is typically an ongoing, continuous process involving repeated or sustained chemical reactions over time, rather than a single discrete event."
+    }
+  }
+}

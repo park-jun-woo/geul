@@ -1,0 +1,65 @@
+{
+  "synset_id": "perfuse.v.01",
+  "definition": "force a fluid through (a body part or tissue)",
+  "frame_id": 0,
+  "frame_text": "Somebody perfuse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a fluid to move through a body part or tissue, which is a change in its spatial distribution and location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively initiates and controls the action of forcing the fluid, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fluid.n.01",
+          "reasoning": "The 'something' in the frame refers to the fluid that is being moved or distributed, as implied by the definition."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "body_part.n.01",
+          "reasoning": "The 'body part or tissue' is the inherent medium or destination through which the fluid is forced, representing the location or path of the action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "force.v.01",
+      "reasoning": "The definition explicitly states 'force a fluid through', indicating the specific method or manner of causing the fluid's motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of perfusing is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies an agent acting with strong will, and the act of 'forcing' further emphasizes this."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of perfusing is neutral; its sentiment depends on the specific context of use."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent performing the action, and 'forcing' is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed instance of forcing fluid through, or a continuous action treated as a single event, not inherently repetitive pulses."
+    }
+  }
+}

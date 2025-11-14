@@ -1,0 +1,56 @@
+{
+  "synset_id": "survive.v.01",
+  "definition": "continue to live through hardship or adversity",
+  "frame_id": 5,
+  "frame_text": "Somebody hold_out something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "endurance.n.01",
+      "reasoning": "The verb 'survive' with this frame describes an ongoing process of enduring or resisting adverse conditions to continue living, aligning with the definition 'continue to live through hardship or adversity'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity that actively undergoes and persists through the adverse conditions."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame refers to the hardship, adversity, or threat that the agent endures or survives."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of surviving is typically something directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "To 'hold out' and 'survive' implies a strong will or effort from the agent to overcome adversity."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Surviving implies overcoming a negative situation to achieve a positive outcome (continued existence)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent who actively 'holds out' or makes an effort to survive."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'survive' describes a definite successful outcome of enduring hardship."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'continue to live through hardship' implies an ongoing, continuous effort or state over a period, rather than a single instantaneous event. This suggests high repetition or continuous nature."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

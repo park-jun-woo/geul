@@ -1,0 +1,62 @@
+{
+  "synset_id": "teach.v.01",
+  "definition": "impart skills or knowledge to",
+  "frame_id": 5,
+  "frame_text": "Somebody learn that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'impart skills or knowledge to' describes a process of causing a change in the recipient's state from not possessing knowledge/skills to possessing them.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who performs the action of teaching, intentionally initiating the transfer of knowledge or skills."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the person who receives the knowledge or skills."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "knowledge.n.01",
+          "reasoning": "The 'something' in the frame refers to the knowledge or skills that are being imparted, which undergo the change of possession."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Teaching is a directly observable interaction and process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame actively and intentionally imparts knowledge, indicating strong will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'teach' itself is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of teaching is neutral; the content taught might have positive or negative implications, but not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody teach...' explicitly indicates a volitional agent performing the action of teaching."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite act of imparting knowledge or skills."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While teaching can be an ongoing process, this frame describes a single instance of imparting 'something' to 'somebody'. If it were an ongoing process, a different aspect or context would be needed."
+    }
+  }
+}

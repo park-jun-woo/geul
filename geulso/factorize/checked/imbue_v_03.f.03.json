@@ -1,0 +1,62 @@
+{
+  "synset_id": "imbue.v.03",
+  "definition": "suffuse with color",
+  "frame_id": 3,
+  "frame_text": "Something imbue something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The definition 'suffuse with color' indicates a process where an object's color state is changed or initiated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the suffusion of color, acting as a non-volitional agent or instrument."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the change, receiving the color."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "distribution.n.01",
+      "value_type": "suffusion.n.01",
+      "reasoning": "The term 'suffuse' specifically denotes a manner of spreading or permeating throughout the object, distinguishing it from simply adding color to a spot."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of imbuing with color is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something imbue something' implies a non-volitional agent or instrument, indicating no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of imbuing with color is neutral; the resulting color or context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something imbue something' features a non-agentive subject, meaning the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of imbuing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the process of suffusion might be gradual, the verb typically refers to a single event of imparting color until the suffused state is achieved."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

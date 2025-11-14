@@ -1,0 +1,63 @@
+{
+  "synset_id": "strip_mine.v.01",
+  "definition": "extract (ore) from a strip-mine",
+  "frame_id": 5,
+  "frame_text": "Somebody surface_mine something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "extraction.n.01",
+      "reasoning": "The verb's definition 'extract (ore)' directly points to the act of removing material from a source, which is a change in the state or location of the material.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mining operation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (ore) that is being extracted, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The strip-mine or earth from which the ore is extracted, implied by the verb's meaning and the definition 'from a strip-mine'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "surface_mining.n.01",
+      "reasoning": "The verb 'strip_mine' and the explicit frame 'surface_mine' denote a specific method of mining, which is a core component of its meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Mining is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mining itself is neutral; its broader implications are not inherent to the verb's core semantic decomposition."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, factual action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Strip mining is typically a continuous, sustained process involving repetitive actions over an extended period, indicating high iterativity."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "synset_id": "paraphrase.v.01",
+  "definition": "express the same message in different words",
+  "frame_id": 1,
+  "frame_text": "Somebody paraphrase something",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "communication.n.02",
+      "reasoning": "The verb describes an intentional act of expressing information or a message.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' who initiates and performs the act of communication."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "message.n.02",
+          "reasoning": "The implicit message or text being expressed. Its presence is inherent to the definition 'express the same message', even if not explicitly a noun in the surface frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'somebody' in the frame, who is the original author or speaker of the message that is being communicated in a new form."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "form.n.01",
+      "value_type": "different.a.01",
+      "reasoning": "A key characteristic of paraphrasing is that the message is conveyed using 'different words' or a different linguistic form compared to the original."
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "meaning.n.01",
+      "value_type": "same.a.01",
+      "reasoning": "A fundamental semantic constraint of paraphrasing is that the underlying meaning or core message remains identical to the original, despite the change in linguistic form."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of paraphrasing is a direct cognitive and communicative activity performed by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of paraphrasing itself is neutral; the content being paraphrased may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of paraphrasing, when described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of re-expressing a particular message."
+    }
+  }
+}

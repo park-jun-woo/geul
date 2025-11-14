@@ -1,0 +1,65 @@
+{
+  "synset_id": "applaud.v.01",
+  "definition": "clap one's hands or shout after performances to indicate approval",
+  "frame_id": 4,
+  "frame_text": "Somebody applaud somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "expression.n.02",
+      "reasoning": "The verb describes an overt act of communicating a sentiment or emotion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the act of expression, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object or receiver of the expressed sentiment."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sentiment.n.01",
+      "value_type": "approval.n.01",
+      "reasoning": "The definition explicitly states the purpose of the action is 'to indicate approval', which is the core sentiment being expressed."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "physical_and_vocal_gestures",
+      "reasoning": "The definition specifies the physical acts ('clap one's hands or shout') as the manner in which the approval is expressed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Applauding is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The verb inherently indicates a positive sentiment ('to indicate approval')."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody applaud somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of applauding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Applauding typically involves continuous, repetitive actions (clapping, shouting) over a period, indicating high repetition."
+    }
+  }
+}

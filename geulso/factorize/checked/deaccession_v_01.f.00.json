@@ -1,0 +1,63 @@
+{
+  "synset_id": "deaccession.v.01",
+  "definition": "sell (art works) from a collection, especially in order to raise money for the purchase of other art works",
+  "frame_id": 0,
+  "frame_text": "Somebody deaccession something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'deaccession' describes the act of selling an item from a collection, which constitutes a change in its ownership or possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of deaccessioning, initiating the transfer of possession."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "artwork.n.01",
+          "reasoning": "The 'something' in the verb frame that undergoes the change of possession, specifically identified as 'art works from a collection' by the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "finance.n.01",
+      "reasoning": "The definition specifies that deaccessioning is done 'especially in order to raise money for the purchase of other art works', indicating a core financial purpose for the action.",
+      "value_type": "acquisition.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Deaccessioning is an action that is typically directly observable or documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of deaccessioning is neutral; its sentiment depends on context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deaccession something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of deaccessioning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of removing an item (or set of items) from a collection for sale."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

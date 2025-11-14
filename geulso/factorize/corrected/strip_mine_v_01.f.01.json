@@ -1,0 +1,59 @@
+{
+  "synset_id": "strip_mine.v.01",
+  "definition": "extract (ore) from a strip-mine",
+  "frame_id": 1,
+  "frame_text": "Somebody strip_mine something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the action of removing ore from its original location (in the earth) to an extracted state, thus changing its physical location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the excavation and extraction of the ore."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (ore) that undergoes the change of location, being extracted from the mine."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "strip_mining",
+      "reasoning": "The verb itself specifies the particular method of mining used, which is strip mining."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of strip mining is a directly observable and verifiable industrial process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame indicates an intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of mining itself is neutral; any positive or negative connotations depend on the context or impact, not the verb's inherent meaning."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly implies a volitional agent performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Strip mining is an industrial process that involves continuous, highly repetitive acts of excavation and extraction over a period of time, rather than a single discrete event."
+    }
+  }
+}

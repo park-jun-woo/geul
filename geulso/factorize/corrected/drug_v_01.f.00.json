@@ -1,0 +1,53 @@
+{
+  "synset_id": "drug.v.01",
+  "definition": "administer a drug to",
+  "frame_id": 0,
+  "frame_text": "Somebody dose somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "treatment.n.02",
+      "reasoning": "The definition 'administer a drug to' describes an action that causes a change in the physical state of a patient through medication, aligning with the concept of treatment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of administering the drug."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who receives the drug and whose state is affected."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Administering a drug is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Administering a drug itself is neutral; its positive or negative impact depends on the context and intent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody drug somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of administering a drug is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of administering a drug."
+    }
+  }
+}

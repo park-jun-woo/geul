@@ -1,0 +1,70 @@
+{
+  "synset_id": "foreshow.v.01",
+  "definition": "foretell by divine inspiration",
+  "frame_id": 0,
+  "frame_text": "Something foreshow something",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "indication.n.01",
+      "reasoning": "The verb describes an event where one entity (the subject 'Something') serves as a sign or omen for a future event, aligning with 'foretell' and the hypernym 'bode' (to indicate by signs).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that provides the indication or acts as the sign, as specified by the verb frame. This entity is the source of the prediction.",
+          "value_type": "omen.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "future_event.n.01",
+          "reasoning": "The 'something' that is indicated or foretold, which refers to a future occurrence or state. This is the content of the prediction."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The verb describes the act of indicating a future event, which is an inference drawn from current signs or an interpretation, not direct observation of the future event itself."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of indication."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies no will or intention, as it is an inanimate or non-agentive entity."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "Default tense for the verb's core meaning is present, referring to the act of foreshowing as it occurs."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple act of indication, without emphasis on ongoing duration, completion, or result."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "No specific politeness level is inherent in the verb 'foreshow'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of foreshowing itself is neutral; what is foreshown (the future event) can be positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'foreshow' implies a definite relationship where one thing serves as an indicator for another, implying certainty in the indicative act itself."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance or event where one thing indicates another, rather than a repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

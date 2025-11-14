@@ -1,0 +1,64 @@
+{
+  "synset_id": "dust.v.02",
+  "definition": "rub the dust over a surface so as to blur the outlines of a shape",
+  "frame_id": 0,
+  "frame_text": "Somebody dust something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "clarity.n.01",
+      "reasoning": "The verb's primary effect is to blur outlines, which is a change in the clarity or distinctness of a surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of dusting.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (surface) that undergoes the change in clarity."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "dust.n.01",
+          "reasoning": "The 'dust' itself is the material used as a tool to achieve the blurring effect, inherent in the verb's meaning for this sense."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "rubbing.n.01",
+      "reasoning": "The definition explicitly states that the action involves 'rubbing the dust over a surface', indicating the manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of dusting a surface is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'dusting' in this sense (blurring) is neutral; its sentiment depends on the specific context or desired outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'rubbing the dust over a surface' inherently involves continuous, highly repetitive motions to achieve the blurring effect."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "horse_around.v.01",
+  "definition": "indulge in horseplay",
+  "frame_id": 2,
+  "frame_text": "Somebody fool_around",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "playfulness.n.01",
+      "reasoning": "The definition 'indulge in horseplay' describes a type of boisterous and playful activity, indicating an ongoing behavior rather than a discrete change or state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the individual performing the action of horseplay."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "boisterous.a.01",
+      "reasoning": "The term 'horseplay' specifically implies a loud, energetic, and often rough manner of playing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of horse-playing is typically a directly observable behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or behavior."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' in the frame implies an intentional and willful engagement in the activity, supported by 'indulge'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of horse-playing itself is neutral; its positive or negative sentiment depends on context (e.g., fun vs. disruptive)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the definition 'indulge' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or engagement in the activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Horseplay is typically a continuous activity composed of multiple, repeated playful actions, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

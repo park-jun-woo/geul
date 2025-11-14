@@ -1,0 +1,56 @@
+{
+  "synset_id": "remember.v.03",
+  "definition": "recapture the past; indulge in memories",
+  "frame_id": 2,
+  "frame_text": "Somebody think_back",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "memory.n.01",
+      "reasoning": "The definition 'recapture the past; indulge in memories' describes an active mental process of engaging with past events or information stored in memory, rather than a static state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively initiates and performs the mental process of recalling or indulging in memories, as indicated by the verb frame 'Somebody think_back'."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The 'past' or 'memories' that are the object of the mental process, representing the content being recalled or indulged in."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of remembering or indulging in one's own memories is a direct internal, cognitive experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody think_back' and the definition 'indulge in memories' imply a conscious and intentional mental effort on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of remembering is generally neutral; the emotional valence depends on the specific memories being recalled."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody think_back' explicitly indicates a volitional agent performing the act, and 'indulge in memories' suggests a deliberate choice to engage."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'remember' or 'recapture' the past implies a high degree of certainty in the authenticity of the recalled information or experience."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'indulge in memories' suggests a continuous or highly repetitive mental engagement with past events, implying high iterativity rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

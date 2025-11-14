@@ -1,0 +1,68 @@
+{
+  "synset_id": "blink.v.01",
+  "definition": "briefly shut the eyes",
+  "frame_id": 3,
+  "frame_text": "Somebody wink",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "closure.n.01",
+      "reasoning": "The verb describes the action of changing the state of an eye from open to closed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "eye.n.01",
+          "reasoning": "The 'eye' that undergoes the change of state. The frame 'wink' implies the closure of a single eye, specializing the 'eyes' from the base definition of 'blink'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "brief.a.01",
+      "reasoning": "The definition 'briefly shut the eyes' specifies a short duration for the action."
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "communication.n.02",
+      "reasoning": "The frame 'wink' implies a communicative intent or social signal as part of the action, distinguishing it from a simple reflexive blink."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of winking is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Winking is a deliberate action, indicating strong will from the agent ('Somebody')."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of winking is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody wink' clearly indicates an intentional, volitional act, overriding the involuntary aspect often associated with general 'blinking' (as suggested by the hypernyms for blink.v.01)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of winking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of winking."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

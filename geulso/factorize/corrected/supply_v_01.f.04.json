@@ -1,0 +1,62 @@
+{
+  "synset_id": "supply.v.01",
+  "definition": "give something useful or necessary to",
+  "frame_id": 4,
+  "frame_text": "Somebody provide somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'give something useful or necessary to' clearly describes a transfer of possession, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the transfer of the item; the supplier."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the item; the beneficiary of the supply."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred, provided as the direct object of 'with'."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "value_type": "utility.n.01",
+      "reasoning": "The definition specifies 'something useful or necessary', indicating that the purpose of the act of supplying is to provide utility or meet a need. This distinguishes 'supply' from a generic 'give'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of supplying is a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies an intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of supplying itself is neutral; its sentiment depends on what is supplied and the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody supply...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The basic frame describes a single, completed act of supplying. Continuous or repetitive supply would typically require additional temporal or adverbial modification."
+    }
+  }
+}

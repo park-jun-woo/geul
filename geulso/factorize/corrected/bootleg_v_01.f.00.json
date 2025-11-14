@@ -1,0 +1,64 @@
+{
+  "synset_id": "bootleg.v.01",
+  "definition": "sell illicit products such as drugs or alcohol",
+  "frame_id": 0,
+  "frame_text": "Somebody bootleg",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'bootleg' describes the act of selling, which involves a transfer of goods and thus a change in possession, consistent with its hypernym 'sell'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the act of selling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "product.n.01",
+          "reasoning": "The implied 'something' (products) whose possession is transferred during the sale, as specified in the definition."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The implied 'somebody' who receives the products (the buyer), though not explicitly in this simplified frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "legality.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The core distinction of 'bootleg' from 'sell' is that the transaction involves 'illicit products' or is performed unlawfully, making the act itself illegal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bootlegging is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's primary use is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly mentions 'illicit products' and unlawful activity, giving the verb a negative inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bootleg' indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of selling, although such acts can be repeated."
+    }
+  }
+}

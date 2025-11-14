@@ -1,0 +1,60 @@
+{
+  "synset_id": "breathe.v.01",
+  "definition": "draw air into, and expel out of, the lungs",
+  "frame_id": 5,
+  "frame_text": "Somebody suspire something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "respiration.n.01",
+      "reasoning": "The definition 'draw air into, and expel out of, the lungs' describes a continuous biological process of air exchange, which is fundamentally respiration.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that performs the process of breathing.",
+          "value_type": "organism.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "air.n.01",
+          "reasoning": "The 'something' in the verb frame refers to the air that is drawn in and expelled during the breathing process."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "lung.n.01",
+          "reasoning": "The definition explicitly states the process occurs 'into, and out of, the lungs', indicating the primary location."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Breathing is a physiological process that can be directly observed and felt."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a biological process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While breathing can be temporarily controlled, its fundamental nature is an involuntary, autonomic process, implying no inherent will or intention for the default sense of the verb."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of breathing is a neutral biological function; it carries no inherent positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Despite the presence of 'Somebody' in the frame, the core meaning of 'breathe' describes a largely involuntary and essential bodily function, making it non-volitional in its primary sense."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Breathing is described as a definite and certain physiological process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Breathing is a continuous, highly repetitive action, involving repeated cycles of inhalation and exhalation, indicating high iterativity."
+    }
+  }
+}

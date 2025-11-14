@@ -1,0 +1,58 @@
+{
+  "synset_id": "subsidize.v.02",
+  "definition": "secure the assistance of by granting a subsidy, as of nations or military forces",
+  "frame_id": 2,
+  "frame_text": "Somebody subsidize somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "finance.n.01",
+      "reasoning": "The verb 'subsidize' describes the act of granting financial aid, which causes a change in the financial state or resources for the recipient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that provides the subsidy, acting as the initiator of the financial transaction, typically an institution or entity without individual volition."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the financial aid (subsidy) from the causal agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "financial_aid.n.01",
+          "reasoning": "The 'subsidy' itself, which is the financial aid being granted and conceptually undergoes a transfer of possession, implied by the verb's meaning despite not being explicit in the frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of subsidizing is a concrete event that can be directly observed or documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional entity or a systemic action, lacking personal will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of subsidizing is inherently neutral; its positive or negative sentiment is determined by context and outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something subsidize somebody' explicitly features a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite and certain occurrence of granting a subsidy."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme, in its base form, describes a single, discrete instance of granting a subsidy."
+    }
+  }
+}

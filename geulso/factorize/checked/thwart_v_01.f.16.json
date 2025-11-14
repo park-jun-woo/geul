@@ -1,0 +1,57 @@
+{
+  "synset_id": "thwart.v.01",
+  "definition": "hinder or prevent (the efforts, plans, or desires) of",
+  "frame_id": 16,
+  "frame_text": "Something spoil something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "realization.n.01",
+      "reasoning": "The verb 'thwart' describes causing a hindrance or prevention, meaning to stop the realization or progress of something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of thwarting or spoiling, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "plan.n.01",
+          "reasoning": "The 'something' that is hindered or prevented from being realized. The definition specifies 'efforts, plans, or desires'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of thwarting can be directly observed or its effects are apparent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame implies no inherent will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'hinder or prevent' implies a negative outcome for the patient's efforts, plans, or desires."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something spoil something' indicates a non-volitional agent (the 'Something') as the subject of the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of thwarting is presented as a definite occurrence when described."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of hindering or preventing."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "bequeath.v.01",
+  "definition": "leave or give by will after one's death",
+  "frame_id": 2,
+  "frame_text": "Somebody leave somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'bequeath' fundamentally describes a change in the ownership or possession of an item.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who makes the will and initiates the transfer of property."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (property, assets) whose possession is transferred through the will."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the property as specified in the will."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "legal_posthumous_transfer",
+      "reasoning": "A defining characteristic of 'bequeath' is that the transfer of possession occurs through a legal will and takes effect only after the death of the giver."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bequeathing is a legal and typically documented process, making its occurrence verifiable through direct evidence (e.g., a will, public records)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating the fact of a transfer."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Creating a will and thereby bequeathing property is a deliberate act, demonstrating strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bequeathing itself is neutral; the sentiment might depend on the specific circumstances or recipients."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody leave somebody something' for 'bequeath' implies a volitional agent ('Somebody') who intentionally makes provisions in a will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of bequeathing, once done through a valid will, is a definite and certain event or instruction."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of bequeathing (making a will or the legal act of transferring property via a will) is typically considered a single, definitive event."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "synset_id": "abstract.v.04",
+  "definition": "give an abstract (of)",
+  "frame_id": 0,
+  "frame_text": "Somebody abstract something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb describes the cognitive and textual process of extracting key points and condensing information to create a summary.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the act of abstracting."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'something' refers to the original content or document from which the abstract is derived or created."
+        }
+      ]
+    },
+    {
+      "verb_type": "creation",
+      "verb_property": "summary.n.01",
+      "reasoning": "Implied by 'give an abstract (of)', the process results in the creation of a new, condensed piece of information (a summary).",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of abstracting is a direct action performed by an agent, leading to a directly observable outcome (the abstract)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of abstracting itself is neutral; the content being abstracted or the purpose of the abstract may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of abstracting, when performed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Abstracting a specific piece of content is typically a single event, resulting in one abstract."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

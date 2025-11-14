@@ -1,0 +1,57 @@
+{
+  "synset_id": "breed.v.04",
+  "definition": "have young (animals) or reproduce (organisms)",
+  "frame_id": 1,
+  "frame_text": "Something multiply",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "life.n.01",
+      "reasoning": "The verb describes the biological process of generating new living organisms (young/offspring), which is an act of creation of life.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame refers to the organism that performs the act of breeding or reproduction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "offspring.n.01",
+          "reasoning": "The 'young' or 'offspring' that are brought into existence as a result of the breeding, as indicated by the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of breeding is a directly observable biological process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a biological process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Breeding is an inherent biological function rather than an action driven by conscious will or intention in the human sense."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The biological act of breeding is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something multiply' and the nature of biological reproduction imply a non-volitional act, as it is driven by biological imperative rather than conscious choice."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or capacity for reproduction."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'multiply' in the frame, coupled with 'reproduce', suggests either multiple instances of breeding or the production of multiple offspring in a single event, indicating high potential for repetition or multiplicity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "shuffle.v.03",
+  "definition": "mix so as to make a random order or arrangement",
+  "frame_id": 2,
+  "frame_text": "Somebody shuffle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "order.n.01",
+      "reasoning": "The verb describes an action that alters the existing sequential or spatial order of items.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame actively performs the mixing action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose order is being changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "state.n.01",
+      "value_type": "random.a.01",
+      "reasoning": "A key semantic component of 'shuffle' is that the change in order specifically results in a random arrangement of the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Shuffling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of shuffling is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shuffle something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of shuffling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of shuffling involves multiple, continuous, and highly repetitive movements to achieve the desired random state, indicating high iterativity."
+    }
+  }
+}

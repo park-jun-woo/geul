@@ -1,0 +1,56 @@
+{
+  "synset_id": "look_out.v.02",
+  "definition": "to protect someone's interests",
+  "frame_id": 0,
+  "frame_text": "Somebody look_out somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "protection.n.01",
+      "reasoning": "The verb 'look out' means 'to protect someone's interests', which describes an action taken to cause or maintain a state of security or benefit for another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively provides the protection, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose interests are protected or who is being safeguarded, as specified by the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of looking out for someone is a directly observable action or state of vigilance."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or ongoing responsibility."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies that the action of protecting interests is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To 'protect someone's interests' is inherently a positive action, aiming for their well-being."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing the action of protection."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of looking out for someone is described as a definite action or commitment."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Protecting someone's interests typically involves ongoing vigilance, repeated actions, or a sustained effort over time, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "lie.v.05",
+  "definition": "tell an untruth; pretend with intent to deceive",
+  "frame_id": 0,
+  "frame_text": "Somebody lie",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'lie' describes an intentional act of communicating information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of lying, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "falsehood.n.01",
+          "reasoning": "The 'untruth' that is communicated, as derived from the definition 'tell an untruth'."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "value_type": "person.n.01",
+          "reasoning": "The implied person or entity intended to be deceived, based on the definition 'intent to deceive', even if not syntactically expressed in this intransitive frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intent.n.01",
+      "value_type": "deception.n.01",
+      "reasoning": "The definition explicitly states 'intent to deceive', which is a crucial defining characteristic of the act of lying, distinguishing it from an honest mistake."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of lying is a direct communication or observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'intent to deceive' strongly implies the agent's will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Lying is inherently considered a negative act due to its deceptive nature."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody lie' and the definition 'intent to deceive' clearly indicate a volitional act performed by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of lying is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of telling an untruth, although such an act can be repeated."
+    }
+  }
+}

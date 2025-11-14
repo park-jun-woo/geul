@@ -1,0 +1,75 @@
+{
+  "synset_id": "frighten.v.02",
+  "definition": "drive out by frightening",
+  "frame_id": 0,
+  "frame_text": "Somebody frighten somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb's definition 'drive out' inherently implies causing a change in the patient's physical location, moving them away from a place.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent who causes the movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity whose location is changed (driven out)."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "An implied participant, representing the location from which the patient is driven out, crucial to the 'out' aspect of the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "causal_event",
+      "verb_property": "fear.n.01",
+      "reasoning": "The phrase 'by frightening' in the definition specifies the instrumental cause of the 'driving out' action, meaning the agent achieves the displacement by inducing fear in the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent who causes the fear."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity who experiences the fear."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of frightening and driving out is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative statement of an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'frightening' is inherently negative as it involves causing fear, an undesirable emotion."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody frighten somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of frightening and driving out."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of driving out by frightening."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'causal_event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

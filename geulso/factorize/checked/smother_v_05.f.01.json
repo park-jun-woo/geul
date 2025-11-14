@@ -1,0 +1,63 @@
+{
+  "synset_id": "smother.v.05",
+  "definition": "deprive of the oxygen necessary for combustion",
+  "frame_id": 1,
+  "frame_text": "Somebody smother something",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "cessation.n.01",
+      "reasoning": "The verb describes an action that brings about the stopping of a process, specifically combustion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the entity causing the cessation of combustion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity whose combustion is halted."
+        }
+      ]
+    },
+    {
+      "verb_type": "method",
+      "verb_property": "deprivation.n.01",
+      "value_type": "oxygen.n.01",
+      "reasoning": "The specific method by which the cessation of combustion is achieved is by depriving the patient of oxygen, as stated in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of smothering is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something smother something' implies a non-volitional agent, therefore no agent's will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of smothering combustion is context-dependent for sentiment; it is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something smother something' indicates a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, decisive event of bringing combustion to a halt."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'method'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

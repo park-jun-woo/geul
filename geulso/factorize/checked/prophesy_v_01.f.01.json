@@ -1,0 +1,62 @@
+{
+  "synset_id": "prophesy.v.01",
+  "definition": "predict or reveal through, or as if through, divine inspiration",
+  "frame_id": 1,
+  "frame_text": "Somebody prophesy that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "prediction.n.01",
+      "reasoning": "The verb 'prophesy' fundamentally involves the act of making a prediction or revelation, which is a form of conveying information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that delivers the prophecy."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the content that is predicted or revealed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "source.n.03",
+      "value_type": "divine_inspiration.n.01",
+      "reasoning": "The definition explicitly states that the prediction or revelation occurs 'through, or as if through, divine inspiration', indicating the source or manner of acquiring the information."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "Prophecy by nature is not based on direct observation or common knowledge, but rather on perceived divine or supernatural insight, categorizing it as an inference from a special source."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-human or non-agentive subject ('Something'), implying an absence of personal will or intention in the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of prophesying itself is neutral; the content of the prophecy could be positive or negative, but the verb does not carry inherent sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-volitional subject ('Something'), indicating that the action is not performed with conscious intent by that entity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When a prophecy is delivered, it is typically stated with certainty by the propounding entity, conveying high confidence in the revealed information."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of delivering a prophecy, without implying repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

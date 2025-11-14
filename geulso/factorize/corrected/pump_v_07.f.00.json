@@ -1,0 +1,59 @@
+{
+  "synset_id": "pump.v.07",
+  "definition": "raise (gases or fluids) with a pump",
+  "frame_id": 0,
+  "frame_text": "Somebody pump something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'raise (gases or fluids)' indicates a change in position, which is a type of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity causing the change in motion (the pump itself)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the gases or fluids that undergo the change in motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "pump.n.01",
+      "reasoning": "The verb's definition explicitly states the action is performed 'with a pump', making the pump an inherent instrument of the action. In this frame, the causal agent (the first 'Something') is the pump itself, acting as an instrumental agent."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pumping is a directly observable event or process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (the pump) is an inanimate object, thus lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pumping is a mechanical process and is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s...' with 'Something' referring to a pump indicates a non-volitional action carried out by an inanimate object."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action occurring."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Pumping typically involves a continuous or highly repetitive action (e.g., strokes of a pump) rather than a single discrete event."
+    }
+  }
+}

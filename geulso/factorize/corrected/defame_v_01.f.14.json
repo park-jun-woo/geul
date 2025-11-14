@@ -1,0 +1,61 @@
+{
+  "synset_id": "defame.v.01",
+  "definition": "charge falsely or with malicious intent; attack the good name and reputation of someone",
+  "frame_id": 14,
+  "frame_text": "Something slander somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb describes an action that causes a deterioration of someone's good name or reputation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that acts as the cause or instrument of the defamation, as specified by the verb frame. It is not necessarily a volitional agent itself, but the initiating force.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose good name or reputation is attacked.",
+          "value_type": "person.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "defamatory.a.01",
+      "reasoning": "The action is performed in a defamatory manner, meaning it involves false and malicious communication designed to harm reputation, as per the verb's definition and the 'slander' context in the frame."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Defamation is an observable act of communication and its effects can be directly experienced or documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something slander somebody' implies the grammatical subject ('Something') is not a volitional agent, but a cause or instrument. Therefore, its modality is neutral regarding its own will, even if originating from a volitional act."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation of someone' and 'malicious intent' clearly indicate a negative action."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something slander somebody' describes an event where the grammatical subject ('Something') is a non-agentive cause or instrument, making the action non-volitional *from the perspective of the subject*."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of defamation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of defamation for a given frame, though it could occur repeatedly."
+    }
+  }
+}

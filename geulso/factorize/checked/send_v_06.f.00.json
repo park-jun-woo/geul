@@ -1,0 +1,61 @@
+{
+  "synset_id": "send.v.06",
+  "definition": "transfer",
+  "frame_id": 0,
+  "frame_text": "Somebody get_off something",
+  "sememes": {
+    "CoreVerbType": {
+      "value": "change",
+      "reasoning": "The definition 'transfer' and hypernym 'move from one place to another' indicate an action that modifies a state."
+    },
+    "ChangedProperty": {
+      "value": "location.n.01",
+      "reasoning": "The verb describes a movement resulting in a change of the object's physical position."
+    },
+    "AgentRole": {
+      "value": "causal_agent.n.01",
+      "reasoning": "The 'Somebody' in the verb frame who initiates the transfer."
+    },
+    "PatientRole": {
+      "value": "patient.n.02",
+      "reasoning": "The 'something' in the verb frame that undergoes the change of location."
+    },
+    "ImpliedDestination": {
+      "value": "destination.n.01",
+      "reasoning": "The action of 'transfer' inherently implies a destination or recipient for the object being moved."
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sending is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sending is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody send something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sending is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of transferring an item."
+    }
+  },
+  "errors": [
+    "`sememes`가 리스트가 아닙니다."
+  ]
+}

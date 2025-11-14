@@ -1,0 +1,62 @@
+{
+  "synset_id": "muffle.v.02",
+  "definition": "deaden (a sound or noise), especially by wrapping",
+  "frame_id": 7,
+  "frame_text": "Something dampen something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "audibility.n.01",
+      "direction_of_change": "decrease",
+      "reasoning": "The verb 'muffle' means to deaden a sound or noise, which represents a change from a higher to a lower state of audibility.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the sound's audibility to decrease."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the sound or noise that undergoes the change in audibility."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "value_type": "obstruction.n.01",
+      "reasoning": "The definition 'especially by wrapping' suggests a typical manner of muffling involves physically obstructing or enclosing the sound source."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of muffling a sound is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes an action or state declaratively."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something dampen something' indicates a non-volitional agent (an inanimate 'Something'), implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of muffling is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something dampen something' implies a non-volitional 'Something' as the actor, making the action non-intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'muffle' typically describes a single, completed act of deadening a sound, rather than a repetitive one, unless specified by context."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

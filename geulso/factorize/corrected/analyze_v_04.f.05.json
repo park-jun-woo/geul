@@ -1,0 +1,59 @@
+{
+  "synset_id": "analyze.v.04",
+  "definition": "subject to psychoanalytic treatment",
+  "frame_id": 5,
+  "frame_text": "Somebody psychoanalyse something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "mental_state.n.01",
+      "reasoning": "The verb describes the act of applying a specific form of treatment intended to alter or improve a person's mental state or psychological condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the psychoanalysis, initiating the process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (typically a person or their mental faculties) that undergoes the psychoanalytic process and whose mental state is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "psychoanalysis.n.01",
+      "reasoning": "The verb itself explicitly specifies that the method of analysis or treatment is 'psychoanalysis', distinguishing it from other types of analysis or therapy."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of psychoanalyzing someone is a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of psychoanalysis is neutral; its sentiment depends on the context, outcome, or beliefs about the practice."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody psychoanalyse something' explicitly includes a volitional agent ('Somebody') performing the intentional act of psychoanalysis."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed or initiated."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame describes the singular act of subjecting someone to treatment, not the repetitive sessions involved in the treatment itself. Hence, it is treated as a single event."
+    }
+  }
+}

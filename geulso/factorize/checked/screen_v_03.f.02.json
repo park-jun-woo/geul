@@ -1,0 +1,56 @@
+{
+  "synset_id": "screen.v.03",
+  "definition": "examine in order to test suitability",
+  "frame_id": 2,
+  "frame_text": "Somebody screen_out somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The verb 'screen' describes a process of examining and testing, which is a form of evaluation, to determine suitability. This aligns with the definition 'examine in order to test suitability'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity or mechanism that performs the screening process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the person who undergoes the screening process and whose suitability is being tested."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of screening is typically a directly observable process or procedure."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame implies a non-agentive entity (e.g., a system, a set of criteria), suggesting no inherent will or intention for the action itself."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of screening is neutral; its positive or negative impact depends on the context and the outcome for the 'somebody' being screened."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' explicitly indicates a non-volitional subject ('Something'), making the action inherently non-volitional for the entity performing the screening."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of screening is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the examination and evaluation process applied to a particular 'somebody'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

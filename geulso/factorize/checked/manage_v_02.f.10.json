@@ -1,0 +1,68 @@
+{
+  "synset_id": "manage.v.02",
+  "definition": "be in charge of, act on, or dispose of",
+  "frame_id": 10,
+  "frame_text": "Something care something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "control.n.01",
+      "reasoning": "The definition 'be in charge of, act on, or dispose of' describes an ongoing activity of exercising influence or authority. The hypernym `control.v.01` supports this, defining it as 'exercise authoritative control or power over'. The verb frame 'Something care something' is interpreted as 'Something manages something' to align with the provided synset_id and definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of managing, as per the interpreted verb frame 'Something manages something'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being managed or controlled, as per the interpreted verb frame 'Something manages something'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Managing is an activity that is typically directly observable or ascertainable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing activity."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-human entity, which typically does not possess an agent's will or intention in the human sense."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated by the verb frame; thus, a neutral (present) tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "No specific aspect (e.g., progressive or perfect) is indicated by the verb frame; thus, a simple aspect is assumed."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'manage' carries a neutral politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of managing is semantically neutral; its positive or negative sentiment depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with a non-human 'Something' as the subject indicates that the action is typically not performed with personal intent or free will."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence or state of managing."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Managing implies a continuous, ongoing activity that often involves repeated actions rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

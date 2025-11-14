@@ -1,0 +1,59 @@
+{
+  "synset_id": "underproduce.v.01",
+  "definition": "produce below capacity or demand",
+  "frame_id": 1,
+  "frame_text": "Something underproduce",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "creation.n.01",
+      "reasoning": "The verb 'underproduce' fundamentally describes the act of bringing something into existence, similar to its hypernym 'produce'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing the action of producing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame refers to the product being created or manufactured."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "below_threshold.a.01",
+      "reasoning": "The prefix 'under-' and the definition 'below capacity or demand' indicate a quantitative aspect of the production, specifying that the amount produced is insufficient or less than a benchmark."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of underproducing is generally a directly observable or measurable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence or state, making its core meaning declarative."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies intentional action and will behind the production, even if the result is suboptimal."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'underproduce' often implies a negative outcome, the verb itself is a neutral description of a quantitative state (producing less than a benchmark), rather than inherently carrying a positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of production, which can be intentionally insufficient or unintentionally so, but the act of producing itself is volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb typically describes a definite, verifiable state of production output."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Production, and thus underproduction, is typically an ongoing or highly repetitive process rather than a single, isolated event."
+    }
+  }
+}

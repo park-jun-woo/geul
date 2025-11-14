@@ -1,0 +1,57 @@
+{
+  "synset_id": "evolve.v.01",
+  "definition": "work out",
+  "frame_id": 0,
+  "frame_text": "Somebody develop something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "concept.n.01",
+      "reasoning": "The verb 'evolve' in this context, meaning 'work out' or 'create by mental act,' describes the process of mentally developing or formulating an abstract entity (a concept, plan, or idea).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity who actively performs the mental act of working something out or developing it."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "concept.n.01",
+          "reasoning": "The 'something' in the frame is the abstract entity (e.g., a plan, idea, or theory) that is being mentally developed or brought into being."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'working something out' is a direct cognitive experience for the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention in the act of developing or working something out."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of evolving or working something out is inherently neutral; its positive or negative sentiment depends on the specific context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody evolve something' clearly indicates a volitional agent ('Somebody') intentionally performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process or occurrence leading to a result."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "This refers to a single, complex mental process of developing a concept or plan, not an inherently repetitive physical action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

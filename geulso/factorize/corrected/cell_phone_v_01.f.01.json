@@ -1,0 +1,58 @@
+{
+  "synset_id": "cell_phone.v.01",
+  "definition": "call up by using a cellular phone",
+  "frame_id": 1,
+  "frame_text": "Somebody cell_phone somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb 'cell_phone' describes the action of initiating a connection to communicate, representing a change from a state of no communication to communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of calling, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'something' (person or entity) that is the intended receiver of the communication."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "cellular_phone.n.01",
+      "reasoning": "The verb's definition 'by using a cellular phone' explicitly identifies the instrument used for the action, making it a core semantic component distinguishing it from a general 'call'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a phone call is a directly observable and experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a phone call is neutral; its sentiment is determined by context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of making a call is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of initiating a phone call."
+    }
+  }
+}

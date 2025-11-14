@@ -1,0 +1,66 @@
+{
+  "synset_id": "hydroplane.v.01",
+  "definition": "glide on the water in a hydroplane",
+  "frame_id": 1,
+  "frame_text": "Somebody seaplane",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing a change in location of a vehicle, moving it across a surface.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who operates the vehicle and thereby initiates its movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "hydroplane.n.01",
+          "reasoning": "The hydroplane (vehicle) is the entity that undergoes the change of location, as indicated by the verb's definition and the frame's implicit 'seaplane' as the vehicle."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "glide.v.01",
+      "reasoning": "The definition explicitly states 'glide' as the characteristic smooth and sustained manner of movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The movement is specified to occur 'on the water'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hydroplaning is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent operating the hydroplane implies strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hydroplaning is a neutral action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody seaplane' (interpreted as 'Somebody operates a seaplane') explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hydroplaning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, continuous, and sustained event of gliding, rather than a sequence of discrete repetitive actions."
+    }
+  }
+}

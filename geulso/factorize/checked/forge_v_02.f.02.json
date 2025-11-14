@@ -1,0 +1,62 @@
+{
+  "synset_id": "forge.v.02",
+  "definition": "make a copy of with the intent to deceive",
+  "frame_id": 2,
+  "frame_text": "Somebody forge something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "creation.n.02",
+      "reasoning": "The verb describes the act of bringing something into existence, specifically a copy.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the active agent performing the act of forging."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' is the object being created as a copy."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "deception.n.01",
+      "reasoning": "The action of creating a copy is intrinsically performed with the intent to deceive, as stated in the verb's definition.",
+      "value_type": "deceive.v.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of forging is an observable event, suggesting direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the explicit 'intent to deceive' imply strong will and intentionality behind the action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'intent to deceive' is inherently a negative purpose, making the verb carry a negative polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent, and the definition's 'intent to deceive' confirms this volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of forging is described as a definite occurrence or intention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of making a specific deceptive copy, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

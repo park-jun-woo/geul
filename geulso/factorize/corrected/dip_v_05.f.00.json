@@ -1,0 +1,60 @@
+{
+  "synset_id": "dip.v.05",
+  "definition": "take a small amount from",
+  "frame_id": 0,
+  "frame_text": "Somebody dip PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'take a small amount from' describes a change in possession, where the agent gains and the source loses the amount.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the intentional action of taking.",
+          "value": "person.n.01"
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'somebody' in the frame, who is the origin from which the small amount is taken.",
+          "value": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "amount.n.01",
+          "reasoning": "The 'small amount' that is taken, which is a core part of the verb's definition but often implicit in the frame's syntax."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'dipping' (taking an amount) is typically a directly observable event or transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of taking a small amount is inherently neutral; its positive or negative connotation depends on context (e.g., whether it's legitimate or exploitative)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of taking an amount."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'take a small amount from' implies a single, discrete event of acquiring a specific amount, not a continuous or highly repetitive action by default."
+    }
+  }
+}

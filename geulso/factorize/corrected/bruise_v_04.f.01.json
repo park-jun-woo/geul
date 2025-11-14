@@ -1,0 +1,59 @@
+{
+  "synset_id": "bruise.v.04",
+  "definition": "damage (plant tissue) by abrasion or pressure",
+  "frame_id": 1,
+  "frame_text": "Something bruise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "damage.n.01",
+      "reasoning": "The definition 'damage (plant tissue)' describes a transition from an undamaged state to a damaged state, which is a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the cause or instrument inflicting the damage."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity, specifically plant tissue, that undergoes the damage."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abrasion_or_pressure.n.01",
+      "reasoning": "The definition explicitly states the specific physical mechanisms 'by abrasion or pressure' through which the damage occurs, characterizing the manner of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bruising is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional cause, hence no agent's will is involved."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'bruise' inherently implies damage, which is a negative outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bruise something' indicates a non-volitional subject causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of bruising is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of causing a bruise."
+    }
+  }
+}

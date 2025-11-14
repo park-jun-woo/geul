@@ -1,0 +1,62 @@
+{
+  "synset_id": "carry.v.33",
+  "definition": "drink alcohol without showing ill effects",
+  "frame_id": 0,
+  "frame_text": "Somebody carry something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The core of the verb describes the action of consuming alcohol, which is an activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of drinking."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame that is being consumed (alcohol)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "resilience.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "This sememe captures the distinguishing characteristic of this specific sense of 'carry', which is the agent's high ability or resilience to consume alcohol without adverse effects. It describes a property of the causal agent in relation to the activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The observation of someone drinking without showing ill effects is a direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an observed or inherent ability/action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent who volitionally drinks, and the act of 'carrying' it implies a willed maintenance of composure."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drinking alcohol without showing ill effects is neutral in sentiment; context determines if it's positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action of drinking and managing its effects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite action and its definite outcome regarding the agent's state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the ability to 'carry' liquor is continuous, this frame describes a single instance of demonstrating that ability through consumption without showing ill effects. As a trait, it's a single, ongoing instance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "announce.v.02",
+  "definition": "announce publicly or officially",
+  "frame_id": 1,
+  "frame_text": "Somebody declare something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes an action that causes a piece of information to transition from an unknown or private state to a publicly known state for others.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of making information known."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that represents the information being announced and made publicly known."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "public.a.01",
+      "reasoning": "The definition explicitly states that the announcement is done 'publicly or officially', which describes a core aspect of the manner or scope of the communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of announcing is typically a directly observed or reported event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody declare something' implies a volitional agent acting with intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of announcing is neutral; its sentiment depends on the content being announced."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of announcing is typically presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'announce' refers to a singular, discrete act of making something known, even if the effect is prolonged."
+    }
+  }
+}

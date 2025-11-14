@@ -1,0 +1,56 @@
+{
+  "synset_id": "number.v.03",
+  "definition": "enumerate",
+  "frame_id": 2,
+  "frame_text": "Somebody number somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "quantity.n.01",
+      "reasoning": "The verb 'number' in this context means to enumerate or ascertain the quantity of, which describes a process of determining a number.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of numbering, which could be a system or an inanimate entity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the numbering or enumeration."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of numbering typically refers to a directly observable or verifiable process and its result."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-willful agent or cause, therefore no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of numbering itself is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the subject is a non-volitional entity or force."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of numbering implies a definitive and certain outcome or count."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'number' refers to the completion of a counting process for a given set, which is considered a single, overall event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

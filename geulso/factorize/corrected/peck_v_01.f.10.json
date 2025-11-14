@@ -1,0 +1,65 @@
+{
+  "synset_id": "peck.v.01",
+  "definition": "hit lightly with a picking motion",
+  "frame_id": 10,
+  "frame_text": "Something peck something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "strike.v.01",
+      "reasoning": "The verb 'peck' inherently describes a physical act of striking, as indicated by the definition 'hit lightly'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity performing the pecking action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the object receiving the peck."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "force.n.01",
+      "value_type": "light.a.01",
+      "reasoning": "The definition explicitly states the action is performed 'lightly', indicating the force of the strike."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "picking.n.01",
+      "reasoning": "The definition describes the action as having a 'picking motion', which specifies the manner of the strike."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pecking is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Despite the agent being 'Something', pecking typically implies an intentional and willed action (e.g., a bird pecking for food, a machine pecking at a surface)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of pecking itself is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Even if the subject is 'Something' (e.g., an animal or a mechanical device), the action of pecking is typically directed and purposeful, indicating volition."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of the action implies a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A 'picking motion' often implies a series of rapid, repeated strikes, characteristic of pecking (e.g., a bird pecking at seeds)."
+    }
+  }
+}

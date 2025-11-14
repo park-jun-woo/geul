@@ -1,0 +1,59 @@
+{
+  "synset_id": "bulldog.v.01",
+  "definition": "attack viciously and ferociously",
+  "frame_id": 2,
+  "frame_text": "Something bulldog somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "safety.n.01",
+      "reasoning": "The verb 'attack' describes an action that causes a change in the state of safety or well-being of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of attacking, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that is the target of the attack and whose safety is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The definition explicitly states 'viciously and ferociously', indicating a violent and aggressive manner of attack."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Attacking is generally a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something bulldog somebody' implies that the subject 'Something' is not acting with personal will or intention, but rather as an impersonal force or entity. This makes the modality neutral regarding agent's will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack viciously and ferociously' inherently carries a strong negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bulldog somebody' indicates a non-agentive subject ('Something'), implying that the action is non-volitional or unintentional from the perspective of the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite action of attacking."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'bulldog' implies a tenacious, sustained, and repetitive or continuous form of attack, rather than a single, instantaneous event. Therefore, it has high repetition."
+    }
+  }
+}

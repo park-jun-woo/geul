@@ -1,0 +1,91 @@
+{
+  "synset_id": "post.v.08",
+  "definition": "ride Western style and bob up and down in the saddle in rhythm with a horse's trotting gait",
+  "frame_id": 0,
+  "frame_text": "Somebody post",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a physical change in the agent's spatial position through riding.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the riding action, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "instrument.n.02",
+          "value_type": "horse.n.01",
+          "reasoning": "The horse is an integral instrument for the act of riding, as indicated by the definition ('horse's trotting gait') and the hypernym 'ride_horseback'."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "saddle.n.01",
+          "reasoning": "The action takes place 'in the saddle' as specified in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "style.n.01",
+      "value_type": "Western riding",
+      "reasoning": "The definition explicitly states 'ride Western style', indicating a specific technique or manner of riding.",
+      "pertains_to_participant": "causal_agent.n.01"
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "up and down bobbing",
+      "reasoning": "The definition specifies the rider 'bob up and down in the saddle', describing a distinct physical motion.",
+      "pertains_to_participant": "causal_agent.n.01"
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "rhythm.n.01",
+      "value_type": "synchronized with horse's trot",
+      "reasoning": "The action occurs 'in rhythm with a horse's trotting gait', indicating a specific temporal coordination between rider and horse.",
+      "pertains_to_participant": [
+        "causal_agent.n.01",
+        "instrument.n.02"
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of posting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes the action in a simple, uninflected form, without indicating progress or completion."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness implications."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of posting is semantically neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody post' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'bob up and down in the saddle in rhythm with a horse's trotting gait' clearly implies continuous, highly repetitive motion."
+    }
+  }
+}

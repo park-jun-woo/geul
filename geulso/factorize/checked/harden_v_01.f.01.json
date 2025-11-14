@@ -1,0 +1,58 @@
+{
+  "synset_id": "harden.v.01",
+  "definition": "become hard or harder",
+  "frame_id": 1,
+  "frame_text": "Somebody indurate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "hardness.n.01",
+      "reasoning": "The definition 'become hard or harder' directly indicates a change in the state of hardness.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that undergoes the change of becoming hard or harder, aligning with the intransitive sense of the definition and the hypernym 'undergo a change'."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "verb_property": "increase.n.01",
+      "reasoning": "The phrase 'or harder' explicitly indicates that the change is towards a higher degree or an increase in hardness.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of becoming hard is typically a directly observable or experienced phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a change of state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "In the intransitive sense (to 'become' hard), the subject 'Somebody' is typically undergoing a process rather than acting with explicit will or intention to cause that change in themselves."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hardening is inherently neutral; its positive or negative connotation depends on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Given the intransitive definition 'become hard or harder' and the frame 'Somebody harden' where 'Somebody' is the patient, the action is generally not volitional (e.g., 'His heart hardened')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a continuous process of change rather than a series of distinct, repeated events. It's treated as a single, ongoing instance of hardening."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

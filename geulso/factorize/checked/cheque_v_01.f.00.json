@@ -1,0 +1,63 @@
+{
+  "synset_id": "cheque.v.01",
+  "definition": "withdraw money by writing a check",
+  "frame_id": 0,
+  "frame_text": "Somebody check_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'cheque' describes the act of initiating a transfer of money, which is a change in the state of possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of withdrawing money."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "money.n.01",
+          "reasoning": "The 'something' in the verb frame that is being withdrawn, specifically money."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "instrument.n.01",
+      "value_type": "check.n.01",
+      "reasoning": "The definition explicitly states 'by writing a check', indicating the instrument used for the withdrawal."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Withdrawing money by check is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of withdrawing money is generally neutral, its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of checking money is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of withdrawing money using a check."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

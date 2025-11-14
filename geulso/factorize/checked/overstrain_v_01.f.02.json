@@ -1,0 +1,62 @@
+{
+  "synset_id": "overstrain.v.01",
+  "definition": "strain excessively",
+  "frame_id": 2,
+  "frame_text": "Something overextend something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "stress.n.01",
+      "reasoning": "The verb 'overstrain' describes an action that causes something to undergo significant physical or mental pressure.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of causing the strain, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the excessive strain."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "The definition 'strain excessively' and the 'over-' prefix explicitly indicate that the degree of strain is beyond a normal, healthy, or safe limit."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of overstraining or its effects are typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent in the frame is 'Something', which typically lacks conscious will or intention, even if it performs an action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'overstrain' implies causing damage, exhaustion, or impairment, which is an inherently negative outcome or state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the agent is a non-volitional entity, causing the action without intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of straining beyond limits."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of pushing something to an excessive strain point, rather than a continuous, repeated action of 'overstraining'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "synset_id": "copulate.v.01",
+  "definition": "engage in sexual intercourse",
+  "frame_id": 3,
+  "frame_text": "Somebody pair",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "sexual_intercourse.n.01",
+      "reasoning": "The definition 'engage in sexual intercourse' describes a specific type of biological activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "One 'Somebody' who actively participates in the sexual intercourse."
+        },
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The other 'Somebody' who actively participates, as implied by the term 'pair' in the verb frame, indicating a reciprocal action involving two active subjects."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of copulating is typically a directly observable event (though often private)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Engaging in sexual intercourse is typically a conscious and intentional act, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of copulation itself is neutral; its sentiment depends on context and intention."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pair' implies volitional agents who intentionally engage in the activity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, observable action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single instance or episode of the activity, even if such activities can be repeated."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

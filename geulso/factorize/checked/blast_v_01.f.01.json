@@ -1,0 +1,58 @@
+{
+  "synset_id": "blast.v.01",
+  "definition": "make a strident sound",
+  "frame_id": 1,
+  "frame_text": "Something blast",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb 'blast' in this sense describes the act of producing or emitting a sound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that is the source and producer of the sound, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "strident.a.01",
+      "reasoning": "The definition explicitly states that the sound made is 'strident', indicating a harsh and loud quality as a core semantic component of this verb sense."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a sound is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something blast' indicates that the subject 'Something' is non-agentive and therefore lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'strident' typically implies an unpleasantly loud, harsh, or grating sound, suggesting a negative inherent sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something blast' explicitly indicates a non-volitional subject ('Something'), meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making a sound."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'blast' often refers to a single, sudden emission of sound, or a continuous but singular instance of a loud sound, rather than a repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

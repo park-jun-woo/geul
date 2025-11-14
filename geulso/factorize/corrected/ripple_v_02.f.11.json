@@ -1,0 +1,67 @@
+{
+  "synset_id": "ripple.v.02",
+  "definition": "flow in an irregular current with a bubbling noise",
+  "frame_id": 11,
+  "frame_text": "Something ripple",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the subject undergoing a physical change of state involving movement, specifically a type of flow.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the motion, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "irregular.a.01",
+      "reasoning": "The definition specifies 'flow in an irregular current', indicating an irregular manner of movement as a core characteristic."
+    },
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.01",
+      "reasoning": "Describes the specific quality of the noise produced.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' is the entity from which the bubbling noise originates."
+        }
+      ],
+      "value_type": "bubbling.a.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Rippling, including its motion and sound, is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ripple' lacks an agent capable of will, so the action is not driven by intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rippling is semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ripple' describes an action happening to a non-agentive subject ('Something'), making it inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The description 'flow in an irregular current with a bubbling noise' implies a continuous and highly repetitive action rather than a single event."
+    }
+  }
+}

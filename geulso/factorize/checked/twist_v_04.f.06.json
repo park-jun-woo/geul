@@ -1,0 +1,62 @@
+{
+  "synset_id": "twist.v.04",
+  "definition": "form into a spiral shape",
+  "frame_id": 6,
+  "frame_text": "Somebody twist somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The definition 'form into a spiral shape' indicates a transformation of the patient's physical form.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively causes the change in shape."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (direct object) whose shape is altered into a spiral form."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "shape.n.01",
+      "value_type": "spiral.n.01",
+      "reasoning": "The action specifically results in the patient acquiring a 'spiral' shape, which is a key semantic component of 'twist'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of twisting something into a shape is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with will and intent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of twisting to form a shape is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of forming a spiral shape is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular event of achieving a spiral shape, rather than continuous repetition. While the process itself might involve continuous motion, the verb focuses on the completion of the specific formation."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

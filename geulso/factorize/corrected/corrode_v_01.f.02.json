@@ -1,0 +1,58 @@
+{
+  "synset_id": "corrode.v.01",
+  "definition": "cause to deteriorate due to the action of water, air, or an acid",
+  "frame_id": 2,
+  "frame_text": "Something rust something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The definition 'cause to deteriorate' describes an action that brings about a change in the physical state or integrity of an object from sound to unsound.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame (e.g., water, air, acid) acts as the non-volitional entity causing the deterioration."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes deterioration or loss of integrity."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "chemical_reaction.n.01",
+      "reasoning": "The deterioration is specifically caused by a chemical process, such as oxidation (exemplified by 'rust'), as indicated by the definition's mention of 'water, air, or an acid'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Corrosion is a physical process that is directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as the agent in the frame (e.g., a chemical, environmental factor) is inanimate and lacks will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'deteriorate' implies a negative outcome or change, a loss of quality or function."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something rust something' indicates that the action is carried out by a non-volitional agent (the first 'Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of causing deterioration implies a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Corrosion is a continuous and gradual process, involving sustained chemical action, which can be interpreted as high repetition of molecular interactions over time, rather than a single event."
+    }
+  }
+}

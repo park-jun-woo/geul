@@ -1,0 +1,62 @@
+{
+  "synset_id": "film.v.01",
+  "definition": "make a film or photograph of something",
+  "frame_id": 4,
+  "frame_text": "Somebody shoot something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "representation.n.01",
+      "reasoning": "The verb describes the act of creating a visual record or representation (a film or photograph) of something, which is a change of state for the 'something' being represented.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of making the film or photograph, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being filmed or photographed, becoming the subject of the representation."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "process.n.01",
+      "value_type": "visual_capture.n.01",
+      "reasoning": "The act of 'shooting' or 'filming' implies a specific process of capturing visual information, often using a camera."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a film or photograph is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of filming or photographing is generally neutral; its sentiment depends on the subject and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody shoot something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of making a film or photograph is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "While a single photograph is a discrete event, 'film' (as in cinematography) and 'shoot' often imply a continuous or highly repetitive process of capturing multiple frames over time, indicating high iterativity for the activity itself."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

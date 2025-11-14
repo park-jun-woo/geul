@@ -1,0 +1,61 @@
+{
+  "synset_id": "stipulate.v.01",
+  "definition": "specify as a condition or requirement in a contract or agreement; make an express demand or provision in an agreement",
+  "frame_id": 8,
+  "frame_text": "Somebody specify that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "establishment",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb describes the act of setting or defining a condition or requirement within an agreement, thus establishing it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of stipulating, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific condition or requirement being established, which is a propositional statement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Stipulating is a direct communicative act, typically experienced firsthand or directly stated."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or the establishment of a condition."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by explicit will and intention to set a condition."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The verb 'stipulate' is primarily used in formal or legal contexts, suggesting a formal tone."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stipulating itself is neutral; the content of the stipulation can be positive or negative, but the verb does not carry inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody specify...' clearly indicates a volitional agent performing the action, as stipulating is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A stipulation is, by definition, a definite and certain condition or demand within an agreement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct act of establishing a condition, even if an agreement contains multiple conditions."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'establishment'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

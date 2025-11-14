@@ -1,0 +1,58 @@
+{
+  "synset_id": "sensitize.v.03",
+  "definition": "make sensitive to a drug or allergen",
+  "frame_id": 2,
+  "frame_text": "Something sensitise somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sensitivity.n.01",
+      "reasoning": "The definition 'make sensitive' clearly indicates a transition from a less sensitive state to a more sensitive state regarding specific external factors.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity or substance that causes the change in sensitivity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the individual who undergoes the change and becomes sensitive."
+        },
+        {
+          "semantic_role": "stimulus.n.01",
+          "value_type": "chemical_agent.n.01",
+          "reasoning": "This refers to the 'drug or allergen' mentioned in the definition, which is the specific type of entity the patient becomes sensitive to. 'Chemical_agent.n.01' encompasses both drugs and allergens."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence, typically established through direct observation or medical diagnosis."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action, making it non-volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sensitizing itself is neutral; its outcome can be positive (e.g., for therapy) or negative (e.g., allergies)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something sensitise somebody' indicates that the action is caused by a non-agentive 'Something', thus it is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of making someone sensitive."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit possibly gradual, event of establishing sensitivity, not a repetitive action."
+    }
+  }
+}

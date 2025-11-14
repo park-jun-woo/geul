@@ -1,0 +1,56 @@
+{
+  "synset_id": "recommend.v.01",
+  "definition": "push for something",
+  "frame_id": 8,
+  "frame_text": "Something urge something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "advisability.n.01",
+      "reasoning": "The definition 'push for something' and the verb 'urge' in the frame indicate that the subject causes or brings about the state of the object being considered advisable or suitable.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the entity (often inanimate) that causes the recommendation or brings its advisability to light."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the entity or course of action being recommended or urged."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A recommendation, in this context, is typically presented as a direct piece of information or an assessment."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that something recommends something else."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is inanimate, thus lacking will or intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of recommending itself is neutral; the thing being recommended can be positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something urge something' explicitly has an inanimate subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'recommend' implies that the advisability is presented with certainty or strong indication."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of a recommendation or suggestion."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "drive.v.02",
+  "definition": "travel or be transported in a vehicle",
+  "frame_id": 3,
+  "frame_text": "Somebody motor PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'travel or be transported' describes a change in location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of traveling or being transported."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint, path, or location of the travel, as specified by the prepositional phrase (PP) in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "motor_vehicle.n.01",
+      "reasoning": "The verb 'drive' in this context, reinforced by 'motor' in the frame, inherently specifies that the travel occurs by means of a motor vehicle."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Traveling by driving is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state of being transported."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody motor PP' implies an agent (Somebody) acting with intention and will to drive."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of driving or being transported is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody motor PP' clearly indicates a volitional agent ('Somebody') initiating the act of driving."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of traveling or being transported is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Driving, as a process of continuous locomotion, involves high repetition of movements and actions over a period."
+    }
+  }
+}

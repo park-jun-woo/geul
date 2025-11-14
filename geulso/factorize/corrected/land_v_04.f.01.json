@@ -1,0 +1,58 @@
+{
+  "synset_id": "land.v.04",
+  "definition": "bring ashore",
+  "frame_id": 1,
+  "frame_text": "Something land something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The definition 'bring ashore' explicitly describes a change in the geographical location of the patient, specifically moving it to land from water or air.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the relocation. While inanimate, it acts as the primary cause in this frame (e.g., 'The boat landed the cargo')."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that undergoes the change of location, being brought ashore."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "shore.n.01",
+          "reasoning": "The term 'ashore' specifies the final location or destination of the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of landing something is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Even with 'Something' as the subject, 'bring ashore' usually implies an intended action, where the 'Something' (e.g., a vessel) is an instrument of a volitional, often implicit, agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of landing is generally neutral; its sentiment depends on context (e.g., landing supplies vs. landing invaders)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the inanimate 'Something' subject, the action of 'bringing ashore' is typically a deliberate and intentional act, often implying an underlying volitional agent operating the 'Something'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence, not a speculative or uncertain one."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of bringing something ashore."
+    }
+  }
+}

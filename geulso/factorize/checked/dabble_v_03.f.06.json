@@ -1,0 +1,62 @@
+{
+  "synset_id": "dabble.v.03",
+  "definition": "work with in an amateurish manner",
+  "frame_id": 6,
+  "frame_text": "Somebody smatter something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "engagement.n.01",
+      "reasoning": "The verb describes the act of engaging in an activity or working with something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' with which the agent engages or works."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "amateurish.a.01",
+      "reasoning": "A core aspect of 'dabble' is the 'amateurish manner' of engagement, implying superficiality or lack of serious commitment or expertise."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling is generally directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention to engage in the activity."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of dabbling."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of engagement."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dabbling implies an activity that is often sporadic, not continuous, but frequently revisited or repeated in an informal or superficial manner, indicating high repetition of discrete, non-serious engagements."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

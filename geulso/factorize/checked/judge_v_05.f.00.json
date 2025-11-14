@@ -1,0 +1,56 @@
+{
+  "synset_id": "judge.v.05",
+  "definition": "put on trial or hear a case and sit as the judge at the trial of",
+  "frame_id": 0,
+  "frame_text": "Somebody adjudicate somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "judicial_process.n.01",
+      "reasoning": "The definition 'put on trial or hear a case and sit as the judge at the trial of' explicitly describes the act of conducting a formal legal procedure, which is a judicial process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who performs the action of judging and presides over the legal process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the object of the judicial process, i.e., the person being judged or on trial."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of judging in a legal context is a public and directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a formal action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' (judge) in the frame performs the action with clear will and intention as part of their duty."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of judging is intended to be neutral and impartial, regardless of the eventual outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates that the agent ('Somebody') intentionally performs the action of judging."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action of judging."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of presiding over a case for a specific individual."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

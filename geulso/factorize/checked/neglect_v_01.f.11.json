@@ -1,0 +1,57 @@
+{
+  "synset_id": "neglect.v.01",
+  "definition": "leave undone or leave out",
+  "frame_id": 11,
+  "frame_text": "Somebody neglect to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "performance.n.01",
+      "reasoning": "The verb describes an event of failing to initiate or complete an expected action, leading to something being 'undone' or 'left out'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who is responsible for the omission or the failure to perform the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'INFINITIVE' represents the specific action or task that is left undone or omitted."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of neglecting can be directly observed through its consequences or inferred from the absence of expected action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence of neglect."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame, by neglecting, is making an implicit choice or exhibiting a lack of will to perform the required action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "'Neglect' inherently carries a negative connotation, implying a failure or dereliction of responsibility."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' indicates a volitional agent. The act of neglecting, even if it's an omission, is typically a conscious or controllable choice/failure by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Somebody neglects' asserts the definite occurrence of the neglect."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of failing to perform a specific action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

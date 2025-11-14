@@ -1,0 +1,59 @@
+{
+  "synset_id": "microwave.v.01",
+  "definition": "cook or heat in a microwave oven",
+  "frame_id": 0,
+  "frame_text": "Somebody micro-cook something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "temperature.n.01",
+      "reasoning": "The definition 'cook or heat' directly implies a change in the temperature of the object. Cooking is a process involving heat.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of microwaving, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in temperature and state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "microwave.n.02",
+      "reasoning": "The verb 'microwave' inherently specifies the unique method or instrument (a microwave oven/radiation) by which the cooking or heating occurs, distinguishing it from other forms of heating. This is considered a specific 'manner' of execution."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Microwaving is a directly observable and verifiable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of microwaving itself is a neutral process; its desirability depends on the context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody microwave something' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of microwaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single completed event of heating/cooking a particular item until done, rather than continuous, high repetition."
+    }
+  }
+}

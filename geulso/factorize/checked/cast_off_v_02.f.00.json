@@ -1,0 +1,63 @@
+{
+  "synset_id": "cast_off.v.02",
+  "definition": "make the last row of stitches when knitting",
+  "frame_id": 0,
+  "frame_text": "Somebody cast_off something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "completion.n.01",
+      "reasoning": "The verb describes the action of bringing a knitting project to its final state by making the last row of stitches, indicating a change from an incomplete to a complete state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of casting off, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "knitted_fabric.n.01",
+          "reasoning": "The 'something' refers to the knitted item or the stitches being completed."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value_type": "knitting.n.01",
+      "reasoning": "The definition explicitly states 'when knitting', specifying the craft or method through which the action is performed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of casting off is a directly observable action in the process of knitting."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of casting off is a neutral process within knitting; its sentiment depends on the context of the knitted item."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody cast_off something' indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of casting off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While knitting involves repetitive stitches, 'casting off' refers to the singular, final stage or procedure of finishing a piece of knitting, considered a single event within that context."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

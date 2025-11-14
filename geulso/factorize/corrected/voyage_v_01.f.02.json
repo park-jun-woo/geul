@@ -1,0 +1,69 @@
+{
+  "synset_id": "voyage.v.01",
+  "definition": "travel on water propelled by wind or by other means",
+  "frame_id": 2,
+  "frame_text": "Somebody sail",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'travel' inherently describes a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who causes the voyage to happen."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' is the entity being transported or voyaged, undergoing the motion."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) typically indicates the endpoint or destination of the travel."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The definition explicitly specifies 'on water' as the medium of travel."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "propelled.a.01",
+      "reasoning": "The definition includes 'propelled by wind or by other means', detailing the manner in which the travel occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Voyaging is a physical action that is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as a causal agent in the frame implies an action driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of voyaging itself is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody voyage somebody' indicates a volitional agent performing the action of voyaging."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of voyaging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A voyage involves continuous movement over a period, composed of many repeated actions (e.g., waves, propulsion), hence high iterativity."
+    }
+  }
+}

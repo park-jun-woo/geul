@@ -1,0 +1,65 @@
+{
+  "synset_id": "thread.v.03",
+  "definition": "remove facial hair by tying a fine string around it and pulling at the string",
+  "frame_id": 0,
+  "frame_text": "Somebody thread something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The verb 'thread' in this context means to 'remove facial hair', which signifies a change in the state of the hair from being present to absent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of removing the hair, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (facial hair) that undergoes the change of presence."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "string.n.01",
+      "reasoning": "The definition specifies that the removal is achieved 'by tying a fine string around it', identifying the string as the primary instrument used."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "pull.n.03",
+      "reasoning": "The definition explicitly states the method involves 'pulling at the string', which describes a crucial physical action or manner of execution inherent to the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of threading facial hair is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates an agent acting with strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of removing hair is inherently neutral; its sentiment depends on context or personal preference."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action being performed."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'threading' facial hair typically involves multiple, continuous, and highly repetitive small actions (tying and pulling) to clear an area, rather than a single discrete event for the entire 'facial hair'."
+    }
+  }
+}

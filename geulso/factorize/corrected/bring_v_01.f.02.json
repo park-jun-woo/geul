@@ -1,0 +1,60 @@
+{
+  "synset_id": "bring.v.01",
+  "definition": "take something or somebody with oneself somewhere",
+  "frame_id": 2,
+  "frame_text": "Somebody bring something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'take something or somebody with oneself somewhere' explicitly describes a change in location, which falls under motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes or facilitates the motion.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' is the entity undergoing the motion, being transported.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The verb 'bring' inherently implies movement towards a location, as indicated by 'somewhere' in the definition, typically towards the deictic center or the 'causal_agent's' current location.",
+          "value_type": "location.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bringing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Since the subject is 'Something' (non-human/non-animate), there is no inherent will or intention involved from the subject itself."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bringing is neutral; its sentiment depends on the context and what is being brought."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something bring somebody' indicates that the subject 'Something' is non-volitional, as it refers to an inanimate or abstract entity rather than an intentional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of movement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'bring' in this context typically refers to a single, completed event of transport."
+    }
+  }
+}

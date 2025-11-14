@@ -1,0 +1,68 @@
+{
+  "synset_id": "underproduce.v.01",
+  "definition": "produce below capacity or demand",
+  "frame_id": 0,
+  "frame_text": "Somebody underproduce something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "production.n.01",
+      "reasoning": "The core meaning of 'underproduce' is to perform the action of production, to create or manufacture.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "entity.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity or agent performing the production."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "product.n.01",
+          "reasoning": "The implied object or output of the production, inherent to the act of 'producing'."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "quantity.n.01",
+      "value_type": "insufficient.a.01",
+      "reasoning": "The 'under-' prefix and the definition 'below capacity or demand' indicate a state where the quantity of production is insufficient or falls short of a standard. This is a characteristic of the production process or its outcome.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "product.n.01",
+          "reasoning": "The insufficiency refers to the quantity of the produced item (patient of the first sememe)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Underproducing is an observable state or action, typically determined by direct measurement or data."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual state or action in a declarative sense."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----' typically refers to non-agentive entities (e.g., a system, a factory, an economy) or abstract concepts, implying a lack of conscious will or intention for the action of 'underproducing'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the *consequences* of underproducing are often negative (e.g., economic loss), the verb 'underproduce' itself neutrally describes the state of producing less than required or expected, rather than inherently carrying a positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----' indicates a non-volitional subject. Even if 'Something' refers to an organization, the act of underproducing is generally described as a systemic outcome rather than a direct intentional act of a conscious agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Something underproduces' asserts a definite fact or observation about its production level."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Production, and consequently underproduction, is typically an ongoing or highly repetitive process rather than a single, discrete event. 'Below capacity or demand' implies a persistent or repeated state over a period."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "synset_id": "school.v.03",
+  "definition": "swim in or form a large group of fish",
+  "frame_id": 0,
+  "frame_text": "Something school",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the ongoing act of movement, specifically 'swimming', as part of schooling.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "value_type": "fish.n.01",
+          "reasoning": "The 'Something' in the frame refers to the fish that perform the action of moving."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "group.n.01",
+      "reasoning": "The verb implies the state of being in or forming a collective unit, a 'group of fish'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "fish.n.01",
+          "reasoning": "The 'Something' (fish) are the entities that constitute and are in the state of being a group."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "size.n.01",
+      "value_type": "large.a.01",
+      "reasoning": "The definition explicitly specifies 'large group', indicating that the size of the group is an inherent characteristic of this type of grouping."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Schooling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Fish actions are generally instinctive and not driven by human-like will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of schooling is semantically neutral; it does not inherently carry positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something school' indicates a non-human, non-volitional subject (fish) performing an instinctive behavior."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of schooling is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Schooling involves continuous, highly repetitive movements and interactions among many individual fish."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

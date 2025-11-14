@@ -1,0 +1,60 @@
+{
+  "synset_id": "shower.v.03",
+  "definition": "take a shower; wash one's body in the shower",
+  "frame_id": 0,
+  "frame_text": "Somebody shower",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The definition 'wash one's body' describes a process of changing one's body from a less clean to a clean state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of showering, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "body.n.01",
+          "reasoning": "The implicit 'body' of the agent that undergoes the cleaning process, making it a reflexive patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "shower.n.01",
+      "reasoning": "The verb specifically denotes the method of washing as being 'in a shower', distinguishing it from other cleaning methods like bathing in a tub."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of showering is a directly observable and experienced action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of showering is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of showering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'shower' refers to a single, bounded event of taking a shower, even if it involves continuous actions within that event."
+    }
+  }
+}

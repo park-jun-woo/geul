@@ -1,0 +1,63 @@
+{
+  "synset_id": "trace.v.02",
+  "definition": "make a mark or lines on a surface",
+  "frame_id": 11,
+  "frame_text": "Something describe something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'trace', as defined by 'make a mark or lines on a surface', describes the act of bringing a mark or line into being, hence a change in existence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (subject) in the verb frame acts as the entity that performs or initiates the action of creating the mark.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (direct object) in the verb frame refers to the mark or lines that are formed or created as a result of the action, as specified in the definition.",
+          "value_type": "mark.n.01"
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "surface.n.01",
+          "reasoning": "The definition explicitly states 'on a surface', indicating the inherent location where the mark or line is made, making it a crucial participant in the event's full description."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tracing and making a mark is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action itself, often functioning as an instrument or a non-volitional force."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tracing is semantically neutral; any positive or negative connotation would derive from the context or the nature of the mark made."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something describe something' (interpreted as 'Something traces something') features a non-agentive or instrumental 'Something' as the subject, indicating a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making a mark or lines."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of tracing 'a mark or lines' is generally considered a single, continuous event of formation rather than a repetition of discrete, separate actions of tracing."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

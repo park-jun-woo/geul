@@ -1,0 +1,64 @@
+{
+  "synset_id": "work.v.03",
+  "definition": "have an effect or outcome; often the one desired or expected",
+  "frame_id": 1,
+  "frame_text": "Something is acting PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "effectiveness.n.01",
+      "reasoning": "The definition 'have an effect or outcome' describes an ongoing activity or a process leading to a result, which relates to the effectiveness of the subject. The 'is working' aspect reinforces the ongoing process.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity that is undergoing or manifesting the process of working and achieving an effect. It is not an agent in the volitional sense but the entity whose function or state is described."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The generic 'PP' (prepositional phrase) in this frame typically specifies the target, area, or beneficiary on which the 'Something' is working or having its effect. 'Theme' is a broad role that covers what is directly affected or involved in the action."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The effectiveness or outcome of something working is typically a directly observable or experienceable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that something is effective."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive entity, therefore no inherent will is involved in its functioning."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The frame 'Something is working PP' explicitly uses the progressive aspect, indicating an ongoing, continuous process."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb itself carries no inherent politeness implications."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'often the one desired or expected' and the hypernym 'succeed' strongly imply a positive outcome or sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates that the action is not volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When something 'is working', it is presented as a certain fact or ongoing reality."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The progressive aspect 'is working' implies a continuous, durative process that consists of sustained activity rather than a single event, suggesting high repetition in its functional manifestation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

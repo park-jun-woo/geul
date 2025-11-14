@@ -1,0 +1,64 @@
+{
+  "synset_id": "free-associate.v.01",
+  "definition": "associate freely",
+  "frame_id": 0,
+  "frame_text": "Somebody free-associate somebody with something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb describes the mental action of creating or activating a connection between concepts.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental action of free-associating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (direct object) who is being mentally linked or connected as the primary focus of the association."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "concept.n.01",
+          "reasoning": "The 'something' (object of 'with') to which the direct object is mentally linked, serving as the secondary element in the association. The 'value_type' specifies it's a concept or idea."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "unrestricted.a.01",
+      "reasoning": "The 'free' component of 'free-associate' specifies the manner of association as spontaneous and without external direction or restriction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Free association is a direct cognitive and internal experience of the subject performing the action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's inherent meaning describes a declarative statement about an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of free-associating itself is neutral in sentiment; any emotional valence would come from the content of the associations."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The action is initiated and controlled by a conscious agent ('Somebody'), making it a volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of free-associating, if described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Free association is typically an ongoing, continuous mental process that involves generating many sequential links, indicating a high degree of repetition."
+    }
+  }
+}

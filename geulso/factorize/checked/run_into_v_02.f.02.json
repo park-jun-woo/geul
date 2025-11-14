@@ -1,0 +1,62 @@
+{
+  "synset_id": "run_into.v.02",
+  "definition": "collide violently with an obstacle",
+  "frame_id": 2,
+  "frame_text": "Somebody butt_against somebody",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "collision.n.01",
+      "reasoning": "The definition 'collide violently with an obstacle' directly points to a collision event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that moves and initiates the impact, thus acting as the agent of the collision."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity with which the first 'Something' collides; it is the object of the collision."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The definition explicitly includes 'violently', indicating the manner of the collision."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A collision is a physical event that is typically directly observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence, implying a declarative mood."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something run_into something' involves inanimate subjects, which do not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of colliding itself is a neutral physical event, though its consequences can be negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something run_into something' indicates inanimate or non-agentive subjects, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite collision event, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'run into' typically describes a single instance of collision, not a repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

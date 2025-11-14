@@ -1,0 +1,60 @@
+{
+  "synset_id": "fly_blind.v.01",
+  "definition": "fly an airplane solely by relying on instruments",
+  "frame_id": 0,
+  "frame_text": "Somebody fly_blind",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'fly' (as in 'fly an airplane') inherently describes a change in location or state of an object in air, constituting a core change event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of operating the aircraft, initiating and controlling its motion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "airplane.n.01",
+          "reasoning": "The implicit object of 'fly' that undergoes the change in motion or state, which is an airplane."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value": "sole_instrument_reliance",
+      "reasoning": "The 'blind' aspect of the verb specifically denotes the manner or method of flying, which is 'solely by relying on instruments', implying a lack of external visual reference for navigation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of flying an airplane is a directly observable phenomenon or a skill acquired through direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' implies an agent acting with clear intention and will to operate the aircraft."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of flying blind is a neutral description of a method of operation; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of flying."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of flying in a specific manner."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Flying is a continuous activity, not an instantaneous event, requiring repeated actions and adjustments to maintain flight. Therefore, it has high iterativity."
+    }
+  }
+}

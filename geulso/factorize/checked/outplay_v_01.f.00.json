@@ -1,0 +1,73 @@
+{
+  "synset_id": "outplay.v.01",
+  "definition": "excel or defeat in a game",
+  "frame_id": 0,
+  "frame_text": "Somebody outplay somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The verb describes an action that results in a change of competitive status, where one participant becomes superior to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs better and achieves superior status in the game."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is surpassed or defeated, resulting in their inferior status in the game."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "game.n.01",
+      "reasoning": "The action of achieving superiority is specifically carried out through competitive play in a game, as indicated by 'outplay' and the definition 'in a game'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The outcome of being outplayed in a game is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a competitive outcome."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to win or excel in the game."
+    },
+    "Tense": null,
+    "Aspect": {
+      "value": 4,
+      "reasoning": "The definition 'excel or defeat' clearly emphasizes the result or outcome of the competitive action, making it result-focused."
+    },
+    "Period/Point": null,
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The term 'outplay' itself is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of outplaying describes a competitive outcome that is positive for one participant and negative for another, thus the verb itself is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody outplay somebody' explicitly indicates a volitional agent performing the action with the intent to win."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of superiority or defeat."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'outplay' refers to a single, complete instance of excelling or defeating in a game, even if the game itself consists of many sub-actions leading to that single outcome."
+    }
+  },
+  "errors": [
+    "`qualifiers.Tense`이 객체(dict)가 아닙니다.",
+    "`qualifiers.Period/Point`이 객체(dict)가 아닙니다."
+  ]
+}

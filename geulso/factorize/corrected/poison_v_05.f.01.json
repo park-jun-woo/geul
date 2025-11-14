@@ -1,0 +1,53 @@
+{
+  "synset_id": "poison.v.05",
+  "definition": "administer poison to",
+  "frame_id": 1,
+  "frame_text": "Something poison somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The verb describes an action that causes a transition in the state of health of an individual, from unpoisoned to poisoned, which is a negative change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity that administers or causes the poison to be introduced, leading to the change in health."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the poison and undergoes the change in health."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of poisoning is typically a directly observable event or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something poison somebody' indicates a non-human or inanimate subject ('Something'), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of poisoning inherently has a negative connotation due to its harmful or deadly nature."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something poison somebody' implies that the action is caused by a non-volitional agent or force ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of administering poison."
+    }
+  }
+}

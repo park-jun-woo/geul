@@ -1,0 +1,61 @@
+{
+  "synset_id": "recharge.v.01",
+  "definition": "load anew",
+  "frame_id": 0,
+  "frame_text": "Somebody recharge something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "resource.n.01",
+      "reasoning": "The verb describes an action that causes a change in the level or presence of a resource (e.g., energy, power) in an object, essentially providing or increasing it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of recharging."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that receives the resource or undergoes the change in its resource level."
+        }
+      ]
+    },
+    {
+      "verb_type": "process",
+      "verb_property": "restoration.n.01",
+      "reasoning": "The 're-' prefix in 'recharge' and 'anew' in the definition 'load anew' explicitly indicate that the action is a process of restoration to a previous state or a renewal of the resource, implying it was previously depleted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of recharging is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of recharging is generally neutral; its sentiment depends on context or the purpose of the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody recharge something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'recharge' describes a single event of loading anew, not multiple repetitions of the entire action within this specific instance."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

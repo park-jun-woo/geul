@@ -1,0 +1,70 @@
+{
+  "synset_id": "forage.v.02",
+  "definition": "wander and feed",
+  "frame_id": 0,
+  "frame_text": "Something forage",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "search.v.01",
+      "reasoning": "The verb 'forage' inherently includes the action of searching for food, implied by the 'wander' component of its definition in the context of feeding.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the animate entity performing the search."
+        },
+        {
+          "semantic_role": "goal.n.01",
+          "value_type": "food.n.01",
+          "reasoning": "The implicit goal of foraging is to find food."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The definition explicitly states 'feed', indicating the act of taking in food.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the animate entity performing the feeding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The implied patient of the feeding action is food."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Foraging is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Foraging, even by an animal, is typically driven by an internal need and intention to find sustenance, indicating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of foraging itself is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the frame using 'Something', 'forage' describes a purposeful and intentional act performed by an animate entity (an animal) to find food."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Foraging is a continuous activity involving repeated acts of wandering and consuming over a period, indicating high repetition."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "synset_id": "eulogize.v.01",
+  "definition": "praise formally and eloquently",
+  "frame_id": 0,
+  "frame_text": "Somebody eulogise somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "expression.n.01",
+      "reasoning": "The verb 'eulogize' fundamentally describes the act of expressing praise or approval.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of eulogizing, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the praise or eulogy, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "formality.n.01",
+      "reasoning": "The definition explicitly states that the praise is given 'formally', indicating a specific manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "eloquence.n.01",
+      "reasoning": "The definition explicitly states that the praise is given 'eloquently', indicating a specific manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Eulogizing is a direct speech act, implying direct experience of the event by participants or observers."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The definition includes 'formally', indicating a high level of politeness or formality in the expression."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "To 'eulogize' is to 'praise', which is an inherently positive action or sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody eulogize somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of eulogizing is presented as a definite occurrence or statement."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A eulogy is typically a single, distinct event of formal praise, not a continuously repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

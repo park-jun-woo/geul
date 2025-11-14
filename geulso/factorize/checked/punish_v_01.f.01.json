@@ -1,0 +1,56 @@
+{
+  "synset_id": "punish.v.01",
+  "definition": "impose a penalty on; inflict punishment on",
+  "frame_id": 1,
+  "frame_text": "Somebody penalize somebody",
+  "sememes": [
+    {
+      "verb_type": "cause",
+      "verb_property": "penalty.n.01",
+      "reasoning": "The verb 'punish' describes an action where an agent inflicts or causes a penalty to be imposed on another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who performs the action of penalizing; the punisher."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is subjected to the penalty; the punished party."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of punishing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention in carrying out the punishment."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Punishment is inherently a negative action or outcome for the recipient, as it involves inflicting something undesirable."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody penalize somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of imposing a penalty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of imposing a penalty, although repeated acts are possible, the basic sense is singular."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

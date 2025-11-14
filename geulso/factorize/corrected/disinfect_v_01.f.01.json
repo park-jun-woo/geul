@@ -1,0 +1,64 @@
+{
+  "synset_id": "disinfect.v.01",
+  "definition": "destroy microorganisms or pathogens by cleansing",
+  "frame_id": 1,
+  "frame_text": "Somebody disinfect something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb describes an action that causes a change in the patient's state, leading to a state of being clean and free from harmful microorganisms.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of disinfecting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who undergoes the change of state, becoming free of microorganisms."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "microorganism.n.01",
+          "reasoning": "The harmful entities (microorganisms or pathogens) that are destroyed or removed from the patient, as specified by the verb's definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "cleansing.n.01",
+      "reasoning": "The definition explicitly states that the destruction of microorganisms occurs 'by cleansing', indicating the method used."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disinfecting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disinfecting is generally neutral; its sentiment depends on context, but the action itself is not inherently positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action, assuming it occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of disinfecting."
+    }
+  }
+}

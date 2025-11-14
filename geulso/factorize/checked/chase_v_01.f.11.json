@@ -1,0 +1,67 @@
+{
+  "synset_id": "chase.v.01",
+  "definition": "go after with the intent to catch",
+  "frame_id": 11,
+  "frame_text": "Somebody tag something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'chase' describes a continuous act of moving from one place to another relative to a target, which constitutes a change in motion/position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the action of pursuing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being pursued or moved after."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "pursuit.n.01",
+      "reasoning": "The definition 'go after' specifies the manner of motion as a form of active following or pursuit, distinguishing it from other types of movement."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "capture.n.01",
+      "reasoning": "The definition explicitly includes 'with the intent to catch', indicating the ultimate purpose or goal of the chasing action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Chasing is a physically observable action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the explicit 'intent to catch' strongly imply will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chasing itself is neutral; its sentiment depends on the context and the reason for the chase."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' combined with 'intent to catch' clearly indicates a volitional act initiated by an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, observable action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chasing involves continuous, repeated acts of movement over a period, rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

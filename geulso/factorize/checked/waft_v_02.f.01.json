@@ -1,0 +1,74 @@
+{
+  "synset_id": "waft.v.02",
+  "definition": "blow gently",
+  "frame_id": 1,
+  "frame_text": "Something waft",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'blow gently' describes an ongoing process of movement or conveyance through the air.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the frame is the entity undergoing the gentle motion, such as a scent, smoke, or a light object. It is the theme that is moving."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the trajectory or area through which the gentle motion occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gentle.a.01",
+      "reasoning": "The core semantic component 'gently' is explicitly stated in the definition and describes the manner of the motion or blowing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The gentle movement of something (like a scent or smoke) is a directly perceivable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in this frame typically refers to inanimate entities (e.g., scent, smoke) which do not possess will or intention to act."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "Tense is not specified in the verb's core meaning or frame, so a neutral present tense is assumed for decomposition."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The inherent aspect of the verb 'waft' is simple, describing the action without specifying its completion or progression. The progressive aspect is marked by 'is' in the given frame."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'waft' carries no inherent politeness implications."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wafting is inherently neutral; any positive or negative sentiment depends on what is wafted and the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is wafting PP' implies a non-volitional subject (e.g., a scent, smoke) undergoing or performing the action, which cannot act with intention."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process when asserted."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wafting typically describes a continuous, sustained, or highly repetitive gentle movement of air or substances carried by it, implying high iterativity rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

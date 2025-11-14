@@ -1,0 +1,61 @@
+{
+  "synset_id": "ascend.v.04",
+  "definition": "appear to be moving upward, as by means of tendrils",
+  "frame_id": 1,
+  "frame_text": "Something climb_up",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb fundamentally describes a change in the location of the subject.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the motion, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "upward.a.01",
+      "reasoning": "The definition explicitly states 'moving upward', which is a crucial directional component of the motion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "using_tendrils.n.01",
+      "reasoning": "The definition specifies the particular means ('by means of tendrils') by which the upward movement appears to occur."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "While the definition includes 'appear to be', it describes a directly observable visual phenomenon rather than an inference about an unseen event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a perceived action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of appearing to move upward by tendrils is semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something climb_up' and the descriptive context ('by means of tendrils' for growth) indicate a non-volitional process."
+    },
+    "Confidence": {
+      "value": 0.0,
+      "reasoning": "The phrase 'appear to be moving' introduces a degree of observational interpretation, making 'Certainty' (1.0) inappropriate, but it is not pure 'Speculation' (-1.0) either, as the appearance itself is factual. Neutral best captures this."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'moving upward, as by means of tendrils' suggests a continuous, highly repetitive series of small, incremental movements or growth over time."
+    }
+  }
+}

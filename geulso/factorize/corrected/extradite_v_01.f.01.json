@@ -1,0 +1,64 @@
+{
+  "synset_id": "extradite.v.01",
+  "definition": "hand over to the authorities of another country",
+  "frame_id": 1,
+  "frame_text": "Somebody deport somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes causing a person to move from one jurisdiction to another, which is a change in their effective location and legal status.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of handing over/deporting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being handed over to another country."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "country.n.02",
+          "reasoning": "The authorities of another country, which represents the new location/jurisdiction for the patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "legal.a.01",
+      "reasoning": "Extradition is a formal, legal process, implying a specific method of transfer."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of extraditing is a directly observable legal and physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to perform the extradition."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of extradition itself is neutral; its implications can be positive or negative depending on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody deport somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of extraditing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct event of handing over a person."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "synset_id": "live_it_up.v.01",
+  "definition": "enjoy oneself",
+  "frame_id": 0,
+  "frame_text": "Somebody live_it_up PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "pleasure.n.01",
+      "reasoning": "The definition 'enjoy oneself' describes an active engagement in experiences that bring pleasure, which is an activity centered around the property of pleasure.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the agent that performs the activity of enjoying itself. While 'Something' is typically non-agentive, for the verb 'live it up' (enjoy oneself), it implies an entity (e.g., a group, an event) that is capable of exhibiting agency or a collective volitional state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of enjoying oneself is typically a direct and observable experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "To 'live it up' or 'enjoy oneself' inherently implies an active will and intention on the part of the agent, even when the subject is phrased as 'Something' (e.g., a party, a crowd exhibiting collective will)."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The verb 'live it up' explicitly means to enjoy oneself, which carries a positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of 'enjoying oneself' or 'living it up' is an intentional and volitional act, implying active choice and engagement by the subject, even if it's a collective or personified 'Something'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of enjoyment."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "'Live it up' implies an ongoing period of repeated enjoyable activities or a continuous state of high enjoyment, rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

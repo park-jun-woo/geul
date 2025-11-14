@@ -1,0 +1,55 @@
+{
+  "synset_id": "automobile.v.01",
+  "definition": "travel in an automobile",
+  "frame_id": 0,
+  "frame_text": "Somebody automobile",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'travel in an automobile' describes a change of location, which is a type of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of traveling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "automobile.n.01",
+      "reasoning": "The verb 'automobile' inherently specifies the means of travel, explicitly mentioned in the definition 'in an automobile'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Traveling in an automobile is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of traveling in an automobile is inherently neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of automobilizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Traveling (by automobile) is an action composed of continuous, highly repetitive motions over a duration, indicating high iterativity rather than a single event."
+    }
+  }
+}

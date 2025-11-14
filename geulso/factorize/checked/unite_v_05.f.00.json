@@ -1,0 +1,63 @@
+{
+  "synset_id": "unite.v.05",
+  "definition": "bring together for a common purpose or action or ideology or in a shared situation",
+  "frame_id": 0,
+  "frame_text": "Somebody unify somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cohesion.n.01",
+      "reasoning": "The definition 'bring together' implies causing a transition from a state of being separate to a state of being cohesive or unified, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates and causes the act of bringing together."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "group.n.01",
+          "reasoning": "The second 'somebody' in the frame, which refers to the individuals or entities that are brought together to form a cohesive unit or group."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "goal.n.01",
+      "value_type": "common_purpose.n.01",
+      "reasoning": "The definition explicitly states 'for a common purpose or action or ideology or in a shared situation', indicating an inherent goal or reason for the uniting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of uniting or bringing people together is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies intentional action, thus a strong will to unite."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of uniting for a common purpose generally carries a positive connotation of cooperation, strength, or harmony."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody unite somebody' explicitly involves a volitional agent ('Somebody') performing the action of uniting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome of bringing entities together."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the process of uniting can be ongoing, the verb 'unite' itself typically refers to the singular event or achievement of that state of being united."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "synset_id": "blaze.v.04",
+  "definition": "move rapidly and as if blazing",
+  "frame_id": 2,
+  "frame_text": "Somebody blaze something PP",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move rapidly' indicates a change in location. Given the transitive frame 'Somebody ----s somebody', the first 'Somebody' is interpreted as causing the second 'somebody' to undergo this rapid movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates or causes the rapid motion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is caused to move rapidly."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' indicates the path, direction, or location through which the rapid movement occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition explicitly includes 'move rapidly', indicating high speed as a core characteristic of the movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "brilliant.s.01",
+      "reasoning": "The phrase 'as if blazing' describes a conspicuous, intense, and bright (like fire) manner of movement, implying brilliance or vividness."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of blazing (moving rapidly) is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as a causal agent implies intentionality and will behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving rapidly is generally neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly features a volitional agent ('Somebody') causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rapid movement is a continuous action composed of high repetition, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

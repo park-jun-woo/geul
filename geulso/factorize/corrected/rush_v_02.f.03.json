@@ -1,0 +1,59 @@
+{
+  "synset_id": "rush.v.02",
+  "definition": "attack suddenly",
+  "frame_id": 3,
+  "frame_text": "Something rush something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attack.n.01",
+      "reasoning": "The definition 'attack suddenly' indicates an action that causes a change of state for the patient (from unattacked to attacked).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the attack, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the target and undergoes the effect of the attack."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The adverb 'suddenly' in the definition describes the manner and speed of the attack, which is a core semantic component of this verb sense."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "An attack is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame does not inherently imply an agent with will or intention, especially when it can refer to inanimate forces."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'attack' is generally considered to have a negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically suggests a non-volitional agent when 'Something' is generic (e.g., a storm, a disease), or neutral if a collective noun is implied. Following sample precedents for 'Something' frames, non-volitional is the most general interpretation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of an attack."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'attack suddenly' typically refers to a single, discrete event rather than a continuous or highly repetitive action."
+    }
+  }
+}

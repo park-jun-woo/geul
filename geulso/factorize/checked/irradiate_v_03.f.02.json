@@ -1,0 +1,56 @@
+{
+  "synset_id": "irradiate.v.03",
+  "definition": "expose to radiation",
+  "frame_id": 2,
+  "frame_text": "Somebody ray somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "radiation.n.01",
+      "reasoning": "The definition 'expose to radiation' describes an action of subjecting something to a physical process involving radiation. The hypernym 'process.v.01' supports this classification.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity (e.g., device, source) that performs the act of irradiating."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that is exposed to or receives the radiation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of irradiating is typically a directly observable or measurable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional agent (e.g., a machine or natural phenomenon), therefore lacking will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of irradiating is neutral; its positive or negative sentiment depends on the context and effect of the radiation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something irradiate something' indicates a non-agentive, non-volitional subject ('Something') as the source of radiation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of exposure to radiation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'irradiate' in its base form implies a single instance of the process of exposing something to radiation, even if the exposure itself has duration."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

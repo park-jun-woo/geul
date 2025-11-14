@@ -1,0 +1,60 @@
+{
+  "synset_id": "conclude.v.03",
+  "definition": "reach a conclusion after a discussion or deliberation",
+  "frame_id": 1,
+  "frame_text": "Somebody conclude that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The verb describes a transition from a state of not having a conclusion to having one, indicating a change in cognitive state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the mental process of deliberation and reaches the conclusion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific piece of knowledge or decision that is the outcome of the deliberation."
+        }
+      ]
+    },
+    {
+      "verb_type": "process",
+      "verb_property": "deliberation.n.01",
+      "reasoning": "The definition explicitly mentions 'after a discussion or deliberation', which is a process leading to the conclusion.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reaching a conclusion is a direct cognitive experience, even if the information leading to it might be indirect."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to deliberate and reach a conclusion."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of concluding is neutral; the content of the conclusion may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody conclude...' and the definition 'deliberation' explicitly indicate a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'conclude' implies a firm and certain decision or understanding after a process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of reaching a conclusion."
+    }
+  }
+}

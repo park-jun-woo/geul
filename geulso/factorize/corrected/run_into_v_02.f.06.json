@@ -1,0 +1,59 @@
+{
+  "synset_id": "run_into.v.02",
+  "definition": "collide violently with an obstacle",
+  "frame_id": 6,
+  "frame_text": "Somebody knock_against somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "contact.n.02",
+      "reasoning": "The verb 'collide' describes a change from a state of non-contact to a state of being in contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of knocking against, initiating the collision, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the impact or collision, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "violent.a.01",
+      "reasoning": "The definition explicitly states 'collide violently', indicating a forceful manner of contact."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A collision is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame actively performs the action of 'knock_against', implying the agent's will in initiating the movement that leads to the collision, even if the precise outcome is unintended."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of colliding is neutral; its consequences determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody knock_against somebody' indicates an active agent performing the action, even if the subsequent collision is accidental, the act of 'knocking against' is volitionally initiated by the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A collision is typically a single, discrete event."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "paragraph.v.02",
+  "definition": "write about in a paragraph",
+  "frame_id": 1,
+  "frame_text": "Somebody paragraph something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "text.n.01",
+      "reasoning": "The verb 'paragraph' means to produce a written text unit, specifically a paragraph, as stated in the definition 'write about in a paragraph'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the act of writing and creating the paragraph."
+        }
+      ]
+    },
+    {
+      "verb_type": "relation",
+      "verb_property": "topic.n.01",
+      "reasoning": "The verb implies that the created paragraph is 'about' a specific subject, which is the core meaning of 'write about'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The 'somebody' in the direct object position of the frame 'Somebody paragraph somebody' refers to the person who is the subject or topic of the paragraph."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of writing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that takes place."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is carried out with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of writing a paragraph about someone is inherently neutral; any positive or negative sentiment would come from the content of the paragraph, not the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody paragraph somebody' explicitly indicates a volitional agent ('Somebody') performing the action, meaning it is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of paragraphing is described as a definite occurrence or capability."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies the creation of a single paragraph (a discrete unit of text), not a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

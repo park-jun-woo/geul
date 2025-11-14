@@ -1,0 +1,58 @@
+{
+  "synset_id": "concede.v.04",
+  "definition": "acknowledge defeat",
+  "frame_id": 0,
+  "frame_text": "Somebody concede",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "acknowledgement.n.01",
+      "reasoning": "The verb 'concede' describes the action of acknowledging or formally admitting a fact or state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of conceding.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The inherent object of acknowledgement in this sense of 'concede' is defeat, as per the definition.",
+          "value_type": "defeat.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of conceding is typically a direct and public declaration or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action of conceding is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While the object 'defeat' is negative, the act of 'conceding' itself is a neutral action of acceptance or admission, rather than intrinsically positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action, as conceding is an intentional decision."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To concede implies a definite recognition and acceptance of the state of defeat."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, definitive event of acknowledging defeat, not a repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

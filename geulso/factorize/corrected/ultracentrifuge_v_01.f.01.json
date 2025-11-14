@@ -1,0 +1,62 @@
+{
+  "synset_id": "ultracentrifuge.v.01",
+  "definition": "subject to the action of an ultracentrifuge",
+  "frame_id": 1,
+  "frame_text": "Somebody ultracentrifuge something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "separation.n.01",
+      "reasoning": "The definition implies subjecting a substance to action that results in its separation, aligning with the hypernym 'centrifuge' which aims 'to separate the liquids from the solids'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of ultracentrifuging, which is typically the machine itself.",
+          "value_type": "machine.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the action and undergoes separation, typically a mixture or substance.",
+          "value_type": "substance.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "high_speed_rotation.n.01",
+      "reasoning": "The core mechanism of an ultracentrifuge, derived from its name and the hypernym 'centrifuge' ('rotate at very high speed'), is a specific manner of action.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of ultracentrifuging is a directly observable physical process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual action, aligning with a declarative mood."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent 'Something' refers to a machine (an ultracentrifuge), which lacks consciousness and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ultracentrifuging is a neutral process; its outcomes may be positive or negative depending on context, but the action itself is not inherently so."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (a machine) performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When an ultracentrifuge operates, it definitely performs its function as described."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of ultracentrifugation involves continuous, highly repetitive high-speed rotation over a period to achieve separation, making it highly iterative rather than a single discrete event."
+    }
+  }
+}

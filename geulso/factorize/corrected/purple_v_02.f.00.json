@@ -1,0 +1,60 @@
+{
+  "synset_id": "purple.v.02",
+  "definition": "color purple",
+  "frame_id": 0,
+  "frame_text": "Somebody empurple something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "reasoning": "The verb 'purple' signifies an action that causes an object to change its color state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of coloring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of color, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "color.n.01",
+      "value_type": "purple.a.01",
+      "reasoning": "The verb 'purple' specifically denotes that the resultant color of the patient after the action is purple. This describes the target state of the 'color' property.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of coloring an object is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of coloring an object purple is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the coloring action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of coloring."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of changing an object's color to purple, even if the application process involves multiple strokes."
+    }
+  }
+}

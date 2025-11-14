@@ -1,0 +1,72 @@
+{
+  "synset_id": "rattle.v.02",
+  "definition": "shake and cause to make a rattling noise",
+  "frame_id": 1,
+  "frame_text": "Something rattle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes causing an object to undergo a change in its state of motion, moving it from a static state to one of movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which initiates the motion of the other object."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the object whose motion is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "back_and_forth_motion.n.01",
+      "reasoning": "A key semantic component of 'rattle' is the specific manner of motion it causes, which is a repetitive, often irregular, back-and-forth movement (shaking), as indicated by its hypernym 'shake.v.01'.",
+      "participants": []
+    },
+    {
+      "verb_type": "creation",
+      "verb_property": "sound.n.01",
+      "value_type": "rattling_noise.n.01",
+      "reasoning": "The verb explicitly includes the production of a distinct 'rattling noise' as a direct consequence of the motion.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The `patient.n.02` from the first sememe (the object being moved/shaken) is the source from which the rattling sound emanates."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rattling is a directly observable phenomenon through both sound and sight."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event that occurs."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something rattle something' indicates a non-human, typically inanimate agent, therefore implying no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rattling is neutral in sentiment; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The agent in the frame is 'Something', indicating a non-volitional entity causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'rattle' implies a repetitive back-and-forth motion and the continuous or highly frequent production of sound, signifying high iterativity."
+    }
+  }
+}

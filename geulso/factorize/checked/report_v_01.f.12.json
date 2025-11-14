@@ -1,0 +1,65 @@
+{
+  "synset_id": "report.v.01",
+  "definition": "to give an account or representation of in words",
+  "frame_id": 12,
+  "frame_text": "Somebody report somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "information.n.01",
+      "reasoning": "The verb 'report' is defined as 'to give an account or representation of in words', which is fundamentally an act of communication involving the conveyance of information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates and delivers the report (the communicator)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame, who is the subject or topic of the account being given (e.g., 'She reported him for misconduct')."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "account.n.01",
+          "reasoning": "The actual content of the communication (the account or representation itself). This is an inherent semantic component of 'report', even if implicitly understood in this specific frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reporting typically presents information as factual or based on direct knowledge, implying direct experience or verified sources from the reporter's perspective."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an act of communication."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to deliver the report."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of reporting is neutral in politeness; specific context or tone would determine this."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reporting is neutral; the sentiment is determined by the content of the report."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of reporting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'report' implies conveying information with a high degree of certainty or as fact."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of giving an account or representation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

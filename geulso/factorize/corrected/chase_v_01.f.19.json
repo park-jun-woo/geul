@@ -1,0 +1,59 @@
+{
+  "synset_id": "chase.v.01",
+  "definition": "go after with the intent to catch",
+  "frame_id": 19,
+  "frame_text": "Something chase_after somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'chase' describes an act of moving and changing location relative to another entity, as indicated by 'go after'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of pursuing, acting as the initiator of the movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the pursuit, undergoing the action of being chased."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "capture.n.01",
+      "reasoning": "A crucial part of the definition is 'with the intent to catch', indicating a specific goal or purpose for the motion, which is to capture the object of the chase."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chasing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'with the intent to catch' explicitly indicates a strong will or intention on the part of the agent, even when the agent is 'Something'."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chasing is neutral; its sentiment depends on context (e.g., a game vs. a threat)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The phrase 'with the intent to catch' inherently implies intentionality, making the action volitional despite the generic 'Something' subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'chase' describes a definite action, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chasing is an ongoing activity involving continuous, repeated actions (like running or following) over a period, rather than a single instantaneous event."
+    }
+  }
+}

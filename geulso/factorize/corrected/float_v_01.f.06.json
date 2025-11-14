@@ -1,0 +1,67 @@
+{
+  "synset_id": "float.v.01",
+  "definition": "be in motion due to some air or water current",
+  "frame_id": 6,
+  "frame_text": "Something is drifting PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a change of location, which is a fundamental aspect of 'being in motion'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the motion, indicating it is the patient of the action."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' in the verb frame specifies the location, path, or destination where the drifting occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "cause.n.01",
+      "value_type": "current.n.01",
+      "reasoning": "The definition 'due to some air or water current' explicitly identifies an external current as the causal force for the motion, making it a core semantic component of the verb 'float'/'drift' in this sense."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of drifting is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a state or ongoing event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is drifting' and the definition 'due to some air or water current' indicate that the motion is caused by external forces, not the will of the subject."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is drifting' uses the progressive aspect, indicating an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'float' has a neutral politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of drifting is semantically neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is drifting' and the explicit cause 'due to some air or water current' signify a non-volitional action where the subject is passively moved."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'Something is drifting' describes a definite, certain occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Drifting is a continuous process composed of many small, repeated movements, indicating high repetition."
+    }
+  }
+}

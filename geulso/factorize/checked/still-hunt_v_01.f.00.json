@@ -1,0 +1,63 @@
+{
+  "synset_id": "still-hunt.v.01",
+  "definition": "hunt (quarry) by stalking and ambushing",
+  "frame_id": 0,
+  "frame_text": "Somebody ambush",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "pursuit.n.01",
+      "reasoning": "The verb describes the ongoing activity of pursuing quarry, which is the fundamental aspect of hunting.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who engages in the hunting activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "quarry.n.01",
+          "reasoning": "The object of the hunt, explicitly mentioned in the definition as what is being hunted."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "stalking_and_ambushing",
+      "reasoning": "The definition 'by stalking and ambushing' specifies the particular stealthy methods used in this type of hunting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of still-hunting is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hunting itself is neutral; its sentiment depends on context (e.g., sport, sustenance)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of hunting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or activity."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While a still-hunt involves sequential sub-actions (stalking, ambushing), the verb describes a single, complete instance of this specific hunting method, not a high repetition of the entire act of still-hunting."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

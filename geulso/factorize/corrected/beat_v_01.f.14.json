@@ -1,0 +1,59 @@
+{
+  "synset_id": "beat.v.01",
+  "definition": "come out better in a competition, race, or conflict",
+  "frame_id": 14,
+  "frame_text": "Something crush somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb 'beat' in this sense describes a change in the competitive status of participants, where one entity (the agent) achieves a superior position over another (the patient).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that comes out better or wins the competition, causing the change in status for the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is defeated or whose status becomes inferior in the competition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "domain.n.01",
+      "value_type": "competition.n.01",
+      "reasoning": "The definition explicitly states that the action occurs 'in a competition, race, or conflict', defining the domain of the event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The outcome of a competition (one entity beating another) is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of defeat."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something crush somebody' implies that the 'Something' acting as the agent may not possess personal will or intention, thus modality is neutral."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of beating/defeating is neutral; its positive or negative sentiment depends on the perspective of the participants."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something crush somebody' uses 'Something' as the agent. Consistent with the rules, 'Something' typically denotes a non-volitional agent (e.g., 'The system beat him', 'The disease beat her')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite outcome of a competition."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'beat' in this sense refers to a single, decisive outcome of a competitive event, not an ongoing repetitive action."
+    }
+  }
+}

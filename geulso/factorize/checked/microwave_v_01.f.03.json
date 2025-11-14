@@ -1,0 +1,62 @@
+{
+  "synset_id": "microwave.v.01",
+  "definition": "cook or heat in a microwave oven",
+  "frame_id": 3,
+  "frame_text": "Somebody zap something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "condition.n.01",
+      "reasoning": "The verb 'microwave' (or 'zap' in this context) describes an action that changes the condition of an item, typically from raw to cooked, or cold to hot, by heating.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who intentionally performs the action of heating/cooking."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame that undergoes the change of condition (heating/cooking)."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value": "using_microwave_radiation",
+      "reasoning": "The verb itself, 'microwave' (or 'zap' in this context), inherently specifies the unique method of heating: using a microwave oven and its radiation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of microwaving or zapping food is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cooking or heating itself is neutral; its sentiment depends on context or outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody zap something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of microwaving is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of heating or cooking an item, regardless of the duration of the heating process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

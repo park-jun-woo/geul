@@ -1,0 +1,76 @@
+{
+  "synset_id": "bring.v.01",
+  "definition": "take something or somebody with oneself somewhere",
+  "frame_id": 0,
+  "frame_text": "Somebody bring somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'bring' describes the act of moving an entity from one location to another, which is a change of state regarding its spatial position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of moving the object."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' or 'somebody' that is moved by the agent."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The implicit initial location from which the patient is moved."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implicit final location to which the patient is moved, as indicated by 'somewhere' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "accompaniment.n.01",
+      "reasoning": "The definition 'take...with oneself' explicitly states that the agent accompanies the patient during the movement, making this an inherent characteristic of the action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who acts as the accompanier."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' or 'somebody' that is accompanied by the agent."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of bringing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of bringing itself is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody bring something' indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, completed act of moving an object."
+    }
+  }
+}

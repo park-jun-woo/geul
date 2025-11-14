@@ -1,0 +1,62 @@
+{
+  "synset_id": "click.v.02",
+  "definition": "make a clicking or ticking sound",
+  "frame_id": 1,
+  "frame_text": "Somebody click something",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "sound_production.n.01",
+      "reasoning": "The verb describes an event where an agent causes an object to produce a sound, as indicated by 'make a clicking or ticking sound'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of causing the sound, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is acted upon and subsequently produces the sound."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sound_quality.n.01",
+      "value_type": "clicking_sound.n.01",
+      "reasoning": "The definition explicitly specifies the distinct characteristic of the sound produced as 'clicking or ticking', which defines the type of sound."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a sound is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is carried out with will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making a clicking sound is inherently neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the action of making a sound."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of sound production."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame implies a single instance of causing a clicking sound, even if the sound itself can be repetitive (as in 'ticking'). The verb 'click' in this general frame refers to a single event of making the sound."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "reseed.v.01",
+  "definition": "seed again or anew",
+  "frame_id": 0,
+  "frame_text": "Somebody reseed something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "planting.n.01",
+      "reasoning": "The verb 'reseed' describes the act of planting seeds, which changes the state of an area by introducing vegetation or preparing for it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of planting seeds, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., ground, lawn) that is subjected to the planting of seeds."
+        }
+      ]
+    },
+    {
+      "verb_type": "temporal_modifier",
+      "verb_property": "repetition.n.01",
+      "value": "again",
+      "reasoning": "The prefix 're-' in 'reseed' explicitly denotes that the action of seeding is performed 'again' or 'anew', indicating a repeat occurrence of the base action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reseeding is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reseeding is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of reseeding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While 'reseed' implies a prior seeding event, the lexeme itself describes a single, discrete act of performing the seeding action again, not a continuous or highly repetitive internal process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'temporal_modifier'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

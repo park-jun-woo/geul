@@ -1,0 +1,65 @@
+{
+  "synset_id": "walk.v.10",
+  "definition": "take a walk; go for a walk; walk for pleasure",
+  "frame_id": 3,
+  "frame_text": "Somebody walk PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a change in location through self-propelled movement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' that performs the action of moving."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint or goal of the movement, specified by the prepositional phrase (PP) in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "ambulatory.a.01",
+      "reasoning": "The movement is characterized by sequential foot placement with at least one foot on the ground, typically at an unhurried pace, distinguishing it from running."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "recreation.n.01",
+      "value_type": "pleasure.n.01",
+      "reasoning": "The definition explicitly states 'walk for pleasure', indicating the recreational and enjoyable purpose of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Walking is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody walk' implies an agent acting with will and intention to move."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of walking itself is neutral. While the purpose is 'for pleasure', the action's inherent polarity remains neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Walking is a volitional act initiated by an agent ('Somebody')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of walking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Walking is a continuous action composed of highly repetitive steps, indicating high iterativity."
+    }
+  }
+}

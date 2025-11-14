@@ -1,0 +1,63 @@
+{
+  "synset_id": "rap.v.01",
+  "definition": "strike sharply",
+  "frame_id": 1,
+  "frame_text": "Somebody knap something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb 'rap' denotes an action that causes a physical impact or contact, which is a change in the state of contact.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity initiating the striking action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the entity that receives the strike or impact."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The Prepositional Phrase (PP) in the frame specifies the location or surface where the strike occurs."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sharp.a.01",
+      "reasoning": "The definition 'strike sharply' explicitly includes 'sharply', indicating a specific manner or quality of the strike (quick, distinct, sudden)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Striking (rap) is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is performed with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rapping is neutral; its sentiment depends on context or the object being rapped."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of striking."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'rap' in its base form implies a single, distinct act of striking, unless explicitly modified for repetition."
+    }
+  }
+}

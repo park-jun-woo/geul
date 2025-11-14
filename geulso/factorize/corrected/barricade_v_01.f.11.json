@@ -1,0 +1,59 @@
+{
+  "synset_id": "barricade.v.01",
+  "definition": "render unsuitable for passage",
+  "frame_id": 11,
+  "frame_text": "Something block_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "accessibility.n.01",
+      "reasoning": "The verb describes rendering something unsuitable for passage, which is a change in its state of being accessible.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the obstruction, acting as the initiator of the change in accessibility.",
+          "value_type": "physical_object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., path, entrance) that undergoes the change in accessibility."
+        }
+      ]
+    },
+    {
+      "verb_type": "instrument",
+      "verb_property": "barricade.n.01",
+      "reasoning": "The verb 'barricade' inherently implies the use of a physical barrier or obstacle (a barricade) as the instrument to achieve the blocking."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of barricading is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-agentive cause, implying no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of barricading can be positive (e.g., for protection) or negative (e.g., for obstruction), making its inherent sentiment neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' explicitly indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, completed event of rendering a passage unsuitable."
+    }
+  }
+}

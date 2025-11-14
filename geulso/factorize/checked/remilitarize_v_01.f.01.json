@@ -1,0 +1,61 @@
+{
+  "synset_id": "remilitarize.v.01",
+  "definition": "militarize anew",
+  "frame_id": 1,
+  "frame_text": "Somebody remilitarize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "military_character.n.01",
+      "reasoning": "The verb 'remilitarize' describes a process of altering an entity's status or character to a military one, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who actively performs the action of remilitarizing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that undergoes the change, becoming militarized again."
+        }
+      ]
+    },
+    {
+      "verb_type": "aspect",
+      "verb_property": "repetition.n.01",
+      "reasoning": "The prefix 're-' in 'remilitarize' and the word 'anew' in the definition signify that the action of militarizing is being performed again, indicating a repetition or restoration of a prior state."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Remilitarization is typically a directly observable and verifiable process, often involving public actions and announcements."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the verb frame implies a strong will and intention behind the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of remilitarization itself is semantically neutral. Its positive or negative connotations depend entirely on the specific geopolitical context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody remilitarize something' explicitly indicates a volitional agent performing the action, as it requires deliberate decision and effort."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or event that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the 're-' prefix indicates that a similar action happened before, the verb 'remilitarize' describes a single, distinct instance of militarizing anew. It does not imply continuous repetition *within* this specific event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'aspect'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

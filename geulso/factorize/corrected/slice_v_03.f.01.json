@@ -1,0 +1,65 @@
+{
+  "synset_id": "slice.v.03",
+  "definition": "cut into slices",
+  "frame_id": 1,
+  "frame_text": "Somebody slice_up something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb 'slice' fundamentally describes an action that alters the whole or unbroken state of an object by dividing it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the entity causing the cutting, typically an instrument or machine."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the object undergoing the change in integrity by being cut."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "form.n.01",
+      "value_type": "slice.n.02",
+      "reasoning": "The definition 'cut into slices' specifies the resulting form of the patient after the action, indicating it exists in multiple, thin, flat pieces.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that now possesses the form of slices."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Slicing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or its result."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies an inanimate agent (e.g., a knife, a machine), which has no will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of slicing is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something slice something' implies a non-volitional agent (an instrument or machine) performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'cut into slices' typically involves multiple, often continuous, repetitive cuts to achieve the desired state, indicating high iterativity."
+    }
+  }
+}

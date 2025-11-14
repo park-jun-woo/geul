@@ -1,0 +1,57 @@
+{
+  "synset_id": "predict.v.01",
+  "definition": "make a prediction about; tell in advance",
+  "frame_id": 8,
+  "frame_text": "Somebody predict something",
+  "sememes": [
+    {
+      "verb_type": "communication.n.01",
+      "verb_property": "future.n.01",
+      "reasoning": "The verb 'predict' describes an act of conveying information (communication) that specifically pertains to what will happen (the future), as per the definition 'make a prediction about; tell in advance'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of predicting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The 'something' that is the content of the prediction, typically an event or outcome in the future."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "Predicting involves making a statement about future events based on inference, rather than direct observation or hearsay."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of predicting itself is neutral; the content of the prediction can be positive or negative, but not the verb."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the act of prediction."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "A prediction, by its nature, is an estimate or conjecture about the unknown future, implying a degree of speculation rather than certainty. The hypernym 'guess' reinforces this."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of making a prediction."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication.n.01'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "synset_id": "demand.v.03",
+  "definition": "claim as due or just",
+  "frame_id": 2,
+  "frame_text": "Somebody demand that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "assertion.n.01",
+      "reasoning": "The definition 'claim as due or just' indicates an act of communicating a strong assertion or insistence on something considered a right or obligation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of demanding, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content of the demand, which is a proposition or a statement of what is claimed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of demanding is a direct communicative act, hence direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of a demand or claim."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The verb 'demand' inherently implies a strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of demanding itself is neutral; its sentiment depends on the context and content of the demand."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody demand...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A demand implies a high degree of certainty from the agent regarding the validity or necessity of the claim."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'demand' describes a single, discrete act of making a claim, even if the demand might be repeated later."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

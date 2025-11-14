@@ -1,0 +1,62 @@
+{
+  "synset_id": "bubble.v.04",
+  "definition": "cause to form bubbles",
+  "frame_id": 0,
+  "frame_text": "Something bubble something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The verb 'bubble' (transitive) describes causing a substance to undergo a change in its physical state, specifically leading to the formation of bubbles.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the external force or entity that causes the bubble formation (e.g., 'Heat bubbles the water')."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the substance (e.g., liquid) that is affected and undergoes the change, forming bubbles."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "bubble.n.01",
+      "reasoning": "The action of 'bubbling' directly results in the creation or presence of 'bubbles'.",
+      "value_type": "physical_phenomenon.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The formation of bubbles is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a physical event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional cause (e.g., heat, chemical reaction), not an agent with will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to bubble is inherently neutral; any positive or negative sentiment depends on the specific context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional subject causing the action, as 'Something' lacks intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'bubble' describes a definite and observable occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'bubbling' typically involves a continuous or highly repetitive formation of multiple bubbles, indicating high iterativity rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

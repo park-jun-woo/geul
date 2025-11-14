@@ -1,0 +1,75 @@
+{
+  "synset_id": "leap_out.v.02",
+  "definition": "jump out from a hiding place and surprise (someone)",
+  "frame_id": 2,
+  "frame_text": "Somebody leap_out somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes a physical movement and a change in location, specifically moving 'out from' a place.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the movement, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "hiding_place.n.01",
+          "reasoning": "The definition 'from a hiding place' indicates an implicit source from which the agent moves."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "jump.v.01",
+      "reasoning": "The verb 'leap' inherently specifies a 'jump' as the rapid and forceful manner of movement."
+    },
+    {
+      "verb_type": "cause",
+      "verb_property": "surprise.n.01",
+      "reasoning": "The definition explicitly includes 'surprise (someone)' as an intended effect of the action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who causes the surprise, which is the same agent as the one who leaps out."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is surprised, directly corresponding to the object in the verb frame."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of leaping out is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action of leaping out to surprise someone is driven by the agent's strong will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of leaping out is neutral; its sentiment depends on context or the nature of the surprise."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action with intent to surprise."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct event of leaping out."
+    }
+  }
+}

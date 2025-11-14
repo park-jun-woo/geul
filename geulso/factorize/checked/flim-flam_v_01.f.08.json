@@ -1,0 +1,73 @@
+{
+  "synset_id": "flim-flam.v.01",
+  "definition": "deceive somebody",
+  "frame_id": 8,
+  "frame_text": "Somebody trick somebody into V-ing something",
+  "sememes": [
+    {
+      "verb_type": "causal_action",
+      "verb_property": "deception.n.01",
+      "reasoning": "The definition 'deceive somebody' and the verb 'flim-flam' itself denote an action by an agent that causes a state of deception in another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the verb frame, who intentionally performs the act of deception."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the verb frame, who is the recipient and victim of the deception."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "action.n.01",
+      "reasoning": "The 'into V-ing something' clause in the frame specifies the intended consequence or outcome of the deception, where the patient is caused to perform a particular action.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is tricked into performing the action, directly affected by the deception."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "action.n.01",
+          "reasoning": "Represents the specific 'V-ing something' that the patient is induced to do as a result of the flim-flam."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of flim-flamming is typically an observable event or has observable consequences, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' indicates a volitional agent performing the action, implying strong will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'flim-flam' (deceive, trick) someone carries an inherently negative connotation due to its dishonest nature."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject of the action indicates an intentional, volitional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of deception, implying certainty in its occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of deception, even if it involves multiple steps. The focus is on the singular instance of tricking someone."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causal_action'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "synset_id": "designate.v.01",
+  "definition": "assign a name or title to",
+  "frame_id": 5,
+  "frame_text": "Something designate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "identity.n.01",
+      "reasoning": "The verb 'designate' describes the act of assigning a name or title, which results in a change in the identity or recognized status of the entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that performs the designation, acting as the cause of the change, even if non-volitionally (e.g., a law, a symbol, a color).",
+          "value_type": "object.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that receives the name or title and undergoes the change in its identity or status.",
+          "value_type": "object.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "result.n.01",
+      "value_type": "label.n.01",
+      "reasoning": "The act of designating inherently produces a name or title, which serves as a label for the designated entity. This is an outcome of the change."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of designation is typically a directly observable or explicitly stated event/fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or an effect."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' subject in the frame implies a lack of inherent will or intention driving the action of designating."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of designating is semantically neutral; its sentiment depends on the specific context and what is being designated."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' clearly indicates a non-volitional subject performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of designation is generally presented as a definite occurrence or established fact."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of assigning a name or title."
+    }
+  }
+}

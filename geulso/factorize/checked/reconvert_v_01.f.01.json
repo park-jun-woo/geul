@@ -1,0 +1,61 @@
+{
+  "synset_id": "reconvert.v.01",
+  "definition": "convert back",
+  "frame_id": 1,
+  "frame_text": "Something reconvert something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The verb 'reconvert' signifies an alteration of the inherent form, nature, purpose, or function of an entity, which is a core change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that performs the act of reconverting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change of form."
+        }
+      ]
+    },
+    {
+      "verb_type": "direction",
+      "verb_property": "reversal.n.01",
+      "reasoning": "The prefix 're-' in 'reconvert' explicitly indicates that the change of form is a return to a prior state or condition, signifying a reversal of a previous conversion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reconversion is typically a directly observable process or event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent 'Something' in the verb frame implies a lack of conscious will or intention, thus neutral modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reconverting is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- something' indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'reconvert' implies a definite occurrence of the change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of converting something back."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'direction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

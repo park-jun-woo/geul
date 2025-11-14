@@ -1,0 +1,59 @@
+{
+  "synset_id": "train.v.01",
+  "definition": "create by training and teaching",
+  "frame_id": 0,
+  "frame_text": "Somebody develop somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "skill.n.01",
+      "reasoning": "The verb describes causing a transition in a participant from a state of lacking a skill or ability to possessing it, as implied by 'create by training'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of training, leading to the creation of skill."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is being trained and undergoes the change in skill or ability."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "teaching.n.01",
+      "reasoning": "The definition explicitly states 'by training and teaching', indicating the specific method or manner by which the skills or abilities are developed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Training is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to train another."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of training itself is neutral; the outcome or context might imbue sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the act of training."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of training, when described, is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Training is a process that inherently involves continuous and highly repetitive actions over a period to impart skills."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "synset_id": "single.v.01",
+  "definition": "hit a single",
+  "frame_id": 0,
+  "frame_text": "Somebody single",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'single' is defined as 'hit a single', which involves causing an object (the ball) to change its state of motion by striking it, aligning with the hypernym 'hit.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the batter who performs the action of hitting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The object that undergoes the change in motion is implicitly the baseball."
+        }
+      ]
+    },
+    {
+      "verb_type": "outcome",
+      "verb_property": "achievement.n.01",
+      "value_type": "base_hit.n.01",
+      "reasoning": "The term 'single' specifically denotes a successful achievement in baseball, where the batter successfully reaches first base. This is a particular type of 'base hit'.",
+      "participants": [
+        {
+          "semantic_role": "affected_agent.n.01",
+          "reasoning": "The 'Somebody' who benefits from or is affected by the outcome of hitting a single."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hitting a single is an event that is directly observed in a baseball game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The action is performed by 'Somebody', implying the agent's will and intention to hit the ball."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "Hitting a single is a positive event for the batter and their team in baseball."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody single' clearly indicates an intentional and volitional act by the agent (the batter)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of hitting a single."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The act of hitting a single is a discrete, single event in the context of an at-bat, not a repetitive process within itself."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'outcome'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

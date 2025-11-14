@@ -1,0 +1,58 @@
+{
+  "synset_id": "glaze.v.02",
+  "definition": "become glassy or take on a glass-like appearance",
+  "frame_id": 0,
+  "frame_text": "Something glass",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The definition 'become glassy or take on a glass-like appearance' describes a transition from one state of appearance to another.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in appearance, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "state.n.02",
+      "value_type": "glassy.a.01",
+      "reasoning": "The verb implies the resulting state is 'glassy' or 'glass-like' after the change in appearance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The change in appearance is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or change of state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something glaze' lacks an explicit agent, implying no direct will or intention from the subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of becoming glassy is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something glaze' indicates that the 'Something' is a non-agentive subject undergoing a change, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of a change of state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of an object becoming glassy, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

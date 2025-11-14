@@ -1,0 +1,62 @@
+{
+  "synset_id": "potter.v.02",
+  "definition": "work lightly",
+  "frame_id": 3,
+  "frame_text": "Somebody putter PP",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "work.n.01",
+      "reasoning": "The verb 'potter' fundamentally describes engaging in a form of work or activity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action."
+        },
+        {
+          "semantic_role": "circumstance.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) indicates the location or the general context/object with which the 'pottering' activity is performed. This is a broad circumstance rather than a direct patient of transformation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "lightly.r.01",
+      "reasoning": "The definition 'work lightly' explicitly specifies the manner of the work, which is a core distinguishing feature of 'potter'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Pottering is an observable activity, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies the action is driven by the agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pottering is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, as pottering is a chosen activity."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Pottering describes an activity composed of continuous, often small and somewhat repetitive actions, indicative of high repetition over a duration."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

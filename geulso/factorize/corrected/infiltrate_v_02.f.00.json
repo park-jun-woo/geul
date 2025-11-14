@@ -1,0 +1,65 @@
+{
+  "synset_id": "infiltrate.v.02",
+  "definition": "enter a group or organization in order to spy on the members",
+  "frame_id": 0,
+  "frame_text": "Somebody infiltrate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "membership.n.01",
+      "reasoning": "The verb describes the action of becoming part of a group or organization, which is a change in the agent's affiliation or membership status from outside to inside.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of entering the group."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (group or organization) into which the agent enters, undergoing a change in its internal composition or security."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "covertness.n.01",
+      "reasoning": "The act of infiltration inherently implies a hidden, secretive, or deceptive manner of entering, often without the full knowledge or consent of the target."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "espionage.n.01",
+      "reasoning": "The definition explicitly states the purpose is 'in order to spy on the members', which directly relates to the concept of espionage or clandestine surveillance."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of infiltrating is a direct action performed by an agent, capable of being directly experienced (even if by the agent themselves or an accomplice)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to perform the infiltration."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The purpose of the action ('to spy on the members') carries a strong negative connotation due to deception and ill intent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody infiltrate something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of infiltration is described as a definite occurrence when it happens."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'infiltrate' describes the singular act of gaining entry or becoming a part of a group, even if the subsequent spying activities are continuous. The infiltration itself is a discrete event."
+    }
+  }
+}

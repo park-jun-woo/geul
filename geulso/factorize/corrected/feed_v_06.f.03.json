@@ -1,0 +1,53 @@
+{
+  "synset_id": "feed.v.06",
+  "definition": "take in food; used of animals only",
+  "frame_id": 3,
+  "frame_text": "Something is feeding PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "consumption.n.02",
+      "reasoning": "The definition 'take in food' describes a process of an entity consuming something, which is a change in its state (e.g., from hungry to fed) and a change in the state of the food (from available to consumed). The hypernym 'consume.v.02' supports 'consumption'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (animal) that performs the action of taking in food, as specified by the verb frame and definition 'used of animals only'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' represents the food or substance being consumed by the animal, as implied by 'take in food'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of feeding is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While animals have agency, feeding is primarily driven by biological imperative rather than 'will' or conscious intention in the human sense, thus neutral or no will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of feeding is a neutral biological process."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is feeding PP' explicitly refers to an animal, and basic biological functions like feeding are considered non-volitional in the GEUL framework, consistent with 'Something' as a non-human agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of feeding, when occurring, is a definite event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Feeding is typically a continuous activity composed of repeated small actions of ingesting food over a period, implying high repetition."
+    }
+  }
+}

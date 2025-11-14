@@ -1,0 +1,56 @@
+{
+  "synset_id": "distinguish.v.01",
+  "definition": "mark as different",
+  "frame_id": 12,
+  "frame_text": "Somebody separate somebody",
+  "sememes": [
+    {
+      "verb_type": "cognitive_process",
+      "verb_property": "differentiation.n.01",
+      "reasoning": "The verb 'distinguish' in the sense of 'mark as different' describes the mental act or process of perceiving or identifying what makes one entity distinct from another, which is a cognitive process of differentiation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the cognitive act of distinguishing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the differentiation or is being marked as different from others."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of distinguishing is a direct cognitive experience of the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or cognitive process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is typically driven by will and intention to perceive or establish a difference."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The cognitive act of distinguishing itself is neutral; the nature of what is distinguished determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody separate somebody' explicitly includes a volitional agent ('Somebody'), making the cognitive action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of distinguishing implies a degree of certainty in the identified difference or separation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete cognitive event of identifying a difference, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cognitive_process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

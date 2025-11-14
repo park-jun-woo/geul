@@ -1,0 +1,54 @@
+{
+  "synset_id": "exhale.v.02",
+  "definition": "give out (breath or an odor)",
+  "frame_id": 4,
+  "frame_text": "Something exhale something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'exhale' describes the action of causing a substance to move from an internal location to an external one, representing a change in its spatial position.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that acts as the source and expeller of the substance, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "gas.n.06",
+          "reasoning": "The 'something' that is emitted or expelled (e.g., breath, odor, gas), which undergoes the change of location."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of exhaling or emitting a substance is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' implies a non-human or natural process as the agent, thus lacking inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of exhaling is neutral; the sentiment depends on the specific substance (e.g., pleasant odor vs. noxious gas)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' with a non-human 'Something' as the subject indicates a non-volitional action or process (e.g., a flower exhaling scent, a machine exhaling smoke)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The emission is typically described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Exhaling (like breathing) or emitting an odor is often a continuous or highly repetitive process, rather than a single discrete event."
+    }
+  }
+}

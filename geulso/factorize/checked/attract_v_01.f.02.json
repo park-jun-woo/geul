@@ -1,0 +1,70 @@
+{
+  "synset_id": "attract.v.01",
+  "definition": "direct toward itself or oneself by means of some psychological power or physical attributes",
+  "frame_id": 2,
+  "frame_text": "Somebody attract something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "approach.n.01",
+      "reasoning": "The verb 'attract' describes the act of causing 'somebody' to be drawn or directed towards 'Something', implying a reduction in distance or an increase in focus/interest. This is an instance of causing an approach.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that initiates the attraction or exerts the attractive force/quality.",
+          "value_type": "entity.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity that is drawn or caused to approach.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'Something' (the causal agent) is also the implicit target or goal towards which the 'somebody' is directed or approaches.",
+          "value_type": "entity.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "inherent_quality.n.01",
+      "reasoning": "The definition 'by means of some psychological power or physical attributes' specifies the inherent qualities or characteristics of the causal agent that enable it to attract. This describes the manner or mechanism of attraction.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of attracting or being attracted is generally a directly observable or experiencable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or ongoing capacity."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something attract somebody' implies a non-volitional subject ('Something'), thus the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of attracting is neutral; its sentiment depends on the specific context and what is being attracted."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something attract somebody' clearly indicates a non-volitional subject ('Something'), meaning the attraction occurs due to its inherent properties rather than conscious intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence or inherent capacity of attraction."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Attraction, especially when caused by inherent qualities, often implies a continuous or highly repetitive exertion of influence, rather than a single discrete event (e.g., a magnet continuously attracts metal)."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

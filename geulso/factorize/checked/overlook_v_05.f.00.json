@@ -1,0 +1,68 @@
+{
+  "synset_id": "overlook.v.05",
+  "definition": "watch over",
+  "frame_id": 0,
+  "frame_text": "Somebody overlook somebody",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "supervision.n.01",
+      "reasoning": "The definition 'watch over' describes a sustained, purposeful activity of observing and monitoring, which falls under the semantic category of supervision.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who actively performs the supervisory activity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that is the object of the supervision."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of watching over is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or ongoing activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The core semantic decomposition does not specify a particular tense, thus defaulting to present/neutral."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb 'watch over' describes an ongoing, continuous activity, indicating a progressive aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'overlook' (in this sense) is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of watching over is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody overlook something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of watching over is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Watching over implies a sustained activity composed of continuous, highly repetitive acts of observation and monitoring, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

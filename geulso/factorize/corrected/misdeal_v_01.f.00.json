@@ -1,0 +1,59 @@
+{
+  "synset_id": "misdeal.v.01",
+  "definition": "deal cards wrongly",
+  "frame_id": 0,
+  "frame_text": "Somebody misdeal something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "distribution.n.01",
+      "reasoning": "The verb describes the action of distributing cards, which constitutes a change in their arrangement or possession.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of distributing cards."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (referring to cards) that is being distributed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "correctness.n.01",
+      "value_type": "wrong.a.01",
+      "reasoning": "The 'mis-' prefix and the explicit 'wrongly' in the definition specify that the manner or outcome of the dealing action is incorrect or erroneous."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A misdeal is an observable event in a card game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame intends to deal cards, implying volition and will, even if the outcome (misdeal) is unintentional."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'mis-' prefix and 'wrongly' in the definition inherently carry a negative sentiment, indicating an undesirable outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the act of dealing, even if the error itself might be accidental."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A misdeal is described as a definite occurrence or outcome of an action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of dealing cards incorrectly."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "burp.v.01",
+  "definition": "expel gas from the stomach",
+  "frame_id": 3,
+  "frame_text": "Somebody eruct",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "emission.n.01",
+      "reasoning": "The verb describes the action of expelling gas, which is a change in the location or presence of the gas.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of expelling the gas, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "gas.n.01",
+          "reasoning": "The 'gas' that is being expelled, inherent in the verb's definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "stomach.n.01",
+          "reasoning": "The origin from which the gas is expelled, specified in the definition as 'from the stomach'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Burping is a directly observable physiological event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "While burping can be involuntary, the frame 'Somebody eruct' (like 'Somebody ----s') implies an agent capable of performing the action, which can be volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of burping is a neutral physiological function; its sentiment depends on social context, not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody eruct' with 'Somebody' as the subject indicates that the action is typically performed by a volitional agent, even if it can also occur involuntarily."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of expelling gas."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Burping is typically a discrete, single event, not a continuous or highly repetitive action."
+    }
+  }
+}

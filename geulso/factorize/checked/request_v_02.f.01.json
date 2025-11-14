@@ -1,0 +1,61 @@
+{
+  "synset_id": "request.v.02",
+  "definition": "ask (a person) to do something",
+  "frame_id": 1,
+  "frame_text": "Somebody request somebody to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb 'request' describes a communicative act intended to cause another person to perform a specific action, thus initiating or seeking to cause an action by another party.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the agent who initiates the request."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' is the person who receives the request and is the intended performer of the requested action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'INFINITIVE' represents the specific action that is being requested from the recipient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of requesting is typically a directly observed or performed communicative event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning describes a declarative statement about an action of requesting."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' making the request clearly expresses their will and intention for the requested action to occur."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of requesting is inherently neutral; its positive or negative sentiment depends on the context or the nature of the request itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody request...' clearly indicates a volitional agent performing the act of requesting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of making a request is a definite occurrence when it happens."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'request' describes a single, discrete event of making a plea or asking for something."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

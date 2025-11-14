@@ -1,0 +1,58 @@
+{
+  "synset_id": "rub.v.03",
+  "definition": "scrape or rub as if to relieve itching",
+  "frame_id": 0,
+  "frame_text": "Somebody itch something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "friction.n.01",
+      "reasoning": "The verb 'rub' fundamentally describes a physical action involving friction or abrasive contact between surfaces.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the rubbing action, acting as the subject in this intransitive frame. By implication of the definition ('to relieve itching'), this 'Something' is an entity capable of experiencing itch."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "alleviation.n.01",
+      "value_type": "itching.n.01",
+      "reasoning": "The definition explicitly states that this specific sense of 'rub' is performed 'as if to relieve itching', indicating its primary goal or motivation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The explicit purpose 'to relieve itching' implies a conscious intention and will on the part of the 'Something' (an animate being capable of feeling itch)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing itself is neutral, though its purpose (relieving itching) is generally positive for the agent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition 'as if to relieve itching' strongly implies an intentional act by an entity capable of feeling itch and acting to alleviate it, overriding a general non-volitional assumption for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of rubbing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rubbing is typically a continuous action composed of high repetition of small movements or strokes."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

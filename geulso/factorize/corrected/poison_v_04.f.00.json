@@ -1,0 +1,59 @@
+{
+  "synset_id": "poison.v.04",
+  "definition": "kill by its poison",
+  "frame_id": 0,
+  "frame_text": "Something poison somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "life.n.01",
+      "reasoning": "The verb 'poison' in this sense describes a process that results in a change of state from being alive to being dead, which is a change in the property of life.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame acts as the entity that causes the death, possessing the means (poison) to do so."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that undergoes the change of state (from alive to dead)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value_type": "poison.n.01",
+      "reasoning": "The definition explicitly states 'by its poison', indicating the specific means or instrument used to cause death is poison. This is a core semantic component of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of poisoning (killing by poison) is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent 'Something' in the frame does not possess will or intention, thus modality is absent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'poison' leads to 'kill', which has an inherently negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something poison somebody' indicates a non-volitional agent ('Something') causing the action, making the act non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence leading to death."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of killing by poison, not a repeated action."
+    }
+  }
+}

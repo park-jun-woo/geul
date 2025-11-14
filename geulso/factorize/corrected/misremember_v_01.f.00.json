@@ -1,0 +1,59 @@
+{
+  "synset_id": "misremember.v.01",
+  "definition": "remember incorrectly",
+  "frame_id": 0,
+  "frame_text": "Somebody misremember somebody",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "recall.n.01",
+      "reasoning": "The core of 'misremember' is the mental act of recalling information from memory, treated as a discrete event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental action of attempting to recall, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the recall attempt, representing the information being remembered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "accuracy.n.01",
+      "value_type": "incorrect.a.01",
+      "reasoning": "The 'mis-' prefix and the definition 'remember incorrectly' indicate that the recall event is characterized by inaccuracy or error."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Misremembering is a direct cognitive experience for the individual, even if the incorrectness is discovered later."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies the agent's will to perform the act of remembering, even if the incorrect outcome is unintentional."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The prefix 'mis-' and the definition 'incorrectly' inherently convey a negative semantic value regarding the accuracy of the memory."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of remembering, which 'misremember' is a faulty instance of, is typically a volitional mental act performed by 'Somebody'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'misremember' asserts that the event of incorrect recall definitely occurred."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of incorrect recall, not a continuous or highly repetitive action."
+    }
+  }
+}

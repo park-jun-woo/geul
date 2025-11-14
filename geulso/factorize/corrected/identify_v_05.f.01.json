@@ -1,0 +1,59 @@
+{
+  "synset_id": "identify.v.05",
+  "definition": "identify as in botany or biology, for example",
+  "frame_id": 1,
+  "frame_text": "Somebody describe something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "classification.n.01",
+      "reasoning": "The definition 'identify as in botany or biology' implies assigning a specific category or identity, which is a change in the classification status from unknown/unclassified to known/classified.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of identifying and classifying."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (or organism/specimen, by extension of the biological context) that is being identified."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "method.n.01",
+      "value_type": "scientific_observation.n.01",
+      "reasoning": "The phrase 'as in botany or biology' specifies the typical method or domain of identification, which often involves systematic observation and analysis."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Scientific identification (as per the definition) typically relies on direct observation and empirical evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies intentionality and will in performing the act of identification."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of identifying is a neutral process; its outcome might have positive or negative implications depending on context, but the act itself is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody identify somebody' indicates an active, intentional choice by the agent to perform the identification."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When something is 'identified' in a scientific context, it implies a high degree of certainty in the classification."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of identification for a given entity."
+    }
+  }
+}

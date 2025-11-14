@@ -1,0 +1,57 @@
+{
+  "synset_id": "prevent.v.01",
+  "definition": "keep from happening or arising; make impossible",
+  "frame_id": 7,
+  "frame_text": "Something forestall something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "occurrence.n.01",
+      "reasoning": "The verb 'prevent' signifies causing something to not happen or to not arise, thus directly affecting its occurrence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that causes the prevention, acting as the agent of causation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "event.n.01",
+          "reasoning": "The second 'something' in the frame is the event or state whose occurrence is being prevented."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of preventing an event, or its resulting non-occurrence, is typically observed directly or its effects are evident."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or outcome."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies an inanimate or non-willful entity, therefore lacking intrinsic will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of preventing can be either positive (e.g., preventing harm) or negative (e.g., preventing success), making the verb itself semantically neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition 'make impossible' suggests a high degree of certainty that the event will not occur."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single act or continuous state of keeping something from happening, rather than a repeated action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

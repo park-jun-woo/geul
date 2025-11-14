@@ -1,0 +1,63 @@
+{
+  "synset_id": "hire_out.v.01",
+  "definition": "grant the services of or the temporary use of, for a fee",
+  "frame_id": 2,
+  "frame_text": "Somebody farm_out something to somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes the act of initiating a temporary transfer of the use or services of an item from one agent to another.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who grants the temporary use or services, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose temporary use or services are granted."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the temporary use or services, introduced by the preposition 'to'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value_type": "fee.n.01",
+      "reasoning": "The definition explicitly states 'for a fee', indicating that monetary compensation is an inherent condition of this transaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is a directly observable transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to hire something out."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hiring out is neutral; its sentiment depends on context or the nature of the object/service."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of hiring out is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of granting temporary use or services."
+    }
+  }
+}

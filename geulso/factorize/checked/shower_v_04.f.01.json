@@ -1,0 +1,65 @@
+{
+  "synset_id": "shower.v.04",
+  "definition": "rain abundantly",
+  "frame_id": 1,
+  "frame_text": "It is showering",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "precipitation.n.01",
+      "reasoning": "The verb describes the natural process of water falling from the sky as rain. The 'It' in the frame is an expletive subject common in weather verbs and does not denote an agent or patient.",
+      "participants": []
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition explicitly states 'rain abundantly,' indicating a high intensity or quantity of precipitation, which is a key semantic component of 'showering' compared to general 'raining'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of showering (raining) is a directly observable natural phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's usage in the given frame is declarative, stating a fact about the weather."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Weather phenomena are natural occurrences and are not driven by an agent's will or intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The progressive verb frame 'It is showering' indicates a present tense ongoing event."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'It is showering' explicitly uses the progressive aspect to denote an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'shower' in this context is a neutral description of a weather event."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of showering (raining) is a neutral event; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "As a natural weather phenomenon, showering is not a volitional act. The 'It' subject is an expletive, not an agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'It is showering' describes a certain and ongoing event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Showering, like raining, is a continuous process composed of many individual drops, indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

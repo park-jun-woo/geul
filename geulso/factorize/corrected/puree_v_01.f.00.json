@@ -1,0 +1,59 @@
+{
+  "synset_id": "puree.v.01",
+  "definition": "rub through a strainer or process in an electric blender",
+  "frame_id": 0,
+  "frame_text": "Something puree something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The verb describes an action that causes a transformation in the physical form or consistency of an object.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The 'Something' in the verb frame (e.g., a blender, a strainer) acts as the implement or force that performs the pureeing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in form or consistency, being processed into a puree."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "consistency.n.01",
+      "value_type": "puree.n.01",
+      "reasoning": "The verb 'puree' inherently defines the specific resulting consistency of the patient as a smooth, paste-like substance, typically referred to as a puree."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of pureeing is a directly observable process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' refers to an inanimate instrument (e.g., a blender) which does not possess will or intention, thus having no modality, even if operated by a human."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pureeing is neutral; its desirability depends on the specific context and the item being pureed."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something puree something' features an inanimate subject (e.g., 'The blender pureed the fruit'), making the action non-volitional from the subject's perspective."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is performed and results in a change."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Pureeing is typically a continuous process involving repetitive mechanical actions (rubbing, blending) until the desired consistency is achieved, rather than a single instantaneous event."
+    }
+  }
+}

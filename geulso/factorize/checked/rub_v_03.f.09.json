@@ -1,0 +1,63 @@
+{
+  "synset_id": "rub.v.03",
+  "definition": "scrape or rub as if to relieve itching",
+  "frame_id": 9,
+  "frame_text": "Something scratch",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "friction.n.01",
+      "reasoning": "The verb 'rub' describes a physical action involving contact and relative motion between surfaces, generating friction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of rubbing/scratching, as indicated by the verb frame's subject."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "surface.n.01",
+          "reasoning": "The object or body part upon which the rubbing/scratching is performed, implied by the definition 'scrape or rub' and the purpose 'to relieve itching'."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "relief.n.01",
+      "value_type": "itching.n.01",
+      "reasoning": "The action of rubbing/scratching is performed with the aim of alleviating or reducing an itch, as specified in the definition 'as if to relieve itching'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing or scratching is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not inherently imply an agent with personal will or intention. While the action may have a purpose, the subject itself lacks intrinsic will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing or scratching is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "Following the rule for 'Something' subjects, and considering the ambiguity of whether 'Something' is animate or inanimate (even with a stated purpose), a neutral value is appropriate."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described by the verb is typically presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rubbing or scratching is usually composed of continuous, repetitive movements, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

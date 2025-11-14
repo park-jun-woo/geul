@@ -1,0 +1,79 @@
+{
+  "synset_id": "dragoon.v.01",
+  "definition": "compel by coercion, threats, or crude means",
+  "frame_id": 0,
+  "frame_text": "Somebody dragoon somebody into V-ing something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "action.n.01",
+      "reasoning": "The verb 'dragoon' describes causing another participant to perform an action, which is a form of changing their intended state of action.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame who initiates and performs the act of compelling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame who is the object of the compelling action and is made to act."
+        },
+        {
+          "semantic_role": "goal.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'V-ing something' clause represents the specific action that the patient is compelled to perform, serving as the goal of the compelling."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "coercive",
+      "reasoning": "The definition 'compel by coercion, threats, or crude means' explicitly details the forceful and negative manner in which the compelling action is carried out."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of dragooning is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The causal agent ('Somebody') acts with clear intention and will to compel the patient."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The frame does not specify a particular tense, so a neutral present tense is assumed."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb frame describes a simple, completed act of compelling without specifying ongoing or perfected aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "While the action described ('coercion, threats') is impolite, the verb 'dragoon' itself is a neutral descriptor of that action."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'compel by coercion, threats, or crude means' carries a strong negative connotation, making the inherent polarity negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' performing the act of dragooning does so intentionally and willfully, as implied by 'compel'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of compelling, not a hypothetical or uncertain one."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of compelling someone to do something."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

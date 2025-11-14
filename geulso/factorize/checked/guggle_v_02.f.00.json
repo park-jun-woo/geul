@@ -1,0 +1,64 @@
+{
+  "synset_id": "guggle.v.02",
+  "definition": "make a sound like a liquid that is being poured from a bottle",
+  "frame_id": 0,
+  "frame_text": "Somebody guggle",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "production.n.04",
+      "reasoning": "The verb describes the act of creating or producing a sound, aligning with the definition 'make a sound'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' from the verb frame is the entity initiating or causing the sound.",
+          "value_type": "liquid.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'sound' is the entity being produced as a result of the guggling.",
+          "value_type": "sound.n.02"
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value": "gurgling, bubbling",
+      "reasoning": "The definition specifies the sound as being 'like a liquid that is being poured from a bottle', which describes the distinct gurgling or bubbling quality of the sound."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The sound of guggling is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something guggle' lacks an agent with will; liquids do not guggle intentionally."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of guggling itself is neutral; any sentiment is derived from context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' (liquid) is non-agentive, thus the action is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of sound production."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The sound of liquid pouring from a bottle is typically composed of a continuous series of rapid, repetitive sounds, indicating high iterativity rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "synset_id": "bid.v.03",
+  "definition": "ask for or request earnestly",
+  "frame_id": 3,
+  "frame_text": "Somebody beseech somebody to INFINITIVE",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "request.n.01",
+      "reasoning": "The definition 'ask for or request earnestly' describes an act of communication focused on soliciting something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' is the initiator and subject of the request."
+        },
+        {
+          "semantic_role": "addressee.n.01",
+          "reasoning": "The second 'somebody' is the person to whom the request is directed."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "action.n.01",
+          "reasoning": "The 'to INFINITIVE' clause represents the specific action or event that is being requested."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "earnestly.r.01",
+      "reasoning": "The definition explicitly includes 'earnestly', indicating the high intensity and sincerity of the request, which is a key semantic component of 'beseech'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of beseeching is a direct communicative action, typically directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with strong will and intention to make the request."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The verb 'beseech' implies a pleading, often deferential or formal tone, suggesting a high level of politeness in the context of the request."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of requesting is inherently neutral; the content of the request or its outcome might carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody beseech...' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of making a request is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of making an earnest request."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

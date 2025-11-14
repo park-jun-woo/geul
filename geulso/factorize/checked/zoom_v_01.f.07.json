@@ -1,0 +1,71 @@
+{
+  "synset_id": "zoom.v.01",
+  "definition": "move along very quickly",
+  "frame_id": 7,
+  "frame_text": "Something is zooming PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'zoom' inherently describes a change in location or state of motion, as per the definition 'move along'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity undergoing the rapid movement."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) typically denotes the path, direction, or trajectory of the movement, which is an inherent participant in verbs of motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "very_fast.a.01",
+      "reasoning": "The core of 'zoom' is the 'very quickly' aspect of movement, distinguishing it from general 'move' verbs. This indicates a specific manner of motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of zooming is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The frame describes a declarative statement about an ongoing action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention for the action, making modality neutral or absent."
+    },
+    "Tense": null,
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is zooming PP' explicitly uses the progressive form ('is zooming'), indicating an ongoing action."
+    },
+    "Period/Point": null,
+    "Politeness": null,
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving quickly is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional entity undergoing the action, or the volition is irrelevant to the verb's core meaning in this frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement 'is zooming' describes a definite, observable event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Zooming implies a continuous, sustained, and rapid movement, which can be interpreted as highly repetitive constituent motions over a period."
+    }
+  },
+  "errors": [
+    "`qualifiers.Tense`이 객체(dict)가 아닙니다.",
+    "`qualifiers.Period/Point`이 객체(dict)가 아닙니다.",
+    "`qualifiers.Politeness`이 객체(dict)가 아닙니다."
+  ]
+}

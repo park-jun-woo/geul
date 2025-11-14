@@ -1,0 +1,63 @@
+{
+  "synset_id": "re-afforest.v.01",
+  "definition": "reestablish a forest after clear-cutting or fire, etc.",
+  "frame_id": 0,
+  "frame_text": "Somebody re-afforest something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "value_type": "forest.n.01",
+      "reasoning": "The verb describes the act of causing land to transition into a forested state, which is a change in its physical condition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of re-afforesting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (land or area) that undergoes the change into a forest."
+        }
+      ]
+    },
+    {
+      "verb_type": "process",
+      "verb_property": "restoration.n.01",
+      "reasoning": "The 're-' prefix and 'reestablish' in the definition indicate that the action is a process of bringing back a former state (being a forest) after its destruction or removal (e.g., clear-cutting or fire).",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of re-afforestation is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of re-afforesting is neutral in its intrinsic sentiment, although its environmental outcome is generally positive."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of re-afforesting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of the act of re-afforesting a specific area. The 're-' aspect refers to the restoration of a prior state, not to continuous repetition of the action itself."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

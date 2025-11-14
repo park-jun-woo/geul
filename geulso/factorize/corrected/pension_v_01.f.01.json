@@ -1,0 +1,58 @@
+{
+  "synset_id": "pension.v.01",
+  "definition": "grant a pension to",
+  "frame_id": 1,
+  "frame_text": "Somebody pension_off somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'pension off' describes an act of granting financial benefits, specifically a pension, which results in a change in the recipient's financial possession or entitlement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of granting the pension, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the pension, as indicated by the object in the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "pension.n.01",
+          "reasoning": "The 'pension' itself, which is the specific financial benefit being granted and whose possession is transferred."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of granting a pension is typically a direct and observable event or administrative action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to grant the pension."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pensioning off is generally neutral; while often a positive outcome for the recipient, the verb itself describes the administrative act, not its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody pension_off somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of granting a pension is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of granting a pension to an individual, even if the pension itself involves recurring payments."
+    }
+  }
+}

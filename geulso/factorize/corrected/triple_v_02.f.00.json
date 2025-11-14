@@ -1,0 +1,60 @@
+{
+  "synset_id": "triple.v.02",
+  "definition": "hit a three-base hit",
+  "frame_id": 0,
+  "frame_text": "Somebody triple",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of hitting a ball, causing it to move, which in turn causes the batter to move around the bases.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' (batter) who performs the action of hitting the ball."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "baseball.n.01",
+          "reasoning": "The implicit baseball that is struck into motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "outcome.n.01",
+      "value_type": "three_base_hit.n.01",
+      "reasoning": "The inherent outcome of this specific hitting action in baseball is that the batter safely reaches third base, which defines a 'triple'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hitting a triple is a directly observable event in a baseball game."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame acts with clear intention and will to hit the ball."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb itself describes a specific baseball play and is neutral; the positive sentiment is contextual to the game's objective."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action of hitting."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hitting a triple is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed instance of achieving a three-base hit."
+    }
+  }
+}

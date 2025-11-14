@@ -1,0 +1,63 @@
+{
+  "synset_id": "dabble.v.02",
+  "definition": "play in or as if in water, as of small children",
+  "frame_id": 10,
+  "frame_text": "Something paddle",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the physical activity of moving or paddling in water.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "water.n.01",
+          "reasoning": "The implicit medium or location where the activity takes place, derived from 'in water' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "playful.a.01",
+      "reasoning": "A core semantic component of 'dabble' (in this sense) is the playful or light-hearted manner of the interaction, as highlighted by 'play' and 'small children' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Dabbling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'play in or as if in water, as of small children' implies a subject capable of will and intention, thus strong modality."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dabbling, as playful interaction, is generally neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly refers to 'play' and 'small children', which are inherently volitional actions and agents, despite the general 'Something' in the frame."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dabbling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dabbling implies continuous, repetitive, light movements or interactions, suggesting high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

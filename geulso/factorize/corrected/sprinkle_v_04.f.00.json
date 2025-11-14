@@ -1,0 +1,70 @@
+{
+  "synset_id": "sprinkle.v.04",
+  "definition": "scatter with liquid; wet lightly",
+  "frame_id": 0,
+  "frame_text": "Somebody besprinkle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "wetness.n.01",
+      "reasoning": "The verb describes causing a change in the state of the 'something' from a less wet state to a wet state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the sprinkling action, causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state by becoming wet."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "liquid.n.01",
+          "reasoning": "The 'liquid' is the substance used as the means to perform the sprinkling, as indicated by 'scatter with liquid'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "scattered.a.01",
+      "reasoning": "A core semantic component of 'sprinkle' is the 'scattering' manner of applying the liquid, distinguishing it from pouring or dabbing."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value": "slight",
+      "reasoning": "The definition 'wet lightly' indicates a slight degree of wetness or application intensity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sprinkling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sprinkling is neutral; its sentiment depends on context or the outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sprinkling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of sprinkling inherently involves the repetitive dispersion of many small particles (drops of liquid), making it a highly repetitive action within a single event."
+    }
+  }
+}

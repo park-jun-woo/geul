@@ -1,0 +1,59 @@
+{
+  "synset_id": "piggyback.v.03",
+  "definition": "haul by railroad car",
+  "frame_id": 1,
+  "frame_text": "Something piggyback something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb 'piggyback' in this sense means to haul or transport, which inherently describes a change in an object's spatial location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity that performs the hauling (e.g., a train or flatcar). Although inanimate, it directly causes the change in location."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that is being transported or hauled, thus undergoing the change of location."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "railroad_car.n.01",
+      "reasoning": "The definition 'haul by railroad car' explicitly specifies the instrument or means of transportation, making it a critical semantic component of this verb's meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of piggybacking (hauling by railroad car) is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' (e.g., a railroad car or system) does not possess will or conscious intention to perform the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hauling is inherently neutral; its positive or negative implications are entirely context-dependent."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something piggyback something' implies an inanimate subject (e.g., a railroad car or a system), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, factual occurrence of hauling."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete instance of transporting something, rather than an inherent repetition."
+    }
+  }
+}

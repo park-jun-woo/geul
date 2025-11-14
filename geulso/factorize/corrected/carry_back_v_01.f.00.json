@@ -1,0 +1,64 @@
+{
+  "synset_id": "carry_back.v.01",
+  "definition": "deduct a loss or an unused credit from taxable income for a prior period",
+  "frame_id": 0,
+  "frame_text": "Somebody carry_back something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "quantity.n.01",
+      "reasoning": "The verb 'deduct a loss or an unused credit' describes an action that causes a reduction in a quantity, specifically taxable income.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the deduction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (loss or credit) is the item whose value is applied to reduce the income, acting as the patient of the deduction."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "income.n.01",
+          "reasoning": "Implied by 'deduct from taxable income', the income serves as the source from which the deduction is made."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "temporal_relation.n.01",
+      "value_type": "past.n.01",
+      "reasoning": "The 'back' in 'carry_back' and the phrase 'for a prior period' in the definition explicitly indicate that the financial action is applied to an earlier time period."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Financial deductions are typically documented and can be directly verified."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual, declarative action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' indicates an intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of carrying back a loss is a neutral financial operation; the loss itself may be negative, but the action is a procedural one."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody carry_back something' clearly indicates a volitional agent performing a deliberate action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A financial deduction is a definite and concrete event once performed."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, distinct instance of performing a carry-back deduction for a particular loss or credit."
+    }
+  }
+}

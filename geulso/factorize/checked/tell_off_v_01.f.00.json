@@ -1,0 +1,66 @@
+{
+  "synset_id": "tell_off.v.01",
+  "definition": "reprimand",
+  "frame_id": 0,
+  "frame_text": "Somebody brush_down somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "criticism.n.01",
+      "reasoning": "The verb 'tell off' describes a verbal act of expressing strong disapproval or censure, as per the definition 'reprimand' and hypernym 'censure severely'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of reprimanding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target and recipient of the verbal criticism."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "severe.a.01",
+      "reasoning": "The phrasal verb 'tell off' implies a harsh or severe form of criticism, going beyond a mild correction, reinforced by the hypernym 'censure severely'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of telling someone off is typically a directly observable verbal interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent ('Somebody') in the frame performs this action with clear intention and will."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "'Tell off' is an informal expression for reprimanding and implies a lack of politeness or formality, often suggesting bluntness or rudeness."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Reprimanding is an inherently negative act for the recipient and involves negative judgment from the speaker."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action of telling someone off."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of telling someone off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of delivering a reprimand, even if such events could occur multiple times."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

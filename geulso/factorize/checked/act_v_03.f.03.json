@@ -1,0 +1,57 @@
+{
+  "synset_id": "act.v.03",
+  "definition": "play a role or part",
+  "frame_id": 3,
+  "frame_text": "Somebody play",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "performance.n.01",
+      "reasoning": "The verb 'act' in the sense of 'play a role or part' describes an intentional activity of performing, rather than a change of state or a static state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the volitional agent who performs the action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "role.n.01",
+          "reasoning": "The verb's definition 'play a role or part' specifies that a 'role' or 'part' is the inherent semantic object or content of the performance, even if not explicitly expressed as a direct object in the given intransitive frame 'Somebody play'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of performing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with explicit will and intention to perform."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of performing a role is neutral; its sentiment depends on the specific context or the nature of the role."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody play' (interpreted as 'Somebody acts a role') explicitly indicates a volitional agent, making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The performance of a role is described as a definite occurrence or ongoing activity."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Playing a role typically involves a sustained, continuous, or highly repetitive series of actions over a period, indicating high iterativity rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "strike.v.14",
+  "definition": "remove by erasing or crossing out or as if by drawing a line",
+  "frame_id": 15,
+  "frame_text": "Something strike something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "visibility.n.01",
+      "reasoning": "The definition 'remove by erasing or crossing out' describes a change from a state of being visible/present to being invisible/absent. The hypernym 'delete' supports this idea of making something disappear.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (subject) that causes the removal, even if inanimate or abstract, is the initiator of the change as per the frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (object) that is removed or made invisible, undergoing the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value_type": "erasing.n.01",
+      "reasoning": "The definition explicitly states the method: 'by erasing or crossing out or as if by drawing a line', which is a crucial part of this specific sense of 'strike'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of striking/removing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something strike something' indicates a non-volitional subject ('Something'), thus lacking an agent's will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of removing something can be neutral; its positive or negative sentiment depends entirely on context (e.g., striking out a mistake is positive, striking out a crucial part of a document might be negative)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something strike something' implies that the subject ('Something') is not a volitional agent. The action happens without conscious intent from the subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of striking, when it occurs, is a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of removal."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "synset_id": "cut.v.17",
+  "definition": "make an abrupt change of image or sound",
+  "frame_id": 0,
+  "frame_text": "Somebody cut PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "sequence.n.01",
+      "reasoning": "The verb describes an event where the sequence of media (image or sound) transitions from one segment to another.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., a film, a broadcast) whose sequence of image or sound undergoes the abrupt change, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The prepositional phrase (PP) often indicates the target or new segment in the media sequence (e.g., 'to the next scene')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abruptly.r.01",
+      "reasoning": "The definition explicitly states 'make an abrupt change', indicating a sudden and sharp manner of transition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of an image or sound change is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is cuting PP' features an inanimate subject ('Something'), implying an action without an agent's will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The 'is cuting' form indicates a present tense action."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is cuting PP' explicitly uses the progressive aspect ('is cuting')."
+    },
+    "Period/Point": {},
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb is neutral in terms of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cutting (changing media) is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is cuting PP' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'cut' refers to a single, discrete instance of an abrupt change."
+    }
+  },
+  "errors": [
+    "`qualifiers.Period/Point`에 'value' 키 누락",
+    "`qualifiers.Period/Point`에 'reasoning' 키 누락"
+  ]
+}

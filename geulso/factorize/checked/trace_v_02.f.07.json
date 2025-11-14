@@ -1,0 +1,67 @@
+{
+  "synset_id": "trace.v.02",
+  "definition": "make a mark or lines on a surface",
+  "frame_id": 7,
+  "frame_text": "Somebody line something PP",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb 'trace' in this sense explicitly means to 'make' or bring into existence 'marks or lines' on a surface, representing a creation event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who intentionally performs the action of creating the marks or lines."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "mark.n.03",
+          "reasoning": "The 'something' that is brought into existence, referring to the physical mark or lines themselves as described in the definition."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the surface where the marks or lines are created, as indicated by 'on a surface' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "path_following",
+      "reasoning": "A core semantic component of 'trace' is that the creation of marks or lines is achieved by following a specific contour, pattern, or path."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tracing is a directly observable phenomenon, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tracing itself is neutral; any positive or negative sentiment would arise from the context or the resulting mark."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of tracing is described as a definite occurrence, implying certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Tracing inherently involves a continuous, often repetitive, motion to form lines or follow a path, indicating high iterativity rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

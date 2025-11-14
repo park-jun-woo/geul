@@ -1,0 +1,57 @@
+{
+  "synset_id": "put_out.v.02",
+  "definition": "put out considerable effort",
+  "frame_id": 0,
+  "frame_text": "Somebody put_out something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "effort.n.01",
+      "reasoning": "The verb 'put out' in this sense describes the act of manifesting or expending effort, which can be conceptualized as the creation or production of effort, aligning with the hypernym 'produce'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of expending or manifesting the effort, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "effort.n.01",
+          "reasoning": "The 'something' that is manifested or produced, which is identified as 'effort' by the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of putting out effort is typically directly observable through an agent's actions or results."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies the action is driven by an agent's will and intention to exert effort."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of putting out effort is neutral; its positive or negative sentiment depends on the context or the purpose of the effort."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody') who intentionally exerts effort."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of exerting effort."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance or act of expending effort, even if the effort itself might be sustained over time. The 'putting out' is an event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

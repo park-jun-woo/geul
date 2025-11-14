@@ -1,0 +1,62 @@
+{
+  "synset_id": "dragoon.v.02",
+  "definition": "subjugate by imposing troops",
+  "frame_id": 0,
+  "frame_text": "Somebody dragoon somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.01",
+      "reasoning": "The verb 'dragoon' describes an action that causes a change in the state of an entity from being autonomous or free to being under the control of another agent (subjugation).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who initiates and performs the act of subjugation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame who undergoes the change of state, becoming subjugated."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "coercion.n.01",
+      "value": "by imposing troops",
+      "reasoning": "The definition explicitly specifies 'by imposing troops' as the distinct manner or means through which the subjugation is achieved, making it a core semantic component of 'dragoon'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'dragooning' is typically a directly observable event or action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an explicit agent ('Somebody') in the frame indicates that the action is driven by strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of subjugating someone by force ('dragooning') is inherently associated with negative connotations, involving coercion and loss of autonomy."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action, as subjugation is an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of subjugation, implying certainty of the event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete act of subjugation, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

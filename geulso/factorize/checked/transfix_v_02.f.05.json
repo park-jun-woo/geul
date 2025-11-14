@@ -1,0 +1,62 @@
+{
+  "synset_id": "transfix.v.02",
+  "definition": "pierce with a sharp stake or point",
+  "frame_id": 5,
+  "frame_text": "Something impale something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The verb describes causing a change in the physical integrity of an object by creating a hole through it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity initiating the action of piercing, acting as the instrument."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose integrity is altered by being pierced."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "means.n.01",
+      "value_type": "sharp_pointed_object.n.01",
+      "reasoning": "The definition 'pierce with a sharp stake or point' explicitly specifies that the action is performed using a sharp and pointed instrument."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of transfixing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something impale something' implies the agent ('Something') is typically an inanimate object or force, lacking will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transfixing is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (the first 'Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of piercing."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "diet.v.01",
+  "definition": "follow a regimen or a diet, as for health reasons",
+  "frame_id": 0,
+  "frame_text": "Somebody diet",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "adherence.n.01",
+      "reasoning": "The verb describes the action of following or sticking to a prescribed regimen or plan for eating.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of dieting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "diet.n.01",
+          "reasoning": "The 'regimen or a diet' that the agent is adhering to, representing the specific plan being followed."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "health.n.01",
+          "reasoning": "The explicit reason for the action, as stated in the definition 'for health reasons'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Dieting is typically a directly experienced and observable activity by the agent and others."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Following a regimen requires a conscious decision and strong will on the part of the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of dieting itself is neutral; its sentiment depends on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody diet' indicates an agent ('Somebody') who intentionally chooses to follow a diet, making the action volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of dieting is presented as a definite and certain action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Dieting involves repeated actions (e.g., specific food choices, abstaining from certain foods) over an extended period, indicating high but not infinite repetition."
+    }
+  }
+}

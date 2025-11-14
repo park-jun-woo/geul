@@ -1,0 +1,53 @@
+{
+  "synset_id": "infect.v.02",
+  "definition": "contaminate with a disease or microorganism",
+  "frame_id": 0,
+  "frame_text": "Somebody infect somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The definition 'contaminate with a disease or microorganism' describes a change in the health state of the patient from healthy to infected.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the verb frame is the agent causing the infection."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the verb frame is the entity whose health state is changed (the one being infected)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of infecting can be directly observed or its effects are directly experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the agent in the frame implies the action is driven by will, even if unintended in some contexts, the capacity for will exists."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'contaminate with a disease' inherently carries a negative connotation, as disease is generally undesirable."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody infect somebody' explicitly includes an agent ('Somebody'). While infection can be accidental, the verb can describe volitional acts (e.g., biological warfare), aligning with the rule for agentive frames."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state change."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing contamination/disease to another, even if the disease process itself is continuous."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "tire.v.02",
+  "definition": "exhaust or get tired through overuse or great strain or stress",
+  "frame_id": 14,
+  "frame_text": "Something fatigue somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "energy.n.01",
+      "reasoning": "The definition 'exhaust or get tired' indicates a change from a state of possessing energy to lacking it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the change of state (fatigue) in another."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the frame is the entity that undergoes the change of state (becomes tired)."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "cause.n.01",
+      "value_type": "strain.n.01",
+      "reasoning": "The definition explicitly states 'through overuse or great strain or stress', indicating the manner or cause of the change in energy."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tiring someone can be directly observed or inferred from visible effects."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no will or intention behind the action of causing fatigue."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being tired or exhausted is generally considered a negative state or experience."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something fatigue somebody' indicates that the causal agent ('Something') is non-volitional. The person becoming tired also does so non-volitionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of causing fatigue."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of causing someone to become tired. Repetition would require additional modifiers."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

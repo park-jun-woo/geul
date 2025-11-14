@@ -1,0 +1,65 @@
+{
+  "synset_id": "condense.v.01",
+  "definition": "undergo condensation; change from a gaseous to a liquid state and fall in drops",
+  "frame_id": 1,
+  "frame_text": "Something distil",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_state.n.01",
+      "reasoning": "The definition 'change from a gaseous to a liquid state' explicitly describes a transformation of physical state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change of state."
+        }
+      ]
+    },
+    {
+      "verb_type": "state_change_endpoint",
+      "verb_property": "state.n.02",
+      "value": "liquid.n.01",
+      "reasoning": "The definition specifies the end state of the change as 'liquid state'."
+    },
+    {
+      "verb_type": "state_change_startpoint",
+      "verb_property": "state.n.02",
+      "value": "gaseous.n.01",
+      "reasoning": "The definition specifies the starting state of the change as 'gaseous state'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Condensation is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual physical process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' indicates no agentive will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Condensation is a natural physical process, inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes a non-volitional physical process occurring to an inanimate subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite physical event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of condensation."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'state_change_endpoint'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'state_change_startpoint'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

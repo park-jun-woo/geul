@@ -1,0 +1,58 @@
+{
+  "synset_id": "go.v.02",
+  "definition": "follow a procedure or take a course",
+  "frame_id": 6,
+  "frame_text": "Something go Adjective/Noun",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "progression.n.01",
+      "reasoning": "The definition 'follow a procedure or take a course' indicates that the subject undergoes a process of progression or development.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the progression or process, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "characteristic.n.01",
+      "value_type": "descriptive_attribute.n.01",
+      "reasoning": "The 'Adjective/Noun' in the verb frame specifies a characteristic or resultant state of the 'Something' after or during its progression. 'Descriptive attribute' is used as a general placeholder for the variable nature of Adjective/Noun."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process or outcome of something 'going' in a certain way is generally directly perceivable or evident."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that a process occurs or leads to a state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something go...' implies a non-agentive subject, and thus the action is not driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The verb 'go' itself is neutral; the sentiment is determined by the specific 'Adjective/Noun' that completes the frame (e.g., 'go bad' vs. 'go well')."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something go...' explicitly indicates a non-volitional subject, meaning the action is not performed intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of a procedure being followed or a course being taken, leading to a specific outcome or state."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "synset_id": "tipple.v.01",
+  "definition": "drink moderately but regularly",
+  "frame_id": 0,
+  "frame_text": "Somebody bib",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The verb 'tipple' describes the act of drinking, which is an action involving the ingestion of liquid.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of drinking, as specified by the verb frame.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "alcoholic_beverage.n.01",
+          "reasoning": "Based on the hypernym 'drink.v.02' ('consume alcohol') and common usage, 'tipple' implies the object of consumption is an alcoholic beverage."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "moderate.a.01",
+      "reasoning": "The definition 'drink moderately' explicitly states a characteristic of the quantity consumed, which is core to the meaning of 'tipple'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "frequency.n.01",
+      "value_type": "regular.a.01",
+      "reasoning": "The definition 'drink ... regularly' explicitly states a characteristic of the frequency of the action, which is core to the meaning of 'tipple'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tippling is typically a directly observable behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or habit."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tippling itself is neutral. The 'moderately' aspect prevents an inherent negative connotation, making it neither positive nor negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tipple' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or habitual occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'regularly' indicates a high degree of repetition, hence MAX-1 iterativity."
+    }
+  }
+}

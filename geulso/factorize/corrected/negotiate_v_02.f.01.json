@@ -1,0 +1,66 @@
+{
+  "synset_id": "negotiate.v.02",
+  "definition": "succeed in passing through, around, or over",
+  "frame_id": 1,
+  "frame_text": "Somebody negotiate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes a successful alteration of an entity's position relative to an obstacle or path.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of moving and changing its location, navigating the obstacle."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "obstacle.n.01",
+          "reasoning": "The 'something' that represents the barrier or path that the agent successfully traverses or overcomes."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "result.n.01",
+      "value_type": "success.n.01",
+      "reasoning": "The definition explicitly includes 'succeed', indicating a positive outcome of the action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "through_around_or_over.adv.01",
+      "reasoning": "The definition specifies the precise manner of passing as 'through, around, or over' the patient."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Successfully negotiating an obstacle is typically an observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame, especially inanimate, implies no inherent will or strong intention, but rather capability."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly includes 'succeed', which denotes a positive outcome relative to the goal of passage."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' typically refers to non-volitional subjects or actions (e.g., a car negotiating a turn, a boat negotiating waves)."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The term 'succeed' implies a definite and certain outcome of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of successful passage, not an inherently repetitive action."
+    }
+  }
+}

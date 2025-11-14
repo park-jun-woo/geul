@@ -1,0 +1,66 @@
+{
+  "synset_id": "bottom_out.v.02",
+  "definition": "hit the ground",
+  "frame_id": 0,
+  "frame_text": "Something bottom_out",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes a downward movement that results in a change of the subject's spatial position, culminating in physical contact.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in location and makes contact."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "ground.n.01",
+          "reasoning": "The surface (ground) which is the endpoint of the descent and the point of contact, as per the definition 'hit the ground'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "extremity.n.01",
+      "value_type": "lowest.a.01",
+      "reasoning": "The lexical item 'bottom_out' inherently signifies reaching the absolute lowest or most extreme point in a process or movement, which is a property of the resulting state.",
+      "participants": [
+        {
+          "semantic_role": "theme.n.01",
+          "reasoning": "The 'Something' whose position or state is described as being at its lowest."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hitting the ground is an event that is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something bottom_out' lacks an agent capable of will, indicating no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'bottoming out' is neutral; its sentiment depends on context (e.g., a stock price bottoming out could be negative, but a vehicle hitting the ground might be neutral or negative)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bottom_out' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of bottoming out is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of reaching the lowest point and hitting the ground."
+    }
+  }
+}

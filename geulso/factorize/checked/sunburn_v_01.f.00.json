@@ -1,0 +1,61 @@
+{
+  "synset_id": "sunburn.v.01",
+  "definition": "get a sunburn by overexposure to the sun",
+  "frame_id": 0,
+  "frame_text": "Somebody burn",
+  "sememes": {
+    "VerbType": {
+      "value": "change",
+      "reasoning": "The verb describes a transition from a non-sunburned state to a sunburned state in the affected entity."
+    },
+    "ChangedProperty": {
+      "value": "physical_condition.n.01",
+      "reasoning": "The change caused by the verb is specifically in the physical condition (skin health/appearance) of the patient."
+    },
+    "Patient": {
+      "value": "person.n.01",
+      "reasoning": "The 'Somebody' in the verb frame is the entity (a person) that undergoes the change in physical condition."
+    },
+    "Cause": {
+      "value": "solar_radiation.n.01",
+      "reasoning": "The definition explicitly states the cause of the sunburn as 'overexposure to the sun', which refers to solar radiation."
+    },
+    "MannerOfCausation": {
+      "value": "excessive_exposure",
+      "reasoning": "The definition specifies the manner of causation as 'overexposure', indicating an excessive amount of exposure to the cause."
+    }
+  },
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Getting a sunburn is typically a directly experienced or observed phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The act of sunburn itself is not a result of the agent's will but a consequence of exposure; it happens to the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Sunburn is generally considered a negative outcome, causing discomfort or damage."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Somebody sunburn' describes something happening to 'Somebody' (getting sunburned), not an intentional action performed by 'Somebody'. While one might intentionally expose oneself to the sun, the actual process of burning is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of the sunburn."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Sunburn refers to a single instance of getting burned, even if the process takes time. It is not inherently repetitive."
+    }
+  },
+  "errors": [
+    "`sememes`가 리스트가 아닙니다."
+  ]
+}

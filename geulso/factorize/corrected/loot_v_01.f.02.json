@@ -1,0 +1,64 @@
+{
+  "synset_id": "loot.v.01",
+  "definition": "take illegally; of intellectual property",
+  "frame_id": 2,
+  "frame_text": "Somebody loot something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'loot' in this context describes an action where possession of 'intellectual property' is transferred, which constitutes a change of state regarding ownership.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of illegally taking the property, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'somebody' from whom the intellectual property is illegally taken; this 'somebody' is dispossessed."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "intellectual_property.n.01",
+          "reasoning": "The 'intellectual property' is the object being taken, central to the verb's definition in this sense, even if implicitly referred to in the frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "illegal.a.01",
+      "reasoning": "The definition explicitly states 'take illegally', indicating that the unlawful manner is a core semantic component of this verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of looting, as an illegal taking, is typically a directly observable or verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') performing an illegal act implies strong will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'take illegally' inherently carries a negative sentiment due to the unlawful nature of the action and its detrimental effect on the victim."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody') who intentionally performs the illegal taking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of looting is described as a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'loot' describes a single, discrete event of taking. Repetition would be expressed through aspect or contextual modifiers."
+    }
+  }
+}

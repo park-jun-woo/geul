@@ -1,0 +1,65 @@
+{
+  "synset_id": "smear.v.01",
+  "definition": "stain by smearing or daubing with a dirty substance",
+  "frame_id": 0,
+  "frame_text": "Somebody smear something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "appearance.n.01",
+      "reasoning": "The verb describes causing a change in the visible state of an object, specifically by applying a substance that results in a stain.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of smearing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose appearance is changed (stained) by the smearing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "smearing_daubing",
+      "reasoning": "The definition explicitly states the specific manner or method of application: 'by smearing or daubing'."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "dirty_substance",
+      "reasoning": "The definition specifies that the action is performed 'with a dirty substance', indicating the material involved."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Smearing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent acts with will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of smearing with a 'dirty substance' resulting in a 'stain' inherently carries a negative connotation, as it typically implies defacement or damage."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates an intentional action performed by a volitional agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action and outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed act of applying a substance to stain something. Repetition would be described by additional lexical or grammatical features."
+    }
+  }
+}

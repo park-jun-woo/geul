@@ -1,0 +1,58 @@
+{
+  "synset_id": "raven.v.04",
+  "definition": "feed greedily",
+  "frame_id": 0,
+  "frame_text": "Something is ravening PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "consumption.n.01",
+      "reasoning": "The verb describes the act of taking in food, which is a process of consumption.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (an animal, as per hypernym) that performs the action of feeding."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "greedy.a.01",
+      "reasoning": "The definition explicitly includes 'greedily', indicating the manner of feeding as a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of feeding is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Even for an animal, 'greedily' implies a strong drive and intentional engagement in the act of feeding."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The word 'greedily' inherently carries a negative connotation, implying excessive or uncontrolled desire."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The subject ('Something') refers to an animal (per hypernym) performing an active, driven, and intentional act of consuming food."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of feeding is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Feeding 'greedily' suggests a continuous, intense, and highly repetitive action of taking in food rather than a single, discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

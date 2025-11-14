@@ -1,0 +1,60 @@
+{
+  "synset_id": "hydrolize.v.01",
+  "definition": "make a compound react with water and undergo hydrolysis",
+  "frame_id": 1,
+  "frame_text": "Somebody hydrolize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "composition.n.01",
+      "reasoning": "The verb describes a process of chemical alteration, specifically changing the composition of a compound by reacting it with water to undergo hydrolysis.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame, which initiates or causes the hydrolysis.",
+          "value_type": "substance.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame, which is the compound that undergoes the hydrolysis.",
+          "value_type": "compound.n.01"
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The definition explicitly states 'react with water', indicating water as a necessary component or medium for the hydrolysis to occur.",
+          "value_type": "water.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hydrolysis is a chemical process that can be directly observed or measured in experimental settings."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a factual chemical reaction."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional entity (e.g., an enzyme, acid, or physical condition), hence no conscious will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Hydrolysis is a neutral chemical process; its outcome may be positive or negative depending on the context, but the process itself is neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in the frame indicates a non-volitional agent, meaning the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite chemical event or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single occurrence of the hydrolysis process for a given compound, or a singular continuous process for a batch."
+    }
+  }
+}

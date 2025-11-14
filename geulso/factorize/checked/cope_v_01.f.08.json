@@ -1,0 +1,56 @@
+{
+  "synset_id": "cope.v.01",
+  "definition": "come to terms with",
+  "frame_id": 8,
+  "frame_text": "Somebody make_do PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "adaptation.n.01",
+      "reasoning": "The definition 'come to terms with' and the idiom 'make do' describe an ongoing process of adjusting or managing a difficult situation or limited resources, which is a form of adaptation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing the act of making do or adapting."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' (prepositional phrase) typically indicates the situation, conditions, or resources with which the agent is coping or making do, thus the entity being adapted to or managed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making do is typically a directly observable behavior or an experienced state of affairs."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent performing 'make do' implies a conscious decision and will to manage the situation."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of coping or making do is semantically neutral; the circumstances requiring it may be negative, but the act itself is about dealing with them."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody make_do...' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement of 'making do' is presented as a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Coping or making do is often a sustained, continuous, or highly repetitive process of adjustment rather than a single instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

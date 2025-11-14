@@ -1,0 +1,63 @@
+{
+  "synset_id": "assert.v.01",
+  "definition": "state categorically",
+  "frame_id": 0,
+  "frame_text": "Somebody assert something",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "statement.n.01",
+      "reasoning": "The verb 'assert' describes an act of communicating a piece of information or a claim, as per the definition 'state categorically'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of asserting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'something' that is being asserted, which is a statement or claim."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "emphatic.a.01",
+      "reasoning": "The adverb 'categorically' in the definition 'state categorically' indicates an emphatic and forceful manner of communication, a core part of asserting."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Asserting implies direct presentation of information or belief, not inference or hearsay by the asserter."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of asserting itself is neutral; the content being asserted determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody assert something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'state categorically' inherently implies a high level of confidence or certainty in the statement being made by the asserter."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a strong statement."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

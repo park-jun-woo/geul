@@ -1,0 +1,68 @@
+{
+  "synset_id": "spill_over.v.02",
+  "definition": "be disgorged",
+  "frame_id": 2,
+  "frame_text": "Somebody spill_over PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'spill over' describes a movement of subjects from one location or confined space to another, representing a change in their spatial state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame acts as the entity that performs or instigates the movement, typically understood as a collective body like a crowd, which is consistent with the hypernym 'pour (move in large numbers)'."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) indicates the location or area into which the 'Somebody' moves or extends."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mass_movement.n.01",
+      "reasoning": "The meaning of 'spill over' when applied to people or groups inherently implies movement occurring in large numbers or as a dense, continuous mass, similar to how liquid flows, which is supported by the semantic neighbor 'pour' (to move in large numbers)."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "spatial_relation.n.01",
+      "value_type": "exceeds_boundary.n.01",
+      "reasoning": "The 'over' component of 'spill over' signifies that the movement results in the subject extending beyond a former limit, boundary, or capacity, creating an overflow effect."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spilling over, particularly for crowds, is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by collective will or intention, even if the 'spill over' effect is an emergent property."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of spilling over itself is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Despite the passive nature of 'be disgorged' in the definition, the active frame 'Somebody ----s PP' for a crowd or group implies volitional movement by the individuals comprising the 'Somebody', leading to the collective 'spill over' effect. The rule 'If the `verb_frame` contains 'Somebody', the action is likely volitional' is applied."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event described by 'spill over' is generally presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The concept of 'spilling over' often implies a continuous, flowing action or a series of movements rather than a single, discrete event, consistent with 'move in large numbers'."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

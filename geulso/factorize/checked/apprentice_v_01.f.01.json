@@ -1,0 +1,58 @@
+{
+  "synset_id": "apprentice.v.01",
+  "definition": "be or work as an apprentice",
+  "frame_id": 1,
+  "frame_text": "Somebody apprentice PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "skill_acquisition.n.01",
+      "reasoning": "The definition 'be or work as an apprentice' describes an ongoing activity focused on gaining practical skills and knowledge. This is a process of skill acquisition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the individual who undergoes and actively participates in the apprenticeship.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame refers to the specific skill, trade, or craft that the apprentice is learning or working within. It is the object of the acquisition process.",
+          "value_type": "skill.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of being or working as an apprentice is a directly observable activity or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a state or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Engaging in an apprenticeship is typically a deliberate choice and involves the agent's will to learn and work."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The state or process of being an apprentice is inherently neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the 'Somebody' is a volitional agent who intentionally undertakes the role or process of apprenticeship."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description of being or working as an apprentice refers to a definite, factual process or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Apprenticeship is an ongoing process involving continuous work, learning, and repetitive tasks over an extended period, indicating high iterativity rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "synset_id": "twist.v.10",
+  "definition": "twist suddenly so as to sprain",
+  "frame_id": 5,
+  "frame_text": "Somebody wrick something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The definition 'twist suddenly so as to sprain' indicates a change in the physical health or integrity of the patient, specifically resulting in an injury.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action that leads to the sprain, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in health, i.e., gets sprained."
+        }
+      ]
+    },
+    {
+      "verb_type": "action",
+      "verb_property": "rotation.n.01",
+      "reasoning": "The core action described is 'twist', which involves rotation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the twisting action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the twisting."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition includes 'suddenly', which specifies the manner or speed of the twisting action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wricking/spraining is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' implies that the agent ('Somebody') acts with will and intention in performing the twisting action, even if the resulting sprain might be unintended."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The outcome 'sprain' is an injury, which carries an inherently negative connotation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent. The act of twisting is performed intentionally, even if the resulting sprain is not the desired outcome."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of wricking/spraining is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A sprain is typically a single, discrete event rather than a repetitive action."
+    }
+  }
+}

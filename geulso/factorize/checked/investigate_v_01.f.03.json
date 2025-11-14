@@ -1,0 +1,62 @@
+{
+  "synset_id": "investigate.v.01",
+  "definition": "investigate scientifically",
+  "frame_id": 3,
+  "frame_text": "Somebody look_into somebody",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "inquiry.n.01",
+      "reasoning": "The verb 'investigate' describes an active and often prolonged process of seeking information or understanding, as indicated by the definition and the 'look_into' phrasing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively conducts the investigation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that is the object or subject of the inquiry, as per the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "detailed.a.01",
+      "reasoning": "The definition 'investigate scientifically' and the hypernym 'analyze' (consider in detail) emphasize a thorough and systematic approach to the inquiry."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The investigator typically engages in direct experience to gather information during the process of investigation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of investigating is neutral; its sentiment depends on the specific context and purpose of the investigation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody look_into somebody' explicitly indicates a volitional agent performing the action of investigation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of investigation is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Investigation is typically a continuous process involving multiple, often repetitive steps, rather than a single instantaneous event, thus indicating high repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

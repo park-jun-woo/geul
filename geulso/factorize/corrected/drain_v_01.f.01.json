@@ -1,0 +1,63 @@
+{
+  "synset_id": "drain.v.01",
+  "definition": "flow off gradually",
+  "frame_id": 1,
+  "frame_text": "Something is run_outing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'flow off' describes a change in location or state of motion for a liquid.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the liquid or substance undergoing the flow/motion."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'PP' in the frame, along with 'off' in the definition, implies a point of origin from which the substance is flowing away."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "gradual.a.01",
+      "reasoning": "The word 'gradually' in the definition specifies the manner or pace of the flow, making it a core semantic component."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something flowing or draining is typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies no inherent will or intention for the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of draining itself is neutral; its positive or negative connotation depends on the context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is run_outing' describes a non-agentive subject ('Something') undergoing a process, indicating a non-volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The phrase 'flow off gradually' implies a continuous process composed of many small, repeated movements of liquid particles, thus having high iterativity."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is run_outing' explicitly uses the progressive aspect ('is V-ing')."
+    }
+  }
+}

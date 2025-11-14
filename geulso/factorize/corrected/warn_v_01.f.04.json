@@ -1,0 +1,59 @@
+{
+  "synset_id": "warn.v.01",
+  "definition": "notify of danger, potential harm, or risk",
+  "frame_id": 4,
+  "frame_text": "Something warn somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "awareness.n.01",
+      "reasoning": "The verb 'warn' describes an action that causes a change in a recipient's state of awareness, specifically about a potential negative event.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of warning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "danger.n.01",
+          "reasoning": "The 'that CLAUSE' represents the specific danger, potential harm, or risk that the agent is communicating about, thus being the object of the warning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "communication.n.01",
+      "reasoning": "The act of warning inherently involves imparting information, which is a form of communication."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of warning is typically based on direct knowledge or observation by the warranter, or at least presented as such."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action being performed."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent acting with intent and will to warn."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'warn' inherently deals with negative concepts such as 'danger, potential harm, or risk', making its subject matter negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody warn that CLAUSE' explicitly involves a volitional agent ('Somebody') initiating the act of warning."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A warning is typically issued with a high degree of certainty about the potential danger by the person giving the warning."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'warn' describes a discrete, single act of notification about a specific danger, even if the danger itself is ongoing."
+    }
+  }
+}

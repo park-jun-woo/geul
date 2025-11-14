@@ -1,0 +1,63 @@
+{
+  "synset_id": "hand_down.v.01",
+  "definition": "passed on, as by inheritance",
+  "frame_id": 0,
+  "frame_text": "Somebody hand_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'passed on' and the hypernym 'transfer possession' clearly indicate a change in who possesses an item.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of handing down, initiating the transfer."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is transferred, the direct object."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "Although not explicitly in the surface frame, the act of 'passing on' or 'handing down' inherently implies a receiver (often a descendant or successor) as a core participant in the semantic event."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "inheritance_transfer.n.01",
+      "reasoning": "The phrase 'as by inheritance' in the definition specifies the particular manner or context of the transfer, distinguishing it from other forms of giving."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of handing down is typically a directly observable event or a confirmed historical fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with explicit will and intention to hand down something."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of handing down is neutral; its sentiment depends on the specific item and context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hand_down something' clearly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of transfer."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of passing something on."
+    }
+  }
+}

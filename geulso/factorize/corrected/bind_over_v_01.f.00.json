@@ -1,0 +1,60 @@
+{
+  "synset_id": "bind_over.v.01",
+  "definition": "order a defendant to be placed in custody pending the outcome of a proceedings against him or her",
+  "frame_id": 0,
+  "frame_text": "Somebody bind_over somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "confinement.n.01",
+      "reasoning": "The verb describes an action that causes a change in a person's state from being free to being in custody, which is a state of confinement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who issues the order and causes the confinement, typically a judicial authority."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "defendant.n.01",
+          "reasoning": "The 'somebody' who is subjected to the order and placed in custody, explicitly identified as a 'defendant' in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "legal_command.n.01",
+      "reasoning": "The definition explicitly states 'order' a defendant, indicating that the action is carried out in the specific manner of a legal command or directive."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of binding over is a formal legal procedure that is directly observable or documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' (e.g., a judge) performs this action with explicit intention and authority, demonstrating strong will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act itself is a neutral legal procedure; any perceived positive or negative sentiment is context-dependent for the participants."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent (the authority) performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of binding over is described as a definite legal occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete legal action of binding a defendant over."
+    }
+  }
+}

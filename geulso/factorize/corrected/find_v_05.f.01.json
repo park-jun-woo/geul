@@ -1,0 +1,60 @@
+{
+  "synset_id": "find.v.05",
+  "definition": "come to believe on the basis of emotion, intuitions, or indefinite grounds",
+  "frame_id": 1,
+  "frame_text": "Somebody find that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "belief.n.01",
+      "reasoning": "The definition 'come to believe' explicitly states a transition into a new cognitive state of holding a belief, hence a change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' is the one who undergoes the internal change of coming to believe, acting as the subject of this cognitive process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content of what is believed, functioning as the object or patient of the belief."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "basis.n.02",
+      "value_type": "non_rational.a.01",
+      "reasoning": "The belief is formed 'on the basis of emotion, intuitions, or indefinite grounds', which describes the subjective, non-rational manner or foundation of the belief's formation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The belief is based on 'emotion, intuitions, or indefinite grounds', indicating it is derived from internal inference or subjective feeling rather than direct observation or robust evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement about an internal cognitive event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Coming to believe is primarily an internal cognitive process that happens to the subject, not an action executed with strong will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of coming to believe is neutral; the specific content of the belief may carry positive or negative connotations, but the verb itself does not."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The formation of belief, especially based on intuitions or emotions, is typically a non-volitional mental experience rather than a deliberate, intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Once a person 'comes to believe' something, they hold that belief as certain, from their own subjective perspective, regardless of the objective quality of the grounds for that belief."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a single, discrete event of a belief being formed or adopted."
+    }
+  }
+}

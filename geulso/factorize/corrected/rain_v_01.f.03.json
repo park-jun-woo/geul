@@ -1,0 +1,59 @@
+{
+  "synset_id": "rain.v.01",
+  "definition": "precipitate as rain",
+  "frame_id": 3,
+  "frame_text": "Something rain_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a process where an entity causes something to fall, indicating a change in the spatial state of the falling objects.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame (e.g., 'The volcano') acts as the source or instigator causing the precipitation or falling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame (e.g., 'ash', 'shells') is the entity that is caused to fall or precipitate."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.02",
+      "value": "downward",
+      "reasoning": "The 'down' component of 'rain_down' explicitly specifies the direction of the motion as a core semantic aspect of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of precipitation or objects falling is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' acting as a causal agent (e.g., a volcano, a machine) does not possess 'will' or conscious intention in the human sense."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of raining or causing things to fall is inherently neutral; the context determines if its effects are positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' in this frame typically represents an inanimate entity (e.g., a volcano, a machine) that does not act with conscious intention, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of precipitation or falling."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'raining down' implies a continuous or highly repetitive falling of objects over a period, rather than a single, discrete event."
+    }
+  }
+}

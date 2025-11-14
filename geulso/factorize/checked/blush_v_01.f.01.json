@@ -1,0 +1,65 @@
+{
+  "synset_id": "blush.v.01",
+  "definition": "turn red, as if in embarrassment or shame",
+  "frame_id": 1,
+  "frame_text": "Somebody crimson",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "color.n.01",
+      "value_type": "crimson.a.01",
+      "reasoning": "The verb describes a physiological change in skin color, specifically turning red or crimson.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' who undergoes this non-volitional physiological change of color."
+        }
+      ]
+    },
+    {
+      "verb_type": "cause",
+      "verb_property": "emotion.n.01",
+      "value_type": "embarrassment.n.01",
+      "reasoning": "The blushing is typically a physiological reaction triggered by internal emotional states of embarrassment or shame, as specified in the definition.",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'Somebody' who experiences these causal emotions, leading to the blush."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Blushing is a directly observable physiological reaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Blushing is an involuntary physiological response, not an action driven by will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of blushing itself is a neutral physical reaction, though often associated with negative emotions like embarrassment or shame."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "Blushing is an involuntary physiological reaction and thus non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When someone blushes, it is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of turning red in response to an internal state."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

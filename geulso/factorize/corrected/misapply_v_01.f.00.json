@@ -1,0 +1,63 @@
+{
+  "synset_id": "misapply.v.01",
+  "definition": "apply to a wrong thing or person; apply badly or incorrectly",
+  "frame_id": 0,
+  "frame_text": "Somebody misapply something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "use.n.01",
+      "reasoning": "The verb 'misapply' is fundamentally about performing an act of using or putting something into service, as indicated by its hypernym 'use.v.01' and the core meaning of 'apply'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of applying."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is being used or put into service."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implied by the definition 'apply to a wrong thing or person', referring to the target or recipient of the application."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "correctness.n.01",
+      "value_type": "incorrect.a.01",
+      "reasoning": "The 'mis-' prefix and the definition 'apply badly or incorrectly' explicitly state that the manner or outcome of the application is wrong or inappropriate."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of misapplying something is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes an action in a declarative sense."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with will in performing the application, even if the application itself is incorrect."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'mis-' prefix and the definitions 'wrong', 'badly', 'incorrectly' explicitly denote a negative connotation or outcome of the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates a volitional agent performing the act of applying. While the 'mis-' part might imply an error, the act of applying itself is intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of applying something incorrectly, not inherently repetitive."
+    }
+  }
+}

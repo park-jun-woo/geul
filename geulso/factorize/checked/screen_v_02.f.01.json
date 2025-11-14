@@ -1,0 +1,62 @@
+{
+  "synset_id": "screen.v.02",
+  "definition": "examine methodically",
+  "frame_id": 1,
+  "frame_text": "Somebody screen something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "examination.n.01",
+      "reasoning": "The definition 'examine methodically' describes a process of investigation and evaluation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of screening, initiating and controlling the process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is subjected to the examination, undergoing the process."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "methodical.a.01",
+      "reasoning": "The definition explicitly states 'methodically', indicating a specific, structured manner of examination."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of screening is typically a directly observable and verifiable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the agent implies strong will and intention in performing the screening."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of screening itself is neutral; its outcome or purpose may carry positive or negative connotations, but not the act itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody screen somebody' clearly indicates an intentional, volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the screening action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While a methodical examination may involve multiple steps, the verb 'screen' generally refers to a single, complete instance of examination, not a repetitive series of overall screening events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

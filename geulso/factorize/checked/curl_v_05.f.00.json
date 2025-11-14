@@ -1,0 +1,53 @@
+{
+  "synset_id": "curl.v.05",
+  "definition": "play the Scottish game of curling",
+  "frame_id": 0,
+  "frame_text": "Somebody curl",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "game.n.01",
+      "value_type": "curling.n.01",
+      "reasoning": "The definition 'play the Scottish game of curling' explicitly describes an activity of engaging in a specific type of game.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of playing the game."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Playing a game is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the agent performs the action of playing with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of playing a game is generally neutral in sentiment; context would determine positive or negative connotations."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' clearly indicates a volitional agent performing the action of playing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of curling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single instance of participating in the game of curling, even if the game itself involves multiple steps or rounds."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

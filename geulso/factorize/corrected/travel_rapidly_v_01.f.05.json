@@ -1,0 +1,71 @@
+{
+  "synset_id": "travel_rapidly.v.01",
+  "definition": "move very fast",
+  "frame_id": 5,
+  "frame_text": "Something is speeding PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.01",
+      "reasoning": "The verb describes a change of location, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in location, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the direction, path, or endpoint of the movement, specified by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "A core semantic component of 'speeding' (traveling rapidly) is the 'very fast' manner of movement, distinguishing it from general 'travel'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of speeding is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is speeding PP' lacks an agent capable of will, indicating no inherent will from the subject."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning can apply to any tense; 0.0 is used as a neutral default for the general verb meaning, not tied to the specific progressive aspect of the frame."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is speeding' construction explicitly denotes a progressive aspect, indicating an ongoing action."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb carries no inherent politeness implications."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of moving fast is neutral; the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is speeding PP' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Speeding is an action composed of continuous, highly repetitive motions. Therefore, it has high iterativity."
+    }
+  }
+}

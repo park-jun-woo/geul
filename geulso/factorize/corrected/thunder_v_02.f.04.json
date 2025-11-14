@@ -1,0 +1,74 @@
+{
+  "synset_id": "thunder.v.02",
+  "definition": "utter words loudly and forcefully",
+  "frame_id": 4,
+  "frame_text": "Somebody thunder PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "utter.v.01",
+      "reasoning": "The definition 'utter words' directly points to the act of verbal expression.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of uttering words."
+        },
+        {
+          "semantic_role": "content.n.02",
+          "value_type": "word.n.01",
+          "reasoning": "The 'words' are the content being uttered, as specified in the definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame often specifies the target, recipient, or direction of the utterance."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "loud.a.01",
+      "reasoning": "The definition explicitly states the words are uttered 'loudly', indicating a specific manner."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition explicitly states the words are uttered 'forcefully', indicating another specific manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of thundering words is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, thus strong will."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "While 'loudly and forcefully' can be perceived as impolite, the verb itself is neutral; context determines politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "Uttering words loudly and forcefully can have positive or negative connotations depending on the situation; the verb itself is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of uttering words is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Uttering 'words' (plural) implies a continuous or highly repetitive act of speaking rather than a single instantaneous event."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "synset_id": "impound.v.01",
+  "definition": "take temporary possession of as a security, by legal authority",
+  "frame_id": 3,
+  "frame_text": "Somebody seize something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb describes an action of 'taking possession', which is a change in the state of ownership or control.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of seizing and taking possession, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose possession is taken by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "means.n.01",
+      "value": "legal_authority.n.01",
+      "reasoning": "The definition specifies that the action is performed 'by legal authority', indicating the means or justification for the act."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value": "security.n.02",
+      "reasoning": "The definition states the action is performed 'as a security', indicating the purpose or reason behind the impounding."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value": "temporary.a.01",
+      "reasoning": "The definition explicitly states 'take temporary possession', indicating the limited duration of the resulting state of possession."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of impounding is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of impounding is neutral; its sentiment depends on context (e.g., justice vs. hardship)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody seize something' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of taking possession."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of taking possession."
+    }
+  }
+}

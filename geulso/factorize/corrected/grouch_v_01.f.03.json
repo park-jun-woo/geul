@@ -1,0 +1,64 @@
+{
+  "synset_id": "grouch.v.01",
+  "definition": "show one's unhappiness or critical attitude",
+  "frame_id": 3,
+  "frame_text": "Somebody grumble PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "expression.n.01",
+      "reasoning": "The verb 'grouch' (meaning 'show one's unhappiness or critical attitude' and synonym 'grumble') describes the act of expressing an internal state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the action of expressing.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'unhappiness or critical attitude' (or 'discontent') is the abstract entity being expressed by the agent.",
+          "value_type": "discontent.n.01"
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' in the frame 'Somebody grumble PP' specifies the subject or cause of the agent's discontent.",
+          "value_type": "abstract_entity.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of grumbling or showing unhappiness is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action of expressing discontent is typically driven by their will."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "Grumbling or grouching often implies a negative or informal expression of displeasure, lacking politeness."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'unhappiness or critical attitude' and the hypernym 'complain' inherently indicate a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody grumble PP' clearly indicates a volitional agent ('Somebody') intentionally performing the action of expressing discontent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of grouching is described as a definite occurrence or expression."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Grumbling is often a sustained or repeated act of expression, rather than a single, discrete event, suggesting high iterativity."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "charge.v.03",
+  "definition": "demand payment",
+  "frame_id": 4,
+  "frame_text": "Somebody charge somebody something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "demand.n.02",
+      "reasoning": "The definition 'demand payment' directly indicates an action of making a demand, establishing a financial obligation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity who initiates the action of demanding payment."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the person from whom payment is demanded, thus becoming subject to the charge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "payment.n.01",
+          "reasoning": "The 'something' in the frame refers to the payment or fee that is being demanded."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of charging is typically a direct and observable interaction or transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of demanding payment itself is a neutral transaction; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody charge...' explicitly indicates a volitional agent performing the act of charging."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of charging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Each instance of demanding payment (charging) is generally considered a discrete, single event."
+    }
+  }
+}

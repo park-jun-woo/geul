@@ -1,0 +1,58 @@
+{
+  "synset_id": "hospitalize.v.01",
+  "definition": "admit into a hospital",
+  "frame_id": 1,
+  "frame_text": "Somebody hospitalize somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "location.n.01",
+      "reasoning": "The verb describes the act of causing a person to change their location from outside to inside a hospital, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of admitting a person to a hospital, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is admitted into the hospital and undergoes the change of location/status, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "hospital.n.01",
+          "reasoning": "The implied destination of the admission, which is a hospital, inherent to the verb's meaning."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Hospitalization is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of hospitalization itself is neutral; its sentiment depends on context (e.g., severe illness vs. recovery)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody hospitalize somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of hospitalization is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of admission to a hospital."
+    }
+  }
+}

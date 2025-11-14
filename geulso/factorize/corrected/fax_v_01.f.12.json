@@ -1,0 +1,63 @@
+{
+  "synset_id": "fax.v.01",
+  "definition": "send something via a facsimile machine",
+  "frame_id": 12,
+  "frame_text": "Somebody telefax somebody something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'fax' describes the act of causing information or a document to move from one location to another, which is a change in its spatial state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the initiator of the action, actively sending the fax."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the frame is the content (document, information) that undergoes the transfer."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the intended receiver of the faxed content."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "facsimile_machine.n.01",
+      "reasoning": "The definition explicitly states 'via a facsimile machine', indicating a specific instrument used for the transfer, which is a core semantic component of the verb 'fax'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sending a fax is typically a directly observable event or its successful completion is directly confirmable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies the action is carried out with deliberate will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of faxing itself is neutral; any positive or negative sentiment would derive from the content being sent or the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of faxing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that is either performed or not performed, implying certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'fax' in this context typically refers to a single, completed act of sending a particular piece of content."
+    }
+  }
+}

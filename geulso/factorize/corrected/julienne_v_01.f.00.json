@@ -1,0 +1,64 @@
+{
+  "synset_id": "julienne.v.01",
+  "definition": "cut into long thin strips",
+  "frame_id": 0,
+  "frame_text": "Somebody julienne something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The verb describes a transformation of the object's physical form from its original state to 'long thin strips'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of cutting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change in shape, from its original form to strips."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "knife.n.01",
+          "reasoning": "The act of 'cutting' implies the use of a cutting tool, typically a knife for julienning."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "resultant_state.n.01",
+      "value_type": "long_thin_strips.n.01",
+      "reasoning": "The definition explicitly states the resulting form: 'into long thin strips'. This is a core semantic component of julienning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of julienning is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies the action is driven by intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cutting something into strips is inherently neutral; its context would determine any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of julienning is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Julienning involves multiple, repetitive cutting motions to achieve the desired strips, suggesting high iterativity within the overall event."
+    }
+  }
+}

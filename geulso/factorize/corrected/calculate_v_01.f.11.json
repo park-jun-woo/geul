@@ -1,0 +1,60 @@
+{
+  "synset_id": "calculate.v.01",
+  "definition": "make a mathematical calculation or computation",
+  "frame_id": 11,
+  "frame_text": "Somebody reckon that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes the action of acquiring knowledge (the proposition in the CLAUSE) through a mental process, transitioning from not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the mental process of calculation or reckoning."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the specific piece of knowledge or conclusion that is arrived at or understood as a result of the calculation."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "mathematical_computation.n.01",
+      "reasoning": "The definition explicitly states 'make a mathematical calculation or computation' as the inherent manner or method by which the knowledge is acquired."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of calculation or reckoning implies direct mental processing and cognitive experience of the conclusion."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that leads to a conclusion."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an intentional and willed mental act."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calculating itself is neutral; the result of the calculation or its context may carry sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of calculation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'calculate' implies that the agent aims for and typically achieves a definite conclusion, even if it's an estimation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'calculate' refers to a single instance or process of determining a result, even if it involves multiple steps. It's considered a single event of forming a conclusion."
+    }
+  }
+}

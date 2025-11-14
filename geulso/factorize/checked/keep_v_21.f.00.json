@@ -1,0 +1,56 @@
+{
+  "synset_id": "keep.v.21",
+  "definition": "hold and prevent from leaving",
+  "frame_id": 0,
+  "frame_text": "Somebody keep somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "confinement.n.01",
+      "reasoning": "The verb 'keep' in this sense describes the act of causing or maintaining a state of confinement for someone, as indicated by 'hold and prevent from leaving'. This is a causation of a specific state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity who initiates and/or maintains the action of holding and preventing the other from leaving."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity who is being held and prevented from leaving, thus undergoing the state of confinement."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of keeping or confining someone is a directly observable event or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or a state being maintained."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' as the agent implies strong will and intention in performing the action of keeping."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of keeping or confining can be neutral (e.g., keeping a pet), positive (e.g., keeping safe), or negative (e.g., imprisonment). In isolation, it is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ---- somebody' explicitly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of keeping is described as a definite occurrence or a definite sustained state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'hold and prevent from leaving' implies a continuous or sustained action over a period, rather than a single, instantaneous event. This indicates high iterativity or duration."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

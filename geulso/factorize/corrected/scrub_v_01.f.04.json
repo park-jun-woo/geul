@@ -1,0 +1,65 @@
+{
+  "synset_id": "scrub.v.01",
+  "definition": "clean with hard rubbing",
+  "frame_id": 4,
+  "frame_text": "Something scour somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cleanliness.n.01",
+      "reasoning": "The verb's definition 'clean with hard rubbing' indicates a process that changes the state of something from not clean to clean.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action, causing the 'somebody' to become clean, as specified by the verb frame. Even if non-volitional, it is the initiator of the causal chain."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' that undergoes the change of state and becomes clean."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "rubbing.n.01",
+      "reasoning": "The definition explicitly states the cleaning is performed 'with hard rubbing', indicating rubbing as the specific manner of action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition specifies 'hard rubbing', indicating a high or forceful intensity of the rubbing action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of scrubbing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something scour somebody' features a non-agentive subject ('Something'), thus implying no agent's will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cleaning, or scrubbing, is generally neutral in sentiment, although the outcome of cleanliness can be positive."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something scour somebody' features a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of scrubbing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'rubbing' implies continuous, repetitive motions, characteristic of high iterativity."
+    }
+  }
+}

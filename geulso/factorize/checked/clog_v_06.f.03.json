@@ -1,0 +1,68 @@
+{
+  "synset_id": "clog.v.06",
+  "definition": "fill to excess so that function is impaired",
+  "frame_id": 3,
+  "frame_text": "Something overload something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "fullness.n.01",
+      "reasoning": "The verb describes a process of filling something to an extreme degree, indicating a change in its state of fullness or capacity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which causes the excessive filling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the change of state to become excessively full."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "degree.n.01",
+      "value_type": "excessive.a.01",
+      "reasoning": "A core component of the definition is 'to excess', indicating that the filling goes beyond a normal or optimal level."
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "functionality.n.01",
+      "value_type": "impaired.a.01",
+      "reasoning": "The definition explicitly states 'so that function is impaired' as a direct consequence of the excessive filling."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of clogging or overloading is typically a directly observable event or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or outcome."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent in the frame is 'Something', implying no will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'function is impaired' clearly indicates a negative outcome, leading to a negative polarity."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something overload something' indicates a non-agentive 'Something' as the cause, making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or resulting state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event or a continuous process culminating in a state of being overloaded/clogged."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

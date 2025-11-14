@@ -1,0 +1,59 @@
+{
+  "synset_id": "tip_off.v.01",
+  "definition": "give insider information or advise to",
+  "frame_id": 0,
+  "frame_text": "Somebody tip somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'tip off' describes the act of causing a change in the recipient's knowledge state by providing specific information or advice.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally provides the insider information or advice, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who receives the information and whose knowledge state changes, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "property": "confidential.a.01",
+          "reasoning": "The 'insider information or advise' (the implicit 'something' being transferred) is the content of the tip-off, characterized by its confidential or privileged nature."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of tipping off is a directly observable communicative event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies an agent acting with clear intention and will to provide information."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of tipping off is neutral; its sentiment depends on the specific context and the nature of the information given (e.g., warning vs. betrayal)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of tipping off is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'tip off' typically describes a single, discrete act of providing information."
+    }
+  }
+}

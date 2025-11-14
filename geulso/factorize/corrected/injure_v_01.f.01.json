@@ -1,0 +1,53 @@
+{
+  "synset_id": "injure.v.01",
+  "definition": "cause injuries or bodily harm to",
+  "frame_id": 1,
+  "frame_text": "Somebody injure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "health.n.01",
+      "reasoning": "The definition 'cause injuries or bodily harm to' describes an action that results in a negative change to the health or physical state of a participant.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity that intentionally causes the harm."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the entity that undergoes the negative change in health/physical state."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of injuring is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the causative nature of the verb ('cause injuries') imply a strong will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'cause injuries or bodily harm' inherently carries a negative sentiment due to the undesirable outcome."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody injure somebody' explicitly includes a volitional agent ('Somebody') who performs the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event or instance of causing injury, rather than a continuous or highly repetitive process, although an agent could injure repeatedly."
+    }
+  }
+}

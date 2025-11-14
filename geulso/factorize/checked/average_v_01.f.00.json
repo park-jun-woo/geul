@@ -1,0 +1,56 @@
+{
+  "synset_id": "average.v.01",
+  "definition": "amount to or come to an average, without loss or gain",
+  "frame_id": 0,
+  "frame_text": "Something average something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "quantification.n.01",
+      "reasoning": "The verb 'average', in its transitive frame 'Something average something', describes the process of determining a representative numerical quantity (the average) for a set of values or data. The provided definition 'amount to or come to an average' describes the state or result of this process, which is initiated by the 'Something' subject.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the transitive frame performs the action of averaging, initiating and carrying out the quantification process."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity (e.g., a set of values or data) that is subjected to the averaging process to determine its representative value."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of computing or reaching an average is a direct and verifiable process or state."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a process or a result."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' does not inherently imply an agent with will; it can refer to a system, a method, or an impersonal process rather than a sentient being."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of averaging is a neutral mathematical process; its sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something average something' implies a subject that can be either a volitional agent (e.g., a person) or a non-volitional entity (e.g., a machine or a statistical method), making its inherent volitionality neutral."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A computed average, within its defined parameters, represents a definite and certain numerical result."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a singular act of calculating an average for a specific set of inputs, even if the process can be repeated for different sets."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

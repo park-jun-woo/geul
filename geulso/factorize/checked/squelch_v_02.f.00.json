@@ -1,0 +1,58 @@
+{
+  "synset_id": "squelch.v.02",
+  "definition": "make a sucking sound",
+  "frame_id": 0,
+  "frame_text": "Somebody squelch",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.02",
+      "reasoning": "The verb describes the occurrence or production of a sound, aligning with its hypernym 'sound.v.02'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' is the entity that produces the sound, acting as the primary effector of the event, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sucking.a.01",
+      "reasoning": "The definition explicitly states 'make a sucking sound', indicating a specific quality or manner of the sound produced."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of making a sound is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' lacks an agent capable of will, implying the action is not driven by intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of squelching is semantically neutral; context would determine any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' describes an event happening to or performed by a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of squelching is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of producing a sound, unless context specifies repetition."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

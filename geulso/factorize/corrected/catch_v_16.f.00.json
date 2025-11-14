@@ -1,0 +1,69 @@
+{
+  "synset_id": "catch.v.16",
+  "definition": "cause to become accidentally or suddenly caught, ensnared, or entangled",
+  "frame_id": 0,
+  "frame_text": "Somebody catch something PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "constraint.n.01",
+      "reasoning": "The verb describes a change of state where the 'something' transitions from being unconstrained to being constrained, ensnared, or entangled.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who causes the 'something' to become caught, as per the verb frame and definition 'cause to become... caught'."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that undergoes the change of state, becoming caught, ensnared, or entangled."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) indicates the location or means by which the patient becomes caught or entangled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "accidental.a.01",
+      "reasoning": "The definition explicitly states 'accidentally caught', indicating a lack of precise intention or control over the specific occurrence of the entanglement, even if the broader action leading to it was volitional."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition explicitly states 'suddenly caught', indicating the unexpected or rapid temporal aspect of the event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The event of something becoming caught is generally a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Although the outcome is 'accidentally' caught, the 'Somebody' still *causes* the situation, implying the agent's will in performing the action that leads to the entanglement."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of catching is inherently neutral; its positive or negative sentiment depends on the specific context and what is caught."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' indicates an agent ('Somebody') initiating an action, and the definition 'cause to become... caught' confirms their volitional role in setting up the conditions leading to the entanglement."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of something becoming caught."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of an object becoming caught or entangled."
+    }
+  }
+}

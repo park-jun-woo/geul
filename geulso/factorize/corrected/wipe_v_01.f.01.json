@@ -1,0 +1,59 @@
+{
+  "synset_id": "wipe.v.01",
+  "definition": "rub with a circular motion",
+  "frame_id": 1,
+  "frame_text": "Somebody wipe something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb 'wipe' primarily describes an action involving physical contact and friction, as implied by its definition 'rub with a circular motion' and its hypernym 'rub'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame acts as the entity that performs the rubbing action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity upon which the rubbing action is performed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "circular.a.01",
+      "reasoning": "The definition explicitly specifies 'with a circular motion', indicating a key manner component of the wiping action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Wiping is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is specified as 'Something', indicating no inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wiping is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate 'Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of wiping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of rubbing 'with a circular motion' inherently involves continuous, highly repetitive micro-movements within a single instance of wiping."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "synset_id": "brawl.v.01",
+  "definition": "to quarrel noisily, angrily or disruptively",
+  "frame_id": 1,
+  "frame_text": "Somebody brawl PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "disagreement.n.01",
+      "reasoning": "The verb 'brawl' describes an ongoing activity of engaging in a dispute, a process of interaction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who participates in the brawl, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "co_agent.n.01",
+          "reasoning": "A brawl is an inherently reciprocal action, typically involving two or more parties. The 'PP' in the frame could specify this other party, or it is implied by the nature of the verb."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "noisy.a.01",
+      "reasoning": "The definition explicitly states 'noisily' as a characteristic of the quarrel."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "angry.a.01",
+      "reasoning": "The definition explicitly states 'angrily' as a characteristic of the quarrel."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "disruptive.a.01",
+      "reasoning": "The definition explicitly states 'disruptively' as a characteristic of the quarrel."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "A brawl is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies intentional engagement in the brawl."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition includes 'angrily' and 'disruptively', indicating a negative sentiment associated with brawling."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ---- PP' explicitly involves a volitional agent ('Somebody') initiating or participating in the brawl."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "A brawl is a continuous activity composed of repetitive actions (e.g., shouting, struggling), indicating high repetition rather than a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

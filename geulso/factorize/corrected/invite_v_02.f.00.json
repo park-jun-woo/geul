@@ -1,0 +1,60 @@
+{
+  "synset_id": "invite.v.02",
+  "definition": "invite someone to one's house",
+  "frame_id": 0,
+  "frame_text": "Somebody ask_over somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb 'invite' describes an action of making a polite request for someone's presence. Its hypernym is 'request.v.01', making 'request' a suitable property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the action of extending the invitation.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' who is the intended receiver of the invitation.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The implied location, 'one's house', as specified in the definition, where the invitee is requested to come.",
+          "value_type": "house.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of inviting is a directly observable interaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inviting is neutral; its sentiment depends on context or the invited party's perception."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sending an invitation is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of making an invitation."
+    }
+  }
+}

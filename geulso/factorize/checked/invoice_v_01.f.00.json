@@ -1,0 +1,61 @@
+{
+  "synset_id": "invoice.v.01",
+  "definition": "send an bill to",
+  "frame_id": 0,
+  "frame_text": "Somebody invoice somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "demand.n.01",
+      "reasoning": "The verb 'invoice' describes the act of making a formal financial demand, specifically for payment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the act of invoicing and sends the bill."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame, who receives the invoice and is the target of the payment demand."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "bill.n.01",
+          "reasoning": "The implicit 'bill' or 'invoice' document that is created and sent as part of the act, as stated in the definition 'send a bill to'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sending an invoice is a directly observable and verifiable action in a business transaction."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurs."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame performs the action of invoicing with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of invoicing is a neutral business process; its sentiment depends on external context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of invoicing is described as a definite and certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete instance of sending a bill, rather than continuous repetition within a single event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

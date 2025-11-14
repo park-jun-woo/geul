@@ -1,0 +1,56 @@
+{
+  "synset_id": "conserve.v.02",
+  "definition": "keep in safety and protect from harm, decay, loss, or destruction",
+  "frame_id": 1,
+  "frame_text": "Somebody keep_up something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "preservation.n.01",
+      "reasoning": "The verb 'conserve' refers to the ongoing activity or process of maintaining something in safety and protecting it from harm, decay, loss, or destruction, as stated in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity that actively performs the action of conserving or keeping something safe."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the entity that is being conserved, protected, or kept from harm."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of conserving or protecting is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject implies an intentional and willful action to conserve."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The act of keeping something safe and protecting it from harm is inherently a positive action, aimed at preventing negative outcomes."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody keep_up something' clearly indicates a volitional agent ('Somebody') performing the action of conservation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of conserving is typically presented as a definite and certain effort or occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb 'conserve' (and 'keep up' in the frame) implies an ongoing, sustained, or highly repetitive effort to maintain a state of preservation, rather than a single instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

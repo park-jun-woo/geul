@@ -1,0 +1,62 @@
+{
+  "synset_id": "abstract.v.03",
+  "definition": "consider apart from a particular case or instance",
+  "frame_id": 0,
+  "frame_text": "Somebody abstract PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "cognition.n.01",
+      "reasoning": "The verb describes an active mental process of isolating a general concept from specific instances, which falls under the domain of cognition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the mental act of abstraction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "concept.n.01",
+          "reasoning": "The implicit 'something' (a general concept or idea) that is considered or formed apart from particular cases, derived from the definition."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "instance.n.01",
+          "reasoning": "The 'particular case or instance' (implied by the 'PP' in the frame and the definition) from which the general concept is derived or separated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of abstracting is a direct cognitive experience for the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a mental process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an intentional and willed mental action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of abstracting is a neutral cognitive process."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' indicates a volitional agent performing a deliberate mental act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of performing the mental process of abstraction is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of forming an abstract concept."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

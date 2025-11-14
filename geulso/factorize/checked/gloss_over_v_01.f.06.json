@@ -1,0 +1,62 @@
+{
+  "synset_id": "gloss_over.v.01",
+  "definition": "treat hurriedly or avoid dealing with properly",
+  "frame_id": 6,
+  "frame_text": "Somebody slur_over somebody",
+  "sememes": [
+    {
+      "verb_type": "interaction",
+      "verb_property": "thoroughness.n.01",
+      "reasoning": "The verb 'gloss over' describes an interaction ('treat' or 'deal with') that is characterized by a lack of proper thoroughness.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of glossing over, initiating the interaction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of this superficial treatment or interaction."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "superficial.a.01",
+      "reasoning": "The definition explicitly states 'treat hurriedly or avoid dealing with properly', indicating a superficial or hasty manner of interaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of glossing over something is generally a directly observable action or behavior."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'avoid dealing with properly' inherently carries a negative sentiment, indicating an undesirable or incomplete action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of treating something superficially."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of treating someone or something superficially, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

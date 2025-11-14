@@ -1,0 +1,58 @@
+{
+  "synset_id": "ordain.v.02",
+  "definition": "appoint to a clerical posts",
+  "frame_id": 5,
+  "frame_text": "Somebody order somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.02",
+      "reasoning": "The definition 'appoint to a clerical posts' describes a transition of an individual from one state (not having the post) to another (having the post), which constitutes a change in their status or role.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the entity who performs the act of appointing or ordaining, thus causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the individual whose status or role is changed by the act of ordination; they are the one being appointed."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "role.n.01",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame specifies the particular clerical post or role to which the patient is appointed, serving as the new status or destination of their professional identity."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ordaining someone to a post is typically a directly observable public event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of appointment."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of ordaining is a deliberate action performed by an agent with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ordaining itself is neutral; its sentiment depends on the context and the perception of the involved parties."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ordains...' explicitly includes a volitional agent ('Somebody') performing the action, indicating intentionality."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'ordain' describes a definite and established act of appointment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Ordination is generally a singular, discrete event for a given individual into a specific post."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "synset_id": "judder.v.01",
+  "definition": "shake or vibrate rapidly and intensively",
+  "frame_id": 5,
+  "frame_text": "Something shake something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "vibration.n.01",
+      "reasoning": "The verb 'judder' describes causing something to shake or vibrate, which is a change in its state of motion or stability. The hypernym 'vibrate' supports this property.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame 'Something shake something' is the entity that causes the juddering/vibration."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the juddering/vibration."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "speed.n.01",
+      "value_type": "rapid.a.01",
+      "reasoning": "The definition explicitly includes 'rapidly', indicating a high rate of motion."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "intensive.a.01",
+      "reasoning": "The definition explicitly includes 'intensively', indicating a high degree of force or vigor in the shaking."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of juddering is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is an inanimate 'Something', which does not possess will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of juddering is neutral; its sentiment depends on context (e.g., a car juddering vs. a vibrating massage device)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something shake something' implies that the causal agent ('Something') is non-volitional, as it is an inanimate object."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of juddering is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Juddering inherently implies continuous, rapid, and repetitive shaking or vibration, indicating a high degree of iterativity."
+    }
+  }
+}

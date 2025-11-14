@@ -1,0 +1,55 @@
+{
+  "synset_id": "force-land.v.01",
+  "definition": "make a forced landing",
+  "frame_id": 0,
+  "frame_text": "Somebody force-land",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'land' signifies a change of location from being airborne to being on the ground, which is a type of motion.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' (e.g., an aircraft) that undergoes the landing, as specified by the verb frame, and is subjected to the forced action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "constrained.a.01",
+      "reasoning": "The 'force' in 'force-land' indicates that the landing is not voluntary or under normal conditions, but is compelled by circumstances (e.g., emergency, malfunction), hence 'constrained'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of landing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s' lacks an agent capable of will, and the 'forced' nature explicitly negates any inherent will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "A 'forced landing' inherently implies an undesirable or emergency situation, giving it a negative connotation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s' combined with 'force-land' indicates that the action is non-volitional for the subject; it is compelled by external circumstances rather than choice."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of landing."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "A landing is a discrete, single event, not inherently repetitive."
+    }
+  }
+}

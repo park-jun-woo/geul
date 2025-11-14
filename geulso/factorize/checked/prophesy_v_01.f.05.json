@@ -1,0 +1,63 @@
+{
+  "synset_id": "prophesy.v.01",
+  "definition": "predict or reveal through, or as if through, divine inspiration",
+  "frame_id": 5,
+  "frame_text": "Something vaticinate something",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "information.n.02",
+      "reasoning": "The verb describes the act of making information about future events known, which is a form of communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the act of prophesying, acting as a non-volitional source or instrument, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "future_event.n.01",
+          "reasoning": "The 'something' that is the content of the prophecy, referring to a future event."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "supernatural_revelation",
+      "reasoning": "A core aspect of 'prophesy' is that the prediction or revelation is made through, or as if through, divine or supernatural inspiration, distinguishing it from ordinary prediction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "Prophecy involves revealing information about the future through supernatural means, which is not direct experience but typically involves interpretation or a belief in a non-observable source, thus falling under inference."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame is inanimate and lacks the capacity for will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of prophesying itself is neutral; the content of the prophecy can be positive or negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject ('Something'), making the action inherently non-volitional. The 'divine inspiration' also implies the subject is a conduit, not a volitional actor."
+    },
+    "Confidence": {
+      "value": 0.0,
+      "reasoning": "While prophecies often claim certainty from their source, they are predictions about the future, which are inherently uncertain until realized. As a verb of prediction, it is neutral on confidence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of delivering a prophecy or revelation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

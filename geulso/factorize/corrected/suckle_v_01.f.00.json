@@ -1,0 +1,65 @@
+{
+  "synset_id": "suckle.v.01",
+  "definition": "suck milk from the mother's breasts",
+  "frame_id": 0,
+  "frame_text": "Somebody suckle",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "ingestion.n.01",
+      "reasoning": "The verb describes the act of taking in milk from a source, which constitutes a change in the agent's nutritional state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the action of suckling, typically an infant or animal."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "milk.n.01",
+          "reasoning": "The 'milk' that is consumed, explicitly mentioned in the definition as the substance being ingested."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "breast.n.01",
+          "reasoning": "The 'mother's breasts' from which the milk is obtained, explicitly mentioned in the definition as the origin of the milk."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "suck.v.01",
+      "reasoning": "The definition 'suck milk' specifies the particular manner in which the ingestion occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of suckling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame, even if an animal or infant, performs this action with the will to satisfy hunger or need, implying strong intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of suckling is neutral; it fulfills a basic biological need."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' combined with the action of seeking nourishment, indicates a volitional act performed by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of suckling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Suckling is typically a continuous activity involving repeated sucking motions over a period of time, indicating high repetition."
+    }
+  }
+}

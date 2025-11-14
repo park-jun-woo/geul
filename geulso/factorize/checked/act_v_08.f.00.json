@@ -1,0 +1,58 @@
+{
+  "synset_id": "act.v.08",
+  "definition": "be engaged in an activity, often for no particular purpose other than pleasure",
+  "frame_id": 0,
+  "frame_text": "Somebody act",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "activity.n.01",
+      "reasoning": "The definition 'be engaged in an activity' directly describes an ongoing activity or process, not a state of being or a singular change.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the entity performing or engaged in the activity."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "pleasure.n.01",
+      "reasoning": "The definition explicitly states 'often for no particular purpose other than pleasure', indicating pleasure as the primary intrinsic motivation or 'purpose' for the activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes a directly observable engagement in an activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing activity."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' and the description of 'pleasure' as a purpose imply the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of being engaged in an activity is neutral; the purpose of pleasure lends a positive connotation but is not an inherent polarity of the verb itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody act' and the definition suggesting 'pleasure' indicate an intentional, volitional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The engagement in an activity is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Being 'engaged in an activity' implies an ongoing process that is continuous or highly repetitive, rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

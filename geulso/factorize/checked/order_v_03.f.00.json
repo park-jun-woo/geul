@@ -1,0 +1,56 @@
+{
+  "synset_id": "order.v.03",
+  "definition": "issue commands or orders for",
+  "frame_id": 0,
+  "frame_text": "Somebody dictate something",
+  "sememes": [
+    {
+      "verb_type": "speech_act",
+      "verb_property": "directive.n.01",
+      "reasoning": "The verb 'order' refers to the act of issuing commands or directives, which is a type of speech act aimed at causing a specific outcome.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who issues the command or order, acting as the initiator of the speech act."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object or content of the order, typically an item or service to be provided or an action to be performed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of ordering is typically a directly observed or experienced action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of ordering inherently involves a strong will and intention on the part of the agent to have the command fulfilled."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ordering itself is neutral; its sentiment depends on the context and what is ordered."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody order something' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of issuing an order is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of issuing an order."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'speech_act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

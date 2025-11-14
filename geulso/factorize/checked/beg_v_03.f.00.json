@@ -1,0 +1,62 @@
+{
+  "synset_id": "beg.v.03",
+  "definition": "ask to obtain free",
+  "frame_id": 0,
+  "frame_text": "Somebody beg",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb 'beg' fundamentally describes the act of making an appeal or request.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the act of begging, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "cost.n.01",
+      "value_type": "absence.n.01",
+      "reasoning": "The definition specifies 'to obtain free', indicating that the desired outcome of the request involves an item without monetary cost. This sememe characterizes the inherent nature of the thing being sought through the request (i.e., 'free')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of begging is a directly observable action or experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "While begging can imply desperation, the act itself is not universally impolite or formal; its politeness depends heavily on context. Neutral is the safest default."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of begging itself is neutral, though the circumstances leading to it may often be negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of begging is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of making a request in its default interpretation for this frame."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

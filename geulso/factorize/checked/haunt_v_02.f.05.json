@@ -1,0 +1,62 @@
+{
+  "synset_id": "haunt.v.02",
+  "definition": "haunt like a ghost; pursue",
+  "frame_id": 5,
+  "frame_text": "Something obsess somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "mental_state.n.01",
+      "reasoning": "The verb 'haunt' in this sense, as clarified by 'obsess' and 'preoccupy', describes an entity causing a specific mental state (preoccupation) in a person.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that causes the mental state of preoccupation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the person who experiences the affected mental state."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "persistence.n.01",
+      "value_type": "high",
+      "reasoning": "The terms 'haunt' and 'obsess' inherently imply a continuous, lingering, and strong mental effect, signifying a high degree of persistence."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The mental state being described is a direct experience for the affected individual, and its manifestations can be directly observed or inferred by others."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating that an entity causes a mental state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent 'Something' is typically abstract (e.g., a memory, a problem) and does not possess will or intention in causing the mental state."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'haunt' or 'obsess' someone generally carries a negative connotation, implying an unwelcome or distressing preoccupation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The 'Something' acting as the causal agent is typically non-volitional. The 'somebody' is the recipient of the mental state, not volitionally performing an action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the mental preoccupation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'haunt' or 'obsess' implies a continuous, ongoing, or highly repetitive mental effect rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

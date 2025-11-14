@@ -1,0 +1,60 @@
+{
+  "synset_id": "gripe.v.01",
+  "definition": "complain",
+  "frame_id": 4,
+  "frame_text": "Somebody bellyache PP",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "complaint.n.01",
+      "reasoning": "The verb 'gripe' (to complain) describes an act of communicating dissatisfaction, with 'complaint' being the core property of this communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who is performing the act of griping, acting as the agent of communication."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the subject or reason for the complaint, serving as the topic of the communication."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of griping is typically a directly observable action or utterance."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action of expressing discontent."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Complaining, and specifically griping, is an intentional act driven by the agent's will to express dissatisfaction."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The terms 'gripe' and 'bellyache' are informal and colloquial ways of expressing complaint, indicating a low level of politeness or formality."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'gripe' or 'complain' is inherently an expression of negative sentiment or dissatisfaction."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the act of griping."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of griping, when performed, is a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Verbs like 'gripe' and its synonym 'bellyache' often imply a tendency towards repeated or habitual complaining rather than a single, isolated instance, suggesting high repetition of the action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

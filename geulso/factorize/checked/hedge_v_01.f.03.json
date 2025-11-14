@@ -1,0 +1,63 @@
+{
+  "synset_id": "hedge.v.01",
+  "definition": "avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues)",
+  "frame_id": 3,
+  "frame_text": "Somebody elude something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "evasion.n.01",
+      "reasoning": "The definition 'avoid or try to avoid' indicates an ongoing process of preventing engagement, which aligns with the concept of evasion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the intentional agent performing the act of evasion."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "issue.n.01",
+          "reasoning": "The 'something' being avoided refers to duties, questions, or issues, which are abstract entities the agent evades engaging with."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "indirect.a.01",
+      "reasoning": "The verb 'hedge' implies an indirect, non-committal, or circuitous manner of avoiding a direct answer or confrontation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hedging is typically observable through verbal or behavioral cues."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'try to avoid' explicitly indicates a strong will and intention on the part of the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Avoiding fulfilling duties or answering questions typically carries a negative connotation, implying irresponsibility, deceit, or lack of directness."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' and the phrase 'try to avoid' clearly indicate an intentional, volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "When the verb 'hedge' is used, it asserts that the act of evasion is occurring or has occurred, implying certainty in the described event."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Hedging, especially when applied to 'fulfilling duties' or 'answering issues', often implies a sustained or repeated pattern of evasive behavior rather than a single, punctual event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

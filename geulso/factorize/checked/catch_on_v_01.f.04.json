@@ -1,0 +1,64 @@
+{
+  "synset_id": "catch_on.v.01",
+  "definition": "understand, usually after some initial difficulty",
+  "frame_id": 4,
+  "frame_text": "Somebody get_it",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "cognitive_state.n.01",
+      "reasoning": "The verb 'catch on' describes a transition from a state of lacking comprehension to possessing it, which is a change in cognitive state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' from the verb frame is the individual who undergoes the cognitive change of understanding.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'it' in 'get_it' represents the information, concept, or idea that becomes understood.",
+          "value_type": "information.n.01"
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "process.n.02",
+      "value_type": "difficulty.n.01",
+      "reasoning": "The definition 'usually after some initial difficulty' specifies a core aspect of the manner in which understanding is achieved, implying a process rather than instantaneous comprehension."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'catching on' (understanding) is a direct cognitive experience for the subject."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of understanding."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The process leading to 'catching on', especially 'after some initial difficulty', implies the agent's will and effort to understand."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of understanding is generally neutral; its sentiment depends on what is understood."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody get_it' implies an agent ('Somebody') actively engaging in the cognitive process leading to understanding, making the action volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'catch on' implies a definite and certain attainment of understanding."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'catch on' typically describes a single, discrete event of achieving understanding of a specific piece of information."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

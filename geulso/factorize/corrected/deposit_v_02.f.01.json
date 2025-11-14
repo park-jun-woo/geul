@@ -1,0 +1,58 @@
+{
+  "synset_id": "deposit.v.02",
+  "definition": "put into a bank account",
+  "frame_id": 1,
+  "frame_text": "Somebody deposit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'put into a bank account' describes a transfer of control or legal possession of the 'something' into an account, which is a change of state regarding its ownership/location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of depositing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., money, valuables) that is being put into the account."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "account.n.01",
+          "reasoning": "The bank account serves as the explicit destination or recipient for the deposited item, as specified in the verb's definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Depositing is an action that is typically directly observed or officially recorded, implying direct evidence."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of depositing itself is neutral; its positive or negative sentiment is context-dependent."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of depositing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of depositing is described as a definite and certain event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of placing something into an account, not an inherently repetitive action."
+    }
+  }
+}

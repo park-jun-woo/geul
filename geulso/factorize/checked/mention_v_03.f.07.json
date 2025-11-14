@@ -1,0 +1,58 @@
+{
+  "synset_id": "mention.v.03",
+  "definition": "commend",
+  "frame_id": 7,
+  "frame_text": "Something mention something",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "evaluation.n.01",
+      "reasoning": "The verb 'mention' in this sense means 'to commend', which is an act of expressing positive judgment or praise.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "value_type": "entity.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the non-volitional source or cause that brings about the commendation, rather than an intentional agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "entity.n.01",
+          "reasoning": "The second 'something' in the frame is the entity that is being commended or positively evaluated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of commending is a directly observable linguistic or social action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an act of commendation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame indicates a non-volitional entity, hence no agentive will is involved in the 'mentioning'."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'commend' inherently carries a positive sentiment, referring to praise or approval."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' explicitly includes a non-volitional subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of commending, when performed, is a definite expression or occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of commendation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "stampede.v.01",
+  "definition": "cause to run in panic",
+  "frame_id": 1,
+  "frame_text": "Something stampede somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'cause to run' explicitly indicates that the verb describes an act of initiating motion in another entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that acts as the instigator, causing the other entity to run, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is caused to move, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "emotional_state.n.01",
+      "value_type": "panic.n.01",
+      "reasoning": "The phrase 'in panic' in the definition specifies the crucial emotional state and manner accompanying the forced running, differentiating it from merely causing someone to run."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing a stampede is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is 'Something', indicating a lack of inherent will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The word 'panic' carries an inherently negative connotation, indicating distress or fear."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ---- somebody' indicates that the agent is a non-volitional entity ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing a stampede is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single event of causing a stampede, rather than repeated or continuous causation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

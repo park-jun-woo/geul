@@ -1,0 +1,59 @@
+{
+  "synset_id": "water.v.01",
+  "definition": "supply with water, as with channels or ditches or streams",
+  "frame_id": 2,
+  "frame_text": "Something irrigate something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "wetness.n.01",
+      "reasoning": "The verb 'water' describes causing a change in the patient's state from dry to wet.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of watering, causing the change in state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that receives water and undergoes the change to become wet."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "substance.n.01",
+      "value_type": "water.n.01",
+      "reasoning": "The verb 'water' intrinsically means to apply the substance water, which is a core component of its meaning."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of watering is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' with a generic 'Something' as the agent does not imply explicit will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of watering is neutral; its sentiment depends on the specific context and outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' (interpreting 'irrigate' as 'water') with a generic 'Something' as the agent often implies a non-volitional cause or a system, consistent with samples for 'Something' subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of watering is described as a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'supply with water, as with channels or ditches or streams' and the implied 'irrigate' nature suggest a continuous or highly repetitive process rather than a single event."
+    }
+  }
+}

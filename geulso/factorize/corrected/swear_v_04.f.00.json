@@ -1,0 +1,60 @@
+{
+  "synset_id": "swear.v.04",
+  "definition": "make a deposition; declare under oath",
+  "frame_id": 0,
+  "frame_text": "Somebody depone that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "declaration.n.01",
+      "reasoning": "The verb describes the act of making a formal statement or assertion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of declaring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content or proposition that is being declared under oath."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value_type": "oath.n.01",
+      "reasoning": "The declaration is inherently made 'under oath', which constitutes a specific formal and binding condition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of swearing is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of swearing itself is neutral; the content of the sworn statement determines any sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----' explicitly includes a volitional agent, making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'swear' under oath implies a strong assertion of truth and certainty in the statement made."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a solemn declaration."
+    }
+  }
+}

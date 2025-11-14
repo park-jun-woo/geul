@@ -1,0 +1,65 @@
+{
+  "synset_id": "iron.v.01",
+  "definition": "press and smooth with a heated iron",
+  "frame_id": 1,
+  "frame_text": "Somebody iron_out something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "smoothness.n.01",
+      "reasoning": "The core meaning of 'iron' is to change the state of an object from wrinkled to smooth.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that performs the action of ironing, causing the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the object that undergoes the change of state, becoming smooth."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "pressure.n.01",
+      "reasoning": "The definition 'press and smooth' indicates that the action is performed by applying pressure."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "iron.n.01",
+      "reasoning": "The action is specifically performed using an 'iron', which is typically heated, as stated in the definition ('with a heated iron')."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Ironing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of ironing implies an intentional modification of an object, indicating strong will on the part of the agent (even if a machine operating by design)."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of ironing itself is neutral; its outcome can be positive (smooth clothes) or negative (e.g., scorched clothes)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "Ironing is a purposeful and intentional act performed by an agent (whether a person or a machine designed to perform this task), even though the frame uses the generic 'Something'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of ironing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Ironing involves continuous, highly repetitive movements of the iron over the fabric to achieve the desired smoothness."
+    }
+  }
+}

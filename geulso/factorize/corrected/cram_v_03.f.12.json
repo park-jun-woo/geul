@@ -1,0 +1,66 @@
+{
+  "synset_id": "cram.v.03",
+  "definition": "study intensively, as before an exam",
+  "frame_id": 12,
+  "frame_text": "Somebody mug_up",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes the process of acquiring or improving knowledge through mental effort, which is a change in cognitive state. This aligns with its hypernym 'study' and the outcome of 'gain knowledge'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the intensive study, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The implicit information or subject matter that is the object of the intensive study. Though not explicit in the frame, it is inherent to 'study'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "intensity.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition explicitly uses the adverb 'intensively', indicating a high degree of effort or focus in the study."
+    },
+    {
+      "verb_type": "circumstance",
+      "verb_property": "purpose.n.01",
+      "value_type": "preparation.n.01",
+      "reasoning": "The phrase 'as before an exam' specifies a common purpose or context for this type of intensive study."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of studying intensively is a direct cognitive and often observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame and the nature of 'intensive study' imply a strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cramming itself is neutral; its outcome can be positive or negative depending on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody mug_up' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action of studying."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Intensive study ('cramming') typically involves highly repetitive actions (e.g., reading, reviewing, memorizing) over a period, rather than a single discrete event."
+    }
+  }
+}

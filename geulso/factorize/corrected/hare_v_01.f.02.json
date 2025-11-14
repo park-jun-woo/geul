@@ -1,0 +1,59 @@
+{
+  "synset_id": "hare.v.01",
+  "definition": "run quickly, like a hare",
+  "frame_id": 2,
+  "frame_text": "Something hare",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'run quickly' inherently describes a change in location or state of motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the self-propelled action of moving quickly, acting as the agent of its own motion, even if not necessarily volitional in all contexts, the verb attributes such agency."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the endpoint or goal of the movement, often specified by the prepositional phrase (PP) in this frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "fast.a.01",
+      "reasoning": "The definition explicitly includes 'quickly', which describes the manner of the movement. 'Like a hare' further specifies this quick, darting manner."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'hareing' (running quickly) is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Despite 'Something' as the subject, the verb 'hare' implies an intrinsic drive or will to move quickly, drawing from the nature of a hare's movement and its hypernym 'run', which is typically volitional. The action itself expresses a strong intentionality of rapid movement."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'hareing' is neutral; its sentiment depends on the context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The verb 'hare' refers to a specific, active, and typically intentional form of rapid self-propelled motion (like a hare). Even when applied to inanimate objects, it implies an attributed, almost volitional, drive. This overrides the general 'Something' heuristic."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of 'hareing' is described as a definite occurrence or ongoing action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of running involves continuous, highly repetitive steps, thus indicating high iterativity."
+    }
+  }
+}

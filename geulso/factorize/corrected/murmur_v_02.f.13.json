@@ -1,0 +1,70 @@
+{
+  "synset_id": "murmur.v.02",
+  "definition": "make complaining remarks or noises under one's breath",
+  "frame_id": 13,
+  "frame_text": "Somebody mutter PP",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "vocalization.n.01",
+      "reasoning": "The verb 'murmur' describes a deliberate act of producing vocal sounds or speech.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of murmuring, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "utterance.n.01",
+          "reasoning": "The 'remarks or noises' that are produced by the vocalization, as implied by the definition."
+        },
+        {
+          "semantic_role": "topic.n.01",
+          "reasoning": "The 'PP' in the frame `Somebody mutter PP` typically specifies the subject or content of the murmuring."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "low_volume.a.01",
+      "reasoning": "The definition 'under one's breath' directly indicates that the vocalization occurs at a low volume."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sentiment.n.01",
+      "value_type": "negative.a.01",
+      "reasoning": "The definition explicitly states 'complaining remarks,' which indicates a negative sentiment or disposition conveyed through the vocalization."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of murmuring is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'complaining remarks' inherently assigns a negative sentiment to the action."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of murmuring."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of murmuring is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Murmuring often involves a continuous or repetitive series of low-volume remarks or noises, suggesting high iterativity rather than a single discrete event."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "inspect.v.01",
+  "definition": "look over carefully",
+  "frame_id": 1,
+  "frame_text": "Somebody inspect something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "observation.n.01",
+      "reasoning": "The definition 'look over carefully' describes an ongoing activity of sensory perception and mental processing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of observing and examining."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' or object that is being observed and examined."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "thorough.a.01",
+      "reasoning": "The adverb 'carefully' in the definition specifies the detailed and thorough manner in which the observation is conducted."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Inspecting is an act of direct, personal observation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies intentionality and will in performing the inspection."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of inspecting itself is neutral; its positive or negative connotations depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody inspects somebody' indicates a conscious, intentional action by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Inspecting implies a deliberate effort to gain certainty or detailed understanding."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'look over carefully' implies a sustained activity involving repeated, focused observations rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

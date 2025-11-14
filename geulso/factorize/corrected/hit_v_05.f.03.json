@@ -1,0 +1,59 @@
+{
+  "synset_id": "hit.v.05",
+  "definition": "affect or afflict suddenly, usually adversely",
+  "frame_id": 3,
+  "frame_text": "Something hit something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "well-being.n.01",
+      "reasoning": "The definition 'affect or afflict' describes a causal action that changes the state of well-being of a patient, typically in a negative way.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame acts as the agent that causes the affection or affliction."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity indicated by the 'PP' (prepositional phrase) is the patient that undergoes the change in well-being or state due to the affection/affliction."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "sudden.a.01",
+      "reasoning": "The definition explicitly states that the affection or affliction occurs 'suddenly'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb describes a direct occurrence or observation of an event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While the frame contains 'Somebody', this sense of 'hit' often applies to abstract or non-volitional agents (e.g., 'a disease hit him'), implying a neutral stance on the agent's will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition explicitly states 'usually adversely', indicating a negative inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 0.0,
+      "reasoning": "Consistent with Modality, although 'Somebody' is present, the semantic sense of 'affect or afflict' often involves non-volitional agents (e.g., 'the crisis hit'). Therefore, volitionality is neutral rather than inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of affecting or afflicting."
+    }
+  }
+}

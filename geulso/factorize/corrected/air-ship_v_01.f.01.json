@@ -1,0 +1,60 @@
+{
+  "synset_id": "air-ship.v.01",
+  "definition": "transport (cargo) by air",
+  "frame_id": 1,
+  "frame_text": "Somebody air-ship something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'air-ship' describes the act of transporting, which is a change in the location of cargo.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the entity initiating and performing the transport."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "cargo.n.01",
+          "reasoning": "The 'something' being transported, explicitly defined as 'cargo' in the synset definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "air.n.01",
+      "reasoning": "The 'air-' component of 'air-ship' specifies the inherent medium or mode of transportation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of air-shipping is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transporting cargo is inherently neutral; context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of air-shipping."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of air-shipping is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of transporting cargo by air."
+    }
+  }
+}

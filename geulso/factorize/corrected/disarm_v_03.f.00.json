@@ -1,0 +1,69 @@
+{
+  "synset_id": "disarm.v.03",
+  "definition": "take away the weapons from; render harmless",
+  "frame_id": 0,
+  "frame_text": "Somebody disarm somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The verb 'disarm' describes the action of taking away weapons, which is a change in who possesses those items.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame, who initiates the act of taking away weapons."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The second 'somebody' in the frame, from whom the weapons are taken."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "weapon.n.01",
+          "reasoning": "The implicit 'weapons' that are the object of the transfer of possession, being removed from the source."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "harmfulness.n.01",
+      "reasoning": "The definition 'render harmless' indicates a change in the state of the disarmed individual from potentially harmful to harmless.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is rendered harmless as a result of being disarmed."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of disarming is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies an agent acting with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of disarming is neutral; its sentiment depends on the context (e.g., disarming a threat vs. an ally)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of removing weapons from someone."
+    }
+  }
+}

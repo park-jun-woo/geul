@@ -1,0 +1,63 @@
+{
+  "synset_id": "sum_up.v.01",
+  "definition": "give a summary (of)",
+  "frame_id": 8,
+  "frame_text": "Something resume something",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "information.n.02",
+      "reasoning": "The definition 'give a summary (of)' explicitly describes an act of conveying information.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., a document, a report, a situation) that acts as the source or instrument of the summarization and communication, as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.02",
+          "reasoning": "The 'something' (original content or topic) that is being condensed and presented."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "concise.a.01",
+      "reasoning": "A core semantic component of 'sum up' is the manner of presenting information in a condensed, brief, or concise form."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of summarizing and presenting a summary is typically a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-volitional agent (e.g., a document, an abstract concept) that does not possess conscious will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of summing up is semantically neutral; its positive or negative valence depends on the content or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something resume something' (interpreted as 'Something sums up something') features a non-agentive subject ('Something'), indicating that the action is not performed with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of summing up is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single, complete act of summarizing a specific body of information."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

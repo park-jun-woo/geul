@@ -1,0 +1,62 @@
+{
+  "synset_id": "declare.v.06",
+  "definition": "designate (a trump suit or no-trump) with the final bid of a hand",
+  "frame_id": 0,
+  "frame_text": "Somebody declare something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The definition 'designate (a trump suit or no-trump)' describes an action that changes the status or role of a game element within the context of a card game.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of designating or announcing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (trump suit or no-trump) whose status is being changed or designated by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "communication.n.01",
+      "value": "formal.a.01",
+      "reasoning": "The verb 'declare' implies a formal, often explicit, announcement or designation, especially within a structured context like a game."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of declaring in a game is a directly observable and definite action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative action within the game."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' makes the declaration with clear intention and will in the context of a game strategy."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of declaring a trump suit is neutral; its outcome can be good or bad depending on the game play, but the act itself carries no inherent sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody declare something' indicates a volitional agent making an intentional choice and announcement."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The declaration is a definite and certain act within the game."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single, distinct act of designating a trump suit per hand, not a continuous or highly repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

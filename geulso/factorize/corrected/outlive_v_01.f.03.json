@@ -1,0 +1,59 @@
+{
+  "synset_id": "outlive.v.01",
+  "definition": "live longer than",
+  "frame_id": 3,
+  "frame_text": "Somebody outlive something",
+  "sememes": [
+    {
+      "verb_type": "state",
+      "verb_property": "duration.n.01",
+      "reasoning": "The verb defines 'live longer than', which describes a state where one entity's duration of living exceeds another's.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (subject) that lives for a longer duration. While not an agent in a volitional sense, it is the entity whose state of living is being described and compared."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (object) that is outlived, serving as the benchmark for comparison of duration."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "comparison.n.01",
+      "value_type": "greater.a.01",
+      "reasoning": "The 'longer than' aspect inherently includes a comparative property, specifically indicating a greater duration for the subject compared to the object."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of outliving is typically something observed or confirmed directly, through records or lifespan."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual comparison of lifespans."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something outlive something' does not imply an agent's will; living longer is not an act of will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of outliving is neutral; it's a factual statement about relative lifespan, neither inherently positive nor negative."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subjects are 'Something', indicating non-agentive entities, and living longer is not an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'outlive' describes a definite state of having lived longer."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a continuous state (living) where its duration is compared, rather than a repetitive action. It's a single, continuous state of existence that ends later than another."
+    }
+  }
+}

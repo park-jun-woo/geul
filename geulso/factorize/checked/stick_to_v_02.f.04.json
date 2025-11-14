@@ -1,0 +1,75 @@
+{
+  "synset_id": "stick_to.v.02",
+  "definition": "keep to",
+  "frame_id": 4,
+  "frame_text": "Somebody stick_with VERB-ing",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "continuation.n.01",
+      "reasoning": "The definition 'keep to' and the hypernym 'persevere' indicate that the verb describes the act of sustaining an ongoing action or commitment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of persisting with an activity, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "activity.n.01",
+          "reasoning": "The 'VERB-ing' clause represents the activity or course of action that the agent continues to perform or maintain."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "persistent.a.01",
+      "reasoning": "The phrase 'stick with' and the hypernym 'persevere' imply a steadfast and persistent manner in which the continuation is carried out."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'sticking with' something is typically a direct experience for the agent or directly observable by others."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement about an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') and the nature of 'sticking with' (persevering) imply strong will and deliberate intention."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "No specific tense is indicated by the verb's core meaning, so a neutral (present) default is assumed."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb 'stick with' implies an ongoing, continuous process of maintaining an action or state, fitting the progressive aspect."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb is generally used in a neutral context without specific politeness implications."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'sticking with' something is inherently neutral; its positive or negative connotation depends on the context and the activity itself."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent, and 'stick with' describes an intentional act of perseverance."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of continuation or perseverance."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "To 'stick with' an activity means to maintain it over time, which inherently involves continuous, repeated effort or an ongoing process, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "spy.v.02",
+  "definition": "watch, observe, or inquire secretly",
+  "frame_id": 4,
+  "frame_text": "Somebody spy",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "surveillance.n.01",
+      "reasoning": "The definition 'watch, observe, or inquire secretly' describes an ongoing activity of monitoring, which constitutes a process of surveillance.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of spying, as indicated by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "secretly.r.01",
+      "reasoning": "The definition explicitly includes 'secretly' as a crucial characteristic, specifying the clandestine manner in which the observation or inquiry occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of spying is a directly experienced or performed activity by the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame indicates that the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'spying' inherently carries a negative or morally ambiguous connotation due to its clandestine nature and association with deception or intrusion."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act or ongoing process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Spying, defined as 'watch, observe, or inquire secretly,' typically involves sustained or repetitive actions over a period, rather than a single punctual event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

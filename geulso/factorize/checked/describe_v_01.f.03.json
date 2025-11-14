@@ -1,0 +1,56 @@
+{
+  "synset_id": "describe.v.01",
+  "definition": "give a description of",
+  "frame_id": 3,
+  "frame_text": "Somebody describe something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "representation.n.01",
+      "reasoning": "The definition 'give a description of' implies a process where one entity serves to represent or convey information about another.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The first 'Something' in the frame is the entity that provides or embodies the description."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' is the entity that is being described or represented."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of describing or being described is typically understood as a directly observable phenomenon or a fact."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a process or relationship."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' is non-agentive, implying no will or intention behind the act of describing."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of describing is neutral; the content or context of the description would determine any sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject (e.g., 'The book describes the events'), where the description is an inherent function or property."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'describe' implies a definite act or state of representation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme refers to a single conceptual act or continuous state of describing, rather than a repetition of discrete events."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

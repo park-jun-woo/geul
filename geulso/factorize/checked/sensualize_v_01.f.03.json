@@ -1,0 +1,62 @@
+{
+  "synset_id": "sensualize.v.01",
+  "definition": "represent materialistically, as in a painting or a sculpture",
+  "frame_id": 3,
+  "frame_text": "Somebody sensualize something",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "representation.n.01",
+      "reasoning": "The verb's core meaning is to create a depiction or image of something, as indicated by 'represent' in the definition and hypernym.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the act of creating the representation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the entity that is being depicted or represented."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "medium.n.01",
+      "value_type": "material.a.01",
+      "reasoning": "The adverb 'materialistically' in the definition specifies that the representation is brought into existence through a physical, tangible medium (e.g., painting, sculpture), which is a key characteristic of 'sensualize' in this sense."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of representing something materialistically is a directly observable phenomenon or artistic process."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the verb frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of representing something in a material form is neutral; its sentiment depends on the context or the subject represented."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action of representation."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sensualizing (representing materialistically) is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of creating a material representation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

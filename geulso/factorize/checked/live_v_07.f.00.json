@@ -1,0 +1,58 @@
+{
+  "synset_id": "live.v.07",
+  "definition": "pursue a positive and satisfying existence",
+  "frame_id": 0,
+  "frame_text": "Somebody live",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "existence.n.01",
+      "reasoning": "The verb describes an ongoing activity or process related to one's existence, as indicated by 'pursue'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs or engages in the described manner of existence, implied by 'pursue'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "well-being.n.01",
+      "reasoning": "The definition 'positive and satisfying existence' directly points to a characteristic of well-being inherent in this way of living."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb typically describes a direct observation or personal experience of a person's quality of life."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a fact or a characteristic way of living."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The term 'pursue' in the definition implies strong will and intention from the agent to achieve or maintain this type of existence."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition explicitly includes 'positive and satisfying', indicating an inherently positive sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody live' combined with the definition 'pursue a... existence' strongly indicates an intentional and volitional action or way of being."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement about someone living in a certain way is presented as a certainty."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The verb describes a continuous and ongoing activity ('pursue an existence') rather than a single, discrete event, implying a high degree of repetition or continuous engagement."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

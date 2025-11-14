@@ -1,0 +1,62 @@
+{
+  "synset_id": "doss.v.01",
+  "definition": "sleep in a convenient place",
+  "frame_id": 4,
+  "frame_text": "Somebody doss_down",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "sleep.n.01",
+      "reasoning": "The definition 'sleep in a convenient place' directly indicates the core activity of sleeping.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the activity of sleeping."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "convenient.a.01",
+      "reasoning": "The phrase 'in a convenient place' from the definition describes a characteristic of the location where the sleeping occurs, adding a semantic detail to the activity."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of sleeping is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody doss_down' implies the agent has the will and intention to perform the action."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "The term 'doss down' is typically informal or colloquial."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of sleeping itself is neutral; context may imbue it with positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame performing 'doss_down' indicates a volitional action, as one chooses to sleep in a particular way/place."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, continuous event of settling down to sleep."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

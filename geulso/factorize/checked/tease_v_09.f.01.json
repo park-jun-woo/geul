@@ -1,0 +1,62 @@
+{
+  "synset_id": "tease.v.09",
+  "definition": "ruffle (one's hair) by combing the ends towards the scalp, for a full effect",
+  "frame_id": 1,
+  "frame_text": "Somebody tease something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "form.n.01",
+      "reasoning": "The verb describes an action that modifies the physical form or volume of the hair (from neat to ruffled/full).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally performs the action of styling the hair."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (specifically hair) that undergoes the change in form and texture."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "method.n.01",
+      "value_type": "backcombing_technique.n.01",
+      "reasoning": "The definition specifies the precise method: 'by combing the ends towards the scalp', which is a distinct hair styling technique (backcombing)."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of teasing hair is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention to style hair."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of teasing hair is neutral; its sentiment depends on the desired outcome or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody tease something' explicitly includes a volitional agent ('Somebody'), indicating an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event described by the verb is typically presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'combing the ends towards the scalp' to achieve a 'full effect' involves repeated strokes, indicating high iterativity for the action itself, rather than a single, instantaneous event."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

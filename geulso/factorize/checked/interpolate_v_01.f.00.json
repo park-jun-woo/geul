@@ -1,0 +1,56 @@
+{
+  "synset_id": "interpolate.v.01",
+  "definition": "estimate the value of",
+  "frame_id": 0,
+  "frame_text": "Somebody extrapolate something",
+  "sememes": [
+    {
+      "verb_type": "computation",
+      "verb_property": "value.n.01",
+      "reasoning": "The definition 'estimate the value of' indicates a process of mathematical or logical derivation (computation) to determine an inherent attribute (value) of an entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of interpolation or estimation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose value is being estimated or calculated through interpolation."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Interpolation is a direct cognitive process performed by an agent, typically based on available data or observation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this frame is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action of interpolating is carried out with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of interpolating or estimating is neutral; the outcome or context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent ('Somebody') performing the action of interpolating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of performing an estimation, even if the result itself is an approximation rather than a certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of estimating a value for a given entity or set of data."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'computation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

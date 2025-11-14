@@ -1,0 +1,65 @@
+{
+  "synset_id": "talk_down.v.03",
+  "definition": "direct and control (the flight of an airplane during landing) via radio",
+  "frame_id": 1,
+  "frame_text": "Something talk_down somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "control.n.02",
+      "reasoning": "The verb describes an action that causes a change in the state of an airplane's flight path by exerting control and direction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., air traffic control) that initiates and performs the act of directing and controlling."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' (referring to the pilot/airplane) whose flight is being directed and controlled, undergoing the change in state/direction."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "radio.n.01",
+      "reasoning": "The definition explicitly states 'via radio,' indicating the specific instrument used for the directing and controlling action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "goal.n.01",
+      "value_type": "landing.n.01",
+      "reasoning": "The definition specifies the purpose of the action: 'during landing,' indicating the goal of the control."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of talking down an airplane is a direct interaction and therefore directly experienced by the participants."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Even though the subject is 'Something', in this context (e.g., air traffic control), it represents a system or entity that acts with strong will and intention to direct."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of directing an airplane for landing is inherently neutral in sentiment; its purpose is functional and safety-oriented."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The act of 'directing and controlling' is an intentional and volitional action, even if performed by an institutional 'Something' like air traffic control."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite and active process of control during a critical phase of flight."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Talking down an airplane during landing is a continuous, highly repetitive process of instructions and responses, not a single event."
+    }
+  }
+}

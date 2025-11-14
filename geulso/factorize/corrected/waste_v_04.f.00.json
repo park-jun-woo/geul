@@ -1,0 +1,61 @@
+{
+  "synset_id": "waste.v.04",
+  "definition": "run off as waste",
+  "frame_id": 0,
+  "frame_text": "Something is run_offing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'run off' describes a change in location or movement, as further supported by the hypernym 'run.v.06' (move along, of liquids).",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the motion."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "status.n.01",
+      "value_type": "waste.n.01",
+      "reasoning": "The phrase 'as waste' indicates the inherent nature or state of the substance that is running off, characterizing it as undesirable material.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' whose status is defined as 'waste'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of something running off as waste is typically a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or state."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something waste' lacks an agent capable of will, indicating no modality."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'waste' inherently carries a negative connotation, referring to discarded or undesirable material."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something waste' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of running off as waste."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'running off' (especially of liquids, as implied by the hypernym 'run.v.06') often implies a continuous or highly repetitive flow."
+    }
+  }
+}

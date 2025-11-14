@@ -1,0 +1,66 @@
+{
+  "synset_id": "try_on.v.01",
+  "definition": "put on a garment in order to see whether it fits and looks nice",
+  "frame_id": 0,
+  "frame_text": "Somebody try something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "attachment.n.01",
+      "reasoning": "The verb describes the action of causing a garment to change its state from not being on the body to being on the body, which is a change in attachment/location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of putting on the garment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (garment) that undergoes the change of attachment."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "body.n.01",
+          "reasoning": "The implied destination for the garment is the agent's body, which is essential to the meaning of 'try on'."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "assessment.n.01",
+      "reasoning": "A core component of 'try on' is the specific purpose of evaluation—to determine if the garment fits and looks good, distinguishing it from merely 'putting on' or 'wearing'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of trying on is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentional action, driven by the agent's will to evaluate the garment."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of trying on is neutral; the outcome of the evaluation can be positive or negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody try_on something' explicitly indicates a volitional agent performing the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of trying on is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single instance of putting on a garment for evaluation, although the overall process might involve multiple such instances."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

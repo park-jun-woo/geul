@@ -1,0 +1,68 @@
+{
+  "synset_id": "go_to_bed.v.01",
+  "definition": "prepare for sleep",
+  "frame_id": 1,
+  "frame_text": "Somebody crawl_in",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes a physical movement resulting in a change of location, specifically getting into bed.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "bed.n.01",
+          "reasoning": "The implied target location of the movement, derived from the meaning 'go to bed'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "crawl.v.01",
+      "reasoning": "The specific frame 'Somebody crawl_in' explicitly denotes the manner of movement into bed."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "sleep.n.01",
+      "reasoning": "The definition 'prepare for sleep' indicates the ultimate goal or intention behind the action of going to bed."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Going to bed is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of going to bed is neutral; its sentiment depends on context (e.g., eager for sleep vs. forced to bed)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of going to bed is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of transitioning to bed for sleep."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

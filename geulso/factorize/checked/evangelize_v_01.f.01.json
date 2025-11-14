@@ -1,0 +1,56 @@
+{
+  "synset_id": "evangelize.v.01",
+  "definition": "preach the gospel (to)",
+  "frame_id": 1,
+  "frame_text": "Somebody evangelise somebody",
+  "sememes": [
+    {
+      "verb_type": "communication",
+      "verb_property": "doctrine.n.01",
+      "reasoning": "The verb describes the act of communicating a specific religious doctrine (the gospel).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the one who performs the act of evangelizing; the speaker or preacher."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' in the frame is the target audience or receiver of the message."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of evangelizing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of evangelizing is neutral in sentiment; its perceived polarity depends on the context and beliefs of the observer."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly includes a volitional agent performing the action, making it intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of evangelizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Evangelizing often refers to a sustained effort involving repeated acts of communicating the gospel rather than a single instance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

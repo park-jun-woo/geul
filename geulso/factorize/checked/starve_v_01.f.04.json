@@ -1,0 +1,68 @@
+{
+  "synset_id": "starve.v.01",
+  "definition": "be hungry; go without food",
+  "frame_id": 4,
+  "frame_text": "Somebody starve",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "deprivation.n.01",
+      "reasoning": "The definition 'go without food' describes a continuous process of undergoing deprivation, leading to a state of severe hunger or suffering.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who undergoes the process of deprivation and suffers its effects, acting as the subject of the verb."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "food.n.01",
+          "reasoning": "The implicit 'food' that the subject goes without, leading to the state of hunger."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "hunger.n.01",
+      "reasoning": "The definition 'be hungry' explicitly states a resulting physical condition or state. This state is reached or deepened through the process of deprivation.",
+      "participants": [
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'Somebody' who experiences the state of hunger."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process and state of starving are typically directly observable or experienced."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing a process and state of being."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "While one can intentionally starve (e.g., hunger strike), the primary and most common sense of 'starve' (intransitive) describes a condition suffered by the subject, implying a lack of agency or will in the onset of the deprivation."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of starving inherently carries a negative connotation due to the associated suffering, pain, and potential death."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "In the intransitive frame 'Somebody starve', the subject is usually undergoing a condition of deprivation against their will or due to circumstances, rather than performing an intentional act of self-starvation. It refers to the suffering, which is non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process and state."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Starving is a continuous process or an ongoing state, not a discrete, repeatable action. It is treated as a single, prolonged instance."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

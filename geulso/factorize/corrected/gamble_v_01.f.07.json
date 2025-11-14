@@ -1,0 +1,60 @@
+{
+  "synset_id": "gamble.v.01",
+  "definition": "take a risk in the hope of a favorable outcome",
+  "frame_id": 7,
+  "frame_text": "Somebody run_a_risk that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "risk.n.01",
+      "reasoning": "The verb 'gamble' directly refers to the action of taking or running a risk, as stated in the definition 'take a risk'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame is the agent who intentionally performs the action of running a risk."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'that CLAUSE' specifies the uncertain event or outcome that constitutes the specific risk being taken or gambled upon."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "hope.n.01",
+      "reasoning": "The definition 'in the hope of a favorable outcome' indicates an inherent motivational property or goal associated with the act of gambling.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of taking a risk is typically a directly observed or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame and the nature of 'running a risk' imply a strong will or intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of gambling itself is neutral, involving both potential negative (risk) and positive (favorable outcome) aspects, making the inherent sentiment neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody run_a_risk' explicitly indicates a volitional agent ('Somebody') choosing to perform the action."
+    },
+    "Confidence": {
+      "value": -1.0,
+      "reasoning": "The essence of gambling is an uncertain outcome, meaning there is inherent speculation or lack of certainty regarding the result."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame describes a single instance of an agent running a risk concerning a specific proposition, not an inherently repetitive action."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "clock_in.v.01",
+  "definition": "register one's arrival at work",
+  "frame_id": 0,
+  "frame_text": "Somebody clock_in",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes an action that officially changes the agent's employment status to indicate presence at work.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of clocking in, thereby initiating the status change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Somebody' (the agent themselves) whose status is officially altered from absent to present."
+        },
+        {
+          "semantic_role": "location.n.01",
+          "value_type": "work.n.02",
+          "reasoning": "The location where the arrival and subsequent status change are registered, as implied by 'at work' in the definition."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Clocking in is typically a directly observable action or one's own direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by an agent's will and intent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of clocking in is neutral; its sentiment depends on context or associated events."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody clock_in' explicitly indicates a volitional agent performing the action, as it requires conscious effort."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of clocking in is a definite, factual occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of registering arrival for a specific work period."
+    }
+  }
+}

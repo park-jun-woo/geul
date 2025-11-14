@@ -1,0 +1,65 @@
+{
+  "synset_id": "transfer.v.06",
+  "definition": "change from one vehicle or transportation line to another",
+  "frame_id": 6,
+  "frame_text": "Something is transfering PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "transportation.n.01",
+      "reasoning": "The definition 'change from one vehicle or transportation line to another' explicitly describes a change of state within the domain of transportation.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of transportation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "Implied by 'from one vehicle or transportation line' in the definition, indicating the initial mode or line."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "Implied by 'to another' in the definition and represented by the 'PP' in the frame, indicating the new mode or line."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of transferring transportation is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is transfering' lacks an agent capable of will, indicating no inherent modality."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The 'is transfering' in the verb frame explicitly indicates a progressive aspect, meaning the action is ongoing."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'transfer' itself does not inherently carry a politeness level."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of transferring transportation is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is transfering' describes an event happening to a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite occurrence or an ongoing definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "Although the progressive aspect indicates an ongoing event, 'transfer' in this sense refers to a single, continuous instance of changing transportation, rather than repeated discrete acts."
+    }
+  }
+}

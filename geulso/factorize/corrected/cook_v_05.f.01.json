@@ -1,0 +1,59 @@
+{
+  "synset_id": "cook.v.05",
+  "definition": "transform by heating",
+  "frame_id": 1,
+  "frame_text": "Something cook something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.01",
+      "reasoning": "The verb 'cook' is defined as 'transform by heating', directly indicating a change in the state or condition of an object (e.g., from raw to cooked).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame acts as the non-volitional entity or force that initiates the transformation (e.g., the oven, the heat source)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that undergoes the transformation or change of state due to cooking (e.g., food)."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "verb_property": "heat.n.02",
+      "reasoning": "The definition explicitly specifies 'by heating' as the essential method or means by which the transformation occurs, making 'heat' a core semantic component of the action.",
+      "participants": []
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Cooking is a directly observable process or event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something cook something' indicates a non-volitional subject ('Something') acting as the cause, thus no agent's will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of cooking is semantically neutral; its positive or negative connotation depends on the outcome or context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something cook something' implies a non-agentive subject ('Something') causing the action, meaning the action is inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process of transformation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'cook' in this context refers to a single, continuous process of transformation rather than a repetitive action composed of discrete steps."
+    }
+  }
+}

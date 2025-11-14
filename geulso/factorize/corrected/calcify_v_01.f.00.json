@@ -1,0 +1,60 @@
+{
+  "synset_id": "calcify.v.01",
+  "definition": "become impregnated with calcium salts",
+  "frame_id": 0,
+  "frame_text": "Something calcify",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "composition.n.01",
+      "reasoning": "The definition 'become impregnated with calcium salts' describes a transition in the material composition of a substance, leading to a new state.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change in its composition by becoming impregnated with calcium salts, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "state",
+      "verb_property": "hardness.n.01",
+      "reasoning": "The impregnation with calcium salts inherently leads to the state of becoming harder, as indicated by the hypernym 'harden.v.01'. This is the resulting physical property.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that acquires the property of hardness as a result of calcification."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Calcification is a physical process that can be directly observed or detected through various means."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something calcify' lacks an agent capable of will; the process is not driven by intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calcification is a neutral biological or geological process; its sentiment depends on context (e.g., bone formation vs. arterial calcification)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something calcify' describes an event happening to a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The process of calcification is described as a definite occurrence or ongoing phenomenon."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Calcification is typically a gradual and continuous process involving the repeated accumulation of calcium salts, rather than a single instantaneous event. Therefore, it has high iterativity (or continuity)."
+    }
+  }
+}

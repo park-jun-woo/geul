@@ -1,0 +1,62 @@
+{
+  "synset_id": "straighten.v.06",
+  "definition": "make straight or straighter",
+  "frame_id": 0,
+  "frame_text": "Somebody straighten something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "shape.n.01",
+      "reasoning": "The definition 'make straight or straighter' describes a transformation in the physical form or alignment of an object, which is a change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who initiates and causes the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame is the object that undergoes the change in shape or alignment."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "straightness.n.01",
+      "value_type": "state.n.02",
+      "reasoning": "The result of the action is that the patient achieves a state of being straight or straighter."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of straightening something is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent acting with will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of straightening is inherently neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody straighten something' explicitly identifies a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence, not speculative."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "For a singular 'something', the verb typically refers to a single, completed act of making it straight, rather than an inherently repetitive process without further context."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

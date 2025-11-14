@@ -1,0 +1,62 @@
+{
+  "synset_id": "toy.v.02",
+  "definition": "manipulate manually or in one's mind or imagination",
+  "frame_id": 0,
+  "frame_text": "Somebody diddle PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "manipulation.n.01",
+      "reasoning": "The verb's definition directly states 'manipulate', indicating an ongoing process of handling or influencing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of manipulating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' that is the object of manipulation. This can be a concrete object (if manipulated manually) or an abstract concept (if manipulated in one's mind or imagination)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "frivolous.a.01",
+      "reasoning": "The verb 'toy' inherently implies that the manipulation is performed in a light, idle, or playful manner, often lacking serious purpose or deep engagement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'toying' can be directly observed (physical manipulation) or inferred from behavior (mental manipulation)."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of 'toying' is inherently neutral; its sentiment depends on the specific context and object being toyed with."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action of toying."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process, assuming it occurs as stated."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The act of 'toying' implies a continuous or highly repetitive series of manipulations or engagements rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

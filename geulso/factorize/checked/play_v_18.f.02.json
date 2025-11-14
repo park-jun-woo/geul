@@ -1,0 +1,57 @@
+{
+  "synset_id": "play.v.18",
+  "definition": "cause to emit recorded audio or video",
+  "frame_id": 2,
+  "frame_text": "Something play something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "output.n.01",
+      "reasoning": "The verb's definition 'cause to emit' explicitly describes a causal action leading to an output, which is the playback of media.",
+      "participants": [
+        {
+          "semantic_role": "instrument.n.01",
+          "reasoning": "The first 'Something' in the frame (e.g., a device like a CD player) acts as the instrument that causes the emission of recorded media."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "recording.n.02",
+          "reasoning": "The second 'something' is the recorded audio or video content that is being emitted/played, represented by the WordNet synset 'recording.n.02'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to emit recorded audio/video is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame implies a non-sentient entity or a device, thus lacking an inherent will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of playing recorded media is generally neutral; its sentiment depends on the content being played."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' implies that the subject ('Something') is a non-agentive device or entity, making the action non-volitional on its part."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The event of causing recorded media to emit is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The emission of recorded audio or video is a continuous process over a period, consisting of many small, repeated instances of sound/light, implying high iterativity for the duration of the playback."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

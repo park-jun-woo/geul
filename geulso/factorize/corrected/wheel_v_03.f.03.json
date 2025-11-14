@@ -1,0 +1,59 @@
+{
+  "synset_id": "wheel.v.03",
+  "definition": "move along on or as if on wheels or a wheeled vehicle",
+  "frame_id": 3,
+  "frame_text": "Somebody wheel PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'move along' describes a change of location, which is a fundamental change of state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of moving, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "An optional participant indicating the spatial endpoint or direction of the movement, typically specified by the prepositional phrase (PP)."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "wheeled_vehicle.n.01",
+      "reasoning": "A core semantic component of 'wheel' is that the movement is specifically performed 'on or as if on wheels or a wheeled vehicle', making this the instrument of motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of wheeling is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of wheeling is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of wheeling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Wheeling implies continuous, repetitive motion (e.g., the turning of wheels), thus having high iterativity similar to 'run'."
+    }
+  }
+}

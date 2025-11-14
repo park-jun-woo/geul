@@ -1,0 +1,59 @@
+{
+  "synset_id": "hoax.v.01",
+  "definition": "subject to a playful hoax or joke",
+  "frame_id": 1,
+  "frame_text": "Somebody play_a_joke_on somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "deception.n.01",
+      "reasoning": "The verb 'hoax' describes an action that causes a change in the patient's state of belief or perception, specifically through an act of deception. The hypernym 'deceive' supports this.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the frame is the initiator of the hoax."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'somebody' in the frame is the one who is subjected to the hoax and whose belief/perception is affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "playful.a.01",
+      "reasoning": "The definition explicitly includes 'playful', indicating the lighthearted and non-malicious manner or intent of the deception, which is a core semantic component distinguishing it from other forms of deception."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of hoaxing or playing a joke is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody play_a_joke_on somebody' implies the agent ('Somebody') acts with clear will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "While 'hoax' can sometimes carry negative connotations, the 'playful' aspect in the definition renders the intrinsic sentiment neutral, as it's not meant to be harmful."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody play_a_joke_on somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of performing a hoax or joke."
+    }
+  }
+}

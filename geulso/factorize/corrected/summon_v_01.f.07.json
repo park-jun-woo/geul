@@ -1,0 +1,67 @@
+{
+  "synset_id": "summon.v.01",
+  "definition": "call in an official matter, such as to attend court",
+  "frame_id": 7,
+  "frame_text": "Somebody summons somebody PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "presence.n.01",
+      "reasoning": "The verb 'summon' implies causing someone to change their location to be present at a specific place, as indicated by 'to attend court'. This is a change of state regarding presence/absence.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates the official call, causing the change in presence of another person."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is called and whose presence is affected by the summoning."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) specifies the target location or event (e.g., 'to court') where the summoned person is expected to appear."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "context.n.01",
+      "value_type": "official_matter.n.01",
+      "reasoning": "The definition explicitly states 'in an official matter', which is a key distinguishing characteristic of 'summon' as opposed to a general 'call'. This describes the formal context of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of summoning is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with clear intention and will to issue the summons."
+    },
+    "Politeness": {
+      "value": 1.0,
+      "reasoning": "The phrase 'in an official matter' strongly implies a formal context and therefore a formal level of politeness."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of summoning itself is semantically neutral; its positive or negative implications depend on the context and purpose."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody summons...' clearly indicates a volitional agent performing an intentional action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of summoning is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of issuing a summons."
+    }
+  }
+}

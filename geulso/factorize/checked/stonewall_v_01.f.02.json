@@ -1,0 +1,62 @@
+{
+  "synset_id": "stonewall.v.01",
+  "definition": "obstruct or hinder any discussion",
+  "frame_id": 2,
+  "frame_text": "Somebody stonewall something",
+  "sememes": [
+    {
+      "verb_type": "causation_of_state",
+      "verb_property": "obstruction.n.01",
+      "reasoning": "The definition 'obstruct or hinder' clearly indicates that the verb describes causing a state of blockage or difficulty.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who intentionally initiates the act of stonewalling, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the target of the obstruction, whose efforts to discuss are hindered."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "context.n.01",
+      "value_type": "discussion.n.01",
+      "reasoning": "The definition 'obstruct or hinder any discussion' specifies that the obstruction is specifically directed at a discussion or conversational context, making this a crucial inherent property of the verb."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of stonewalling is an observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To 'obstruct or hinder' inherently carries a negative connotation or impact."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of stonewalling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Stonewalling often involves sustained and repeated actions or a continuous pattern of resistance rather than a single discrete event, implying high repetition to maintain the obstruction."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation_of_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

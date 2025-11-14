@@ -1,0 +1,65 @@
+{
+  "synset_id": "seize.v.01",
+  "definition": "take hold of; grab",
+  "frame_id": 2,
+  "frame_text": "Somebody prehend somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "connection.n.01",
+      "reasoning": "The verb 'seize' describes an action that causes a change from a state of being unconnected to being physically held or connected to the agent.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame that performs the action of taking hold."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is grasped or taken hold of by the agent."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "quick.a.01",
+      "reasoning": "The definition 'grab' implies that the action of taking hold is typically quick and sudden."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "forceful.a.01",
+      "reasoning": "The definition 'grab' suggests that the action often involves a degree of force."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of seizing is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-human or inanimate subject, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of seizing is neutral; its sentiment depends on the context and what is seized."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates that the action is performed by a non-agentive subject ('Something'), making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of seizing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete event of taking hold."
+    }
+  }
+}

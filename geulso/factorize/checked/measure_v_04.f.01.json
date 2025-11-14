@@ -1,0 +1,56 @@
+{
+  "synset_id": "measure.v.04",
+  "definition": "evaluate or estimate the nature, quality, ability, extent, or significance of",
+  "frame_id": 1,
+  "frame_text": "Somebody assess something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "evaluation.n.02",
+      "reasoning": "The definition 'evaluate or estimate' describes a cognitive process aimed at determining characteristics or value, which is a form of evaluation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the act of evaluation, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' whose nature, quality, ability, extent, or significance is being evaluated or estimated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of evaluating is a direct cognitive experience of the agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies intentionality and will in performing the assessment."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of evaluation itself is neutral; the outcome of the evaluation may carry sentiment, but the process does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody assess something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'assess' implies a definite act of attempting to determine or evaluate, even if the result is an 'estimate'."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'assess' typically refers to a single, complete instance of evaluation, unless otherwise specified (e.g., 'continuously assess')."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

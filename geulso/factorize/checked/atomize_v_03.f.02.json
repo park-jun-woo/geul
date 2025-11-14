@@ -1,0 +1,62 @@
+{
+  "synset_id": "atomize.v.03",
+  "definition": "break up into small particles",
+  "frame_id": 2,
+  "frame_text": "Something atomise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_form.n.01",
+      "reasoning": "The definition 'break up into small particles' indicates a fundamental alteration of the physical form of an object.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the verb frame is the entity that causes the breaking, acting as the agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the verb frame is the entity that undergoes the change, being broken up into particles."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "size.n.01",
+      "value_type": "small.a.01",
+      "reasoning": "The verb specifically implies a result of becoming 'small particles', indicating a reduction in size or division into smaller components."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of atomizing is a physically observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The agent is 'Something', indicating a lack of will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of atomizing is neutral; its sentiment depends on context (e.g., atomizing fuel is positive, atomizing a structure could be negative)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (the first 'Something') causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single event of transforming one object into many particles, not a repeated action of atomizing multiple distinct objects."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

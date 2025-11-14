@@ -1,0 +1,59 @@
+{
+  "synset_id": "press_down.v.01",
+  "definition": "press down",
+  "frame_id": 1,
+  "frame_text": "Somebody press_down something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "position.n.01",
+      "reasoning": "The verb 'press down' describes causing a change in the spatial position of an object, specifically moving it downwards.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The initial 'Something' in the frame acts as the agent causing the change in position of the patient."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity whose position is changed by the action of pressing down."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "force.n.01",
+      "value_type": "downward.a.01",
+      "reasoning": "The word 'press' inherently implies the application of physical force. 'Down' specifies the direction of this force and the resulting movement."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of pressing down is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-volitional entity or force, therefore no will is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of pressing down is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something press_down something' indicates that the action is performed by a non-agentive 'Something', making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, albeit potentially sustained, action of applying force. It doesn't inherently suggest high repetition like 'run'."
+    }
+  }
+}

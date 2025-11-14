@@ -1,0 +1,58 @@
+{
+  "synset_id": "advise.v.02",
+  "definition": "inform (somebody) of something",
+  "frame_id": 1,
+  "frame_text": "Somebody advise somebody of something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The definition 'inform' indicates a change in the recipient's state of knowledge, from not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "source.n.03",
+          "reasoning": "The 'Something' in the frame is the origin or source of the information being conveyed. It's not a volitional agent but rather the means or content from which the advice originates."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' in the frame is the one who receives the information or advice, undergoing the change in knowledge state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "information.n.01",
+          "reasoning": "The implicit 'something' from the definition 'inform (somebody) of something' refers to the content (information or advice) being transferred. This is the entity whose state (of being known) changes for the recipient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The verb 'advise' (as inform) implies a direct conveyance of information, often assumed to be from direct knowledge."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of informing."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional entity, thus no will or intention is involved."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of informing itself is neutral; the content of the advice can be positive or negative, but the verb's inherent polarity is neutral."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the action is performed by a non-agentive 'Something', making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'advise' or 'inform' implies a level of certainty regarding the information being transmitted."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single act of informing or advising."
+    }
+  }
+}

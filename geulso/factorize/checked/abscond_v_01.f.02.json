@@ -1,0 +1,63 @@
+{
+  "synset_id": "abscond.v.01",
+  "definition": "run away; usually includes taking something or somebody along",
+  "frame_id": 2,
+  "frame_text": "Somebody absquatulate",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the core action of moving away from a location, which is a change of state, as indicated by 'run away'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of running away, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "secretly.r.01",
+      "reasoning": "A key semantic component of 'abscond' is the clandestine or hidden manner of departure, distinguishing it from simply 'running away' or 'fleeing' without that connotation."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "avoidance.n.01",
+      "reasoning": "The action of absconding is inherently undertaken with the specific purpose of avoiding consequences, debts, or capture, which is implied by the verb's definition and common usage."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of absconding is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Absconding generally carries a negative connotation, as it implies avoiding legal or moral obligations or consequences."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s' explicitly indicates a volitional agent performing the act of running away."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of absconding, if it occurs, is described as a definite event."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete event of departure, rather than a repetitive process."
+    }
+  },
+  "errors": [
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

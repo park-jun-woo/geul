@@ -1,0 +1,65 @@
+{
+  "synset_id": "park.v.02",
+  "definition": "maneuver a vehicle into a parking space",
+  "frame_id": 0,
+  "frame_text": "Somebody park",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The definition 'maneuver a vehicle into a parking space' describes a change in the spatial location of the vehicle, which is a form of motion culminating in a specific destination.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of maneuvering the vehicle, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "vehicle.n.01",
+          "reasoning": "The 'vehicle' that is being maneuvered and whose location is changed, as implied by the definition."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "value_type": "parking_space.n.01",
+          "reasoning": "The 'parking space' which is the target location for the vehicle, as explicitly stated in the definition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "controlled.a.01",
+      "reasoning": "The word 'maneuver' in the definition implies a controlled and often skillful manner of movement, distinguishing it from uncontrolled motion."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of parking is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of parking is neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody park' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of parking is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, completed event of placing a vehicle in a parking space."
+    }
+  }
+}

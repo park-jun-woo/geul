@@ -1,0 +1,56 @@
+{
+  "synset_id": "foster.v.03",
+  "definition": "help develop, help grow",
+  "frame_id": 2,
+  "frame_text": "Somebody nurture somebody",
+  "sememes": [
+    {
+      "verb_type": "cause_change",
+      "verb_property": "development.n.01",
+      "reasoning": "The definition 'help develop, help grow' indicates an action that causes a positive change in the state of another entity, specifically towards development or growth.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame acts as the entity that facilitates or promotes development, thus being the causal agent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the entity undergoing the process of development or growth, thus being the patient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of fostering development or growth is typically directly observable through its effects."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an occurrence."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies a non-agentive cause, lacking conscious will or intention."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The definition 'help develop, help grow' carries a clearly positive connotation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates that the action is performed by a non-volitional subject ('Something')."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'foster' implies a definite contribution to development or growth."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'development' or 'growth' implied by 'foster' suggests an ongoing and often repetitive or sustained action of helping rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause_change'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "synset_id": "leave.v.06",
+  "definition": "make a possibility or provide opportunity for; permit to be attainable or cause to remain",
+  "frame_id": 3,
+  "frame_text": "Somebody provide PP",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "state.n.01",
+      "reasoning": "The definition 'make a possibility or provide opportunity for; permit to be attainable or cause to remain' describes an action where an agent causes an entity to transition into or remain in a particular state or condition. This signifies a causative verb affecting a state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame acts as the initiator of the action, causing the resultant state."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The entity whose state or condition is affected or established. While not explicitly present as a direct object in the literal 'Somebody provide PP' (which is interpreted as 'Somebody ----s PP' for 'leave.v.06' due to input inconsistency), it is conceptually implied by the verb's definition (e.g., 'leave the door open', 'leave them without a choice')."
+        },
+        {
+          "semantic_role": "resultant_state.n.01",
+          "reasoning": "The particular state or condition that is brought about or maintained, typically described by the prepositional phrase (PP) in the verb frame (e.g., 'leave in doubt', 'leave open', 'leave with an option')."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of causing something to be in a certain state is typically a directly observable event or its outcome is directly evident."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that causes a state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies that the action of making a possibility or providing opportunity is typically driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of causing a state is neutral. The specific state created (e.g., 'leave open' vs. 'leave unresolved') or the context determines its sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly indicates a volitional agent performing the action, consistent with 'make a possibility' or 'provide opportunity'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb implies a definite occurrence of causing a state or possibility."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event of establishing or altering a state, rather than a repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "madrigal.v.01",
+  "definition": "sing madrigals",
+  "frame_id": 0,
+  "frame_text": "Somebody madrigal something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "singing.n.01",
+      "reasoning": "The verb 'madrigal' is defined as 'sing madrigals', indicating a core activity of vocal sound production, derived from its hypernym 'sing'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the act of singing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame refers to the musical piece or content being sung."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "type.n.01",
+      "value_type": "madrigal.n.01",
+      "reasoning": "The verb 'madrigal' specifies the particular type or style of singing, referring to the musical form known as a madrigal, which differentiates it from general singing."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of madrigaling (singing) is a directly observable performance."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies an agent acting with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of singing is inherently neutral; the content or context may introduce sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of madrigaling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame 'Somebody ----s something' typically refers to the performance of a discrete musical piece, implying a single event of singing that 'something'."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "synset_id": "scrape.v.01",
+  "definition": "scratch repeatedly",
+  "frame_id": 4,
+  "frame_text": "Something grate somebody",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "irritation.n.01",
+      "reasoning": "The specific frame 'Something grate somebody' implies that the physical action of 'scraping' (scratching repeatedly) causes a state of annoyance or psychological distress in a person. Thus, the verb denotes causing this irritation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the frame is the entity that causes the grating or irritation to occur."
+        },
+        {
+          "semantic_role": "experiencer.n.01",
+          "reasoning": "The 'somebody' in the frame is the individual who undergoes the experience of being grated upon or irritated."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "abrasive.a.01",
+      "reasoning": "The definition 'scratch repeatedly' and the verb 'scrape' inherently convey a manner of action that is abrasive, rough, or harsh in its effect, contributing to the irritation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of something grating on someone is typically directly experienced or observed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning in this context is declarative, stating an event of causation."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The causal agent is 'Something', which does not possess will or intention. Therefore, the modality is neutral."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The act of 'grating on somebody' is inherently negative, as it means to annoy or irritate them."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something grate somebody' indicates a non-volitional agent ('Something') causing the effect."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'scratch repeatedly' and the nature of 'grating' imply a high degree of repetition or continuous action over time that causes the irritation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

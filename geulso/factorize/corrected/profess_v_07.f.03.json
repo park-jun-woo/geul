@@ -1,0 +1,60 @@
+{
+  "synset_id": "profess.v.07",
+  "definition": "state insincerely",
+  "frame_id": 3,
+  "frame_text": "Somebody profess that CLAUSE",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "communication.n.01",
+      "reasoning": "The verb describes a deliberate act of verbal communication, specifically making a statement.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of stating, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'CLAUSE' represents the content that is being stated, which is a proposition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "sincerity.n.01",
+      "value_type": "insincere.a.01",
+      "reasoning": "A key semantic component of 'profess.v.07' is the insincere nature of the statement, as explicitly stated in the definition 'state insincerely'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of professing is typically a directly observable event or utterance."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that occurred."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies that the action of professing is performed with will and intent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'state insincerely' carries an inherent negative connotation due to the insincerity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody professes...' explicitly indicates a volitional agent performing the action of stating."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of professing is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of making a statement, not a repetitive action in itself."
+    }
+  }
+}

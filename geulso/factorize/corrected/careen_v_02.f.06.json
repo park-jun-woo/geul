@@ -1,0 +1,65 @@
+{
+  "synset_id": "careen.v.02",
+  "definition": "move sideways or in an unsteady way",
+  "frame_id": 6,
+  "frame_text": "Something is shifting PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb 'careen' describes a physical movement, which is a change in an entity's position or location, consistent with its hypernym 'move'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in motion."
+        },
+        {
+          "semantic_role": "path.n.01",
+          "reasoning": "The 'PP' (prepositional phrase) in the frame specifies the trajectory or spatial aspect of the unsteady movement."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "unsteady.a.01",
+      "reasoning": "The definition explicitly includes 'in an unsteady way' as a fundamental characteristic of the movement."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "direction.n.01",
+      "value_type": "lateral.a.01",
+      "reasoning": "The definition explicitly states 'sideways' as a defining characteristic of the movement's orientation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of careening is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event of motion."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the verb frame indicates a lack of inherent will or intention for the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of careening itself is semantically neutral; its positive or negative connotation depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The verb frame 'Something is shifting PP' features a non-agentive subject ('Something'), making the action inherently non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state of motion."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Moving 'in an unsteady way' implies continuous, often oscillatory or repetitive small adjustments, suggesting a high degree of iterativity rather than a single discrete event."
+    }
+  }
+}

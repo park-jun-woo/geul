@@ -1,0 +1,61 @@
+{
+  "synset_id": "reforest.v.01",
+  "definition": "forest anew",
+  "frame_id": 0,
+  "frame_text": "Something reforest somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "forest.n.01",
+      "reasoning": "The verb 'reforest' describes the act of causing a land area to become covered with trees again, signifying a change of state to being forested.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs or causes the action of reforesting, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the direct object of the reforesting action, being made into a forest anew, as specified by the verb frame. This is a semantically unusual construction for 'reforest', which typically takes a land area as its patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "aspectual",
+      "verb_property": "restoration.n.01",
+      "reasoning": "The prefix 're-' and the definition 'forest anew' explicitly indicate that the action is a restoration or recurrence of a previous state of being forested."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Reforesting is a directly observable process or event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame, particularly when referring to an inanimate or abstract subject, typically implies no inherent will or intention driving the action."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reforesting is semantically neutral, although it often carries positive environmental connotations."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' with 'Something' as the subject indicates a non-volitional action, consistent with the guideline for inanimate subjects."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite action or process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Reforesting is a continuous process or a project composed of numerous repeated actions (e.g., planting multiple trees over time), suggesting high repetition or sustained activity."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'aspectual'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "synset_id": "undo.v.01",
+  "definition": "cancel, annul, or reverse an action or its effect",
+  "frame_id": 1,
+  "frame_text": "Something undo something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "state.n.02",
+      "reasoning": "The definition 'cancel, annul, or reverse an action or its effect' implies a change in the state of a prior action or its consequences, from being 'done/effective' to 'undone/ineffective'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the action of undoing, initiating the change."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (an action or its effect) that undergoes the change of state by being reversed or cancelled."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "reversal.n.01",
+      "reasoning": "The core meaning of 'undo' explicitly involves reversing or negating a previous action or its outcome, as indicated by the hypernym 'change_by_reversal.v.01'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of undoing or its effects are typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional subject, thus no will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of undoing is inherently neutral; its positive or negative sentiment depends on the context and what is being undone."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' specifies a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'undo' describes a definite action that takes place."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb typically describes a single, discrete event of reversing a specific action or effect."
+    }
+  }
+}

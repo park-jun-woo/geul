@@ -1,0 +1,59 @@
+{
+  "synset_id": "chase.v.01",
+  "definition": "go after with the intent to catch",
+  "frame_id": 6,
+  "frame_text": "Somebody give_chase somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the act of moving after a target, which is a change in relative location or motion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who initiates and performs the act of chasing, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of pursuit, undergoing the action of being chased."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "purpose.n.01",
+      "value_type": "apprehension.n.01",
+      "reasoning": "A core semantic component of 'chase' is the specific intent or goal of catching (apprehending) the entity being pursued, distinguishing it from merely 'following'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chasing is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of chasing is neutral; its sentiment depends on the context and the participants."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody give_chase somebody' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of chasing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chasing is an action composed of continuous, highly repetitive movements or steps, ongoing until the goal is achieved or abandoned. Therefore, it has high iterativity."
+    }
+  }
+}

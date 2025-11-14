@@ -1,0 +1,68 @@
+{
+  "synset_id": "sting.v.02",
+  "definition": "deliver a sting to",
+  "frame_id": 0,
+  "frame_text": "Something bite somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "integrity.n.01",
+      "reasoning": "The definition 'deliver a sting to' implies a physical action that breaches the surface or integrity of the patient, consistent with the hypernym 'pierce'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that initiates the stinging action, causing the change in the patient's integrity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose physical integrity is breached by the sting."
+        }
+      ]
+    },
+    {
+      "verb_type": "causation",
+      "verb_property": "pain.n.01",
+      "reasoning": "An inherent consequence of 'delivering a sting' is the causation of pain to the recipient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that causes the sensation of pain."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who experiences the pain."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of stinging is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the frame implies a non-volitional agent (e.g., an insect, a plant, a sharp object) and thus lacks an agent's will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "Being stung is almost universally perceived as a negative experience due to the associated pain or harm."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional subject ('Something'), meaning the action is not performed with conscious intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'sting' in this context describes a definite and certain occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'sting' describes a single, discrete event of delivering a wound."
+    }
+  }
+}

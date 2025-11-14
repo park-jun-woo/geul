@@ -1,0 +1,53 @@
+{
+  "synset_id": "vet.v.01",
+  "definition": "work as a veterinarian",
+  "frame_id": 0,
+  "frame_text": "Somebody vet",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "profession.n.01",
+      "value_type": "veterinarian.n.01",
+      "reasoning": "The definition 'work as a veterinarian' clearly describes engaging in the activity associated with the profession of a veterinarian.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who performs the activity of working as a veterinarian."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Working as a veterinarian is a directly observable professional activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an ongoing activity or role."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The act of working as a veterinarian is typically driven by the agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The profession of a veterinarian is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody vet' implies a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite engagement in a profession."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Working as a veterinarian involves continuous, high repetition of tasks and duties over time, characteristic of a profession."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

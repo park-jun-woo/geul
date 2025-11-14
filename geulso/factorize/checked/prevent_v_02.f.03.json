@@ -1,0 +1,61 @@
+{
+  "synset_id": "prevent.v.02",
+  "definition": "stop (someone or something) from doing something or being in a certain state",
+  "frame_id": 3,
+  "frame_text": "Somebody prevent something PP",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "obstruction.n.01",
+      "reasoning": "The verb 'prevent' denotes an action where an agent actively causes another entity to be hindered or blocked from performing an action or achieving a state, fitting the concept of obstruction.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who initiates and performs the action of preventing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (person or object) whose action or state is being hindered or stopped."
+        },
+        {
+          "semantic_role": "theme.n.01",
+          "value_type": "eventuality.n.01",
+          "reasoning": "The 'PP' in the frame describes the potential action or state (an eventuality) that is being prevented from occurring."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of preventing is typically a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or its result."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent implies strong will and intention in the act of prevention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of preventing itself is neutral; its positive or negative sentiment depends on what is being prevented (e.g., preventing harm is positive, preventing progress is negative)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody prevent...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'prevent' implies a definite and successful act of stopping something from happening. If it failed, a different verb or construction would be used."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, distinct act of prevention or intervention."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

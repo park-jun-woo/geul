@@ -1,0 +1,60 @@
+{
+  "synset_id": "bumble.v.03",
+  "definition": "speak haltingly",
+  "frame_id": 1,
+  "frame_text": "Somebody bumble something",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "speech.n.02",
+      "reasoning": "The core of the definition is 'speak', which is an action related to vocal communication.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent performing the act of speaking."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "utterance.n.01",
+          "reasoning": "The 'something' being bumbled refers to the content or the act of utterance itself."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "halting.a.01",
+      "reasoning": "The definition explicitly states 'haltingly', which describes the manner in which the speech is delivered."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of speaking is generally a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a factual occurrence in a declarative sense."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the subject indicates an agent with the will or intention to speak, even if the manner is awkward."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of speaking itself is neutral. While 'haltingly' might imply a negative consequence (e.g., awkwardness), the core action's polarity is neutral."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of speaking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'bumble' describes a definite action that occurs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Speaking 'haltingly' implies that the speech is characterized by repeated pauses, interruptions, or restarts within a single utterance, suggesting high internal repetition or segmentation."
+    }
+  }
+}

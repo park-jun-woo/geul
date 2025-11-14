@@ -1,0 +1,62 @@
+{
+  "synset_id": "screen.v.02",
+  "definition": "examine methodically",
+  "frame_id": 0,
+  "frame_text": "Somebody screen somebody",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "examination.n.01",
+      "reasoning": "The verb 'screen' in this context describes the action of inspecting or scrutinizing something.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the screening, as specified by the verb frame, initiating the activity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is subjected to the examination, as per the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "methodical.a.01",
+      "reasoning": "The definition 'examine methodically' explicitly includes the manner in which the examination is conducted, indicating a systematic approach."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of screening is a directly observable action performed by an agent."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action is carried out with conscious will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of screening itself is neutral; its outcome or purpose might have positive or negative implications, but the action itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody screen something' clearly indicates a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of examination."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The frame 'Somebody screen something' typically implies a single instance of examining a specific 'something'. While screening can be repetitive, this general frame describes a singular event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

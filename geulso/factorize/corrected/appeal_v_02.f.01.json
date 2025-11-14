@@ -1,0 +1,66 @@
+{
+  "synset_id": "appeal.v.02",
+  "definition": "request earnestly (something from somebody); ask for aid or protection",
+  "frame_id": 1,
+  "frame_text": "Something invoke to somebody",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb's definition 'request earnestly; ask for aid or protection' clearly describes an action of making a request.",
+      "participants": [
+        {
+          "semantic_role": "agent.n.01",
+          "reasoning": "The entity performing the appeal, represented by 'Something' in the frame. While 'request earnestly' typically implies a volitional agent, the frame's subject is inanimate, leading to a non-volitional interpretation for the grammatical subject.",
+          "value": "Something"
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The entity to whom the appeal is directed, represented by 'somebody' in the frame.",
+          "value": "somebody"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "aid.n.01",
+          "reasoning": "The object of the request (e.g., aid or protection), which is implied by the definition 'ask for aid or protection' even if not explicitly present as a slot in the given verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "earnest.a.01",
+      "reasoning": "The definition explicitly includes 'earnestly', indicating the manner of the request."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of appealing or requesting is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb describes a declarative statement of an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The `verb_frame` has 'Something' as the subject, which implies an absence of will or intention from the subject."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of appealing itself is neutral; the circumstances or outcome might carry sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The `verb_frame` 'Something ----s...' indicates a non-volitional subject performing the action, despite the inherent meaning of 'request earnestly' typically implying volition from a living agent. The instruction dictates adherence to the frame's subject type."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite act of requesting."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single instance of making an appeal."
+    }
+  }
+}

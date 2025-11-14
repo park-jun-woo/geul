@@ -1,0 +1,65 @@
+{
+  "synset_id": "parallel-park.v.01",
+  "definition": "park directly behind another vehicle",
+  "frame_id": 1,
+  "frame_text": "Somebody parallel-park something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the action of maneuvering a vehicle into a specific position, which constitutes a change in its location.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the frame who performs the act of parking the vehicle."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (vehicle) that is being parked and whose position is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "parallel.a.01",
+      "reasoning": "The term 'parallel-park' specifies a distinct manner of parking, specifically alongside another vehicle and the curb, which is a core semantic component distinguishing it from other types of parking."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "location.n.01",
+      "value_type": "behind.r.01",
+      "reasoning": "The definition 'park directly behind another vehicle' explicitly states a relative spatial relationship as part of the location where the parking occurs."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of parallel-parking is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of parallel-parking is neutral; its sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action, as parallel-parking requires conscious effort and intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence, not a speculation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, complete act of parking a vehicle in one specific spot, regardless of the maneuvers involved."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "synset_id": "search.v.01",
+  "definition": "try to locate or discover, or try to establish the existence of",
+  "frame_id": 1,
+  "frame_text": "Somebody look_for something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb describes an active process where an agent attempts to change their current lack of knowledge about a patient's whereabouts or existence into a state of knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the search, seeking to gain knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose location or existence is the object of the search."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "endeavor.n.01",
+      "value_type": "attempt.n.01",
+      "reasoning": "The definition 'try to locate or discover' explicitly indicates that 'search' is an attempt or effort, not necessarily a successful outcome, making 'endeavor' a core property."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of searching is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' implies the agent acts with clear intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of searching is neutral; the specific context determines any positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of searching, as an action, is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Searching is typically a continuous or highly repetitive process involving multiple actions or steps to achieve the goal."
+    }
+  }
+}

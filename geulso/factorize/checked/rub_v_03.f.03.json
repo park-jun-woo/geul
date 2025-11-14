@@ -1,0 +1,62 @@
+{
+  "synset_id": "rub.v.03",
+  "definition": "scrape or rub as if to relieve itching",
+  "frame_id": 3,
+  "frame_text": "Something itch",
+  "sememes": [
+    {
+      "verb_type": "action",
+      "verb_property": "friction.n.01",
+      "reasoning": "The verb describes the physical action involving friction or abrasive contact, as denoted by 'rub' or 'scrape'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame is the entity that performs the rubbing action."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame is the entity that is subjected to the rubbing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "relief.n.01",
+      "reasoning": "The definition 'as if to relieve itching' specifies the intended outcome or purpose of the rubbing action.",
+      "value_type": "sensation.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing is a directly observable physical action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something rub something' implies that the action is not driven by an agent's will, as 'Something' is typically non-volitional."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing is neutral in sentiment, although its purpose here (relieving itching) is positive."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something rub something' indicates a non-volitional agent (the first 'Something'), performing the action without intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of the action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The action of 'rubbing' or 'scraping' inherently involves continuous or highly repetitive small movements over a duration, similar to the action of 'running'."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

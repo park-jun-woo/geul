@@ -1,0 +1,58 @@
+{
+  "synset_id": "baby-sit.v.02",
+  "definition": "work or act as a baby-sitter",
+  "frame_id": 2,
+  "frame_text": "Somebody sit",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "care.n.01",
+      "reasoning": "The definition 'work or act as a baby-sitter' describes a sustained, intentional activity of providing care.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' performing the action of baby-sitting.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The inherent object of the care, the 'baby' or child, which is implied by the verb 'baby-sit' even in an intransitive frame.",
+          "value_type": "child.n.01"
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of baby-sitting is a directly observable activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "Working or acting as a baby-sitter implies strong will and intention from the agent."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of baby-sitting itself is semantically neutral, though the context might imbue it with positive or negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sit' (understood as 'Somebody baby-sits') indicates a volitional agent performing the action, which is further supported by the definition 'work or act as'."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action described is a definite occurrence or role."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Baby-sitting is an ongoing activity that involves continuous and repeated acts of supervision and care, indicating high iterativity over a period."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

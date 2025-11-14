@@ -1,0 +1,64 @@
+{
+  "synset_id": "manure.v.01",
+  "definition": "spread manure, as for fertilization",
+  "frame_id": 0,
+  "frame_text": "Somebody manure something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "coverage.n.01",
+      "reasoning": "The verb describes the action of applying a substance to a surface, changing its state of coverage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of applying the manure, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., land, soil) that receives the manure and whose surface state is changed."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "material.n.01",
+      "value_type": "manure.n.01",
+      "reasoning": "The specific substance applied is inherently 'manure' as defined by the verb itself."
+    },
+    {
+      "verb_type": "purpose",
+      "verb_property": "fertilization.n.01",
+      "reasoning": "The definition explicitly states the purpose 'as for fertilization', indicating the intrinsic goal of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of manuring is a directly observable physical activity."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of manuring itself is neutral; its positive effect (fertilization) is a consequence, not an inherent sentiment of the act."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody manure something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of manuring is described as a definite, occurring action."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Spreading manure typically involves a continuous or highly repetitive process over an area rather than a single discrete event."
+    }
+  }
+}

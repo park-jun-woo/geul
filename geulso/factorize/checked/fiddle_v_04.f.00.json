@@ -1,0 +1,62 @@
+{
+  "synset_id": "fiddle.v.04",
+  "definition": "play on a violin",
+  "frame_id": 0,
+  "frame_text": "Somebody fiddle something",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "music.n.01",
+      "reasoning": "The verb describes the action of performing music.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the musical activity."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "musical_composition.n.01",
+          "reasoning": "The 'something' that is performed, such as a tune or a piece of music."
+        },
+        {
+          "semantic_role": "instrument.n.01",
+          "value_type": "violin.n.01",
+          "reasoning": "The verb 'fiddle' inherently specifies that the musical performance is done using a violin."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of playing an instrument is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent ('Somebody') in the frame acts with clear intention and will to play."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of fiddling is neutral; the specific context or composition might add sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of fiddling is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Playing a musical instrument involves continuous, highly repetitive actions (e.g., bowing, fingering) to produce a sustained sound or melody."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

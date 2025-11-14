@@ -1,0 +1,72 @@
+{
+  "synset_id": "promise.v.02",
+  "definition": "promise to undertake or give",
+  "frame_id": 0,
+  "frame_text": "Somebody promise somebody something",
+  "sememes": [
+    {
+      "verb_type": "speech_act",
+      "verb_property": "commitment.n.01",
+      "reasoning": "The verb 'promise' inherently describes a verbal declaration that creates a commitment to a future action or giving.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' is the one who makes the promise, acting as the agent of the speech act."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' is the person to whom the promise is made, who is the recipient of the commitment."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' is the content of the promise, which is the object of the commitment (an action or an item to be given)."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Making a promise is a direct communication act, thus direct experience for the speaker and listener."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The core meaning of 'promise' is a declarative statement of intent or commitment."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent 'Somebody' makes a promise with clear intention and will."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The act of promising itself occurs in the present, even though its content refers to the future."
+    },
+    "Aspect": {
+      "value": 0,
+      "reasoning": "The verb describes a simple, completed act of making a promise."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The act of promising is generally neutral in politeness, depending on context and phrasing."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of promising is semantically neutral; the positive or negative sentiment depends on the content of the promise."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody promise...' explicitly indicates a volitional agent performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "A promise inherently implies a high degree of certainty or intention from the promiser to fulfill it."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete act of making a promise."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'speech_act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

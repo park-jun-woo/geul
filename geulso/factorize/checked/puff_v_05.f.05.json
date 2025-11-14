@@ -1,0 +1,62 @@
+{
+  "synset_id": "puff.v.05",
+  "definition": "praise extravagantly",
+  "frame_id": 5,
+  "frame_text": "Something puff something",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "praise.n.01",
+      "reasoning": "The verb's definition 'praise extravagantly' indicates an action of expressing approval or admiration.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that performs the act of praising, as per the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' that is the object of the extravagant praise."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "extravagant.a.01",
+      "reasoning": "The adverb 'extravagantly' in the definition specifies the manner or degree of the praise, indicating it is excessive."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of 'puffing' or praising is typically a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "Consistent with a non-volitional agent 'Something', there is no inherent conscious will attributed to the grammatical subject."
+    },
+    "Polarity": {
+      "value": 1.0,
+      "reasoning": "The core act of 'praising' is inherently positive, despite the 'extravagantly' which refers to degree rather than sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something puff something' indicates a non-human or inanimate subject as the agent, making the action non-volitional by the grammatical subject."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme implies a single event of providing extravagant praise, not an inherently repetitive action."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

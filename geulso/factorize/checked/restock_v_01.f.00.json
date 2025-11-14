@@ -1,0 +1,61 @@
+{
+  "synset_id": "restock.v.01",
+  "definition": "stock again",
+  "frame_id": 0,
+  "frame_text": "Somebody restock something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "supply.n.01",
+      "reasoning": "The verb 'restock' signifies a change in the quantity or availability of items to replenish a supply, moving from a state of reduced stock to sufficient stock.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who actively performs the action of restocking, initiating the change in supply."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., goods, inventory) whose supply is being replenished and undergoes the change."
+        }
+      ]
+    },
+    {
+      "verb_type": "event_modifier",
+      "verb_property": "repetition.n.01",
+      "reasoning": "The prefix 're-' in 'restock' explicitly indicates that the action of stocking is being performed again, signifying a repetition of a previous 'stocking' event."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Restocking is a directly observable action, implying direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the verb frame implies an agent acting with clear intention and will to restock."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of restocking itself is neutral; its positive or negative sentiment depends on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody restock something' explicitly includes a volitional agent ('Somebody'), making the action inherently volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of restocking is described as a definite occurrence or intention."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While the verb implies a repetition of a prior event ('re-'), the act of 'restock' itself refers to a single, discrete, complete event of replenishment."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'event_modifier'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

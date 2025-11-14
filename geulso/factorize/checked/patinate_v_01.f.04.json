@@ -1,0 +1,61 @@
+{
+  "synset_id": "patinate.v.01",
+  "definition": "coat with a patina",
+  "frame_id": 4,
+  "frame_text": "Something patinise something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "covering.n.01",
+      "reasoning": "The verb 'patinate' describes the process of applying a coating, which is a change in the state of being covered, from uncoated to coated.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame `Something patinise something` acts as the entity that causes the coating to form or be applied."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame `Something patinise something` is the entity that undergoes the change, receiving the coating."
+        }
+      ]
+    },
+    {
+      "verb_type": "result",
+      "verb_property": "patina.n.01",
+      "reasoning": "The definition 'coat with a patina' specifies that a 'patina' is the particular type of coating that results from this process."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of patinating and the resulting patina are directly observable phenomena."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something patinise something' implies an inanimate or natural agent, which lacks conscious will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of patinating is neutral; whether a patina is desirable or undesirable depends on context."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something patinise something' indicates that the subject is a non-volitional agent (an inanimate object or process) causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or process."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, continuous process of coating an object, rather than a repetitive series of discrete actions."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

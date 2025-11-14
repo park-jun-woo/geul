@@ -1,0 +1,61 @@
+{
+  "synset_id": "chafe.v.01",
+  "definition": "become or make sore by or as if by rubbing",
+  "frame_id": 11,
+  "frame_text": "Something gall something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "physical_condition.n.01",
+      "reasoning": "The definition 'become or make sore' describes a transition in the physical state of the patient.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which acts as the cause of the soreness."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which undergoes the change of becoming sore."
+        }
+      ]
+    },
+    {
+      "verb_type": "manner",
+      "value": "rubbing.n.01",
+      "reasoning": "The definition explicitly states the means of causing soreness as 'by or as if by rubbing', indicating a specific manner of interaction."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of chafing and its result (soreness) are typically directly observable or felt."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an event or a state change."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' implies an inanimate entity, which lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The outcome of chafing, 'soreness', is an undesirable and negative physical state."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s something' indicates a non-volitional agent (an inanimate 'Something') causing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of making something sore."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Chafing, by definition ('by rubbing'), implies a continuous or highly repetitive action of friction that leads to soreness."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

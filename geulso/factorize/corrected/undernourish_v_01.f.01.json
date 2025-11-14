@@ -1,0 +1,59 @@
+{
+  "synset_id": "undernourish.v.01",
+  "definition": "provide with insufficient quality or quantity of nourishment",
+  "frame_id": 1,
+  "frame_text": "Somebody undernourish somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "nourishment.n.01",
+      "reasoning": "The verb describes an action that causes a state of insufficient nourishment, which is a change from a state of being adequately nourished or a failure to maintain it.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of providing insufficient nourishment, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the recipient of the insufficient nourishment and undergoes the change of state to being undernourished."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quantity.n.01",
+      "value_type": "insufficient.a.01",
+      "reasoning": "The definition explicitly states 'insufficient quality or quantity of nourishment', indicating a qualitative and quantitative aspect of the 'nourishment' property."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of undernourishing and its effects are typically directly observable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action that causes a state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies that the action (or lack thereof) is driven by their will or intent, even if the intent is neglect."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb 'undernourish' inherently implies a negative outcome or harm, denoting deprivation."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the action, whether intentionally or through neglect."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or ongoing process of causing undernourishment."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "While undernourishment can be a prolonged process, the verb describes the singular act of causing this state. It can refer to a single instance or the initiation of a prolonged condition."
+    }
+  }
+}

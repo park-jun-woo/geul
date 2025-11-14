@@ -1,0 +1,67 @@
+{
+  "synset_id": "beg.v.03",
+  "definition": "ask to obtain free",
+  "frame_id": 1,
+  "frame_text": "Somebody beg somebody PP",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "request.n.01",
+      "reasoning": "The verb 'beg' signifies an act of making a strong request or asking for something, as indicated by its definition 'ask to obtain free' and its hypernym 'request.v.01'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of begging, initiating the request."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The 'somebody' to whom the request is directed, expected to fulfill it."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The object, favor, or outcome being requested, which is specified by the prepositional phrase (PP) in this frame (e.g., 'for money', 'to do something')."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "condition.n.01",
+      "value_type": "free.a.01",
+      "reasoning": "A core semantic component of 'beg' is the condition, specified in the definition 'to obtain free', that the desired object or favor is to be received without payment, exchange, or obligation."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of begging is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame implies an agent acting with strong will and intention to make a request."
+    },
+    "Politeness": {
+      "value": -1.0,
+      "reasoning": "Begging is generally a less formal or socially constrained way of asking, often implying desperation or humility, positioning it as informal rather than neutral or formal."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of begging itself is neutral; any associated sentiment depends on the context or the object being begged for."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s...' explicitly includes a volitional agent ('Somebody'), making the action intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'beg' describes the definite act of making a request, not the certainty of its success."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of making a request."
+    }
+  }
+}

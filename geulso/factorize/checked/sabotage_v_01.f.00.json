@@ -1,0 +1,56 @@
+{
+  "synset_id": "sabotage.v.01",
+  "definition": "destroy property or hinder normal operations",
+  "frame_id": 0,
+  "frame_text": "Somebody counteract something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "damage.n.01",
+      "reasoning": "The verb describes the act of intentionally causing harm, destruction, or disruption to property or operations, resulting in damage.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of sabotage, acting with specific intent."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (property or operations) that is the target of the sabotage and suffers damage or hindrance."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Sabotage is an action that can be directly observed or whose effects are directly perceivable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by strong will and deliberate intent, which is central to sabotage."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'destroy property or hinder normal operations' inherently describes negative outcomes, thus the polarity is negative."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), and sabotage is by definition an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of sabotage is typically described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme 'sabotage' refers to a singular, complete act of disruption or destruction, even if it involves multiple sub-actions. It is not inherently repetitive in the way 'running' is."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

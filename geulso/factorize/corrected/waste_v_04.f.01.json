@@ -1,0 +1,77 @@
+{
+  "synset_id": "waste.v.04",
+  "definition": "run off as waste",
+  "frame_id": 1,
+  "frame_text": "Something is wasteing PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "motion.n.03",
+      "reasoning": "The verb describes the physical movement of the material, implied by 'run off'.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' that undergoes the change of location, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "destination.n.01",
+          "reasoning": "The 'PP' indicates the target or path of the running off."
+        }
+      ]
+    },
+    {
+      "verb_type": "change",
+      "verb_property": "utility.n.01",
+      "value_type": "waste.n.01",
+      "reasoning": "The verb implies a change in the status of the material from potentially useful to 'waste', as indicated by 'as waste'. 'waste.n.01' represents the specific outcome of this utility change.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'Something' whose utility status changes and becomes waste."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The process of material running off as waste is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is wasteing PP' indicates no volitional agent, therefore no will is involved."
+    },
+    "Tense": {
+      "value": 0.0,
+      "reasoning": "The verb frame 'is wasteing' implies the present tense for the ongoing process."
+    },
+    "Aspect": {
+      "value": 1,
+      "reasoning": "The verb frame 'Something is wasteing' uses the progressive aspect, indicating an continuous, ongoing process."
+    },
+    "Politeness": {
+      "value": 0.0,
+      "reasoning": "The verb 'waste' itself does not carry inherent politeness markers; it is neutral."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The term 'waste' inherently carries a negative connotation due to loss of usefulness or value."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The subject 'Something' indicates a non-volitional entity, meaning the action is not performed intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The description implies a definite occurrence of the process."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The process of 'running off' typically involves a continuous flow or high repetition of small units, indicating high iterativity."
+    }
+  }
+}

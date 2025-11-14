@@ -1,0 +1,58 @@
+{
+  "synset_id": "instruct.v.03",
+  "definition": "make aware of",
+  "frame_id": 2,
+  "frame_text": "Somebody apprize somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "possession.n.02",
+      "reasoning": "The definition 'make aware of' describes causing a transition in the state of who possesses awareness or knowledge, which is a change of possession of an abstract entity.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' who initiates the action of making another person aware."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The second 'somebody' who becomes aware, thus receiving the state of awareness."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "awareness.n.01",
+          "reasoning": "The abstract entity (awareness or knowledge) that is caused to be possessed by the recipient."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of apprizing someone is typically a direct communication or observation."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of a 'Somebody' in the frame implies intentional action and will to make someone aware."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of making someone aware is semantically neutral; the content of the awareness might carry sentiment, but the verb itself does not."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody apprize somebody' explicitly includes a volitional agent ('Somebody') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb 'apprize' implies a definite and successful act of making aware."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically refers to a single, discrete event of imparting awareness."
+    }
+  }
+}

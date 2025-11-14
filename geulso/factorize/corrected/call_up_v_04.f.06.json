@@ -1,0 +1,65 @@
+{
+  "synset_id": "call_up.v.04",
+  "definition": "call to arms; of military personnel",
+  "frame_id": 6,
+  "frame_text": "Somebody rally somebody",
+  "sememes": [
+    {
+      "verb_type": "act",
+      "verb_property": "command.n.01",
+      "reasoning": "The definition 'call to arms' implies the issuance of an order or command to mobilize.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of commanding."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "personnel.n.01",
+          "reasoning": "The 'somebody' in the verb frame who is the recipient of the command (implied to be military personnel by the definition)."
+        },
+        {
+          "semantic_role": "content.n.01",
+          "value_type": "mobilization.n.01",
+          "reasoning": "The implicit content of the command is to mobilize or prepare for military action, derived from 'call to arms'."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "domain.n.01",
+      "value_type": "military.n.01",
+      "reasoning": "The definition explicitly states 'of military personnel', indicating the specific domain of the action."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of calling up is a directly observable or experienced event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The agent ('Somebody') explicitly performs an action driven by will and intention to issue a command."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of calling up is semantically neutral; its positive or negative implications depend on context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody rally somebody' indicates a volitional agent ('Somebody') initiating the action intentionally."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of calling up is presented as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme describes a single, discrete event of issuing a call to arms, even if it affects multiple individuals."
+    }
+  }
+}

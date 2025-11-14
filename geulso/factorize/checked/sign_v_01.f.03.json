@@ -1,0 +1,62 @@
+{
+  "synset_id": "sign.v.01",
+  "definition": "mark with one's signature; write one's name (on)",
+  "frame_id": 3,
+  "frame_text": "Somebody subscribe",
+  "sememes": [
+    {
+      "verb_type": "creation",
+      "verb_property": "signature.n.01",
+      "reasoning": "The definition 'mark with one's signature; write one's name (on)' directly describes the creation of a signature.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of signing."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "document.n.01",
+          "reasoning": "Implied by the definition 'write one's name (on)', there is an object (e.g., a document, form) that receives the signature."
+        },
+        {
+          "semantic_role": "purpose.n.01",
+          "value_type": "subscription.n.01",
+          "reasoning": "The 'subscribe' component of the verb frame indicates the purpose or desired outcome of the signing action, which is to become a subscriber."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Signing is a directly observable action."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of signing itself is neutral; the implications (e.g., of a contract) determine sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The 'Somebody' in the frame indicates a volitional agent performing an intentional act."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite, certain action."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of creating a signature, even if done repeatedly, each instance is a distinct act."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

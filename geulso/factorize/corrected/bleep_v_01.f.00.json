@@ -1,0 +1,61 @@
+{
+  "synset_id": "bleep.v.01",
+  "definition": "emit a single short high-pitched signal",
+  "frame_id": 0,
+  "frame_text": "Something bleep",
+  "sememes": [
+    {
+      "verb_type": "event",
+      "verb_property": "sound.n.02",
+      "reasoning": "The verb describes an event of producing a sound, specifically a signal, which is a change in the acoustic environment.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that produces or emits the sound."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "duration.n.01",
+      "value_type": "short.a.01",
+      "reasoning": "The definition explicitly states the signal is 'short', indicating a brief duration."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "pitch.n.01",
+      "value_type": "high.a.01",
+      "reasoning": "The definition explicitly states the signal is 'high-pitched', describing its tonal quality."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The emission of a sound signal is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something bleep' does not suggest an agent with will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of emitting a bleep is inherently neutral in sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something bleep' implies a non-volitional source for the sound, as 'Something' lacks intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The definition describes a definite occurrence of the sound."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The definition 'emit a single short high-pitched signal' explicitly states 'single', indicating a non-repetitive event."
+    }
+  }
+}

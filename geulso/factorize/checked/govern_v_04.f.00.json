@@ -1,0 +1,56 @@
+{
+  "synset_id": "govern.v.04",
+  "definition": "require to be in a certain grammatical case, voice, or mood",
+  "frame_id": 0,
+  "frame_text": "Something govern something",
+  "sememes": [
+    {
+      "verb_type": "causation",
+      "verb_property": "grammatical_form.n.01",
+      "reasoning": "The verb describes one grammatical element (the subject) causing or requiring another (the object) to adopt a specific grammatical form (case, voice, or mood).",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Something' in the frame, which is the grammatical element that imposes the requirement or control."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The second 'something' in the frame, which is the grammatical element whose form is determined or affected."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Grammatical rules and their effects are directly observable and empirically verifiable in language."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating a factual linguistic relationship."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' in the verb frame refers to a grammatical element, which inherently lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The concept of grammatical governance is a neutral, descriptive linguistic term."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something govern something' indicates a non-agentive subject (a grammatical rule or element) performing the action, making it non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "Grammatical rules are typically stated with certainty within a linguistic framework."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb describes a constant, inherent relationship or property within a grammatical system, rather than a discrete, repetitive event. It signifies a single, continuous instance of this relation."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

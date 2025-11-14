@@ -1,0 +1,53 @@
+{
+  "synset_id": "incriminate.v.01",
+  "definition": "suggest that someone is guilty",
+  "frame_id": 1,
+  "frame_text": "Something incriminate somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "status.n.01",
+      "reasoning": "The verb describes a change in an individual's perceived legal or moral status, specifically attributing or suggesting guilt.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' that provides the evidence or acts as the cause for the attribution of guilt, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose status is changed by being implicated or suggested as guilty."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": -1.0,
+      "reasoning": "The verb 'incriminate' implies suggesting or inferring guilt based on evidence, rather than direct observation of the guilt itself."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The subject 'Something' in the frame is inanimate and therefore lacks will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "To incriminate someone is to suggest their guilt, which is inherently a negative imputation."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ----s somebody' indicates a non-volitional agent ('Something') performing the action, as it cannot act with intent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of incriminating (suggesting guilt) is presented as a definite occurrence, even if the ultimate truth of the guilt is not necessarily certain."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act or piece of evidence that suggests guilt."
+    }
+  }
+}

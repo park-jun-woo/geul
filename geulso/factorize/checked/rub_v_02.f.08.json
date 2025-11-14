@@ -1,0 +1,63 @@
+{
+  "synset_id": "rub.v.02",
+  "definition": "cause friction",
+  "frame_id": 8,
+  "frame_text": "Something is freting PP",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "physical_contact.n.01",
+      "reasoning": "The verb describes a continuous action of direct physical interaction and movement between two entities, which is a fundamental process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that performs the action of rubbing, initiating the physical contact and movement."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'PP' (Prepositional Phrase) in the frame indicates the entity or surface with which the 'Something' makes physical contact during the rubbing action."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "friction.n.01",
+      "reasoning": "The definition 'cause friction' indicates that friction is a core characteristic or direct result of the rubbing process, distinguishing it from simple contact.",
+      "value": "produced",
+      "value_type": "state.n.01"
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing is a directly observable physical event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an ongoing action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something is freting PP' indicates a non-human or inanimate subject ('Something'), which lacks conscious will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rubbing and causing friction is neutral; its sentiment depends on context or consequence."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something is freting PP' features a non-agentive subject ('Something'), making the action non-volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement describes a definite, ongoing occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Rubbing inherently involves continuous, repetitive motion over a period of time, indicating high iterativity rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

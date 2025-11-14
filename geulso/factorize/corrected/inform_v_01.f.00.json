@@ -1,0 +1,58 @@
+{
+  "synset_id": "inform.v.01",
+  "definition": "impart knowledge of some fact, state or affairs, or event to",
+  "frame_id": 0,
+  "frame_text": "Somebody inform PP",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "knowledge.n.01",
+      "reasoning": "The verb 'inform' describes the act of causing a change in someone's state of knowledge, specifically transitioning them from a state of not knowing to knowing.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame is the agent who initiates and performs the action of imparting knowledge."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "proposition.n.01",
+          "reasoning": "The 'PP' in the verb frame (e.g., 'of the fact,' 'about the event') represents the knowledge, fact, or proposition that is being imparted."
+        },
+        {
+          "semantic_role": "recipient.n.01",
+          "reasoning": "The verb's definition 'impart knowledge...to' inherently implies a receiver of that knowledge. Although not explicitly realized as a direct object or a specific PP in this exact frame ('Somebody inform PP'), the recipient is a core semantic participant of the verb 'inform'."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of informing typically involves the imparter presenting information as directly known or certain, hence direct experience for the information conveyed."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or event."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as the agent in the frame implies the action is performed with intention and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The action of informing itself is semantically neutral; the nature of the information conveyed (positive or negative) does not affect the verb's inherent polarity."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody inform PP' explicitly indicates a volitional agent ('Somebody') performing the intentional act of informing."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "To 'inform' implies that the imparter conveys knowledge with a high degree of certainty."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, discrete act of imparting a piece of knowledge or a set of facts."
+    }
+  }
+}

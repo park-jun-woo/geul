@@ -1,0 +1,59 @@
+{
+  "synset_id": "defame.v.01",
+  "definition": "charge falsely or with malicious intent; attack the good name and reputation of someone",
+  "frame_id": 17,
+  "frame_text": "Something sully somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb 'defame' describes causing a negative change or damage to someone's good name or reputation.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the non-volitional entity or event that causes the defamation (e.g., a scandal, a false report)."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' in the verb frame is the person whose good name and reputation are attacked and negatively affected."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The definition explicitly includes 'charge falsely', indicating that the content involved in the defamation is untrue."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of defaming or the resulting damage to reputation is typically directly observable or ascertainable."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or action."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The 'Something' subject in this frame implies a non-agentive cause, lacking conscious will or intention."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The definition 'attack the good name and reputation' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something sully somebody' indicates a non-volitional subject ('Something') as the instigator of the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of damage to reputation."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single event or instance of defaming or causing damage to reputation."
+    }
+  }
+}

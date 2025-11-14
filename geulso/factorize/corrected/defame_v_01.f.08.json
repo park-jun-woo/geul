@@ -1,0 +1,65 @@
+{
+  "synset_id": "defame.v.01",
+  "definition": "charge falsely or with malicious intent; attack the good name and reputation of someone",
+  "frame_id": 8,
+  "frame_text": "Somebody sully somebody",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "reputation.n.01",
+      "reasoning": "The verb describes an action that causes a negative change to someone's reputation, as per the definition 'attack the good name and reputation of someone'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of defaming, initiating the change in reputation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' whose good name and reputation are attacked and changed negatively."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "quality.n.01",
+      "value_type": "malicious.a.01",
+      "reasoning": "The definition explicitly states the action is done 'with malicious intent', indicating an inherent negative quality of the act of defaming."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "truth.n.01",
+      "value_type": "false.a.01",
+      "reasoning": "The definition 'charge falsely' indicates that the accusations or statements made are untrue, a core aspect distinguishing defaming from legitimate criticism."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Defamation is a communicative act that is directly perceivable and often documented."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The definition 'with malicious intent' explicitly indicates strong will and purpose from the agent."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The verb's definition 'attack the good name and reputation' and 'charge falsely or with malicious intent' inherently carries a negative sentiment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody sully somebody' and the phrase 'with malicious intent' in the definition clearly indicate a volitional act by the agent."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of defaming is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single act of slandering or attacking reputation, though such acts can be repeated over time."
+    }
+  }
+}

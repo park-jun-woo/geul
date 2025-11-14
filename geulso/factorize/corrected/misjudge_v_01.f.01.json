@@ -1,0 +1,59 @@
+{
+  "synset_id": "misjudge.v.01",
+  "definition": "judge incorrectly",
+  "frame_id": 1,
+  "frame_text": "Somebody misjudge something",
+  "sememes": [
+    {
+      "verb_type": "cognitive_process",
+      "verb_property": "judgment.n.01",
+      "reasoning": "The definition 'judge incorrectly' indicates a cognitive process of forming an opinion or conclusion.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the act of judging, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'somebody' who is the object of the judgment, as specified by the verb frame."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "accuracy.n.01",
+      "value_type": "incorrect.a.01",
+      "reasoning": "The 'mis-' prefix and the definition 'judge incorrectly' highlight that the outcome or manner of judging is erroneous. This is a core part of the verb's meaning, not a qualifier."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of judging, though internal, is typically understood as a direct cognitive experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or process."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will, even if the outcome (incorrectness) is not intended."
+    },
+    "Polarity": {
+      "value": -1.0,
+      "reasoning": "The 'mis-' prefix explicitly denotes a negative outcome or failure in judgment."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s somebody' clearly indicates a volitional agent performing the act of judging, even if the 'mis-' aspect implies an unintentional error."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence of judging, albeit incorrectly."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single instance of forming an incorrect judgment about someone."
+    }
+  }
+}

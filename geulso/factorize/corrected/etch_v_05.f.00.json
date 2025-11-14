@@ -1,0 +1,65 @@
+{
+  "synset_id": "etch.v.05",
+  "definition": "selectively dissolve the surface of (a semiconductor or printed circuit) with a solvent, laser, or stream of electrons",
+  "frame_id": 0,
+  "frame_text": "Something etch something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "composition.n.01",
+      "reasoning": "The definition 'selectively dissolve the surface of' describes a process of altering the material composition of a surface by removing parts of it, which is a change in the object's state.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' (e.g., solvent, laser) that initiates the dissolving process, as specified by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' (e.g., semiconductor, circuit) whose surface undergoes the change in composition."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "selective.a.01",
+      "reasoning": "The adverb 'selectively' in the definition emphasizes that the dissolution is precise and targeted, indicating a specific manner of action."
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "instrument.n.01",
+      "value_type": "physical_agent.n.01",
+      "reasoning": "The definition explicitly states the use of a 'solvent, laser, or stream of electrons' as the means by which the dissolution occurs, indicating an instrument."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Etching is a physical process that is directly observable in laboratory or industrial settings."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action or process."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something etch something' implies a non-sentient causal agent (e.g., a chemical or a laser), which lacks will or intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of etching is a neutral process; its value (positive or negative) depends on the context or desired outcome."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something etch something' clearly indicates a non-volitional agent ('Something') performing the action."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite process that occurs."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Etching is typically a continuous or highly repetitive process (e.g., dissolving, laser pulses) rather than a single, instantaneous event. Therefore, it has high iterativity."
+    }
+  }
+}

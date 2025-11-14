@@ -1,0 +1,57 @@
+{
+  "synset_id": "fill_up.v.04",
+  "definition": "eat until one is sated",
+  "frame_id": 2,
+  "frame_text": "Somebody fill_up somebody",
+  "sememes": [
+    {
+      "verb_type": "cause_change",
+      "verb_property": "fullness.n.01",
+      "reasoning": "The verb describes an agent causing a patient to transition into a state of fullness or satiation by means of eating, as indicated by the definition 'eat until one is sated'.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The first 'Somebody' in the verb frame is the agent who initiates or facilitates the action leading to the patient's satiation."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "person.n.01",
+          "reasoning": "The second 'somebody' in the verb frame is the entity (a person) who undergoes the change of state from not sated to sated."
+        }
+      ]
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of filling someone up (causing them to eat until sated) is typically a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action or state."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The causal agent in the frame 'Somebody ----s somebody' implies intentional action and will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of filling up to satiation is generally neutral; the context determines positive or negative sentiment (e.g., force-feeding vs. kindly feeding)."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' as a causal agent implies a volitional act. The patient's eating is also usually volitional, but the overall act of 'filling up' by the agent is volitional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or outcome."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The verb 'fill up' refers to the accomplishment of reaching a state of satiation, which is a single, completed event, even if the preceding eating process is continuous."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'cause_change'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

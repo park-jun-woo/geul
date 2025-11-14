@@ -1,0 +1,63 @@
+{
+  "synset_id": "rattle_down.v.01",
+  "definition": "recite volubly or extravagantly",
+  "frame_id": 4,
+  "frame_text": "Somebody spiel_off something",
+  "sememes": [
+    {
+      "verb_type": "process",
+      "verb_property": "speech.n.02",
+      "reasoning": "The verb 'rattle down' (or 'spiel off' in the frame) describes the act of producing spoken words, which is a communicative process.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' who performs the action of speaking, as indicated by the verb frame."
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "text.n.01",
+          "reasoning": "The 'something' that is recited, representing the content of the speech."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "manner.n.01",
+      "value_type": "volubly_or_extravagantly_manner.n.01",
+      "reasoning": "The definition explicitly specifies the manner of speech as 'volubly or extravagantly', indicating characteristics of speed, fluency, and potentially excessive or elaborate delivery."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of reciting is a directly observable event."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, describing an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of 'Somebody' in the frame implies the action is driven by an agent's will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of reciting itself is neutral; any positive or negative sentiment would depend on the content or context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' clearly indicates a volitional agent performing the action of speaking."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The action of reciting is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The term 'volubly' implies a continuous, rapid, and highly repetitive flow of words within the single act of reciting, indicating high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

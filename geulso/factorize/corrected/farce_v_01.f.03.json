@@ -1,0 +1,65 @@
+{
+  "synset_id": "farce.v.01",
+  "definition": "fill with a stuffing while cooking",
+  "frame_id": 3,
+  "frame_text": "Somebody stuff something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "fullness.n.01",
+      "reasoning": "The verb 'farce' implies a transition from a state of being not full to being full, specifically with a filling.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Somebody' in the verb frame who performs the action of filling.",
+          "value_type": "person.n.01"
+        },
+        {
+          "semantic_role": "patient.n.02",
+          "reasoning": "The 'something' in the verb frame that is being filled or stuffed."
+        },
+        {
+          "semantic_role": "content.n.01",
+          "value_type": "stuffing.n.01",
+          "reasoning": "The definition explicitly mentions 'a stuffing' as the material used to fill the patient."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "context.n.01",
+      "value_type": "cooking.n.01",
+      "reasoning": "The definition specifies that this filling action occurs 'while cooking', which is an inherent contextual characteristic of this particular verb sense of 'farce'."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The action of stuffing food is a directly observable phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an action."
+    },
+    "Modality": {
+      "value": 1.0,
+      "reasoning": "The presence of an agent ('Somebody') in the frame implies the action is driven by will and intention."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of stuffing or farcing food is inherently neutral; its sentiment depends on external context."
+    },
+    "Volitionality": {
+      "value": 1.0,
+      "reasoning": "The frame 'Somebody ----s something' explicitly includes a volitional agent ('Somebody'), making the action inherently intentional."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The act of farcing is described as a definite occurrence."
+    },
+    "Iterativity": {
+      "value": 1,
+      "reasoning": "The lexeme typically describes a single, complete event of stuffing a particular item, even if the process involves multiple small steps."
+    }
+  }
+}

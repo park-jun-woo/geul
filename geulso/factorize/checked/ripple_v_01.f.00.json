@@ -1,0 +1,59 @@
+{
+  "synset_id": "ripple.v.01",
+  "definition": "stir up (water) so as to form ripples",
+  "frame_id": 0,
+  "frame_text": "Somebody cockle something",
+  "sememes": [
+    {
+      "verb_type": "change",
+      "verb_property": "surface_state.n.01",
+      "reasoning": "The verb describes a process where the surface (of water) changes state to form ripples.",
+      "participants": [
+        {
+          "semantic_role": "patient.n.02",
+          "value_type": "water.n.01",
+          "reasoning": "The 'Something' that undergoes the change, specifically identified as water in the definition, and whose surface forms ripples."
+        }
+      ]
+    },
+    {
+      "verb_type": "resultant_state",
+      "verb_property": "form.n.01",
+      "value_type": "ripple.n.01",
+      "reasoning": "The definition explicitly states the action leads to 'forming ripples', indicating a specific resulting form on the surface."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "Rippling is a directly observable physical phenomenon."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something ripple' implies a non-agentive subject (water) acting without will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of rippling is a neutral physical event."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "The frame 'Something ripple' indicates that the action is performed by a non-volitional entity (e.g., water) or is a natural process."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The verb describes a definite occurrence or state."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "Ripples typically involve continuous, repeated small wave formations, suggesting high iterativity."
+    }
+  },
+  "errors": [
+    "`sememes[1].verb_type`의 값 'resultant_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}

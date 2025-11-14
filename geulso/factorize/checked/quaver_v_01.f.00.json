@@ -1,0 +1,58 @@
+{
+  "synset_id": "quaver.v.01",
+  "definition": "give off unsteady sounds, alternating in amplitude or frequency",
+  "frame_id": 0,
+  "frame_text": "Something quaver",
+  "sememes": [
+    {
+      "verb_type": "activity",
+      "verb_property": "sound.n.01",
+      "reasoning": "The verb describes the activity of producing or emitting sound, as indicated by 'give off sounds' in the definition.",
+      "participants": [
+        {
+          "semantic_role": "causal_agent.n.01",
+          "reasoning": "The 'Something' in the verb frame is the entity that generates the sound."
+        }
+      ]
+    },
+    {
+      "verb_type": "property",
+      "verb_property": "steadiness.n.01",
+      "value_type": "unsteady.a.01",
+      "reasoning": "A core semantic component of 'quaver' is that the emitted sound exhibits unsteadiness or fluctuation, explicitly stated as 'unsteady sounds, alternating in amplitude or frequency' in the definition."
+    }
+  ],
+  "qualifiers": {
+    "Evidentiality": {
+      "value": 0.0,
+      "reasoning": "The act of quavering is typically perceived directly through hearing, representing direct experience."
+    },
+    "Mood": {
+      "value": 0.0,
+      "reasoning": "The verb's core meaning is declarative, stating an event or characteristic."
+    },
+    "Modality": {
+      "value": 0.0,
+      "reasoning": "The frame 'Something quaver' implies that the quavering is an inherent characteristic or an involuntary manifestation of the 'Something', not an act driven by will. Thus, there is no implied will."
+    },
+    "Polarity": {
+      "value": 0.0,
+      "reasoning": "The act of quavering is neutral in sentiment; its emotional connotation depends on context (e.g., fear, age, artistic choice)."
+    },
+    "Volitionality": {
+      "value": -1.0,
+      "reasoning": "For the frame 'Something quaver', the 'Something' (e.g., a voice, an instrument) is typically not volitional regarding its quavering, which is often an involuntary physical phenomenon or an inherent property."
+    },
+    "Confidence": {
+      "value": 1.0,
+      "reasoning": "The statement that something quavers is presented as a definite occurrence or observation."
+    },
+    "Iterativity": {
+      "value": "MAX-1",
+      "reasoning": "The definition 'alternating in amplitude or frequency' inherently describes a continuous, highly repetitive oscillation rather than a single discrete event."
+    }
+  },
+  "errors": [
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+  ]
+}
