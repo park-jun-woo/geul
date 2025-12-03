@@ -3,29 +3,31 @@
   "definition": "tie a gag around someone's mouth in order to silence them",
   "frame_id": 1,
   "frame_text": "Somebody muzzle something",
-  "sememes": {
-    "PrimaryAction": {
-      "verb_type": "change",
-      "verb_property": "speech.n.01",
-      "reasoning": "The verb describes causing a change in an entity's ability to speak, from being able to speak to being silenced. The definition 'in order to silence them' confirms this intended outcome.",
-      "participants": [
-        {
-          "semantic_role": "causal_agent.n.01",
-          "reasoning": "The 'Somebody' in the verb frame who performs the action of gagging."
-        },
-        {
-          "semantic_role": "patient.n.02",
-          "reasoning": "The 'something' (which, according to the definition, refers to a person) whose mouth is restrained, leading to a change in their speech capability."
-        }
-      ]
-    },
-    "MannerOfAction": {
-      "verb_type": "manner",
-      "verb_property": "restraint.n.01",
-      "value_type": "oral_restraint.n.01",
-      "reasoning": "The action is specifically performed by physically restraining the mouth, as indicated by the definition 'tie a gag around someone's mouth'."
+  "sememes": [
+    {
+      "PrimaryAction": {
+        "verb_type": "change",
+        "verb_property": "speech.n.01",
+        "reasoning": "The verb describes causing a change in an entity's ability to speak, from being able to speak to being silenced. The definition 'in order to silence them' confirms this intended outcome.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who performs the action of gagging."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' (which, according to the definition, refers to a person) whose mouth is restrained, leading to a change in their speech capability."
+          }
+        ]
+      },
+      "MannerOfAction": {
+        "verb_type": "manner",
+        "verb_property": "restraint.n.01",
+        "value_type": "oral_restraint.n.01",
+        "reasoning": "The action is specifically performed by physically restraining the mouth, as indicated by the definition 'tie a gag around someone's mouth'."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

@@ -3,28 +3,30 @@
   "definition": "deprive of the use of a limb, especially a leg",
   "frame_id": 3,
   "frame_text": "Something lame somebody",
-  "sememes": {
-    "CoreAction": {
-      "value": "cause_deprivation_of_ability",
-      "reasoning": "The verb 'cripple' means to cause someone to lose a specific physical ability."
-    },
-    "AffectedProperty": {
-      "value": "ability.n.01",
-      "reasoning": "The definition 'deprive of the use of a limb' directly points to a change in physical ability."
-    },
-    "AffectedBodyPart": {
-      "value": "limb.n.01",
-      "reasoning": "The definition explicitly specifies 'the use of a limb, especially a leg' as the target of deprivation."
-    },
-    "CausalAgent": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The 'Something' in the verb frame acts as the entity that causes the crippling."
-    },
-    "Patient": {
-      "value": "patient.n.02",
-      "reasoning": "The 'somebody' in the verb frame is the person who undergoes the deprivation of ability."
+  "sememes": [
+    {
+      "CoreAction": {
+        "value": "cause_deprivation_of_ability",
+        "reasoning": "The verb 'cripple' means to cause someone to lose a specific physical ability."
+      },
+      "AffectedProperty": {
+        "value": "ability.n.01",
+        "reasoning": "The definition 'deprive of the use of a limb' directly points to a change in physical ability."
+      },
+      "AffectedBodyPart": {
+        "value": "limb.n.01",
+        "reasoning": "The definition explicitly specifies 'the use of a limb, especially a leg' as the target of deprivation."
+      },
+      "CausalAgent": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The 'Something' in the verb frame acts as the entity that causes the crippling."
+      },
+      "Patient": {
+        "value": "patient.n.02",
+        "reasoning": "The 'somebody' in the verb frame is the person who undergoes the deprivation of ability."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

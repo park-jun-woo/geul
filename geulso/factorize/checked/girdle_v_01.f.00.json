@@ -27,7 +27,7 @@
     },
     {
       "verb_type": "result",
-      "verb_property": "life_status.n.01",
+      "verb_property": "status.n.01",
       "value_type": "dead.a.01",
       "reasoning": "The explicit purpose stated in the definition is 'so as to kill by interrupting the circulation of water and nutrients', indicating the intended outcome of the action."
     }
@@ -63,6 +63,6 @@
     }
   },
   "errors": [
-    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

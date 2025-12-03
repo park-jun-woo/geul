@@ -6,13 +6,13 @@
   "sememes": [
     {
       "verb_type": "change",
-      "verb_property": "physical_state.n.01",
+      "verb_property": "phase.n.02",
       "reasoning": "The definition 'turn into gas' clearly indicates a transformation, which is a change in the physical state of a substance.",
       "participants": [
         {
           "semantic_role": "causal_agent.n.01",
           "reasoning": "The first 'Something' in the verb frame 'Something gasify something' is the entity that actively causes the physical transformation.",
-          "value_type": "agentive_entity.n.01"
+          "value_type": "agent.n.02"
         },
         {
           "semantic_role": "patient.n.02",
@@ -23,7 +23,7 @@
     },
     {
       "verb_type": "result_state",
-      "verb_property": "physical_state.n.01",
+      "verb_property": "phase.n.02",
       "value_type": "gas.n.01",
       "reasoning": "The semantic core of 'gasify' implies that the outcome of the action is the patient being in a gaseous state."
     }
@@ -59,6 +59,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

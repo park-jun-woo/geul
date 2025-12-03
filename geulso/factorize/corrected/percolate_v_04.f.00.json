@@ -3,35 +3,37 @@
   "definition": "cause (a solvent) to pass through a permeable substance in order to extract a soluble constituent",
   "frame_id": 0,
   "frame_text": "Somebody percolate something",
-  "sememes": {
-    "PercolationProcess": {
-      "value": "cause a solvent to pass through a permeable substance to extract a soluble constituent",
-      "reasoning": "The verb describes the entire causative process of directing a solvent through a medium for the purpose of chemical extraction.",
-      "verb_type": "change",
-      "verb_property": "separation.n.01",
-      "participants": [
-        {
-          "semantic_role": "causal_agent.n.01",
-          "reasoning": "The 'Somebody' who actively initiates and controls the percolation process, as indicated by the verb frame and the 'cause' in the definition."
-        },
-        {
-          "semantic_role": "patient.n.02",
-          "value_type": "solvent.n.01",
-          "reasoning": "The 'something' in the frame, which the definition clarifies as the 'solvent' that passes through the substance."
-        },
-        {
-          "semantic_role": "instrument.n.01",
-          "value_type": "permeable_substance.n.01",
-          "reasoning": "The 'permeable substance' acts as the medium or filter through which the solvent passes, crucial for the separation process."
-        },
-        {
-          "semantic_role": "theme.n.01",
-          "value_type": "soluble_constituent.n.01",
-          "reasoning": "The 'soluble constituent' is the substance that is extracted or separated from the permeable substance by the solvent."
-        }
-      ]
+  "sememes": [
+    {
+      "PercolationProcess": {
+        "value": "cause a solvent to pass through a permeable substance to extract a soluble constituent",
+        "reasoning": "The verb describes the entire causative process of directing a solvent through a medium for the purpose of chemical extraction.",
+        "verb_type": "change",
+        "verb_property": "separation.n.01",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who actively initiates and controls the percolation process, as indicated by the verb frame and the 'cause' in the definition."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "solvent.n.01",
+            "reasoning": "The 'something' in the frame, which the definition clarifies as the 'solvent' that passes through the substance."
+          },
+          {
+            "semantic_role": "instrument.n.01",
+            "value_type": "permeable_substance.n.01",
+            "reasoning": "The 'permeable substance' acts as the medium or filter through which the solvent passes, crucial for the separation process."
+          },
+          {
+            "semantic_role": "theme.n.01",
+            "value_type": "soluble_constituent.n.01",
+            "reasoning": "The 'soluble constituent' is the substance that is extracted or separated from the permeable substance by the solvent."
+          }
+        ]
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

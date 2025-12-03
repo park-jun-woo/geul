@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "create",
-      "verb_property": "visual_representation.n.01",
+      "verb_property": "pictorial_representation.n.01",
       "reasoning": "The verb's definition 'represent by making a drawing of' clearly indicates the creation of a visual representation as its primary function.",
       "participants": [
         {
@@ -22,7 +22,7 @@
         {
           "semantic_role": "instrument.n.01",
           "reasoning": "The definition mentions 'as with a pencil, chalk, etc.', indicating the typical tools used to perform the action.",
-          "value_type": "drawing_tool.n.01"
+          "value_type": "stylus.n.02"
         },
         {
           "semantic_role": "location.n.01",
@@ -63,6 +63,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'create'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'create'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

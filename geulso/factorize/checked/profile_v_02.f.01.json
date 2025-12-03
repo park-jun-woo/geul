@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "creation",
-      "verb_property": "visual_likeness.n.01",
+      "verb_property": "likeness.n.01",
       "reasoning": "The verb describes the act of creating a visual image or likeness of a subject.",
       "participants": [
         {
@@ -21,7 +21,7 @@
     },
     {
       "verb_type": "property",
-      "verb_property": "artistic_medium.n.01",
+      "verb_property": "graphic_art.n.01",
       "value_type": "drawing_or_painting.n.01",
       "reasoning": "The creation of the visual likeness is specifically performed through the artistic methods of drawing or painting, as stated in the definition."
     },
@@ -63,6 +63,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'creation'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

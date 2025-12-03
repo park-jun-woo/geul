@@ -17,7 +17,7 @@
     },
     {
       "verb_type": "process",
-      "verb_property": "thermal_state.n.01",
+      "verb_property": "temperature.n.01",
       "reasoning": "The overflow is a direct result of the liquid undergoing the physical process of boiling, which causes expansion and bubbling.",
       "participants": [
         {
@@ -58,6 +58,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

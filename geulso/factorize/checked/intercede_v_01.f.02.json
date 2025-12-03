@@ -14,8 +14,8 @@
           "reasoning": "The 'Somebody' who intentionally carries out the process of interceding, as specified by the verb frame."
         },
         {
-          "semantic_role": "affected.n.01",
-          "value_type": "parties.n.01",
+          "semantic_role": "affected_role.n.01",
+          "value_type": "party.n.05",
           "reasoning": "The implicit 'parties' from the definition 'act between parties' whose differences are the subject of the reconciliation efforts and who are directly influenced by the intercession."
         }
       ]
@@ -56,6 +56,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

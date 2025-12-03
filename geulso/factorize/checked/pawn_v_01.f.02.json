@@ -25,7 +25,7 @@
     },
     {
       "verb_type": "purpose",
-      "verb_property": "financial_transaction.n.01",
+      "verb_property": "deal.n.02",
       "reasoning": "The temporary transfer of possession is specifically for the purpose of a financial transaction, where the item serves as a guarantee for money received (a loan)."
     }
   ],
@@ -60,6 +60,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

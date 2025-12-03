@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' performing the action of behaving, as specified by the verb frame."
         },
         {
-          "semantic_role": "affected_entity.n.01",
+          "semantic_role": "affected_role.n.01",
           "reasoning": "The 'others' towards whom the behavior is directed, implicitly indicated by the 'PP' in the frame (e.g., 'deal with somebody' or 'deal with a situation')."
         }
       ]
@@ -51,6 +51,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

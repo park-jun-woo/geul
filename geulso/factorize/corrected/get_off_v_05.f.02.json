@@ -3,27 +3,29 @@
   "definition": "escape potentially unpleasant consequences; get away with a forbidden action",
   "frame_id": 2,
   "frame_text": "Somebody get_away",
-  "sememes": {
-    "core_action": {
-      "value": {
-        "verb_type": "change",
-        "verb_property": "freedom.n.01"
-      },
-      "reasoning": "The verb 'get off' (in this sense) describes a transition in the agent's status from being subject to potential negative consequences to achieving freedom from them. This is a change of state regarding their freedom."
-    },
-    "participants": {
-      "causal_agent.n.01": {
-        "value": "Somebody",
-        "reasoning": "The 'Somebody' in the verb frame is the individual who actively performs the action to avoid or escape the consequences."
-      },
-      "source.n.03": {
+  "sememes": [
+    {
+      "core_action": {
         "value": {
-          "value_type": "consequence.n.01"
+          "verb_type": "change",
+          "verb_property": "freedom.n.01"
         },
-        "reasoning": "The 'potentially unpleasant consequences' or 'forbidden action' that the agent escapes, acting as the origin or source from which freedom is gained."
+        "reasoning": "The verb 'get off' (in this sense) describes a transition in the agent's status from being subject to potential negative consequences to achieving freedom from them. This is a change of state regarding their freedom."
+      },
+      "participants": {
+        "causal_agent.n.01": {
+          "value": "Somebody",
+          "reasoning": "The 'Somebody' in the verb frame is the individual who actively performs the action to avoid or escape the consequences."
+        },
+        "source.n.03": {
+          "value": {
+            "value_type": "consequence.n.01"
+          },
+          "reasoning": "The 'potentially unpleasant consequences' or 'forbidden action' that the agent escapes, acting as the origin or source from which freedom is gained."
+        }
       }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

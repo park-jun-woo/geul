@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "change",
-      "verb_property": "information_state.n.01",
+      "verb_property": "information.n.01",
       "reasoning": "The definition 'publish' implies a change in the accessibility or public status of information, from not published to published.",
       "participants": [
         {
@@ -22,7 +22,7 @@
     },
     {
       "verb_type": "manner",
-      "verb_property": "publication_method.n.01",
+      "verb_property": "publication.n.04",
       "value": "in a gazette",
       "reasoning": "The verb 'gazette' inherently specifies the medium or method of publication as a gazette, which is a specific manner of publishing."
     }
@@ -62,6 +62,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

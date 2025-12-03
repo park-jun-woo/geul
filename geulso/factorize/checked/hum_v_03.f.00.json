@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "process",
-      "verb_property": "sound_emission.n.01",
+      "verb_property": "emission.n.01",
       "reasoning": "The verb describes the ongoing process of emitting a sound, as per the definition 'sound with a monotonous hum' and hypernym 'make a certain noise or sound'.",
       "participants": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "verb_type": "property",
-      "verb_property": "sound_quality.n.01",
+      "verb_property": "voice.n.01",
       "value_type": "monotonous.a.01",
       "reasoning": "The definition explicitly states 'monotonous' as a characteristic of the hum, indicating a specific quality of the sound being produced."
     }
@@ -53,6 +53,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

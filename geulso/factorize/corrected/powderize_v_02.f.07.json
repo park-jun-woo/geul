@@ -3,34 +3,36 @@
   "definition": "make into a powder by breaking up or cause to become dust",
   "frame_id": 7,
   "frame_text": "Something powderize something",
-  "sememes": {
-    "CoreTransformation": {
-      "value": {
-        "verb_type": "change",
-        "verb_property": "physical_state.n.01",
-        "resultant_state_property": "powder.n.01",
-        "participants": [
-          {
-            "semantic_role": "causal_agent.n.01",
-            "reasoning": "The first 'Something' in the frame, which causes the change of state."
-          },
-          {
-            "semantic_role": "patient.n.02",
-            "reasoning": "The second 'something' in the frame, which undergoes the change into powder or dust."
-          }
-        ]
+  "sememes": [
+    {
+      "CoreTransformation": {
+        "value": {
+          "verb_type": "change",
+          "verb_property": "physical_state.n.01",
+          "resultant_state_property": "powder.n.01",
+          "participants": [
+            {
+              "semantic_role": "causal_agent.n.01",
+              "reasoning": "The first 'Something' in the frame, which causes the change of state."
+            },
+            {
+              "semantic_role": "patient.n.02",
+              "reasoning": "The second 'something' in the frame, which undergoes the change into powder or dust."
+            }
+          ]
+        },
+        "reasoning": "The verb describes causing an object to transition into a powdery or dusty physical state, as per the definition 'make into a powder'."
       },
-      "reasoning": "The verb describes causing an object to transition into a powdery or dusty physical state, as per the definition 'make into a powder'."
-    },
-    "MannerOfAction": {
-      "value": {
-        "verb_type": "property",
-        "verb_property": "manner.n.01",
-        "value_type": "disintegration.n.01"
-      },
-      "reasoning": "The definition explicitly states the means of transformation is 'by breaking up', which is a manner of causing disintegration."
+      "MannerOfAction": {
+        "value": {
+          "verb_type": "property",
+          "verb_property": "manner.n.01",
+          "value_type": "disintegration.n.01"
+        },
+        "reasoning": "The definition explicitly states the means of transformation is 'by breaking up', which is a manner of causing disintegration."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

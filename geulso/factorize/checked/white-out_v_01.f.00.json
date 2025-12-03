@@ -22,7 +22,7 @@
     },
     {
       "verb_type": "condition",
-      "verb_property": "weather_phenomenon.n.01",
+      "verb_property": "atmospheric_phenomenon.n.01",
       "value_type": "adverse_weather.n.01",
       "reasoning": "The definition explicitly states that the loss of visibility occurs 'in heavy fog, snow, or rain', indicating the environmental conditions that cause this change."
     }
@@ -58,6 +58,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'condition'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'condition'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

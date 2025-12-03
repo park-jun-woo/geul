@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who initiates and participates in the negotiation, as specified by the verb frame."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "cooperator.n.01",
           "reasoning": "Negotiation inherently requires at least two parties; this represents the other party involved in the exchange, even if not explicitly stated in the surface frame."
         },
         {
@@ -62,7 +62,7 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
-    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

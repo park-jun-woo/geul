@@ -15,14 +15,14 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "future_event.n.01",
+          "value_type": "prospect.n.03",
           "reasoning": "The 'something' in the verb frame represents the content of the forecast, which is inherently an event or state in the future."
         }
       ]
     },
     {
       "verb_type": "property",
-      "verb_property": "temporal_orientation.n.01",
+      "verb_property": "future.n.01",
       "value_type": "forward_looking.a.01",
       "reasoning": "The phrase 'in advance' in the definition explicitly highlights that the act of forecasting is directed towards future events or conditions."
     }
@@ -70,6 +70,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'statement'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'statement'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

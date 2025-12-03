@@ -29,7 +29,7 @@
     },
     {
       "verb_type": "result",
-      "verb_property": "game_state.n.01",
+      "verb_property": "state.n.02",
       "value_type": "out.n.05",
       "reasoning": "The verb's ultimate goal and outcome is to 'make an out', representing a specific change in the state of the game."
     }
@@ -65,6 +65,6 @@
     }
   },
   "errors": [
-    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[2].verb_type`의 값 'result'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

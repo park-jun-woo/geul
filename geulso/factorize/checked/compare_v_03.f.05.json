@@ -19,7 +19,7 @@
           "reasoning": "The 'something' (direct object) that is the primary entity whose similarity is being asserted."
         },
         {
-          "semantic_role": "comparison_target.n.01",
+          "semantic_role": "standard.n.01",
           "reasoning": "The entity identified by the prepositional phrase (PP, typically 'to X') to which the patient is being compared or likened, serving as the reference point for the asserted similarity."
         }
       ]
@@ -56,6 +56,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'communication'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

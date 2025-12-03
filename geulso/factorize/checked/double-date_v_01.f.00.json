@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "social_interaction.n.01",
+      "verb_property": "socializing.n.01",
       "reasoning": "The verb 'double-date' describes engaging in a specific social event or interaction.",
       "participants": [
         {
@@ -14,20 +14,20 @@
           "reasoning": "The 'Somebody' in the verb frame is an active participant in the double-date, representing one individual from one of the couples involved."
         },
         {
-          "semantic_role": "co-participant.n.01",
+          "semantic_role": "associate.n.01",
           "value_type": "partner.n.01",
           "reasoning": "The definition 'go out on a date with a partner' inherently includes the agent's romantic partner as an essential co-participant in the activity."
         },
         {
-          "semantic_role": "co-participant.n.01",
-          "value_type": "other_couple.n.01",
+          "semantic_role": "associate.n.01",
+          "value_type": "couple.n.01",
           "reasoning": "The 'double-date' explicitly means 'with another couple', making them essential co-participants in this specific type of social interaction."
         }
       ]
     },
     {
       "verb_type": "property",
-      "verb_property": "romantic_relationship.n.01",
+      "verb_property": "love_affair.n.01",
       "reasoning": "The core of 'dating' as per the definition 'go out on a date' and its hypernym 'date.v.01' establishes a romantic context for the interaction."
     },
     {
@@ -68,6 +68,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

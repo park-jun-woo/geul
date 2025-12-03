@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' in the verb frame, representing one of the parties engaged in the quarrel."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "cooperator.n.01",
           "reasoning": "The act of 'quarrelling' inherently requires at least two participants, implying the presence of another agent, even if not explicitly stated in this specific frame."
         },
         {
@@ -55,6 +55,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

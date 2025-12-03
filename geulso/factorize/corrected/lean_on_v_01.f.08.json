@@ -3,24 +3,26 @@
   "definition": "rest on for support",
   "frame_id": 8,
   "frame_text": "Something rest_on something",
-  "sememes": {
-    "VerbType": {
-      "value": "state",
-      "reasoning": "The verb 'lean on' in this frame describes a continuous physical condition or relationship, specifically a state of resting, rather than a dynamic action or an event causing a change."
-    },
-    "VerbCoreProperty": {
-      "value": "support.n.01",
-      "reasoning": "The definition 'rest on for support' explicitly indicates that the core semantic property being described is the provision or reception of physical stability and the bearing of weight."
-    },
-    "SupportedEntity": {
-      "value": "patient.n.02",
-      "reasoning": "The first 'Something' in the frame 'Something rest_on something' is the entity that is being supported or whose weight is borne by another object."
-    },
-    "SupportingEntity": {
-      "value": "location.n.01",
-      "reasoning": "The second 'something' in the frame indicates the physical location or surface upon which the first entity rests, inherently providing the support."
+  "sememes": [
+    {
+      "VerbType": {
+        "value": "state",
+        "reasoning": "The verb 'lean on' in this frame describes a continuous physical condition or relationship, specifically a state of resting, rather than a dynamic action or an event causing a change."
+      },
+      "VerbCoreProperty": {
+        "value": "support.n.01",
+        "reasoning": "The definition 'rest on for support' explicitly indicates that the core semantic property being described is the provision or reception of physical stability and the bearing of weight."
+      },
+      "SupportedEntity": {
+        "value": "patient.n.02",
+        "reasoning": "The first 'Something' in the frame 'Something rest_on something' is the entity that is being supported or whose weight is borne by another object."
+      },
+      "SupportingEntity": {
+        "value": "location.n.01",
+        "reasoning": "The second 'something' in the frame indicates the physical location or surface upon which the first entity rests, inherently providing the support."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

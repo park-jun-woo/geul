@@ -3,24 +3,26 @@
   "definition": "levy an excise tax on",
   "frame_id": 0,
   "frame_text": "Somebody excise somebody",
-  "sememes": {
-    "VerbType": {
-      "value": "change",
-      "reasoning": "The verb 'excise' (levy a tax) causes a change in the financial state or obligation of the taxed entity."
-    },
-    "VerbProperty": {
-      "value": "financial_obligation.n.01",
-      "reasoning": "The specific property affected by the act of excising is the financial obligation, leading to a transfer of wealth."
-    },
-    "CausalAgent": {
-      "value": "somebody.n.01",
-      "reasoning": "The 'Somebody' in the verb frame is the agent who initiates the change by levying the tax."
-    },
-    "Patient": {
-      "value": "something.n.01",
-      "reasoning": "The 'something' in the verb frame is the entity or item upon which the tax is levied, undergoing the change in financial status."
+  "sememes": [
+    {
+      "VerbType": {
+        "value": "change",
+        "reasoning": "The verb 'excise' (levy a tax) causes a change in the financial state or obligation of the taxed entity."
+      },
+      "VerbProperty": {
+        "value": "financial_obligation.n.01",
+        "reasoning": "The specific property affected by the act of excising is the financial obligation, leading to a transfer of wealth."
+      },
+      "CausalAgent": {
+        "value": "somebody.n.01",
+        "reasoning": "The 'Somebody' in the verb frame is the agent who initiates the change by levying the tax."
+      },
+      "Patient": {
+        "value": "something.n.01",
+        "reasoning": "The 'something' in the verb frame is the entity or item upon which the tax is levied, undergoing the change in financial status."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

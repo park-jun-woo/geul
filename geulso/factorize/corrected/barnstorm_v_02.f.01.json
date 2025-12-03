@@ -3,30 +3,32 @@
   "definition": "tour the country making political speeches, giving lectures, or presenting plays",
   "frame_id": 1,
   "frame_text": "Somebody barnstorm PP",
-  "sememes": {
-    "TouringPerformanceActivity": {
-      "value": {
-        "verb_type": "activity",
-        "verb_property": "tour.n.01",
-        "participants": [
-          {
-            "semantic_role": "causal_agent.n.01",
-            "reasoning": "The 'Somebody' performing the touring activity, as specified by the verb frame."
-          },
-          {
-            "semantic_role": "location.n.01",
-            "reasoning": "The 'PP' in the frame represents the geographical area (like 'the country') that is being toured."
-          },
-          {
-            "semantic_role": "purpose.n.01",
-            "value_type": "public_performance.n.01",
-            "reasoning": "The specific reason for the tour, as detailed in the definition: making political speeches, giving lectures, or presenting plays, which are forms of public performance."
-          }
-        ]
-      },
-      "reasoning": "The verb 'barnstorm' describes an extended, purposeful activity that combines traveling (touring) with public presentations (speeches, lectures, plays)."
+  "sememes": [
+    {
+      "TouringPerformanceActivity": {
+        "value": {
+          "verb_type": "activity",
+          "verb_property": "tour.n.01",
+          "participants": [
+            {
+              "semantic_role": "causal_agent.n.01",
+              "reasoning": "The 'Somebody' performing the touring activity, as specified by the verb frame."
+            },
+            {
+              "semantic_role": "location.n.01",
+              "reasoning": "The 'PP' in the frame represents the geographical area (like 'the country') that is being toured."
+            },
+            {
+              "semantic_role": "purpose.n.01",
+              "value_type": "public_performance.n.01",
+              "reasoning": "The specific reason for the tour, as detailed in the definition: making political speeches, giving lectures, or presenting plays, which are forms of public performance."
+            }
+          ]
+        },
+        "reasoning": "The verb 'barnstorm' describes an extended, purposeful activity that combines traveling (touring) with public presentations (speeches, lectures, plays)."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

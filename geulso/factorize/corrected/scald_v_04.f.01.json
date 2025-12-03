@@ -3,28 +3,30 @@
   "definition": "burn with a hot liquid or steam",
   "frame_id": 1,
   "frame_text": "Somebody scald something",
-  "sememes": {
-    "CoreAction": {
-      "value": "cause to burn",
-      "reasoning": "The verb 'scald' fundamentally means to cause a burn."
-    },
-    "Agent": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The 'Somebody' in the verb frame is the entity initiating the action."
-    },
-    "Patient": {
-      "value": "patient.n.02",
-      "reasoning": "The 'somebody' in the verb frame is the entity that undergoes the burning."
-    },
-    "Means": {
-      "value": "hot liquid or steam",
-      "reasoning": "The definition explicitly specifies 'with a hot liquid or steam' as the distinguishing means of causing the burn."
-    },
-    "ResultantState": {
-      "value": "damaged_by_heat.a.01",
-      "reasoning": "The action results in the patient being in a state of having been damaged by heat."
+  "sememes": [
+    {
+      "CoreAction": {
+        "value": "cause to burn",
+        "reasoning": "The verb 'scald' fundamentally means to cause a burn."
+      },
+      "Agent": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The 'Somebody' in the verb frame is the entity initiating the action."
+      },
+      "Patient": {
+        "value": "patient.n.02",
+        "reasoning": "The 'somebody' in the verb frame is the entity that undergoes the burning."
+      },
+      "Means": {
+        "value": "hot liquid or steam",
+        "reasoning": "The definition explicitly specifies 'with a hot liquid or steam' as the distinguishing means of causing the burn."
+      },
+      "ResultantState": {
+        "value": "damaged_by_heat.a.01",
+        "reasoning": "The action results in the patient being in a state of having been damaged by heat."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

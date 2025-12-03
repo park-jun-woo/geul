@@ -3,34 +3,36 @@
   "definition": "provide funds complementary to",
   "frame_id": 1,
   "frame_text": "Somebody match something",
-  "sememes": {
-    "CoreAction": {
-      "verb_type": "change",
-      "verb_property": "possession.n.02",
-      "reasoning": "The verb 'match' in this sense means to provide funds, indicating a transfer of possession from one entity to another.",
-      "participants": [
-        {
-          "semantic_role": "causal_agent.n.01",
-          "reasoning": "The 'Somebody' who initiates the action of providing funds."
-        },
-        {
-          "semantic_role": "patient.n.02",
-          "value_type": "funds.n.01",
-          "reasoning": "The 'funds' that are provided and whose possession is changed."
-        },
-        {
-          "semantic_role": "recipient.n.01",
-          "reasoning": "The 'somebody' who receives the funds."
-        }
-      ]
-    },
-    "FundsCharacteristic": {
-      "verb_type": "property",
-      "verb_property": "relation.n.01",
-      "value_type": "complementarity.n.01",
-      "reasoning": "The definition specifies that the funds are 'complementary to', indicating a specific relational characteristic or purpose of the provided funds in relation to something else."
+  "sememes": [
+    {
+      "CoreAction": {
+        "verb_type": "change",
+        "verb_property": "possession.n.02",
+        "reasoning": "The verb 'match' in this sense means to provide funds, indicating a transfer of possession from one entity to another.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates the action of providing funds."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "funds.n.01",
+            "reasoning": "The 'funds' that are provided and whose possession is changed."
+          },
+          {
+            "semantic_role": "recipient.n.01",
+            "reasoning": "The 'somebody' who receives the funds."
+          }
+        ]
+      },
+      "FundsCharacteristic": {
+        "verb_type": "property",
+        "verb_property": "relation.n.01",
+        "value_type": "complementarity.n.01",
+        "reasoning": "The definition specifies that the funds are 'complementary to', indicating a specific relational characteristic or purpose of the provided funds in relation to something else."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

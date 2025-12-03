@@ -14,11 +14,11 @@
           "reasoning": "The 'Somebody' who initiates the compulsion, causing the other participant to act, as specified by the verb frame."
         },
         {
-          "semantic_role": "affected_participant.n.01",
+          "semantic_role": "patient.n.02",
           "reasoning": "The 'somebody' or 'something' that is compelled to act. This participant is the direct object of 'make' and the implied agent of the infinitive."
         },
         {
-          "semantic_role": "caused_action.n.01",
+          "semantic_role": "result.n.01",
           "value_type": "event.n.01",
           "reasoning": "The 'to INFINITIVE' clause specifies the particular action or event that the affected participant is compelled to perform."
         }
@@ -56,6 +56,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'causation'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

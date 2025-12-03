@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "social_interaction.n.01",
+      "verb_property": "interaction.n.01",
       "reasoning": "The verb 'hobnob' and its definition 'rub elbows with' describe engaging in social activity and interaction, aligning with the hypernym 'socialize'.",
       "participants": [
         {
@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' in the frame is the entity who actively engages in the social interaction."
         },
         {
-          "semantic_role": "co_participant.n.01",
+          "semantic_role": "participant.n.01",
           "reasoning": "The 'PP' (prepositional phrase) specifies the other person or group with whom the agent interacts socially."
         }
       ]
@@ -57,6 +57,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

@@ -3,28 +3,30 @@
   "definition": "prepare for eating by applying heat",
   "frame_id": 1,
   "frame_text": "Somebody fix something",
-  "sememes": {
-    "VerbType": {
-      "value": "change",
-      "reasoning": "The verb 'cook' describes a transformation of ingredients from one state (raw/unprepared) to another (cooked/ready for eating)."
-    },
-    "VerbProperty": {
-      "value": "readiness.n.01",
-      "reasoning": "The core property undergoing change is the state of readiness for consumption, aligning with the definition 'prepare for eating'."
-    },
-    "CausalAgent": {
-      "value": "somebody.n.01",
-      "reasoning": "The 'Somebody' in the verb frame is the animate entity who intentionally initiates and performs the cooking action."
-    },
-    "Patient": {
-      "value": "food.n.01",
-      "reasoning": "The 'something' in the verb frame refers to the ingredients or food item that undergoes the preparation and change of state."
-    },
-    "Instrument": {
-      "value": "heat.n.01",
-      "reasoning": "The definition explicitly states 'by applying heat' as the primary means or instrument used for this preparation."
+  "sememes": [
+    {
+      "VerbType": {
+        "value": "change",
+        "reasoning": "The verb 'cook' describes a transformation of ingredients from one state (raw/unprepared) to another (cooked/ready for eating)."
+      },
+      "VerbProperty": {
+        "value": "readiness.n.01",
+        "reasoning": "The core property undergoing change is the state of readiness for consumption, aligning with the definition 'prepare for eating'."
+      },
+      "CausalAgent": {
+        "value": "somebody.n.01",
+        "reasoning": "The 'Somebody' in the verb frame is the animate entity who intentionally initiates and performs the cooking action."
+      },
+      "Patient": {
+        "value": "food.n.01",
+        "reasoning": "The 'something' in the verb frame refers to the ingredients or food item that undergoes the preparation and change of state."
+      },
+      "Instrument": {
+        "value": "heat.n.01",
+        "reasoning": "The definition explicitly states 'by applying heat' as the primary means or instrument used for this preparation."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

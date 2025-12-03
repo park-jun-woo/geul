@@ -23,7 +23,7 @@
     },
     {
       "verb_type": "temporal_relation",
-      "verb_property": "occurrence_time.n.01",
+      "verb_property": "point_in_time.n.01",
       "value": "before.r.01",
       "reasoning": "The 'fore-' prefix in 'foreknow' and 'beforehand' in the definition explicitly indicate that the knowledge is acquired prior to the occurrence of the known event."
     }
@@ -59,6 +59,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'temporal_relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'temporal_relation'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

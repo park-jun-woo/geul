@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "change",
-      "verb_property": "physical_state.n.01",
+      "verb_property": "phase.n.02",
       "reasoning": "The definition 'change from a gaseous to a liquid state' explicitly describes a transformation of physical state.",
       "participants": [
         {
@@ -59,7 +59,7 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'state_change_endpoint'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
-    "`sememes[2].verb_type`의 값 'state_change_startpoint'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'state_change_endpoint'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'state_change_startpoint'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

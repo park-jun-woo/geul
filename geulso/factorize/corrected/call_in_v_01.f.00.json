@@ -3,28 +3,30 @@
   "definition": "summon to enter",
   "frame_id": 0,
   "frame_text": "Somebody call_in somebody",
-  "sememes": {
-    "CoreActionType": {
-      "value": "cause_change_of_location",
-      "reasoning": "The verb 'call in' signifies causing another entity to change its physical or contextual location."
-    },
-    "SpecificChange": {
-      "value": "entry.n.01",
-      "reasoning": "The 'in' in 'call in' and the definition 'summon to enter' specify a change resulting in the patient moving to an inward position or joining a specified context."
-    },
-    "MethodOfAction": {
-      "value": "communication.n.01",
-      "reasoning": "The 'call' component of the phrasal verb indicates that the action is performed through a communicative act, typically verbal."
-    },
-    "CausalAgent": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The first 'Somebody' in the verb frame is the active initiator who performs the summoning."
-    },
-    "Patient": {
-      "value": "patient.n.02",
-      "reasoning": "The second 'somebody' in the verb frame is the entity that is caused to enter."
+  "sememes": [
+    {
+      "CoreActionType": {
+        "value": "cause_change_of_location",
+        "reasoning": "The verb 'call in' signifies causing another entity to change its physical or contextual location."
+      },
+      "SpecificChange": {
+        "value": "entry.n.01",
+        "reasoning": "The 'in' in 'call in' and the definition 'summon to enter' specify a change resulting in the patient moving to an inward position or joining a specified context."
+      },
+      "MethodOfAction": {
+        "value": "communication.n.01",
+        "reasoning": "The 'call' component of the phrasal verb indicates that the action is performed through a communicative act, typically verbal."
+      },
+      "CausalAgent": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The first 'Somebody' in the verb frame is the active initiator who performs the summoning."
+      },
+      "Patient": {
+        "value": "patient.n.02",
+        "reasoning": "The second 'somebody' in the verb frame is the entity that is caused to enter."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

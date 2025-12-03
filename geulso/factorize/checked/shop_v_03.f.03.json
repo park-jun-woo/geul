@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "theme.n.01",
-          "value_type": "goods_and_services.n.01",
+          "value_type": "product.n.01",
           "reasoning": "The inherent context of 'shop' implies that the search is related to goods or services, even if not explicitly named as 'something' in this frame. The 'PP' can specify the category of items (e.g., 'shop for clothes')."
         },
         {
@@ -56,6 +56,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

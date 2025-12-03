@@ -22,13 +22,13 @@
     },
     {
       "verb_type": "property",
-      "verb_property": "clothing_state.n.01",
+      "verb_property": "nakedness.n.01",
       "value_type": "fully_clothed.a.01",
       "reasoning": "The definition explicitly states 'fully clothed' as a specific condition or manner of engaging in this activity."
     },
     {
       "verb_type": "property",
-      "verb_property": "spatial_relationship.n.01",
+      "verb_property": "spatial_relation.n.01",
       "value_type": "shared_bed.n.01",
       "reasoning": "The definition specifies 'in the same bed' as a crucial spatial condition for this activity."
     }
@@ -64,6 +64,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

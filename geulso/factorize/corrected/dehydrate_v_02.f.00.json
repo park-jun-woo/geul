@@ -3,25 +3,27 @@
   "definition": "remove water from",
   "frame_id": 0,
   "frame_text": "Somebody dehydrate something",
-  "sememes": {
-    "CoreDehydrationEvent": {
-      "value": {
-        "verb_type": "change",
-        "verb_property": "wetness.n.01",
-        "participants": [
-          {
-            "semantic_role": "causal_agent.n.01",
-            "reasoning": "The 'Somebody' in the verb frame actively performs the action of removing water, acting as the cause."
-          },
-          {
-            "semantic_role": "patient.n.02",
-            "reasoning": "The 'something' from which water is removed, undergoing a change in its state of wetness."
-          }
-        ]
-      },
-      "reasoning": "The verb 'dehydrate' describes a process of removing water, which causes a change in the state of wetness of an object."
+  "sememes": [
+    {
+      "CoreDehydrationEvent": {
+        "value": {
+          "verb_type": "change",
+          "verb_property": "wetness.n.01",
+          "participants": [
+            {
+              "semantic_role": "causal_agent.n.01",
+              "reasoning": "The 'Somebody' in the verb frame actively performs the action of removing water, acting as the cause."
+            },
+            {
+              "semantic_role": "patient.n.02",
+              "reasoning": "The 'something' from which water is removed, undergoing a change in its state of wetness."
+            }
+          ]
+        },
+        "reasoning": "The verb 'dehydrate' describes a process of removing water, which causes a change in the state of wetness of an object."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

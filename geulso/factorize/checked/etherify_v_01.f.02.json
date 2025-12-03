@@ -21,7 +21,7 @@
     },
     {
       "verb_type": "result_state",
-      "verb_property": "chemical_state.n.01",
+      "verb_property": "composition.n.02",
       "value_type": "ether.n.01",
       "reasoning": "The verb specifies the target state of the patient: it becomes an ether."
     }
@@ -57,6 +57,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'result_state'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

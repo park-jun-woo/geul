@@ -26,7 +26,7 @@
       "reasoning": "The action is performed with the inherent goal of alleviating a discomfort or symptom.",
       "participants": [
         {
-          "semantic_role": "experiencer.n.01",
+          "semantic_role": "perceiver.n.01",
           "reasoning": "The 'Somebody' (often the causal agent) who experiences the symptom and for whom relief is intended."
         },
         {
@@ -80,6 +80,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

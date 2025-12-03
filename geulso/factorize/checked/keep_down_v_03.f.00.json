@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "stomach_contents.n.01",
+          "value_type": "vomit.n.03",
           "reasoning": "The 'something' (e.g., food, liquid) that is being retained and prevented from being thrown up."
         }
       ]
@@ -52,6 +52,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'control'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'control'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

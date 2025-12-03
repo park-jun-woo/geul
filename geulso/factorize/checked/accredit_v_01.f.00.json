@@ -3,24 +3,26 @@
   "definition": "grant credentials to",
   "frame_id": 0,
   "frame_text": "Somebody accredit somebody",
-  "sememes": {
-    "VerbType": {
-      "value": "change",
-      "reasoning": "The verb 'accredit' describes the act of conferring official status or recognition, which is a change in the state of an entity."
-    },
-    "VerbProperty": {
-      "value": "authorization.n.01",
-      "reasoning": "The property that is changed is the state of having official permission, recognition, or credentials."
-    },
-    "Agent": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The 'Somebody' in the verb frame is the entity that actively grants the credentials or authorization."
-    },
-    "Patient": {
-      "value": "patient.n.02",
-      "reasoning": "The 'something' in the verb frame is the entity that undergoes the change of state by receiving accreditation."
+  "sememes": [
+    {
+      "VerbType": {
+        "value": "change",
+        "reasoning": "The verb 'accredit' describes the act of conferring official status or recognition, which is a change in the state of an entity."
+      },
+      "VerbProperty": {
+        "value": "authorization.n.01",
+        "reasoning": "The property that is changed is the state of having official permission, recognition, or credentials."
+      },
+      "Agent": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The 'Somebody' in the verb frame is the entity that actively grants the credentials or authorization."
+      },
+      "Patient": {
+        "value": "patient.n.02",
+        "reasoning": "The 'something' in the verb frame is the entity that undergoes the change of state by receiving accreditation."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,
@@ -56,6 +58,7 @@
     }
   },
   "errors": [
-    "`sememes`가 리스트가 아닙니다."
+    "`sememes[0]`에 'verb_type' 키 누락",
+    "`sememes[0]`에 'reasoning' 키 누락"
   ]
 }

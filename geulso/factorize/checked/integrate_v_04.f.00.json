@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "mathematical_expression.n.01",
+          "value_type": "expression.n.03",
           "reasoning": "The 'something' that is the object of the integration, typically a function or expression."
         }
       ]
@@ -52,6 +52,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

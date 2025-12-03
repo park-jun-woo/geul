@@ -21,7 +21,7 @@
       "reasoning": "The definition 'perform an accompaniment to' explicitly states that the musical activity serves as a supportive role to another performer.",
       "participants": [
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "associate.n.01",
           "reasoning": "The second 'somebody' in the frame is the primary performer being accompanied, thus acting as a co-agent in the overall musical performance."
         }
       ]
@@ -58,6 +58,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

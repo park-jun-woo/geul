@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "patient.n.03",
+          "value_type": "patient.n.01",
           "reasoning": "The 'something' that is subjected to the shaking, which, according to the definition, is often specifically a 'patient' (human body) in a medical context."
         }
       ]
@@ -57,6 +57,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'goal'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

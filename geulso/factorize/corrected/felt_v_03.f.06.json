@@ -3,31 +3,33 @@
   "definition": "change texture so as to become matted and felt-like",
   "frame_id": 6,
   "frame_text": "Something matte_up",
-  "sememes": {
-    "ChangeOfTexture": {
-      "value": {
-        "verb_type": "change",
-        "verb_property": "texture.n.01",
-        "participants": [
-          {
-            "semantic_role": "patient.n.02",
-            "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in texture."
+  "sememes": [
+    {
+      "ChangeOfTexture": {
+        "value": {
+          "verb_type": "change",
+          "verb_property": "texture.n.01",
+          "participants": [
+            {
+              "semantic_role": "patient.n.02",
+              "reasoning": "The 'Something' in the verb frame is the entity that undergoes the change in texture."
+            }
+          ]
+        },
+        "reasoning": "The definition 'change texture so as to become matted and felt-like' describes a transformation of a physical property, specifically texture."
+      },
+      "ResultantState": {
+        "value": {
+          "verb_type": "state",
+          "verb_property": "matted.a.01",
+          "qualifier": {
+            "similar_to": "felt.n.01"
           }
-        ]
-      },
-      "reasoning": "The definition 'change texture so as to become matted and felt-like' describes a transformation of a physical property, specifically texture."
-    },
-    "ResultantState": {
-      "value": {
-        "verb_type": "state",
-        "verb_property": "matted.a.01",
-        "qualifier": {
-          "similar_to": "felt.n.01"
-        }
-      },
-      "reasoning": "The verb implies a resultant state of being 'matted' and 'felt-like' after the texture change."
+        },
+        "reasoning": "The verb implies a resultant state of being 'matted' and 'felt-like' after the texture change."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

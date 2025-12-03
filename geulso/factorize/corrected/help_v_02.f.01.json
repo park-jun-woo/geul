@@ -3,29 +3,31 @@
   "definition": "improve the condition of",
   "frame_id": 1,
   "frame_text": "Somebody help somebody",
-  "sememes": {
-    "ChangeOfState": {
-      "value": "change",
-      "reasoning": "The definition 'improve the condition of' indicates a transition from a current state to a better state."
-    },
-    "AffectedProperty": {
-      "value": "condition.n.01",
-      "reasoning": "The verb directly states that what is being improved is the 'condition' of something/someone."
-    },
-    "CausalAgent": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The 'Something' in the verb frame is the entity that causes the improvement.",
-      "value_type": "entity.n.01"
-    },
-    "Patient": {
-      "value": "patient.n.02",
-      "reasoning": "The 'somebody' in the verb frame is the entity whose condition is being improved."
-    },
-    "ResultantStateQuality": {
-      "value": "positive.a.01",
-      "reasoning": "The verb 'improve' inherently specifies that the change in condition is towards a better or positive state."
+  "sememes": [
+    {
+      "ChangeOfState": {
+        "value": "change",
+        "reasoning": "The definition 'improve the condition of' indicates a transition from a current state to a better state."
+      },
+      "AffectedProperty": {
+        "value": "condition.n.01",
+        "reasoning": "The verb directly states that what is being improved is the 'condition' of something/someone."
+      },
+      "CausalAgent": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The 'Something' in the verb frame is the entity that causes the improvement.",
+        "value_type": "entity.n.01"
+      },
+      "Patient": {
+        "value": "patient.n.02",
+        "reasoning": "The 'somebody' in the verb frame is the entity whose condition is being improved."
+      },
+      "ResultantStateQuality": {
+        "value": "positive.a.01",
+        "reasoning": "The verb 'improve' inherently specifies that the change in condition is towards a better or positive state."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

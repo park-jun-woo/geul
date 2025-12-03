@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "romantic_relationship.n.01",
+      "verb_property": "love_affair.n.01",
       "reasoning": "The definition 'have amorous affairs' describes an ongoing and potentially habitual engagement in multiple romantic or sexual relationships, classifying it as an activity that pertains to a type of relationship.",
       "participants": [
         {
@@ -15,7 +15,7 @@
           "reasoning": "The 'Somebody' who actively performs the act of philandering, which is explicitly defined as 'of men', implying a male agent."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "agent.n.01",
           "value_type": "person.n.01",
           "reasoning": "The implied other party (or parties) involved in the amorous affairs. The specific verb form 'womanise' in the frame strongly suggests these participants are typically women."
         }
@@ -53,6 +53,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

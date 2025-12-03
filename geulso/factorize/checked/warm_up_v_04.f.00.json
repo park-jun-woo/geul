@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "change",
-      "verb_property": "physical_state.n.01",
+      "verb_property": "physical_condition.n.01",
       "reasoning": "The verb describes causing a transition in a person's physical state from being unprepared to a state of readiness for activity.",
       "participants": [
         {
@@ -76,7 +76,7 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
-    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)",
+    "`sememes[2].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who actively participates in the conference or discussion."
         },
         {
-          "semantic_role": "co_participant.n.01",
+          "semantic_role": "participant.n.01",
           "reasoning": "The verb 'confer' inherently implies the involvement of at least one other participant with whom the communication takes place, even if not explicitly stated in this intransitive frame, as per 'have a conference' and 'talk something over'."
         }
       ]
@@ -51,6 +51,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

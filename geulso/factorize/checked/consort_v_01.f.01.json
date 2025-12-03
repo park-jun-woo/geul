@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "social_interaction.n.01",
+      "verb_property": "interaction.n.01",
       "reasoning": "The definition 'keep company with; hang out with' describes an ongoing activity involving social engagement or interaction.",
       "participants": [
         {
@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who initiates and participates in the social interaction, as specified by the verb frame."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "associate.n.01",
           "reasoning": "The participant introduced by the prepositional phrase ('PP'), indicating the entity with whom the 'Somebody' is keeping company."
         }
       ]
@@ -51,6 +51,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

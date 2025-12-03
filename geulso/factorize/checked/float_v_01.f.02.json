@@ -17,7 +17,7 @@
     },
     {
       "verb_type": "cause",
-      "verb_property": "movement_force.n.01",
+      "verb_property": "kinetic_energy.n.01",
       "reasoning": "The motion is explicitly stated as being 'due to some air or water current', which is the external cause of the movement.",
       "participants": [
         {
@@ -59,6 +59,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'cause'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'cause'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

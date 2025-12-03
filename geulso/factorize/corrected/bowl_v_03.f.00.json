@@ -3,25 +3,27 @@
   "definition": "engage in the sport of bowling",
   "frame_id": 0,
   "frame_text": "Somebody bowl",
-  "sememes": {
-    "Core Action of Motion": {
-      "verb_type": "change",
-      "verb_property": "motion.n.03",
-      "reasoning": "The verb describes the physical act of moving one's body and a bowling ball as part of the sport, which constitutes a change in motion.",
-      "participants": [
-        {
-          "semantic_role": "causal_agent.n.01",
-          "reasoning": "The 'Somebody' who initiates and performs the action of bowling."
-        }
-      ]
-    },
-    "Activity Type": {
-      "verb_type": "property",
-      "verb_property": "sport.n.01",
-      "value_type": "bowling.n.01",
-      "reasoning": "The definition explicitly states 'engage in the sport of bowling', identifying the specific type of recreational activity being performed, where 'bowling.n.01' refers to the sport itself."
+  "sememes": [
+    {
+      "Core Action of Motion": {
+        "verb_type": "change",
+        "verb_property": "motion.n.03",
+        "reasoning": "The verb describes the physical act of moving one's body and a bowling ball as part of the sport, which constitutes a change in motion.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' who initiates and performs the action of bowling."
+          }
+        ]
+      },
+      "Activity Type": {
+        "verb_type": "property",
+        "verb_property": "sport.n.01",
+        "value_type": "bowling.n.01",
+        "reasoning": "The definition explicitly states 'engage in the sport of bowling', identifying the specific type of recreational activity being performed, where 'bowling.n.01' refers to the sport itself."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

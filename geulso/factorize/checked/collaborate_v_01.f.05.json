@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "process",
-      "verb_property": "joint_effort.n.01",
+      "verb_property": "collaboration.n.01",
       "reasoning": "The verb 'collaborate' describes an ongoing activity or process of working together, which inherently constitutes a joint effort.",
       "participants": [
         {
@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' in the verb frame who is one of the active participants initiating or involved in the collaboration."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "collaborator.n.02",
           "reasoning": "The definition 'work together' explicitly implies the involvement of at least one other participant alongside the causal agent."
         },
         {
@@ -60,6 +60,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

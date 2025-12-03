@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "event",
-      "verb_property": "sound_production.n.01",
+      "verb_property": "acoustic_phenomenon.n.01",
       "reasoning": "The definition 'make a noise' directly indicates an event where sound is produced.",
       "participants": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "verb_type": "property",
-      "verb_property": "sound_quality.n.01",
+      "verb_property": "timbre.n.01",
       "value_type": "grinding.a.01",
       "reasoning": "The phrase 'typical of an engine lacking lubricants' describes a specific, often harsh and grinding, quality of the sound. The hypernym 'crunch' reinforces a harsh sound quality."
     }
@@ -53,6 +53,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'event'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "facial_feature.n.01",
+          "value_type": "feature.n.02",
           "reasoning": "The facial feature (e.g., forehead or brows) that undergoes the physical change of wrinkling or lowering, consistent with the definition and the 'lower' implication in the frame description."
         }
       ]
@@ -58,6 +58,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

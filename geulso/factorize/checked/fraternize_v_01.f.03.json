@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "social_interaction.n.01",
+      "verb_property": "socializing.n.01",
       "reasoning": "The verb describes the activity of engaging in social interaction. The hypernym 'socialize' confirms this focus on interaction.",
       "participants": [
         {
@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who initiates and participates in the interaction, as specified by the verb frame."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "associate.n.01",
           "reasoning": "The 'someone' implied by the PP ('with someone'), who is the reciprocal participant in the interaction."
         }
       ]
@@ -57,6 +57,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

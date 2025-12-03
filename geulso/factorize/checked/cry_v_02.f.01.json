@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "process",
-      "verb_property": "physiological_response.n.01",
+      "verb_property": "bodily_process.n.01",
       "reasoning": "The verb 'cry' describes the bodily process of shedding tears as a physiological response.",
       "participants": [
         {
@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "cause.n.01",
-          "value_type": "negative_emotion.n.01",
+          "value_type": "emotion.n.01",
           "reasoning": "The definition explicitly states that shedding tears occurs 'because of sadness, rage, or pain', which are all forms of negative emotion, serving as the underlying cause for the physiological response."
         }
       ]
@@ -52,6 +52,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

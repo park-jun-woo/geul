@@ -3,28 +3,30 @@
   "definition": "allow or plan for a certain possibility; concede the truth or validity of something",
   "frame_id": 1,
   "frame_text": "Somebody allow something",
-  "sememes": {
-    "VerbType": {
-      "value": "state",
-      "reasoning": "The verb describes a sustained mental position of acknowledging or planning for a possibility, rather than a discrete physical action or an instantaneous change."
-    },
-    "CoreMeaning": {
-      "value": "cognition.n.01",
-      "reasoning": "The definition 'allow or plan for a certain possibility; concede the truth or validity of something' indicates a mental process or state of intellectual acceptance or consideration."
-    },
-    "Participant_Agent": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The first 'Somebody' in the frame is the entity who performs the cognitive act of allowing or conceding."
-    },
-    "Participant_Patient_Affected": {
-      "value": "patient.n.02",
-      "reasoning": "The second 'somebody' in the frame is the entity whose possibility or truth is being acknowledged or planned for."
-    },
-    "Participant_Content_Proposition": {
-      "value": "proposition.n.01",
-      "reasoning": "The 'to INFINITIVE' clause represents the specific possibility, truth, or action that is being mentally allowed or conceded."
+  "sememes": [
+    {
+      "VerbType": {
+        "value": "state",
+        "reasoning": "The verb describes a sustained mental position of acknowledging or planning for a possibility, rather than a discrete physical action or an instantaneous change."
+      },
+      "CoreMeaning": {
+        "value": "cognition.n.01",
+        "reasoning": "The definition 'allow or plan for a certain possibility; concede the truth or validity of something' indicates a mental process or state of intellectual acceptance or consideration."
+      },
+      "Participant_Agent": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The first 'Somebody' in the frame is the entity who performs the cognitive act of allowing or conceding."
+      },
+      "Participant_Patient_Affected": {
+        "value": "patient.n.02",
+        "reasoning": "The second 'somebody' in the frame is the entity whose possibility or truth is being acknowledged or planned for."
+      },
+      "Participant_Content_Proposition": {
+        "value": "proposition.n.01",
+        "reasoning": "The 'to INFINITIVE' clause represents the specific possibility, truth, or action that is being mentally allowed or conceded."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,
@@ -56,6 +58,7 @@
     }
   },
   "errors": [
-    "`sememes`가 리스트가 아닙니다."
+    "`sememes[0]`에 'verb_type' 키 누락",
+    "`sememes[0]`에 'reasoning' 키 누락"
   ]
 }

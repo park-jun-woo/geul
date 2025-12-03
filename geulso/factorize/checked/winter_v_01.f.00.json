@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' in the verb frame is the entity who performs the action of spending the winter, implying agency."
         },
         {
-          "semantic_role": "temporal_entity.n.01",
+          "semantic_role": "period_of_time.n.01",
           "value_type": "winter.n.01",
           "reasoning": "The 'winter' refers to the specific season or period of time that is being spent or undergone, making it a temporal entity participant in the process."
         }
@@ -52,6 +52,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

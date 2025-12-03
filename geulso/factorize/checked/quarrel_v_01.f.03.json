@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who initiates or actively participates in the quarrel, as specified by the verb frame."
         },
         {
-          "semantic_role": "co-agent.n.01",
+          "semantic_role": "agent.n.01",
           "reasoning": "The verb 'quarrel' inherently requires at least two participants in the disagreement, even if the second participant is not explicitly marked by a specific slot in this generalized frame. The other party is a necessary co-agent in the interaction."
         },
         {
@@ -56,6 +56,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

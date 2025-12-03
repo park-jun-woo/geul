@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who is a primary participant in the disagreement, as specified by the verb frame."
         },
         {
-          "semantic_role": "co_participant.n.01",
+          "semantic_role": "participant.n.01",
           "reasoning": "A quarrel typically involves at least one other party, often introduced by a prepositional phrase (e.g., 'with somebody'), which the generic 'PP' can represent."
         },
         {
@@ -55,6 +55,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'interaction'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

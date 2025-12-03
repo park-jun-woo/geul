@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "financial_transaction.n.01",
+      "verb_property": "transaction.n.01",
       "reasoning": "The definition 'do business with a bank or keep an account at a bank' describes an activity involving financial transactions and an ongoing relationship with a financial institution. This is an activity rather than a simple change of state or a static state.",
       "participants": [
         {
@@ -52,6 +52,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

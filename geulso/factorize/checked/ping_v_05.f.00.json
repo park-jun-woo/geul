@@ -30,7 +30,7 @@
       "reasoning": "The inherent purpose of the ping action is to verify the operational status and reachability of the target computer.",
       "participants": [
         {
-          "semantic_role": "cognizer.n.01",
+          "semantic_role": "perceiver.n.01",
           "reasoning": "The 'Somebody' who seeks to obtain information about the status of the target."
         },
         {
@@ -71,6 +71,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

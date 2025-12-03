@@ -3,23 +3,25 @@
   "definition": "hinder or prevent the progress or accomplishment of",
   "frame_id": 6,
   "frame_text": "Somebody stymy something",
-  "sememes": {
-    "CoreAction": {
-      "value": "change",
-      "reasoning": "The verb 'obstruct' or 'stymy' describes causing a change in the state of an entity, specifically from a state of potential progress to one of impeded or prevented progress.",
-      "verb_property": "progress.n.01",
-      "participants": [
-        {
-          "semantic_role": "causal_agent.n.01",
-          "reasoning": "The 'Somebody' in the verb frame who intentionally performs the action of hindering or preventing."
-        },
-        {
-          "semantic_role": "patient.n.02",
-          "reasoning": "The 'something' whose progress or accomplishment is hindered or prevented by the agent's action."
-        }
-      ]
+  "sememes": [
+    {
+      "CoreAction": {
+        "value": "change",
+        "reasoning": "The verb 'obstruct' or 'stymy' describes causing a change in the state of an entity, specifically from a state of potential progress to one of impeded or prevented progress.",
+        "verb_property": "progress.n.01",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "reasoning": "The 'Somebody' in the verb frame who intentionally performs the action of hindering or preventing."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "reasoning": "The 'something' whose progress or accomplishment is hindered or prevented by the agent's action."
+          }
+        ]
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

@@ -3,24 +3,26 @@
   "definition": "occur between other event or between certain points of time",
   "frame_id": 1,
   "frame_text": "Something is interveneing PP",
-  "sememes": {
-    "VerbType": {
-      "value": "event",
-      "reasoning": "The definition 'occur' and the hypernym 'happen' indicate that this verb describes an event, an instance of something coming to pass."
-    },
-    "VerbProperty_TemporalRelation": {
-      "value": "temporal_relation.n.01",
-      "reasoning": "The core meaning of the verb is to establish a temporal relationship, specifically to 'occur between' other events or points in time."
-    },
-    "Participant_Patient": {
-      "value": "Something",
-      "reasoning": "The 'Something' in the verb frame is the entity or event that intervenes; it is the participant undergoing the occurrence."
-    },
-    "Participant_Context": {
-      "value": "temporal_interval.n.01",
-      "reasoning": "The 'PP' (prepositional phrase) in the frame refers to the events or points in time that bracket the intervening 'Something', providing the temporal context or interval."
+  "sememes": [
+    {
+      "VerbType": {
+        "value": "event",
+        "reasoning": "The definition 'occur' and the hypernym 'happen' indicate that this verb describes an event, an instance of something coming to pass."
+      },
+      "VerbProperty_TemporalRelation": {
+        "value": "temporal_relation.n.01",
+        "reasoning": "The core meaning of the verb is to establish a temporal relationship, specifically to 'occur between' other events or points in time."
+      },
+      "Participant_Patient": {
+        "value": "Something",
+        "reasoning": "The 'Something' in the verb frame is the entity or event that intervenes; it is the participant undergoing the occurrence."
+      },
+      "Participant_Context": {
+        "value": "temporal_interval.n.01",
+        "reasoning": "The 'PP' (prepositional phrase) in the frame refers to the events or points in time that bracket the intervening 'Something', providing the temporal context or interval."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

@@ -15,7 +15,7 @@
           "value_type": "person.n.01"
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "collaborator.n.01",
           "reasoning": "The 'PP' from 'join_forces PP' indicates another entity actively participating and joining forces with the primary agent.",
           "value_type": "agent.n.01"
         },
@@ -67,6 +67,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

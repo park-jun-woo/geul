@@ -3,28 +3,30 @@
   "definition": "operate on with a trephine",
   "frame_id": 0,
   "frame_text": "Somebody trephine somebody",
-  "sememes": {
-    "Action_Type": {
-      "value": "perform_surgery",
-      "reasoning": "The verb's definition 'operate on' indicates that its core meaning is to perform a surgical procedure."
-    },
-    "Instrument_Used": {
-      "value": "trephine_tool",
-      "reasoning": "The verb 'trephine' inherently specifies the surgical instrument, a trephine, as part of the action's definition."
-    },
-    "Effect_on_Patient": {
-      "value": "create_hole",
-      "reasoning": "Trephining involves making a circular hole, typically in bone, to remove a piece or relieve pressure, thus changing the physical integrity of the patient."
-    },
-    "Agent": {
-      "value": "surgeon",
-      "reasoning": "The 'Somebody' in the verb frame represents the active participant who performs the operation."
-    },
-    "Patient": {
-      "value": "body_part",
-      "reasoning": "The 'something' in the verb frame is the body part or object upon which the trephine operation is performed."
+  "sememes": [
+    {
+      "Action_Type": {
+        "value": "perform_surgery",
+        "reasoning": "The verb's definition 'operate on' indicates that its core meaning is to perform a surgical procedure."
+      },
+      "Instrument_Used": {
+        "value": "trephine_tool",
+        "reasoning": "The verb 'trephine' inherently specifies the surgical instrument, a trephine, as part of the action's definition."
+      },
+      "Effect_on_Patient": {
+        "value": "create_hole",
+        "reasoning": "Trephining involves making a circular hole, typically in bone, to remove a piece or relieve pressure, thus changing the physical integrity of the patient."
+      },
+      "Agent": {
+        "value": "surgeon",
+        "reasoning": "The 'Somebody' in the verb frame represents the active participant who performs the operation."
+      },
+      "Patient": {
+        "value": "body_part",
+        "reasoning": "The 'something' in the verb frame is the body part or object upon which the trephine operation is performed."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

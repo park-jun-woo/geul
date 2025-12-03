@@ -3,28 +3,30 @@
   "definition": "make a higher bid than (the previous bid or player); in a card game",
   "frame_id": 0,
   "frame_text": "Somebody outcall somebody",
-  "sememes": {
-    "CoreAction": {
-      "value": "to bid",
-      "reasoning": "The fundamental meaning of 'outcall' is the act of making an offer or declaration, specifically a bid in a game."
-    },
-    "ComparativeValue": {
-      "value": "greater",
-      "reasoning": "The verb inherently implies that the bid made is 'higher' or 'greater' in value than a previous bid."
-    },
-    "Domain": {
-      "value": "card_game",
-      "reasoning": "The definition explicitly restricts this action to the context of a 'card game'."
-    },
-    "AgentRole": {
-      "value": "bidder",
-      "reasoning": "The 'Somebody' in the verb frame represents the agent who performs the action of making the bid."
-    },
-    "OpponentRole": {
-      "value": "player_being_outbid",
-      "reasoning": "The 'somebody' object in the verb frame refers to the player whose previous bid is surpassed by the agent's higher bid."
+  "sememes": [
+    {
+      "CoreAction": {
+        "value": "to bid",
+        "reasoning": "The fundamental meaning of 'outcall' is the act of making an offer or declaration, specifically a bid in a game."
+      },
+      "ComparativeValue": {
+        "value": "greater",
+        "reasoning": "The verb inherently implies that the bid made is 'higher' or 'greater' in value than a previous bid."
+      },
+      "Domain": {
+        "value": "card_game",
+        "reasoning": "The definition explicitly restricts this action to the context of a 'card game'."
+      },
+      "AgentRole": {
+        "value": "bidder",
+        "reasoning": "The 'Somebody' in the verb frame represents the agent who performs the action of making the bid."
+      },
+      "OpponentRole": {
+        "value": "player_being_outbid",
+        "reasoning": "The 'somebody' object in the verb frame refers to the player whose previous bid is surpassed by the agent's higher bid."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

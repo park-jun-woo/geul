@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' who is the subject of the verb and actively participates as one of the fighters (the rider)."
         },
         {
-          "semantic_role": "co-agent.n.01",
+          "semantic_role": "agent.n.01",
           "reasoning": "The implicit opponent or opposing team with whom the 'causal_agent' is fighting, as a fight inherently requires at least two parties."
         }
       ]
@@ -57,6 +57,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

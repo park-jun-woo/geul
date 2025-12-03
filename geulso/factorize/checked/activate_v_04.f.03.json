@@ -26,7 +26,7 @@
       "participants": [
         {
           "semantic_role": "patient.n.02",
-          "value_type": "organisms.n.01",
+          "value_type": "organism.n.01",
           "reasoning": "The organisms whose growth is the direct object of the favoring purpose."
         }
       ]
@@ -63,6 +63,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

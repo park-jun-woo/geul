@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "change",
-      "verb_property": "physical_integrity.n.01",
+      "verb_property": "integrity.n.01",
       "reasoning": "The verb 'decapitate' describes an action that causes a drastic alteration to the physical integrity of a being by severing a body part.",
       "participants": [
         {
@@ -21,7 +21,7 @@
     },
     {
       "verb_type": "property",
-      "verb_property": "anatomical_part.n.01",
+      "verb_property": "structure.n.04",
       "value_type": "head.n.01",
       "reasoning": "The verb 'decapitate' specifically indicates the removal of the head, a core component of its meaning, derived from its definition 'cut the head of'."
     },
@@ -68,6 +68,6 @@
     }
   },
   "errors": [
-    "`sememes[3].verb_type`의 값 'result'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[3].verb_type`의 값 'result'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "process",
-      "verb_property": "plotting.n.01",
+      "verb_property": "premeditation.n.01",
       "reasoning": "The verb 'conspire' means 'engage in plotting or enter into a conspiracy,' which describes an ongoing activity or series of actions, consistent with a 'process' type. 'Plotting' captures the core secret and often illicit planning aspect.",
       "participants": [
         {
@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' in the verb frame acts as the primary agent who actively initiates and participates in the secret planning."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "accomplice.n.01",
           "reasoning": "Conspiracy inherently involves multiple agents (implied by 'swear together'); the 'PP' can specify other individuals involved, fulfilling the role of co-agents (e.g., 'conspire with someone')."
         },
         {
@@ -59,6 +59,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'process'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

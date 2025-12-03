@@ -14,7 +14,7 @@
           "reasoning": "The 'Somebody' in the verb frame is the agent performing the act of renegotiating."
         },
         {
-          "semantic_role": "co_agent.n.01",
+          "semantic_role": "agent.n.01",
           "reasoning": "Although not explicitly stated in this intransitive frame, the act of negotiation inherently implies the involvement of another party or parties (a co-agent)."
         }
       ]
@@ -57,7 +57,7 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)",
-    "`sememes[1].verb_type`의 값 'temporal_relation'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)",
+    "`sememes[1].verb_type`의 값 'temporal_relation'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

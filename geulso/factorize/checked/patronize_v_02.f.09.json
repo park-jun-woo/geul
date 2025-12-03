@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "activity",
-      "verb_property": "commercial_transaction.n.01",
+      "verb_property": "transaction.n.01",
       "reasoning": "The definition 'do one's shopping at; do business with; be a customer or client of' describes engaging in an ongoing or repeated commercial activity.",
       "participants": [
         {
@@ -51,6 +51,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'activity'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

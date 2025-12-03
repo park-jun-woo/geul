@@ -21,7 +21,7 @@
     },
     {
       "verb_type": "change",
-      "verb_property": "physical_state.n.01",
+      "verb_property": "state.n.02",
       "reasoning": "The verb intrinsically involves the physical act of smearing substances (tar and feathers) onto the body of the patient, thereby altering their physical appearance or state.",
       "participants": [
         {
@@ -66,6 +66,6 @@
     }
   },
   "errors": [
-    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[0].verb_type`의 값 'act'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

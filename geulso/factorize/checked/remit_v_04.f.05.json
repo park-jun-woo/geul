@@ -15,7 +15,7 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "legal_case.n.01",
+          "value_type": "lawsuit.n.01",
           "reasoning": "The 'something' being referred or sent back, which is specified as a 'matter or legal case' in the definition."
         },
         {
@@ -62,6 +62,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

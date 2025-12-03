@@ -3,20 +3,22 @@
   "definition": "gleam or glow intermittently",
   "frame_id": 5,
   "frame_text": "Something blink",
-  "sememes": {
-    "CoreEvent": {
-      "value": "change_in_light_emission",
-      "reasoning": "The verb 'flash' describes a dynamic process involving a change in the state of light emission, transitioning from not emitting to emitting light."
-    },
-    "Manner": {
-      "value": "intermittent.a.01",
-      "reasoning": "The definition 'gleam or glow intermittently' explicitly specifies the discontinuous and repetitive manner of light emission as a core component."
-    },
-    "AffectedEntity": {
-      "value": "patient.n.02",
-      "reasoning": "The 'Something' in the verb frame is the entity that undergoes the action of flashing, acting as the patient of the light emission."
+  "sememes": [
+    {
+      "CoreEvent": {
+        "value": "change_in_light_emission",
+        "reasoning": "The verb 'flash' describes a dynamic process involving a change in the state of light emission, transitioning from not emitting to emitting light."
+      },
+      "Manner": {
+        "value": "intermittent.a.01",
+        "reasoning": "The definition 'gleam or glow intermittently' explicitly specifies the discontinuous and repetitive manner of light emission as a core component."
+      },
+      "AffectedEntity": {
+        "value": "patient.n.02",
+        "reasoning": "The 'Something' in the verb frame is the entity that undergoes the action of flashing, acting as the patient of the light emission."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

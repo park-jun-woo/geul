@@ -15,14 +15,14 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "prepared_food.n.01",
+          "value_type": "takeout.n.01",
           "reasoning": "The 'something' that is acquired, explicitly defined as 'prepared food'."
         }
       ]
     },
     {
       "verb_type": "purpose",
-      "verb_property": "consumption_location.n.01",
+      "verb_property": "eating_place.n.01",
       "value_type": "home.n.01",
       "reasoning": "The phrase 'to be eaten at home' specifies the intended purpose and location for the consumption of the purchased food, a defining characteristic of this specific verb sense."
     }
@@ -70,6 +70,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

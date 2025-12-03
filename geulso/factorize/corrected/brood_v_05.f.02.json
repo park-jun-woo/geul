@@ -3,30 +3,32 @@
   "definition": "sit on (eggs)",
   "frame_id": 2,
   "frame_text": "Somebody hatch",
-  "sememes": {
-    "CoreAction": {
-      "verb_type": "process",
-      "verb_property": "incubation.n.01",
-      "reasoning": "The verb 'brood' describes a sustained, continuous activity of sitting on eggs for the purpose of their development.",
-      "participants": [
-        {
-          "semantic_role": "causal_agent.n.01",
-          "value_type": "animal.n.01",
-          "reasoning": "The 'Somebody' in the frame refers to an animal (e.g., a bird or insect) that performs the action of brooding."
-        },
-        {
-          "semantic_role": "patient.n.02",
-          "value_type": "egg.n.01",
-          "reasoning": "The definition 'sit on (eggs)' explicitly identifies eggs as the direct object of the action."
-        },
-        {
-          "semantic_role": "result.n.01",
-          "value_type": "hatching.n.01",
-          "reasoning": "The problematic frame 'Somebody hatch' implies 'hatch' as the intended outcome or consequence of the brooding action."
-        }
-      ]
+  "sememes": [
+    {
+      "CoreAction": {
+        "verb_type": "process",
+        "verb_property": "incubation.n.01",
+        "reasoning": "The verb 'brood' describes a sustained, continuous activity of sitting on eggs for the purpose of their development.",
+        "participants": [
+          {
+            "semantic_role": "causal_agent.n.01",
+            "value_type": "animal.n.01",
+            "reasoning": "The 'Somebody' in the frame refers to an animal (e.g., a bird or insect) that performs the action of brooding."
+          },
+          {
+            "semantic_role": "patient.n.02",
+            "value_type": "egg.n.01",
+            "reasoning": "The definition 'sit on (eggs)' explicitly identifies eggs as the direct object of the action."
+          },
+          {
+            "semantic_role": "result.n.01",
+            "value_type": "hatching.n.01",
+            "reasoning": "The problematic frame 'Somebody hatch' implies 'hatch' as the intended outcome or consequence of the brooding action."
+          }
+        ]
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,

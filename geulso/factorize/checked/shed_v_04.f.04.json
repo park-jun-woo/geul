@@ -16,7 +16,7 @@
         },
         {
           "semantic_role": "patient.n.02",
-          "value_type": "biological_material.n.01",
+          "value_type": "body_part.n.01",
           "reasoning": "The 'hair, skin, horn, or feathers' are the biological materials that are cast off, as specified in the definition, even if not explicitly present in this intransitive frame."
         }
       ]
@@ -58,6 +58,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'manner'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

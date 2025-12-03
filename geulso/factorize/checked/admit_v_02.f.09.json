@@ -3,24 +3,26 @@
   "definition": "allow to enter; grant entry to",
   "frame_id": 9,
   "frame_text": "Something allow_in something",
-  "sememes": {
-    "CoreProcessType": {
-      "value": "change",
-      "reasoning": "The verb 'admit' describes an action that causes a transition or alteration in the patient's state of being, specifically regarding its location."
-    },
-    "PropertyAffected": {
-      "value": "location.n.01",
-      "reasoning": "The primary semantic property undergoing change is the spatial location of the patient, moving from outside to inside a boundary."
-    },
-    "AgentRole": {
-      "value": "causal_agent.n.01",
-      "reasoning": "The 'Something' in the verb frame acts as the entity that causes or enables the entry of another entity."
-    },
-    "PatientRole": {
-      "value": "patient.n.02",
-      "reasoning": "The 'something' in the verb frame is the entity that is allowed to enter and whose location is changed as a result of the agent's action."
+  "sememes": [
+    {
+      "CoreProcessType": {
+        "value": "change",
+        "reasoning": "The verb 'admit' describes an action that causes a transition or alteration in the patient's state of being, specifically regarding its location."
+      },
+      "PropertyAffected": {
+        "value": "location.n.01",
+        "reasoning": "The primary semantic property undergoing change is the spatial location of the patient, moving from outside to inside a boundary."
+      },
+      "AgentRole": {
+        "value": "causal_agent.n.01",
+        "reasoning": "The 'Something' in the verb frame acts as the entity that causes or enables the entry of another entity."
+      },
+      "PatientRole": {
+        "value": "patient.n.02",
+        "reasoning": "The 'something' in the verb frame is the entity that is allowed to enter and whose location is changed as a result of the agent's action."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,
@@ -52,6 +54,7 @@
     }
   },
   "errors": [
-    "`sememes`가 리스트가 아닙니다."
+    "`sememes[0]`에 'verb_type' 키 누락",
+    "`sememes[0]`에 'reasoning' 키 누락"
   ]
 }

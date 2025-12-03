@@ -6,7 +6,7 @@
   "sememes": [
     {
       "verb_type": "action",
-      "verb_property": "physical_gesture.n.01",
+      "verb_property": "gesture.n.01",
       "reasoning": "The definition states 'clap one's hands', which is a specific physical gesture. The verb frame 'Somebody clap' directly refers to this action.",
       "participants": [
         {
@@ -53,6 +53,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'communication'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'communication'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

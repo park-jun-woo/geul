@@ -18,7 +18,7 @@
           "reasoning": "The first 'somebody' that is being connected (the direct object)."
         },
         {
-          "semantic_role": "co_patient.n.01",
+          "semantic_role": "patient.n.01",
           "reasoning": "The entity (often introduced by a prepositional phrase, 'PP') that the 'patient' is being connected to, forming a mutual link."
         }
       ]
@@ -60,6 +60,6 @@
     }
   },
   "errors": [
-    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'state', 'change', 'property'})이 아닙니다. (경고)"
+    "`sememes[1].verb_type`의 값 'purpose'가 일반적인 값({'action', 'property', 'change', 'state'})이 아닙니다. (경고)"
   ]
 }

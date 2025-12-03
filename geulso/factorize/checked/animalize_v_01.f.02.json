@@ -3,24 +3,26 @@
   "definition": "represent in the form of an animal",
   "frame_id": 2,
   "frame_text": "Somebody animalize somebody",
-  "sememes": {
-    "Action": {
-      "value": "representation",
-      "reasoning": "The verb's core meaning is to create or alter the representation of an entity."
-    },
-    "Agent": {
-      "value": "Somebody",
-      "reasoning": "The 'Somebody' in the verb frame is the causal agent performing the action of representation."
-    },
-    "Patient": {
-      "value": "somebody",
-      "reasoning": "The 'somebody' in the verb frame is the entity being represented or whose form is being depicted."
-    },
-    "ResultingForm": {
-      "value": "animal-like form",
-      "reasoning": "The representation is specifically 'in the form of an animal' as stated in the definition."
+  "sememes": [
+    {
+      "Action": {
+        "value": "representation",
+        "reasoning": "The verb's core meaning is to create or alter the representation of an entity."
+      },
+      "Agent": {
+        "value": "Somebody",
+        "reasoning": "The 'Somebody' in the verb frame is the causal agent performing the action of representation."
+      },
+      "Patient": {
+        "value": "somebody",
+        "reasoning": "The 'somebody' in the verb frame is the entity being represented or whose form is being depicted."
+      },
+      "ResultingForm": {
+        "value": "animal-like form",
+        "reasoning": "The representation is specifically 'in the form of an animal' as stated in the definition."
+      }
     }
-  },
+  ],
   "qualifiers": {
     "Evidentiality": {
       "value": 0.0,
@@ -52,6 +54,7 @@
     }
   },
   "errors": [
-    "`sememes`가 리스트가 아닙니다."
+    "`sememes[0]`에 'verb_type' 키 누락",
+    "`sememes[0]`에 'reasoning' 키 누락"
   ]
 }
