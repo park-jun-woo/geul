@@ -1,4 +1,4 @@
-````markdown
+
 # GEUL 비트 명세서 (GEUL Bit Layout Specification)
 
 - 문서명: GEUL-비트명세서.md  
