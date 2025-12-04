@@ -23,7 +23,7 @@ bit1 = 0 (Standard) 인 경우:
 
 bit1 = 1 (Extension) 인 경우:
 → bit2는 Kind가 아니며, Extension Class 로 별도 해석한다.
-
+```
 
 
 ---
