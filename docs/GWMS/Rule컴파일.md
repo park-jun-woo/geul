@@ -119,7 +119,7 @@ Rule은 다음과 같은 이유로 **그래프 데이터**로 저장되어야 �
 
 ```text
 Node: Rule_<Name>@vN
-  - id: MID
+  - id: SIDX
   - name: "살인죄 판단 규칙"
   - version: 3
   - priority: 100
@@ -169,7 +169,7 @@ Node: Rule_<Name>@vN
 
 ```go
 type CompiledRule struct {
-    RuleID       MID        // Rule_Murder
+    RuleID       SIDX        // Rule_Murder
     Version      int        // 3
     Bytecode     []byte     // 또는 IR
     TriggerKey   TriggerKey // Verb/Type 기반 인덱싱 키

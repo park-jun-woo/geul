@@ -190,13 +190,13 @@ Node: RULE_MURDER
 ```go
 // L3 사건
 type Event struct {
-    Ctx    MID
-    Who    MID
-    What   MID
-    Whom   MID
+    Ctx    SIDX
+    Who    SIDX
+    What   SIDX
+    Whom   SIDX
     When   Time
-    Where  MID
-    Why    MID
+    Where  SIDX
+    Why    SIDX
     RawNL  string // 원문(선택)
 }
 

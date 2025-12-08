@@ -1,19 +1,19 @@
-RIDX 설계 정리서
+PIDX 설계 정리서
 
-(Ruled Index / Rule-driven Index)
+(Pattern Index)
 
-1. RIDX란 무엇인가?
+1. PIDX란 무엇인가?
 
 정의 한 줄
 
-> RIDX = “룰(또는 고비용 분석)에 의해 생성된, 월드 전역에 대한 특수 인덱스”
+> PIDX = “사용자가 지정한 고비용 분석에 의해 생성된, 월드 전역에 대한 특수 인덱스”
 
 
 
-일반 MID 인덱스
+일반 SIDX 인덱스
 → “기본 의미좌표(성별, 종, 국가…)”로 빠르게 후보군을 줄이는 저수준 인덱스
 
-RIDX
+PIDX
 → “천천히 하락하다가 급등한 주식”, “군견 적합 종”, “특정 성향의 인물”처럼
 고차원 패턴/규칙에 의해 만들어진 고수준 인덱스
 
@@ -26,7 +26,7 @@ GWMS에서 싸고 빠르게 재활용하기 위한 캐시 + 인덱스 레이어�
 
 2. 왜 필요한가?
 
-2.1 MID만으로는 힘든 패턴들
+2.1 SIDX만으로는 힘든 패턴들
 
 예시:
 
@@ -51,7 +51,7 @@ GWMS에서 싸고 빠르게 재활용하기 위한 캐시 + 인덱스 레이어�
 그래서:
 
 > 한 번은 비싸게 **“패턴 탐지 + 태깅”**을 하고,
-그 결과를 RIDX로 굽는다 → 그 다음부터는 싸게 조회.
+그 결과를 PIDX로 굽는다 → 그 다음부터는 싸게 조회.
 
 
 
@@ -60,27 +60,27 @@ GWMS에서 싸고 빠르게 재활용하기 위한 캐시 + 인덱스 레이어�
 
 3. 개념 구조
 
-RIDX는 크게 이렇게 본다:
+PIDX는 크게 이렇게 본다:
 
-1. RIDX 정의 (메타데이터)
+1. PIDX 정의 (메타데이터)
 
-이 RIDX가 무엇을 의미하는지, 어떤 Rule/모델로 만들었는지
+이 PIDX가 무엇을 의미하는지, 어떤 Rule/모델로 만들었는지
 
 
 
-2. RIDX 엔트리 (실제 인덱스)
+2. PIDX 엔트리 (실제 인덱스)
 
-어떤 MID들이 이 인덱스에 속하는지
+어떤 SIDX들이 이 인덱스에 속하는지
 
 가중치/점수/부가 정보
 
 
 
 
-3.1 RIDX 메타 구조 (개념 스키마)
+3.1 PIDX 메타 구조 (개념 스키마)
 
-RIDX
-- ridx_id          // RIDX 고유 ID
+PIDX
+- PIDX_id          // PIDX 고유 ID
 - name             // 사람이 알아볼 이름
 - description      // 자연어 설명
 - world_id         // 어느 월드에 속하는가
@@ -88,21 +88,21 @@ RIDX
 - created_at
 - updated_at
 - status           // ACTIVE / STALE / ARCHIVED
-- cost_tag         // 생성 비용 / 유지 비용 레벨 (LOW/MID/HIGH)
+- cost_tag         // 생성 비용 / 유지 비용 레벨 (LOW/SIDX/HIGH)
 
-3.2 RIDX 엔트리 구조
+3.2 PIDX 엔트리 구조
 
-RIDX_ENTRY
-- ridx_id          // 어느 RIDX의 엔트리인가
-- mid              // 대상 노드 MID
+PIDX_ENTRY
+- PIDX_id          // 어느 PIDX의 엔트리인가
+- SIDX              // 대상 노드 SIDX
 - score            // 패턴 적합도 (0.0 ~ 1.0)
 - meta             // 옵션 (예: 검출 시점, 기간, 참고 값 등)
 
 GWMS 내부에서는 결국:
 
-RIDX = 하나의 그래프 서브뷰
+PIDX = 하나의 그래프 서브뷰
 
-RIDX_ENTRY = (RIDX) —[HAS_MEMBER, score=x]→ (MID) 엣지 집합
+PIDX_ENTRY = (PIDX) —[HAS_MEMBER, score=x]→ (SIDX) 엣지 집합
 
 
 으로 볼 수 있음.
@@ -110,15 +110,15 @@ RIDX_ENTRY = (RIDX) —[HAS_MEMBER, score=x]→ (MID) 엣지 집합
 
 ---
 
-4. 언제 RIDX를 만든다?
+4. 언제 PIDX를 만든다?
 
 4.1 트리거 정책
 
-RIDX는 막 찍어내면 폭발하니까, 생성 조건이 필요하다:
+PIDX는 막 찍어내면 폭발하니까, 생성 조건이 필요하다:
 
 1. 사용자 정의
 
-“이 패턴 자주 쓴다. RIDX로 만들어라.”
+“이 패턴 자주 쓴다. PIDX로 만들어라.”
 
 예: 글월에서 “내 작품에서 자주 쓰는 캐릭터 패턴” 별도 인덱스
 
@@ -128,7 +128,7 @@ RIDX는 막 찍어내면 폭발하니까, 생성 조건이 필요하다:
 
 동일/유사 질의가 N회 이상 반복
 
-예: “지난 3년간 천천히 떨어졌다가 급등한 종목” → 많이 나오면 RIDX 생성 후보
+예: “지난 3년간 천천히 떨어졌다가 급등한 종목” → 많이 나오면 PIDX 생성 후보
 
 
 
@@ -163,11 +163,11 @@ Rule: “가격 시퀀스에서 SLOW_DROP → SPIKE 패턴”
 
 패턴 매칭 수행
 
-패턴 적합하면 (ridx_id, mid, score) 등록
+패턴 적합하면 (PIDX_id, SIDX, score) 등록
 
 
 
-3. RIDX 활성화
+3. PIDX 활성화
 
 status = ACTIVE
 
@@ -178,7 +178,7 @@ status = ACTIVE
 
 5.2 갱신 (Refresh)
 
-월드가 변하면 RIDX도 낡는다:
+월드가 변하면 PIDX도 낡는다:
 
 주식 가격 갱신
 
@@ -194,7 +194,7 @@ Full rebuild: 통으로 다시 계산 (비싸지만 쉬움)
 Incremental update: 변경된 범위만 재계산 (복잡하지만 효율적)
 
 
-RIDX 메타에:
+PIDX 메타에:
 
 valid_until 또는 staleness_score를 둬서
 쿼리 플래너가 “좀 낡았으니 조심해라” 판단 가능하게.
@@ -202,9 +202,9 @@ valid_until 또는 staleness_score를 둬서
 
 5.3 아카이브 / 제거
 
-RIDX도 무한정 쌓이면 안 되니:
+PIDX도 무한정 쌓이면 안 되니:
 
-사용량이 적은 RIDX → ARCHIVED 상태로 내려서
+사용량이 적은 PIDX → ARCHIVED 상태로 내려서
 
 인덱스 엔트리 파일로 덤프
 
@@ -231,27 +231,27 @@ GWMS 메모리/핵심 인덱스에서는 제거
 
 6. 쿼리 플래너와의 관계
 
-쿼리 플래너가 어떤 순서로 RIDX를 활용하냐가 관건.
+쿼리 플래너가 어떤 순서로 PIDX를 활용하냐가 관건.
 
 6.1 기본 전략
 
-1. 먼저 RIDX 후보 조회
+1. 먼저 PIDX 후보 조회
 
 사용자가 물어보는 패턴이
 
-등록된 RIDX와 매칭되면
-→ 바로 RIDX_ENTRY에서 MID 집합을 가져오기
+등록된 PIDX와 매칭되면
+→ 바로 PIDX_ENTRY에서 SIDX 집합을 가져오기
 
 
 
 
-2. RIDX 없음 → Plan B
+2. PIDX 없음 → Plan B
 
-기존 MID 인덱스 + 심볼릭 필터로 최대한 좁히고
+기존 SIDX 인덱스 + 심볼릭 필터로 최대한 좁히고
 
 그래도 안 되면 뉴럴 + 수학 파이프라인 발동
 
-이때, “이 질의 패턴은 RIDX 생성 후보”로 등록 가능
+이때, “이 질의 패턴은 PIDX 생성 후보”로 등록 가능
 
 
 
@@ -263,13 +263,13 @@ GWMS 메모리/핵심 인덱스에서는 제거
 
 플래너:
 
-1. RIDX_DOG_MILITARY_SUITABILITY 존재?
+1. PIDX_DOG_MILITARY_SUITABILITY 존재?
 
 YES → 엔트리에서 상위 N종 뽑고 끝.
 
 NO →
 
-1. MID 인덱스로 개(犬) 종만 필터
+1. SIDX 인덱스로 개(犬) 종만 필터
 
 
 2. 각 종의 본능/체력/지능/복종성 등 수치로 수학적 점수 계산
@@ -278,7 +278,7 @@ NO →
 3. (옵션) 과거 뉴스/사용 레코드에 대한 뉴럴 분석 추가
 
 
-4. 이 결과로 RIDX 생성 or 캐시만 유지
+4. 이 결과로 PIDX 생성 or 캐시만 유지
 
 
 
@@ -288,15 +288,15 @@ NO →
 
 ---
 
-7. 뉴럴 연산과 RIDX
+7. 뉴럴 연산과 PIDX
 
-RIDX 철학의 핵심 중 하나가 이거였지:
+PIDX 철학의 핵심 중 하나가 이거였지:
 
-> “비싼 신경망 연산은 1번만, 그 결과는 RIDX로 굽는다.”
+> “비싼 신경망 연산은 1번만, 그 결과는 PIDX로 굽는다.”
 
 
 
-7.1 RIDX가 뉴럴 의존도를 낮추는 방식
+7.1 PIDX가 뉴럴 의존도를 낮추는 방식
 
 최초 질의/배치 작업 시:
 
@@ -308,7 +308,7 @@ RIDX 철학의 핵심 중 하나가 이거였지:
 이후:
 
 같은 종류의 질의는
-→ 뉴럴 안 쓰고 RIDX 조회만으로 해결
+→ 뉴럴 안 쓰고 PIDX 조회만으로 해결
 
 
 
@@ -316,7 +316,7 @@ RIDX 철학의 핵심 중 하나가 이거였지:
 
 뉴럴 = 부트스트랩 + 태깅용
 
-실전 쿼리 = 심볼릭 + RIDX + MID 기반 연산
+실전 쿼리 = 심볼릭 + PIDX + SIDX 기반 연산
 
 
 으로 구조가 고정됨.
@@ -328,7 +328,7 @@ RIDX 철학의 핵심 중 하나가 이거였지:
 
 8.1 “서서히 떨어지다 급등한 주식”
 
-RIDX ID: RIDX_STOCK_SLOW_DROP_THEN_SPIKE
+PIDX ID: PIDX_STOCK_SLOW_DROP_THEN_SPIKE
 
 Rule:
 
@@ -345,7 +345,7 @@ Rule:
 이후:
 
 해당 패턴 찾는 질의는
-→ RIDX_STOCK_SLOW_DROP_THEN_SPIKE에서만 조회
+→ PIDX_STOCK_SLOW_DROP_THEN_SPIKE에서만 조회
 
 
 
@@ -353,27 +353,27 @@ Rule:
 
 대규모 판타지 월드, 수천 캐릭터, 수만 이벤트
 
-RIDX 예:
+PIDX 예:
 
-RIDX_CHAR_LONG_TERM_GRUDGE (장기간 원한 유지)
+PIDX_CHAR_LONG_TERM_GRUDGE (장기간 원한 유지)
 
-RIDX_EVENT_MAJOR_PLOT_POINT
+PIDX_EVENT_MAJOR_PLOT_POINT
 
-RIDX_CONTEXT_POLITICAL_CRISIS
+PIDX_CONTEXT_POLITICAL_CRISIS
 
 
 작가는:
 
 “이 세계에서 오랫동안 원한 품고 있는 인물만 보고 싶다”
 
-→ 해당 RIDX에서 바로 꺼내면 됨
+→ 해당 PIDX에서 바로 꺼내면 됨
 
 
 정합성 검사도:
 
 “중요 플롯 포인트 주변 캐릭터 관계, 연령, 이동 경로 검증”
 
-→ RIDX + 타임라인 인덱스 조합
+→ PIDX + 타임라인 인덱스 조합
 
 
 
@@ -382,7 +382,7 @@ RIDX_CONTEXT_POLITICAL_CRISIS
 
 9. 요약
 
-RIDX의 역할을 한 문장씩 요약하면:
+PIDX의 역할을 한 문장씩 요약하면:
 
 1. 정의
 
@@ -398,7 +398,7 @@ RIDX의 역할을 한 문장씩 요약하면:
 
 3. 위치
 
-GWMS의 MID(기본 인덱스) 위에 올라가는 2차 인덱스 레이어
+GWMS의 SIDX(기본 인덱스) 위에 올라가는 2차 인덱스 레이어
 
 
 
@@ -412,5 +412,5 @@ GWMS의 MID(기본 인덱스) 위에 올라가는 2차 인덱스 레이어
 
 생성/갱신/아카이브 주기를 정책으로 관리
 
-쿼리 플래너가 RIDX 우선, 실패 시 기존 경로 + RIDX 생성 후보 등록
+쿼리 플래너가 PIDX 우선, 실패 시 기존 경로 + PIDX 생성 후보 등록
 
