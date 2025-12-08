@@ -81,8 +81,8 @@ bit2 = 0 (Node)
 bit3 = 0 (Entity/Verb/Context 그룹)
 bit4 = 0 (Entity)
 
-bit5..56  : 속성 약식 표현 비트 (52비트)
-bit57..64 : 중복방지용 로컬 ID (8비트)
+bit5..32  : 속성 약식 표현 비트 (28비트)
+bit33..64 : 중복방지용 로컬 ID (32비트)
 ```
 
 #### 3.1.2 동사 노드 (Verb Node)
