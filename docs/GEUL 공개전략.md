@@ -46,7 +46,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 
 * 연구 도구(encoder/decoder/editor)를 무료 공개
 * 데이터셋은 학계가 즉시 실험 가능하도록 제공
-* GEUL World Management System를 통해 실험적 활용 기반 제공
+* World Management System를 통해 실험적 활용 기반 제공
 * SEGLAM demo로 “동작하는 예”를 빠르게 보여주기
 
 ---
@@ -57,12 +57,12 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 
 1. GEUL/SEGLAM 논문
 2. 영문→GEUL 9단계 부트스트랩 노하우 논문
-3. GWMS 관련 의미정렬 식별자 + SIMD 비트마스크 쿼리 방법론 논문
+3. WMS 관련 의미정렬 식별자 + SIMD 비트마스크 쿼리 방법론 논문
 4. GPT-GEUL I/O 파인튜닝 논문
 5. GEUL Encoder
 6. GEUL Decoder
 7. GEUL I/O 추론 GPT 모델
-8. GEUL World Management System 파일럿 버전
+8. World Management System 파일럿 버전
 9. GEUL Visual Editor
 10. SEGLAM 최소 구현 Docker 데모
 11. Wikidata + WordNet synset 기반 동사 + CC NEWS로 Sculpt한 realworld.gwm
@@ -114,7 +114,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 ### 🔹 확장 공개
 
 * (7) GEUL I/O 추론 GPT 모델
-* (8) GEUL World Management System 최소 구현체
+* (8) World Management System 최소 구현체
 * (14) 1000만 자동생성셋
 * (15) 환각·신뢰성 벤치마크
 
@@ -143,7 +143,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 
 * GEUL → 연구 주제로 고착
 * SEGLAM → 메모리/안전성 연구의 중심 후보
-* GWMS → 커뮤니티 확장을 통한 생태계 강화
+* WMS → 커뮤니티 확장을 통한 생태계 강화
 * “GEUL 창시자”라는 창업자의 정체성 확립
 
 ---
@@ -170,7 +170,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 * “SEGLAM Minimal Demo v1.0”
 * “GEUL Gold Dataset v1.0”
 * “GEUL Semantic IDs v1.0”
-* “GEUL World Management System Beta v0.1”
+* “World Management System Beta v0.1”
 
 ---
 
@@ -186,7 +186,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 
 * 내부 연구실에서 GEUL I/O 실험
 * SEGLAM의 hallucination 감소 관심
-* GWMS로 LLM memory architecture 실험
+* WMS로 LLM memory architecture 실험
 
 ### **5.3 오픈소스 커뮤니티**
 
@@ -232,7 +232,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 
 * 미국 대학 강연
 * 빅테크 협업 제안
-* GEUL World Management System 확장 PR
+* World Management System 확장 PR
 * SEGLAM 기반 agent 데모 확산
 
 ---

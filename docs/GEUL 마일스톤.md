@@ -37,7 +37,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 * 의미정렬 식별자를 bit mask로 구조화
 * SIMD 병렬 쿼리 알고리즘
 * 기존 IR/DB 대비 장점
-* GEUL World Management System의 핵심 원리
+* World Management System의 핵심 원리
 
 ## **1.4 GPT를 GEUL 입출력으로 파인튜닝하는 논문**
 
@@ -74,7 +74,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 
 # **3. GEUL 기반 시스템 구현**
 
-## **3.1 GEUL World Management System(최소 구현체)**
+## **3.1 World Management System(최소 구현체)**
 
 * GEUL triple/frame 저장
 * 의미정렬 식별자 기반 인덱싱
@@ -166,7 +166,7 @@ GEUL(Generalized Encoded Universal Language)과 SEGLAM(Semantic Graph Layered Mo
 * (5) GEUL Encoder
 * (6) GEUL Decoder
 * (7) GEUL GPT 모델
-* (8) GEUL World Management System
+* (8) World Management System
 * (9) Visual Editor
 * (10) SEGLAM 데모
 

@@ -22,10 +22,10 @@ SEGLAM(Self-Examination General Embedding Unified Language Architecture Model)�
 
 3.  **[쿼리 생성] → 쿼리 생성 GPT**
     * `쿼리 생성 GPT`가 `[요청 GEUL Stream + 업데이트된 심상 GEUL Stream]`을 분석합니다.
-    * GWMS에서 어떤 정보와 절차를 찾아야 할지에 대한 최적의 `쿼리 GEUL Stream`을 생성합니다.
+    * WMS에서 어떤 정보와 절차를 찾아야 할지에 대한 최적의 `쿼리 GEUL Stream`을 생성합니다.
 
-4.  **[정보 인출] GWMS**
-    * `GWMS`는 `쿼리 GEUL Stream`을 입력받아, 거대한 지식베이스에서 답변에 필요할 것으로 추측되는 `정보 GEUL Stream`(사실)과 `제어 GEUL Stream`(절차)을 초고속으로 인출하여 반환합니다.
+4.  **[정보 인출] WMS**
+    * `WMS`는 `쿼리 GEUL Stream`을 입력받아, 거대한 지식베이스에서 답변에 필요할 것으로 추측되는 `정보 GEUL Stream`(사실)과 `제어 GEUL Stream`(절차)을 초고속으로 인출하여 반환합니다.
 
 5.  **[최종 추론] → 추론 GPT**
     * `추론 GPT`가 `[요청 + 심상 + 정보 + 제어] Stream`들을 모두 바탕으로 최종적인 추론을 수행합니다.
@@ -40,15 +40,15 @@ SEGLAM(Self-Examination General Embedding Unified Language Architecture Model)�
 
 시스템 유휴 상태 또는 응답 직후에 발생하는 백그라운드 학습 및 개선 흐름입니다.
 
-1.  **[기록] 답변 → GWMS**
-    * `추론 GPT`가 생성한 `답변 GEUL Stream`은 사용자에게 전달되는 동시에, 하나의 성공적인 '경험'으로서 GWMS에 다시 저장됩니다.
+1.  **[기록] 답변 → WMS**
+    * `추론 GPT`가 생성한 `답변 GEUL Stream`은 사용자에게 전달되는 동시에, 하나의 성공적인 '경험'으로서 WMS에 다시 저장됩니다.
 
 2.  **[성찰] GEUL-Agent 활성화**
     * 시스템 유휴 상태일 때, `GEUL-Agent`들이 활성화됩니다.
-    * Agent는 GWMS에 새로운 자연어 정보(뉴스 등)를 GEUL Stream으로 번역하여 업데이트하거나, 새로 기록된 '경험'들을 다시 분석합니다.
+    * Agent는 WMS에 새로운 자연어 정보(뉴스 등)를 GEUL Stream으로 번역하여 업데이트하거나, 새로 기록된 '경험'들을 다시 분석합니다.
 
 3.  **[개선] 지식 및 절차 업데이트**
-    * Agent의 성찰을 통해 GWMS의 자산이 개선됩니다.
+    * Agent의 성찰을 통해 WMS의 자산이 개선됩니다.
     * **지식 확장:** 새로운 정보나 성공적인 답변에서 새로운 `정보 GEUL Stream`(사실)을 추출하여 지식베이스를 확장합니다.
     * **절차 개선:** 반복적으로 나타나는 성공 패턴을 발견하여 기존의 `제어 GEUL Stream`(절차)를 더 효율적으로 개선하거나 새로 생성합니다.
     * **프로필 업데이트:** 대화 기록을 바탕으로 장기적인 `사용자 GEUL Stream`(프로필)를 업데이트합니다.

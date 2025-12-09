@@ -1,7 +1,7 @@
 # Rule컴파일.md  
 버전: 0.1  
 작성일: 2024-12-05  
-대상: GWMS L2 Rule 레이어 설계
+대상: WMS L2 Rule 레이어 설계
 
 ---
 
@@ -9,7 +9,7 @@
 
 ### 1.1 목적
 
-이 문서는 **GWMS(World Management System)** 에서:
+이 문서는 **WMS(World Management System)** 에서:
 
 - **룰(Rule)을 그래프/GEUL 데이터로 저장**하면서도  
 - **실행 시에는 최대한 빠르게 평가**하기 위해
@@ -26,7 +26,7 @@
 
 ## 2. 레이어 구조에서 Rule의 위치
 
-GWMS는 대략 다음과 같은 세계 모델 레이어를 가진다고 가정한다.
+WMS는 대략 다음과 같은 세계 모델 레이어를 가진다고 가정한다.
 
 - **L3: 서술 레이어 (Narrative)**
   - Event6 / Triple / 발화 / 로그 / 뉴스 / 소설 문장
@@ -361,4 +361,4 @@ func GetTriggeredRules(evt Event) []CompiledRule {
 > **Rule은 그래프 데이터로 정의·버전 관리되지만,
 > 실행 시에는 반드시 미리 컴파일된 코드로 돌린다.**
 >
-> 이게 **GWMS L2 Rule 레이어의 기본 원칙**이다.
+> 이게 **WMS L2 Rule 레이어의 기본 원칙**이다.
