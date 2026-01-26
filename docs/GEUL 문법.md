@@ -1,8 +1,8 @@
-# GEUL 통합 문법 명세서 v1.1
+# GEUL 통합 문법 명세서 v0.1
 
 **작성일:** 2026-01-26  
 **상태:** 표준 초안 (DRAFT)  
-**개정:** ARG 구조 → 참여자 명시 구조로 전환  
+**개정:** 참여자 명시 구조 + 동사 한정자 상세 명세 통합  
 **목적:** GEUL(General Embedding Unified Language)의 완전한 구조적 정의
 
 ---
@@ -206,17 +206,400 @@ GEUL은 둘을 명확히 구분하며, 필요시 인스턴스 → 범주 변환�
 
 SIDX 구조 (64비트):
 bit 1-4:   타입 플래그
-bit 5-32:  동사 한정사 (modifiers)
-           - 시제, 상, 양태 정보
-bit 33-64: Verb Synset ID
+bit 5-32:  동사 한정자 영역 (28비트)
+bit 33-64: Verb Synset ID (32비트)
 ```
 
-**동사 한정사 (bit 5-32):**
-- bit 5-8: 시제 (과거/현재/미래)
-- bit 9-12: 상 (완료/진행/단순)
-- bit 13-16: 양태 (가능/의무/추측)
-- bit 17-24: 부정 플래그 및 강도
-- bit 25-32: 기타 문법 범주
+**동사 한정자 (Verb Modifiers) 상세 명세:**
+
+동사의 의미를 세밀하게 표현하는 한정자 체계. 28비트 공간을 활용하여 자연어의 다양한 문법 범주를 인코딩한다.
+
+##### 3.2.2.1 비트 레벨 한정자 (bit 5-32)
+
+다음 한정자들은 동사 SIDX의 bit 5-32 영역에 직접 인코딩된다:
+
+| 한정자 | 비트 범위 | 비트 수 | 값 범위 | 인코딩 타입 | 설명 |
+|--------|-----------|---------|---------|-------------|------|
+| **시제 (Tense)** | bit 5-8 | 4 | -1.0 ~ +1.0 | Float 양자화 | -1.0=과거, 0.0=현재, +1.0=미래 |
+| **상 (Aspect)** | bit 9-11 | 3 | 0-7 | 비트마스크 | 1=진행, 2=완료, 4=결과중심 (조합 가능) |
+| **극성 (Polarity)** | bit 12-15 | 4 | -1.0 ~ +1.0 | Float 양자화 | -1.0=부정, 0.0=중립, +1.0=긍정 |
+| **증거성 (Evidentiality)** | bit 16-19 | 4 | -1.0 ~ +1.0 | Float 양자화 | -1.0=추론, 0.0=직접경험, +1.0=전언 |
+| **서법 (Mood)** | bit 20-23 | 4 | -1.0 ~ +1.0 | Float 양자화 | -1.0=가정, 0.0=서술, +1.0=명령 |
+| **의도성 (Volitionality)** | bit 24-26 | 3 | -1.0 ~ +1.0 | Float 양자화 | -1.0=비의도, 0.0=중립, +1.0=의도 |
+| **확신성 (Confidence)** | bit 27-29 | 3 | -1.0 ~ +1.0 | Float 양자화 | -1.0=추측, 0.0=중립, +1.0=확신 |
+| **예약** | bit 30-32 | 3 | - | - | 향후 확장용 |
+
+##### 3.2.2.2 Float 양자화 방법
+
+연속적인 실수 값을 제한된 비트에 인코딩하기 위한 양자화 전략:
+
+**4비트 양자화 (16단계):**
+```
+-1.0, -0.867, -0.733, -0.6, -0.467, -0.333, -0.2, -0.067,
++0.067, +0.2, +0.333, +0.467, +0.6, +0.733, +0.867, +1.0
+```
+
+**3비트 양자화 (8단계):**
+```
+-1.0, -0.714, -0.429, -0.143,
++0.143, +0.429, +0.714, +1.0
+```
+
+**인코딩 예시:**
+```python
+def quantize_float_4bit(value):
+    """[-1.0, 1.0] → 4비트 (0-15)"""
+    quantized = int((value + 1.0) * 7.5)
+    return max(0, min(15, quantized))
+
+def dequantize_4bit(bits):
+    """4비트 (0-15) → [-1.0, 1.0]"""
+    return (bits / 7.5) - 1.0
+```
+
+##### 3.2.2.3 한정자별 상세 설명
+
+**시제 (Tense):**
+```
+-1.0: 과거 (과거완료 포함)
+-0.5: 최근 과거
+ 0.0: 현재
++0.5: 가까운 미래
++1.0: 미래
+
+예시:
+"먹었다" → Tense: -0.8
+"먹는다" → Tense: 0.0
+"먹을 것이다" → Tense: +0.8
+```
+
+**상 (Aspect):**
+
+비트마스크 방식으로 복합 상 표현 가능:
+```
+bit 0 (값 1): 진행상 (Progressive)
+bit 1 (값 2): 완료상 (Perfective)
+bit 2 (값 4): 결과상 (Resultative)
+
+예시:
+"먹고 있다" → Aspect: 1 (진행)
+"먹었다" → Aspect: 2 (완료)
+"먹어버렸다" → Aspect: 6 (완료+결과, 2|4)
+"먹고 있었다" → Aspect: 3 (진행+완료, 1|2)
+```
+
+**극성 (Polarity):**
+```
+-1.0: 강한 부정
+-0.5: 약한 부정
+ 0.0: 중립 (극성 불명)
++0.5: 약한 긍정
++1.0: 강한 긍정
+
+예시:
+"전혀 안 먹었다" → Polarity: -1.0
+"안 먹었다" → Polarity: -0.8
+"먹었다" → Polarity: +1.0
+```
+
+**증거성 (Evidentiality):**
+
+정보의 출처나 근거 유형을 표현:
+```
+-1.0: 추론/추측 (inference)
+-0.5: 간접 증거 (indirect)
+ 0.0: 증거성 불명
++0.5: 간접 경험 (reportative)
++1.0: 전언/들은 말 (hearsay)
+
+예시:
+"먹었을 것이다" → Evidentiality: -0.8 (추론)
+"먹었다" → Evidentiality: 0.0 (직접 경험)
+"먹었대" → Evidentiality: +1.0 (전언)
+"먹었다더라" → Evidentiality: +0.8 (보고)
+```
+
+**서법 (Mood):**
+```
+-1.0: 가정법 (subjunctive)
+-0.5: 조건법 (conditional)
+ 0.0: 서술법 (indicative)
++0.5: 권유법 (hortative)
++1.0: 명령법 (imperative)
+
+예시:
+"먹는다면" → Mood: -0.8
+"먹는다" → Mood: 0.0
+"먹자" → Mood: +0.5
+"먹어라" → Mood: +1.0
+```
+
+**의도성 (Volitionality):**
+```
+-1.0: 완전 비의도 (involuntary)
+-0.5: 약한 비의도
+ 0.0: 의도성 불명
++0.5: 약한 의도
++1.0: 강한 의도 (volitional)
+
+예시:
+"실수로 먹었다" → Volitionality: -1.0
+"먹게 되었다" → Volitionality: -0.3
+"먹었다" → Volitionality: 0.0
+"일부러 먹었다" → Volitionality: +1.0
+```
+
+**확신성 (Confidence):**
+```
+-1.0: 강한 추측 (speculation)
+-0.5: 약한 추측
+ 0.0: 확신 불명
++0.5: 약한 확신
++1.0: 강한 확신 (certainty)
+
+예시:
+"먹었을지도" → Confidence: -0.8
+"먹었을 것 같다" → Confidence: -0.5
+"먹었다" → Confidence: +0.8
+"분명히 먹었다" → Confidence: +1.0
+```
+
+##### 3.2.2.4 복합 예시
+
+**예시 1: "먹었을 것이다"**
+```
+동사: eat.v.01
+시제: -0.8 (과거)
+상: 2 (완료)
+극성: +1.0 (긍정)
+증거성: -0.8 (추론)
+서법: 0.0 (서술)
+의도성: 0.0 (불명)
+확신성: -0.5 (약한 추측)
+```
+
+**예시 2: "들었는데 안 갔대"**
+```
+동사: go.v.01
+시제: -0.8 (과거)
+상: 2 (완료)
+극성: -1.0 (부정)
+증거성: +1.0 (전언)
+서법: 0.0 (서술)
+의도성: 0.0 (불명)
+확신성: -0.4 (불확실)
+```
+
+**예시 3: "반드시 가라"**
+```
+동사: go.v.01
+시제: +0.8 (미래)
+상: 0 (단순)
+극성: +1.0 (긍정)
+증거성: 0.0 (불명)
+서법: +1.0 (명령)
+의도성: +1.0 (강한 의도)
+확신성: +1.0 (강한 확신)
+```
+
+##### 3.2.2.5 별도 노드로 표현되는 한정자
+
+bit 5-32에 담기 어려운 복잡한 정보는 별도 노드로 표현한다. 이들은 Verb 노드와 연결되는 메타데이터 노드로 존재한다.
+
+**화자 (Speaker):**
+```
+[Speaker 노드]
+  Type: Speaker
+  EntityRef: 발화 주체 SIDX
+  Target: Verb SIDX
+
+용도: "내가 말하는 것" vs "그가 말하는 것" 구분
+필수: 인용문, 대화 분석
+```
+
+**청자 (Listener):**
+```
+[Listener 노드]
+  Type: Listener
+  EntityRef: 청자 SIDX (Nullable)
+  Target: Verb SIDX
+
+용도: 발화 대상 명시
+예: "너에게 말하는 것" vs "그에게 말하는 것"
+```
+
+**출처 (Source):**
+```
+[Source 노드]
+  Type: Source
+  SourceList: [Document_ID, Person_ID, ...]
+  Target: Verb/Claim SIDX
+
+용도: 정보의 원천 추적
+예: "위키피디아에 따르면", "John이 말하길"
+```
+
+**양태 (Modality):**
+```
+[Modality 노드]
+  Type: can/may/must/should/will
+  Strength: 0.0~1.0
+  Target: Verb SIDX
+
+예:
+"먹을 수 있다" → Type: can, Strength: 0.8
+"먹어야 한다" → Type: must, Strength: 1.0
+"먹을지도 모른다" → Type: may, Strength: 0.3
+```
+
+**반복성 (Iterativity):**
+```
+[Iterativity 노드]
+  Count: 정수
+    0: 미지정
+    1: 1회
+    N: N회
+    MAX-1: 다수
+    MAX: 무한/습관
+  Frequency: "daily"/"weekly"/duration
+  Target: Verb SIDX
+
+예:
+"매일 먹는다" → Count: MAX, Frequency: "daily"
+"세 번 먹었다" → Count: 3
+"자주 먹는다" → Count: MAX-1
+```
+
+**기간/시점 (Period/Point):**
+```
+[Temporal 노드]
+  Type: Point/Duration
+  Value: DFC 시간 패킷 또는 상대 시간
+  Target: Verb SIDX
+
+예:
+"3시에 먹었다" → Type: Point, Value: 15:00
+"3시간 동안 먹었다" → Type: Duration, Value: 3h
+```
+
+**공손 (Politeness):**
+```
+[Politeness 노드]
+  Level: -1.0(반말) ~ +1.0(존대)
+  CultureContext: "ko-KR"/"ja-JP"/etc
+  Target: Statement
+
+예:
+"먹어" → Level: -0.8
+"드세요" → Level: +1.0
+"먹습니다" → Level: +0.5
+
+한국어/일본어 등 경어법이 발달한 언어에서 필수
+```
+
+##### 3.2.2.6 한정자 조합 전략
+
+**우선순위:**
+1. 비트 레벨 한정자 (필수, 모든 동사)
+2. 별도 노드 (선택, 필요시)
+
+**메모리 효율:**
+- 기본 한정자: Verb SIDX 내장 (추가 메모리 0)
+- 확장 한정자: 별도 노드 (4-12 WORD)
+
+**검색 효율:**
+- 비트 레벨: SIMD 비트마스크 쿼리 가능
+- 별도 노드: 그래프 순회 필요
+
+**예시: "매일 아침 반드시 먹어야 한다고 들었다"**
+
+```
+[Verb: eat.v.01]
+  Tense: 0.0 (현재)
+  Aspect: 0 (단순)
+  Polarity: +1.0 (긍정)
+  Evidentiality: +0.8 (보고)
+  Mood: 0.0 (서술)
+  Volitionality: +0.5 (약한 의도)
+  Confidence: +0.6 (중간 확신)
+
+[Modality: must]
+  Strength: 0.9
+  Target: eat.v.01
+
+[Iterativity]
+  Count: MAX
+  Frequency: "daily, morning"
+  Target: eat.v.01
+```
+
+##### 3.2.2.7 GPT 기반 한정자 추출 전략
+
+동사 한정자 자동 추출을 위한 GPT 프롬프트 전략:
+
+```python
+modifier_prompt = """
+문장: {sentence}
+동사: {verb}
+
+다음 한정자 값을 판단하세요:
+
+1. 시제 (Tense): -1.0(과거) ~ 0.0(현재) ~ +1.0(미래)
+2. 상 (Aspect): 비트마스크 (1=진행, 2=완료, 4=결과)
+3. 극성 (Polarity): -1.0(부정) ~ +1.0(긍정)
+4. 증거성 (Evidentiality): -1.0(추론) ~ 0.0(직접) ~ +1.0(전언)
+5. 서법 (Mood): -1.0(가정) ~ 0.0(서술) ~ +1.0(명령)
+6. 의도성 (Volitionality): -1.0(비의도) ~ +1.0(의도)
+7. 확신성 (Confidence): -1.0(추측) ~ +1.0(확신)
+
+별도 노드 필요 여부:
+- 양태 (can/may/must/should/will)
+- 반복성 (횟수/빈도)
+- 공손 (경어법 수준)
+
+JSON 출력:
+{{
+  "tense": -0.8,
+  "aspect": 2,
+  "polarity": 1.0,
+  "evidentiality": 0.0,
+  "mood": 0.0,
+  "volitionality": 0.0,
+  "confidence": 0.8,
+  "modality": {{"type": "must", "strength": 0.9}},
+  "iterativity": {{"count": 1}},
+  "politeness": {{"level": 0.0}}
+}}
+"""
+
+# GPT 호출
+modifiers = gpt_sonnet_4_5(modifier_prompt.format(
+    sentence=sentence,
+    verb=verb
+))
+
+# 비용: ~$0.005/문장
+```
+
+**검증 로직:**
+```python
+def validate_modifiers(modifiers):
+    """한정자 값 검증"""
+    # 범위 검증
+    assert -1.0 <= modifiers['tense'] <= 1.0
+    assert 0 <= modifiers['aspect'] <= 7
+    assert -1.0 <= modifiers['polarity'] <= 1.0
+    
+    # 논리 검증
+    if modifiers['mood'] > 0.5:  # 명령법
+        assert modifiers['tense'] >= 0  # 명령은 미래 지향
+    
+    # 일관성 검증
+    if modifiers['evidentiality'] > 0.5:  # 전언
+        assert modifiers['confidence'] < 1.0  # 전언은 불확실
+    
+    return True
+```
 
 **VerbNet 프레임 매핑:**
 
@@ -230,6 +613,8 @@ give.v.01 → VerbNet class 13.1
 ```
 
 이 매핑 정보는 참여자 의미역 자동 판단에 활용된다.
+
+
 
 #### 3.2.3 대명사 처리
 
@@ -1776,6 +2161,18 @@ GEUL 기반 지식 관리 시스템.
 **QuantifierRef:**
 한정자 참조. every, some, most 등.
 
+**Verb Modifiers (동사 한정자):**
+시제, 상, 극성, 증거성, 서법, 의도성, 확신성 등 동사의 의미를 세밀하게 표현하는 메타 정보. v0.1의 핵심 추가 사항.
+
+**Evidentiality (증거성):**
+정보의 출처나 근거 유형. 추론, 직접 경험, 전언 등.
+
+**Mood (서법):**
+발화의 양식. 가정법, 서술법, 명령법 등.
+
+**Volitionality (의도성):**
+행위의 의도성 정도. 비의도적 vs 의도적.
+
 ---
 
 ## 부록 B: 참고 문서
@@ -1783,7 +2180,8 @@ GEUL 기반 지식 관리 시스템.
 **핵심 문서:**
 - `GEUL 비트 명세서.md` - 64비트 SIDX 구조 상세
 - `Edges.md` - 전체 엣지 타입 목록
-- `참여자.md` - Participant 구조 상세 (v1.1 신규)
+- `참여자.md` - Participant 구조 상세
+- `동사 의미 한정자 목록.md` - 동사 한정자 상세 (v0.1 신규)
 - `Context-Claim.md` - WMS Context/Claim 명세
 - `부트스트랩 전략.md` - 데이터셋 구축 방법
 
@@ -1829,6 +2227,6 @@ GEUL 기반 지식 관리 시스템.
 
 **문서 종료**
 
-**버전:** v1.1  
+**버전:** v0.1  
 **총 라인 수:** 1,847줄  
 **개정 완료일:** 2026-01-26
