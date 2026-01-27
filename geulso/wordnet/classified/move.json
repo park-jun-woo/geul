@@ -1,0 +1,225 @@
+{
+  "primitive": "MOVE",
+  "description": "이동 (go, come, travel, arrive)",
+  "count": 30,
+  "sub_primitives": {
+    "GO": "일반 이동 (travel, move, spread)",
+    "COME": "도착/접근 (arrive, reach, enter)",
+    "LEAVE": "출발/이탈 (leave, issue, diverge)",
+    "FOLLOW": "추적/후행 (follow, overtake, trail)",
+    "DISPLACE": "위치 이동 (move, back, port)",
+    "FALL": "낙하/흐름 (precipitate, splash, wreathe)"
+  },
+  "roots": [
+    {
+      "synset_id": "arrive.v.01",
+      "definition": "reach a destination; arrive by movement or progress",
+      "descendant_count": 22,
+      "primitive": "MOVE",
+      "sub_primitive": "COME"
+    },
+    {
+      "synset_id": "ascend.v.04",
+      "definition": "appear to be moving upward, as by means of tendrils",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "back.v.04",
+      "definition": "cause to travel backward",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "DISPLACE"
+    },
+    {
+      "synset_id": "come_near.v.01",
+      "definition": "almost do or experience something",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "COME"
+    },
+    {
+      "synset_id": "converge.v.01",
+      "definition": "be adjacent or come together",
+      "descendant_count": 1,
+      "primitive": "MOVE",
+      "sub_primitive": "COME"
+    },
+    {
+      "synset_id": "diverge.v.03",
+      "definition": "extend in a different direction",
+      "descendant_count": 2,
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE"
+    },
+    {
+      "synset_id": "enter.v.01",
+      "definition": "to come or go into",
+      "descendant_count": 81,
+      "primitive": "MOVE",
+      "sub_primitive": "COME"
+    },
+    {
+      "synset_id": "enter.v.06",
+      "definition": "come on stage",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "COME"
+    },
+    {
+      "synset_id": "flow.v.03",
+      "definition": "cause to flow",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "follow.v.10",
+      "definition": "to bring something about at a later time than",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "FOLLOW"
+    },
+    {
+      "synset_id": "guide.v.05",
+      "definition": "pass over, across, or through",
+      "descendant_count": 25,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "issue.v.04",
+      "definition": "come out of",
+      "descendant_count": 7,
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE"
+    },
+    {
+      "synset_id": "issue_forth.v.01",
+      "definition": "come forth",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE"
+    },
+    {
+      "synset_id": "leave.v.01",
+      "definition": "go away from a place",
+      "descendant_count": 48,
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE"
+    },
+    {
+      "synset_id": "leave.v.02",
+      "definition": "go and leave behind, either intentionally or by neglect or forgetfulness",
+      "descendant_count": 6,
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE"
+    },
+    {
+      "synset_id": "leave_behind.v.01",
+      "definition": "depart and not take along",
+      "descendant_count": 1,
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE"
+    },
+    {
+      "synset_id": "move.v.02",
+      "definition": "cause to move or shift into a new position or place, both in a concrete and in an abstract sense",
+      "descendant_count": 1019,
+      "primitive": "MOVE",
+      "sub_primitive": "DISPLACE"
+    },
+    {
+      "synset_id": "move.v.03",
+      "definition": "move so as to change position, perform a nontranslational motion",
+      "descendant_count": 328,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "overtake.v.01",
+      "definition": "catch up with and possibly overtake",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "FOLLOW"
+    },
+    {
+      "synset_id": "port.v.02",
+      "definition": "bring to port",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "DISPLACE"
+    },
+    {
+      "synset_id": "precipitate.v.03",
+      "definition": "fall from clouds",
+      "descendant_count": 11,
+      "primitive": "MOVE",
+      "sub_primitive": "FALL"
+    },
+    {
+      "synset_id": "reach.v.01",
+      "definition": "reach a destination, either real or abstract",
+      "descendant_count": 14,
+      "primitive": "MOVE",
+      "sub_primitive": "COME"
+    },
+    {
+      "synset_id": "shine.v.07",
+      "definition": "throw or flash the light of (a lamp)",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "splash.v.07",
+      "definition": "strike and dash about in a liquid",
+      "descendant_count": 1,
+      "primitive": "MOVE",
+      "sub_primitive": "FALL"
+    },
+    {
+      "synset_id": "spread.v.01",
+      "definition": "distribute or disperse widely",
+      "descendant_count": 38,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "start.v.09",
+      "definition": "begin or set in motion",
+      "descendant_count": 2,
+      "primitive": "MOVE",
+      "sub_primitive": "DISPLACE"
+    },
+    {
+      "synset_id": "trail.v.04",
+      "definition": "hang down so as to drag along the ground",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "FOLLOW"
+    },
+    {
+      "synset_id": "travel.v.01",
+      "definition": "change location; move, travel, or proceed, also metaphorically",
+      "descendant_count": 525,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "travel.v.03",
+      "definition": "make a trip for pleasure",
+      "descendant_count": 21,
+      "primitive": "MOVE",
+      "sub_primitive": "GO"
+    },
+    {
+      "synset_id": "wreathe.v.01",
+      "definition": "move with slow, sinuous movements",
+      "descendant_count": 0,
+      "primitive": "MOVE",
+      "sub_primitive": "FALL"
+    }
+  ]
+}

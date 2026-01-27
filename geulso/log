@@ -10,7 +10,7 @@ mkdir ~/geul-project
 cd ~/geul-project
 python3 -m venv geul
 source geul/bin/activate
-echo 'source ~/geul-project/geul/bin/activate' >> ~/.bashrc
+echo 'source ~/ollama-project/geul/bin/activate' >> ~/.bashrc
 ln -s {geul-gitrepo-path} ~/geul
 echo 'cd ~/geul' >> ~/.bashrc
 source ~/.bashrc
@@ -140,7 +140,25 @@ python3 sshg/mrs.py --sentence "Time flies like an arrow." --output sshg/output/
 python3 geulso/wordnet/countv.py
 
 # 워드넷 동사 synset_id 상위어로 트리 만들기
-python3 geulso/wordnet/vervtree.py
+python3 geulso/wordnet/verbtree.py
+
+# 워드넷 동사 synset_id 상위어 목록 추출
+python3 geulso/wordnet/verbtop559.py geulso/wordnet/verbtop559.json
+
+# 워드넷 동사 synset_id 상위어 원하는 primitive 목록 추출
+python3 geulso/wordnet/verbtop-primitive.py BE geulso/wordnet/top/verbtop-be.json
+python3 geulso/wordnet/verbtop-primitive.py PERCEIVE geulso/wordnet/top/verbtop-perceive.json
+python3 geulso/wordnet/verbtop-primitive.py FEEL geulso/wordnet/top/verbtop-feel.json
+python3 geulso/wordnet/verbtop-primitive.py THINK geulso/wordnet/top/verbtop-think.json
+python3 geulso/wordnet/verbtop-primitive.py CHANGE geulso/wordnet/top/verbtop-change.json
+python3 geulso/wordnet/verbtop-primitive.py CAUSE geulso/wordnet/top/verbtop-cause.json
+python3 geulso/wordnet/verbtop-primitive.py MOVE geulso/wordnet/top/verbtop-move.json
+python3 geulso/wordnet/verbtop-primitive.py COMMUNICATE geulso/wordnet/top/verbtop-communicate.json
+python3 geulso/wordnet/verbtop-primitive.py TRANSFER geulso/wordnet/top/verbtop-transfer.json
+python3 geulso/wordnet/verbtop-primitive.py SOCIAL geulso/wordnet/top/verbtop-social.json
+
+# 워드넷 동사 의미소분해 결과 유효성 검사
+python3 geulso/wordnet/valid_flat.py
 
 # corrected에 JSON 전부 통합
 python3 geulso/factorize/sync_json.py

@@ -1,0 +1,493 @@
+{
+  "primitive": "CHANGE",
+  "description": "상태 변화 (become, die, begin, end)",
+  "count": 68,
+  "sub_primitives": {
+    "BEGIN": "시작/발생 (begin, start, become, happen)",
+    "END": "종료/중단 (end, stop, discontinue, abandon)",
+    "TRANSFORM": "본질 변화 (change, unmake, detonate)",
+    "SHIFT": "상태 전환 (fall_asleep, get_up, go_to_bed)",
+    "CONNECT": "결합/분리 (connect, separate)",
+    "SUCCEED": "성공/승계 (succeed, win)",
+    "FAIL": "실패/상실 (fail, lose, drop_out)",
+    "VANISH": "소멸/소실 (disappear, abolish, die)"
+  },
+  "roots": [
+    {
+      "synset_id": "abandon.v.04",
+      "definition": "stop maintaining or insisting on; of ideas or claims",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "abolish.v.01",
+      "definition": "do away with",
+      "descendant_count": 2,
+      "primitive": "CHANGE",
+      "sub_primitive": "VANISH"
+    },
+    {
+      "synset_id": "become.v.03",
+      "definition": "come into existence",
+      "descendant_count": 13,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "begin.v.02",
+      "definition": "have a beginning, in a temporal, spatial, or evaluative sense",
+      "descendant_count": 6,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "begin.v.03",
+      "definition": "set in motion, cause to start",
+      "descendant_count": 11,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "begin.v.05",
+      "definition": "be the first item or point, constitute the beginning or start, come first in a series",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "begin.v.10",
+      "definition": "begin to speak, understand, read, and write a language",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "break.v.25",
+      "definition": "cause to give up a habit",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "bristle.v.02",
+      "definition": "rise up as in fear",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "change.v.01",
+      "definition": "cause to change; make different; cause a transformation",
+      "descendant_count": 1687,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "change.v.02",
+      "definition": "undergo a change; become different in essence; losing one's or its original nature",
+      "descendant_count": 1291,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "change.v.03",
+      "definition": "become different in some particular way, without permanently losing one's or its former characteristics or essence",
+      "descendant_count": 30,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "clear.v.07",
+      "definition": "be debited and credited to the proper bank accounts",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "clear_up.v.04",
+      "definition": "become clear",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "close_up.v.01",
+      "definition": "cease to operate or cause to cease operating",
+      "descendant_count": 2,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "connect.v.03",
+      "definition": "be or become joined or united or linked",
+      "descendant_count": 5,
+      "primitive": "CHANGE",
+      "sub_primitive": "CONNECT"
+    },
+    {
+      "synset_id": "detonate.v.02",
+      "definition": "burst and release energy as through a violent chemical or physical reaction",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "die.v.11",
+      "definition": "suffer spiritual death; be damned (in the religious sense)",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "VANISH"
+    },
+    {
+      "synset_id": "disappear.v.01",
+      "definition": "get lost, as without warning or explanation",
+      "descendant_count": 10,
+      "primitive": "CHANGE",
+      "sub_primitive": "VANISH"
+    },
+    {
+      "synset_id": "discontinue.v.01",
+      "definition": "put an end to a state or an activity",
+      "descendant_count": 11,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "drop_out.v.01",
+      "definition": "give up in the face of defeat of lacking hope; admit defeat",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "end.v.01",
+      "definition": "have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical",
+      "descendant_count": 23,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "fail.v.01",
+      "definition": "fail to do something; leave something undone",
+      "descendant_count": 10,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "fail.v.02",
+      "definition": "be unsuccessful",
+      "descendant_count": 8,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "fail.v.07",
+      "definition": "fail to get a passing grade",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "fail.v.08",
+      "definition": "fall short in what is expected",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "fail.v.09",
+      "definition": "become bankrupt or insolvent; fail financially and close",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "fall.v.17",
+      "definition": "lose one's chastity",
+      "descendant_count": 1,
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED"
+    },
+    {
+      "synset_id": "fall_asleep.v.01",
+      "definition": "change from a waking to a sleeping state",
+      "descendant_count": 1,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "film_over.v.01",
+      "definition": "become glassy; lose clear vision",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "fire.v.05",
+      "definition": "go off or discharge",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "get_down.v.07",
+      "definition": "take the first step or steps in carrying out an action",
+      "descendant_count": 13,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "get_off.v.02",
+      "definition": "be relieved of one's duties temporarily",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "get_up.v.02",
+      "definition": "get up and out of bed",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "go.v.16",
+      "definition": "pass, fare, or elapse; of a certain state of affairs or action",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED"
+    },
+    {
+      "synset_id": "go.v.28",
+      "definition": "be spent",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED"
+    },
+    {
+      "synset_id": "go_down.v.05",
+      "definition": "be ingested",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "CONNECT"
+    },
+    {
+      "synset_id": "go_to_bed.v.01",
+      "definition": "prepare for sleep",
+      "descendant_count": 2,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "happen.v.01",
+      "definition": "come to pass",
+      "descendant_count": 36,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "lose.v.01",
+      "definition": "fail to keep or to maintain; cease to have, either physically or in an abstract sense",
+      "descendant_count": 2,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "lose.v.02",
+      "definition": "fail to win",
+      "descendant_count": 4,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "lose.v.05",
+      "definition": "miss from one's possessions; lose sight of",
+      "descendant_count": 1,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "lose.v.06",
+      "definition": "allow to go out of sight",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "lose.v.07",
+      "definition": "fail to make money in a business; make a loss or fail to profit",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "lose.v.08",
+      "definition": "fail to get or obtain",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL"
+    },
+    {
+      "synset_id": "nod.v.03",
+      "definition": "let the head fall forward through drowsiness",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "overload.v.01",
+      "definition": "become overloaded",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "oversleep.v.01",
+      "definition": "sleep longer than intended",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "photograph.v.02",
+      "definition": "undergo being photographed in a certain way",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "plunge.v.05",
+      "definition": "cause to be immersed",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "premier.v.01",
+      "definition": "be performed for the first time",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "put_away.v.04",
+      "definition": "stop using",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "retreat.v.04",
+      "definition": "make a retreat from an earlier commitment or activity",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "separate.v.01",
+      "definition": "act as a barrier between; stand between",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "CONNECT"
+    },
+    {
+      "synset_id": "separate.v.07",
+      "definition": "make a division or separation",
+      "descendant_count": 15,
+      "primitive": "CHANGE",
+      "sub_primitive": "CONNECT"
+    },
+    {
+      "synset_id": "set_in.v.03",
+      "definition": "become established",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "start.v.08",
+      "definition": "get going or set in motion",
+      "descendant_count": 5,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "start.v.10",
+      "definition": "begin work or acting in a certain capacity, office or job",
+      "descendant_count": 3,
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN"
+    },
+    {
+      "synset_id": "stop.v.01",
+      "definition": "come to a halt, stop moving",
+      "descendant_count": 11,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "stop.v.05",
+      "definition": "cause to stop",
+      "descendant_count": 13,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "succeed.v.01",
+      "definition": "attain success or reach a desired goal",
+      "descendant_count": 22,
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED"
+    },
+    {
+      "synset_id": "succeed.v.02",
+      "definition": "be the successor (of)",
+      "descendant_count": 8,
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED"
+    },
+    {
+      "synset_id": "take_to.v.02",
+      "definition": "develop a habit; apply oneself to a practice or occupation",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT"
+    },
+    {
+      "synset_id": "unbalance.v.01",
+      "definition": "throw out of balance or equilibrium",
+      "descendant_count": 0,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "unmake.v.01",
+      "definition": "deprive of certain characteristics",
+      "descendant_count": 31,
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM"
+    },
+    {
+      "synset_id": "win.v.01",
+      "definition": "be the winner in a contest or competition; be victorious",
+      "descendant_count": 7,
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED"
+    },
+    {
+      "synset_id": "yield.v.05",
+      "definition": "give in, as to influence or pressure",
+      "descendant_count": 1,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    },
+    {
+      "synset_id": "yield.v.12",
+      "definition": "cease opposition; stop fighting",
+      "descendant_count": 5,
+      "primitive": "CHANGE",
+      "sub_primitive": "END"
+    }
+  ]
+}
