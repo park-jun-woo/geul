@@ -30,8 +30,8 @@ Faber Edge는 **프로그래밍 언어의 AST(Abstract Syntax Tree)**를 GEUL �
 
 | 영역 | Prefix | 비트 |
 |------|--------|------|
-| Standard | `0 000 000` | 7 |
-| Proposal | `1100 000 000` | 10 |
+| Standard | `0 000 110` | 7 |
+| Proposal | `1100 000 110` | 10 |
 
 ---
 
