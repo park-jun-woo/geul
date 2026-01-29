@@ -1,0 +1,75 @@
+{
+  "id": "precipitate.v.03",
+  "definition": "fall from clouds",
+  "depth": 0,
+  "children": [
+    {
+      "id": "hail.v.05",
+      "definition": "precipitate as small ice particles",
+      "depth": 1,
+      "children": []
+    },
+    {
+      "id": "rain.v.01",
+      "definition": "precipitate as rain",
+      "depth": 1,
+      "children": [
+        {
+          "id": "drizzle.v.01",
+          "definition": "rain lightly",
+          "depth": 2,
+          "children": []
+        },
+        {
+          "id": "pour.v.06",
+          "definition": "rain heavily",
+          "depth": 2,
+          "children": [
+            {
+              "id": "sheet.v.01",
+              "definition": "come down as if in sheets",
+              "depth": 3,
+              "children": []
+            },
+            {
+              "id": "sluice.v.01",
+              "definition": "pour as if from a sluice",
+              "depth": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "shower.v.04",
+          "definition": "rain abundantly",
+          "depth": 2,
+          "children": []
+        },
+        {
+          "id": "sprinkle.v.03",
+          "definition": "rain gently",
+          "depth": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "sleet.v.01",
+      "definition": "precipitate as a mixture of rain and snow",
+      "depth": 1,
+      "children": []
+    },
+    {
+      "id": "snow.v.01",
+      "definition": "fall as snow",
+      "depth": 1,
+      "children": []
+    },
+    {
+      "id": "spat.v.01",
+      "definition": "come down like raindrops",
+      "depth": 1,
+      "children": []
+    }
+  ]
+}

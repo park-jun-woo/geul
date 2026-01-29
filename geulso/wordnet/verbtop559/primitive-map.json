@@ -1,0 +1,242 @@
+{
+  "description": "GEUL Standard Proposal 동사 Primitive-SubPrimitive 비트맵 (v0.5)",
+  "version": "0.5",
+  "updated": "2026-01-29",
+  "verb_edge_types": {
+    "short": {
+      "prefix": "11001",
+      "prefix_bits": 5,
+      "total_words": 3,
+      "verb_body_bits": 16,
+      "note": "단순 나열 65,536개"
+    },
+    "full": {
+      "prefix": "1100001",
+      "prefix_bits": 7,
+      "total_words": 5,
+      "verb_body_bits": 22,
+      "note": "우아한 열화 구조"
+    }
+  },
+  "primitives": {
+    "CAUSE": {
+      "code": "10",
+      "bits": 2,
+      "verb_count": 4463,
+      "sub_primitives": {
+        "MAKE": "0000",
+        "DESTROY": "0001",
+        "REMOVE": "0010",
+        "ADD": "0011",
+        "MODIFY": "0100",
+        "CONTROL": "0101",
+        "DETERMINE": "0110",
+        "HARM": "0111",
+        "PROTECT": "1000",
+        "ACQUIRE": "1001",
+        "USE": "1010",
+        "EMIT": "1011",
+        "REFRAIN": "1100",
+        "PHYSIO": "1101"
+      }
+    },
+    "CHANGE": {
+      "code": "11",
+      "bits": 2,
+      "verb_count": 3290,
+      "sub_primitives": {
+        "BEGIN": "000",
+        "END": "001",
+        "TRANSFORM": "010",
+        "SHIFT": "011",
+        "CONNECT": "100",
+        "SUCCEED": "101",
+        "FAIL": "110",
+        "VANISH": "111"
+      }
+    },
+    "MOVE": {
+      "code": "010",
+      "bits": 3,
+      "verb_count": 2152,
+      "sub_primitives": {
+        "GO": "000",
+        "COME": "001",
+        "LEAVE": "010",
+        "FOLLOW": "011",
+        "DISPLACE": "100",
+        "FALL": "101"
+      }
+    },
+    "BE": {
+      "code": "011",
+      "bits": 3,
+      "verb_count": 800,
+      "sub_primitives": {
+        "EXIST": "000",
+        "HAVE": "001",
+        "LOCATE": "010",
+        "EQUAL": "011",
+        "RELATE": "100",
+        "APPEAR": "101",
+        "REMAIN": "110",
+        "ABLE": "111"
+      }
+    },
+    "THINK": {
+      "code": "0010",
+      "bits": 4,
+      "verb_count": 729,
+      "sub_primitives": {
+        "KNOW": "000",
+        "LEARN": "001",
+        "REMEMBER": "010",
+        "FORGET": "011",
+        "REASON": "100",
+        "PLAN": "101"
+      }
+    },
+    "COMMUNICATE": {
+      "code": "0011",
+      "bits": 4,
+      "verb_count": 552,
+      "sub_primitives": {
+        "SAY": "000",
+        "SHOW": "001",
+        "HIDE": "010",
+        "AGREE": "011",
+        "DENY": "100",
+        "ACCUSE": "101"
+      }
+    },
+    "TRANSFER": {
+      "code": "00010",
+      "bits": 5,
+      "verb_count": 508,
+      "sub_primitives": {
+        "GIVE": "00",
+        "GET": "01",
+        "TRADE": "10",
+        "RELEASE": "11"
+      }
+    },
+    "SOCIAL": {
+      "code": "00011",
+      "bits": 5,
+      "verb_count": 355,
+      "sub_primitives": {
+        "MEET": "000",
+        "PART": "001",
+        "COMPETE": "010",
+        "WORK": "011",
+        "BELONG": "100",
+        "COMPLY": "101"
+      }
+    },
+    "PERCEIVE": {
+      "code": "00001",
+      "bits": 5,
+      "verb_count": 194,
+      "sub_primitives": {
+        "SENSE": "00",
+        "SEE": "01",
+        "FIND": "10",
+        "MISS": "11"
+      }
+    },
+    "FEEL": {
+      "code": "00000",
+      "bits": 5,
+      "verb_count": 165,
+      "sub_primitives": {
+        "LIKE": "000",
+        "DISLIKE": "001",
+        "WANT": "010",
+        "FEAR": "011",
+        "ANGER": "100",
+        "AFFECT": "101"
+      }
+    }
+  },
+  "flat_map": {
+    "_comment": "format: primitive_code + sub_primitive_code (prefix 제외)",
+    
+    "CAUSE-MAKE": "100000",
+    "CAUSE-DESTROY": "100001",
+    "CAUSE-REMOVE": "100010",
+    "CAUSE-ADD": "100011",
+    "CAUSE-MODIFY": "100100",
+    "CAUSE-CONTROL": "100101",
+    "CAUSE-DETERMINE": "100110",
+    "CAUSE-HARM": "100111",
+    "CAUSE-PROTECT": "101000",
+    "CAUSE-ACQUIRE": "101001",
+    "CAUSE-USE": "101010",
+    "CAUSE-EMIT": "101011",
+    "CAUSE-REFRAIN": "101100",
+    "CAUSE-PHYSIO": "101101",
+    
+    "CHANGE-BEGIN": "11000",
+    "CHANGE-END": "11001",
+    "CHANGE-TRANSFORM": "11010",
+    "CHANGE-SHIFT": "11011",
+    "CHANGE-CONNECT": "11100",
+    "CHANGE-SUCCEED": "11101",
+    "CHANGE-FAIL": "11110",
+    "CHANGE-VANISH": "11111",
+    
+    "MOVE-GO": "010000",
+    "MOVE-COME": "010001",
+    "MOVE-LEAVE": "010010",
+    "MOVE-FOLLOW": "010011",
+    "MOVE-DISPLACE": "010100",
+    "MOVE-FALL": "010101",
+    
+    "BE-EXIST": "011000",
+    "BE-HAVE": "011001",
+    "BE-LOCATE": "011010",
+    "BE-EQUAL": "011011",
+    "BE-RELATE": "011100",
+    "BE-APPEAR": "011101",
+    "BE-REMAIN": "011110",
+    "BE-ABLE": "011111",
+    
+    "THINK-KNOW": "0010000",
+    "THINK-LEARN": "0010001",
+    "THINK-REMEMBER": "0010010",
+    "THINK-FORGET": "0010011",
+    "THINK-REASON": "0010100",
+    "THINK-PLAN": "0010101",
+    
+    "COMMUNICATE-SAY": "0011000",
+    "COMMUNICATE-SHOW": "0011001",
+    "COMMUNICATE-HIDE": "0011010",
+    "COMMUNICATE-AGREE": "0011011",
+    "COMMUNICATE-DENY": "0011100",
+    "COMMUNICATE-ACCUSE": "0011101",
+    
+    "TRANSFER-GIVE": "0001000",
+    "TRANSFER-GET": "0001001",
+    "TRANSFER-TRADE": "0001010",
+    "TRANSFER-RELEASE": "0001011",
+    
+    "SOCIAL-MEET": "00011000",
+    "SOCIAL-PART": "00011001",
+    "SOCIAL-COMPETE": "00011010",
+    "SOCIAL-WORK": "00011011",
+    "SOCIAL-BELONG": "00011100",
+    "SOCIAL-COMPLY": "00011101",
+    
+    "PERCEIVE-SENSE": "0000100",
+    "PERCEIVE-SEE": "0000101",
+    "PERCEIVE-FIND": "0000110",
+    "PERCEIVE-MISS": "0000111",
+    
+    "FEEL-LIKE": "00000000",
+    "FEEL-DISLIKE": "00000001",
+    "FEEL-WANT": "00000010",
+    "FEEL-FEAR": "00000011",
+    "FEEL-ANGER": "00000100",
+    "FEEL-AFFECT": "00000101"
+  }
+}

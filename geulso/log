@@ -139,6 +139,15 @@ python3 sshg/mrs.py --sentence "Time flies like an arrow." --output sshg/output/
 # 워드넷 동사 synset_id 갯수 세기
 python3 geulso/wordnet/countv.py
 
+# 워드넷 동사 의미소분해 결과 유효성 검사
+python3 geulso/wordnet/valid_flat.py
+
+# corrected에 JSON 전부 통합
+python3 geulso/factorize/sync_json.py
+
+# corrected에 JSON 의 구성이 유효한지 확인
+python3 geulso/factorize/check.py
+
 # 워드넷 동사 synset_id 상위어로 트리 만들기
 python3 geulso/wordnet/verbtree.py
 
@@ -157,11 +166,14 @@ python3 geulso/wordnet/verbtop-primitive.py COMMUNICATE geulso/wordnet/top/verbt
 python3 geulso/wordnet/verbtop-primitive.py TRANSFER geulso/wordnet/top/verbtop-transfer.json
 python3 geulso/wordnet/verbtop-primitive.py SOCIAL geulso/wordnet/top/verbtop-social.json
 
-# 워드넷 동사 의미소분해 결과 유효성 검사
-python3 geulso/wordnet/valid_flat.py
+# 워드넷 최상위동사 559개의 하위 동사 트리 생성
+python3 geulso/wordnet/verbtrees.py
 
-# corrected에 JSON 전부 통합
-python3 geulso/factorize/sync_json.py
+# 워드넷 sub_primitive마다 동사 count하기
+python3 geulso/wordnet/sub_primitive_count.py
 
-# corrected에 JSON 의 구성이 유효한지 확인
-python3 geulso/factorize/check.py
+# 워드넷 최상위동사 559개의 하위 동사 트리 비트 할당
+python3 geulso/wordnet/verbtrees_bit.py
+
+# 워드넷 최상위동사 559개의 하위 동사 트리 비트 유효성 검사
+python3 geulso/wordnet/valid_verb_bits.py

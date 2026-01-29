@@ -1,0 +1,485 @@
+{
+  "description": "Sub_primitive별 허프만 스타일 비트 할당",
+  "version": "0.1",
+  "updated": "2026-01-29",
+  "total_sub_primitives": 68,
+  "total_verbs": 13767,
+  "sub_primitives": [
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "TRANSFORM",
+      "code": "0000",
+      "bits": 4,
+      "verb_count": 3049
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "USE",
+      "code": "0001",
+      "bits": 4,
+      "verb_count": 1349
+    },
+    {
+      "primitive": "MOVE",
+      "sub_primitive": "DISPLACE",
+      "code": "0010",
+      "bits": 4,
+      "verb_count": 1025
+    },
+    {
+      "primitive": "MOVE",
+      "sub_primitive": "GO",
+      "code": "0011",
+      "bits": 4,
+      "verb_count": 945
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "ADD",
+      "code": "01000",
+      "bits": 5,
+      "verb_count": 752
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "MAKE",
+      "code": "01001",
+      "bits": 5,
+      "verb_count": 746
+    },
+    {
+      "primitive": "THINK",
+      "sub_primitive": "REASON",
+      "code": "01010",
+      "bits": 5,
+      "verb_count": 538
+    },
+    {
+      "primitive": "TRANSFER",
+      "sub_primitive": "TRADE",
+      "code": "01011",
+      "bits": 5,
+      "verb_count": 443
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "ACQUIRE",
+      "code": "011000",
+      "bits": 6,
+      "verb_count": 408
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "REMOVE",
+      "code": "011001",
+      "bits": 6,
+      "verb_count": 391
+    },
+    {
+      "primitive": "COMMUNICATE",
+      "sub_primitive": "SAY",
+      "code": "011010",
+      "bits": 6,
+      "verb_count": 354
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "EQUAL",
+      "code": "011011",
+      "bits": 6,
+      "verb_count": 328
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "CONTROL",
+      "code": "011100",
+      "bits": 6,
+      "verb_count": 259
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "HAVE",
+      "code": "011101",
+      "bits": 6,
+      "verb_count": 230
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "EMIT",
+      "code": "011110",
+      "bits": 6,
+      "verb_count": 180
+    },
+    {
+      "primitive": "SOCIAL",
+      "sub_primitive": "COMPETE",
+      "code": "011111",
+      "bits": 6,
+      "verb_count": 171
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "DETERMINE",
+      "code": "1000000",
+      "bits": 7,
+      "verb_count": 146
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "LOCATE",
+      "code": "1000001",
+      "bits": 7,
+      "verb_count": 142
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "MODIFY",
+      "code": "1000010",
+      "bits": 7,
+      "verb_count": 125
+    },
+    {
+      "primitive": "MOVE",
+      "sub_primitive": "COME",
+      "code": "1000011",
+      "bits": 7,
+      "verb_count": 124
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "HARM",
+      "code": "1000100",
+      "bits": 7,
+      "verb_count": 116
+    },
+    {
+      "primitive": "SOCIAL",
+      "sub_primitive": "WORK",
+      "code": "1000101",
+      "bits": 7,
+      "verb_count": 113
+    },
+    {
+      "primitive": "PERCEIVE",
+      "sub_primitive": "SEE",
+      "code": "1000110",
+      "bits": 7,
+      "verb_count": 110
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "BEGIN",
+      "code": "1000111",
+      "bits": 7,
+      "verb_count": 99
+    },
+    {
+      "primitive": "PERCEIVE",
+      "sub_primitive": "SENSE",
+      "code": "1001000",
+      "bits": 7,
+      "verb_count": 98
+    },
+    {
+      "primitive": "COMMUNICATE",
+      "sub_primitive": "SHOW",
+      "code": "1001001",
+      "bits": 7,
+      "verb_count": 83
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "END",
+      "code": "1001010",
+      "bits": 7,
+      "verb_count": 78
+    },
+    {
+      "primitive": "FEEL",
+      "sub_primitive": "AFFECT",
+      "code": "1001011",
+      "bits": 7,
+      "verb_count": 77
+    },
+    {
+      "primitive": "COMMUNICATE",
+      "sub_primitive": "AGREE",
+      "code": "1001100",
+      "bits": 7,
+      "verb_count": 70
+    },
+    {
+      "primitive": "MOVE",
+      "sub_primitive": "LEAVE",
+      "code": "1001101",
+      "bits": 7,
+      "verb_count": 70
+    },
+    {
+      "primitive": "THINK",
+      "sub_primitive": "FORGET",
+      "code": "1001110",
+      "bits": 7,
+      "verb_count": 68
+    },
+    {
+      "primitive": "THINK",
+      "sub_primitive": "KNOW",
+      "code": "1001111",
+      "bits": 7,
+      "verb_count": 63
+    },
+    {
+      "primitive": "TRANSFER",
+      "sub_primitive": "GIVE",
+      "code": "10100000",
+      "bits": 8,
+      "verb_count": 55
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "APPEAR",
+      "code": "10100001",
+      "bits": 8,
+      "verb_count": 50
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "DESTROY",
+      "code": "10100010",
+      "bits": 8,
+      "verb_count": 49
+    },
+    {
+      "primitive": "THINK",
+      "sub_primitive": "LEARN",
+      "code": "10100011",
+      "bits": 8,
+      "verb_count": 49
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "REMAIN",
+      "code": "10100100",
+      "bits": 8,
+      "verb_count": 49
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "PROTECT",
+      "code": "10100101",
+      "bits": 8,
+      "verb_count": 45
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "EXIST",
+      "code": "10100110",
+      "bits": 8,
+      "verb_count": 44
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "SUCCEED",
+      "code": "10100111",
+      "bits": 8,
+      "verb_count": 44
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "REFRAIN",
+      "code": "10101000",
+      "bits": 8,
+      "verb_count": 43
+    },
+    {
+      "primitive": "SOCIAL",
+      "sub_primitive": "BELONG",
+      "code": "10101001",
+      "bits": 8,
+      "verb_count": 37
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "FAIL",
+      "code": "10101010",
+      "bits": 8,
+      "verb_count": 37
+    },
+    {
+      "primitive": "COMMUNICATE",
+      "sub_primitive": "DENY",
+      "code": "10101011",
+      "bits": 8,
+      "verb_count": 36
+    },
+    {
+      "primitive": "FEEL",
+      "sub_primitive": "DISLIKE",
+      "code": "10101100",
+      "bits": 8,
+      "verb_count": 35
+    },
+    {
+      "primitive": "SOCIAL",
+      "sub_primitive": "PART",
+      "code": "10101101",
+      "bits": 8,
+      "verb_count": 33
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "RELATE",
+      "code": "10101110",
+      "bits": 8,
+      "verb_count": 33
+    },
+    {
+      "primitive": "FEEL",
+      "sub_primitive": "LIKE",
+      "code": "10101111",
+      "bits": 8,
+      "verb_count": 31
+    },
+    {
+      "primitive": "FEEL",
+      "sub_primitive": "WANT",
+      "code": "10110000",
+      "bits": 8,
+      "verb_count": 31
+    },
+    {
+      "primitive": "THINK",
+      "sub_primitive": "REMEMBER",
+      "code": "10110001",
+      "bits": 8,
+      "verb_count": 30
+    },
+    {
+      "primitive": "TRANSFER",
+      "sub_primitive": "GET",
+      "code": "10110010",
+      "bits": 8,
+      "verb_count": 29
+    },
+    {
+      "primitive": "COMMUNICATE",
+      "sub_primitive": "HIDE",
+      "code": "10110011",
+      "bits": 8,
+      "verb_count": 29
+    },
+    {
+      "primitive": "SOCIAL",
+      "sub_primitive": "MEET",
+      "code": "10110100",
+      "bits": 8,
+      "verb_count": 26
+    },
+    {
+      "primitive": "CAUSE",
+      "sub_primitive": "PHYSIO",
+      "code": "10110101",
+      "bits": 8,
+      "verb_count": 25
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "CONNECT",
+      "code": "10110110",
+      "bits": 8,
+      "verb_count": 24
+    },
+    {
+      "primitive": "BE",
+      "sub_primitive": "ABLE",
+      "code": "10110111",
+      "bits": 8,
+      "verb_count": 23
+    },
+    {
+      "primitive": "FEEL",
+      "sub_primitive": "FEAR",
+      "code": "10111000",
+      "bits": 8,
+      "verb_count": 22
+    },
+    {
+      "primitive": "THINK",
+      "sub_primitive": "PLAN",
+      "code": "10111001",
+      "bits": 8,
+      "verb_count": 21
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "VANISH",
+      "code": "10111010",
+      "bits": 8,
+      "verb_count": 15
+    },
+    {
+      "primitive": "MOVE",
+      "sub_primitive": "FALL",
+      "code": "10111011",
+      "bits": 8,
+      "verb_count": 15
+    },
+    {
+      "primitive": "COMMUNICATE",
+      "sub_primitive": "ACCUSE",
+      "code": "10111100",
+      "bits": 8,
+      "verb_count": 14
+    },
+    {
+      "primitive": "CHANGE",
+      "sub_primitive": "SHIFT",
+      "code": "10111101",
+      "bits": 8,
+      "verb_count": 12
+    },
+    {
+      "primitive": "FEEL",
+      "sub_primitive": "ANGER",
+      "code": "10111110",
+      "bits": 8,
+      "verb_count": 8
+    },
+    {
+      "primitive": "SOCIAL",
+      "sub_primitive": "COMPLY",
+      "code": "10111111",
+      "bits": 8,
+      "verb_count": 7
+    },
+    {
+      "primitive": "PERCEIVE",
+      "sub_primitive": "FIND",
+      "code": "11000000",
+      "bits": 8,
+      "verb_count": 5
+    },
+    {
+      "primitive": "PERCEIVE",
+      "sub_primitive": "MISS",
+      "code": "11000001",
+      "bits": 8,
+      "verb_count": 5
+    },
+    {
+      "primitive": "TRANSFER",
+      "sub_primitive": "RELEASE",
+      "code": "11000010",
+      "bits": 8,
+      "verb_count": 3
+    },
+    {
+      "primitive": "MOVE",
+      "sub_primitive": "FOLLOW",
+      "code": "11000011",
+      "bits": 8,
+      "verb_count": 3
+    }
+  ]
+}
