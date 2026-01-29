@@ -1,6 +1,6 @@
 # Event6 Edge 명세서
 
-**버전:** v0.1  
+**버전:** v0.2  
 **작성일:** 2026-01-29  
 **목적:** GEUL 6하원칙 사건 표현을 위한 Event6 Edge 패킷 구조 정의
 
@@ -25,10 +25,12 @@ Event6 Edge는 **6하원칙**(Who, What, Whom, When, Where, Why)을 한 번에 �
 
 ## 2. Prefix
 
+`SIDX.md` 참조
+
 | 항목 | 값 |
 |------|-----|
-| Prefix | `1100000 011` |
-| 비트 수 | 10 |
+| Standard | `0 000 011` (7비트) |
+| Proposal | `1100 000 011` (10비트) |
 | 1st 워드 나머지 | 6비트 (Presence) |
 
 ---
@@ -330,7 +332,7 @@ What: acquire          → Verb Edge TID 0x0100
 Whom: Tesla (Q478214)  → Entity TID 0x0002
 
 Event6 Edge:
-  1st: [1100000 011] + [000111]   - Prefix + Who,What,Whom
+  1st: [1100 000 011] + [000111]  - Prefix + Who,What,Whom
   2nd: [TID: 0x0200]              - Edge TID
   3rd: [TID: 0x0001]              - Apple (Who)
   4th: [TID: 0x0100]              - acquire (What)
@@ -349,7 +351,7 @@ When:  2025            → Entity TID 0x0003 (연도)
 (가격은 Verb Edge 내부 또는 별도 Triple로)
 
 Event6 Edge:
-  1st: [1100000 011] + [001111]   - Who,What,Whom,When
+  1st: [1100 000 011] + [001111]  - Who,What,Whom,When
   2nd: [TID: 0x0201]              - Edge TID
   3rd: [TID: 0x0001]              - Apple
   4th: [TID: 0x0100]              - acquire
@@ -368,7 +370,7 @@ When:  1598            → Entity TID 0x0011
 Where: 노량해전         → Entity TID 0x0012
 
 Event6 Edge:
-  1st: [1100000 011] + [011011]   - Who,What,When,Where
+  1st: [1100 000 011] + [011011]  - Who,What,When,Where
   2nd: [TID: 0x0202]
   3rd: [TID: 0x0010]              - 이순신
   4th: [TID: 0x0101]              - die
@@ -384,7 +386,7 @@ Event6 Edge:
 What: rain → Verb Edge TID 0x0102
 
 Event6 Edge:
-  1st: [1100000 011] + [000010]   - What만
+  1st: [1100 000 011] + [000010]  - What만
   2nd: [TID: 0x0203]
   3rd: [TID: 0x0102]              - rain
 
@@ -400,7 +402,7 @@ Whom: 밥               → Entity TID 0x0021
 Why:  배고프다          → Clause Edge TID 0x0300 (또는 Verb Edge)
 
 Event6 Edge:
-  1st: [1100000 011] + [100111]   - Who,What,Whom,Why
+  1st: [1100 000 011] + [100111]  - Who,What,Whom,Why
   2nd: [TID: 0x0204]
   3rd: [TID: 0x0020]              - 나
   4th: [TID: 0x0103]              - eat
@@ -499,6 +501,7 @@ Clause Edge:
 | 버전 | 날짜 | 변경 |
 |------|------|------|
 | v0.1 | 2026-01-29 | 초안: 가변 길이 구조 |
+| v0.2 | 2026-01-29 | Prefix 표기 수정, SIDX.md 참조로 변경 |
 
 ---
 

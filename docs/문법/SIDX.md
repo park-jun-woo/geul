@@ -1,6 +1,6 @@
 # GEUL SIDX 비트 명세서
 
-**버전:** v0.5  
+**버전:** v0.6  
 **작성일:** 2026-01-29  
 **범위:** SIDX 64비트 최상위 구조  
 **비트 규칙:** bit1 = MSB, bit64 = LSB
@@ -38,17 +38,17 @@ bit1 = 1 : GEUL Extension (확장)
 
 | Prefix | 비트 | 타입 | 빈도 |
 |--------|------|------|------|
-| `1` | 1 | Tiny Verb Edge | 최고빈도 |
-| `01` | 2 | Verb Edge | 고빈도 |
-| `001` | 3 | Entity Node | 고빈도 |
-| `0001 001` | 7 | Triple Edge | 중빈도 |
-| `0001 010` | 7 | Clause Edge | 저빈도 |
-| `0001 011` | 7 | Event6 Edge | 저빈도 |
-| `0001 100` | 7 | Context Edge | 저빈도 |
-| `0001 101` | 7 | Quantity Node | 중빈도 |
-| `0001 110` | 7 | Reserved | - |
-| `0001 111` | 7 | Reserved | - |
-| `0001 000` | 7 | Reserved | - |
+| `0 1` | 2 | Tiny Verb Edge | 최고빈도 |
+| `0 01` | 3 | Verb Edge | 고빈도 |
+| `0 001` | 4 | Entity Node | 고빈도 |
+| `0 000 000` | 7 | Faber Edge | 코드/AST |
+| `0 000 001` | 7 | Triple Edge | 중빈도 |
+| `0 000 010` | 7 | Clause Edge | 저빈도 |
+| `0 000 011` | 7 | Event6 Edge | 저빈도 |
+| `0 000 100` | 7 | Context Edge | 저빈도 |
+| `0 000 101` | 7 | Quantity Node | 중빈도 |
+| `0 000 110` | 7 | Reserved | - |
+| `0 000 111` | 7 | 확장 | - |
 
 ### 2.3 Extension 분기
 
@@ -66,20 +66,20 @@ bit1
 ├─ 0: GEUL Standard ─────────────────────────────────────
 │     │
 │     └─ bit2~
-│         ├─ 1          (1)         → Tiny Verb Edge
-│         ├─ 01         (01)        → Verb Edge
-│         ├─ 001        (001)       → Entity Node
-│         └─ 0001       (0001)      → 7비트 통일 영역
+│         ├─ 1           (0 1)         → Tiny Verb Edge
+│         ├─ 01          (0 01)        → Verb Edge
+│         ├─ 001         (0 001)       → Entity Node
+│         └─ 000         (0 000)       → 7비트 통일 영역
 │               │
 │               └─ bit5~7 (3비트)
-│                   ├─ 001 (0001 001) → Triple Edge
-│                   ├─ 010 (0001 010) → Clause Edge
-│                   ├─ 011 (0001 011) → Event6 Edge
-│                   ├─ 100 (0001 100) → Context Edge
-│                   ├─ 101 (0001 101) → Quantity Node
-│                   ├─ 110 (0001 110) → Reserved
-│                   ├─ 111 (0001 111) → Reserved
-│                   └─ 000 (0001 000) → Reserved
+│                   ├─ 000 (0 000 000) → Faber Edge
+│                   ├─ 001 (0 000 001) → Triple Edge
+│                   ├─ 010 (0 000 010) → Clause Edge
+│                   ├─ 011 (0 000 011) → Event6 Edge
+│                   ├─ 100 (0 000 100) → Context Edge
+│                   ├─ 101 (0 000 101) → Quantity Node
+│                   ├─ 110 (0 000 110) → Reserved
+│                   └─ 111 (0 000 111) → 확장
 │
 └─ 1: GEUL Extension ────────────────────────────────────
       │
@@ -105,14 +105,15 @@ bit1
 
 | Prefix | 비트 | 타입 | 설명 |
 |--------|------|------|------|
-| `1` | 1 | Tiny Verb Edge | 고빈도 단순 서술 |
-| `01` | 2 | Verb Edge | 일반 서술 |
-| `001` | 3 | Entity Node | 개체 |
-| `0001 001` | 7 | Triple Edge | 속성/관계 |
-| `0001 010` | 7 | Clause Edge | 담화/논리 관계 |
-| `0001 011` | 7 | Event6 Edge | 6하원칙 사건 |
-| `0001 100` | 7 | Context Edge | 세계관/출처/맥락 |
-| `0001 101` | 7 | Quantity Node | 물리량/수치 |
+| `0 1` | 2 | Tiny Verb Edge | 고빈도 단순 서술 |
+| `0 01` | 3 | Verb Edge | 일반 서술 |
+| `0 001` | 4 | Entity Node | 개체 |
+| `0 000 000` | 7 | Faber Edge | 코드/AST 표현 |
+| `0 000 001` | 7 | Triple Edge | 속성/관계 |
+| `0 000 010` | 7 | Clause Edge | 담화/논리 관계 |
+| `0 000 011` | 7 | Event6 Edge | 6하원칙 사건 |
+| `0 000 100` | 7 | Context Edge | 세계관/출처/맥락 |
+| `0 000 101` | 7 | Quantity Node | 물리량/수치 |
 
 ### 4.2 Proposal (bit1~4 = 1100)
 
@@ -120,14 +121,15 @@ bit1
 
 | Standard | Proposal | 비트 | 타입 |
 |----------|----------|------|------|
-| `1` | `11001` | 5 | Tiny Verb Edge |
-| `01` | `110001` | 6 | Verb Edge |
-| `001` | `1100001` | 7 | Entity Node |
-| `0001 001` | `1100000 001` | 10 | Triple Edge |
-| `0001 010` | `1100000 010` | 10 | Clause Edge |
-| `0001 011` | `1100000 011` | 10 | Event6 Edge |
-| `0001 100` | `1100000 100` | 10 | Context Edge |
-| `0001 101` | `1100000 101` | 10 | Quantity Node |
+| `0 1` | `1100 1` | 5 | Tiny Verb Edge |
+| `0 01` | `1100 01` | 6 | Verb Edge |
+| `0 001` | `1100 001` | 7 | Entity Node |
+| `0 000 000` | `1100 000 000` | 10 | Faber Edge |
+| `0 000 001` | `1100 000 001` | 10 | Triple Edge |
+| `0 000 010` | `1100 000 010` | 10 | Clause Edge |
+| `0 000 011` | `1100 000 011` | 10 | Event6 Edge |
+| `0 000 100` | `1100 000 100` | 10 | Context Edge |
+| `0 000 101` | `1100 000 101` | 10 | Quantity Node |
 
 ### 4.3 Issuer Namespace (bit1=1, bit2=0)
 
@@ -158,34 +160,35 @@ bit1
 | `1101` | Free |
 | `111` | Reserved |
 
-### 5.2 Standard 타입 Prefix (7비트)
+### 5.2 Standard 타입 Prefix
 
-| Prefix | 타입 |
-|--------|------|
-| `1` | Tiny Verb Edge |
-| `01` | Verb Edge |
-| `001` | Entity Node |
-| `0001 001` | Triple Edge |
-| `0001 010` | Clause Edge |
-| `0001 011` | Event6 Edge |
-| `0001 100` | Context Edge |
-| `0001 101` | Quantity Node |
-| `0001 110` | Reserved |
-| `0001 111` | Reserved |
-| `0001 000` | Reserved |
+| Prefix | 비트 | 타입 |
+|--------|------|------|
+| `0 1` | 2 | Tiny Verb Edge |
+| `0 01` | 3 | Verb Edge |
+| `0 001` | 4 | Entity Node |
+| `0 000 000` | 7 | Faber Edge |
+| `0 000 001` | 7 | Triple Edge |
+| `0 000 010` | 7 | Clause Edge |
+| `0 000 011` | 7 | Event6 Edge |
+| `0 000 100` | 7 | Context Edge |
+| `0 000 101` | 7 | Quantity Node |
+| `0 000 110` | 7 | Reserved |
+| `0 000 111` | 7 | 확장 |
 
 ### 5.3 Proposal 패킷 Prefix (현재 사용)
 
 | Prefix | 비트 | 타입 |
 |--------|------|------|
-| `11001` | 5 | Tiny Verb Edge |
-| `110001` | 6 | Verb Edge |
-| `1100001` | 7 | Entity Node |
-| `1100000 001` | 10 | Triple Edge |
-| `1100000 010` | 10 | Clause Edge |
-| `1100000 011` | 10 | Event6 Edge |
-| `1100000 100` | 10 | Context Edge |
-| `1100000 101` | 10 | Quantity Node |
+| `1100 1` | 5 | Tiny Verb Edge |
+| `1100 01` | 6 | Verb Edge |
+| `1100 001` | 7 | Entity Node |
+| `1100 000 000` | 10 | Faber Edge |
+| `1100 000 001` | 10 | Triple Edge |
+| `1100 000 010` | 10 | Clause Edge |
+| `1100 000 011` | 10 | Event6 Edge |
+| `1100 000 100` | 10 | Context Edge |
+| `1100 000 101` | 10 | Quantity Node |
 
 ---
 
@@ -193,14 +196,15 @@ bit1
 
 | 타입 | Prefix (Proposal) | 워드 | 용도 |
 |------|-------------------|------|------|
-| Tiny Verb Edge | `11001` | 2 | 고빈도 단순 서술 |
-| Verb Edge | `110001` | 3~5 | 일반 서술 |
-| Entity Node | `1100001` | 3~5 | 개체 정의 |
-| Triple Edge | `1100000 001` | 4~5 | 속성/관계 |
-| Clause Edge | `1100000 010` | 4 | 담화/논리 |
-| Event6 Edge | `1100000 011` | 3~8 | 6하원칙 사건 |
-| Context Edge | `1100000 100` | 3 | 세계관/맥락 |
-| Quantity Node | `1100000 101` | 4~7 | 물리량/수치 |
+| Tiny Verb Edge | `1100 1` | 2 | 고빈도 단순 서술 |
+| Verb Edge | `1100 01` | 3~5 | 일반 서술 |
+| Entity Node | `1100 001` | 3~5 | 개체 정의 |
+| Faber Edge | `1100 000 000` | 4+ | 코드/AST 표현 |
+| Triple Edge | `1100 000 001` | 4~5 | 속성/관계 |
+| Clause Edge | `1100 000 010` | 4 | 담화/논리 |
+| Event6 Edge | `1100 000 011` | 3~8 | 6하원칙 사건 |
+| Context Edge | `1100 000 100` | 3 | 세계관/맥락 |
+| Quantity Node | `1100 000 101` | 4~7 | 물리량/수치 |
 
 ---
 
@@ -246,36 +250,50 @@ def parse_standard_type(sidx: int) -> str:
     if bit4 == 1:
         return "Entity Node"
     
-    # 7비트 통일 영역
+    # 7비트 통일 영역 (bit2~4 = 000)
     sub = (sidx >> 57) & 0x7
     return {
+        0b000: "Faber Edge",
         0b001: "Triple Edge",
         0b010: "Clause Edge",
         0b011: "Event6 Edge",
         0b100: "Context Edge",
         0b101: "Quantity Node",
-    }.get(sub, "Reserved")
+        0b110: "Reserved",
+        0b111: "Extension",
+    }.get(sub, "Unknown")
 ```
 
 ### 7.3 패킷 Prefix 파서
 
 ```python
 def parse_packet_prefix(word1: int) -> str:
+    # Proposal Tiny Verb: 11001 (5비트)
     if (word1 >> 11) == 0b11001:
         return "Tiny Verb Edge"
+    
+    # Proposal Verb: 110001 (6비트)
     if (word1 >> 10) == 0b110001:
         return "Verb Edge"
+    
+    # Proposal Entity: 1100001 (7비트)
     if (word1 >> 9) == 0b1100001:
         return "Entity Node"
+    
+    # Proposal 7비트 통일: 1100000 (7비트) + xxx (3비트) = 10비트
     if (word1 >> 9) == 0b1100000:
         sub = (word1 >> 6) & 0x7
         return {
+            0b000: "Faber Edge",
             0b001: "Triple Edge",
             0b010: "Clause Edge",
             0b011: "Event6 Edge",
             0b100: "Context Edge",
             0b101: "Quantity Node",
+            0b110: "Reserved",
+            0b111: "Extension",
         }.get(sub, "Unknown")
+    
     return "Unknown"
 ```
 
@@ -289,7 +307,8 @@ def parse_packet_prefix(word1: int) -> str:
 | v0.2 | 2026-01-29 | Proposal을 Free 하위로 이동 |
 | v0.3 | 2026-01-29 | 허프만 스타일 추가 |
 | v0.4 | 2026-01-29 | 2단계 Prefix 체계, Quantity Node 추가 |
-| v0.5 | 2026-01-29 | **Context Edge 확정**, Reserved 슬롯 정리 |
+| v0.5 | 2026-01-29 | Context Edge 확정, Reserved 슬롯 정리 |
+| v0.6 | 2026-01-29 | **Prefix 표기 일관성 수정**, **Faber Edge 추가** |
 
 ---
 
@@ -304,6 +323,7 @@ def parse_packet_prefix(word1: int) -> str:
 | `Event6_Edge.md` | Event6 Edge 상세 |
 | `Context_Edge.md` | Context Edge 상세 |
 | `Quantity_Node.md` | Quantity Node 상세 |
+| `Faber_Edge.md` | Faber Edge 상세 (코드/AST) |
 
 ---
 

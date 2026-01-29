@@ -1,6 +1,6 @@
 # Context Edge 명세서
 
-**버전:** v0.1  
+**버전:** v0.2  
 **작성일:** 2026-01-29  
 **목적:** GEUL 지식/서술의 세계관, 출처, 관점(Perspective) 표현
 
@@ -25,16 +25,21 @@ Context "빌런시점":     (빌런, is_a, 정의)
 
 ---
 
-## 2. Prefix 및 패킷 구조
+## 2. Prefix
 
-### 2.1 Prefix
+`SIDX.md` 참조
 
-| 영역 | Prefix | 비트 |
-|------|--------|------|
-| Standard | `0001 100` | 7 |
-| Proposal | `1100000 100` | 10 |
+| 항목 | 값 |
+|------|-----|
+| Standard | `0 000 100` (7비트) |
+| Proposal | `1100 000 100` (10비트) |
+| 1st 워드 나머지 | 6비트 (Context Type) |
 
-### 2.2 패킷 레이아웃 (3워드, 48비트)
+---
+
+## 3. 패킷 구조 (3워드, 48비트)
+
+### 3.1 레이아웃
 
 ```
 1st WORD (16비트):
@@ -42,7 +47,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 │       Prefix        │  Context Type   │
 │       10비트        │     6비트       │
 └─────────────────────┴─────────────────┘
- [1100000 100]         [TTTTTT]
+ [1100 000 100]        [TTTTTT]
 
 2nd WORD: Context TID (16비트) - 이 Context의 고유 ID
 3rd WORD: Target TID (16비트) - 이 Context에서 참인 Claim
@@ -50,27 +55,27 @@ Context "빌런시점":     (빌런, is_a, 정의)
 총: 3워드 (48비트)
 ```
 
-### 2.3 필드 설명
+### 3.2 필드 설명
 
 | 필드 | 비트 | 위치 | 설명 |
 |------|------|------|------|
-| Prefix | 10 | 1st[15:6] | `1100000 100` |
+| Prefix | 10 | 1st[15:6] | `1100 000 100` |
 | Context Type | 6 | 1st[5:0] | 0=미지정, 1~62=타입, 63=확장(예약) |
 | Context TID | 16 | 2nd | 이 Context의 고유 식별자 |
 | Target TID | 16 | 3rd | 대상 Claim (Triple/Verb/Event6/Clause TID) |
 
 ---
 
-## 3. Context Type (6비트 = 64개)
+## 4. Context Type (6비트 = 64개)
 
-### 3.0 특수 코드
+### 4.0 특수 코드
 
 | Code | 타입 | 설명 |
 |------|------|------|
 | 0 | UNSPECIFIED | 타입 미지정 (Triple로 상세 정의) |
 | 63 | EXTENDED | 확장 모드 (예약, 미사용) |
 
-### 3.1 출처 (Source) - Code 1~20
+### 4.1 출처 (Source) - Code 1~20
 
 | Code | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -95,7 +100,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 | 19 | MANUAL | 매뉴얼/가이드 | 기술 문서 |
 | 20 | STANDARD | 표준 문서 | ISO, RFC |
 
-### 3.2 파생/추론 (Derived) - Code 21~30
+### 4.2 파생/추론 (Derived) - Code 21~30
 
 | Code | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -110,7 +115,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 | 29 | ESTIMATION | 추정 | 근사값 |
 | 30 | PREDICTION | 예측 | 미래 전망 |
 
-### 3.3 세계관/신념 (Worldview) - Code 31~45
+### 4.3 세계관/신념 (Worldview) - Code 31~45
 
 | Code | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -130,7 +135,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 | 44 | ALTERNATIVE | 대안적 견해 | 소수 의견 |
 | 45 | FRINGE | 비주류/이단 | 사이비 |
 
-### 3.4 허구/창작 (Fiction) - Code 46~55
+### 4.4 허구/창작 (Fiction) - Code 46~55
 
 | Code | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -145,7 +150,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 | 54 | LEGEND | 전설 | 아서왕 |
 | 55 | FAIRYTALE | 동화 | 신데렐라 |
 
-### 3.5 시점/화자 (Perspective) - Code 56~62
+### 4.5 시점/화자 (Perspective) - Code 56~62
 
 | Code | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -159,7 +164,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 
 ---
 
-## 4. Context Type 요약
+## 5. Context Type 요약
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -186,7 +191,7 @@ Context "빌런시점":     (빌런, is_a, 정의)
 
 ---
 
-## 5. 연결 대상 (Target)
+## 6. 연결 대상 (Target)
 
 Context Edge는 모든 Claim Edge에 연결 가능.
 
@@ -200,11 +205,11 @@ Context Edge는 모든 Claim Edge에 연결 가능.
 
 ---
 
-## 6. 메타데이터 확장 (Triple 활용)
+## 7. 메타데이터 확장 (Triple 활용)
 
 Context 자체에 추가 정보는 **Triple로 표현**.
 
-### 6.1 출처 상세
+### 7.1 출처 상세
 
 ```
 (Context TID, P:source_entity, Reuters_Entity)  - 출처 기관
@@ -213,7 +218,7 @@ Context 자체에 추가 정보는 **Triple로 표현**.
 (Context TID, P:publication_date, 2026-01-29)   - 발행일
 ```
 
-### 6.2 신뢰도/유효성
+### 7.2 신뢰도/유효성
 
 ```
 (Context TID, P:confidence, 0.95)               - 신뢰도
@@ -221,7 +226,7 @@ Context 자체에 추가 정보는 **Triple로 표현**.
 (Context TID, P:peer_reviewed, true)            - 검증 여부
 ```
 
-### 6.3 세계관 상세
+### 7.3 세계관 상세
 
 ```
 (Context TID, P:universe_name, "해리포터")       - 세계관 이름
@@ -229,7 +234,7 @@ Context 자체에 추가 정보는 **Triple로 표현**.
 (Context TID, P:timeline, "본편")                - 타임라인
 ```
 
-### 6.4 시점 상세
+### 7.4 시점 상세
 
 ```
 (Context TID, P:perspective_holder, 빌런_Entity)  - 시점 주체
@@ -238,74 +243,74 @@ Context 자체에 추가 정보는 **Triple로 표현**.
 
 ---
 
-## 7. 예시
+## 8. 예시
 
-### 7.1 출처: "로이터 보도"
+### 8.1 출처: "로이터 보도"
 
 ```
 Context Edge:
-  1st: [1100000 100] + [000100]   - NEWS (4)
-  2nd: [0x0300]                    - Context TID
-  3rd: [0x0001]                    - Target: Triple "Apple acquired Tesla"
+  1st: [1100 000 100] + [000100]  - NEWS (4)
+  2nd: [0x0300]                   - Context TID
+  3rd: [0x0001]                   - Target: Triple "Apple acquired Tesla"
 
 추가 Triple:
   (0x0300, P:source_entity, Reuters)
   (0x0300, P:date, 2026-01-29)
 ```
 
-### 7.2 세계관: "개신교 창조론"
+### 8.2 세계관: "개신교 창조론"
 
 ```
 Context Edge:
-  1st: [1100000 100] + [011111]   - RELIGION (31)
-  2nd: [0x0301]                    - Context TID
-  3rd: [0x0002]                    - Target: Triple "지구 나이 = 6000년"
+  1st: [1100 000 100] + [011111]  - RELIGION (31)
+  2nd: [0x0301]                   - Context TID
+  3rd: [0x0002]                   - Target: Triple "지구 나이 = 6000년"
 
 추가 Triple:
   (0x0301, P:name, "젊은지구창조론")
   (0x0301, P:tradition, "개신교 근본주의")
 ```
 
-### 7.3 허구: "해리포터 세계관"
+### 8.3 허구: "해리포터 세계관"
 
 ```
 Context Edge:
-  1st: [1100000 100] + [101110]   - NOVEL (46)
-  2nd: [0x0302]                    - Context TID
-  3rd: [0x0003]                    - Target: Triple "호그와트 is_a 학교"
+  1st: [1100 000 100] + [101110]  - NOVEL (46)
+  2nd: [0x0302]                   - Context TID
+  3rd: [0x0003]                   - Target: Triple "호그와트 is_a 학교"
 
 추가 Triple:
   (0x0302, P:universe_name, "해리포터")
   (0x0302, P:author, J.K.롤링)
 ```
 
-### 7.4 시점: "빌런의 관점"
+### 8.4 시점: "빌런의 관점"
 
 ```
 Context Edge:
-  1st: [1100000 100] + [111010]   - ANTAGONIST (58)
-  2nd: [0x0303]                    - Context TID
-  3rd: [0x0004]                    - Target: Triple "타노스 is_a 구원자"
+  1st: [1100 000 100] + [111010]  - ANTAGONIST (58)
+  2nd: [0x0303]                   - Context TID
+  3rd: [0x0004]                   - Target: Triple "타노스 is_a 구원자"
 
 추가 Triple:
   (0x0303, P:perspective_holder, 타노스_Entity)
   (0x0303, P:universe, MCU)
 ```
 
-### 7.5 AI 추론: "Claude가 추론"
+### 8.5 AI 추론: "Claude가 추론"
 
 ```
 Context Edge:
-  1st: [1100000 100] + [010101]   - MODEL (21)
-  2nd: [0x0304]                    - Context TID
-  3rd: [0x0005]                    - Target: Triple "X causes Y"
+  1st: [1100 000 100] + [010101]  - MODEL (21)
+  2nd: [0x0304]                   - Context TID
+  3rd: [0x0005]                   - Target: Triple "X causes Y"
 
 추가 Triple:
   (0x0304, P:model, Claude_Entity)
   (0x0304, P:confidence, 0.75)
 ```
 
-### 7.6 다중 Context (같은 Claim, 여러 세계관)
+### 8.6 다중 Context (같은 Claim, 여러 세계관)
 
 ```
 Triple T01: (우주, origin, 빅뱅) | TID=0x0001
@@ -320,9 +325,9 @@ Context 2: RELIGION (31) - 다른 세계관에서는 다른 주장
 
 ---
 
-## 8. 파싱/인코딩
+## 9. 파싱/인코딩
 
-### 8.1 파싱
+### 9.1 파싱
 
 ```python
 def parse_context_edge(words: list[int]) -> dict:
@@ -358,7 +363,7 @@ def parse_context_edge(words: list[int]) -> dict:
     }
 ```
 
-### 8.2 인코딩
+### 9.2 인코딩
 
 ```python
 def encode_context_edge(
@@ -384,9 +389,9 @@ words = encode_context_edge(NEWS, 0x0300, 0x0001)
 
 ---
 
-## 9. WMS 저장 구조
+## 10. WMS 저장 구조
 
-### 9.1 테이블
+### 10.1 테이블
 
 ```sql
 CREATE TABLE context_edges (
@@ -402,7 +407,7 @@ CREATE INDEX idx_type ON context_edges(context_type);
 CREATE INDEX idx_context ON context_edges(context_tid);
 ```
 
-### 9.2 쿼리
+### 10.2 쿼리
 
 ```sql
 -- Claim의 모든 Context
@@ -417,21 +422,21 @@ SELECT * FROM context_edges WHERE context_type = 4;
 
 ---
 
-## 10. 설계 근거
+## 11. 설계 근거
 
-### 10.1 Context Edge 단독 타입 이유
+### 11.1 Context Edge 단독 타입 이유
 
 - **세계관 = 메타 레이어**: Triple/Clause와 다른 레벨
 - **Named Graph 대응**: RDF Quad의 G(Graph)에 해당
 - **양상논리**: "가능 세계"에서의 진리 조건
 
-### 10.2 6비트 Context Type 이유
+### 11.2 6비트 Context Type 이유
 
 - 별도 Triple 없이 **즉시 분류 가능**
 - 62개 타입으로 대부분 커버
 - 상세 정보는 Triple로 확장
 
-### 10.3 3워드 경량 구조 이유
+### 11.3 3워드 경량 구조 이유
 
 - Context 연결은 **대량 발생** (모든 Claim에 붙음)
 - 최소 크기로 저장 효율
@@ -439,7 +444,7 @@ SELECT * FROM context_edges WHERE context_type = 4;
 
 ---
 
-## 11. GEUL 생태계 내 위치
+## 12. GEUL 생태계 내 위치
 
 ```
 GEUL Edge 체계:
@@ -460,15 +465,16 @@ Meta Level (사실의 조건):
 
 ---
 
-## 12. 버전 히스토리
+## 13. 버전 히스토리
 
 | 버전 | 날짜 | 변경 |
 |------|------|------|
 | v0.1 | 2026-01-29 | 초안: 6비트 Context Type, 3워드 구조 |
+| v0.2 | 2026-01-29 | Prefix 표기 수정, SIDX.md 참조로 변경 |
 
 ---
 
-## 13. 향후 과제
+## 14. 향후 과제
 
 - [ ] Context 계층 구조 (부모 Context)
 - [ ] Context 간 호환성/충돌 표현

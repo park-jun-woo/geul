@@ -1,6 +1,6 @@
 # Clause Edge 명세서
 
-**버전:** v0.3  
+**버전:** v0.4  
 **작성일:** 2026-01-29  
 **목적:** GEUL 서술/사건 간 논리적 관계 표현을 위한 Clause Edge 구조 정의
 
@@ -14,16 +14,21 @@ RST(Rhetorical Structure Theory)의 담화 관계를 기반으로 설계되었�
 
 ---
 
-## 2. Prefix 및 패킷 구조
+## 2. Prefix
 
-### 2.1 Prefix
+`SIDX.md` 참조
 
-| 영역 | Prefix | 비트 |
-|------|--------|------|
-| Standard | `0000 010` | 7 |
-| Proposal (현재) | `1100000 010` | 10 |
+| 항목 | 값 |
+|------|-----|
+| Standard | `0 000 010` (7비트) |
+| Proposal | `1100 000 010` (10비트) |
+| 1st 워드 나머지 | 6비트 (관계타입 4 + 예약 2) |
 
-### 2.2 패킷 레이아웃 (4워드, 64비트)
+---
+
+## 3. 패킷 구조 (4워드, 64비트)
+
+### 3.1 레이아웃
 
 ```
 1st WORD (16비트):
@@ -31,7 +36,7 @@ RST(Rhetorical Structure Theory)의 담화 관계를 기반으로 설계되었�
 │      Prefix         │  관계타입   │  예약   │
 │       10비트         │   4비트    │  2비트  │
 └─────────────────────┴────────────┴────────┘
- [1100000 010]         [RRRR]       [xx]
+ [1100 000 010]        [RRRR]       [xx]
 
 2nd WORD: Edge TID (16비트)
 3rd WORD: TID 1 (16비트) - 첫 번째 절
@@ -40,11 +45,11 @@ RST(Rhetorical Structure Theory)의 담화 관계를 기반으로 설계되었�
 총: 4워드 (64비트)
 ```
 
-### 2.3 필드 설명
+### 3.2 필드 설명
 
 | 필드 | 비트 | 위치 | 설명 |
 |------|------|------|------|
-| Prefix | 10 | 1st[15:6] | `1100000 010` (Proposal Clause Edge) |
+| Prefix | 10 | 1st[15:6] | `1100 000 010` |
 | 관계타입 | 4 | 1st[5:2] | 16개 RST 관계 |
 | 예약 | 2 | 1st[1:0] | 미래 확장용 |
 | Edge TID | 16 | 2nd | 이 Edge의 고유 식별자 |
@@ -53,7 +58,7 @@ RST(Rhetorical Structure Theory)의 담화 관계를 기반으로 설계되었�
 
 ---
 
-## 3. 연결 대상
+## 4. 연결 대상
 
 Clause Edge는 TID를 통해 다양한 Edge 타입을 연결할 수 있다.
 
@@ -70,11 +75,11 @@ Clause Edge는 TID를 통해 다양한 Edge 타입을 연결할 수 있다.
 
 ---
 
-## 4. 관계 타입 (4비트 = 16개)
+## 5. 관계 타입 (4비트 = 16개)
 
 RST(Rhetorical Structure Theory) 기반 담화 관계:
 
-### 4.1 인과 관계
+### 5.1 인과 관계
 
 | 코드 | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -83,35 +88,35 @@ RST(Rhetorical Structure Theory) 기반 담화 관계:
 | 0010 | CONDITION | 조건→귀결 | "비가 오면 안 간다" |
 | 0011 | PURPOSE | 목적 | "살기 위해 먹는다" |
 
-### 4.2 시간/순서 관계
+### 5.2 시간/순서 관계
 
 | 코드 | 타입 | 설명 | 예시 |
 |------|------|------|------|
 | 0100 | SEQUENCE | 시간순 | "밥 먹고 잤다" |
 | 0101 | PARALLEL | 동시/병렬 | "웃으면서 말했다" |
 
-### 4.3 대조/양보 관계
+### 5.3 대조/양보 관계
 
 | 코드 | 타입 | 설명 | 예시 |
 |------|------|------|------|
 | 0110 | CONTRAST | 대조 | "A는 크고 B는 작다" |
 | 0111 | CONCESSION | 양보 | "어렵지만 했다" |
 
-### 4.4 부연/배경 관계
+### 5.4 부연/배경 관계
 
 | 코드 | 타입 | 설명 | 예시 |
 |------|------|------|------|
 | 1000 | ELABORATION | 상세화 | "구체적으로 말하면" |
 | 1001 | BACKGROUND | 배경 정보 | "참고로, 당시 상황은" |
 
-### 4.5 논증 관계
+### 5.5 논증 관계
 
 | 코드 | 타입 | 설명 | 예시 |
 |------|------|------|------|
 | 1010 | EVIDENCE | 증거 제시 | "왜냐하면... 때문이다" |
 | 1011 | EVALUATION | 평가 | "이것은 좋다/나쁘다" |
 
-### 4.6 기타 관계
+### 5.6 기타 관계
 
 | 코드 | 타입 | 설명 | 예시 |
 |------|------|------|------|
@@ -122,7 +127,7 @@ RST(Rhetorical Structure Theory) 기반 담화 관계:
 
 ---
 
-## 5. TID 순서 규칙
+## 6. TID 순서 규칙
 
 방향은 TID 순서로 결정:
 
@@ -138,9 +143,9 @@ RST(Rhetorical Structure Theory) 기반 담화 관계:
 
 ---
 
-## 6. 예시
+## 7. 예시
 
-### 6.1 단순 인과
+### 7.1 단순 인과
 
 **"비가 와서 집에 있었다"**
 
@@ -149,13 +154,13 @@ Verb Edge E01: rain(비) | TID=0x0001
 Verb Edge E02: stay(나, 집) | TID=0x0002
 
 Clause Edge:
-  1st: [1100000 010] [0000] [00]  - Prefix + CAUSE + 예약
-  2nd: [0x0100]                   - Edge TID
-  3rd: [0x0001]                   - TID 1 (원인: E01)
-  4th: [0x0002]                   - TID 2 (결과: E02)
+  1st: [1100 000 010] [0000] [00]  - Prefix + CAUSE + 예약
+  2nd: [0x0100]                    - Edge TID
+  3rd: [0x0001]                    - TID 1 (원인: E01)
+  4th: [0x0002]                    - TID 2 (결과: E02)
 ```
 
-### 6.2 조건문
+### 7.2 조건문
 
 **"비가 오면 안 간다"**
 
@@ -164,13 +169,13 @@ Verb Edge E01: rain(비) | TID=0x0001
 Verb Edge E02: go(나) [Polarity=부정] | TID=0x0002
 
 Clause Edge:
-  1st: [1100000 010] [0010] [00]  - Prefix + CONDITION + 예약
-  2nd: [0x0101]                   - Edge TID
-  3rd: [0x0001]                   - TID 1 (조건: E01)
-  4th: [0x0002]                   - TID 2 (귀결: E02)
+  1st: [1100 000 010] [0010] [00]  - Prefix + CONDITION + 예약
+  2nd: [0x0101]                    - Edge TID
+  3rd: [0x0001]                    - TID 1 (조건: E01)
+  4th: [0x0002]                    - TID 2 (귀결: E02)
 ```
 
-### 6.3 Triple 연결
+### 7.3 Triple 연결
 
 **"철수가 CEO이기 때문에 결정했다"**
 
@@ -179,13 +184,13 @@ Triple T01: (철수, is_a, CEO) | TID=0x0010
 Verb Edge E01: decide(철수, ...) | TID=0x0001
 
 Clause Edge:
-  1st: [1100000 010] [0000] [00]  - Prefix + CAUSE + 예약
-  2nd: [0x0102]                   - Edge TID
-  3rd: [0x0010]                   - TID 1 (원인: Triple)
-  4th: [0x0001]                   - TID 2 (결과: Verb Edge)
+  1st: [1100 000 010] [0000] [00]  - Prefix + CAUSE + 예약
+  2nd: [0x0102]                    - Edge TID
+  3rd: [0x0010]                    - TID 1 (원인: Triple)
+  4th: [0x0001]                    - TID 2 (결과: Verb Edge)
 ```
 
-### 6.4 Event6 연결
+### 7.4 Event6 연결
 
 **"애플이 테슬라를 인수해서 주가가 올랐다"**
 
@@ -194,13 +199,13 @@ Event6 E01: (Apple, acquire, Tesla, $2B, 2025-03-15) | TID=0x0020
 Verb Edge E02: rise(주가) | TID=0x0002
 
 Clause Edge:
-  1st: [1100000 010] [0000] [00]  - Prefix + CAUSE + 예약
-  2nd: [0x0103]                   - Edge TID
-  3rd: [0x0020]                   - TID 1 (원인: Event6)
-  4th: [0x0002]                   - TID 2 (결과: Verb Edge)
+  1st: [1100 000 010] [0000] [00]  - Prefix + CAUSE + 예약
+  2nd: [0x0103]                    - Edge TID
+  3rd: [0x0020]                    - TID 1 (원인: Event6)
+  4th: [0x0002]                    - TID 2 (결과: Verb Edge)
 ```
 
-### 6.5 중첩 Clause
+### 7.5 중첩 Clause
 
 **"비가 와서 집에 있었고, 그래서 공부했다"**
 
@@ -210,25 +215,25 @@ Verb Edge E02: stay(나, 집) | TID=0x0002
 Verb Edge E03: study(나) | TID=0x0003
 
 Clause Edge C01:
-  1st: [1100000 010] [0000] [00]  - Prefix + CAUSE
-  2nd: [0x0100]                   - Edge TID
-  3rd: [0x0001]                   - E01
-  4th: [0x0002]                   - E02
+  1st: [1100 000 010] [0000] [00]  - Prefix + CAUSE
+  2nd: [0x0100]                    - Edge TID
+  3rd: [0x0001]                    - E01
+  4th: [0x0002]                    - E02
 
 Clause Edge C02:
-  1st: [1100000 010] [0001] [00]  - Prefix + RESULT
-  2nd: [0x0101]                   - Edge TID
-  3rd: [0x0100]                   - C01 (Clause TID 참조!)
-  4th: [0x0003]                   - E03
+  1st: [1100 000 010] [0001] [00]  - Prefix + RESULT
+  2nd: [0x0101]                    - Edge TID
+  3rd: [0x0100]                    - C01 (Clause TID 참조!)
+  4th: [0x0003]                    - E03
 ```
 
 ---
 
-## 7. Multinuclear vs Nucleus-Satellite
+## 8. Multinuclear vs Nucleus-Satellite
 
 RST 구분을 따름:
 
-### 7.1 Nucleus-Satellite (비대칭)
+### 8.1 Nucleus-Satellite (비대칭)
 
 | 관계 | TID 1 | TID 2 |
 |------|-------|-------|
@@ -237,7 +242,7 @@ RST 구분을 따름:
 | EVIDENCE | 증거 (Satellite) | 주장 (Nucleus) |
 | ELABORATION | 핵심 (Nucleus) | 부연 (Satellite) |
 
-### 7.2 Multinuclear (대칭)
+### 8.2 Multinuclear (대칭)
 
 | 관계 | TID 1 | TID 2 |
 |------|-------|-------|
@@ -250,9 +255,9 @@ RST 구분을 따름:
 
 ---
 
-## 8. 파싱/인코딩
+## 9. 파싱/인코딩
 
-### 8.1 파싱
+### 9.1 파싱
 
 ```python
 def parse_clause_edge(words: list[int]) -> dict:
@@ -288,7 +293,7 @@ def parse_clause_edge(words: list[int]) -> dict:
     }
 ```
 
-### 8.2 인코딩
+### 9.2 인코딩
 
 ```python
 def encode_clause_edge(relation: int, edge_tid: int, tid_1: int, tid_2: int) -> list[int]:
@@ -308,9 +313,9 @@ words = encode_clause_edge(CAUSE, 0x0100, 0x0001, 0x0002)
 
 ---
 
-## 9. WMS 저장 구조
+## 10. WMS 저장 구조
 
-### 9.1 인덱싱
+### 10.1 인덱싱
 
 ```sql
 CREATE TABLE clause_edges (
@@ -326,7 +331,7 @@ CREATE INDEX idx_tid2 ON clause_edges(tid_2);
 CREATE INDEX idx_relation ON clause_edges(relation_type);
 ```
 
-### 9.2 그래프 탐색
+### 10.2 그래프 탐색
 
 ```
 GEUL-Path 예시:
@@ -339,36 +344,30 @@ GEUL-Path 예시:
 
 ---
 
-## 10. 설계 근거
+## 11. 설계 근거
 
-### 10.1 RST 기반 이유
+### 11.1 RST 기반 이유
 
 - 30년+ 연구 축적
 - 다양한 코퍼스 검증
 - 담화 파싱 도구 존재
 - 언어 독립적
 
-### 10.2 4비트(16개) 이유
+### 11.2 4비트(16개) 이유
 
 - RST 핵심 관계 12개+
 - 확장 여유 확보
 - 3비트(8개)는 부족
 
-### 10.3 4워드 간소화 이유
+### 11.3 4워드 간소화 이유
 
 - 방향: TID 순서로 결정 (별도 비트 불필요)
 - 확신도: 별도 메타데이터로 처리
 - 2비트 예약: 향후 확장
 
-### 10.4 10비트 Prefix 이유
-
-- 저빈도 타입 → 7비트 통일 (Standard 기준)
-- Proposal 단계: `1100` + 7비트 = 10비트 (1비트 압축)
-- 1st 워드 내 6비트 여유 확보
-
 ---
 
-## 11. GEUL 생태계 내 위치
+## 12. GEUL 생태계 내 위치
 
 ```
 GEUL Edge 체계:
@@ -393,17 +392,18 @@ GEUL Edge 체계:
 
 ---
 
-## 12. 버전 히스토리
+## 13. 버전 히스토리
 
 | 버전 | 날짜 | 변경 |
 |------|------|------|
 | v0.1 | 2026-01-27 | 초안 (5워드) |
 | v0.2 | 2026-01-28 | 4워드로 간소화, 방향/확신도 제거 |
-| v0.3 | 2026-01-29 | **10비트 Prefix 체계 반영**, 파싱/인코딩 코드 추가 |
+| v0.3 | 2026-01-29 | 10비트 Prefix 체계 반영, 파싱/인코딩 코드 추가 |
+| v0.4 | 2026-01-29 | Prefix 표기 수정, SIDX.md 참조로 변경 |
 
 ---
 
-## 13. 향후 과제
+## 14. 향후 과제
 
 - [ ] 3개 이상 노드 연결 (예: A이고 B이고 C이므로 D)
 - [ ] GEUL-Path 쿼리 문법 정의
@@ -412,7 +412,7 @@ GEUL Edge 체계:
 
 ---
 
-## 14. 참고 문헌
+## 15. 참고 문헌
 
 - Mann, W.C. & Thompson, S.A. (1988). Rhetorical Structure Theory
 - Carlson, L., Marcu, D., & Okurowski, M.E. (2003). RST Discourse Treebank

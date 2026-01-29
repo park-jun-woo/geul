@@ -1,6 +1,6 @@
 # Triple Edge 명세서
 
-**버전:** v0.3  
+**버전:** v0.4  
 **작성일:** 2026-01-29  
 **목적:** GEUL 속성/관계 표현을 위한 Triple Edge 패킷 구조 정의
 
@@ -23,10 +23,12 @@ Triple Edge는 `(Subject, Property, Object)` 형태의 **관계/속성**을 표�
 
 ## 2. Prefix
 
+`SIDX.md` 참조
+
 | 항목 | 값 |
 |------|-----|
-| Standard | `0001 001` (7비트) |
-| Proposal | `1100000 001` (10비트) |
+| Standard | `0 000 001` (7비트) |
+| Proposal | `1100 000 001` (10비트) |
 | 1st 워드 나머지 | 6비트 (PropCode) |
 
 ---
@@ -51,7 +53,7 @@ Triple Edge는 `(Subject, Property, Object)` 형태의 **관계/속성**을 표�
 
 | 필드 | 비트 | 설명 |
 |------|------|------|
-| Prefix | 10 | `1100000 001` |
+| Prefix | 10 | `1100 000 001` |
 | PropCode | 6 | 0~62: Top 63 속성, 63: 확장 모드 |
 | Edge TID | 16 | 이 Edge의 TID |
 | Subject TID | 16 | 주어 Entity/Node TID |
@@ -75,7 +77,7 @@ Triple Edge는 `(Subject, Property, Object)` 형태의 **관계/속성**을 표�
 
 | 필드 | 비트 | 설명 |
 |------|------|------|
-| Prefix | 10 | `1100000 001` |
+| Prefix | 10 | `1100 000 001` |
 | PropCode | 6 | `111111` (63 = 확장 표시) |
 | Edge TID | 16 | 이 Edge의 TID |
 | P-ID | 16 | 의미정렬 Property ID |
@@ -260,7 +262,7 @@ Triple Edge는 `(Subject, Property, Object)` 형태의 **관계/속성**을 표�
 P31 (instance of) → PropCode = 0
 
 Triple Edge:
-  1st: [1100000 001] + [000000]   - Prefix + PropCode 0
+  1st: [1100 000 001] + [000000]  - Prefix + PropCode 0
   2nd: [TID: 0x0101]              - Edge TID
   3rd: [TID: 0x0010]              - Apple (Subject)
   4th: [TID: 0x0020]              - 회사 (Object)
@@ -274,7 +276,7 @@ Triple Edge:
 P22 (father) → PropCode = 32
 
 Triple Edge:
-  1st: [1100000 001] + [100000]   - Prefix + PropCode 32
+  1st: [1100 000 001] + [100000]  - Prefix + PropCode 32
   2nd: [TID: 0x0100]              - Edge TID
   3rd: [TID: 0x0001]              - 철수 (Subject)
   4th: [TID: 0x0002]              - 영수 (Object)
@@ -288,9 +290,9 @@ Triple Edge:
 P2048 (height) → Top 63 외 → 확장 모드
 
 Triple Edge:
-  1st: [1100000 001] + [111111]   - Prefix + Ext(63)
+  1st: [1100 000 001] + [111111]  - Prefix + Ext(63)
   2nd: [TID: 0x0102]              - Edge TID
-  3rd: [0xA800]                    - P2048 의미정렬
+  3rd: [0xA800]                   - P2048 의미정렬
   4th: [TID: 0x0030]              - 에펠탑 (Subject)
   5th: [TID: 0x0050]              - 330m Quantity (Object)
 
@@ -340,7 +342,8 @@ def parse_triple_edge(data: bytes) -> dict:
 |------|------|------|
 | v0.1 | 2026-01-29 | 초안: 이중 모드 구조 정의 |
 | v0.2 | 2026-01-29 | PropCode 0 = context 추가 |
-| v0.3 | 2026-01-29 | **context 제거**, PropCode 0 = P31 복귀 |
+| v0.3 | 2026-01-29 | context 제거, PropCode 0 = P31 복귀 |
+| v0.4 | 2026-01-29 | Prefix 표기 수정, SIDX.md 참조로 변경 |
 
 ---
 
