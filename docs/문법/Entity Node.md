@@ -1,7 +1,7 @@
 # Entity Node 명세서
 
-**버전:** v0.2  
-**작성일:** 2026-01-29  
+**버전:** v0.3  
+**작성일:** 2026-01-30  
 **범위:** 개체(Entity) SIDX  
 **상태:** 표준 제안 (Standard Proposal)
 
@@ -11,25 +11,34 @@
 
 ### 1.1 정의
 
-**Entity Node**는 GEUL 스트림에서 개체(사람, 장소, 사물, 조직, 개념 등)를 식별하는 가변 길이 패킷이다.
+**Entity Node**는 GEUL 스트림에서 개체(사람, 장소, 사물, 조직, 개념 등)를 식별하는 **고정 길이 3워드 패킷**이다.
 
-### 1.2 Lane 분기
+### 1.2 SIDX 본질
 
-| Lane | 의미 | UID | 워드 |
-|------|------|-----|------|
-| 0 | 개체 (구체적) | 선택적 | 3 또는 5 |
-| 1 | 추상개체 | ✗ | 3 |
+| 특성 | 설명 |
+|------|------|
+| **Non-unique** | 같은 SIDX에 여러 개체 가능 |
+| **Multi-SIDX** | 한 개체가 여러 SIDX 가능 (시점/역할별) |
+| **비트 = 의미** | 비트 위치 자체가 속성을 나타냄 |
+| **추상/구체 연속** | Mode와 Attributes 채움 정도로 구분 |
 
-- **개체(Lane=0):** Q-ID 등 등록된 ID, UID 명시 여부 선택
-- **추상개체(Lane=1):** "모든 학생", "어떤 것" 등, UID 불필요
+**예시:**
+- 트럼프 (부동산 사업가) → SIDX_A
+- 트럼프 (대통령) → SIDX_B (다른 SIDX)
+- "Human + Male + Korea" → 추상적 "한국 남자"
+- "Human + Male + Korea + 1946 + Business + ..." → 거의 특정 인물
 
-### 1.3 모드 요약
+### 1.3 설계 원칙
 
-| 모드 | Lane | UIDflag | 워드 | 용도 |
-|------|------|---------|------|------|
-| 약식 | 0 | 0 | 3 | 재참조, 문맥 내 |
-| 정식 | 0 | 1 | 5 | Q-ID 명시, 외부 참조 |
-| 추상 | 1 | - | 3 | 양화 표현 |
+**Q아이디 내재 포기:**
+- 순수 의미정렬에 비트 전체 투자
+- WMS SIMD 필터링 성능 극대화
+- Q아이디는 Triple로 별도 연결: `(Entity_SIDX, P-외부ID, "Q12345")`
+
+**Serial 비트 불필요:**
+- WMS 쿼리는 2단계: SIMD 범위 좁히기 → 범위 내 디테일 체크
+- Serial은 의미 없는 숫자라 SIMD에 기여 안 함
+- 그 비트를 의미정렬에 투자하면 1단계에서 더 좁혀짐
 
 ---
 
@@ -41,445 +50,449 @@
 |------|-----|
 | Standard | `0 001` (4비트) |
 | Proposal | `1100 001` (7비트) |
-| 1st 워드 나머지 | 9비트 (Lane + EntityType) |
+| 1st 워드 나머지 | 9비트 (Mode + EntityType) |
 
 ---
 
-## 3. 약식/추상 Entity (3워드 = 48비트)
+## 3. 구조 (3워드 = 48비트)
 
-### 3.1 구조
+### 3.1 비트 레이아웃
 
 ```
 1st WORD (16비트)
 ┌─────────┬──────┬────────────┐
-│ Prefix  │ Lane │ EntityType │
-│  7bit   │ 1bit │   8bit     │
+│ Prefix  │ Mode │ EntityType │
+│  7bit   │ 3bit │   6bit     │
 └─────────┴──────┴────────────┘
 
 2nd WORD (16비트)
-┌────────────┬────────────────┐
-│ Attributes │    Lane별      │
-│   12bit    │     4bit       │
-└────────────┴────────────────┘
+┌─────────────────────────────┐
+│     Attributes 상위 16비트   │
+└─────────────────────────────┘
 
 3rd WORD (16비트)
-┌────────────────────────────────┐
-│              TID               │
-│             16bit              │
-└────────────────────────────────┘
+┌─────────────────────────────┐
+│     Attributes 하위 16비트   │
+└─────────────────────────────┘
 ```
 
 ### 3.2 필드 요약
 
 | 필드 | 비트 | 크기 | 설명 |
 |------|------|------|------|
-| Prefix | 1-7 | 7 | `1100001` |
-| Lane | 8 | 1 | 0=개체, 1=추상 |
-| EntityType | 9-16 | 8 | 256개 타입 |
-| Attributes | 17-28 | 12 | 4,096 조합 |
-| Lane별 해석 | 29-32 | 4 | Lane에 따라 다름 |
-| TID | 33-48 | 16 | 문맥 내 참조 ID |
+| Prefix | 1-7 | 7 | `1100001` (Proposal) |
+| Mode | 8-10 | 3 | 8가지 양화/수 모드 |
+| EntityType | 11-16 | 6 | 64개 상위 타입 |
+| Attributes | 17-48 | 32 | 타입별 가변 스키마 |
 
-### 3.3 Lane별 해석 (bit 29-32)
+### 3.3 v0.2 대비 개선
 
-#### Lane=0 (개체 약식)
-
-```
-bit29-31: Source (3비트)
-bit32:    UIDflag = 0 (약식)
-```
-
-| Source | 코드 | 출처 |
-|--------|------|------|
-| 000 | Q-ID | 위키데이터 Item |
-| 001 | Synset | 워드넷 |
-| 010 | P-ID | 위키데이터 Property |
-| 011 | Lexeme | 위키데이터 어휘 |
-| 100 | Schema | Schema.org |
-| 101-111 | Reserved | - |
-
-#### Lane=1 (추상개체)
-
-```
-bit29-30: Quantification (2비트)
-bit31-32: Number (2비트)
-```
-
-**Quantification:**
-
-| 값 | 의미 | 논리 | 예시 |
-|----|------|------|------|
-| 00 | 특정 | ι | "그 사람" |
-| 01 | 전칭 | ∀ | "모든 학생" |
-| 10 | 존재 | ∃ | "어떤 사람" |
-| 11 | 불특정 | ε | "아무나" |
-
-**Number:**
-
-| 값 | 의미 | 예시 |
-|----|------|------|
-| 00 | 알 수 없음 | "사람(들)" |
-| 01 | 단수 | "한 사람" |
-| 10 | 소수 | "몇몇" |
-| 11 | 다수 | "많은" |
+| 항목 | v0.2 | v0.3 |
+|------|------|------|
+| 구조 | 가변 (3 또는 5워드) | **고정 3워드** |
+| Lane + Quant + Number | 1 + 2 + 2 = 5비트 | Mode **3비트** |
+| EntityType | 8비트 (256개) | 6비트 (64개) |
+| Attributes | 12비트 (고정) | **32비트 (가변)** |
+| UID | 32비트 (선택) | **제거** |
+| **의미정렬 총량** | 20비트 | **41비트** |
 
 ---
 
-## 4. 정식 Entity (5워드 = 80비트)
+## 4. Mode (bit 8-10)
 
-### 4.1 구조
+### 4.1 정의
 
-```
-1st WORD (16비트)
-┌─────────┬──────┬────────────┐
-│ Prefix  │ Lane │ EntityType │
-│  7bit   │ 1bit │   8bit     │
-└─────────┴──────┴────────────┘
+Mode는 개체의 **양화(Quantification)와 수(Number)**를 3비트로 통합 표현한다.
 
-2nd WORD (16비트)
-┌────────────┬────────┬─────────┐
-│ Attributes │ Source │ UIDflag │
-│   12bit    │  3bit  │ 1bit=1  │
-└────────────┴────────┴─────────┘
+### 4.2 코드 테이블
 
-3rd + 4th WORD (32비트)
-┌────────────────────────────────┐
-│              UID               │
-│             32bit              │
-└────────────────────────────────┘
-
-5th WORD (16비트)
-┌────────────────────────────────┐
-│              TID               │
-│             16bit              │
-└────────────────────────────────┘
-```
-
-### 4.2 필드 요약
-
-| 필드 | 비트 | 크기 | 설명 |
+| 코드 | 이진 | 의미 | 예시 |
 |------|------|------|------|
-| Prefix | 1-7 | 7 | `1100001` |
-| Lane | 8 | 1 | 0 (개체) |
-| EntityType | 9-16 | 8 | 256개 타입 |
-| Attributes | 17-28 | 12 | 4,096 조합 |
-| Source | 29-31 | 3 | Q-ID, Synset 등 |
-| UIDflag | 32 | 1 | 1 (정식) |
-| UID | 33-64 | 32 | 절대 식별자 |
-| TID | 65-80 | 16 | 문맥 내 참조 ID |
+| 0 | 000 | **등록 개체** | 이순신, 삼성전자, BTS |
+| 1 | 001 | 특정 단수 | "그 사람" |
+| 2 | 010 | 특정 소수 | "그 몇몇" |
+| 3 | 011 | 특정 다수 | "그 사람들" |
+| 4 | 100 | 전칭 | "모든 ~" |
+| 5 | 101 | 존재 | "어떤 ~" |
+| 6 | 110 | 불특정 | "아무 ~" |
+| 7 | 111 | 예약 | - |
 
-### 4.3 UID (32비트)
+### 4.3 등록 개체 (Mode=0)
 
-| 항목 | 값 |
-|------|-----|
-| 크기 | 32비트 (uint32) |
-| 최대값 | 4,294,967,295 (42억) |
-| 위키데이터 현재 | ~1.5억 |
-| **여유** | **28배** |
+- 위키데이터 Q아이디, 워드넷 Synset 등 외부 ID와 매핑된 개체
+- Q아이디 자체는 Triple로 연결: `(Entity_SIDX, P-외부ID, "Q12345")`
+- **수(Number) 개념과 무관**: 삼성전자는 "하나"지만 단수라 하기 애매, BTS는 그룹이지만 하나의 개체
+
+### 4.4 대명사/추상 (Mode=1~6)
+
+- EntityType + Attributes로 의미 범위 지정
+- 비트가 채워질수록 구체적
+- 예: Human(Type) + Male(Attr) + Korea(Attr) = "한국 남자"
 
 ---
 
-## 5. Entity Type (bit 9-16)
+## 5. EntityType (bit 11-16)
 
-### 5.1 이진 트리 구조
+### 5.1 설계 원칙
 
-**Level 0 (bit 9):**
-```
-0: Document 계열
-1: Entity 계열
-```
+- **6비트 = 64개** 상위 타입
+- 위키데이터 P31(instance of) 빈도 통계 기반
+- 위키미디어 메타 타입 제외 (category, disambiguation 등)
+- 세부 분류는 Attributes 내 소분류 비트로
 
-**Level 1 (bit 10):**
-```
-00: Article     01: Media
-10: Living      11: Non-living
-```
+### 5.2 코드 테이블
 
-**Level 2 (bit 11):**
-```
-100: Sapient    101: Non-sapient
-110: Physical   111: Abstract
-```
+| 코드 | 이진 | 타입 | 대표 Q-ID | 개체수 |
+|------|------|------|-----------|--------|
+| 0x00 | 000000 | Human | Q5 | 12.5M |
+| 0x01 | 000001 | Organization | Q43229 | 531K |
+| 0x02 | 000010 | Business | Q4830453 | 241K |
+| 0x03 | 000011 | Taxon | Q16521 | 3.8M |
+| 0x04 | 000100 | Gene | Q7187 | 1.2M |
+| 0x05 | 000101 | Protein | Q8054 | 1.0M |
+| 0x06 | 000110 | Chemical | Q113145171 | 1.3M |
+| 0x07 | 000111 | Cell Line | Q21014462 | 153K |
+| 0x08 | 001000 | Star | Q523 | 3.6M |
+| 0x09 | 001001 | Galaxy | Q318 | 2.1M |
+| 0x0A | 001010 | Asteroid | Q3863 | 248K |
+| 0x0B | 001011 | Planet | - | - |
+| 0x0C | 001100 | Settlement | Q486972 | 580K |
+| 0x0D | 001101 | Village | Q532 | 245K |
+| 0x0E | 001110 | Street | Q79007 | 710K |
+| 0x0F | 001111 | Mountain | Q8502 | 518K |
+| 0x10 | 010000 | River | Q4022 | 426K |
+| 0x11 | 010001 | Lake | Q23397 | 292K |
+| 0x12 | 010010 | Island | Q23442 | 152K |
+| 0x13 | 010011 | Building | Q41176 | 291K |
+| 0x14 | 010100 | Church | Q16970 | 286K |
+| 0x15 | 010101 | School | Q9842 | 242K |
+| 0x16 | 010110 | Document | Q13442814 | 45.2M |
+| 0x17 | 010111 | Literary Work | Q7725634 | 395K |
+| 0x18 | 011000 | Painting | Q3305213 | 1.0M |
+| 0x19 | 011001 | Film | Q11424 | 335K |
+| 0x1A | 011010 | Album | Q482994 | 303K |
+| 0x1B | 011011 | Music | Q105543609 | 194K |
+| 0x1C | 011100 | Video Game | Q7889 | 171K |
+| 0x1D | 011101 | TV Episode | Q21191270 | 177K |
+| 0x1E | 011110 | Software | Q7397 | 13K |
+| 0x1F | 011111 | Patent | Q43305660 | 289K |
+| 0x20 | 100000 | Event | Q1656682 | 10K |
+| 0x21 | 100001 | Sports Season | Q27020041 | 183K |
+| 0x22 | 100010 | Election | Q152450 | 11K |
+| 0x23 | 100011 | Family Name | Q101352 | 661K |
+| 0x24 | 100100 | Ship | Q11446 | 90K |
+| 0x25 | 100101 | Vehicle | Q15056995 | 10K |
+| 0x26 | 100110 | Weapon | Q728 | 10K |
+| 0x27-0x3F | - | 예약 | - | - |
 
-**Level 3 (bit 12):**
-```
-1000: Human         1001: Organization
-1010: Organism      1011: Celestial
-1100: Location      1101: Artifact
-1110: Concept       1111: Measure
-```
-
-### 5.2 주요 코드
-
-| 코드 | 분류 | 코드 | 분류 |
-|------|------|------|------|
-| 0x00 | Scholarly Article | 0x80 | Human |
-| 0x10 | Encyclopedia | 0x90 | Organization |
-| 0x20 | Painting | 0x91 | Business |
-| 0x21 | Film | 0xA0 | Taxon |
-| 0x30 | Book | 0xC0 | Settlement |
-| 0x31 | Literary Work | 0xD0 | Building |
-| 0x32 | Album | 0xE0 | Concept |
+> **참고:** 코드 테이블은 위키데이터 통계 분석 후 확정 예정
 
 ---
 
-## 6. Attributes (bit 17-28)
+## 6. Attributes (bit 17-48)
 
-### 6.1 구조 (12비트)
+### 6.1 설계 원칙
+
+- **32비트 = 타입별 가변 스키마**
+- EntityType마다 다른 의미로 해석
+- 고빈도 속성에 더 많은 비트 할당
+- WMS SIMD 필터링에 직접 활용
+
+### 6.2 Human (0x00) Attributes
 
 ```
-bit17:    is_fictional
-bit18:    is_historical
-bit19:    is_notable
-bit20:    is_controversial
-bit21-24: region (16개)
-bit25-28: era (16개)
+┌──────────┬────────┬────────┬──────┬────────┬─────────┬──────────┐
+│ 소분류   │ 직업   │ 국적   │ 시대 │ 성별   │ 저명도  │ 출생연대 │
+│  5bit    │  6bit  │  8bit  │ 4bit │  2bit  │  3bit   │   4bit   │
+└──────────┴────────┴────────┴──────┴────────┴─────────┴──────────┘
 ```
 
-### 6.2 Region (bit 21-24)
+**소분류 (5비트 = 32개):**
 
-| 코드 | 권역 | 코드 | 권역 |
-|------|------|------|------|
-| 0x0 | Global | 0x8 | Africa North |
-| 0x1 | East Asia | 0x9 | Africa Sub |
-| 0x2 | Southeast Asia | 0xA | North America |
-| 0x3 | South Asia | 0xB | Central America |
-| 0x4 | Central Asia | 0xC | South America |
-| 0x5 | Middle East | 0xD | Oceania |
-| 0x6 | Europe West | 0xE | Polar |
-| 0x7 | Europe East | 0xF | Space |
+| 코드 | 소분류 |
+|------|--------|
+| 0x00 | 일반 |
+| 0x01 | Politician |
+| 0x02 | Scientist |
+| 0x03 | Artist |
+| 0x04 | Athlete |
+| 0x05 | Business Person |
+| 0x06 | Military |
+| 0x07 | Religious Figure |
+| 0x08 | Royalty |
+| 0x09 | Criminal |
+| 0x0A | Fictional Human |
+| ... | ... |
 
-### 6.3 Era (bit 25-28)
+**직업 (6비트 = 64개):**
+- 소분류 내 세부 직업
+- Human + Athlete일 때: Football, Basketball, Tennis, ...
 
-| 코드 | 시대 | 코드 | 시대 |
-|------|------|------|------|
-| 0x0 | Unknown | 0x5 | Early Modern |
-| 0x1 | Prehistoric | 0x6 | Modern |
-| 0x2 | Ancient | 0x7 | Contemporary |
-| 0x3 | Classical | 0x8 | Current |
-| 0x4 | Medieval | 0x9-F | Reserved |
+**국적 (8비트 = 256개):**
+- ISO 3166-1 기반 국가 코드
+
+**시대 (4비트 = 16개):**
+
+| 코드 | 시대 |
+|------|------|
+| 0x0 | Unknown |
+| 0x1 | Prehistoric |
+| 0x2 | Ancient (~500) |
+| 0x3 | Classical (500~1000) |
+| 0x4 | Medieval (1000~1500) |
+| 0x5 | Early Modern (1500~1800) |
+| 0x6 | Modern (1800~1950) |
+| 0x7 | Contemporary (1950~2000) |
+| 0x8 | Current (2000~) |
+| 0x9-F | Reserved |
+
+**성별 (2비트 = 4개):**
+
+| 코드 | 성별 |
+|------|------|
+| 00 | Unknown |
+| 01 | Male |
+| 10 | Female |
+| 11 | Other |
+
+**저명도 (3비트 = 8개):**
+- 위키데이터 sitelinks 수 기반
+- 0: Unknown, 1: 1-10, 2: 11-50, 3: 51-100, 4: 101-200, 5: 201-500, 6: 501-1000, 7: 1000+
+
+**출생연대 (4비트 = 16개):**
+- 10년 단위 또는 세기 단위
+
+### 6.3 Star (0x08) Attributes
+
+```
+┌──────────┬────────────┬──────────┬──────────┬────────────┬────────┐
+│ 항성분류 │ 광도등급   │ 거리범위 │ 질량범위 │ 특성플래그 │ 예비   │
+│   4bit   │    4bit    │   6bit   │   6bit   │    8bit    │  4bit  │
+└──────────┴────────────┴──────────┴──────────┴────────────┴────────┘
+```
+
+**항성분류 (4비트):** O, B, A, F, G, K, M 등
+**광도등급 (4비트):** I~VII
+**특성플래그 (8비트):** 변광성, 쌍성, 펄서, ...
+
+### 6.4 Location (0x0C Settlement 등) Attributes
+
+```
+┌──────────┬────────┬────────┬──────────┬──────────┬────────┬────────┐
+│ 행정레벨 │ 대륙   │ 국가   │ 위도존   │ 인구규모 │ 특성   │ 예비   │
+│   4bit   │  4bit  │  8bit  │   4bit   │   4bit   │  6bit  │  2bit  │
+└──────────┴────────┴────────┴──────────┴──────────┴────────┴────────┘
+```
+
+### 6.5 기타 타입
+
+> **TODO:** 각 EntityType별 Attributes 스키마 설계 예정
 
 ---
 
 ## 7. 연산
 
-### 7.1 약식 Entity 생성 (Lane=0, UIDflag=0)
+### 7.1 Entity 생성
 
 ```python
-def make_short_entity(
-    entity_type: int,    # 8비트
-    attrs: int,          # 12비트
-    source: int,         # 3비트
-    tid: int             # 16비트
-) -> int:
+def make_entity(
+    mode: int,           # 3비트
+    entity_type: int,    # 6비트
+    attrs: int           # 32비트
+) -> bytes:
     PREFIX = 0b1100001   # 7비트
-    LANE = 0             # 개체
-    UIDFLAG = 0          # 약식
     
-    word1 = (PREFIX << 9) | (LANE << 8) | entity_type
-    word2 = (attrs << 4) | (source << 1) | UIDFLAG
-    word3 = tid
+    word1 = (PREFIX << 9) | (mode << 6) | entity_type
+    word2 = (attrs >> 16) & 0xFFFF
+    word3 = attrs & 0xFFFF
     
-    return (word1 << 32) | (word2 << 16) | word3
+    return (
+        word1.to_bytes(2, 'big') +
+        word2.to_bytes(2, 'big') +
+        word3.to_bytes(2, 'big')
+    )
 ```
 
-### 7.2 정식 Entity 생성 (Lane=0, UIDflag=1)
-
-```python
-def make_full_entity(
-    entity_type: int,    # 8비트
-    attrs: int,          # 12비트
-    source: int,         # 3비트
-    uid: int,            # 32비트
-    tid: int             # 16비트
-) -> int:
-    PREFIX = 0b1100001   # 7비트
-    LANE = 0             # 개체
-    UIDFLAG = 1          # 정식
-    
-    word1 = (PREFIX << 9) | (LANE << 8) | entity_type
-    word2 = (attrs << 4) | (source << 1) | UIDFLAG
-    word3_4 = uid
-    word5 = tid
-    
-    return (word1 << 64) | (word2 << 48) | (word3_4 << 16) | word5
-```
-
-### 7.3 추상 Entity 생성 (Lane=1)
-
-```python
-def make_abstract_entity(
-    entity_type: int,    # 8비트
-    attrs: int,          # 12비트
-    quant: int,          # 2비트
-    number: int,         # 2비트
-    tid: int             # 16비트
-) -> int:
-    PREFIX = 0b1100001   # 7비트
-    LANE = 1             # 추상
-    
-    word1 = (PREFIX << 9) | (LANE << 8) | entity_type
-    word2 = (attrs << 4) | (quant << 2) | number
-    word3 = tid
-    
-    return (word1 << 32) | (word2 << 16) | word3
-```
-
-### 7.4 파싱
+### 7.2 Entity 파싱
 
 ```python
 def parse_entity(data: bytes) -> dict:
     word1 = int.from_bytes(data[0:2], 'big')
     word2 = int.from_bytes(data[2:4], 'big')
+    word3 = int.from_bytes(data[4:6], 'big')
     
-    lane = (word1 >> 8) & 0x1
-    entity_type = word1 & 0xFF
-    attrs = (word2 >> 4) & 0xFFF
+    prefix = (word1 >> 9) & 0x7F
+    mode = (word1 >> 6) & 0x7
+    entity_type = word1 & 0x3F
+    attrs = (word2 << 16) | word3
     
-    result = {
-        'lane': lane,
+    return {
+        'prefix': prefix,
+        'mode': mode,
         'entity_type': entity_type,
         'attrs': attrs
     }
-    
-    if lane == 0:  # 개체
-        source = (word2 >> 1) & 0x7
-        uidflag = word2 & 0x1
-        result['source'] = source
-        result['uidflag'] = uidflag
-        
-        if uidflag == 0:  # 약식 (3워드)
-            result['tid'] = int.from_bytes(data[4:6], 'big')
-        else:             # 정식 (5워드)
-            result['uid'] = int.from_bytes(data[4:8], 'big')
-            result['tid'] = int.from_bytes(data[8:10], 'big')
-    
-    else:  # 추상 (Lane=1)
-        result['quant'] = (word2 >> 2) & 0x3
-        result['number'] = word2 & 0x3
-        result['tid'] = int.from_bytes(data[4:6], 'big')
-    
-    return result
+```
+
+### 7.3 Mode 판별
+
+```python
+def is_registered_entity(data: bytes) -> bool:
+    """Mode=0이면 등록된 개체 (Q아이디 등)"""
+    word1 = int.from_bytes(data[0:2], 'big')
+    mode = (word1 >> 6) & 0x7
+    return mode == 0
+
+def is_abstract_entity(data: bytes) -> bool:
+    """Mode≠0이면 추상/대명사"""
+    return not is_registered_entity(data)
 ```
 
 ---
 
 ## 8. 사용 예시
 
-### 8.1 정식: Apple Inc. (Q312)
+### 8.1 등록 개체: 이순신
 
 ```python
-apple = make_full_entity(
-    entity_type=0x91,  # Business
-    attrs=0x2A8,       # notable, NorthAmerica, Current
-    source=0,          # Q-ID
-    uid=312,           # Q312
-    tid=0x0001
-)
-# 5워드 = 80비트
-```
-
-### 8.2 약식: 재참조
-
-```python
-# 이미 정식으로 선언된 Apple을 재참조
-apple_ref = make_short_entity(
-    entity_type=0x91,  # Business
-    attrs=0x2A8,
-    source=0,          # Q-ID
-    tid=0x0001         # 같은 TID
+# 이순신 (Q211789)
+# Q아이디 연결은 별도 Triple로
+yi_sun_sin = make_entity(
+    mode=0,              # 등록 개체
+    entity_type=0x00,    # Human
+    attrs=(
+        (0x06 << 27) |   # 소분류: Military
+        (0x01 << 21) |   # 직업: Admiral
+        (0x52 << 13) |   # 국적: Korea
+        (0x5 << 9) |     # 시대: Early Modern
+        (0x01 << 7) |    # 성별: Male
+        (0x7 << 4) |     # 저명도: 1000+
+        (0x0)            # 출생연대
+    )
 )
 # 3워드 = 48비트
 ```
 
-### 8.3 추상: "모든 학생"
+### 8.2 등록 개체: 삼성전자
 
 ```python
-all_students = make_abstract_entity(
-    entity_type=0x80,  # Human
-    attrs=0,
-    quant=0b01,        # 전칭 (Universal)
-    number=0b11,       # 다수
-    tid=0x0010
+# 삼성전자 (Q20718)
+samsung = make_entity(
+    mode=0,              # 등록 개체
+    entity_type=0x02,    # Business
+    attrs=0x...          # Business용 Attributes
 )
-# 3워드 = 48비트
+# Q아이디 연결:
+# Triple(samsung_SIDX, P-외부ID, "Q20718")
 ```
 
-### 8.4 추상: "어떤 사람"
+### 8.3 추상: "모든 한국 남자"
 
 ```python
-someone = make_abstract_entity(
-    entity_type=0x80,  # Human
-    attrs=0,
-    quant=0b10,        # 존재 (Existential)
-    number=0b01,       # 단수
-    tid=0x0011
+all_korean_men = make_entity(
+    mode=4,              # 전칭 (모든)
+    entity_type=0x00,    # Human
+    attrs=(
+        (0x00 << 27) |   # 소분류: 일반
+        (0x00 << 21) |   # 직업: 일반
+        (0x52 << 13) |   # 국적: Korea
+        (0x0 << 9) |     # 시대: Unknown
+        (0x01 << 7) |    # 성별: Male
+        (0x0 << 4)       # 저명도: Unknown
+    )
 )
-# 3워드 = 48비트
+```
+
+### 8.4 대명사: "그 사람"
+
+```python
+that_person = make_entity(
+    mode=1,              # 특정 단수
+    entity_type=0x00,    # Human
+    attrs=0              # 속성 미지정
+)
+```
+
+### 8.5 존재: "어떤 과학자"
+
+```python
+some_scientist = make_entity(
+    mode=5,              # 존재 (어떤)
+    entity_type=0x00,    # Human
+    attrs=(
+        (0x02 << 27)     # 소분류: Scientist
+    )
+)
 ```
 
 ---
 
-## 9. 모드 판별
+## 9. TID 연계
 
-```python
-def get_entity_mode(data: bytes) -> str:
-    word1 = int.from_bytes(data[0:2], 'big')
-    word2 = int.from_bytes(data[2:4], 'big')
-    
-    lane = (word1 >> 8) & 0x1
-    
-    if lane == 1:
-        return "추상"
-    
-    uidflag = word2 & 0x1
-    return "정식" if uidflag else "약식"
+### 9.1 TID란?
 
-def get_entity_words(data: bytes) -> int:
-    mode = get_entity_mode(data)
-    return 5 if mode == "정식" else 3
+- TID (Temporary ID): 16비트 스트림 내 임시 식별자
+- 대명사 역할: 한 번 선언 후 짧게 참조
+- 스트림 종료 시 해제
+
+### 9.2 Entity Node와 TID
+
+Entity Node 자체에는 TID를 포함하지 않음.
+TID 할당은 별도 메커니즘으로:
+
+**옵션 A: Meta Node로 선언**
 ```
+[Meta: TID_ASSIGN] [Entity Node 3워드] [TID 1워드]
+```
+
+**옵션 B: 스트림 컨텍스트에서 암묵적 할당**
+- Entity Node 등장 순서대로 TID 자동 할당
+
+> **TODO:** TID 연계 방식 확정 필요
+
+---
+
+## 10. Q아이디 연결
+
+### 10.1 Triple로 연결
+
+```
+Subject:  Entity_SIDX (48비트)
+Property: P-외부ID (예: P-Wikidata)
+Object:   "Q12345" (문자열 또는 정수)
+```
+
+### 10.2 WMS 내부 매핑 테이블
+
+```
+| SIDX (48bit) | Source | External_ID |
+|--------------|--------|-------------|
+| 0x...        | Q-ID   | 211789      |
+| 0x...        | Q-ID   | 20718       |
+| 0x...        | Synset | 12345678    |
+```
+
+### 10.3 역방향 조회
+
+Q아이디 → SIDX 조회:
+- WMS 인덱스로 O(1) 조회 가능
+- 하나의 Q아이디가 여러 SIDX에 매핑될 수 있음 (역할/시점별)
 
 ---
 
 ## 부록 A: 비트 요약
 
-### 약식/추상 (3워드)
-
 ```
 1st WORD (bit 1-16):
-  bit1-7:   1100001 (Prefix)
-  bit8:     Lane (0=개체, 1=추상)
-  bit9-16:  EntityType
+  bit 1-7:   Prefix (1100001)
+  bit 8-10:  Mode (0-7)
+  bit 11-16: EntityType (0-63)
 
 2nd WORD (bit 17-32):
-  bit17-28: Attributes
-  bit29-32: Lane별 해석
-    Lane=0: Source(3) + UIDflag(1)=0
-    Lane=1: Quant(2) + Number(2)
+  bit 17-32: Attributes 상위 16비트
 
 3rd WORD (bit 33-48):
-  bit33-48: TID
-```
-
-### 정식 (5워드)
-
-```
-1st WORD (bit 1-16):
-  bit1-7:   1100001 (Prefix)
-  bit8:     Lane = 0
-  bit9-16:  EntityType
-
-2nd WORD (bit 17-32):
-  bit17-28: Attributes
-  bit29-31: Source
-  bit32:    UIDflag = 1
-
-3rd+4th WORD (bit 33-64):
-  bit33-64: UID (32비트)
-
-5th WORD (bit 65-80):
-  bit65-80: TID
+  bit 33-48: Attributes 하위 16비트
 ```
 
 ---
@@ -491,24 +504,35 @@ def get_entity_words(data: bytes) -> int:
 | 필드 | 마스크 | 시프트 |
 |------|--------|--------|
 | Prefix | 0xFE00 | >> 9 |
-| Lane | 0x0100 | >> 8 |
-| EntityType | 0x00FF | - |
+| Mode | 0x01C0 | >> 6 |
+| EntityType | 0x003F | - |
 
-### 2nd WORD (Lane=0)
-
-| 필드 | 마스크 | 시프트 |
-|------|--------|--------|
-| Attributes | 0xFFF0 | >> 4 |
-| Source | 0x000E | >> 1 |
-| UIDflag | 0x0001 | - |
-
-### 2nd WORD (Lane=1)
+### 2nd WORD
 
 | 필드 | 마스크 | 시프트 |
 |------|--------|--------|
-| Attributes | 0xFFF0 | >> 4 |
-| Quant | 0x000C | >> 2 |
-| Number | 0x0003 | - |
+| Attrs High | 0xFFFF | - |
+
+### 3rd WORD
+
+| 필드 | 마스크 | 시프트 |
+|------|--------|--------|
+| Attrs Low | 0xFFFF | - |
+
+---
+
+## 부록 C: v0.2 → v0.3 마이그레이션
+
+| v0.2 필드 | v0.3 대응 |
+|-----------|-----------|
+| Lane (1비트) | Mode에 통합 |
+| EntityType (8비트) | EntityType (6비트) + 소분류 (Attrs 내) |
+| Attributes (12비트) | Attributes (32비트) |
+| Source (3비트) | 제거 (Triple로 분리) |
+| UIDflag (1비트) | 제거 |
+| UID (32비트) | 제거 (Triple로 분리) |
+| Quant (2비트) | Mode에 통합 |
+| Number (2비트) | Mode에 통합 |
 
 ---
 
@@ -518,6 +542,16 @@ def get_entity_words(data: bytes) -> int:
 |------|------|------|
 | v0.1 | 2026-01-29 | 초안 작성 |
 | v0.2 | 2026-01-29 | Prefix 섹션 간소화, SIDX.md 참조로 변경 |
+| v0.3 | 2026-01-30 | **대규모 개편**: Lane/UID 제거, Mode 3비트 통합, Attributes 32비트 확장, 순수 의미정렬 구조 |
+
+---
+
+## TODO
+
+- [ ] EntityType 64개 코드 확정 (위키데이터 통계 분석)
+- [ ] 각 타입별 Attributes 32비트 스키마 상세 설계
+- [ ] TID 연계 방식 확정
+- [ ] WMS SIMD 필터링 최적화 검증
 
 ---
 

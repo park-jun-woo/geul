@@ -177,3 +177,9 @@ python3 geulso/wordnet/verbtrees_bit.py
 
 # 워드넷 최상위동사 559개의 하위 동사 트리 비트 유효성 검사
 python3 geulso/wordnet/valid_verb_bits.py
+
+# 위키데이터 분석 P31 목적어로 쓰인 Q-ID 간 P279(subclass of) 관계로 그래프 → 트리 변환
+python3 geulso/wikidata/wikitrees1.py
+
+# 위키데이터 TOP후보 목록 추출
+python3 geulso/wikidata/topcandidate.py
