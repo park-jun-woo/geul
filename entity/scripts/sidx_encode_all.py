@@ -4,7 +4,7 @@ GEUL Entity SIDX Full Encoder
 1.17억 개체 전체 인코딩
 
 Usage:
-    python scripts/sidx_encode_all.py
+    python scripts/sidx_encode_all.py [--resume]
 """
 
 import json
@@ -20,8 +20,12 @@ DEFAULT_MODE = 0
 BATCH_SIZE = 10000
 
 def main():
+    resume_mode = '--resume' in sys.argv
+
     print("=" * 60)
     print("GEUL Entity SIDX 전체 인코딩")
+    if resume_mode:
+        print("(재개 모드)")
     print("=" * 60)
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -56,10 +60,16 @@ def main():
     total_count = read_cur.fetchone()[0]
     print(f"  - 전체 개체: {total_count:,}개")
 
-    # 테이블 초기화
-    write_cur.execute("TRUNCATE TABLE entity_sidx")
-    write_conn.commit()
-    print("  - entity_sidx 테이블 초기화")
+    # 재개 모드: 기존 데이터 확인
+    if resume_mode:
+        write_cur.execute("SELECT COUNT(*) FROM entity_sidx")
+        existing_count = write_cur.fetchone()[0]
+        print(f"  - 기존 인코딩: {existing_count:,}개 (유지)")
+    else:
+        # 테이블 초기화
+        write_cur.execute("TRUNCATE TABLE entity_sidx")
+        write_conn.commit()
+        print("  - entity_sidx 테이블 초기화")
 
     # 3. 배치 처리
     print(f"\n[3/4] 인코딩 시작 (배치 크기: {BATCH_SIZE:,})...")
@@ -126,11 +136,12 @@ def main():
             except Exception as e:
                 errors += 1
 
-        # 벌크 인서트
+        # 벌크 인서트 (중복 무시)
         if results:
             execute_values(write_cur, """
                 INSERT INTO entity_sidx (qid, sidx, entity_type, mode, attrs)
                 VALUES %s
+                ON CONFLICT (qid) DO NOTHING
             """, results, page_size=5000)
             write_conn.commit()
 
