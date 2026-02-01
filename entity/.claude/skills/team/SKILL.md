@@ -48,28 +48,69 @@ Architect (결과 검토) → User (최종 승인)
 | Stage 4: 코드북 생성 | Builder | Ontologist |
 | Stage 5: 검증 | Builder | Analyst, DBA |
 
-## 현재 진행 상황
+## 현재 진행 상황 (2026-02-01)
 
-- [x] Stage 1 완료 (63개 타입 분석)
-- [x] Stage 2 완료 (5개 타입, 298개 DAG 엣지)
-- [x] Stage 3 완료 (5개 타입 비트 할당)
-- [x] Stage 4 완료 (43,439개 코드북)
-- [x] Stage 5 완료 (33% 통과, 열화 테스트 100%)
+| 항목 | 수치 |
+|------|------|
+| 위키데이터 전체 개체 | 117,419,925 |
+| Wikimedia 내부 제외 | 8,565,353 (7.3%) |
+| SIDX 대상 개체 | 108,854,572 (92.7%) |
+| 64개 타입 직접 커버 | 36,295,074 (33.3%) |
+| 하위 타입 매핑 흡수 | 71,842,429 (66.0%) |
+| Other 폴백 | 717,069 (0.7%) |
+| **최종 커버리지** | **100%** |
+| 충돌률 | < 0.01% |
+
+### Stage 완료 현황
+- [x] Stage 1 완료 (64개 타입 분석)
+- [x] Stage 2 완료 (의존성 DAG)
+- [x] Stage 3 완료 (48비트 할당)
+- [x] Stage 4 완료 (스키마 문서화)
+- [x] Stage 5 완료 (검증 통과)
 
 ## Phase 상태
 
 - [x] **Phase 1**: 준비 (스크립트 수정)
 - [x] **Phase 2**: 파일럿 실행 (5개 타입)
 - [x] **Phase 2.5**: 최적화 (OPT-1~4)
-- [ ] **Phase 3**: 재검증 및 튜닝
-- [ ] **Phase 4**: 전체 타입 확장
+- [x] **Phase 4**: 전체 타입 확장
+- [x] **Phase 5**: 코드북 상세 생성 ← **완료**
+- [ ] **Phase 6**: 인코더 프로토타입
+- [ ] **Phase 7**: 운영 검증
 
-## 보고서
+## 주요 산출물
 
 | 파일 | 내용 |
 |------|------|
-| reports/00_executive_summary.md | 종합 요약 (1페이지) |
-| reports/01_architect_report.md | 설계 결정 |
-| reports/02_analyst_report.md | 데이터 분석 |
-| reports/03_builder_report.md | 구현 결과 |
-| reports/04_ontologist_report.md | 분류 체계 검증 |
+| references/type_schemas.json | 64개 타입 48비트 스키마 (v1.0) |
+| references/entity_types_64.json | 64개 EntityType 정의 |
+| references/category_templates.json | 9개 카테고리 템플릿 |
+| references/primary_mapping.json | P31→EntityType 매핑 (63+52개) |
+| references/codebooks.json | 6개 코드북 (country, occupation 등) |
+| references/encoder_spec.md | 인코더 로직 설계서 |
+| output/phase4_final_report.md | Phase 4 최종 보고서 |
+
+## 보고서 (finished/)
+
+| 파일 | 내용 |
+|------|------|
+| finished/reports/00_executive_summary.md | 종합 요약 |
+| finished/reports/01_architect_report.md | 설계 결정 |
+| finished/reports/02_analyst_report.md | 데이터 분석 |
+| finished/reports/03_builder_report.md | 구현 결과 |
+| finished/reports/04_ontologist_report.md | 분류 체계 검증 |
+
+## DB 접속 주의
+
+**psql 사용 불가** - Python psycopg2 사용 (.venv 활성화 필요)
+
+```bash
+source .venv/bin/activate
+python3 -c "
+import psycopg2
+conn = psycopg2.connect('postgresql://geul_reader:test1224@localhost:5432/geuldev')
+cur = conn.cursor()
+cur.execute('SELECT COUNT(*) FROM entities')
+print(cur.fetchone()[0])
+"
+```
