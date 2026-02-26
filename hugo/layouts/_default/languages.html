@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="languages-page">
+  <h1>Languages</h1>
+  <ul class="lang-list">
+    {{ range $.Site.Home.AllTranslations }}
+    <li{{ if eq .Language.Lang $.Lang }} class="current"{{ end }}>
+      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+<script>
+(function() {
+  var ref = document.referrer;
+  if (!ref) return;
+  try {
+    var url = new URL(ref);
+    if (url.hostname !== location.hostname) return;
+    var path = url.pathname;
+    if (path === '/' || path === '') return;
+    var nonDefault = ['ko','zh','es','ar','pt','id','ru','ja','fr','de','he'];
+    var parts = path.replace(/^\//, '').split('/');
+    var first = parts[0];
+    var sub = (nonDefault.indexOf(first) !== -1) ? parts.slice(1).join('/') : path.substring(1);
+    if (!sub || sub === 'languages/' || sub === 'languages') return;
+    var links = document.querySelectorAll('.lang-list a');
+    for (var i = 0; i < links.length; i++) {
+      var href = links[i].getAttribute('href');
+      if (href.endsWith('/')) href += sub;
+      else href += '/' + sub;
+      links[i].setAttribute('href', href);
+    }
+  } catch(e) {}
+})();
+</script>
+{{ end }}

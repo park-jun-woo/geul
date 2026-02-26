@@ -1,0 +1,216 @@
+baseURL = "https://geul.org/"
+title = "GEUL"
+enableRobotsTXT = true
+buildFuture = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[pagination]
+  pagerSize = 10
+
+# ──────────────────────────────────────────────
+# Languages (12)
+# ──────────────────────────────────────────────
+
+[languages]
+
+  # 1. English (default — no URL prefix)
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "GEUL — A Semantic Language for AI"
+    [languages.en.params]
+      description = "A semantically-aligned artificial language and binary stream format designed for unambiguous communication between humans and AI."
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        identifier = "why"
+        name = "Why?"
+        pageRef = "/why"
+        weight = 1
+  # 2. 한국어
+  [languages.ko]
+    languageName = "한국어"
+    weight = 2
+    contentDir = "content/ko"
+    title = "GEUL — AI를 위한 의미정렬 언어"
+    [languages.ko.params]
+      description = "인간과 AI가 모호성 없이 소통하기 위해 설계된 의미정렬 인공 언어이자 바이너리 스트림 포맷."
+    [languages.ko.menus]
+      [[languages.ko.menus.main]]
+        identifier = "why"
+        name = "왜?"
+        pageRef = "/why"
+        weight = 1
+  # 3. 中文
+  [languages.zh]
+    languageName = "中文"
+    weight = 3
+    contentDir = "content/zh"
+    title = "GEUL — 面向AI的语义对齐语言"
+    [languages.zh.params]
+      description = "为人类与AI之间无歧义沟通而设计的语义对齐人工语言与二进制流格式。"
+    [languages.zh.menus]
+      [[languages.zh.menus.main]]
+        identifier = "why"
+        name = "为什么？"
+        pageRef = "/why"
+        weight = 1
+  # 4. Español
+  [languages.es]
+    languageName = "Español"
+    weight = 4
+    contentDir = "content/es"
+    title = "GEUL — Un lenguaje semántico para IA"
+    [languages.es.params]
+      description = "Un lenguaje artificial semánticamente alineado y formato de flujo binario diseñado para la comunicación inequívoca entre humanos e IA."
+    [languages.es.menus]
+      [[languages.es.menus.main]]
+        identifier = "why"
+        name = "¿Por qué?"
+        pageRef = "/why"
+        weight = 1
+  # 5. العربية (RTL)
+  [languages.ar]
+    languageName = "العربية"
+    weight = 5
+    contentDir = "content/ar"
+    title = "GEUL — لغة دلالية للذكاء الاصطناعي"
+    [languages.ar.params]
+      description = "لغة اصطناعية محاذاة دلالياً وتنسيق تدفق ثنائي مصمم للتواصل الواضح بين البشر والذكاء الاصطناعي."
+    [languages.ar.menus]
+      [[languages.ar.menus.main]]
+        identifier = "why"
+        name = "لماذا؟"
+        pageRef = "/why"
+        weight = 1
+  # 6. Português
+  [languages.pt]
+    languageName = "Português"
+    weight = 6
+    contentDir = "content/pt"
+    title = "GEUL — Uma linguagem semântica para IA"
+    [languages.pt.params]
+      description = "Uma linguagem artificial semanticamente alinhada e formato de fluxo binário projetado para comunicação inequívoca entre humanos e IA."
+    [languages.pt.menus]
+      [[languages.pt.menus.main]]
+        identifier = "why"
+        name = "Por quê?"
+        pageRef = "/why"
+        weight = 1
+  # 7. Bahasa Indonesia
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    weight = 7
+    contentDir = "content/id"
+    title = "GEUL — Bahasa Semantik untuk AI"
+    [languages.id.params]
+      description = "Bahasa buatan yang selaras secara semantik dan format aliran biner yang dirancang untuk komunikasi tanpa ambiguitas antara manusia dan AI."
+    [languages.id.menus]
+      [[languages.id.menus.main]]
+        identifier = "why"
+        name = "Mengapa?"
+        pageRef = "/why"
+        weight = 1
+  # 8. Русский
+  [languages.ru]
+    languageName = "Русский"
+    weight = 8
+    contentDir = "content/ru"
+    title = "GEUL — Семантический язык для ИИ"
+    [languages.ru.params]
+      description = "Семантически выровненный искусственный язык и формат бинарного потока для однозначной коммуникации между людьми и ИИ."
+    [languages.ru.menus]
+      [[languages.ru.menus.main]]
+        identifier = "why"
+        name = "Почему?"
+        pageRef = "/why"
+        weight = 1
+  # 9. 日本語
+  [languages.ja]
+    languageName = "日本語"
+    weight = 9
+    contentDir = "content/ja"
+    title = "GEUL — AI のための意味整列言語"
+    [languages.ja.params]
+      description = "人間とAIの間の曖昧さのないコミュニケーションのために設計された、意味整列型人工言語およびバイナリストリームフォーマット。"
+    [languages.ja.menus]
+      [[languages.ja.menus.main]]
+        identifier = "why"
+        name = "なぜ？"
+        pageRef = "/why"
+        weight = 1
+  # 10. Français
+  [languages.fr]
+    languageName = "Français"
+    weight = 10
+    contentDir = "content/fr"
+    title = "GEUL — Un langage sémantique pour l'IA"
+    [languages.fr.params]
+      description = "Un langage artificiel sémantiquement aligné et un format de flux binaire conçu pour une communication sans ambiguïté entre humains et IA."
+    [languages.fr.menus]
+      [[languages.fr.menus.main]]
+        identifier = "why"
+        name = "Pourquoi ?"
+        pageRef = "/why"
+        weight = 1
+  # 11. Deutsch
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 11
+    contentDir = "content/de"
+    title = "GEUL — Eine semantische Sprache für KI"
+    [languages.de.params]
+      description = "Eine semantisch ausgerichtete künstliche Sprache und ein binäres Streamformat für eindeutige Kommunikation zwischen Menschen und KI."
+    [languages.de.menus]
+      [[languages.de.menus.main]]
+        identifier = "why"
+        name = "Warum?"
+        pageRef = "/why"
+        weight = 1
+  # 12. עברית (RTL)
+  [languages.he]
+    languageName = "עברית"
+    weight = 12
+    contentDir = "content/he"
+    title = "GEUL — שפה סמנטית לבינה מלאכותית"
+    [languages.he.params]
+      description = "שפה מלאכותית מיושרת סמנטית ופורמט זרם בינארי שתוכנן לתקשורת חד-משמעית בין בני אדם ובינה מלאכותית."
+    [languages.he.menus]
+      [[languages.he.menus.main]]
+        identifier = "why"
+        name = "?למה"
+        pageRef = "/why"
+        weight = 1
+# ──────────────────────────────────────────────
+# Taxonomy / Sitemap / Output / Markup
+# ──────────────────────────────────────────────
+
+[permalinks]
+  [permalinks.page]
+    why = '/why/:filename/'
+
+[taxonomies]
+  tag = "tags"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[build]
+  [build.buildStats]
+    enable = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.extensions]
+  strikethrough = false
+
+[params]
+  author = "Park Jun Woo"
+

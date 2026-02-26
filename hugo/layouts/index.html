@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="content-wrap homepage-content">
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  <div class="featured-articles">
+    {{ $slugs := slice "why/context-engineering/prompt-engineering-over" "why/context-engineering/rag-not-enough" "why/context-engineering/mechanical-verification" }}
+    {{- range $slugs }}
+    {{- with site.GetPage . }}
+    <a class="featured-item" href="{{ .RelPermalink }}">
+      <span class="featured-title">{{ .Title }}</span>
+      <span class="featured-summary">{{ .Params.summary }}</span>
+    </a>
+    {{- end }}
+    {{- end }}
+  </div>
+  <div class="cta-wrap">
+    <a class="cta-button" href="{{ "why/" | relLangURL }}">{{ if eq .Lang "ko" }}자세히 보기{{ else if eq .Lang "zh" }}了解更多{{ else if eq .Lang "es" }}Más información{{ else if eq .Lang "ar" }}اقرأ المزيد{{ else if eq .Lang "pt" }}Saiba mais{{ else if eq .Lang "id" }}Selengkapnya{{ else if eq .Lang "ru" }}Подробнее{{ else if eq .Lang "ja" }}詳しく見る{{ else if eq .Lang "fr" }}En savoir plus{{ else if eq .Lang "de" }}Mehr erfahren{{ else if eq .Lang "he" }}קרא עוד{{ else }}Learn More{{ end }}</a>
+  </div>
+</article>
+{{ end }}
