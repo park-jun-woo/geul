@@ -18,8 +18,8 @@ from pathlib import Path
 from collections import defaultdict
 
 SCRIPT_DIR = Path(__file__).parent
-VERB_BITS_PATH = SCRIPT_DIR / "verb_bits.json"
-SUB_PRIMITIVE_MAP_PATH = SCRIPT_DIR / "primitive-map.json"
+VERB_BITS_PATH = SCRIPT_DIR / "json" / "verb_bits.json"
+SUB_PRIMITIVE_MAP_PATH = SCRIPT_DIR / "json" / "primitive-map.json"
 
 
 def main():

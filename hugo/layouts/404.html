@@ -1,7 +1,0 @@
-{{ define "main" }}
-<section class="error-page">
-  <h1>404</h1>
-  <p>{{ if eq .Lang "ko" }}페이지를 찾을 수 없습니다.{{ else }}Page not found.{{ end }}</p>
-  <a href="{{ site.Home.RelPermalink }}">{{ if eq .Lang "ko" }}홈으로{{ else }}Go Home{{ end }}</a>
-</section>
-{{ end }}

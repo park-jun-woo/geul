@@ -25,9 +25,9 @@ from collections import defaultdict
 
 SCRIPT_DIR = Path(__file__).parent
 VERBTREES_DIR = SCRIPT_DIR / "verbtrees"
-VERB559_PATH = SCRIPT_DIR / "verb559.json"
-SUB_PRIMITIVE_MAP_PATH = SCRIPT_DIR / "primitive-map.json"
-OUTPUT_PATH = SCRIPT_DIR / "verb_bits.json"
+VERB559_PATH = SCRIPT_DIR / "json" / "verb559.json"
+SUB_PRIMITIVE_MAP_PATH = SCRIPT_DIR / "json" / "primitive-map.json"
+OUTPUT_PATH = SCRIPT_DIR / "json" / "verb_bits.json"
 
 
 def load_primitive_info():

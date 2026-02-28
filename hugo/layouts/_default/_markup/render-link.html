@@ -1,5 +1,0 @@
-{{- if strings.HasPrefix .Destination "/" -}}
-<a href="{{ strings.TrimPrefix "/" .Destination | relURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
-{{- else -}}
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
-{{- end -}}
