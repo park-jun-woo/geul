@@ -8,11 +8,16 @@ AI 시대를 위한 의미정렬 인공 언어이자 데이터 스트림 포맷.
 
 ---
 
-## 웹사이트 (geul.org)
+## 관련 레포
 
-별도 레포: `/mnt/c/Users/mail/git/geul-org/`
-
-Hugo 정적 사이트. 12개 언어(en, ko, zh, es, ar, pt, id, ru, ja, fr, de, he). S3+CloudFront 배포.
+| 레포 | 경로 | 설명 |
+|------|------|------|
+| **geul-entity** (코드북) | `/mnt/c/Users/mail/git/geul-entity/` | Entity SIDX 48비트 코드북 (Wikidata 기반) |
+| **geul-verb** (코드북) | `/mnt/c/Users/mail/git/geul-verb/` | 동사 SIDX 16비트 코드북 (WordNet 기반, 완료) |
+| **geul-quantities** (코드북) | `/mnt/c/Users/mail/git/geul-quantities/` | Quantity Node 코드북 (스캐폴드) |
+| **geul-ast** (코드북) | `/mnt/c/Users/mail/git/geul-ast/` | Faber Edge 코드북 (스캐폴드) |
+| **silk** (하위프로젝트) | `/mnt/c/Users/mail/git/silk/` | SILK (Semantic Interlingua for Linked Knowledge) |
+| **geul-org** (웹사이트) | `/mnt/c/Users/mail/git/geul-org/` | geul.org Hugo 정적 사이트. 12개 언어. S3+CloudFront 배포 |
 
 ---
 
@@ -33,28 +38,23 @@ geul/
 │   │   ├── Group Edge.md    # 집합/그룹 엣지
 │   │   ├── Meta Node.md     # 스트림 메타데이터 노드
 │   │   ├── Quantity Node.md # 물리량/수치 노드
+│   │   ├── Entity Node.md   # 개체 노드 (64비트 SIDX)
+│   │   ├── 참여자.md         # 16개 참여자 역할 (Semantic Role)
+│   │   ├── Stream Format.md # 스트림 포맷 규칙
 │   │   └── Pronunciation Rules.md  # 바이트→음절 발음 규칙
-│   ├── SemanticOntology/    # 의미론 체계
-│   │   ├── SIDX.md → entity/references/SIDX.md 참조
-│   │   ├── UID.md           # 64비트 통합 식별자
-│   │   ├── 동사 상위 분류.md  # 10 Primitive, 68 Sub-primitive
-│   │   ├── 개체 상위 분류.md  # 8비트 개체 분류 트리
-│   │   ├── 동사 의미 한정자 목록.md  # 시제/상/서법 등 22비트
-│   │   └── 참여자.md         # 16개 의미역 (Agent, Patient 등)
+│   ├── SIDX/                # SIDX 횡단 문서
+│   │   ├── SIDX.md          # 비트 명세 v0.11
+│   │   ├── SIDX-LLM-탐색.md # 검색 아키텍처
+│   │   ├── SIDX인코딩방법.md  # 인코딩 파이프라인
+│   │   ├── SIDX검수파이프라인.md # QA 파이프라인
+│   │   ├── SIDX 쿼리 생성 전략.md # 쿼리 전략
+│   │   └── codebook.md      # 코드북 현황 개요
 │   ├── 전략/                # 전략 문서
 │   ├── Papers/              # 연구 논문
 │   ├── 오피니언/             # 의견서
 │   └── 데모/                # 데모 시나리오
-├── entity/                  # Entity SIDX 인코딩 시스템 (별도 CLAUDE.md 있음)
-│   ├── CLAUDE.md            # Entity 서브프로젝트 상세 가이드
-│   ├── references/          # SIDX 명세, 64개 EntityType, 코드북
-│   ├── scripts/             # 인코딩 파이프라인 스크립트
-│   ├── templates/           # 프롬프트 템플릿
-│   └── cache/               # DB 스키마 캐시
 ├── geulso/                  # 지식 추출 파이프라인
 │   ├── factorize/           # LLM 기반 동사 의미소 분해
-│   ├── wordnet/             # WordNet 동사 계층 구축
-│   ├── wikidata/            # Wikidata 개체 통합
 │   └── ccnews/              # Common Crawl 뉴스 처리
 ├── sshg/                    # MRS(Minimal Recursion Semantics) 파서
 │   └── mrs.py               # ACE→WordNet→Wikidata→LLM 파이프라인
@@ -167,8 +167,8 @@ conn = psycopg2.connect(
 
 - **64비트 Entity SIDX:** Prefix(7) + Mode(3) + EntityType(6) + Attributes(48)
 - **Mode 8가지:** 등록, 특정단수, 특정소수, 특정다수, 전칭, 존재, 불특정, 총칭
-- **64개 EntityType:** Human, Taxon, Gene, Chemical, Star, ... (entity/references/entity_types_64.json)
-- **48비트 속성:** 타입별 완전 독립 스키마 (entity/references/type_schemas.json)
+- **64개 EntityType:** Human, Taxon, Gene, Chemical, Star, ... (geul-entity/references/entity_types_64.json)
+- **48비트 속성:** 타입별 완전 독립 스키마 (geul-entity/references/type_schemas.json)
 - **커버리지:** 108.8M 개체 (Wikidata 전체의 92.7%), 충돌률 < 0.01%
 
 ---
@@ -201,12 +201,11 @@ conn = psycopg2.connect(
 ## 작업 규칙
 
 1. **문서 언어:** 한국어 우선, 기술 용어는 영문 병기
-2. **파일 경로:** entity/ 서브프로젝트는 해당 폴더 내에서만 파일 생성/수정
-3. **DB 안전:** geuldev는 절대 쓰기 금지, geulwork만 사용
-4. **DB 접속:** psql 사용 불가, Python psycopg2 사용
-5. **바이트 오더:** Big Endian (Network Byte Order)
-6. **비트 규칙:** bit1 = MSB, bit64 = LSB
-7. **커밋:** Co-Authored-By 트레일러 넣지 않는다
+2. **DB 안전:** geuldev는 절대 쓰기 금지, geulwork만 사용
+3. **DB 접속:** psql 사용 불가, Python psycopg2 사용
+4. **바이트 오더:** Big Endian (Network Byte Order)
+5. **비트 규칙:** bit1 = MSB, bit64 = LSB
+6. **커밋:** Co-Authored-By 트레일러 넣지 않는다
 8. **설계 원칙:**
    - 우아한 열화 (Graceful Degradation): 비트를 덜 채울수록 더 추상적 표현
    - 지식의 화이트박스화: 모든 정보는 출처/시점/신뢰도 명시
