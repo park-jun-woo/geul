@@ -206,7 +206,8 @@ conn = psycopg2.connect(
 4. **DB 접속:** psql 사용 불가, Python psycopg2 사용
 5. **바이트 오더:** Big Endian (Network Byte Order)
 6. **비트 규칙:** bit1 = MSB, bit64 = LSB
-7. **설계 원칙:**
+7. **커밋:** Co-Authored-By 트레일러 넣지 않는다
+8. **설계 원칙:**
    - 우아한 열화 (Graceful Degradation): 비트를 덜 채울수록 더 추상적 표현
    - 지식의 화이트박스화: 모든 정보는 출처/시점/신뢰도 명시
    - 상호 이해성: 인간과 AI 모두 읽고 쓸 수 있는 구조
