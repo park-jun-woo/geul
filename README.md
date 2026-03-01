@@ -43,30 +43,80 @@ GEUL:   Verb(CHANGE.break) + Entity(record) + Event6(...)  →  하나의 의미
 | `0001 000 111` | Meta Node | 스트림 제어 |
 | `0001 000 000 111` | Group Edge | 집합/그룹 |
 
+### SEGLAM (Self-Examination GEUL Architecture Model)
+
+WMS(World Management System)를 중앙 허브로 하는 이중 순환 구조:
+
+- **의식적 흐름 (Online):** 사용자 입력 → Encoder → 심상관리 → 쿼리생성 → WMS 인출 → 추론 → Decoder → 응답
+- **무의식적 흐름 (Offline):** 경험 기록 → GEUL-Agent 성찰 → WMS 지식/절차 개선
+
 ### Verb System
 
 559개 루트 동사 → 10 Primitive → 68 Sub-primitive → 13,767 WordNet 동사
 
 **10 Primitive:** BE, PERCEIVE, FEEL, THINK, CHANGE, CAUSE, MOVE, COMMUNICATE, TRANSFER, SOCIAL
 
+- **32비트 Verb SIDX:** Prefix(8) + Primitive(3-5) + Sub-primitive(2-4) + Verb Index(1-5) + Padding
+- **32비트 한정자:** Evidentiality(2) + Mood(2) + Modality(2) + Tense(2) + Aspect(3) + Politeness(2) + Polarity(2) + Volitionality(2) + Confidence(2) + Iterativity(4) + Reserved(9)
+- **16개 참여자 역할:** Agent, Experiencer, Theme, Patient, Recipient, Beneficiary, Instrument, Manner, Location, Source, Destination, Path, Cause, Purpose, Comitative, Attribute
+
 ### Entity System
 
 64개 EntityType으로 Wikidata 108.8M 개체(92.7%)를 커버합니다.
 
 - **64비트 Entity SIDX:** Prefix(7) + Mode(3) + EntityType(6) + Attributes(48)
+- **Mode 8가지:** 등록, 특정단수, 특정소수, 특정다수, 전칭, 존재, 불특정, 총칭
 - 충돌률 < 0.01%
 
 ## Project Structure
 
 ```
 geul/
-├── docs/           # 설계 문서 및 문법 명세
-├── entity/         # Entity SIDX 인코딩 시스템
-├── geulso/         # 지식 추출 파이프라인 (WordNet, Wikidata, CCNews)
-├── sshg/           # MRS 파서 (ACE → WordNet → Wikidata → LLM)
-├── papers/         # 연구 논문
-└── note/           # 연구 일지
+├── grammar/                 # GEUL 스트림 포맷 문법 명세
+│   ├── clause-edge/         # 담화/논리 엣지
+│   ├── context-edge/        # 세계관/맥락 엣지
+│   ├── event6-edge/         # 6하원칙 사건 엣지
+│   ├── group-edge/          # 집합/그룹 엣지
+│   ├── meta-node/           # 스트림 제어 노드
+│   └── triple-edge/         # 속성/관계 엣지
+├── ideas/                   # 아이디어 및 설계 문서
+├── draft/                   # 초안 (아이디어 이상, 논문 미만)
+└── notes/                   # 연구 일지
 ```
+
+### Related Repositories
+
+| Repository | Type | Description |
+|------------|------|-------------|
+| [geul-entity](https://github.com/park-jun-woo/geul-entity) | Codebook | Entity SIDX 48비트 코드북 (Wikidata 기반) |
+| [geul-verb](https://github.com/park-jun-woo/geul-verb) | Codebook | 동사 SIDX 16비트 코드북 (WordNet 기반, 완료) |
+| [geul-quantities](https://github.com/park-jun-woo/geul-quantities) | Codebook | Quantity Node 코드북 (스캐폴드) |
+| [geul-ast](https://github.com/park-jun-woo/geul-ast) | Codebook | Faber Edge 코드북 (스캐폴드) |
+| [silk](https://github.com/park-jun-woo/silk) | Subproject | SILK (Semantic Interlingua for Linked Knowledge) |
+| [geul-org](https://github.com/park-jun-woo/geul-org) | Website | geul.org Hugo 정적 사이트 (12개 언어) |
+
+## Status
+
+### Done
+
+- [x] GEUL 개요서 및 핵심 설계 문서
+- [x] SIDX 64비트 비트 명세서 (v0.11)
+- [x] 동사 SIDX 32비트 체계 (559 루트, 10 Primitive, 68 Sub-primitive)
+- [x] Verb Edge 문법 (Tiny/Short/Full 3단계 압축)
+- [x] Entity SIDX 가변 워드 구조 (Lane 분기, 3/5워드)
+- [x] 10비트 Prefix 체계 확정
+- [x] 전체 문법 명세서 초안 (10개 패킷 타입)
+- [x] 스트림 포맷 규칙 (TID 4원칙)
+- [x] Entity 64개 타입 + 48비트 스키마 설계 완료
+- [x] 발음 규칙 (CV 구조, 1바이트=1음절)
+
+### TODO
+
+- [ ] Phase 5: Entity 코드북 상세 생성
+- [ ] Phase 6: Entity 인코더 프로토타입
+- [ ] CRUD v2 동사 의미소 검증
+- [ ] 인코더/디코더 PoC 구현
+- [ ] 실제 문장 GEUL 변환 테스트
 
 ## Design Principles
 
@@ -77,7 +127,7 @@ geul/
 
 ## Website
 
-[geul.org](https://geul.org) -- 12개 언어 지원 ([repository](https://github.com/park-jun-woo/geul-org))
+[geul.org](https://geul.org) -- 12개 언어 지원 ([geul-org](https://github.com/park-jun-woo/geul-org))
 
 ## License
 

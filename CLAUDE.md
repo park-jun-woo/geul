@@ -18,6 +18,7 @@ AI 시대를 위한 의미정렬 인공 언어이자 데이터 스트림 포맷.
 | **geul-ast** (코드북) | `/mnt/c/Users/mail/git/geul-ast/` | Faber Edge 코드북 (스캐폴드) |
 | **silk** (하위프로젝트) | `/mnt/c/Users/mail/git/silk/` | SILK (Semantic Interlingua for Linked Knowledge) |
 | **geul-org** (웹사이트) | `/mnt/c/Users/mail/git/geul-org/` | geul.org Hugo 정적 사이트. 12개 언어. S3+CloudFront 배포 |
+| ~~geul-sidx~~ (아카이브) | `/mnt/c/Users/mail/git/geul-sidx-archived/` | entity/ 이관 후 아카이브. 참고용 |
 
 ---
 
@@ -25,42 +26,31 @@ AI 시대를 위한 의미정렬 인공 언어이자 데이터 스트림 포맷.
 
 ```
 geul/
-├── docs/                    # 설계 문서 (현행)
-│   ├── GEUL 개요서.md        # 핵심 아키텍처 개요
-│   ├── GEUL 마일스톤.md      # 프로젝트 로드맵
-│   ├── 문법/                # GEUL 스트림 포맷 문법 명세
-│   │   ├── Verb Edge.md     # 동사 엣지 (Tiny/Short/Full)
-│   │   ├── Triple Edge.md   # 속성/관계 엣지
-│   │   ├── Clause Edge.md   # 담화/논리 엣지
-│   │   ├── Event6 Edge.md   # 6하원칙 사건 엣지
-│   │   ├── Context Edge.md  # 세계관/출처/맥락 엣지
-│   │   ├── Faber Edge.md    # 코드/AST 엣지
-│   │   ├── Group Edge.md    # 집합/그룹 엣지
-│   │   ├── Meta Node.md     # 스트림 메타데이터 노드
-│   │   ├── Quantity Node.md # 물리량/수치 노드
-│   │   ├── Entity Node.md   # 개체 노드 (64비트 SIDX)
-│   │   ├── 참여자.md         # 16개 참여자 역할 (Semantic Role)
-│   │   ├── Stream Format.md # 스트림 포맷 규칙
-│   │   └── Pronunciation Rules.md  # 바이트→음절 발음 규칙
-│   ├── SIDX/                # SIDX 횡단 문서
-│   │   ├── SIDX.md          # 비트 명세 v0.11
-│   │   ├── SIDX-LLM-탐색.md # 검색 아키텍처
-│   │   ├── SIDX인코딩방법.md  # 인코딩 파이프라인
-│   │   ├── SIDX검수파이프라인.md # QA 파이프라인
-│   │   ├── SIDX 쿼리 생성 전략.md # 쿼리 전략
-│   │   └── codebook.md      # 코드북 현황 개요
-│   ├── 전략/                # 전략 문서
-│   ├── Papers/              # 연구 논문
-│   ├── 오피니언/             # 의견서
-│   └── 데모/                # 데모 시나리오
-├── geulso/                  # 지식 추출 파이프라인
-│   ├── factorize/           # LLM 기반 동사 의미소 분해
-│   └── ccnews/              # Common Crawl 뉴스 처리
-├── sshg/                    # MRS(Minimal Recursion Semantics) 파서
-│   └── mrs.py               # ACE→WordNet→Wikidata→LLM 파이프라인
-├── note/                    # 연구 일지 (날짜별)
-├── bak/                     # 백업/실험 파일
-├── old_docs/                # 이전 버전 문서 (참고용)
+├── grammar/                 # GEUL 스트림 포맷 문법 명세 (확정)
+│   ├── README.md            # 전체 개요 + Prefix 표 + 외부 레포 링크
+│   ├── stream-format.md     # 스트림 포맷 규칙 (v0.2)
+│   ├── clause-edge/         # 담화/논리 엣지 (RST 기반 16관계, v0.4)
+│   ├── context-edge/        # 세계관/맥락 엣지 (64타입, v0.2)
+│   ├── event6-edge/         # 6하원칙 사건 엣지 (가변 3~8워드, v0.2)
+│   ├── group-edge/          # 집합/그룹 엣지 (7타입, v0.1)
+│   ├── meta-node/           # 스트림 제어 노드 (6타입, v0.1)
+│   └── triple-edge/         # 속성/관계 엣지 (Top63+확장, v0.4)
+├── workspace/               # "왜?" 시리즈 작업 문서 (geul-org 글의 원고)
+├── ideas/                   # 아이디어 및 설계 문서
+│   ├── docs/                # 설계 문서 (현행)
+│   │   ├── SIDX/            # SIDX 횡단 문서 (인코딩, 쿼리, 검수)
+│   │   ├── Papers/          # 논문 초안 (오염방지, 추론분리, 쿼리 등)
+│   │   ├── 문법/            # 패킷별 설계 문서 (Entity, Verb, Quantity, Faber)
+│   │   ├── 분석/            # 적용 사례 분석
+│   │   ├── 전략/            # 검증/공개/부트스트랩/인코더 전략
+│   │   ├── 오피니언/         # 의견서 (GEUL 필요성, 7계층 등)
+│   │   └── 데모/            # 데모 시나리오
+│   ├── old_docs/            # 이전 버전 문서 (참고용)
+│   ├── sshg/                # MRS 파서 (ACE→WordNet→Wikidata→LLM)
+│   ├── bak/                 # 백업/실험 파일
+│   └── geulso/              # 지식 추출 파이프라인 (잔여 파일)
+├── draft/                   # 초안 (Meta Node v2, 발음규칙, DFC 논문)
+├── notes/                   # 연구 일지 (2025/, 2026/)
 ├── go.mod                   # Go 모듈 (parkjunwoo.com/geul)
 └── .gitignore               # .key, .venv, bak/ 제외
 ```
